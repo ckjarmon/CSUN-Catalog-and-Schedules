@@ -15,7 +15,6 @@ vals.pop(0)
 mensDesire = []
 womensDesire = []
 matchings = []
-not_stable = 0;
 
 for i in range(0, N):
     mensDesire.append(vals[i])
@@ -32,12 +31,13 @@ for i in range(N*2, N*3):
 
 #print (matchings)
 
+
 def check_unstable(currManID, currWomanID):
     pref_of_His_Match = -1
     pref_of_Her_Match = -1
     pref_of_currMan = -1
     pref_of_currWoman = -1
-    herCurrMatch = -1
+    herrCurrMatch = -1
     for i in range(0, N):
         if currWomanID == matchings[currManID - 1]:
             return False
@@ -56,13 +56,6 @@ def check_unstable(currManID, currWomanID):
     for i in range(0, N):
         if currWomanID == mensDesire[currManID - 1][i]:
             pref_of_currWoman = i
-    return pref_of_currWoman < pref_of_His_Match and pref_of_currMan < pref_of_Her_Match
-
-for i in range(1, N+1):
-    for j in range(1, N+1):
-        if (check_unstable(i, j)):
-            not_stable += 1
-            
-
-print("Instabilities: " + str(not_stable))
-
+    a = bool(pref_of_currWoman < pref_of_His_Match)
+    b = bool(pref_of_currMan < pref_of_Her_Match)
+    return bool(a and b)

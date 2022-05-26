@@ -61,7 +61,7 @@ def check_unstable(currManID, currWomanID):
 for i in range(1, N+1):
     for j in range(1, N+1):
         if (check_unstable(i, j)):
-            not_stable += 1
+            not_stable += 
             
 
 print("Instabilities: " + str(not_stable))
