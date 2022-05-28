@@ -32,11 +32,6 @@ for i in range(N*2, N*3):
 #print (matchings)
 
 def check_unstable(currManID, currWomanID):
-    pref_of_His_Match = -1
-    pref_of_Her_Match = -1
-    pref_of_currMan = -1
-    pref_of_currWoman = -1
-    herCurrMatch = -1
     
     if currWomanID == matchings[currManID - 1]:
         return False
