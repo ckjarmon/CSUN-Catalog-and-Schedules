@@ -9,8 +9,7 @@ with open('input.txt') as input:
 R = vals[0][0]
 C = vals[0][1]
 vals.pop(0);
-bof = [False]*C
-visited = [bof]*R
+visited = [[False]*C]*R
 _puddles = 0;
 
 def puddles(i, j):
