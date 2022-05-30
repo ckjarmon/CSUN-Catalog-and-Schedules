@@ -42,7 +42,7 @@ def check_unstable(currManID, currWomanID):
             
     for i in range(0, N):
         if matchings[i] == currWomanID:
-            herCurrMatch = matchings[i]
+            herCurrMatch = i+1
             
     for i in range(0, N):
         if herCurrMatch == womensDesire[currWomanID - 1][i]:
