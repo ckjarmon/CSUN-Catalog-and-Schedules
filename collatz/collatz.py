@@ -1,4 +1,5 @@
-f = open("C://Users//kyeou//Dropbox//PC (2)//Desktop//Stuff On Github//Kyeou-Python//collatz//results.txt", 'w')
+
+f = open("D://results.txt", 'w')
 
 for i in range(1, 5000000):
     number = i
