@@ -187,6 +187,7 @@ print(match_st())
 
 s = Service(ChromeDriverManager().install())
 op = webdriver.ChromeOptions()
+op.add_argument('headless')
 op.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(service=s,options=op)
 driver.get(catalog_link)
@@ -209,7 +210,7 @@ id_box.send_keys(Keys.ENTER)
 time.sleep(3)
 
 driver.find_element("name", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
-time.sleep(5)
+time.sleep(2)
 
 # Class Section Div ID: win0divNR_SSS_SOC_NSEC$(INDEX)
 #   INDEX = classes listed in ascending order 
@@ -226,11 +227,11 @@ time.sleep(5)
 # Instructor = FACURL$0
 from selenium.common.exceptions import NoSuchElementException 
 
-for a in range(0, 30):
+for a in range(0, 60):
     print(driver.find_element("id","NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
     try:
         driver.find_element("id", "win0divSOC_DETAIL$" + str(a)).click()
-        time.sleep(5)
+        time.sleep(1)
         print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
         for i in range(0, 20):
             try:
@@ -252,9 +253,9 @@ for a in range(0, 30):
             except NoSuchElementException:
                 i = 20
         driver.find_element("id", "win0divSOC_DETAIL1$" + str(a)).click()
-        time.sleep(3)        
+        time.sleep(1)        
     except NoSuchElementException:
-        continue
+        a = 60
 
 
 """
