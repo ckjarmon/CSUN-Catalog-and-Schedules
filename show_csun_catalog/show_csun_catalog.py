@@ -1,8 +1,3 @@
-from ast import Compare
-from configparser import SectionProxy
-from telnetlib import STATUS
-from mysqlx import Session
-import plotly.graph_objects as go
 import sys 
 from bs4 import BeautifulSoup
 from selenium import webdriver
