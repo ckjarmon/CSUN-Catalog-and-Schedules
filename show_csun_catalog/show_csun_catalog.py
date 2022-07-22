@@ -179,8 +179,7 @@ def match_st():
         case 'Winter 2004':
             return section_number[76]
             
-
-print(match_st())
+gather_data()
 
 # Semester ID: NR_SSS_SOC_NWRK_STRM
 # Subject ID: NR_SSS_SOC_NWRK_SUBJECT
