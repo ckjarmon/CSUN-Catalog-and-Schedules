@@ -7,6 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
+import time
 
 # Flag Order = Semester(ignore case) Year SubjectCode Optional(ClassCode)
 
@@ -189,19 +190,26 @@ op = webdriver.ChromeOptions()
 op.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(service=s,options=op)
 driver.get(catalog_link)
+time.sleep(4)
+
 
 semester_box = driver.find_element("name", "NR_SSS_SOC_NWRK_STRM")
-id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
+semester_box.click()
 
 semester_box.send_keys(match_st())
+#time.sleep(1)
 semester_box.send_keys(Keys.ENTER)
-driver.implicitly_wait(5)
+#time.sleep(5)
 
+
+id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
+id_box.click()
 id_box.send_keys(sys.argv[3]) 
 id_box.send_keys(Keys.ENTER)
-driver.implicitly_wait(5)
+time.sleep(3)
 
 driver.find_element("name", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
+time.sleep(15)
 
 # Class Section Div ID: win0divNR_SSS_SOC_NSEC$(INDEX)
 #   INDEX = classes listed in ascending order 
@@ -217,83 +225,89 @@ driver.find_element("name", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
 # Time = NR_SSS_SOC_NSEC_DESCR25_2$0
 # Instructor = FACURL$0
 
-print(driver.find_element("id", "NR_SSS_SOC_NSEC_CLASS_NBR$0"))
 
-# Term Codes
-# "2233,">2233 - Spring 2023
-# "2227,">2227 - Fall 2022
-# "2225,">2225 - Summer 2022
-# "2223,">2223 - Spring 2022
-# "2221,">2221 - Winter 2022
-# "2217,">2217 - Fall 2021
-# "2215,">2215 - Summer 2021
-# "2213,">2213 - Spring 2021
-# "2211,">2211 - Winter 2021
-# "2207,">2207 - Fall 2020
-# "2205,">2205 - Summer 2020
-# "2203,">2203 - Spring 2020
-# "2201,">2201 - Winter 2020
-# "2197,">2197 - Fall 2019
-# "2195,">2195 - Summer 2019
-# "2193,">2193 - Spring 2019
-# "2191,">2191 - Winter 2019
-# "2187,">2187 - Fall 2018
-# "2185,">2185 - Summer 2018
-# "2183,">2183 - Spring 2018
-# "2181,">2181 - Winter 2018
-# "2177,">2177 - Fall 2017
-# "2175,">2175 - Summer 2017
-# "2173,">2173 - Spring 2017
-# "2171,">2171 - Winter  2017
-# "2167,">2167 - Fall 2016
-# "2165,">2165 - Summer 2016
-# "2163,">2163 - Spring 2016
-# "2161,">2161 - Winter 2016
-# "2157,">2157 - Fall 2015
-# "2155,">2155 - Summer 2015
-# "2153,">2153 - Spring 2015
-# "2151,">2151 - Winter 2015
-# "2147,">2147 - Fall 2014
-# "2145,">2145 - Summer 2014
-# "2143,">2143 - Spring 2014
-# "2141,">2141 - Winter 2014
-# "2137,">2137 - Fall 2013
-# "2135,">2135 - Summer 2013
-# "2133,">2133 - Spring 2013
-# "2131,">2131 - Winter 2013
-# "2127,">2127 - Fall 2012
-# "2125,">2125 - Summer 2012
-# "2123,">2123 - Spring 2012
-# "2121,">2121 - Winter 2012
-# "2117,">2117 - Fall 2011
-# "2115,">2115 - Summer 2011
-# "2113,">2113 - Spring 2011
-# "2111,">2111 - Winter 2011
-# "2107,">2107 - Fall 2010
-# "2105,">2105 - Summer 2010
-# "2103,">2103 - Spring 2010
-# "2101,">2101 - Winter 2010
-# "2097,">2097 - Fall 2009
-# "2095,">2095 - Summer 2009
-# "2093,">2093 - Spring 2009
-# "2091,">2091 - Winter 2009
-# "2087,">2087 - Fall 2008
-# "2085,">2085 - Summer 2008
-# "2083,">2083 - Spring 2008
-# "2081,">2081 - Winter 2008
-# "2077,">2077 - Fall 2007
-# "2075,">2075 - Summer 2007
-# "2073,">2073 - Spring 2007
-# "2071,">2071 - Winter 2007
-# "2067,">2067 - Fall 2006
-# "2065,">2065 - Summer 2006
-# "2063,">2063 - Spring 2006
-# "2061,">2061 - Winter 2006
-# "2057,">2057 - Fall 2005
-# "2055,">2055 - Summer 2005
-# "2053,">2053 - Spring 2005
-# "2051,">2051 - Winter 2005
-# "2047,">2047 - Fall 2004
-# "2045,">2045 - Summer 2004
-# "2043,">2043 - Spring 2004
-# "2041,">2041 - Winter 2004
+driver.find_element("id", "win0divSOC_DETAIL$0").click()
+time.sleep(2)
+
+print(driver.find_element("id", "FACURL$1").text)
+
+"""
+Term Codes
+"2233,">2233 - Spring 2023
+"2227,">2227 - Fall 2022
+"2225,">2225 - Summer 2022
+"2223,">2223 - Spring 2022
+"2221,">2221 - Winter 2022
+"2217,">2217 - Fall 2021
+"2215,">2215 - Summer 2021
+"2213,">2213 - Spring 2021
+"2211,">2211 - Winter 2021
+"2207,">2207 - Fall 2020
+"2205,">2205 - Summer 2020
+"2203,">2203 - Spring 2020
+"2201,">2201 - Winter 2020
+"2197,">2197 - Fall 2019
+"2195,">2195 - Summer 2019
+"2193,">2193 - Spring 2019
+"2191,">2191 - Winter 2019
+"2187,">2187 - Fall 2018
+"2185,">2185 - Summer 2018
+"2183,">2183 - Spring 2018
+"2181,">2181 - Winter 2018
+"2177,">2177 - Fall 2017
+"2175,">2175 - Summer 2017
+"2173,">2173 - Spring 2017
+"2171,">2171 - Winter  2017
+"2167,">2167 - Fall 2016
+"2165,">2165 - Summer 2016
+"2163,">2163 - Spring 2016
+"2161,">2161 - Winter 2016
+"2157,">2157 - Fall 2015
+"2155,">2155 - Summer 2015
+"2153,">2153 - Spring 2015
+"2151,">2151 - Winter 2015
+"2147,">2147 - Fall 2014
+"2145,">2145 - Summer 2014
+"2143,">2143 - Spring 2014
+"2141,">2141 - Winter 2014
+"2137,">2137 - Fall 2013
+"2135,">2135 - Summer 2013
+"2133,">2133 - Spring 2013
+"2131,">2131 - Winter 2013
+"2127,">2127 - Fall 2012
+"2125,">2125 - Summer 2012
+"2123,">2123 - Spring 2012
+"2121,">2121 - Winter 2012
+"2117,">2117 - Fall 2011
+"2115,">2115 - Summer 2011
+"2113,">2113 - Spring 2011
+"2111,">2111 - Winter 2011
+"2107,">2107 - Fall 2010
+"2105,">2105 - Summer 2010
+"2103,">2103 - Spring 2010
+"2101,">2101 - Winter 2010
+"2097,">2097 - Fall 2009
+"2095,">2095 - Summer 2009
+"2093,">2093 - Spring 2009
+"2091,">2091 - Winter 2009
+"2087,">2087 - Fall 2008
+"2085,">2085 - Summer 2008
+"2083,">2083 - Spring 2008
+"2081,">2081 - Winter 2008
+"2077,">2077 - Fall 2007
+"2075,">2075 - Summer 2007
+"2073,">2073 - Spring 2007
+"2071,">2071 - Winter 2007
+"2067,">2067 - Fall 2006
+"2065,">2065 - Summer 2006
+"2063,">2063 - Spring 2006
+"2061,">2061 - Winter 2006
+"2057,">2057 - Fall 2005
+"2055,">2055 - Summer 2005
+"2053,">2053 - Spring 2005
+"2051,">2051 - Winter 2005
+"2047,">2047 - Fall 2004
+"2045,">2045 - Summer 2004
+"2043,">2043 - Spring 2004
+"2041,">2041 - Winter 2004
+"""
