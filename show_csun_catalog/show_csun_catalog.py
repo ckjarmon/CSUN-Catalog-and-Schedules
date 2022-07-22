@@ -1,5 +1,4 @@
 import sys 
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
@@ -209,7 +208,7 @@ id_box.send_keys(Keys.ENTER)
 time.sleep(3)
 
 driver.find_element("name", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
-time.sleep(15)
+time.sleep(5)
 
 # Class Section Div ID: win0divNR_SSS_SOC_NSEC$(INDEX)
 #   INDEX = classes listed in ascending order 
@@ -229,7 +228,19 @@ time.sleep(15)
 driver.find_element("id", "win0divSOC_DETAIL$0").click()
 time.sleep(2)
 
-print(driver.find_element("id", "FACURL$1").text)
+row_sesn = driver.find_element("id","NR_SSS_SOC_NSEC_SESSION_CODE$0").text
+row_section = driver.find_element("id","NR_SSS_SOC_NSEC_CLASS_SECTION$0").text
+row_class = driver.find_element("id","NR_SSS_SOC_NSEC_CLASS_NBR$0").text
+row_seats = driver.find_element("id","NR_SSS_SOC_NWRK_AVAILABLE_SEATS$0").text
+row_status = driver.find_element("id","NR_SSS_SOC_NWRK_DESCRSHORT$0").text
+row_comp = driver.find_element("id","NR_SSS_SOC_NSEC_SSR_COMPONENT$0").text
+row_loc = driver.find_element("id","MAP$0").text
+row_days = driver.find_element("id","NR_SSS_SOC_NWRK_DESCR20$0").text
+row_time = driver.find_element("id","NR_SSS_SOC_NSEC_DESCR25_2$0").text
+row_faculty = driver.find_element("id","FACURL$0").text
+
+print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\tFaculty")
+print(row_sesn + "\t" + row_section + "\t" + row_class + "\t" + row_seats + "\t" + row_status + "\t" + row_comp + "\t" + row_loc + "\t" + row_days + "\t" + row_time + "\t" +  row_faculty + "\n")
 
 """
 Term Codes
