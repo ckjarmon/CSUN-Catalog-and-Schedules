@@ -228,8 +228,8 @@ time.sleep(2)
 from selenium.common.exceptions import NoSuchElementException 
 
 for a in range(0, 60):
-    print(driver.find_element("id","NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
     try:
+        print(driver.find_element("id","NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
         driver.find_element("id", "win0divSOC_DETAIL$" + str(a)).click()
         time.sleep(1)
         print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
