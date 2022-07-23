@@ -1,5 +1,4 @@
 import sys
-from xml.etree.ElementTree import tostring 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
