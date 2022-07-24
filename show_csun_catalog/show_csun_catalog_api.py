@@ -51,10 +51,9 @@ for course in data["classes"]:
         section_string.append("\t\t" + course["meetings"][0]["days"])
         section_string.append("\t\t" + str(course["enrollment_cap"] - course["enrollment_count"]))
         section_string.append("\t\t    " +
-                              (course["meetings"][0]["start_time"])[0:2] +
-                              ":" +
-                              (course["meetings"][0]["start_time"])[2:4] +
-                              " - " +
+                              (course["meetings"][0]["start_time"])[0:2] + ":" +
+                              (course["meetings"][0]["start_time"])[2:4] 
+                              + " - " +
                               (course["meetings"][0]["end_time"])[0:2] + ":" +
                               (course["meetings"][0]["end_time"])[2:4])
         
