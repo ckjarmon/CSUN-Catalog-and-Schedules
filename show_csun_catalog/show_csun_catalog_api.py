@@ -2,8 +2,9 @@ import urllib3
 import json
 import sys
 
-url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sys.argv[
-    1] + "-" + sys.argv[2] + "/classes/" + sys.argv[3].lower()
+url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sys.argv[1] + "-" + \
+                                                                  sys.argv[2] + "/classes/" + \
+                                                                  sys.argv[3].lower()
 
 #try to read the data
 try:
