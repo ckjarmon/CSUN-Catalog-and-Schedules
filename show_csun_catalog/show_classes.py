@@ -2,6 +2,12 @@ import urllib3
 import json
 import sys
 
+"""
+How to run:
+python show_classes.py SubjectCode
+Example:
+python show_classes.py comp
+"""
 
 a = sys.argv[1]
 
