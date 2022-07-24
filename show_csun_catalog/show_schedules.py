@@ -2,6 +2,14 @@ import urllib3
 import json
 import sys
 
+
+"""
+How to run: 
+python show_schedules.py Semester Year SubjectCode
+Example:
+python show_schedules.py Fall 2022 COMP
+"""
+
 url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sys.argv[1] + "-" + \
                                                                   sys.argv[2] + "/classes/" + \
                                                                   sys.argv[3].lower()
