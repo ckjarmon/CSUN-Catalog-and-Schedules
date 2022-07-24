@@ -88,6 +88,9 @@ for course in data["classes"]:
 #file1 = open(a + "_catalog", "w")
 #json.dump(json_blobs, file1, indent=4)
 
+
+
+
 for element in json_blobs:
     if element["description"] != None:
         print("\n-------------------------------------------\n")
