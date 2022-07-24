@@ -6,7 +6,7 @@ url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sys.argv[1] + 
                                                                   sys.argv[2] + "/classes/" + \
                                                                   sys.argv[3].lower()
 
-print("Data Link:" + url)
+print("\n Data Link: " + url)
 
 #try to read the data
 try:
