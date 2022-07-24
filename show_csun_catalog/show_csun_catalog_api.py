@@ -25,13 +25,10 @@ for course in data['classes']:
     if (current_class != course["title"]):
         blob_list.append("\n\n--------------\n")
         current_class = course["title"]
-        blob_list.append(course['subject'] + ' ' + course['catalog_number'] +
-                         ' ' + course["title"])
+        blob_list.append(course['subject'] + ' ' + course['catalog_number'] + ' ' + course["title"])
         blob_list.append("")
-        blob_list.append(
-            "\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
-        blob_list.append(
-            "\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
+        blob_list.append("\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
+        blob_list.append("\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
     if (len(course["meetings"]) > 0):
         section_string = []
         #section_string.append(course['subject'] + ' ' + course['catalog_number'])
@@ -41,8 +38,7 @@ for course in data['classes']:
         else:
             section_string.append("\t       " + course["meetings"][0]["location"])
         section_string.append("\t\t" + course["meetings"][0]["days"])
-        section_string.append("\t\t" + str(course["enrollment_cap"] -
-                                           course["enrollment_count"]))
+        section_string.append("\t\t" + str(course["enrollment_cap"] - course["enrollment_count"]))
         section_string.append("\t\t    " +
                               (course["meetings"][0]["start_time"])[0:2] +
                               ":" +
@@ -51,8 +47,7 @@ for course in data['classes']:
                               (course["meetings"][0]["end_time"])[0:2] + ":" +
                               (course["meetings"][0]["end_time"])[2:4])
         if (len(course["instructors"]) > 0):
-            section_string.append("\t\t" +
-                                  course["instructors"][0]["instructor"])
+            section_string.append("\t\t" + course["instructors"][0]["instructor"])
         else:
             section_string.append("\t\t\t" + "Staff")
 
