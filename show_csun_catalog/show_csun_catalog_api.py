@@ -25,14 +25,14 @@ mass print them after all processing is done
 blob_list = []
 
 current_class = ""
-for course in data['classes']:
+for course in data["classes"]:
     
     
     if (current_class != course["title"]): # print out sections every class itself (110, 122, 182 etc...)
         # every new name (COMP 100 vs COMP 110) will start new blob
         blob_list.append("\n\n--------------\n")
         current_class = course["title"]
-        blob_list.append(course['subject'] + ' ' + course['catalog_number'] + ' ' + course["title"])
+        blob_list.append(course["subject"] + " " + course["catalog_number"] + " " + course["title"])
         blob_list.append("")
         blob_list.append("\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
         blob_list.append("\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
