@@ -83,7 +83,7 @@ for course in data["classes"]:
 #json.dump(json_blobs, file1, indent=4)
 
 for element in json_blobs:
-    print("\n-------------------------------------------\n")
-    print(element["subject"] + " " + element["catalog_number"] + " " + element["title"])
     if element["description"] != None:
+        print("\n-------------------------------------------\n")
+        print(element["subject"] + " " + element["catalog_number"] + " " + element["title"])
         print(element["description"])
