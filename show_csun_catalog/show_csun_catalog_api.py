@@ -33,8 +33,7 @@ for course in data["classes"]:
         blob_list.append("\n\n--------------\n")
         current_class = course["title"]
         blob_list.append(course["subject"] + " " + course["catalog_number"] + " " + course["title"])
-        blob_list.append("")
-        blob_list.append("\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
+        blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
         blob_list.append("\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
         
         
