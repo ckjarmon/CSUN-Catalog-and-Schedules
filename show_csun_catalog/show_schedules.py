@@ -36,16 +36,20 @@ current_class = ""
 for course in data["classes"]:
     
     
-    if (current_class != course["title"]): # print out sections every class itself (110, 122, 182 etc...)
-        # every new name (COMP 100 vs COMP 110) will start new blob
-        blob_list.append("\n\n--------------\n")
-        current_class = course["title"]
-        blob_list.append(course["subject"] + " " + course["catalog_number"] + " " + course["title"])
-        blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
-        blob_list.append  ("\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
+   
         
         
     if (len(course["meetings"]) > 0): # if a class has no meetings, it should not be on schedule
+        if (current_class != course["title"]): # print out sections every class itself (110, 122, 182 etc...)
+        # every new name (COMP 100 vs COMP 110) will start new blob
+            blob_list.append("\n\n--------------\n")
+            current_class = course["title"]
+            blob_list.append(course["subject"] + " " + course["catalog_number"] + " " + course["title"])
+            blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
+            blob_list.append  ("\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
+        
+        
+        
         section_string = []
         #section_string.append(course['subject'] + ' ' + course['catalog_number'])
         section_string.append("\t" + course["class_number"])
