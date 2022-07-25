@@ -12,7 +12,7 @@ python show_classes.py comp
 a = sys.argv[1]
 
 
-url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/" + a
+url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/" + a
 print("\n Data Link: " + url)
 
 
@@ -27,26 +27,19 @@ data = json.loads(data)
 tuples = []
 json_blobs = []
 current_class = ""
-for course in data["classes"]:
+for course in data["courses"]:
     if (current_class != course["title"]):
         current_class = course["title"]
         tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
-        del course["term"]
-        del course["class_number"]
+        del course["term"] 
         del course["section_number"]
         del course["course_id"]
-        del course["enrollment_cap"]
-        del course["enrollment_count"]
-        del course["waitlist_cap"]
-        del course["waitlist_count"]
-        del course["meetings"]
-        del course["instructors"]
         json_blobs.append(course)
         
         
         
         
-url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2022/classes/" + a
+url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2022/courses/" + a
 print("\n Data Link: " + url)
 
 
@@ -63,19 +56,12 @@ data = json.loads(data)
 
 
 current_class = ""
-for course in data["classes"]:
+for course in data["courses"]:
     if (current_class != course["title"]):
         current_class = course["title"]
-        del course["term"]
-        del course["class_number"]
+        del course["term"] 
         del course["section_number"]
         del course["course_id"]
-        del course["enrollment_cap"]
-        del course["enrollment_count"]
-        del course["waitlist_cap"]
-        del course["waitlist_count"]
-        del course["meetings"]
-        del course["instructors"]
         if not([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]] in tuples):
             tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
             json_blobs.append(course)
