@@ -4,10 +4,16 @@ import sys
 
 
 """
-How to run: 
+How to run, for all classes: 
 python show_schedules.py Semester Year SubjectCode
 Example:
 python show_schedules.py Fall 2022 COMP
+
+
+How to run, for one class: 
+python show_schedules.py Semester Year SubjectCode CatalogNumber
+Example:
+python show_schedules.py Fall 2022 COMP 182
 """
 
 url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sys.argv[1] + "-" + \
