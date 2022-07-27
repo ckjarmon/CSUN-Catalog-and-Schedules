@@ -8,8 +8,13 @@ python show_classes.py SubjectCode
 Example:
 python show_classes.py comp
 """
-
+class_filter = False
 a = sys.argv[1]
+if len(sys.argv) > 2:
+    current_class = sys.argv[2]
+    class_filter = True
+else:
+    current_class = ""
 
 
 url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/" + a
@@ -26,15 +31,26 @@ except Exception as e:
 data = json.loads(data)
 tuples = []
 json_blobs = []
-current_class = ""
-for course in data["courses"]:
-    if (current_class != course["title"]):
-        current_class = course["title"]
-        tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
-        del course["term"] 
-        del course["section_number"]
-        del course["course_id"]
-        json_blobs.append(course)
+
+if not class_filter:
+    for course in data["courses"]:
+        if (current_class != course["catalog_number"]):
+            current_class = course["title"]
+            tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
+            del course["term"] 
+            del course["section_number"]
+            del course["course_id"]
+            json_blobs.append(course)
+else:
+    for course in data["courses"]:
+        if (current_class == course["catalog_number"]):
+                tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
+                del course["term"] 
+                del course["section_number"]
+                del course["course_id"]
+                json_blobs.append(course)
+
+    
         
         
         
@@ -55,16 +71,24 @@ data = json.loads(data)
 
 
 
-current_class = ""
-for course in data["courses"]:
-    if (current_class != course["title"]):
-        current_class = course["title"]
-        del course["term"] 
-        del course["section_number"]
-        del course["course_id"]
-        if not([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]] in tuples):
+if not class_filter:
+    for course in data["courses"]:
+        if (current_class != course["catalog_number"]):
+            current_class = course["title"]
             tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
+            del course["term"] 
+            del course["section_number"]
+            del course["course_id"]
             json_blobs.append(course)
+else:
+    for course in data["courses"]:
+        if (current_class == course["catalog_number"]):
+                tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
+                del course["term"] 
+                del course["section_number"]
+                del course["course_id"]
+                json_blobs.append(course)
+
             
             
 
