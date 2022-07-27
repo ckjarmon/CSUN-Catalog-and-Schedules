@@ -6,7 +6,7 @@ import sys
 
 import discord
 from dotenv import load_dotenv
-import random
+
 
 
 load_dotenv()
@@ -61,7 +61,7 @@ def show_classes(subject, number):
             break
     
     if len(json_blobs) > 0:
-        return json_blobs[0]["subject"] + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n" + json_blobs[0]["description"]
+        return json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n" + json_blobs[0]["description"]
     
 
 
@@ -88,7 +88,7 @@ def show_schedule(sem, year, sub, code):
             
     blob_list = []
     
-    blob_list.append("```" + sub + " " + code + " " + find_class(code))
+    blob_list.append(sub.upper() + " " + code + " " + find_class(code))
     blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
     blob_list.append  ("\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
     
@@ -136,11 +136,11 @@ async def on_message(message):
     msg_split = message.content.split()
     if message.content.__contains__("!csun class"):
         response = show_classes(msg_split[2] + "", msg_split[3] + "");
-        await message.channel.send(response)
+        await message.channel.send("```" + response + "```")
     
     if message.content.__contains__("!csun sch"):
         response = show_schedule(msg_split[2] + "", msg_split[3] + "", msg_split[4] + "", msg_split[5] + "")
-        await message.channel.send(response + "```")
+        await message.channel.send("```" + response + "```")
         
 
 
