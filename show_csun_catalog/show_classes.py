@@ -3,10 +3,15 @@ import json
 import sys
 
 """
-How to run:
+How to run, for all classes:
 python show_classes.py SubjectCode
 Example:
 python show_classes.py comp
+
+How to run, for one class: 
+python show_schedules.py SubjectCode CatalogNumber
+Example:
+python show_schedules.py COMP 182
 """
 class_filter = False
 a = sys.argv[1]
