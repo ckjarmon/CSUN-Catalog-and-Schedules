@@ -81,14 +81,16 @@ def show_schedule(sem, year, sub, code):
     data = json.loads(data)
         
     def find_class(current_class):
+        ret_value = ""
         for course in data["classes"]:
             if (current_class == course["catalog_number"]): 
-                return course["title"]
+                ret_value = course["title"]
+        return ret_value
             
             
     blob_list = []
     
-    blob_list.append(sub.upper() + " " + code + " " + find_class(code))
+    blob_list.append(sub.upper() + " " + code + " " + find_class(code) + " - "+ sem.upper() + " " + year)
     blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
     blob_list.append  ("\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
     
@@ -120,7 +122,8 @@ def show_schedule(sem, year, sub, code):
 
             blob_list.append(" ".join(section_string))
         #blob_list.append("```")
-    return "\n".join([str(x) for x in  blob_list])
+        
+    return "\n".join([str(x) for x in blob_list])
 
 
 
@@ -141,6 +144,14 @@ async def on_message(message):
     if message.content.__contains__("!csun sch"):
         response = show_schedule(msg_split[2] + "", msg_split[3] + "", msg_split[4] + "", msg_split[5] + "")
         await message.channel.send("```" + response + "```")
+        
+    if message.content.__contains__("!csun help"):
+        to_show_class = "!csun class Subject ClassCode"
+        c_example = "!csun class comp 182"
+        to_show_schedule = "!csun sch Semester Year Subject ClassCode"
+        s_example = "!csun sch spring 2022 comp 182"
+        await message.channel.send("```To show a class and its description.\n\t" + to_show_class + "\nExample:\n\t" + c_example +  
+                                   "\n\n\nTo show the sections schedule for a specific class.\n\t" + to_show_schedule + "\nExample:\n\t" + s_example + "```")
         
 
 
