@@ -20,12 +20,11 @@ url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sys.argv[1] + 
                                                                   sys.argv[2] + "/classes/" + \
                                                                   sys.argv[3].lower()
 
-print("\n Data Link: " + url)
+#print("\n Data Link: " + url)
 
-class_filter = False
+
 if len(sys.argv) > 4:
     current_class = sys.argv[4]
-    class_filter = True
     class_title = ""
 else:
     current_class = ""
@@ -53,7 +52,7 @@ mass print them after all processing is done
 """
 blob_list = []
 
-if not class_filter:
+if current_class == "":
     for course in data["classes"]:
 
         if (len(course["meetings"]) > 0): # if a class has no meetings, it should not be on schedule
