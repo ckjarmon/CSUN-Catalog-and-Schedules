@@ -32,8 +32,7 @@ else:
 
 #try to read the data
 try:
-    u = urllib3.PoolManager().request("GET", url)
-    data = u.data
+    data= urllib3.PoolManager().request("GET", url).data
 except Exception as e:
     data = {}
 
