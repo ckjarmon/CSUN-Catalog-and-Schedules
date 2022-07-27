@@ -56,7 +56,8 @@ if current_class == "":
     for course in data["classes"]:
 
         if (len(course["meetings"]) > 0): # if a class has no meetings, it should not be on schedule
-            if (current_class == course["catalog_number"]): 
+            if (current_class != course["catalog_number"]): 
+                current_class = course["catalog_number"]
                 blob_list.append("\n\n--------------\n")
                 blob_list.append(course["subject"] + " " + course["catalog_number"] + " " + course["title"])
                 blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
