@@ -48,11 +48,12 @@ if current_class == "":
 else:
     for course in data["courses"]:
         if (current_class == course["catalog_number"]):
-                tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
-                del course["term"] 
-                del course["section_number"]
-                del course["course_id"]
-                json_blobs.append(course)
+            tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
+            del course["term"] 
+            del course["section_number"]
+            del course["course_id"]
+            json_blobs.append(course)
+            break
 
     
         
@@ -87,11 +88,12 @@ if current_class == "":
 else:
     for course in data["courses"]:
         if (current_class == course["catalog_number"]):
-                tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
-                del course["term"] 
-                del course["section_number"]
-                del course["course_id"]
-                json_blobs.append(course)
+            tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
+            del course["term"] 
+            del course["section_number"]
+            del course["course_id"]
+            json_blobs.append(course)
+            break
 
             
             
@@ -107,6 +109,8 @@ else:
 
 for element in json_blobs:
     if element["description"] != None:
-        print("\n-------------------------------------------\n")
+        print()
         print(element["subject"] + " " + element["catalog_number"] + " " + element["title"])
         print(element["description"])
+        if len(sys.argv) > 2:
+            break

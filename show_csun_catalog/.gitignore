@@ -3,3 +3,5 @@
 trash
 class_codes.txt
 misc 
+.env
+*.env
