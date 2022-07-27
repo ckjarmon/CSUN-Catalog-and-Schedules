@@ -43,8 +43,7 @@ def show_classes(subject, number):
 
     #try to read the data
     try:
-        u = urllib3.PoolManager().request("GET", url)
-        data = u.data
+        data = urllib3.PoolManager().request("GET", url).data
     except Exception as e:
         data = {}
     #decode into an array
@@ -150,8 +149,10 @@ async def on_message(message):
         c_example = "!csun class comp 182"
         to_show_schedule = "!csun sch Semester Year Subject ClassCode"
         s_example = "!csun sch spring 2022 comp 182"
-        await message.channel.send("```To show a class and its description.\n\t" + to_show_class + "\nExample:\n\t" + c_example +  
-                                   "\n\n\nTo show the sections schedule for a specific class.\n\t" + to_show_schedule + "\nExample:\n\t" + s_example + "```")
+        await message.channel.send("```To show a class and its description.\n\t" + to_show_class + 
+                                   "\nExample:\n\t" + c_example +  
+                                   "\n\n\nTo show the sections schedule for a specific class.\n\t" + to_show_schedule + 
+                                   "\nExample:\n\t" + s_example + "```")
         
 
 

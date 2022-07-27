@@ -27,8 +27,7 @@ url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/
 
 #try to read the data
 try:
-    u = urllib3.PoolManager().request("GET", url)
-    data = u.data
+    data = urllib3.PoolManager().request("GET", url).data
 except Exception as e:
     data = {}
 #decode into an array
@@ -67,8 +66,7 @@ url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2022/course
 
 #try to read the data
 try:
-    u = urllib3.PoolManager().request("GET", url)
-    data = u.data
+    data = urllib3.PoolManager().request("GET", url).data
 except Exception as e:
     data = {}
 #decode into an array
