@@ -133,33 +133,23 @@ async def on_ready():
 async def on_message(message):
 
     msg_split = message.content.split()
-    if message.content.__contains__("-b"):
-        response1 = show_schedule(msg_split[1], "20" + msg_split[2], msg_split[3], msg_split[4])
-        response2 = show_classes(msg_split[3], msg_split[4]);
+    
+    if message.content.__contains__("!csun") and len(msg_split) == 3:
+        response1 = show_classes(msg_split[1], msg_split[2])
+        response2 = show_schedule("Fall", "2022", msg_split[1], msg_split[2])
         await message.channel.send("```" + response1 + "\n\n" + response2 + "```")
         
-    elif message.content.__contains__("!csun") and len(msg_split) == 3:
-        response = show_classes(msg_split[1], msg_split[2]);
-        await message.channel.send("```" + response + "```")
-    
-    elif message.content.__contains__("!csun") and len(msg_split) > 3:
-        response = show_schedule(msg_split[1], "20" + msg_split[2], msg_split[3], msg_split[4])
-        await message.channel.send("```" + response + "```")
         
-    elif message.content.__contains__("!csun help"):
-        to_show_class = "!csun Subject ClassCode"
-        c_example = "!csun comp 182"
-        to_show_schedule = "!csun Semester YY Subject ClassCode"
-        s_example = "!csun spring 22 comp 182"
-        to_show_both = "!csun Semester YY Subject ClassCode -b"
-        b_example = "!csun spring 22 comp 182 -b"
-        await message.channel.send("```To show a class and its description.\n\t" + to_show_class + 
-                                   "\nExample:\n\t" + c_example +  
-                                   "\n\n\nTo show the sections schedule for a specific class.\n\t" + to_show_schedule + 
-                                   "\nExample:\n\t" + s_example + 
-                                   "\n\n\nTo show both.\n\t" + to_show_both + 
-                                   "\nExample:\n\t" + b_example
-                                   + "```")
+    elif len(msg_split) > 3:
+        response1 = show_classes(msg_split[1], msg_split[2])
+        response2 = show_schedule(msg_split[3], "20" + msg_split[4], msg_split[1], msg_split[2])
+        await message.channel.send("```" + response1 + "\n\n" + response2 + "```")
+        
+    elif message.content.__contains__("!csun help"): 
+        await message.channel.send("```Shows both class description and schedule by default. Default schedule is Fall 2022 \
+                                   \nTo show different schedule, append it to the end.\n\n" + 
+                                    "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\nFor Different Semester:\n\t!csun subject class_code semester YY\n" + 
+                                    "Example:\n\t!csun subject class_code spring 23```")
         
 
 
