@@ -90,23 +90,33 @@ def show_schedule(sem, year, sub, code):
     blob_list = []
     
     blob_list.append(sub.upper() + " " + code + " " + find_class(code) + " - "+ sem.upper() + " " + year)
-    blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\tTime\t\t\t\tFaculty")
-    blob_list.append  ("\t-------\t\t--------\t----\t\t----------\t\t----\t\t\t\t-------")
+    blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\t\t  Time\t\t\t\tFaculty")
+    blob_list.append  ("\t-------\t\t--------\t----\t\t----------\t\t\t  ----\t\t\t\t-------")
     
     for course in data["classes"]:
         if (len(course["meetings"]) > 0) and code == course["catalog_number"]: # if a class has no meetings, it should not be on schedule
             section_string = []
             #section_string.append(course['subject'] + ' ' + course['catalog_number'])
-            section_string.append("\t" + course["class_number"])
+            section_string.append("\t " + course["class_number"] + " ")
 
             if (len(course["meetings"][0]["location"]) != 7): 
                 # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
                 section_string.append("\t\t" + course["meetings"][0]["location"])
             else:
                 section_string.append("\t       " + course["meetings"][0]["location"])
-
-            section_string.append("\t\t" + course["meetings"][0]["days"])
-            section_string.append("\t\t" + str(course["enrollment_cap"] - course["enrollment_count"]))
+                
+            if len(course["meetings"][0]["days"]) == 1:
+                section_string.append("\t  " + course["meetings"][0]["days"])   
+            elif len(course["meetings"][0]["days"]) == 2:
+                section_string.append("\t " + course["meetings"][0]["days"])   
+            elif len(course["meetings"][0]["days"]) == 3:
+                section_string.append("\t " + course["meetings"][0]["days"])
+            else:
+                section_string.append("\t" + course["meetings"][0]["days"])
+            if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
+                section_string.append("\t\t    " + str(course["enrollment_cap"] - course["enrollment_count"]))
+            else:
+                section_string.append("\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
             section_string.append("\t\t    " +
                                   (course["meetings"][0]["start_time"])[0:2] + ":" +
                                   (course["meetings"][0]["start_time"])[2:4] 
