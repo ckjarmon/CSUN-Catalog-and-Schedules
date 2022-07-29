@@ -120,7 +120,6 @@ def show_schedule(sem, year, sub, code):
                 section_string.append("\t\t\t" + "Staff")
 
             blob_list.append(" ".join(section_string))
-        #blob_list.append("```")
         
     return "\n".join([str(x) for x in blob_list])
 
@@ -132,8 +131,6 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    #if message.author == client.user:
-     #   return
 
     msg_split = message.content.split()
     if message.content.__contains__("-b"):
