@@ -104,25 +104,34 @@ def show_schedule(sem, year, sub, code):
                 section_string.append("\t\t" + course["meetings"][0]["location"])
             else:
                 section_string.append("\t       " + course["meetings"][0]["location"])
+              
                 
             if len(course["meetings"][0]["days"]) == 1:
                 section_string.append("\t  " + course["meetings"][0]["days"])   
+                
             elif len(course["meetings"][0]["days"]) == 2:
-                section_string.append("\t " + course["meetings"][0]["days"])   
+                section_string.append("\t " + course["meetings"][0]["days"])  
+                 
             elif len(course["meetings"][0]["days"]) == 3:
                 section_string.append("\t " + course["meetings"][0]["days"])
+                
             else:
                 section_string.append("\t" + course["meetings"][0]["days"])
+                
+                
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
                 section_string.append("\t\t    " + str(course["enrollment_cap"] - course["enrollment_count"]))
             else:
                 section_string.append("\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                
+                
             section_string.append("\t\t    " +
                                   (course["meetings"][0]["start_time"])[0:2] + ":" +
                                   (course["meetings"][0]["start_time"])[2:4] 
                                   + " - " +
                                   (course["meetings"][0]["end_time"])[0:2] + ":" +
                                   (course["meetings"][0]["end_time"])[2:4])
+            
 
             if (len(course["instructors"]) > 0): # if a class has no instructor, print Staff instead
                 section_string.append("\t\t" + course["instructors"][0]["instructor"])
