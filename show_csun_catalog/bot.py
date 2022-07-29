@@ -14,6 +14,8 @@ TOKEN = os.getenv('DISCORD_TOKEN')
 
 client = discord.Client()
 
+
+
 def show_classes(subject, number):
     url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/" + subject
     #print("\n Data Link: " + url)
@@ -21,8 +23,7 @@ def show_classes(subject, number):
 
     #try to read the data
     try:
-        u = urllib3.PoolManager().request("GET", url)
-        data = u.data
+        data = urllib3.PoolManager().request("GET", url).data
     except Exception as e:
         data = {}
     #decode into an array
@@ -71,8 +72,7 @@ def show_schedule(sem, year, sub, code):
 
     #try to read the data
     try:
-        u = urllib3.PoolManager().request("GET", url)
-        data = u.data
+        data = urllib3.PoolManager().request("GET", url).data
     except Exception as e:
         data = {}
         
@@ -136,23 +136,33 @@ async def on_message(message):
      #   return
 
     msg_split = message.content.split()
-    if message.content.__contains__("!csun class"):
-        response = show_classes(msg_split[2] + "", msg_split[3] + "");
+    if message.content.__contains__("-b"):
+        response1 = show_schedule(msg_split[1], "20" + msg_split[2], msg_split[3], msg_split[4])
+        response2 = show_classes(msg_split[3], msg_split[4]);
+        await message.channel.send("```" + response1 + "\n\n" + response2 + "```")
+        
+    elif message.content.__contains__("!csun") and len(msg_split) == 3:
+        response = show_classes(msg_split[1], msg_split[2]);
         await message.channel.send("```" + response + "```")
     
-    if message.content.__contains__("!csun sch"):
-        response = show_schedule(msg_split[2] + "", msg_split[3] + "", msg_split[4] + "", msg_split[5] + "")
+    elif message.content.__contains__("!csun") and len(msg_split) > 3:
+        response = show_schedule(msg_split[1], "20" + msg_split[2], msg_split[3], msg_split[4])
         await message.channel.send("```" + response + "```")
         
-    if message.content.__contains__("!csun help"):
-        to_show_class = "!csun class Subject ClassCode"
-        c_example = "!csun class comp 182"
-        to_show_schedule = "!csun sch Semester Year Subject ClassCode"
-        s_example = "!csun sch spring 2022 comp 182"
+    elif message.content.__contains__("!csun help"):
+        to_show_class = "!csun Subject ClassCode"
+        c_example = "!csun comp 182"
+        to_show_schedule = "!csun Semester YY Subject ClassCode"
+        s_example = "!csun spring 22 comp 182"
+        to_show_both = "!csun Semester YY Subject ClassCode -b"
+        b_example = "!csun spring 22 comp 182 -b"
         await message.channel.send("```To show a class and its description.\n\t" + to_show_class + 
                                    "\nExample:\n\t" + c_example +  
                                    "\n\n\nTo show the sections schedule for a specific class.\n\t" + to_show_schedule + 
-                                   "\nExample:\n\t" + s_example + "```")
+                                   "\nExample:\n\t" + s_example + 
+                                   "\n\n\nTo show both.\n\t" + to_show_both + 
+                                   "\nExample:\n\t" + b_example
+                                   + "```")
         
 
 
