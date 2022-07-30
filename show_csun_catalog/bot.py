@@ -67,7 +67,7 @@ def show_classes(subject, number):
 
 def show_schedule(sem, year, sub, code):
     if sem.lower() == "spring" and year == "2023":
-        data = json.load(open("storedschedules/" +  sub + "_schedule.json"))
+        data = json.load(open("storedschedules/" +  sub.upper() + "_schedule.json"))
     else: 
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
                                                                       year + "/classes/" + \
