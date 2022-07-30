@@ -1,5 +1,6 @@
 # bot.py
 import os
+from types import NoneType
 import urllib3
 import json
 import sys
@@ -59,25 +60,25 @@ def show_classes(subject, number):
             del course["course_id"]
             json_blobs.append(course)
             break
-    
     if len(json_blobs) > 0:
-        return json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n" + json_blobs[0]["description"]
+        return str(json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n" + str(json_blobs[0]["description"]))
     
 
 
 def show_schedule(sem, year, sub, code):
-    url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
-                                                                  year + "/classes/" + \
-                                                                  sub
-
-    #try to read the data
-    try:
-        data = urllib3.PoolManager().request("GET", url).data
-    except Exception as e:
-        data = {}
-        
-    #decode into an array
-    data = json.loads(data)
+    if sem.lower() == "spring" and year == "2023":
+        data = json.load(open("storedschedules/" +  sub + "_schedule.json"))
+    else: 
+        url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
+                                                                      year + "/classes/" + \
+                                                                      sub
+        #try to read the data
+        try:
+            data = urllib3.PoolManager().request("GET", url).data
+        except Exception as e:
+            data = {}
+        #decode into an array
+        data = json.loads(data)
         
     def find_class(current_class):
         ret_value = ""
@@ -98,25 +99,30 @@ def show_schedule(sem, year, sub, code):
             section_string = []
             #section_string.append(course['subject'] + ' ' + course['catalog_number'])
             section_string.append("\t " + course["class_number"] + " ")
-
+            if (len(course["meetings"][0]["location"]) == 3):
+                section_string.append("  ")
             if (len(course["meetings"][0]["location"]) != 7): 
                 # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
                 section_string.append("\t\t" + course["meetings"][0]["location"])
             else:
                 section_string.append("\t       " + course["meetings"][0]["location"])
               
+            
+            if len(str(course["meetings"][0]["days"])) == 1:
+                section_string.append("\t  " + str(course["meetings"][0]["days"]))   
                 
-            if len(course["meetings"][0]["days"]) == 1:
-                section_string.append("\t  " + course["meetings"][0]["days"])   
-                
-            elif len(course["meetings"][0]["days"]) == 2:
-                section_string.append("\t " + course["meetings"][0]["days"])  
+            elif len(str(course["meetings"][0]["days"])) == 2:
+                section_string.append("\t " + str(course["meetings"][0]["days"]))  
                  
-            elif len(course["meetings"][0]["days"]) == 3:
-                section_string.append("\t " + course["meetings"][0]["days"])
+            elif len(str(course["meetings"][0]["days"])) == 3:
                 
+                section_string.append("\t " + str(course["meetings"][0]["days"]))
+            elif str(course["meetings"][0]["days"]) == "None":
+                
+                section_string.append("\t " + str(course["meetings"][0]["days"])[0:2])
             else:
-                section_string.append("\t" + course["meetings"][0]["days"])
+                section_string.append("\t" + str(course["meetings"][0]["days"]))
+                #print(str(course["meetings"][0]["days"]))
                 
                 
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
@@ -133,13 +139,14 @@ def show_schedule(sem, year, sub, code):
                                   (course["meetings"][0]["end_time"])[2:4])
             
 
-            if (len(course["instructors"]) > 0): # if a class has no instructor, print Staff instead
-                section_string.append("\t\t" + course["instructors"][0]["instructor"])
+            if (len(course["instructors"]) > 0) and course["instructors"][0]["instructor"] != "Staff": # if a class has no instructor, print Staff instead
+                section_string.append("\t " + course["instructors"][0]["instructor"])
             else:
-                section_string.append("\t\t\t" + "Staff")
-
+                section_string.append("\t\t\t " + "Staff")
             blob_list.append(" ".join(section_string))
-        
+            print("------------------------------------------------------------------")
+            print(section_string)
+            print("------------------------------------------------------------------")
     return "\n".join([str(x) for x in blob_list])
 
 
@@ -150,19 +157,20 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-
+    if message.author == client.user:
+        return
     msg_split = message.content.split()
-    
+    print(message.author, end = "")
+    print(" [" + message.content + "]")
     if message.content.__contains__("!csun") and len(msg_split) == 3:
         response1 = show_classes(msg_split[1], msg_split[2])
         response2 = show_schedule("Fall", "2022", msg_split[1], msg_split[2])
-        await message.channel.send("```" + response1 + "\n\n" + response2 + "```")
-        
-        
-    elif len(msg_split) > 3:
+        await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
+   
+    elif len(msg_split) > 3 and message.content.__contains__("!csun"):
         response1 = show_classes(msg_split[1], msg_split[2])
         response2 = show_schedule(msg_split[3], "20" + msg_split[4], msg_split[1], msg_split[2])
-        await message.channel.send("```" + response1 + "\n\n" + response2 + "```")
+        await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
         
     elif message.content.__contains__("!csun help"): 
         await message.channel.send("```Shows both class description and schedule by default. Default schedule is Fall 2022 \
