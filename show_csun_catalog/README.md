@@ -9,3 +9,5 @@ Example:\
 python show_classes.py comp
 
 
+Discord Bot Available:\
+https://discord.com/api/oauth2/authorize?client_id=1001804710744948756&permissions=36507290688&scope=bot
