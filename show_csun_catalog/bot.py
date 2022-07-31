@@ -143,6 +143,7 @@ def show_schedule(sem, year, sub, code):
                 section_string.append("\t " + course["instructors"][0]["instructor"])
             else:
                 section_string.append("\t\t\t " + "Staff")
+            
             blob_list.append(" ".join(section_string))
             print("------------------------------------------------------------------")
             print(section_string)
