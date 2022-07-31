@@ -119,7 +119,7 @@ def show_schedule(sem, year, sub, code):
                 section_string.append("\t " + str(course["meetings"][0]["days"]))
             elif str(course["meetings"][0]["days"]) == "None":
                 
-                section_string.append("\t " + str(course["meetings"][0]["days"])[0:2])
+                section_string.append("\t --")
             else:
                 section_string.append("\t" + str(course["meetings"][0]["days"]))
                 #print(str(course["meetings"][0]["days"]))
@@ -159,9 +159,11 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
+    
     msg_split = message.content.split()
     print(message.author, end = "")
     print(" [" + message.content + "]")
+    
     if message.content.__contains__("!csun") and len(msg_split) == 3:
         response1 = show_classes(msg_split[1], msg_split[2])
         response2 = show_schedule("Fall", "2022", msg_split[1], msg_split[2])
