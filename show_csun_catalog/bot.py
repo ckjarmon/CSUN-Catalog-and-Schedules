@@ -179,7 +179,7 @@ async def on_message(message):
         await message.channel.send("```Shows both class description and schedule by default. Default schedule is Fall 2022 \
                                    \nTo show different schedule, append it to the end.\n\n" + 
                                     "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\nFor Different Semester:\n\t!csun subject class_code semester YY\n" + 
-                                    "Example:\n\t!csun subject class_code spring 23```")
+                                    "Example:\n\t!csun subject class_code spring 23\n\nSource Code:\n\nhttps://github.com/kyeou/Python-Scripts/tree/main/show_csun_catalog```")
         
 
 
