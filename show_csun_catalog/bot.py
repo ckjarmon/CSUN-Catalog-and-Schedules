@@ -31,11 +31,8 @@ def show_classes(subject, number):
     current_class = number
     for course in data["courses"]:
         if (current_class == course["catalog_number"]):
-            # I cant remember why I put this here.
-            del course["term"]
-            del course["section_number"]
-            del course["course_id"]
             json_blobs.append(course)
+            break
 
     url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2022/courses/" + subject
     #print("\n Data Link: " + url)
@@ -53,9 +50,6 @@ def show_classes(subject, number):
     for course in data["courses"]:
         if (current_class == course["catalog_number"]):
             # I cant remember why I put this here.
-            del course["term"]
-            del course["section_number"]
-            del course["course_id"]
             json_blobs.append(course)
             break
     if len(json_blobs) > 0:
