@@ -45,13 +45,12 @@ def show_classes(subject, number):
     # decode into an array
     data = json.loads(data)
 
-    json_blobs = []
     current_class = number
     for course in data["courses"]:
         if (current_class == course["catalog_number"]):
-            # I cant remember why I put this here.
             json_blobs.append(course)
             break
+        
     if len(json_blobs) > 0:
         return str(json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n" + str(json_blobs[0]["description"]))
 
