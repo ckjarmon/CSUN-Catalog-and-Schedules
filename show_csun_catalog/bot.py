@@ -117,12 +117,10 @@ def show_schedule(sem, year, sub, code):
 
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
                 
-                section_string.append(
-                    "\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                section_string.append("\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
                 
             else:
-                section_string.append(
-                    "\t\t  " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                section_string.append("\t\t  " + str(course["enrollment_cap"] - course["enrollment_count"]))
 
             section_string.append("\t\t    " +
                                   (course["meetings"][0]["start_time"])[0:2] + ":" +
