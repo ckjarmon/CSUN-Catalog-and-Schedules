@@ -134,8 +134,7 @@ def show_schedule(sem, year, sub, code):
 
             # if a class has no instructor, print Staff instead
             if (len(course["instructors"]) > 0) and course["instructors"][0]["instructor"] != "Staff":
-                section_string.append(
-                    "\t " + course["instructors"][0]["instructor"])
+                section_string.append("\t " + course["instructors"][0]["instructor"])
             else:
                 section_string.append("\t\t\t " + "Staff")
 
