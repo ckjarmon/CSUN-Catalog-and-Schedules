@@ -19,13 +19,12 @@ def show_classes(subject, number):
     url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/" + subject
     #print("\n Data Link: " + url)
 
-    # try to read the data
+    # try to read the data and load
     try:
-        data = urllib3.PoolManager().request("GET", url).data
+        data = json.loads(urllib3.PoolManager().request("GET", url).data)
     except Exception as e:
-        data = {}
-    # decode into an array
-    data = json.loads(data)
+        data = json.loads({})
+
 
     json_blobs = []
     current_class = number
@@ -37,13 +36,11 @@ def show_classes(subject, number):
     url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2022/courses/" + subject
     #print("\n Data Link: " + url)
 
-    # try to read the data
+    # try to read the data and load
     try:
-        data = urllib3.PoolManager().request("GET", url).data
+        data = json.loads(urllib3.PoolManager().request("GET", url).data)
     except Exception as e:
-        data = {}
-    # decode into an array
-    data = json.loads(data)
+        data = json.loads({})
 
     current_class = number
     for course in data["courses"]:
@@ -63,13 +60,11 @@ def show_schedule(sem, year, sub, code):
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
             year + "/classes/" + \
             sub
-        # try to read the data
+            # try to read the data and load
         try:
-            data = urllib3.PoolManager().request("GET", url).data
+            data = json.loads(urllib3.PoolManager().request("GET", url).data)
         except Exception as e:
-            data = {}
-        # decode into an array
-        data = json.loads(data)
+            data = json.loads({})
 
     def find_class(current_class):
         ret_value = ""
