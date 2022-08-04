@@ -1,10 +1,7 @@
 # bot.py
 import os
-from types import NoneType
 import urllib3
 import json
-import sys
-
 import discord
 from dotenv import load_dotenv
 
