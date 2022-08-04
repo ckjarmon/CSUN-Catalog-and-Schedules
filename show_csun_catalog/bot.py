@@ -101,7 +101,7 @@ def show_schedule(sem, year, sub, code):
                 section_string.append("\t\t" + course["meetings"][0]["location"])
                 
             else:
-                section_string.append("\t       " + course["meetings"][0]["location"])
+                section_string.append("\t   " + course["meetings"][0]["location"])
 
             if len(str(course["meetings"][0]["days"])) == 1:
                 section_string.append("\t  " + str(course["meetings"][0]["days"]))
