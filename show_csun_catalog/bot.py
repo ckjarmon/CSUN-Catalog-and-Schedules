@@ -86,41 +86,42 @@ def show_schedule(sem, year, sub, code):
         # if a class has no meetings, it should not be on schedule
         if (len(course["meetings"]) > 0) and code == course["catalog_number"]:
             section_string = []
-            #section_string.append(course['subject'] + ' ' + course['catalog_number'])
+          
             section_string.append("\t " + course["class_number"] + " ")
+            
             if (len(course["meetings"][0]["location"]) == 3):
+                
                 section_string.append("  ")
+                
             if (len(course["meetings"][0]["location"]) != 7):
                 # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
-                section_string.append(
-                    "\t\t" + course["meetings"][0]["location"])
+                section_string.append("\t\t" + course["meetings"][0]["location"])
+                
             else:
-                section_string.append(
-                    "\t       " + course["meetings"][0]["location"])
+                section_string.append("\t       " + course["meetings"][0]["location"])
 
             if len(str(course["meetings"][0]["days"])) == 1:
-                section_string.append(
-                    "\t  " + str(course["meetings"][0]["days"]))
+                section_string.append("\t  " + str(course["meetings"][0]["days"]))
 
             elif len(str(course["meetings"][0]["days"])) == 2:
-                section_string.append(
-                    "\t " + str(course["meetings"][0]["days"]))
+                section_string.append("\t " + str(course["meetings"][0]["days"]))
 
             elif len(str(course["meetings"][0]["days"])) == 3:
 
-                section_string.append(
-                    "\t " + str(course["meetings"][0]["days"]))
+                section_string.append("\t " + str(course["meetings"][0]["days"]))
+                
             elif str(course["meetings"][0]["days"]) == "None":
 
                 section_string.append("\t --")
             else:
-                section_string.append(
-                    "\t" + str(course["meetings"][0]["days"]))
+                section_string.append("\t" + str(course["meetings"][0]["days"]))
                 # print(str(course["meetings"][0]["days"]))
 
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
+                
                 section_string.append(
                     "\t\t    " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                
             else:
                 section_string.append(
                     "\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
@@ -167,8 +168,7 @@ async def on_message(message):
 
     elif len(msg_split) > 3 and message.content.__contains__("!csun"):
         response1 = show_classes(msg_split[1], msg_split[2])
-        response2 = show_schedule(
-            msg_split[3], "20" + msg_split[4], msg_split[1], msg_split[2])
+        response2 = show_schedule(msg_split[3], "20" + msg_split[4], msg_split[1], msg_split[2])
         await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
 
     elif message.content.__contains__("!csun help"):
