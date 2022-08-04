@@ -52,14 +52,17 @@ def show_classes(subject, number):
         return str(json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n" + str(json_blobs[0]["description"]))
 
 
+
+
 def show_schedule(sem, year, sub, code):
     if sem.lower() == "spring" and year == "2023":
-        data = json.load(
-            open("storedschedules/" + sub.upper() + "_schedule.json"))
+        
+        data = json.load(open("storedschedules/" + sub.upper() + "_schedule.json"))
+        
     else:
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
-            year + "/classes/" + \
-            sub
+                                                                          year + "/classes/" + \
+                                                                          sub
             # try to read the data and load
         try:
             data = json.loads(urllib3.PoolManager().request("GET", url).data)
