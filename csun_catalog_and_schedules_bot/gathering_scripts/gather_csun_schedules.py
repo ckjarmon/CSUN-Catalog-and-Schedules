@@ -209,60 +209,6 @@ def match_st():
         case 'Winter 2004':
             return section_number[76]
 
-
-gather_data()
-
-# Semester ID: NR_SSS_SOC_NWRK_STRM
-# Subject ID: NR_SSS_SOC_NWRK_SUBJECT
-
-s = Service(ChromeDriverManager().install())
-op = webdriver.ChromeOptions()
-op.add_argument('headless')
-op.add_experimental_option('excludeSwitches', ['enable-logging'])
-driver = webdriver.Chrome(service=s, options=op)
-driver.get(catalog_link)
-time.sleep(4)
-
-semester_box = driver.find_element("name", "NR_SSS_SOC_NWRK_STRM")
-semester_box.click()
-
-semester_box.send_keys(match_st())
-# time.sleep(1)
-semester_box.send_keys(Keys.ENTER)
-time.sleep(5)
-
-
-id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
-id_box.click()
-time.sleep(1)
-#id_box.send_keys(sys.argv[4])
-for i in range(0, int(sys.argv[3]) + 1):
-    id_box.send_keys(Keys.ARROW_DOWN)
-id_box.send_keys(Keys.ENTER)
-time.sleep(3)
-
-driver.find_element("name", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
-time.sleep(2)
-
-
-#--------------------------------------------------------------------
-# Class Section Div ID: win0divNR_SSS_SOC_NSEC$(INDEX)
-#   INDEX = classes listed in ascending order
-
-# Sesn = NR_SSS_SOC_NSEC_SESSION_CODE$0
-# Section = NR_SSS_SOC_NSEC_CLASS_SECTION$0
-# Class# = NR_SSS_SOC_NSEC_CLASS_NBR$0
-# Seats = NR_SSS_SOC_NWRK_AVAILABLE_SEATS$0
-# Status = NR_SSS_SOC_NWRK_DESCRSHORT$0
-# Comp = NR_SSS_SOC_NSEC_SSR_COMPONENT$0
-# Loc = MAP$0
-# Days = NR_SSS_SOC_NWRK_DESCR20$0
-# Time = NR_SSS_SOC_NSEC_DESCR25_2$0
-# Instructor = FACURL$0
-file1 = open(sys.argv[4] + "_schedule.json", "w")
-json_blob = []
-course_dict = {}
-
 """ 
 In the API the time is stored in 24-hour format followed by an "h"
 """
@@ -332,108 +278,170 @@ def convertdays(days_str):
         
 
 
-for a in range(0, 60):
-    try:
-        subject_dict = {}
-        print(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
-        driver.find_element("name", "SOC_DETAIL$IMG$" + str(a)).click()
-        time.sleep(4)
-        #print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
-        section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text.split()
-        #print(section_title)
-        for i in range(0, 50):
-            try:
-                """
-                print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
-                row_sesn = driver.find_element("id", "NR_SSS_SOC_NSEC_SESSION_CODE$" + str(i)).text
-                row_section = driver.find_element( "id", "NR_SSS_SOC_NSEC_CLASS_SECTION$" + str(i)).text
-                row_class = driver.find_element( "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
-                row_seats = driver.find_element( "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text
-                row_status = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCRSHORT$" + str(i)).text
-                row_comp = driver.find_element( "id", "NR_SSS_SOC_NSEC_SSR_COMPONENT$" + str(i)).text
-                row_loc = driver.find_element("id", "MAP$" + str(i)).text
-                row_days = driver.find_element( "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text
-                row_time = driver.find_element("id", "NR_SSS_SOC_NSEC_DESCR25_2$" + str(i)).text
-                """
-                
-                """
-                "SubjectCode Class_Number - Name Of Class ( Unit Count )
-                OR
-                Subject Code Class_Number - Name of Class ( Unit Count )
-                Split that string by spaces
-                Some of subject codes have a space in between them 
-                """
-                if (section_title[2].isalnum()): # Class_Number
-                    
-                    course_dict["subject"] = section_title[0] + section_title[1] # This Case: Subject Code Class_Number
-                    course_dict["catalog_number"] = section_title[2]
-                    course_dict["title"] = section_title[4]
-                    start_of_class_name = 5
-                    while section_title[start_of_class_name] != "(":
-                        course_dict["title"] += " " + section_title[start_of_class_name]
-                        start_of_class_name += 1
-                    #print(course_dict)
-                else:
-                    course_dict["subject"] = section_title[0] # This Case: SubjectCode Class_Number
-                    course_dict["catalog_number"] = section_title[1]
-                    course_dict["title"] = section_title[3]
-                    start_of_class_name = 4
-                    while section_title[start_of_class_name] != "(":
-                        course_dict["title"] += " " + section_title[start_of_class_name]
-                        start_of_class_name += 1
-                    #print(course_dict)
-                    
-                    
-                """
-                The enrollement count is split by the capacity and the amount of students who enrolled.
-                """
-                course_dict["class_number"] = driver.find_element(
-                        "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
-                course_dict["enrollment_cap"] = int(driver.find_element(
-                        "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text)
-                
-                course_dict["enrollment_count"] = 0
-                
-                
-                """
-                The meetings attribute in each object in the Restful API is a dictionary.
-                """
-                meetings = {}
-                meetings["days"] = convertdays(driver.find_element(
-                        "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text)
-                meetings["location"] = driver.find_element("id", "MAP$" + str(i)).text
-                meetings["start_time"], meetings["end_time"] = convert_time(driver.find_element(
-                        "id", "NR_SSS_SOC_NSEC_DESCR25_2$" + str(i)).text)
-                #instructors = {}
-                print(meetings)
-                try:
-                    # row_faculty = driver.find_element(
-                        # "id", "FACURL$" + str(i)).text
-                    instructors = {"instructor": driver.find_element(
-                            "id", "FACURL$" + str(i)).text}
-                except NoSuchElementException:
-                    row_faculty = "Staff"
-                    instructors = {"instructor": "Staff"}
-                # print(row_sesn + "\t" + row_section + "\t" + row_class + "\t" + row_seats + "\t" + row_status +
-                #     "\t" + row_comp + "\t" + row_loc + "\t" + row_days + "\t" + row_time + "\t   " + row_faculty + "\n")
-                course_dict["instructors"] = [] 
-                course_dict["instructors"].append(instructors)    
-                course_dict["meetings"] = []
-                course_dict["meetings"].append(meetings)
-                json_blob.append(course_dict.copy())
-                print(course_dict)
-            except NoSuchElementException:
-                break
-        driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
-        time.sleep(1)
-    except NoSuchElementException:
-        break
-        
+gather_data()
 
-#print(json_blob)
-subject_dict["classes"] = json_blob
-json.dump(subject_dict, file1, indent=4)
-file1.close()
+
+def open_and_gather():
+    # Semester ID: NR_SSS_SOC_NWRK_STRM
+    # Subject ID: NR_SSS_SOC_NWRK_SUBJECT
+
+    s = Service(ChromeDriverManager().install())
+    op = webdriver.ChromeOptions()
+    op.add_argument('headless')
+    op.add_experimental_option('excludeSwitches', ['enable-logging'])
+    driver = webdriver.Chrome(service=s, options=op)
+    driver.get(catalog_link)
+    time.sleep(4)
+
+    semester_box = driver.find_element("name", "NR_SSS_SOC_NWRK_STRM")
+    semester_box.click()
+
+    semester_box.send_keys(match_st())
+    # time.sleep(1)
+    semester_box.send_keys(Keys.ENTER)
+    time.sleep(5)
+
+
+    id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
+    id_box.click()
+    time.sleep(1)
+    #id_box.send_keys(sys.argv[4])
+    for i in range(0, int(sys.argv[3]) + 1):
+        id_box.send_keys(Keys.ARROW_DOWN)
+    id_box.send_keys(Keys.ENTER)
+    time.sleep(3)
+
+    driver.find_element("name", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
+    time.sleep(2)
+
+
+    #--------------------------------------------------------------------
+    # Class Section Div ID: win0divNR_SSS_SOC_NSEC$(INDEX)
+    #   INDEX = classes listed in ascending order
+
+    # Sesn = NR_SSS_SOC_NSEC_SESSION_CODE$0
+    # Section = NR_SSS_SOC_NSEC_CLASS_SECTION$0
+    # Class# = NR_SSS_SOC_NSEC_CLASS_NBR$0
+    # Seats = NR_SSS_SOC_NWRK_AVAILABLE_SEATS$0
+    # Status = NR_SSS_SOC_NWRK_DESCRSHORT$0
+    # Comp = NR_SSS_SOC_NSEC_SSR_COMPONENT$0
+    # Loc = MAP$0
+    # Days = NR_SSS_SOC_NWRK_DESCR20$0
+    # Time = NR_SSS_SOC_NSEC_DESCR25_2$0
+    # Instructor = FACURL$0
+    file1 = open(sys.argv[4] + "_schedule.json", "w")
+    json_blob = []
+    course_dict = {}
+
+
+    for a in range(0, 60):
+        try:
+            subject_dict = {}
+            print(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
+            driver.find_element("name", "SOC_DETAIL$IMG$" + str(a)).click()
+            time.sleep(4)
+            #print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
+            section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text.split()
+            #print(section_title)
+            for i in range(0, 50):
+                try:
+                    """
+                    print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
+                    row_sesn = driver.find_element("id", "NR_SSS_SOC_NSEC_SESSION_CODE$" + str(i)).text
+                    row_section = driver.find_element( "id", "NR_SSS_SOC_NSEC_CLASS_SECTION$" + str(i)).text
+                    row_class = driver.find_element( "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
+                    row_seats = driver.find_element( "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text
+                    row_status = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCRSHORT$" + str(i)).text
+                    row_comp = driver.find_element( "id", "NR_SSS_SOC_NSEC_SSR_COMPONENT$" + str(i)).text
+                    row_loc = driver.find_element("id", "MAP$" + str(i)).text
+                    row_days = driver.find_element( "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text
+                    row_time = driver.find_element("id", "NR_SSS_SOC_NSEC_DESCR25_2$" + str(i)).text
+                    """
+
+                    """
+                    "SubjectCode Class_Number - Name Of Class ( Unit Count )
+                    OR
+                    Subject Code Class_Number - Name of Class ( Unit Count )
+                    Split that string by spaces
+                    Some of subject codes have a space in between them 
+                    """
+                    if (section_title[2].isalnum()): # Class_Number
+
+                        course_dict["subject"] = section_title[0] + section_title[1] # This Case: Subject Code Class_Number
+                        course_dict["catalog_number"] = section_title[2]
+                        course_dict["title"] = section_title[4]
+                        start_of_class_name = 5
+                        while section_title[start_of_class_name] != "(":
+                            course_dict["title"] += " " + section_title[start_of_class_name]
+                            start_of_class_name += 1
+                        #print(course_dict)
+                    else:
+                        course_dict["subject"] = section_title[0] # This Case: SubjectCode Class_Number
+                        course_dict["catalog_number"] = section_title[1]
+                        course_dict["title"] = section_title[3]
+                        start_of_class_name = 4
+                        while section_title[start_of_class_name] != "(":
+                            course_dict["title"] += " " + section_title[start_of_class_name]
+                            start_of_class_name += 1
+                        #print(course_dict)
+
+
+                    """
+                    The enrollement count is split by the capacity and the amount of students who enrolled.
+                    """
+                    course_dict["class_number"] = driver.find_element(
+                            "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
+                    course_dict["enrollment_cap"] = int(driver.find_element(
+                            "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text)
+
+                    course_dict["enrollment_count"] = 0
+
+
+                    """
+                    The meetings attribute in each object in the Restful API is a dictionary.
+                    """
+                    meetings = {}
+                    meetings["days"] = convertdays(driver.find_element(
+                            "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text)
+                    meetings["location"] = driver.find_element("id", "MAP$" + str(i)).text
+                    meetings["start_time"], meetings["end_time"] = convert_time(driver.find_element(
+                            "id", "NR_SSS_SOC_NSEC_DESCR25_2$" + str(i)).text)
+                    #instructors = {}
+                    print(meetings)
+                    try:
+                        # row_faculty = driver.find_element(
+                            # "id", "FACURL$" + str(i)).text
+                        instructors = {"instructor": driver.find_element(
+                                "id", "FACURL$" + str(i)).text}
+                    except NoSuchElementException:
+                        row_faculty = "Staff"
+                        instructors = {"instructor": "Staff"}
+                    # print(row_sesn + "\t" + row_section + "\t" + row_class + "\t" + row_seats + "\t" + row_status +
+                    #     "\t" + row_comp + "\t" + row_loc + "\t" + row_days + "\t" + row_time + "\t   " + row_faculty + "\n")
+                    course_dict["instructors"] = [] 
+                    course_dict["instructors"].append(instructors)    
+                    course_dict["meetings"] = []
+                    course_dict["meetings"].append(meetings)
+                    json_blob.append(course_dict.copy())
+                    print(course_dict)
+                except NoSuchElementException:
+                    break
+            driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
+            time.sleep(1)
+        except NoSuchElementException:
+            break
+
+
+    #print(json_blob)
+    subject_dict["classes"] = json_blob
+    json.dump(subject_dict, file1, indent=4)
+    file1.close()
+
+
+if __name__=="__main__":
+    open_and_gather()
+
+
 
 """
 Term Codes
