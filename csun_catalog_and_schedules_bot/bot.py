@@ -173,7 +173,7 @@ async def on_message(message):
                                    "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\n" + 
                                    "For Different Semester:\n\t!csun subject class_code semester YY\n" +
                                    "Example:\n\t!csun subject class_code spring 23\n\nSource Code: \
-                                    \nhttps://github.com/kyeou/Python-Scripts/tree/main/show_csun_catalog```")
+                                    \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
 
 
 client.run(TOKEN)
