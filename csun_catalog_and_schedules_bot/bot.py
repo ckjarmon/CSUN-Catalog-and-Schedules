@@ -119,10 +119,10 @@ def show_schedule(sem, year, sub, code):
 
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
                 
-                section_string.append("\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                section_string.append("\t\t    " + str(course["enrollment_cap"] - course["enrollment_count"]))
                 
             else:
-                section_string.append("\t\t  " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                section_string.append("\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
 
             section_string.append("\t\t    " +
                                   (course["meetings"][0]["start_time"])[0:2] + ":" +
@@ -133,9 +133,9 @@ def show_schedule(sem, year, sub, code):
 
             # if a class has no instructor, print Staff instead
             if (len(course["instructors"]) > 0) and course["instructors"][0]["instructor"] != "Staff":
-                section_string.append("\t " + course["instructors"][0]["instructor"])
+                section_string.append("\t" + course["instructors"][0]["instructor"])
             else:
-                section_string.append("\t\t\t " + "Staff")
+                section_string.append("\t\t\t" + "Staff")
 
             blob_list.append(" ".join(section_string))
             print("------------------------------------------------------------------")
