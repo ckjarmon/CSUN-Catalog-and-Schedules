@@ -1,3 +1,26 @@
+"""
+The purpose of this script is to gather the schedule data for Spring
+2023 as it is not available on the API 
+as of the 6th of August.
+
+The script must be run the flags:
+Semester Year Position_of_Subject_in_Dropdown Subject_Code
+
+Position_of_Subject_in_Dropdown is how many times the down arrow should be hit to get 
+to the next subject
+
+The Subject code is the for the naming of the json files in which all the 
+data collected will be stored.
+
+Do not run the script manually.
+Run the web_scrape_sp23.sh.
+
+
+The data must be stored in the way the bot can read it.
+"""
+
+
+
 from selenium.common.exceptions import NoSuchElementException
 import sys
 from selenium import webdriver
@@ -221,26 +244,7 @@ time.sleep(3)
 driver.find_element("name", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
 time.sleep(2)
 
-# semester_box = driver.find_element("name", "NR_SSS_SOC_NWRK_STRM")
-# semester_box.click()
 
-# semester_box.send_keys(2233)
-# time.sleep(2)
-# semester_box.send_keys(Keys.ENTER)
-# time.sleep(2)
-
-
-# id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
-# id_box.click()
-# time.sleep(2)
-
-# for i in range(0, int(sys.argv[3]) + 1):
-#     id_box.send_keys(Keys.ARROW_DOWN)
-# id_box.send_keys(Keys.ENTER)
-# #time.sleep(1)
-
-# driver.find_element("class", "PSPUSHBUTTON").click()
-# time.sleep(2)
 #--------------------------------------------------------------------
 # Class Section Div ID: win0divNR_SSS_SOC_NSEC$(INDEX)
 #   INDEX = classes listed in ascending order
@@ -259,16 +263,22 @@ file1 = open(sys.argv[4] + "_schedule.json", "w")
 json_blob = []
 course_dict = {}
 
+""" 
+In the API the time is stored in 24-hour format followed by an "h"
+"""
 def convert_time(time):
     if (time == "TBA"): 
         return "0000h", "0000h"
     start_hour = int(time[0:2])
     #print(start_hour)
-    start_is_am = True if (time[5:7] == "am" or int(time[0:2]) == 12) else False
+    start_is_am = True if (time[5:7] == "am" or time[0:2] == "12") else False
+    """
+    In 24-hour time, every hour after 12pm is (12 + Hour)
+    """
     #print(start_is_am)
     end_hour =  int(time[8:10])
     #print(end_hour)
-    end_is_am = True if (time[13:15] == "am" or int(time[8:10]) == 12) else False
+    end_is_am = True if (time[13:15] == "am" or int(time[8:10]) == "12") else False
     #print(end_is_am)
     
     if not start_is_am:
@@ -287,6 +297,8 @@ def convert_time(time):
         end_string = str(end_hour)
         
     return (start_string + time[3:5] + "h"), (end_string + time[11:13] + "h")
+
+# This is how the days are stored in the API.
 def convertdays(days_str):
     match days_str:
         case "MoWe":
@@ -331,53 +343,61 @@ for a in range(0, 60):
         #print(section_title)
         for i in range(0, 50):
             try:
-                # print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
-                # row_sesn = driver.find_element(
-                    # "id", "NR_SSS_SOC_NSEC_SESSION_CODE$" + str(i)).text
-                # row_section = driver.find_element(
-                    # "id", "NR_SSS_SOC_NSEC_CLASS_SECTION$" + str(i)).text
-                # row_class = driver.find_element(
-                    # "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
-                # row_seats = driver.find_element(
-                    # "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text
-                # row_status = driver.find_element(
-                    # "id", "NR_SSS_SOC_NWRK_DESCRSHORT$" + str(i)).text
-                # row_comp = driver.find_element(
-                    # "id", "NR_SSS_SOC_NSEC_SSR_COMPONENT$" + str(i)).text
-                # row_loc = driver.find_element("id", "MAP$" + str(i)).text
-                # row_days = driver.find_element(
-                    # "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text
-                # row_time = driver.find_element(
-                    # "id", "NR_SSS_SOC_NSEC_DESCR25_2$" + str(i)).text
-                # 
+                """
+                print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
+                row_sesn = driver.find_element("id", "NR_SSS_SOC_NSEC_SESSION_CODE$" + str(i)).text
+                row_section = driver.find_element( "id", "NR_SSS_SOC_NSEC_CLASS_SECTION$" + str(i)).text
+                row_class = driver.find_element( "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
+                row_seats = driver.find_element( "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text
+                row_status = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCRSHORT$" + str(i)).text
+                row_comp = driver.find_element( "id", "NR_SSS_SOC_NSEC_SSR_COMPONENT$" + str(i)).text
+                row_loc = driver.find_element("id", "MAP$" + str(i)).text
+                row_days = driver.find_element( "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text
+                row_time = driver.find_element("id", "NR_SSS_SOC_NSEC_DESCR25_2$" + str(i)).text
+                """
                 
-                if (section_title[2].isalnum()):
-                    course_dict["subject"] = section_title[0] + section_title[1]
+                """
+                "SubjectCode Class_Number - Name Of Class ( Unit Count )
+                OR
+                Subject Code Class_Number - Name of Class ( Unit Count )
+                Split that string by spaces
+                Some of subject codes have a space in between them 
+                """
+                if (section_title[2].isalnum()): # Class_Number
+                    
+                    course_dict["subject"] = section_title[0] + section_title[1] # This Case: Subject Code Class_Number
                     course_dict["catalog_number"] = section_title[2]
                     course_dict["title"] = section_title[4]
-                    pa_string = "("
-                    start_something = 5
-                    while section_title[start_something] != pa_string:
-                        course_dict["title"] += " " + section_title[start_something]
-                        start_something += 1
+                    start_of_class_name = 5
+                    while section_title[start_of_class_name] != "(":
+                        course_dict["title"] += " " + section_title[start_of_class_name]
+                        start_of_class_name += 1
                     #print(course_dict)
                 else:
-                    course_dict["subject"] = section_title[0]
+                    course_dict["subject"] = section_title[0] # This Case: SubjectCode Class_Number
                     course_dict["catalog_number"] = section_title[1]
                     course_dict["title"] = section_title[3]
-                    pa_string = "("
-                    start_something = 4
-                    while section_title[start_something] != pa_string:
-                        course_dict["title"] += " " + section_title[start_something]
-                        start_something += 1
+                    start_of_class_name = 4
+                    while section_title[start_of_class_name] != "(":
+                        course_dict["title"] += " " + section_title[start_of_class_name]
+                        start_of_class_name += 1
                     #print(course_dict)
                     
+                    
+                """
+                The enrollement count is split by the capacity and the amount of students who enrolled.
+                """
                 course_dict["class_number"] = driver.find_element(
                         "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
                 course_dict["enrollment_cap"] = int(driver.find_element(
                         "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text)
                 
                 course_dict["enrollment_count"] = 0
+                
+                
+                """
+                The meetings attribute in each object in the Restful API is a dictionary.
+                """
                 meetings = {}
                 meetings["days"] = convertdays(driver.find_element(
                         "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text)
