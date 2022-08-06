@@ -1,9 +1,11 @@
 # bot.py
+from locale import currency
 import os
 import urllib3
 import json
 import discord
 from dotenv import load_dotenv
+import time
 
 
 load_dotenv()
@@ -74,9 +76,9 @@ def show_schedule(sem, year, sub, code):
         return ret_value
 
     blob_list = []
-
+    curr_time = time.asctime(time.localtime(time.time())).split()
     blob_list.append(sub.upper() + " " + code + " " +
-                     find_class(code) + " - " + sem.upper() + " " + year)
+                     find_class(code) + " - " + sem.upper() + " " + year + " - As of " + curr_time[0] + " " + curr_time[2] + " " + curr_time[1] + " "  + curr_time[4] + " " + curr_time[3])
     blob_list.append(
         "\n\tSection\t\tLocation\tDays\t\t Seats Aval\t\t\t  Time\t\t\t\tFaculty")
     blob_list.append(
@@ -138,7 +140,6 @@ def show_schedule(sem, year, sub, code):
             blob_list.append(" ".join(section_string))
             print("------------------------------------------------------------------")
             print(section_string)
-            print("------------------------------------------------------------------")
     return "\n".join([str(x) for x in blob_list])
 
 
