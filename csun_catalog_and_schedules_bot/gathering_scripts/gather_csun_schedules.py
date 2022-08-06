@@ -334,7 +334,7 @@ def convertdays(days_str):
 
 for a in range(0, 60):
     try:
-        random_dict = {}
+        subject_dict = {}
         print(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
         driver.find_element("name", "SOC_DETAIL$IMG$" + str(a)).click()
         time.sleep(4)
@@ -423,16 +423,16 @@ for a in range(0, 60):
                 json_blob.append(course_dict.copy())
                 print(course_dict)
             except NoSuchElementException:
-                i = 50
+                break
         driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
         time.sleep(1)
     except NoSuchElementException:
-        a = 60
+        break
         
 
 #print(json_blob)
-random_dict["classes"] = json_blob
-json.dump(random_dict, file1, indent=4)
+subject_dict["classes"] = json_blob
+json.dump(subject_dict, file1, indent=4)
 file1.close()
 
 """
