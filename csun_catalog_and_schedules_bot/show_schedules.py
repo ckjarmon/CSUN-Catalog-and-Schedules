@@ -25,7 +25,6 @@ url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sys.argv[1] + 
 
 if len(sys.argv) > 4:
     current_class = sys.argv[4]
-    class_title = ""
 else:
     current_class = ""
 
