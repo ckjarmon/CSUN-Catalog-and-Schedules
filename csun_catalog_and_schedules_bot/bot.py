@@ -1,5 +1,4 @@
 # bot.py
-from locale import currency
 import os
 import urllib3
 import json
@@ -101,6 +100,7 @@ def show_schedule(sem, year, sub, code):
                 
             else:
                 section_string.append("\t   " + course["meetings"][0]["location"])
+                
 
             if len(str(course["meetings"][0]["days"])) == 1:
                 section_string.append("\t  " + str(course["meetings"][0]["days"]) + "  ")
@@ -110,15 +110,15 @@ def show_schedule(sem, year, sub, code):
             
             elif len(str(course["meetings"][0]["days"])) == 3:
                 section_string.append("\t " + str(course["meetings"][0]["days"]) + " ")
+                
             elif str(course["meetings"][0]["days"]) == "None":
-
                 section_string.append("\t --")
+                
             else:
                 section_string.append("\t" + str(course["meetings"][0]["days"]) + " ")
                 # print(str(course["meetings"][0]["days"]))
 
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
-                
                 section_string.append("\t\t    " + str(course["enrollment_cap"] - course["enrollment_count"]))
                 
             else:
@@ -150,8 +150,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.author == client.user:
-        return
+    # if message.author == client.user:
+        # return
 
     msg_split = message.content.split()
     print(message.author, end="")
@@ -161,7 +161,14 @@ async def on_message(message):
         response1 = show_classes(msg_split[1], msg_split[2])
         response2 = show_schedule("Fall", "2022", msg_split[1], msg_split[2])
         await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
-
+        
+    elif message.content.__contains__("!csun grade"):
+        grade = 0
+        for i in range(2, int(len(msg_split)/2)+4, 2):
+            grade += (float(msg_split[i]) * (float(msg_split[i+1]))/100)
+            #await message.channel.send("```" + str(i) + "```")
+        await message.channel.send("```" + str(grade) + "```")
+            
     elif len(msg_split) > 3 and message.content.__contains__("!csun"):
         response1 = show_classes(msg_split[1], msg_split[2])
         response2 = show_schedule(msg_split[3], "20" + msg_split[4], msg_split[1], msg_split[2])
@@ -172,8 +179,11 @@ async def on_message(message):
                                    \nTo show different schedule, append it to the end.\n\n" +
                                    "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\n" + 
                                    "For Different Semester:\n\t!csun subject class_code semester YY\n" +
-                                   "Example:\n\t!csun subject class_code spring 23\n\nSource Code: \
+                                   "Example:\n\t!csun subject class_code spring 23\n\nFor Grade:\n\t!csun grade (grade weight)*\n"  + 
+                                    "Example:\n\t!csun grade 74 25 85 35 70 40\n\nSource Code: \
                                     \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
-
+        
+    
+        
 
 client.run(TOKEN)
