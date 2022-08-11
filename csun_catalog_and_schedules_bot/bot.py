@@ -164,9 +164,9 @@ async def on_message(message):
         
     elif message.content.__contains__("!csun grade"):
         grade = 0
-        for i in range(2, int(len(msg_split)/2)+3, 2):
+        for i in range(2, int(len(msg_split)-2/2)+1, 2):
             grade += (float(msg_split[i]) * (float(msg_split[i+1]))/100)
-            #await message.channel.send("```" + str(i) + "```")
+            await message.channel.send("```" + str(i) + "```")
         await message.channel.send("```" + str(grade) + "```")
             
     elif len(msg_split) > 3 and message.content.__contains__("!csun"):
