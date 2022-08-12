@@ -15,6 +15,7 @@ client = discord.Client()
 
 def show_classes(subject, number):
     sems = ["Fall", "Spring"]
+    json_blobs = []
     
     for sem in sems:    
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-2022/courses/" + subject
@@ -26,15 +27,18 @@ def show_classes(subject, number):
         except Exception as e:
             data = json.loads({})
 
-        json_blobs = []
-        current_class = number
         for course in data["courses"]:
-            if (current_class == course["catalog_number"]):
+            if (number == course["catalog_number"]):
                 json_blobs.append(course)
                 break
-        
+            
     if len(json_blobs) > 0:
-        return str(json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n" + str(json_blobs[0]["description"]))
+        ret = str(json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n")
+        for a in json_blobs:
+            if a["description"] is not None:
+                ret += a["description"]
+                break
+        return ret
 
 
 
