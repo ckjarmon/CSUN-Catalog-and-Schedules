@@ -68,7 +68,8 @@ def show_schedule(sem, year, sub, code):
     blob_list = []
     curr_time = time.asctime(time.localtime(time.time())).split()
     blob_list.append(sub.upper() + " " + code + " " +
-                     find_class(code) + " - " + sem.upper() + " " + year + " - As of " + curr_time[0] + " " + curr_time[2] + " " + curr_time[1] + " "  + curr_time[4] + " " + curr_time[3])
+                     find_class(code) + " - " + sem.upper() + " " + year + 
+                     " - As of " + curr_time[0] + " " + curr_time[2] + " " + curr_time[1] + " "  + curr_time[4] + " " + curr_time[3])
     blob_list.append(
         "\n\tSection\t\tLocation\tDays\t\t Seats Aval\t\t\t  Time\t\t\t\tFaculty")
     blob_list.append(
@@ -84,7 +85,8 @@ def show_schedule(sem, year, sub, code):
             if (len(course["meetings"][0]["location"]) == 3):
                 
                 section_string.append("  ")
-                
+            
+            # Location 
             if (len(course["meetings"][0]["location"]) != 7):
                 # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
                 section_string.append("\t\t" + course["meetings"][0]["location"])
@@ -92,7 +94,7 @@ def show_schedule(sem, year, sub, code):
             else:
                 section_string.append("\t   " + course["meetings"][0]["location"])
                 
-
+            # Days
             if len(str(course["meetings"][0]["days"])) == 1:
                 section_string.append("\t  " + str(course["meetings"][0]["days"]) + "  ")
 
@@ -109,12 +111,15 @@ def show_schedule(sem, year, sub, code):
                 section_string.append("\t" + str(course["meetings"][0]["days"]) + " ")
                 # print(str(course["meetings"][0]["days"]))
 
+            
+            # Seats Available
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
                 section_string.append("\t\t    " + str(course["enrollment_cap"] - course["enrollment_count"]))
                 
             else:
                 section_string.append("\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
 
+            # Time 
             section_string.append("\t\t    " +
                                   (course["meetings"][0]["start_time"])[0:2] + ":" +
                                   (course["meetings"][0]["start_time"])[2:4]
@@ -122,6 +127,7 @@ def show_schedule(sem, year, sub, code):
                                   (course["meetings"][0]["end_time"])[0:2] + ":" +
                                   (course["meetings"][0]["end_time"])[2:4])
 
+            # Instructor
             # if a class has no instructor, print Staff instead
             if (len(course["instructors"]) > 0) and course["instructors"][0]["instructor"] != "Staff":
                 section_string.append("\t" + course["instructors"][0]["instructor"])
@@ -141,8 +147,8 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    # if message.author == client.user:
-        # return
+    if message.author == client.user:
+        return
 
     msg_split = message.content.split()
     print(message.author, end="")
@@ -174,7 +180,8 @@ async def on_message(message):
                                    \nTo show different schedule, append it to the end.\n\n" +
                                    "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\n" + 
                                    "For Different Semester:\n\t!csun subject class_code semester YY\n" +
-                                   "Example:\n\t!csun subject class_code spring 23\n\nFor Grade:\n\t!csun grade (grade weight)*\n"  + 
+                                   "Example:\n\t!csun subject class_code spring 23\n\n" + 
+                                    "For Grade:\n\t!csun grade (grade weight)*\n"  + 
                                     "Example:\n\t!csun grade 74 25 85 35 70 40\n\nSource Code: \
                                     \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
         
