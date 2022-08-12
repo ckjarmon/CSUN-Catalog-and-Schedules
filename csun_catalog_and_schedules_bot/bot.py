@@ -164,10 +164,14 @@ async def on_message(message):
         
     elif message.content.__contains__("!csun grade"):
         grade = 0
+        total_weight = 0
         for i in range(2, int(len(msg_split)-2/2)+1, 2):
             grade += (float(msg_split[i]) * (float(msg_split[i+1]))/100)
+            total_weight += float(msg_split[i+1])
             #await message.channel.send("```" + str(i) + "```")
         await message.channel.send("```" + str(grade) + "```")
+        if total_weight != 100.0:
+            await message.channel.send("```Warning: Weights don't total 100.```")
             
     elif len(msg_split) > 3 and message.content.__contains__("!csun"):
         response1 = show_classes(msg_split[1], msg_split[2])
