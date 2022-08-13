@@ -181,9 +181,9 @@ async def on_message(message):
                                    "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\n" + 
                                    "For Different Semester:\n\t!csun subject class_code semester YY\n" +
                                    "Example:\n\t!csun subject class_code spring 23\n\n" + 
-                                    "For Grade:\n\t!csun grade (grade weight)*\n"  + 
-                                    "Example:\n\t!csun grade 74 25 85 35 70 40\n\nSource Code: \
-                                    \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
+                                   "For Grade:\n\t!csun grade (grade weight)*\n"  + 
+                                   "Example:\n\t!csun grade 74 25 85 35 70 40\n\nSource Code: \
+                                   \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
         
     
         
