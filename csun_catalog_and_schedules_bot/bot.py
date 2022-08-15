@@ -74,7 +74,7 @@ def show_schedule(sem, year, sub, code):
         else:
             rootCursor.execute('select * from section where subject_code = %s and catalog_number = %s', request_tuple)
             stuffs = rootCursor.fetchall()
-            data["classes"] = []
+            
             for row in stuffs:
                 temp_dict = {}
                 temp_dict["catalog_number"] = row[1]
@@ -92,6 +92,7 @@ def show_schedule(sem, year, sub, code):
                 temp_dict["instructors"].append({})
                 temp_dict["instructors"][0]["instructor"] = row[2]
                 data["classes"].append(temp_dict)
+            rootConnection.close()
 
                 
         
