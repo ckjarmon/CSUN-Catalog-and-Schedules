@@ -5,6 +5,8 @@ import json
 import discord
 from dotenv import load_dotenv
 import time
+import mysql.connector
+from mysql.connector import errorcode
 
 
 load_dotenv()
@@ -46,7 +48,52 @@ def show_classes(subject, number):
 def show_schedule(sem, year, sub, code):
     if sem.lower() == "spring" and year == "2023":
         
-        data = json.load(open("storedschedules/" + sub.upper() + "_schedule.json"))
+        #data = json.load(open("storedschedules/" + sub.upper() + "_schedule.json"))
+        load_dotenv()
+        dausername = os.getenv('sqlusername')
+        dapassword = os.getenv('sqlpass')
+        request_tuple = (sub, code)
+        try:
+            rootConnection = mysql.connector.connect(
+            user=dausername,
+            password=dapassword,
+            host='127.0.0.1',
+            database='csun')
+    
+            rootCursor = rootConnection.cursor()
+    
+        except mysql.connector.Error as err:
+            if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+                print('Invalid credentials')
+            elif err.errno == errorcode.ER_BAD_DB_ERROR:
+                print('Database not found')
+            else:
+                print('Cannot connect to database:', err)
+
+        else:
+            rootCursor.execute('select * from section where subject_code = %s and catalog_number = %s', request_tuple)
+            stuffs = rootCursor.fetchall()
+            data = {}
+            data["classes"] = []
+            for row in stuffs:
+                temp_dict = {}
+                temp_dict["catalog_number"] = row[1]
+                temp_dict["title"] = row[9]
+                temp_dict["meetings"] = []
+                temp_dict["meetings"].append({})
+                temp_dict["meetings"][0]["days"] = row[7]
+                temp_dict["meetings"][0]["location"] = row[4]
+                temp_dict["meetings"][0]["start_time"] = row[5]
+                temp_dict["meetings"][0]["end_time"] = row[6]
+                temp_dict["class_number"] = str(row[3])
+                temp_dict["enrollment_cap"] = row[8]
+                temp_dict["enrollment_count"] = 0
+                temp_dict["instructors"] = []
+                temp_dict["instructors"].append({})
+                temp_dict["instructors"][0]["instructor"] = row[2]
+                data["classes"].append(temp_dict)
+
+                
         
     else:
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
