@@ -53,6 +53,7 @@ def show_schedule(sem, year, sub, code):
         dausername = os.getenv('sqlusername')
         dapassword = os.getenv('sqlpass')
         request_tuple = (sub, code)
+        data = {}
         try:
             rootConnection = mysql.connector.connect(
             user=dausername,
@@ -73,7 +74,6 @@ def show_schedule(sem, year, sub, code):
         else:
             rootCursor.execute('select * from section where subject_code = %s and catalog_number = %s', request_tuple)
             stuffs = rootCursor.fetchall()
-            data = {}
             data["classes"] = []
             for row in stuffs:
                 temp_dict = {}
