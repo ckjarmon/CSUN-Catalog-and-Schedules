@@ -82,10 +82,10 @@ def show_schedule(sem, year, sub, code):
                 temp_dict["title"] = row[9]
                 temp_dict["meetings"] = []
                 temp_dict["meetings"].append({})
-                temp_dict["meetings"][0]["days"] = row[7]
                 temp_dict["meetings"][0]["location"] = row[4]
                 temp_dict["meetings"][0]["start_time"] = row[5]
                 temp_dict["meetings"][0]["end_time"] = row[6]
+                temp_dict["meetings"][0]["days"] = row[7]
                 temp_dict["class_number"] = str(row[3])
                 temp_dict["enrollment_cap"] = row[8]
                 temp_dict["enrollment_count"] = 0
@@ -93,6 +93,7 @@ def show_schedule(sem, year, sub, code):
                 temp_dict["instructors"].append({})
                 temp_dict["instructors"][0]["instructor"] = row[2]
                 data["classes"].append(temp_dict)
+            rootCursor.close()
             rootConnection.close()
 
                 

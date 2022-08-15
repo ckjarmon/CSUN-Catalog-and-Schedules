@@ -3,7 +3,7 @@ The purpose of this script is to gather the schedule data for Spring
 2023 as it is not available on the API 
 as of the 6th of August.
 
-The script must be run the flags:
+The script must be run with the flags:
 Semester Year Position_of_Subject_in_Dropdown Subject_Code
 
 Position_of_Subject_in_Dropdown is how many times the down arrow should be hit to get 
