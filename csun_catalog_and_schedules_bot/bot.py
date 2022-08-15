@@ -54,6 +54,7 @@ def show_schedule(sem, year, sub, code):
         dapassword = os.getenv('sqlpass')
         request_tuple = (sub, code)
         data = {}
+        data["classes"] = []
         try:
             rootConnection = mysql.connector.connect(
             user=dausername,
