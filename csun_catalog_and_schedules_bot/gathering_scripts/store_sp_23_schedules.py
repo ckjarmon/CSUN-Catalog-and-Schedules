@@ -1,5 +1,3 @@
-
-
 import code
 import shutil
 import mysql.connector
