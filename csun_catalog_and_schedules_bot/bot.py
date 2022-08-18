@@ -49,7 +49,8 @@ def show_classes(subject, number):
 def show_schedule(sem, year, sub, code):
     if sem.lower() == "spring" and year == "2023":
         
-        #data = json.load(open("storedschedules/" + sub.upper() + "_schedule.json"))
+        data = json.load(open("storedschedules/" + sub.upper() + "_schedule.json"))
+        """
         load_dotenv()
         dausername = os.getenv('sqlusername')
         dapassword = os.getenv('sqlpass')
@@ -96,6 +97,7 @@ def show_schedule(sem, year, sub, code):
                 data["classes"].append(temp_dict)
             rootCursor.close()
             rootConnection.close()
+            """
 
                 
         
