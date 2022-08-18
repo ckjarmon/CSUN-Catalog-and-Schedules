@@ -1,4 +1,5 @@
 # bot.py
+import numbers
 import os
 import urllib3
 import json
@@ -203,12 +204,43 @@ async def on_message(message):
     msg_split = message.content.split()
     print(message.author, end="")
     print(" [" + message.content + "]")
+    muls = bool
+    
+    if message.content.__contains__("!csun"):
+        muls = True
+        for i in range(2, len(msg_split)):
+            try:
+                summ = int(msg_split[i])
+            except:
+                muls = False
+                break
+            
 
+    #await message.channel.send("```" + str(muls) + "```")
+    
     if message.content.__contains__("!csun") and len(msg_split) == 3:
         response1 = show_classes(msg_split[1], msg_split[2])
         response2 = show_schedule("Fall", "2022", msg_split[1], msg_split[2])
         await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
         
+    elif message.content.__contains__("!csun help"):
+        await message.channel.send("```Shows both class description and schedule by default. Default schedule is Fall 2022 \
+                                   \nTo show different schedule, append it to the end.\n\n" +
+                                   "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\n" + 
+                                   "For default and multiple classes (in a single subject)\n\t!csun subject class_code class_code class_code" + 
+                                   "\nExample:\n\t!csun comp 110 182 282\n\n" + 
+                                   "For Different Semester:\n\t!csun subject class_code semester YY\n" +
+                                   "Example:\n\t!csun subject class_code spring 23\n\n" + 
+                                   "For Grade:\n\t!csun grade (grade weight)*\n"  + 
+                                   "Example:\n\t!csun grade 74 25 85 35 70 40\n\nSource Code: \
+                                   \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
+        
+    elif  message.content.__contains__("!csun") and muls:
+        for i in range(2, len(msg_split)):
+            response1 = show_classes(msg_split[1], msg_split[i])
+            response2 = show_schedule("Fall", "2022", msg_split[1], msg_split[i])
+            await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
+    
     elif message.content.__contains__("!csun grade"):
         grade = 0
         total_weight = 0
@@ -225,15 +257,7 @@ async def on_message(message):
         response2 = show_schedule(msg_split[3], "20" + msg_split[4], msg_split[1], msg_split[2])
         await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
 
-    elif message.content.__contains__("!csun help"):
-        await message.channel.send("```Shows both class description and schedule by default. Default schedule is Fall 2022 \
-                                   \nTo show different schedule, append it to the end.\n\n" +
-                                   "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\n" + 
-                                   "For Different Semester:\n\t!csun subject class_code semester YY\n" +
-                                   "Example:\n\t!csun subject class_code spring 23\n\n" + 
-                                   "For Grade:\n\t!csun grade (grade weight)*\n"  + 
-                                   "Example:\n\t!csun grade 74 25 85 35 70 40\n\nSource Code: \
-                                   \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
+    
         
     
         
