@@ -3,4 +3,4 @@ git fetch && git pull
 mv --force bot.py ../../
 cd ~
 python3 bot.py
-node.js
+node bot.js
