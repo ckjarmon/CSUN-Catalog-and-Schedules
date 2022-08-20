@@ -6,3 +6,7 @@ misc
 .env
 *.env
 README.md
+package.json
+package-lock.json
+
+config.json
