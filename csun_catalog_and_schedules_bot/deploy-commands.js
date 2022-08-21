@@ -12,7 +12,7 @@ const {
 } = require('./config.json');
 
 const commands = [
-		new SlashCommandBuilder().setName('class').setDescription('idek anymore').addStringOption(option =>
+		new SlashCommandBuilder().setName('class').setDescription('show class(es) from 1 subject').addStringOption(option =>
 			option.setName('subject')
 			.setDescription('the subject')
 			.setRequired(true)).addStringOption(option =>
@@ -23,8 +23,15 @@ const commands = [
 			.setDescription('the 2nd catalog number')
 			.setRequired(false)).addStringOption(option =>
 			option.setName('catalog_number2')
-			.setDescription('the 3rdnd catalog number')
+			.setDescription('the 3rd catalog number')
 			.setRequired(false)),
+			new SlashCommandBuilder().setName('classes').setDescription('show class(es) from subject(s)').addStringOption(option =>
+				option.setName('class1').setDescription('subject_code number')
+				.setRequired(true)).addStringOption(option =>
+					option.setName('class2').setDescription('subject_code number')
+					.setRequired(false)).addStringOption(option =>
+						option.setName('class3').setDescription('subject_code number')
+						.setRequired(false)),
 		new SlashCommandBuilder().setName('help').setDescription('to learn the stuffs'),
 
 	]
