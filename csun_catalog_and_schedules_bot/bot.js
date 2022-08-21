@@ -33,7 +33,7 @@ client.on('interactionCreate', async interaction => {
     var subject = "",fir_class = "", sec_class = "", thi_class = "";
     subject = interaction.options.getString('subject').toLowerCase();
 
-    fir_class = interaction.options.getString('catalog_number')
+    fir_class = interaction.options.getString('catalog_number');
 
     if (interaction.options.getString('catalog_number1')) {
       sec_class =interaction.options.getString('catalog_number1');
