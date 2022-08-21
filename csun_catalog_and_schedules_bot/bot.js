@@ -18,12 +18,12 @@ client.on('ready', () => {
 
 client.on('interactionCreate', async interaction => {
   if (!interaction.isChatInputCommand()) return;
-  interaction.deferReply();
+  //interaction.deferReply();
   const {
     commandName
   } = interaction;
 
-  if (commandName === 'csun') {
+  if (commandName === 'class') {
 
     //await interaction.reply(interaction.options.getString('subject').toUpperCase() + " " +  interaction.options.getString('catalog_number'));
     //https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/comp
@@ -125,7 +125,11 @@ client.on('interactionCreate', async interaction => {
 
 
   }
-
+  else if (commandName === 'help') {
+    let ret = "```\"/class\" for schedule of a specific class \n\nSource Code: \
+    \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
+    await interaction.reply(ret);
+  }
 
 });
 
