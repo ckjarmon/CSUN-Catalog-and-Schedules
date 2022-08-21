@@ -9,8 +9,15 @@ const commands = [
 			.setRequired(true)).addStringOption(option =>
                 option.setName('catalog_number')
                     .setDescription('the catalog number')
-                    .setRequired(true)),
+                    .setRequired(true)).addStringOption(option =>
+						option.setName('catalog_number1')
+							.setDescription('the 2nd catalog number')
+							.setRequired(false)).addStringOption(option =>
+								option.setName('catalog_number2')
+									.setDescription('the 3rdnd catalog number')
+									.setRequired(false)), 
 		new SlashCommandBuilder().setName('help').setDescription('to learn the stuffs'),
+		
 ]
 	.map(command => command.toJSON());
 
