@@ -8,5 +8,5 @@ misc
 README.md
 package.json
 package-lock.json
-
+.gitignore
 config.json
