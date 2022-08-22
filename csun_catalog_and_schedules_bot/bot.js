@@ -113,7 +113,7 @@ function show_class(subject, code, itchid) {
 
 }
 
-async function show_class(subject, code, semester, year, itchid) {
+function show_class(subject, code, semester, year, itchid) {
  
   if (semester !== "spring" && year !== 23) {
     var ret1 = "";
@@ -210,9 +210,102 @@ async function show_class(subject, code, semester, year, itchid) {
       await client.channels.cache.get(itchid).send("```" + ret1 + "```");
     }); //end request
   } else {
-    var ret1 = "";
+    var ret1 = "", ret2 = "";
 
-    await client.channels.cache.get(itchid).send("```Use !csun " + subject +  " " + code + " spring 23```");
+    require("request")({
+      url: 'https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/' + subject,
+      json: true
+    }, async function (error, response, body) {
+      //console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/courses/' + subject);
+      if (!error && response.statusCode === 200) {
+        //console.log(body); //Print the json response
+        const stuffs = JSON.parse(JSON.stringify(body));
+        //console.log(stuffs.courses[0].title)
+        //ret += stuffs.courses[0];
+        stuffs.courses.forEach(element => {
+          if (element.catalog_number === code) {
+            ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" + element.subject + " " + element.catalog_number + " " + element.title);
+            let currentDate = new Date();
+
+            ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + " - As of ");
+            if (String(currentDate.getHours()).length === 1) {
+              ret1 = ret1.concat("0" + currentDate.getHours() + ":");
+            } else {
+              ret1 = ret1.concat(currentDate.getHours() + ":");
+            }
+
+            if (String(currentDate.getMinutes()).length === 1) {
+              ret1 = ret1.concat("0" + currentDate.getMinutes() + ":");
+            } else {
+              ret1 = ret1.concat(currentDate.getMinutes() + ":");
+            }
+
+            if (String(currentDate.getSeconds()).length === 1) {
+              ret1 = ret1.concat("0" + currentDate.getSeconds());
+            } else {
+              ret1 = ret1.concat(currentDate.getSeconds());
+            }
+
+            ret1 = ret1.concat("\n");
+          }
+        });
+
+        await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
+      }
+    }); //end request
+
+   require("request")({
+    url: 'http://127.0.0.1:5000/' + subject,
+    json: true
+  }, async function (error, response, body) {
+    //console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/classes/' + subject);
+    if (!error && response.statusCode === 200) {
+      //console.log(body); //Print the json response
+      const stuffs = JSON.parse(JSON.stringify(body));
+      //console.log(stuffs.courses[0].title)
+      //ret += stuffs.courses[0];
+      ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
+      stuffs.classes.forEach(element => {
+        if (element.catalog_number === code && element.meetings.length > 0) {
+          ret2 = ret2.concat("\t " + element.class_number);
+          //console.log(element.meetings[0].location);
+          if (element.meetings[0].location.length === 5) {
+            ret2 = ret2.concat("\t\t   " + element.meetings[0].location);
+          } else {
+            ret2 = ret2.concat("\t\t  " + element.meetings[0].location);
+          }
+
+          if (element.meetings[0].days.length === 1) {
+            ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
+          } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
+            ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+          } else {
+            ret2 = ret2.concat("\t\t " + element.meetings[0].days);
+          }
+
+
+
+          ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
+          ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
+          ret2 = ret2.concat(" - ");
+          ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
+
+          if (element.instructors.length > 0) {
+            ret2 = ret2.concat("\t\t" + element.instructors[0].instructor);
+          } else {
+            ret2 = ret2.concat("\t\t\t\tStaff");
+          }
+
+          ret2 = ret2.concat("\n");
+        }
+      });
+
+    } //end if
+
+      
+    }); //end request
+
+    //await client.channels.cache.get(itchid).send("```Use !csun " + subject +  " " + code + " spring 23```");
 
     
   }
