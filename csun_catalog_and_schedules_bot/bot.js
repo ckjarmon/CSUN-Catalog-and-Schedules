@@ -47,7 +47,7 @@ function show_class(subject, code, itchid) {
           }
 
           if (String(currentDate.getSeconds()).length === 1) {
-            ret1 = ret1.concat("0" + currentDate.getSeconds() + ":");
+            ret1 = ret1.concat("0" + currentDate.getSeconds());
           } else {
             ret1 = ret1.concat(currentDate.getSeconds());
           }
@@ -182,7 +182,7 @@ client.on('interactionCreate', async interaction => {
     let ret = "```\"/class\" for 1 or more classes \n\nSource Code: \
     \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
     await interaction.reply(ret);
-    
+
   }
 
 });
