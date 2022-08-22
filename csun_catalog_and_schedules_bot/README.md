@@ -27,6 +27,7 @@ Multiple Classes, Multiple Subjects was not implemented in the Python version
 
 
 # Javascript Commands 
+
 ## Example 1: Single Class, Single Subject
 
 ![Enter Parameters](imgs/ent_parms.png)
@@ -41,3 +42,6 @@ Multiple Classes, Multiple Subjects was not implemented in the Python version
 
 ![Enter Parameter](imgs/multi_subject_input.png)
 ![Result](imgs/multi_subject_output.png)
+
+## The default semester is Fall 2022. 
+### For other semesters append to end, subject YY, last 2 digits of year
