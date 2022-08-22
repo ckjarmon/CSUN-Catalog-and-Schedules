@@ -441,6 +441,7 @@ client.on('interactionCreate', async interaction => {
       if (class3.length !== 0) {
         show_class(class3[0], class3[1], semester, year, itchid);
       }
+      await interaction.reply("Gimme a sec");
     } else {
 
       show_class(class1[0], class1[1], itchid);
