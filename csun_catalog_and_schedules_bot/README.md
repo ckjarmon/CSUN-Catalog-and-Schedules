@@ -13,18 +13,31 @@ Discord Bot Available:\
 https://discord.com/api/oauth2/authorize?client_id=1001804710744948756&permissions=36507290688&scope=bot \
 Help Command: !csun help
 
+The are 2 different ways the bot can be called, as it is implemented in 2 languages.
 
-# Example 1: Single Class, Single Subject
+# Python Commands 
+
+Single Class, Single Subject
+![](imgs/py_single_class.png)
+
+Multiple Classes, Single Subject
+![](imgs/py_multi_class.png)
+
+Multiple Classes, Multiple Subjects was not implemented in the Python version
+
+
+# Javascript Commands 
+## Example 1: Single Class, Single Subject
 
 ![Enter Parameters](imgs/ent_parms.png)
 ![Result](imgs/result.png)
 
-# Example 2: Multiple Classes, Single Subject
+## Example 2: Multiple Classes, Single Subject
 
 ![Enter Parameter](imgs/multi-class_input.png)
 ![Result](imgs/multi-class_ouput.png)
 
-# Example 3: Multiple Classes, Multiple Subjects
+## Example 3: Multiple Classes, Multiple Subjects
 
 ![Enter Parameter](imgs/multi_subject_input.png)
 ![Result](imgs/multi_subject_output.png)
