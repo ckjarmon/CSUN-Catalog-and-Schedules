@@ -45,3 +45,8 @@ Multiple Classes, Multiple Subjects was not implemented in the Python version
 
 ## The default semester is Fall 2022. 
 ### For other semesters append to end, subject YY, last 2 digits of year
+
+![Enter Parameter](imgs/multi_diff_semester_input.png)
+![Result](imgs/multi_diff_semester_output.png)
+
+Same input scheme for single subject input.
