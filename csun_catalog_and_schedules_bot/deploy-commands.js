@@ -24,14 +24,21 @@ const commands = [
 			.setRequired(false)).addStringOption(option =>
 			option.setName('catalog_number2')
 			.setDescription('the 3rd catalog number')
+			.setRequired(false)).addStringOption(option =>
+			option.setName('semester')
+			.setDescription('fall, spring, summer, winter')
+			.setRequired(false))
+			.addStringOption(option =>
+			option.setName('year')
+			.setDescription('last 2 numbers of year')
 			.setRequired(false)),
-			new SlashCommandBuilder().setName('classes').setDescription('show class(es) from subject(s)').addStringOption(option =>
-				option.setName('class1').setDescription('subject_code number')
-				.setRequired(true)).addStringOption(option =>
-					option.setName('class2').setDescription('subject_code number')
-					.setRequired(false)).addStringOption(option =>
-						option.setName('class3').setDescription('subject_code number')
-						.setRequired(false)),
+		new SlashCommandBuilder().setName('classes').setDescription('show class(es) from subject(s)').addStringOption(option =>
+			option.setName('class1').setDescription('subject_code number')
+			.setRequired(true)).addStringOption(option =>
+			option.setName('class2').setDescription('subject_code number')
+			.setRequired(false)).addStringOption(option =>
+			option.setName('class3').setDescription('subject_code number')
+			.setRequired(false)).addStringOption(option => option.setName('semester').setDescription('fall, spring, summer, winter').setRequired(false)).addStringOption(option => option.setName('year').setDescription('last 2 numbers of year').setRequired(false)),
 		new SlashCommandBuilder().setName('help').setDescription('to learn the stuffs'),
 
 	]
