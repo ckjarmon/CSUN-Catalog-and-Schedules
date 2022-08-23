@@ -17,23 +17,13 @@ client = discord.Client()
 
 
 def show_classes(subject, number):
-    sems = ["Fall", "Spring"]
+
+    data = json.load(open('json_catalogs/' + subject.upper() + '_catalog.json'))
     json_blobs = []
-    
-    for sem in sems:    
-        url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-2022/courses/" + subject
-        #print("\n Data Link: " + url)
-
-        # try to read the data and load
-        try:
-            data = json.loads(urllib3.PoolManager().request("GET", url).data)
-        except Exception as e:
-            data = json.loads({})
-
-        for course in data["courses"]:
-            if (number == course["catalog_number"]):
-                json_blobs.append(course)
-                break
+    for course in data:
+        if (number == course["catalog_number"]):
+            json_blobs.append(course)
+            break
             
     if len(json_blobs) > 0:
         ret = str(json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n")
