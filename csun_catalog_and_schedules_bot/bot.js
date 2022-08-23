@@ -17,9 +17,10 @@ client.on('ready', () => {
 // });
 
 function show_class(subject, code, itchid) {
+  console.log("Show class called.");
   var ret1 = "";
   require("request")({
-    url: 'https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/' + subject,
+    url: 'http://127.0.0.1:5000/' + subject + '1',
     json: true
   }, async function (error, response, body) {
     console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/' + subject);
@@ -28,7 +29,7 @@ function show_class(subject, code, itchid) {
       const stuffs = JSON.parse(JSON.stringify(body));
       //console.log(stuffs.courses[0].title)
       //ret += stuffs.courses[0];
-      stuffs.courses.forEach(element => {
+      stuffs.forEach(element => {
         if (element.catalog_number === code) {
           ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" + element.subject + " " + element.catalog_number + " " + element.title);
           let currentDate = new Date();
@@ -113,12 +114,12 @@ function show_class(subject, code, itchid) {
 
 }
 
-function show_class(subject, code, semester, year, itchid) {
-
+function show_class_with_term(subject, code, semester, year, itchid) {
+  console.log("Show class override called.");
   if (semester !== "spring" && year !== 23) {
     var ret1 = "";
     require("request")({
-      url: 'https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/courses/' + subject,
+      url: 'http://127.0.0.1:5000/' + subject + '1',
       json: true
     }, async function (error, response, body) {
       console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/courses/' + subject);
@@ -127,7 +128,7 @@ function show_class(subject, code, semester, year, itchid) {
         const stuffs = JSON.parse(JSON.stringify(body));
         //console.log(stuffs.courses[0].title)
         //ret += stuffs.courses[0];
-        stuffs.courses.forEach(element => {
+        stuffs.forEach(element => {
           if (element.catalog_number === code) {
             ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" + element.subject + " " + element.catalog_number + " " + element.title);
             let currentDate = new Date();
@@ -155,7 +156,7 @@ function show_class(subject, code, semester, year, itchid) {
           }
         });
 
-
+        //await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
       }
     }); //end request
 
@@ -214,7 +215,7 @@ function show_class(subject, code, semester, year, itchid) {
       ret2 = "";
 
     require("request")({
-      url: 'https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/' + subject,
+      url: 'http://127.0.0.1:5000/' + subject + '1',
       json: true
     }, async function (error, response, body) {
       //console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/courses/' + subject);
@@ -223,7 +224,7 @@ function show_class(subject, code, semester, year, itchid) {
         const stuffs = JSON.parse(JSON.stringify(body));
         //console.log(stuffs.courses[0].title)
         //ret += stuffs.courses[0];
-        stuffs.courses.forEach(element => {
+        stuffs.forEach(element => {
           if (element.catalog_number === code) {
             ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" + element.subject + " " + element.catalog_number + " " + element.title);
             let currentDate = new Date();
@@ -248,11 +249,13 @@ function show_class(subject, code, semester, year, itchid) {
             }
 
             ret1 = ret1.concat("\n");
+
           }
         });
 
-        await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
+
       }
+
     }); //end request
 
     require("request")({
@@ -303,7 +306,7 @@ function show_class(subject, code, semester, year, itchid) {
 
       } //end if
 
-
+      await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
     }); //end request
 
     //await client.channels.cache.get(itchid).send("```Use !csun " + subject +  " " + code + " spring 23```");
@@ -339,6 +342,7 @@ client.on('interactionCreate', async interaction => {
         thi_class = "",
         semester = "",
         year = "";
+
       subject = interaction.options.getString('subject').toLowerCase();
 
       fir_class = interaction.options.getString('catalog_number');
@@ -357,17 +361,17 @@ client.on('interactionCreate', async interaction => {
 
 
 
-      show_class(subject, fir_class, semester, year, itchid);
+      show_class_with_term(subject, fir_class, semester, year, itchid);
 
 
       if (sec_class !== "") {
 
-        show_class(subject, sec_class, semester, year, itchid);
+        show_class_with_term(subject, sec_class, semester, year, itchid);
       }
 
       if (thi_class !== "") {
 
-        show_class(subject, thi_class, semester, year, itchid);
+        show_class_with_term(subject, thi_class, semester, year, itchid);
       }
 
 
@@ -375,6 +379,7 @@ client.on('interactionCreate', async interaction => {
       await interaction.reply("Gimme a sec")
 
     } else {
+
       var subject = "",
         fir_class = "",
         sec_class = "",
@@ -432,26 +437,26 @@ client.on('interactionCreate', async interaction => {
       year = interaction.options.getString('year');
 
 
-      show_class(class1[0], class1[1], semester, year, itchid);
+      show_class_with_term(class1[0], class1[1], semester, year, itchid);
 
       if (class2.length !== 0) {
-        show_class(class2[0], class2[1], semester, year, itchid);
+        show_class_with_term(class2[0], class2[1], semester, year, itchid);
       }
 
       if (class3.length !== 0) {
-        show_class(class3[0], class3[1], semester, year, itchid);
+        show_class_with_term(class3[0], class3[1], semester, year, itchid);
       }
       await interaction.reply("Gimme a sec");
     } else {
 
-      show_class(class1[0], class1[1], itchid);
+      show_class_with_term(class1[0], class1[1], itchid);
 
       if (class2.length !== 0) {
-        show_class(class2[0], class2[1], itchid);
+        show_class_with_term(class2[0], class2[1], itchid);
       }
 
       if (class3.length !== 0) {
-        show_class(class3[0], class3[1], itchid);
+        show_class_with_term(class3[0], class3[1], itchid);
       }
       await interaction.reply("Gimme a sec");
     }
