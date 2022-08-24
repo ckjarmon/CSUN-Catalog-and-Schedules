@@ -397,7 +397,7 @@ client.on('interactionCreate', async interaction => {
       }
 
       if (thi_class) {
-        how_class(subject, thi_class, itchid);
+        show_class(subject, thi_class, itchid);
       }
 
 
