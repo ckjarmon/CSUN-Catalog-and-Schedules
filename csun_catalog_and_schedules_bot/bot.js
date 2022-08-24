@@ -31,7 +31,8 @@ function show_class(subject, code, itchid) {
       //ret += stuffs.courses[0];
       stuffs.forEach(element => {
         if (element.catalog_number === code) {
-          ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" + element.subject + " " + element.catalog_number + " " + element.title);
+          ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" +
+            element.subject + " " + element.catalog_number + " " + element.title);
           let currentDate = new Date();
 
           ret1 = ret1.concat(" - FALL 2022 - As of ");
@@ -122,7 +123,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       url: `http://127.0.0.1:5000/${subject}/catalog`,
       json: true
     }, async function (error, response, body) {
-      console.log( `http://127.0.0.1:5000/${subject}/catalog`);
+      console.log(`http://127.0.0.1:5000/${subject}/catalog`);
       if (!error && response.statusCode === 200) {
         //console.log(body); //Print the json response
         const stuffs = JSON.parse(JSON.stringify(body));
@@ -130,7 +131,8 @@ function show_class_with_term(subject, code, semester, year, itchid) {
         //ret += stuffs.courses[0];
         stuffs.forEach(element => {
           if (element.catalog_number === code) {
-            ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" + element.subject + " " + element.catalog_number + " " + element.title);
+            ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" +
+              element.subject + " " + element.catalog_number + " " + element.title);
             let currentDate = new Date();
 
             ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + " - As of ");
@@ -173,7 +175,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
         stuffs.classes.forEach(element => {
           if (element.catalog_number === code && element.meetings.length > 0) {
             ret1 = ret1.concat("\t " + element.class_number);
- 
+
             if (element.meetings[0].location.length === 5) {
               ret1 = ret1.concat("\t\t   " + element.meetings[0].location);
             } else {
@@ -219,12 +221,13 @@ function show_class_with_term(subject, code, semester, year, itchid) {
     }, async function (error, response, body) {
       console.log(`http://127.0.0.1:5000/${subject}/catalog`);
       if (!error && response.statusCode === 200) {
-      
+
         const stuffs = JSON.parse(JSON.stringify(body));
-   
+
         stuffs.forEach(element => {
           if (element.catalog_number === code) {
-            ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" + element.subject + " " + element.catalog_number + " " + element.title);
+            ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" +
+              element.subject + " " + element.catalog_number + " " + element.title);
             let currentDate = new Date();
 
             ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + " - As of ");
@@ -250,7 +253,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
           }
         });
-
+await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
 
       }
 
@@ -260,31 +263,33 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       url: `http://127.0.0.1:5000/${subject}/schedule`,
       json: true
     }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:5000/${subject}/schedule`); 
+      console.log(`http://127.0.0.1:5000/${subject}/schedule`);
       if (!error && response.statusCode === 200) {
-        
+
         const stuffs = JSON.parse(JSON.stringify(body));
-   
+
         ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
         stuffs.classes.forEach(element => {
           if (element.catalog_number === code && element.meetings.length > 0) {
             ret2 = ret2.concat("\t " + element.class_number);
-           
+
             if (element.meetings[0].location.length === 5) {
               ret2 = ret2.concat("\t\t   " + element.meetings[0].location);
             } else {
               ret2 = ret2.concat("\t\t  " + element.meetings[0].location);
             }
 
-            if (element.meetings[0].days)
-           { if (element.meetings[0].days.length === 1) {
-              ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
-            } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
-              ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+            if (element.meetings[0].days) {
+              if (element.meetings[0].days.length === 1) {
+                ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
+              } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
+                ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+              } else {
+                ret2 = ret2.concat("\t\t " + element.meetings[0].days);
+              }
             } else {
-              ret2 = ret2.concat("\t\t " + element.meetings[0].days);
-            } 
-}else {ret2 = ret2.concat("\t\t  --");}
+              ret2 = ret2.concat("\t\t  --");
+            }
 
 
             ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
@@ -304,10 +309,10 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
       } //end if
 
-      await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
+      
     }); //end request
 
-  
+
 
 
   }
@@ -343,11 +348,11 @@ client.on('interactionCreate', async interaction => {
 
 
 
-      
+
       fir_class = interaction.options.getString('catalog_number');
       sec_class = interaction.options.getString('catalog_number1');
       thi_class = interaction.options.getString('catalog_number2');
-      
+
 
       semester = interaction.options.getString('semester');
       year = interaction.options.getString('year');
@@ -368,7 +373,7 @@ client.on('interactionCreate', async interaction => {
         show_class_with_term(subject, thi_class, semester, year, itchid);
       }
 
-    
+
 
       await interaction.reply("Gimme a sec")
 
@@ -383,7 +388,7 @@ client.on('interactionCreate', async interaction => {
       fir_class = interaction.options.getString('catalog_number');
       sec_class = interaction.options.getString('catalog_number1');
       thi_class = interaction.options.getString('catalog_number2');
-   
+
 
 
       show_class(subject, fir_class, itchid);
@@ -415,8 +420,8 @@ client.on('interactionCreate', async interaction => {
     var semester = "",
       year = "";
 
-      semester = interaction.options.getString('semester');
-      year = interaction.options.getString('year');
+    semester = interaction.options.getString('semester');
+    year = interaction.options.getString('year');
 
     if ((semester || year) && !(semester && year)) {
       await interaction.reply("Need both semester and year if other than Fall 2022.")
