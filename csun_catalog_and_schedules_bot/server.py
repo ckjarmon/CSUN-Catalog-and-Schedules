@@ -3,11 +3,8 @@ import json
 
 app = Flask(__name__)
 
-@app.route('/<string:subject>')
+@app.route('/<string:subject>/<string:data>')
 def test(**kwargs):
-    if kwargs["subject"].__contains__("1"):
-        return json.load(open('./json_catalogs/' + kwargs["subject"].upper()[0:len(kwargs["subject"])-1] + '_catalog.json'))
-    else:
-        return json.load(open('./storedschedules/' + kwargs["subject"].upper() + '_schedule.json'))
+    return json.load(open('./json_' + kwargs["data"] +  's/' + kwargs["subject"].upper() + '_' + kwargs["data"]+ '.json'))
 
 app.run()
