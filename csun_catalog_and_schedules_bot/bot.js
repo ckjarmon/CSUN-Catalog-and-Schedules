@@ -279,14 +279,15 @@ function show_class_with_term(subject, code, semester, year, itchid) {
               ret2 = ret2.concat("\t\t  " + element.meetings[0].location);
             }
 
-            if (element.meetings[0].days.length === 1) {
+            if (element.meetings[0].days)
+           { if (element.meetings[0].days.length === 1) {
               ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
             } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
               ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
             } else {
               ret2 = ret2.concat("\t\t " + element.meetings[0].days);
-            }
-
+            } 
+}else {ret2 = ret2.concat("\t\t  --");}
 
 
             ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
@@ -329,31 +330,27 @@ client.on('interactionCreate', async interaction => {
     //await interaction.reply(interaction.options.getString('subject').toUpperCase() + " " +  interaction.options.getString('catalog_number'));
     //https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/courses/comp
 
-    sem_bool = interaction.options.getString('semester');
-    year_bool = interaction.options.getString('year');
+    semester = interaction.options.getString('semester');
+    year = interaction.options.getString('year');
 
-    if ((sem_bool || year_bool) && !(sem_bool && year_bool)) {
+    if ((semester || year) && !(semester && year)) {
       await interaction.reply("Need both semester and year if other than Fall 2022.")
-    } else if (sem_bool && year_bool) {
+    } else if (semester && year) {
 
       var subject = "",
         fir_class = "",
         sec_class = "",
-        thi_class = "",
-        semester = "",
-        year = "";
+        thi_class = "";
 
       subject = interaction.options.getString('subject').toLowerCase();
 
+
+
+      
       fir_class = interaction.options.getString('catalog_number');
-
-      if (interaction.options.getString('catalog_number1')) {
-        sec_class = interaction.options.getString('catalog_number1');
-      }
-
-      if (interaction.options.getString('catalog_number2')) {
-        thi_class = interaction.options.getString('catalog_number2');
-      }
+      sec_class = interaction.options.getString('catalog_number1');
+      thi_class = interaction.options.getString('catalog_number2');
+      
 
       semester = interaction.options.getString('semester');
       year = interaction.options.getString('year');
@@ -364,17 +361,17 @@ client.on('interactionCreate', async interaction => {
       show_class_with_term(subject, fir_class, semester, year, itchid);
 
 
-      if (sec_class !== "") {
+      if (sec_class) {
 
         show_class_with_term(subject, sec_class, semester, year, itchid);
       }
 
-      if (thi_class !== "") {
+      if (thi_class) {
 
         show_class_with_term(subject, thi_class, semester, year, itchid);
       }
 
-
+    
 
       await interaction.reply("Gimme a sec")
 
@@ -387,29 +384,20 @@ client.on('interactionCreate', async interaction => {
       subject = interaction.options.getString('subject').toLowerCase();
 
       fir_class = interaction.options.getString('catalog_number');
-
-      if (interaction.options.getString('catalog_number1')) {
-        sec_class = interaction.options.getString('catalog_number1');
-      }
-
-      if (interaction.options.getString('catalog_number2')) {
-        thi_class = interaction.options.getString('catalog_number2');
-      }
-
-
+      sec_class = interaction.options.getString('catalog_number1');
+      thi_class = interaction.options.getString('catalog_number2');
+   
 
 
       show_class(subject, fir_class, itchid);
 
 
-      if (sec_class !== "") {
-
+      if (sec_class) {
         show_class(subject, sec_class, itchid);
       }
 
-      if (thi_class !== "") {
-
-        show_class(subject, thi_class, itchid);
+      if (thi_class) {
+        how_class(subject, thi_class, itchid);
       }
 
 
@@ -418,23 +406,26 @@ client.on('interactionCreate', async interaction => {
     }
 
   } else if (commandName === 'classes') {
+
     itchid = interaction.channelId;
+
     const class1 = interaction.options.getString('class1').split(" ")
     const class2 = (interaction.options.getString('class2')) ? interaction.options.getString('class2').split(" ") : [];
     const class3 = (interaction.options.getString('class3')) ? interaction.options.getString('class3').split(" ") : [];
 
-    sem_bool = interaction.options.getString('semester');
-    year_bool = interaction.options.getString('year');
+
 
     var semester = "",
       year = "";
 
-    if ((sem_bool || year_bool) && !(sem_bool && year_bool)) {
-      await interaction.reply("Need both semester and year if other than Fall 2022.")
-    } else if (sem_bool && year_bool) {
-
       semester = interaction.options.getString('semester');
       year = interaction.options.getString('year');
+
+    if ((semester || year) && !(semester && year)) {
+      await interaction.reply("Need both semester and year if other than Fall 2022.")
+    } else if (semester && year) {
+
+
 
 
       show_class_with_term(class1[0], class1[1], semester, year, itchid);
