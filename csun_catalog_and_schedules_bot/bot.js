@@ -122,7 +122,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       url: `http://127.0.0.1:5000/${subject}/catalog`,
       json: true
     }, async function (error, response, body) {
-      console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/courses/' + subject);
+      console.log( `http://127.0.0.1:5000/${subject}/catalog`);
       if (!error && response.statusCode === 200) {
         //console.log(body); //Print the json response
         const stuffs = JSON.parse(JSON.stringify(body));
@@ -166,15 +166,14 @@ function show_class_with_term(subject, code, semester, year, itchid) {
     }, async function (error, response, body) {
       console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/classes/' + subject);
       if (!error && response.statusCode === 200) {
-        //console.log(body); //Print the json response
+
         const stuffs = JSON.parse(JSON.stringify(body));
-        //console.log(stuffs.courses[0].title)
-        //ret += stuffs.courses[0];
+
         ret1 = ret1.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
         stuffs.classes.forEach(element => {
           if (element.catalog_number === code && element.meetings.length > 0) {
             ret1 = ret1.concat("\t " + element.class_number);
-            //console.log(element.meetings[0].location);
+ 
             if (element.meetings[0].location.length === 5) {
               ret1 = ret1.concat("\t\t   " + element.meetings[0].location);
             } else {
@@ -218,12 +217,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       url: `http://127.0.0.1:5000/${subject}/catalog`,
       json: true
     }, async function (error, response, body) {
-      //console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/courses/' + subject);
+      console.log(`http://127.0.0.1:5000/${subject}/catalog`);
       if (!error && response.statusCode === 200) {
-        //console.log(body); //Print the json response
+      
         const stuffs = JSON.parse(JSON.stringify(body));
-        //console.log(stuffs.courses[0].title)
-        //ret += stuffs.courses[0];
+   
         stuffs.forEach(element => {
           if (element.catalog_number === code) {
             ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" + element.subject + " " + element.catalog_number + " " + element.title);
@@ -262,17 +260,16 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       url: `http://127.0.0.1:5000/${subject}/schedule`,
       json: true
     }, async function (error, response, body) {
-      //console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/classes/' + subject);
+      console.log(`http://127.0.0.1:5000/${subject}/schedule`); 
       if (!error && response.statusCode === 200) {
-        //console.log(body); //Print the json response
+        
         const stuffs = JSON.parse(JSON.stringify(body));
-        //console.log(stuffs.courses[0].title)
-        //ret += stuffs.courses[0];
+   
         ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
         stuffs.classes.forEach(element => {
           if (element.catalog_number === code && element.meetings.length > 0) {
             ret2 = ret2.concat("\t " + element.class_number);
-            //console.log(element.meetings[0].location);
+           
             if (element.meetings[0].location.length === 5) {
               ret2 = ret2.concat("\t\t   " + element.meetings[0].location);
             } else {
@@ -310,7 +307,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
     }); //end request
 
-    //await client.channels.cache.get(itchid).send("```Use !csun " + subject +  " " + code + " spring 23```");
+  
 
 
   }
