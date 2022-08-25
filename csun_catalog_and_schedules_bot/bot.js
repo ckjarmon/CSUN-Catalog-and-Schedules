@@ -110,9 +110,9 @@ function show_class(subject, code, itchid) {
 
     } //end if
 
-    await client.channels.cache.get(itchid).send("```" + ret1 + "```");
+    
   }); //end request
-
+  setTimeout( async ()=>{ await client.channels.cache.get(itchid).send("```" + ret1 +  "```")}, 2000);
 }
 
 function show_class_with_term(subject, code, semester, year, itchid) {
@@ -218,7 +218,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
     require("request")({
       url: `http://127.0.0.1:5000/${subject}/catalog`,
       json: true
-    }, async function (error, response, body) {
+    }, async  function (error, response, body) {
       console.log(`http://127.0.0.1:5000/${subject}/catalog`);
       if (!error && response.statusCode === 200) {
 
@@ -253,7 +253,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
           }
         });
-await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
+
 
       }
 
@@ -313,9 +313,10 @@ await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
     }); //end request
 
 
-
+setTimeout( async ()=>{ await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
 
   }
+  
 }
 
 client.on('interactionCreate', async interaction => {
