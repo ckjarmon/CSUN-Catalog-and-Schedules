@@ -434,11 +434,11 @@ client.on('interactionCreate', async interaction => {
 
       show_class_with_term(class1[0], class1[1], semester, year, itchid);
 
-      if (class2.length !== 0) {
+      if (class2.length) {
         show_class_with_term(class2[0], class2[1], semester, year, itchid);
       }
 
-      if (class3.length !== 0) {
+      if (class3.length) {
         show_class_with_term(class3[0], class3[1], semester, year, itchid);
       }
       await interaction.reply("Gimme a sec");
@@ -446,11 +446,11 @@ client.on('interactionCreate', async interaction => {
 
       show_class(class1[0], class1[1], itchid);
 
-      if (class2.length !== 0) {
+      if (class2.length) {
         show_class(class2[0], class2[1], itchid);
       }
 
-      if (class3.length !== 0) {
+      if (class3.length) {
         show_class(class3[0], class3[1], itchid);
       }
       await interaction.reply("Gimme a sec");
