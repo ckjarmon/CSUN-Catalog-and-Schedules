@@ -18,7 +18,7 @@ client.on('ready', () => {
 
 function show_class(subject, code, itchid) {
   console.log("Show class called.");
-  var ret1 = "";
+  var ret1 = "", ret2 = "";
   require("request")({
     url: `http://127.0.0.1:5000/${subject}/catalog`,
     json: true
@@ -72,39 +72,39 @@ function show_class(subject, code, itchid) {
       const stuffs = JSON.parse(JSON.stringify(body));
       //console.log(stuffs.courses[0].title)
       //ret += stuffs.courses[0];
-      ret1 = ret1.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
+      ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
       stuffs.classes.forEach(element => {
         if (element.catalog_number === code && element.meetings.length > 0) {
-          ret1 = ret1.concat("\t " + element.class_number);
+          ret2 = ret2.concat("\t " + element.class_number);
           //console.log(element.meetings[0].location);
           if (element.meetings[0].location.length === 5) {
-            ret1 = ret1.concat("\t\t   " + element.meetings[0].location);
+            ret2 = ret2.concat("\t\t   " + element.meetings[0].location);
           } else {
-            ret1 = ret1.concat("\t\t  " + element.meetings[0].location);
+            ret2 = ret2.concat("\t\t  " + element.meetings[0].location);
           }
 
           if (element.meetings[0].days.length === 1) {
-            ret1 = ret1.concat("\t\t   " + element.meetings[0].days);
+            ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
           } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
-            ret1 = ret1.concat("\t\t  " + element.meetings[0].days);
+            ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
           } else {
-            ret1 = ret1.concat("\t\t " + element.meetings[0].days);
+            ret2 = ret2.concat("\t\t " + element.meetings[0].days);
           }
 
 
 
-          ret1 = ret1.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
-          ret1 = ret1.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
-          ret1 = ret1.concat(" - ");
-          ret1 = ret1.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
+          ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
+          ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
+          ret2 = ret2.concat(" - ");
+          ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
 
           if (element.instructors.length > 0) {
-            ret1 = ret1.concat("\t\t" + element.instructors[0].instructor);
+            ret2 = ret2.concat("\t\t" + element.instructors[0].instructor);
           } else {
-            ret1 = ret1.concat("\t\t\t\tStaff");
+            ret2 = ret2.concat("\t\t\t\tStaff");
           }
 
-          ret1 = ret1.concat("\n");
+          ret2 = ret2.concat("\n");
         }
       });
 
@@ -112,7 +112,7 @@ function show_class(subject, code, itchid) {
 
     
   }); //end request
-  setTimeout( async ()=>{ await client.channels.cache.get(itchid).send("```" + ret1 +  "```")}, 2000);
+  setTimeout( async ()=>{ await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
 }
 
 function show_class_with_term(subject, code, semester, year, itchid) {
