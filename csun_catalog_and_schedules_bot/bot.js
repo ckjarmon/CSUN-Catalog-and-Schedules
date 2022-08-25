@@ -65,7 +65,7 @@ function show_class(subject, code, itchid) {
           } else {
 
             ret1 = ret1.concat(currentDate.getSeconds());
-            
+
           }
 
           ret1 = ret1.concat("\n");
@@ -486,7 +486,8 @@ client.on('interactionCreate', async interaction => {
     \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
     await interaction.reply(ret);
 
-  }
+  } else if (commandName === 'sumdonk') {await interaction.reply("System.out.println(class)");}
+  else if (commandName === 'charalier') {await interaction.reply("wait");}
 
 });
 
