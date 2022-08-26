@@ -38,35 +38,11 @@ function show_class(subject, code, itchid) {
 
           ret1 = ret1.concat(" - FALL 2022 - As of ");
 
-          if (String(currentDate.getHours()).length === 1) {
+          ret1 = (String(currentDate.getHours()).length === 2) ?  ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
 
-            ret1 = ret1.concat("0" + currentDate.getHours() + ":");
+          ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
 
-          } else {
-
-            ret1 = ret1.concat(currentDate.getHours() + ":");
-
-          }
-
-          if (String(currentDate.getMinutes()).length === 1) {
-
-            ret1 = ret1.concat("0" + currentDate.getMinutes() + ":");
-
-          } else {
-
-            ret1 = ret1.concat(currentDate.getMinutes() + ":");
-
-          }
-
-          if (String(currentDate.getSeconds()).length === 1) {
-
-            ret1 = ret1.concat("0" + currentDate.getSeconds());
-
-          } else {
-
-            ret1 = ret1.concat(currentDate.getSeconds());
-
-          }
+          ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
 
           ret1 = ret1.concat("\n");
         }
@@ -89,18 +65,11 @@ function show_class(subject, code, itchid) {
       stuffs.classes.forEach(element => {
         if (element.catalog_number === code && element.meetings.length > 0) {
           ret2 = ret2.concat("\t " + element.class_number);
-  
-          if (element.meetings[0].location.length === 5) {
 
-            ret2 = ret2.concat("\t\t   " + element.meetings[0].location);
-
-          } else {
-
-            ret2 = ret2.concat("\t\t  " + element.meetings[0].location);
-
-          }
+          ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
 
           if (element.meetings[0].days.length === 1) {
+
             ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
 
           } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
@@ -112,17 +81,12 @@ function show_class(subject, code, itchid) {
           }
 
 
-
           ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
           ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
           ret2 = ret2.concat(" - ");
           ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
 
-          if (element.instructors.length > 0) {
-            ret2 = ret2.concat("\t\t" + element.instructors[0].instructor);
-          } else {
-            ret2 = ret2.concat("\t\t\t\tStaff");
-          }
+          ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
 
           ret2 = ret2.concat("\n");
         }
@@ -158,36 +122,12 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             let currentDate = new Date();
 
             ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + " - As of ");
+           
+            ret1 = (String(currentDate.getHours()).length === 2) ?  ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
 
-            if (String(currentDate.getHours()).length === 1) {
+            ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
 
-              ret1 = ret1.concat("0" + currentDate.getHours() + ":");
-
-            } else {
-
-              ret1 = ret1.concat(currentDate.getHours() + ":");
-
-            }
-
-            if (String(currentDate.getMinutes()).length === 1) {
-
-              ret1 = ret1.concat("0" + currentDate.getMinutes() + ":");
-
-            } else {
-
-              ret1 = ret1.concat(currentDate.getMinutes() + ":");
-
-            }
-
-            if (String(currentDate.getSeconds()).length === 1) {
-
-              ret1 = ret1.concat("0" + currentDate.getSeconds());
-
-            } else {
-
-              ret1 = ret1.concat(currentDate.getSeconds());
-
-            }
+            ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
 
             ret1 = ret1.concat("\n");
           }
@@ -211,15 +151,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
           if (element.catalog_number === code && element.meetings.length > 0) {
             ret1 = ret1.concat("\t " + element.class_number);
 
-            if (element.meetings[0].location.length === 5) {
-
-              ret1 = ret1.concat("\t\t   " + element.meetings[0].location);
-
-            } else {
-
-              ret1 = ret1.concat("\t\t  " + element.meetings[0].location);
-
-            }
+            ret1 = (element.meetings[0].location.length === 5) ? ret1.concat("\t\t   " + element.meetings[0].location) : ret1.concat("\t\t  " + element.meetings[0].location);
 
             if (element.meetings[0].days.length === 1) {
 
@@ -240,11 +172,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret1 = ret1.concat(" - ");
             ret1 = ret1.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
 
-            if (element.instructors.length > 0) {
-              ret1 = ret1.concat("\t\t" + element.instructors[0].instructor);
-            } else {
-              ret1 = ret1.concat("\t\t\t\tStaff");
-            }
+            ret1 = (element.instructors.length > 0) ? ret1.concat("\t\t" + element.instructors[0].instructor) : ret1.concat("\t\t\t\tStaff");
 
             ret1 = ret1.concat("\n");
           }
@@ -276,31 +204,12 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             let currentDate = new Date();
 
             ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + " - As of ");
-            if (String(currentDate.getHours()).length === 1) {
 
-              ret1 = ret1.concat("0" + currentDate.getHours() + ":");
+            ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
 
-            } else {
+            ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
 
-              ret1 = ret1.concat(currentDate.getHours() + ":");
-
-            }
-
-            if (String(currentDate.getMinutes()).length === 1) {
-
-              ret1 = ret1.concat("0" + currentDate.getMinutes() + ":");
-
-            } else {
-
-              ret1 = ret1.concat(currentDate.getMinutes() + ":");
-              
-            }
-
-            if (String(currentDate.getSeconds()).length === 1) {
-              ret1 = ret1.concat("0" + currentDate.getSeconds());
-            } else {
-              ret1 = ret1.concat(currentDate.getSeconds());
-            }
+            ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
 
             ret1 = ret1.concat("\n");
 
@@ -328,15 +237,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             ret2 = ret2.concat("\t " + element.class_number);
 
-            if (element.meetings[0].location.length === 5) {
-
-              ret2 = ret2.concat("\t\t   " + element.meetings[0].location);
-              
-            } else {
-
-              ret2 = ret2.concat("\t\t  " + element.meetings[0].location);
-
-            }
+            ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
 
             if (element.meetings[0].days) {
 
@@ -359,8 +260,8 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret2 = ret2.concat(" - ");
             ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
 
-            if (element.instructors.length > 0) { ret2 = ret2.concat("\t\t" + element.instructors[0].instructor); } 
-            else { ret2 = ret2.concat("\t\t\t\tStaff"); }
+            ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+
 
             ret2 = ret2.concat("\n");
           }
@@ -412,7 +313,7 @@ client.on('interactionCreate', async interaction => {
       sec_class = interaction.options.getString('catalog_number1');
       thi_class = interaction.options.getString('catalog_number2');
 
-      show_class_with_term(subject, fir_class, semester, year, itchid);
+                       show_class_with_term(subject, fir_class, semester, year, itchid);
 
       if (sec_class) { show_class_with_term(subject, sec_class, semester, year, itchid); }
 
@@ -432,7 +333,7 @@ client.on('interactionCreate', async interaction => {
       sec_class = interaction.options.getString('catalog_number1');
       thi_class = interaction.options.getString('catalog_number2');
 
-      show_class(subject, fir_class, itchid);
+                       show_class(subject, fir_class, itchid);
 
       if (sec_class) { show_class(subject, sec_class, itchid); }
 
@@ -461,7 +362,7 @@ client.on('interactionCreate', async interaction => {
 
     } else if (semester && year) {
 
-      show_class_with_term(class1[0], class1[1], semester, year, itchid);
+                           show_class_with_term(class1[0], class1[1], semester, year, itchid);
 
       if (class2.length) { show_class_with_term(class2[0], class2[1], semester, year, itchid); }
 
@@ -471,7 +372,7 @@ client.on('interactionCreate', async interaction => {
 
     } else {
 
-      show_class(class1[0], class1[1], itchid);
+                           show_class(class1[0], class1[1], itchid);
 
       if (class2.length) { show_class(class2[0], class2[1], itchid); }
 
