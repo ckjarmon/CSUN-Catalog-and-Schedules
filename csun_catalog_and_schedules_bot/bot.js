@@ -94,7 +94,7 @@ function show_class(subject, code, itchid) {
 
     } //end if
 
-    setTimeout( async ()=>{ await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
+    setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
   }); //end request
  
   
@@ -269,7 +269,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
       } //end if
 
-      setTimeout( async ()=>{ await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
+      setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
     }); //end request
 
 
