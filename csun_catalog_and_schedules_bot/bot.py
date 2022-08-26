@@ -114,9 +114,9 @@ def show_schedule(sem, year, sub, code):
                      find_class(code) + " - " + sem.upper() + " " + year + 
                      " - As of " + curr_time[0] + " " + curr_time[2] + " " + curr_time[1] + " "  + curr_time[4] + " " + curr_time[3])
     blob_list.append(
-        "\n\tSection\t\tLocation\tDays\t\t Seats Aval\t\t\t  Time\t\t\t\tFaculty")
+        "\n\tSection\t\tLocation\tDays\t\t Seats\t\t\t  Time\t\t\t\tFaculty")
     blob_list.append(
-        "\t-------\t\t--------\t----\t\t ----------\t\t\t  ----\t\t\t\t-------")
+        "\t-------\t\t--------\t----\t\t -----\t\t\t  ----\t\t\t\t-------")
 
     for course in data["classes"]:
         # if a class has no meetings, it should not be on schedule
@@ -157,13 +157,13 @@ def show_schedule(sem, year, sub, code):
             
             # Seats Available
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
-                section_string.append("\t\t    " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                section_string.append("\t\t " + str(course["enrollment_cap"] - course["enrollment_count"]))
                 
             else:
-                section_string.append("\t\t   " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                section_string.append("\t\t" + str(course["enrollment_cap"] - course["enrollment_count"]))
 
             # Time 
-            section_string.append("\t\t    " +
+            section_string.append("\t\t   " +
                                   (course["meetings"][0]["start_time"])[0:2] + ":" +
                                   (course["meetings"][0]["start_time"])[2:4]
                                   + " - " +
@@ -175,7 +175,7 @@ def show_schedule(sem, year, sub, code):
             if (len(course["instructors"]) > 0) and course["instructors"][0]["instructor"] != "Staff":
                 section_string.append("\t" + course["instructors"][0]["instructor"])
             else:
-                section_string.append("\t\t\t" + "Staff")
+                section_string.append("\t\t   " + "Staff")
 
             blob_list.append(" ".join(section_string))
             print("------------------------------------------------------------------")
