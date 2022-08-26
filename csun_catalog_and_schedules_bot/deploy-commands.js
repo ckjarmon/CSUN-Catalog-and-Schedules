@@ -40,8 +40,7 @@ const commands = [
 			option.setName('class3').setDescription('subject_code number')
 			.setRequired(false)).addStringOption(option => option.setName('semester').setDescription('fall, spring, summer, winter').setRequired(false)).addStringOption(option => option.setName('year').setDescription('last 2 numbers of year').setRequired(false)),
 		new SlashCommandBuilder().setName('help').setDescription('to learn the stuffs'),
-		new SlashCommandBuilder().setName('sumdonk').setDescription('System.out.println(class)'),
-		new SlashCommandBuilder().setName('charalier').setDescription('Wait'),
+
 
 	]
 	.map(command => command.toJSON());
@@ -49,6 +48,8 @@ const commands = [
 const rest = new REST({
 	version: '10'
 }).setToken(token);
+
+
 
 rest.put(
 	Routes.applicationCommands(clientId), {
