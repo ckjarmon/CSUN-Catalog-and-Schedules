@@ -72,7 +72,7 @@ console.log(subject + " " + prof);
         } 
       }
     }); //end request
-    
+
     setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret2 + "```")}, 2000);
 }
 
@@ -459,5 +459,4 @@ client.on('interactionCreate', async interaction => {
 
 });
 
-//client.login(process.env.DISCORD_TOKEN);
-client.login('MTAwMTgwNDcxMDc0NDk0ODc1Ng.GkArqc.4au_kXrVg3RweR6yJSbyGLmi430nCsUBdecanE')
+client.login(process.env.DISCORD_TOKEN);
