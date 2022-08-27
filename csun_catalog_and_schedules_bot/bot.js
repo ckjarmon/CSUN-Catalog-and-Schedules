@@ -1,5 +1,8 @@
 require('dotenv').config()
 const {
+  token
+  } = require('./config.json');
+const {
   Client,
   GatewayIntentBits
 } = require('discord.js');
@@ -163,7 +166,7 @@ function show_class(subject, code, itchid) {
 function show_class_with_term(subject, code, semester, year, itchid) {
   console.log("Show class override called.");
   if (semester !== "spring" && year !== 23) {
-    var ret1 = "";
+    var ret1 = "", ret2 = "";
     require("request")({
       url: `http://127.0.0.1:5000/${subject}/catalog`,
       json: true
@@ -206,42 +209,42 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
-        ret1 = ret1.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
+        ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
         stuffs.classes.forEach(element => {
           if (element.catalog_number === code && element.meetings.length > 0) {
-            ret1 = ret1.concat("\t " + element.class_number);
-
-            ret1 = (element.meetings[0].location.length === 3) ? ret1.concat("\t\t       ") : ret1.concat("");
-            ret1 = (element.meetings[0].location.length === 5) ? ret1.concat("\t\t   " + element.meetings[0].location) : ret1.concat("\t\t  " + element.meetings[0].location);
-
+            ret2 = ret2.concat("\t " + element.class_number);
+        
+            ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
+            ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
+        
             if (element.meetings[0].days.length === 1) {
-
-              ret1 = ret1.concat("\t\t   " + element.meetings[0].days);
-
+        
+              ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
+        
             } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
-
-              ret1 = ret1.concat("\t\t  " + element.meetings[0].days);
-
+        
+              ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+        
             } else {
-
-              ret1 = ret1.concat("\t\t " + element.meetings[0].days);
-
+        
+              ret2 = ret2.concat("\t\t " + element.meetings[0].days);
+        
             }
-
-            ret1 = ret1.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
-            ret1 = ret1.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
-            ret1 = ret1.concat(" - ");
-            ret1 = ret1.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
-
-            ret1 = (element.instructors.length > 0) ? ret1.concat("\t\t" + element.instructors[0].instructor) : ret1.concat("\t\t\t\tStaff");
-
-            ret1 = ret1.concat("\n");
+        
+            ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
+            ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
+            ret2 = ret2.concat(" - ");
+            ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
+        
+            ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+        
+            ret2 = ret2.concat("\n");
           }
         });
-
+        setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
       } //end if
 
-      await client.channels.cache.get(itchid).send("```" + ret1 + "```");
+      //await client.channels.cache.get(itchid).send("```" + ret1 + "```");
     }); //end request
   } else {
     var ret1 = "",
@@ -298,7 +301,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             ret2 = ret2.concat("\t " + element.class_number);
             
-            ret1 = (element.meetings[0].location.length === 3) ? ret1.concat("\t\t       ") : ret1.concat("");
+            ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
             ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
 
             if (element.meetings[0].days) {
@@ -307,7 +310,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
                 ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
 
-              } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
+              } else if (element.meetings[0].days.length === 2) {
+
+                ret2 = ret2.concat("\t\t  " + element.meetings[0].days + " ");
+
+              } else if (element.meetings[0].days.length === 3) {
 
                 ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
 
@@ -317,21 +324,21 @@ function show_class_with_term(subject, code, semester, year, itchid) {
               ret2 = ret2.concat("\t\t  --");
             }
 
-            ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
+            ret2 = ret2.concat("\t\t\t" + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
             ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
             ret2 = ret2.concat(" - ");
             ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
 
-            ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+            ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
 
 
             ret2 = ret2.concat("\n");
           }
         });
-
+setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
       } //end if
 
-      setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
+      
     }); //end request
 
 
@@ -458,4 +465,4 @@ client.on('interactionCreate', async interaction => {
 
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(token);
