@@ -165,7 +165,7 @@ function show_class(subject, code, itchid) {
 
 function show_class_with_term(subject, code, semester, year, itchid) {
   console.log("Show class override called.");
-  if (semester !== "spring" && year !== 23) {
+  if (semester !== "spring" && year !== '23') {
     var ret1 = "", ret2 = "";
     require("request")({
       url: `http://127.0.0.1:5000/${subject}/catalog`,
