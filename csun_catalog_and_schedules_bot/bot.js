@@ -299,7 +299,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
         stuffs.classes.forEach(element => {
           if (element.catalog_number === code && element.meetings.length > 0) {
 
-            ret2 = ret2.concat("\t " + element.class_number);
+            ret2 = (element.class_number.length === 5) ?  ret2.concat("\t " + element.class_number) : ret2.concat("\t  " + element.class_number);
             
             ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
             ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
@@ -312,7 +312,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
               } else if (element.meetings[0].days.length === 2) {
 
-                ret2 = ret2.concat("\t\t   " + element.meetings[0].days + " ");
+                ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
 
               } else if (element.meetings[0].days.length === 3) {
 
