@@ -35,7 +35,7 @@ console.log(subject + " " + prof);
 
        if (prof_email) { 
         console.log(prof_email)
-        ret2 = ret2.concat("Subject: " + subject.toUpperCase() + "\nProfessor: " + prof_email + "\n");
+        ret2 = ret2.concat("Subject: " + subject.toUpperCase() + " - Fall 2022\nProfessor: " + prof_email + "\n");
         ret2 = ret2.concat("\n\tSection\tClass\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\n\t-------\t-----\t\t --------\t\t----\t\t  -----\t\t\t  ----\n");
         stuffs[prof_email].classes.forEach(element => {
          
