@@ -21,10 +21,10 @@ console.log(subject + " " + prof);
     console.log("Show prof called.");
     var ret1 = "";
     require("request")({
-      url: `http://127.0.0.1:5000/${subject}/profs`,
+      url: `http://127.0.0.1:5000/${subject}/prof`,
       json: true
     }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:5000/${subject}/profs`);
+      console.log(`http://127.0.0.1:5000/${subject}/prof`);
       if (!error && response.statusCode === 200) {
         const stuffs = JSON.parse(JSON.stringify(body));
         var prof_email = "";
@@ -79,10 +79,10 @@ function show_class(subject, code, itchid) {
   console.log("Show class called.");
   var ret1 = "", ret2 = "";
   require("request")({
-    url: `http://127.0.0.1:5000/${subject}/catalogs`,
+    url: `http://127.0.0.1:5000/${subject}/catalog`,
     json: true
   }, async function (error, response, body) {
-    console.log(`http://127.0.0.1:5000/${subject}/catalogs`);
+    console.log(`http://127.0.0.1:5000/${subject}/catalog`);
     if (!error && response.statusCode === 200) {
 
       const stuffs = JSON.parse(JSON.stringify(body));
@@ -165,10 +165,10 @@ function show_class_with_term(subject, code, semester, year, itchid) {
   if (semester !== "spring" && year !== 23) {
     var ret1 = "";
     require("request")({
-      url: `http://127.0.0.1:5000/${subject}/catalogs`,
+      url: `http://127.0.0.1:5000/${subject}/catalog`,
       json: true
     }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:5000/${subject}/catalogs`);
+      console.log(`http://127.0.0.1:5000/${subject}/catalog`);
       if (!error && response.statusCode === 200) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
@@ -248,10 +248,10 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       ret2 = "";
 
     require("request")({
-      url: `http://127.0.0.1:5000/${subject}/catalogs`,
+      url: `http://127.0.0.1:5000/${subject}/catalog`,
       json: true
     }, async  function (error, response, body) {
-      console.log(`http://127.0.0.1:5000/${subject}/catalogs`);
+      console.log(`http://127.0.0.1:5000/${subject}/catalog`);
       if (!error && response.statusCode === 200) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
@@ -283,10 +283,10 @@ function show_class_with_term(subject, code, semester, year, itchid) {
     }); //end request
 
     require("request")({
-      url: `http://127.0.0.1:5000/${subject}/schedules`,
+      url: `http://127.0.0.1:5000/${subject}/schedule`,
       json: true
     }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:5000/${subject}/schedules`);
+      console.log(`http://127.0.0.1:5000/${subject}/schedule`);
       if (!error && response.statusCode === 200) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
