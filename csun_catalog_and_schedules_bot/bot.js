@@ -286,7 +286,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
     }); //end request
 
     require("request")({
-      url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`,
+      url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`,
       json: true
     }, async function (error, response, body) {
       console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`);
