@@ -69,7 +69,7 @@ console.log(subject + " " + prof);
 
         } else {
 
-          ret2 = (prof.toLowerCase() === "sarkis") ? ret2.concat("Fuck Sarkis.") : ret2 = ret2.concat(`Professor not teaching ${subject.toUpperCase()} Fall 2022.`);
+          ret2 = (prof.toLowerCase() === "sarkis") ? ret2.concat("Fuck Sarkis.") : ret2 = ret2.concat(`Professor not teaching ${subject.toUpperCase()} in Fall 2022.`);
 
         } 
       }
