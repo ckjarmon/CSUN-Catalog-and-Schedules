@@ -312,7 +312,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
               } else if (element.meetings[0].days.length === 2) {
 
-                ret2 = ret2.concat("\t\t  " + element.meetings[0].days + " ");
+                ret2 = ret2.concat("\t\t   " + element.meetings[0].days + " ");
 
               } else if (element.meetings[0].days.length === 3) {
 
@@ -324,12 +324,12 @@ function show_class_with_term(subject, code, semester, year, itchid) {
               ret2 = ret2.concat("\t\t  --");
             }
 
-            ret2 = ret2.concat("\t\t\t" + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
+            ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
             ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
             ret2 = ret2.concat(" - ");
             ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
 
-            ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+            ret2 = (element.instructors.length > 0 && element.instructors !== "Staff") ? ret2.concat("\t\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
 
 
             ret2 = ret2.concat("\n");
