@@ -31,8 +31,8 @@ console.log(subject + " " + prof);
       if (!error && response.statusCode === 200) {
         const stuffs = JSON.parse(JSON.stringify(body));
         var prof_email = "";
-        stuffs.profs.forEach(element => {
-          if (element.includes(prof.toLowerCase()) && !prof_email) {prof_email = element;}
+        stuffs.profs.forEach(course => {
+          if (course.includes(prof.toLowerCase()) && !prof_email) {prof_email = course;}
         }); 
         
 
@@ -40,28 +40,28 @@ console.log(subject + " " + prof);
         console.log(prof_email)
         ret2 = ret2.concat("Subject: " + subject.toUpperCase() + " - Fall 2022\nProfessor: " + prof_email + "\n");
         ret2 = ret2.concat("\n\tSection\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time\n\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n");
-        stuffs[prof_email].classes.forEach(element => {
+        stuffs[prof_email].classes.forEach(course => {
          
-        ret2 = ret2.concat("\t " + element.class_number);
-        ret2 = (element.catalog_number.length === 4) ? ret2.concat("\t   " + element.catalog_number) : ret2.concat("\t   " + element.catalog_number + " ");
-        ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
-        ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
+        ret2 = ret2.concat("\t " + course.class_number);
+        ret2 = (course.catalog_number.length === 4) ? ret2.concat("\t   " + course.catalog_number) : ret2.concat("\t   " + course.catalog_number + " ");
+        ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
+        ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
 
-        if (element.meetings[0].days.length === 1) {
-          ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
-          } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
-            ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+        if (course.meetings[0].days.length === 1) {
+          ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
+          } else if (course.meetings[0].days.length === 2 || course.meetings[0].days.length === 3) {
+            ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
           } else {
-            ret2 = ret2.concat("\t\t " + element.meetings[0].days);
+            ret2 = ret2.concat("\t\t " + course.meetings[0].days);
           }
 
 
-        ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
-        ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
+        ret2 = ret2.concat("\t\t\t " + (course.enrollment_cap - course.enrollment_cap) + "\t\t\t");
+        ret2 = ret2.concat(course.meetings[0].start_time.substring(0, 2) + ":" + course.meetings[0].start_time.substring(2, 4));
         ret2 = ret2.concat(" - ");
-        ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
+        ret2 = ret2.concat(course.meetings[0].end_time.substring(0, 2) + ":" + course.meetings[0].end_time.substring(2, 4));
 
-          //ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+          //ret2 = (course.instructors.length > 0) ? ret2.concat("\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
 
         ret2 = ret2.concat("\n");
         }); 
@@ -90,11 +90,11 @@ function show_class(subject, code, itchid) {
 
       const stuffs = JSON.parse(JSON.stringify(body));
 
-      stuffs.forEach(element => {
-        if (element.catalog_number === code) {
+      stuffs.forEach(course => {
+        if (course.catalog_number === code) {
 
-          ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" +
-            element.subject + " " + element.catalog_number + " " + element.title);
+          ret1 = ret1.concat(course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description + "\n\n" +
+            course.subject + " " + course.catalog_number + " " + course.title);
 
           let currentDate = new Date();
 
@@ -124,32 +124,32 @@ function show_class(subject, code, itchid) {
       const stuffs = JSON.parse(JSON.stringify(body));
 
       ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
-      stuffs.classes.forEach(element => {
-        if (element.catalog_number === code && element.meetings.length > 0) {
-          ret2 = ret2.concat("\t " + element.class_number);
+      stuffs.classes.forEach(course => {
+        if (course.catalog_number === code && course.meetings.length > 0) {
+          ret2 = ret2.concat("\t " + course.class_number);
           
-          ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("\t\t       ") : ret2.concat("");
-          ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
+          ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("\t\t       ") : ret2.concat("");
+          ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
 
-          if (element.meetings[0].days.length === 1) {
+          if (course.meetings[0].days.length === 1) {
 
-            ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
+            ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
 
-          } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
+          } else if (course.meetings[0].days.length === 2 || course.meetings[0].days.length === 3) {
 
-            ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+            ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
 
           } else {
-            ret2 = ret2.concat("\t\t " + element.meetings[0].days);
+            ret2 = ret2.concat("\t\t " + course.meetings[0].days);
           }
 
 
-          ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
-          ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
+          ret2 = ret2.concat("\t\t\t " + (course.enrollment_cap - course.enrollment_cap) + "\t\t\t");
+          ret2 = ret2.concat(course.meetings[0].start_time.substring(0, 2) + ":" + course.meetings[0].start_time.substring(2, 4));
           ret2 = ret2.concat(" - ");
-          ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
+          ret2 = ret2.concat(course.meetings[0].end_time.substring(0, 2) + ":" + course.meetings[0].end_time.substring(2, 4));
 
-          ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+          ret2 = (course.instructors.length > 0) ? ret2.concat("\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
 
           ret2 = ret2.concat("\n");
         }
@@ -176,11 +176,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
-        stuffs.forEach(element => {
-          if (element.catalog_number === code) {
+        stuffs.forEach(course => {
+          if (course.catalog_number === code) {
 
-            ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" +
-              element.subject + " " + element.catalog_number + " " + element.title);
+            ret1 = ret1.concat(course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description + "\n\n" +
+              course.subject + " " + course.catalog_number + " " + course.title);
 
             let currentDate = new Date();
 
@@ -210,33 +210,33 @@ function show_class_with_term(subject, code, semester, year, itchid) {
         const stuffs = JSON.parse(JSON.stringify(body));
 
         ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
-        stuffs.classes.forEach(element => {
-          if (element.catalog_number === code && element.meetings.length > 0) {
-            ret2 = ret2.concat("\t " + element.class_number);
+        stuffs.classes.forEach(course => {
+          if (course.catalog_number === code && course.meetings.length > 0) {
+            ret2 = ret2.concat("\t " + course.class_number);
         
-            ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
-            ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
+            ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
+            ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
         
-            if (element.meetings[0].days.length === 1) {
+            if (course.meetings[0].days.length === 1) {
         
-              ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
+              ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
         
-            } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
+            } else if (course.meetings[0].days.length === 2 || course.meetings[0].days.length === 3) {
         
-              ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+              ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
         
             } else {
         
-              ret2 = ret2.concat("\t\t " + element.meetings[0].days);
+              ret2 = ret2.concat("\t\t " + course.meetings[0].days);
         
             }
         
-            ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
-            ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
+            ret2 = ret2.concat("\t\t\t " + (course.enrollment_cap - course.enrollment_cap) + "\t\t\t");
+            ret2 = ret2.concat(course.meetings[0].start_time.substring(0, 2) + ":" + course.meetings[0].start_time.substring(2, 4));
             ret2 = ret2.concat(" - ");
-            ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
+            ret2 = ret2.concat(course.meetings[0].end_time.substring(0, 2) + ":" + course.meetings[0].end_time.substring(2, 4));
         
-            ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+            ret2 = (course.instructors.length > 0) ? ret2.concat("\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
         
             ret2 = ret2.concat("\n");
           }
@@ -259,11 +259,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
-        stuffs.forEach(element => {
-          if (element.catalog_number === code) {
+        stuffs.forEach(course => {
+          if (course.catalog_number === code) {
 
-            ret1 = ret1.concat(element.subject + " " + element.catalog_number + " " + element.title + "\n\n" + element.description + "\n\n" +
-              element.subject + " " + element.catalog_number + " " + element.title);
+            ret1 = ret1.concat(course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description + "\n\n" +
+              course.subject + " " + course.catalog_number + " " + course.title);
 
             let currentDate = new Date();
 
@@ -296,40 +296,40 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
         ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
 
-        stuffs.classes.forEach(element => {
-          if (element.catalog_number === code && element.meetings.length > 0) {
+        stuffs.classes.forEach(course => {
+          if (course.catalog_number === code && course.meetings.length > 0) {
 
-            ret2 = (element.class_number.length === 5) ?  ret2.concat("\t " + element.class_number) : ret2.concat("\t  " + element.class_number);
+            ret2 = (course.class_number.length === 5) ?  ret2.concat("\t " + course.class_number) : ret2.concat("\t  " + course.class_number);
             
-            ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
-            ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
+            ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
+            ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
 
-            if (element.meetings[0].days) {
+            if (course.meetings[0].days) {
 
-              if (element.meetings[0].days.length === 1) {
+              if (course.meetings[0].days.length === 1) {
 
-                ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
+                ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
 
-              } else if (element.meetings[0].days.length === 2) {
+              } else if (course.meetings[0].days.length === 2) {
 
-                ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+                ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
 
-              } else if (element.meetings[0].days.length === 3) {
+              } else if (course.meetings[0].days.length === 3) {
 
-                ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+                ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
 
-              } else { ret2 = ret2.concat("\t\t " + element.meetings[0].days); }
+              } else { ret2 = ret2.concat("\t\t " + course.meetings[0].days); }
 
             } else {
               ret2 = ret2.concat("\t\t  --");
             }
 
-            ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
-            ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
+            ret2 = ret2.concat("\t\t\t " + (course.enrollment_cap - course.enrollment_cap) + "\t\t\t");
+            ret2 = ret2.concat(course.meetings[0].start_time.substring(0, 2) + ":" + course.meetings[0].start_time.substring(2, 4));
             ret2 = ret2.concat(" - ");
-            ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
+            ret2 = ret2.concat(course.meetings[0].end_time.substring(0, 2) + ":" + course.meetings[0].end_time.substring(2, 4));
 
-            ret2 = (element.instructors.length > 0 && element.instructors !== "Staff") ? ret2.concat("\t\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+            ret2 = (course.instructors.length > 0 && course.instructors !== "Staff") ? ret2.concat("\t\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
 
 
             ret2 = ret2.concat("\n");
