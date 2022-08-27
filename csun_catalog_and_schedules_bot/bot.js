@@ -3,6 +3,7 @@ const {
   Client,
   GatewayIntentBits
 } = require('discord.js');
+const { convertCompilerOptionsFromJson } = require('typescript');
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
 });
@@ -15,6 +16,65 @@ client.on('ready', () => {
 // client.on('messageCreate', message => {
 //   console.log(message.content);
 // });
+function show_prof(subject,prof, itchid) {
+var ret2 = "";
+console.log(subject + " " + prof);
+    console.log("Show prof called.");
+    var ret1 = "";
+    require("request")({
+      url: `http://127.0.0.1:5000/${subject}/prof`,
+      json: true
+    }, async function (error, response, body) {
+      console.log(`http://127.0.0.1:5000/${subject}/prof`);
+      if (!error && response.statusCode === 200) {
+        const stuffs = JSON.parse(JSON.stringify(body));
+        var prof_email = "";
+        stuffs.profs.forEach(element => {
+          if (element.includes(prof.toLowerCase()) && !prof_email) {prof_email = element;}
+        }); 
+        
+
+       if (prof_email) { 
+        console.log(prof_email)
+        ret2 = ret2.concat("Professor: " + prof_email + "\n");
+        ret2 = ret2.concat("\n\tSection\tClass\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\n\t-------\t-----\t\t --------\t\t----\t\t  -----\t\t\t  ----\n");
+        stuffs[prof_email].classes.forEach(element => {
+         
+        ret2 = ret2.concat("\t " + element.class_number);
+        ret2 = ret2.concat("\t  " + element.catalog_number);
+        ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
+        ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
+
+        if (element.meetings[0].days.length === 1) {
+          ret2 = ret2.concat("\t\t   " + element.meetings[0].days);
+          } else if (element.meetings[0].days.length === 2 || element.meetings[0].days.length === 3) {
+            ret2 = ret2.concat("\t\t  " + element.meetings[0].days);
+          } else {
+            ret2 = ret2.concat("\t\t " + element.meetings[0].days);
+          }
+
+
+        ret2 = ret2.concat("\t\t\t " + (element.enrollment_cap - element.enrollment_cap) + "\t\t\t");
+        ret2 = ret2.concat(element.meetings[0].start_time.substring(0, 2) + ":" + element.meetings[0].start_time.substring(2, 4));
+        ret2 = ret2.concat(" - ");
+        ret2 = ret2.concat(element.meetings[0].end_time.substring(0, 2) + ":" + element.meetings[0].end_time.substring(2, 4));
+
+          //ret2 = (element.instructors.length > 0) ? ret2.concat("\t\t" + element.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+
+        ret2 = ret2.concat("\n");
+        }); 
+        //console.log(stuffs.prof_email);
+
+        } else {
+
+          ret2 = (prof.toLowerCase() === "sarkis") ? ret2.concat("Fuck Sarkis.") : ret2 = ret2.concat("Professor not teaching Fall 2022.");;
+
+        } 
+      }
+    }); //end request
+    
+    setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret2 + "```")}, 2000);
+}
 
 function show_class(subject, code, itchid) {
   console.log("Show class called.");
@@ -38,7 +98,7 @@ function show_class(subject, code, itchid) {
 
           ret1 = ret1.concat(" - FALL 2022 - As of ");
 
-          ret1 = (String(currentDate.getHours()).length === 2) ?  ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
+          ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
 
           ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
 
@@ -65,7 +125,8 @@ function show_class(subject, code, itchid) {
       stuffs.classes.forEach(element => {
         if (element.catalog_number === code && element.meetings.length > 0) {
           ret2 = ret2.concat("\t " + element.class_number);
-
+          
+          ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("\t\t       ") : ret2.concat("");
           ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
 
           if (element.meetings[0].days.length === 1) {
@@ -123,7 +184,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + " - As of ");
            
-            ret1 = (String(currentDate.getHours()).length === 2) ?  ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
+            ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
 
             ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
 
@@ -151,6 +212,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
           if (element.catalog_number === code && element.meetings.length > 0) {
             ret1 = ret1.concat("\t " + element.class_number);
 
+            ret1 = (element.meetings[0].location.length === 3) ? ret1.concat("\t\t       ") : ret1.concat("");
             ret1 = (element.meetings[0].location.length === 5) ? ret1.concat("\t\t   " + element.meetings[0].location) : ret1.concat("\t\t  " + element.meetings[0].location);
 
             if (element.meetings[0].days.length === 1) {
@@ -236,7 +298,8 @@ function show_class_with_term(subject, code, semester, year, itchid) {
           if (element.catalog_number === code && element.meetings.length > 0) {
 
             ret2 = ret2.concat("\t " + element.class_number);
-
+            
+            ret1 = (element.meetings[0].location.length === 3) ? ret1.concat("\t\t       ") : ret1.concat("");
             ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
 
             if (element.meetings[0].days) {
@@ -381,7 +444,11 @@ client.on('interactionCreate', async interaction => {
       await interaction.reply("Gimme a sec");
 
     }
-  } else if (commandName === 'help') {
+  } else if (commandName === 'prof') {
+      itchid = interaction.channelId;
+      show_prof(interaction.options.getString('subject'), interaction.options.getString('prof_name'), itchid);
+      await interaction.reply("Gimme a sec");
+    } else if (commandName === 'help') {
 
     let ret = "```\"/class\" for 1 or more classes of common subject \n\n \
     \"classes\" for 1 or more classes of different subjects \n\n \
@@ -392,4 +459,5 @@ client.on('interactionCreate', async interaction => {
 
 });
 
-client.login(process.env.DISCORD_TOKEN);
+//client.login(process.env.DISCORD_TOKEN);
+client.login('MTAwMTgwNDcxMDc0NDk0ODc1Ng.GkArqc.4au_kXrVg3RweR6yJSbyGLmi430nCsUBdecanE')

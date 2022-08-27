@@ -40,7 +40,11 @@ const commands = [
 			option.setName('class3').setDescription('subject_code number')
 			.setRequired(false)).addStringOption(option => option.setName('semester').setDescription('fall, spring, summer, winter').setRequired(false)).addStringOption(option => option.setName('year').setDescription('last 2 numbers of year').setRequired(false)),
 		new SlashCommandBuilder().setName('help').setDescription('to learn the stuffs'),
-
+		new SlashCommandBuilder().setName('prof').setDescription('see what a prof is teaching').addStringOption(option =>
+			option.setName('subject').setDescription('subject prof teaches')
+			.setRequired(true)).addStringOption(option =>
+			option.setName('prof_name').setDescription('last name of prof')
+			.setRequired(true)),
 
 	]
 	.map(command => command.toJSON());
