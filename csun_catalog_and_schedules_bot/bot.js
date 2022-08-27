@@ -39,11 +39,11 @@ console.log(subject + " " + prof);
        if (prof_email) { 
         console.log(prof_email)
         ret2 = ret2.concat("Subject: " + subject.toUpperCase() + " - Fall 2022\nProfessor: " + prof_email + "\n");
-        ret2 = ret2.concat("\n\tSection\tClass\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\n\t-------\t-----\t\t --------\t\t----\t\t  -----\t\t\t  ----\n");
+        ret2 = ret2.concat("\n\tSection\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time\n\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n");
         stuffs[prof_email].classes.forEach(element => {
          
         ret2 = ret2.concat("\t " + element.class_number);
-        ret2 = ret2.concat("\t  " + element.catalog_number);
+        ret2 = (element.catalog_number.length === 4) ? ret2.concat("\t   " + element.catalog_number) : ret2.concat("\t   " + element.catalog_number + " ");
         ret2 = (element.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
         ret2 = (element.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + element.meetings[0].location) : ret2.concat("\t\t  " + element.meetings[0].location);
 
@@ -335,7 +335,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret2 = ret2.concat("\n");
           }
         });
-setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
+            setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);
       } //end if
 
       
