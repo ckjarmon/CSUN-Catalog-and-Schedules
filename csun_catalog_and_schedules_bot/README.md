@@ -50,3 +50,14 @@ Multiple Classes, Multiple Subjects was not implemented in the Python version
 ![Result](imgs/multi_diff_semester_output.png)
 
 Same input scheme for single subject input.
+
+
+## Professor Search. 
+### Search for a professor and the classes they are teaching.
+
+![Enter Parameter](imgs/prof_search_input.png)
+![Result](imgs/prof_search_output.png)
+
+
+![Enter Parameter](imgs/prof_search_input1.png)
+![Result](imgs/prof_search_output1.png)
