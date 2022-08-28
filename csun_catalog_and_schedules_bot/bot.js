@@ -59,7 +59,7 @@ console.log(subject + " " + prof);
 
           ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
 
-        } {
+        } else {
             ret2 = ret2.concat("\t\t " + course.meetings[0].days);
           }
 
