@@ -31,8 +31,8 @@ console.log(subject + " " + prof);
       if (!error && response.statusCode === 200) {
         const stuffs = JSON.parse(JSON.stringify(body));
         var prof_email = "";
-        stuffs.profs.forEach(course => {
-          if (course.includes(prof.toLowerCase()) && !prof_email) {prof_email = course;}
+        stuffs.profs.forEach(da_prof => {
+          if (da_prof.includes(prof.toLowerCase()) && !prof_email) {prof_email = da_prof;}
         }); 
         
 
@@ -48,10 +48,18 @@ console.log(subject + " " + prof);
         ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
 
         if (course.meetings[0].days.length === 1) {
+
           ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
-          } else if (course.meetings[0].days.length === 2 || course.meetings[0].days.length === 3) {
-            ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
-          } else {
+
+        } else if (course.meetings[0].days.length === 2) {
+
+          ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
+
+        } else if (course.meetings[0].days.length === 3) {
+
+          ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
+
+        } {
             ret2 = ret2.concat("\t\t " + course.meetings[0].days);
           }
 
@@ -135,11 +143,15 @@ function show_class(subject, code, itchid) {
 
             ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
 
-          } else if (course.meetings[0].days.length === 2 || course.meetings[0].days.length === 3) {
+          } else if (course.meetings[0].days.length === 2) {
 
             ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
 
-          } else {
+          } else if (course.meetings[0].days.length === 3) {
+
+            ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
+
+          } {
             ret2 = ret2.concat("\t\t " + course.meetings[0].days);
           }
 
@@ -218,14 +230,18 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
         
             if (course.meetings[0].days.length === 1) {
-        
+
               ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
-        
-            } else if (course.meetings[0].days.length === 2 || course.meetings[0].days.length === 3) {
-        
+
+            } else if (course.meetings[0].days.length === 2) {
+
               ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
-        
-            } else {
+
+            } else if (course.meetings[0].days.length === 3) {
+
+              ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
+
+            } {
         
               ret2 = ret2.concat("\t\t " + course.meetings[0].days);
         
