@@ -28,7 +28,7 @@ console.log(subject + " " + prof);
       json: true
     }, async function (error, response, body) {
       console.log(`http://127.0.0.1:5000/${subject}/prof`);
-      if (!error ) {
+      if (!error && response.statusCode === 200) {
         const stuffs = JSON.parse(JSON.stringify(body));
         var prof_email = "";
         stuffs.profs.forEach(da_prof => {
@@ -94,7 +94,7 @@ function show_class(subject, code, itchid) {
     json: true
   }, async function (error, response, body) {
     console.log(`http://127.0.0.1:5000/${subject}/catalog`);
-    if (!error ) {
+    if (!error && response.statusCode === 200) {
 
       const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -127,7 +127,7 @@ function show_class(subject, code, itchid) {
     json: true
   }, async function (error, response, body) {
     console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/' + subject);
-    if (!error ) {
+    if (!error && response.statusCode === 200) {
 
       const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -184,7 +184,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       json: true
     }, async function (error, response, body) {
       console.log(`http://127.0.0.1:5000/${subject}/catalog`);
-      if (!error ) {
+      if (!error && response.statusCode === 200) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -217,7 +217,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       json: true
     }, async function (error, response, body) {
       console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/classes/' + subject);
-      if (!error ) {
+      if (!error && response.statusCode === 200) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -271,7 +271,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       json: true
     }, async  function (error, response, body) {
       console.log(`http://127.0.0.1:5000/${subject}/catalog`);
-      if (!error ) {
+      if (!error && response.statusCode === 200) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -306,7 +306,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       json: true
     }, async function (error, response, body) {
       console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`);
-      if (!error ) {
+      if (!error && response.statusCode === 200) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
