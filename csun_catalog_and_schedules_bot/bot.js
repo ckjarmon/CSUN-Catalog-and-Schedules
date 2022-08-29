@@ -24,11 +24,11 @@ console.log(subject + " " + prof);
     console.log("Show prof called.");
     var ret1 = "";
     require("request")({
-      url: `http://127.0.0.1:5000/${subject}/prof`,
+      url: `http://127.0.0.1:8000/${subject}/prof`,
       json: true
     }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:5000/${subject}/prof`);
-      if (!error && response.statusCode === 200) {
+      console.log(`http://127.0.0.1:8000/${subject}/prof`);
+      if (!error) {
         const stuffs = JSON.parse(JSON.stringify(body));
         var prof_email = "";
         stuffs.profs.forEach(da_prof => {
@@ -90,11 +90,11 @@ function show_class(subject, code, itchid) {
   console.log("Show class called.");
   var ret1 = "", ret2 = "";
   require("request")({
-    url: `http://127.0.0.1:5000/${subject}/catalog`,
+    url: `http://127.0.0.1:8000/${subject}/catalog`,
     json: true
   }, async function (error, response, body) {
-    console.log(`http://127.0.0.1:5000/${subject}/catalog`);
-    if (!error && response.statusCode === 200) {
+    console.log(`http://127.0.0.1:8000/${subject}/catalog`);
+    if (!error) {
 
       const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -127,7 +127,7 @@ function show_class(subject, code, itchid) {
     json: true
   }, async function (error, response, body) {
     console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/' + subject);
-    if (!error && response.statusCode === 200) {
+    if (!error) {
 
       const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -180,11 +180,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
   if (semester !== "spring" && year !== '23') {
     var ret1 = "", ret2 = "";
     require("request")({
-      url: `http://127.0.0.1:5000/${subject}/catalog`,
+      url: `http://127.0.0.1:8000/${subject}/catalog`,
       json: true
     }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:5000/${subject}/catalog`);
-      if (!error && response.statusCode === 200) {
+      console.log(`http://127.0.0.1:8000/${subject}/catalog`);
+      if (!error) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -217,7 +217,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       json: true
     }, async function (error, response, body) {
       console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/classes/' + subject);
-      if (!error && response.statusCode === 200) {
+      if (!error) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -267,11 +267,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       ret2 = "";
 
     require("request")({
-      url: `http://127.0.0.1:5000/${subject}/catalog`,
+      url: `http://127.0.0.1:8000/${subject}/catalog`,
       json: true
     }, async  function (error, response, body) {
-      console.log(`http://127.0.0.1:5000/${subject}/catalog`);
-      if (!error && response.statusCode === 200) {
+      console.log(`http://127.0.0.1:8000/${subject}/catalog`);
+      if (!error) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
@@ -306,7 +306,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       json: true
     }, async function (error, response, body) {
       console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`);
-      if (!error && response.statusCode === 200) {
+      if (!error) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
 
