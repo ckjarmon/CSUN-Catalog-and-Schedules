@@ -7,4 +7,4 @@ app = Flask(__name__)
 def get(**kwargs):
     return json.load(open('./json_' + kwargs["data"] +  '/' + kwargs["subject"].upper() + '_' + kwargs["data"] + '.json'))
 
-app.run()
+app.run(port=8000)
