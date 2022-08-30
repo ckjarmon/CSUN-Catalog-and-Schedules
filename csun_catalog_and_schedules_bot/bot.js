@@ -90,7 +90,7 @@ console.log(subject + " " + prof);
     setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret2 + "```")}, 2000);
   } else {
       ret_error = `${subject} is not a subject.`; 
-      setTimeout( async () => {await client.channels.cache.get(itchid).send("```Not a subject```")}, 2000);
+      setTimeout( async () => {await client.channels.cache.get(itchid).send("```Not a subject.```")}, 2000);
     }
 }
 
