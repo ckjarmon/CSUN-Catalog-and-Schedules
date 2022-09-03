@@ -480,8 +480,8 @@ client.on('interactionCreate', async interaction => {
       await interaction.reply("Gimme a sec");
     } else if (commandName === 'help') {
 
-    let ret = "```\"/class\" for 1 or more classes of common subject \n\n \
-    \"classes\" for 1 or more classes of different subjects \n\n \
+    let ret = "```\"/class\" for 1 or more classes of common subject \n\n" + 
+    "\"classes\" for 1 or more classes of different subjects \n\n \
     Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
     await interaction.reply(ret);
 
