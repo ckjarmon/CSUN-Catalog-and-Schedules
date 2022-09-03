@@ -159,7 +159,7 @@ function show_class(subject, code, itchid) {
 
             ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
 
-          } {
+          } else {
             ret2 = ret2.concat("\t\t " + course.meetings[0].days);
           }
 
