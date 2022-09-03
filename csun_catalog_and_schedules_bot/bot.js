@@ -481,7 +481,8 @@ client.on('interactionCreate', async interaction => {
     } else if (commandName === 'help') {
 
     let ret = "```\"/class\" for 1 or more classes of common subject \n\n" + 
-    "\"classes\" for 1 or more classes of different subjects \n\n" + 
+    "\"/classes\" for 1 or more classes of different subjects \n\n" + 
+    "\"/prof\" to show a prof's teaching schedule \n\n" + 
     "Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
     await interaction.reply(ret);
 
