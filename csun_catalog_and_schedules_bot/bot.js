@@ -88,6 +88,7 @@ console.log(subject + " " + prof);
     }); //end request
 
    if (ret2.length < 2000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret2 + "```")}, 2000);}
+   else {setTimeout( async () => {await client.channels.cache.get(itchid).send("```Response to long.```")}, 2000);}
   } else {
       ret_error = `${subject} is not a subject.`; 
       setTimeout( async () => {await client.channels.cache.get(itchid).send("```Not a subject.```")}, 2000);
@@ -178,6 +179,7 @@ function show_class(subject, code, itchid) {
     } //end if
 
     if (ret1.length + ret2.length < 2000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
+    else {setTimeout( async () => {await client.channels.cache.get(itchid).send("```Response to long.```")}, 2000);}
   }); //end request
  
   
@@ -266,6 +268,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
           }
         });
         if (ret1.length + ret2.length < 2000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
+        else {setTimeout( async () => {await client.channels.cache.get(itchid).send("```Response to long.```")}, 2000);}
       } //end if
 
       //await client.channels.cache.get(itchid).send("```" + ret1 + "```");
@@ -360,6 +363,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
           }
         });
         if (ret1.length + ret2.length < 2000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
+        else {setTimeout( async () => {await client.channels.cache.get(itchid).send("```Response to long.```")}, 2000);}
       } //end if
 
       
