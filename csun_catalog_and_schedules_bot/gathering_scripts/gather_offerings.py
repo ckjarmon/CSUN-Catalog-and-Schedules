@@ -6,7 +6,6 @@ class_codes = ["AE","AM","AAS","ACCT","AFRS","AIS","ANTH","ARAB","ARMN","ART","A
 dict = {}
 for code in class_codes:
     print(code)
-    url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/" + code
     
     dict[code] = []
     try:

@@ -1,3 +1,7 @@
+
+"""
+    see what courses each professor is teaching
+"""
             
 import urllib3
 import json
