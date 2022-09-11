@@ -87,12 +87,42 @@ console.log(subject + " " + prof);
       }
     }); //end request
 
-   if (ret2.length < 2000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret2 + "```")}, 2000);}
+   if (ret2.length < 4000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret2 + "```")}, 2000);}
    else {setTimeout( async () => {await client.channels.cache.get(itchid).send("```Response too long.```")}, 2000);}
   } else {
       ret_error = `${subject} is not a subject.`; 
       setTimeout( async () => {await client.channels.cache.get(itchid).send("```Not a subject.```")}, 2000);
     }
+}
+
+function show_levels(subject, level, itchid) {
+  console.log("Show levels called.");
+  var ret1 = "";
+  require("request")({
+    url: `http://127.0.0.1:8000/${subject}/catalog`,
+    json: true
+  }, async function (error, response, body) {
+
+    if (!error) {
+      ret1 = ret1.concat(subject.toUpperCase() + " " + level + "-level classes\n" )
+      for (let i = 0; i < subject.length; i++) {
+        ret1 = ret1.concat("-")
+      }
+      ret1 = ret1.concat("\n")
+      console.log(`http://127.0.0.1:8000/${subject}/catalog`);
+      const stuffs = JSON.parse(JSON.stringify(body));
+
+      stuffs.forEach(course => {
+        if (course.catalog_number[0] === level[0]) {
+          ret1 = ret1.concat(`${course.catalog_number} - ${course.title}\n`);
+      
+        }
+      });
+
+
+    }
+  }); //end request
+  setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 +  "```")}, 2000);
 }
 
 function show_class(subject, code, itchid) {
@@ -178,7 +208,7 @@ function show_class(subject, code, itchid) {
 
     } //end if
 
-    if (ret1.length + ret2.length < 2000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
+    if (ret1.length + ret2.length < 4000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
     else {setTimeout( async () => {await client.channels.cache.get(itchid).send("```Response too long.```")}, 2000);}
   }); //end request
  
@@ -267,7 +297,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret2 = ret2.concat("\n");
           }
         });
-        if (ret1.length + ret2.length < 2000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
+        if (ret1.length + ret2.length < 4000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
         else {setTimeout( async () => {await client.channels.cache.get(itchid).send("```Response too long.```")}, 2000);}
       } //end if
 
@@ -362,7 +392,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret2 = ret2.concat("\n");
           }
         });
-        if (ret1.length + ret2.length < 2000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
+        if (ret1.length + ret2.length < 4000) {setTimeout( async () => {await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")}, 2000);}
         else {setTimeout( async () => {await client.channels.cache.get(itchid).send("```Response too long.```")}, 2000);}
       } //end if
 
@@ -490,6 +520,11 @@ client.on('interactionCreate', async interaction => {
     "Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
     await interaction.reply(ret);
 
+  } else if (commandName === 'level') {
+    itchid = interaction.channelId;
+    show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid)
+
+    await interaction.reply("Gimme a sec");
   } 
 
 });
