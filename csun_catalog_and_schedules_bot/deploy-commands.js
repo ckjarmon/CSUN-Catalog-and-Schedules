@@ -45,7 +45,11 @@ const commands = [
 			.setRequired(true)).addStringOption(option =>
 			option.setName('prof_name').setDescription('last name of prof')
 			.setRequired(true)),
-
+		new SlashCommandBuilder().setName('level').setDescription('see classes at a 00-th level').addStringOption(option =>
+			option.setName('subject').setDescription('subject')
+			.setRequired(true)).addStringOption(option =>
+			option.setName('level').setDescription('00-th level')
+			.setRequired(true))
 	]
 	.map(command => command.toJSON());
 
