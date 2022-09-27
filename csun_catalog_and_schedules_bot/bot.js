@@ -343,10 +343,10 @@ function show_class_with_term(subject, code, semester, year, itchid) {
     }); //end request
 
     require("request")({
-      url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`,
+      url: `http://127.0.0.1:8000/${subject}/schedule`,
       json: true
     }, async function (error, response, body) {
-      console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`);
+      console.log(`http://127.0.0.1:8000/${subject}/schedule`);
       if (!error) {
 
         const stuffs = JSON.parse(JSON.stringify(body));
