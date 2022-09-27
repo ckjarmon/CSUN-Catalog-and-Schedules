@@ -18,7 +18,7 @@ client = discord.Client()
 
 def show_classes(subject, number):
 
-    data = json.load(open('json_catalogs/' + subject.upper() + '_catalog.json'))
+    data = json.load(open('json_catalog/' + subject.upper() + '_catalog.json'))
     json_blobs = []
     for course in data:
         if (number == course["catalog_number"]):
@@ -39,7 +39,7 @@ def show_classes(subject, number):
 def show_schedule(sem, year, sub, code):
     if sem.lower() == "spring" and year == "2023":
         
-        data = json.load(open("storedschedules/" + sub.upper() + "_schedule.json"))
+        data = json.load(open("json_schedule/" + sub.upper() + "_schedule.json"))
         """
         load_dotenv()
         dausername = os.getenv('sqlusername')
