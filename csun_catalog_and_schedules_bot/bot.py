@@ -110,13 +110,10 @@ def show_schedule(sem, year, sub, code):
 
     blob_list = []
     curr_time = time.asctime(time.localtime(time.time())).split()
-    blob_list.append(sub.upper() + " " + code + " " +
-                     find_class(code) + " - " + sem.upper() + " " + year + 
-                     " - As of " + curr_time[0] + " " + curr_time[2] + " " + curr_time[1] + " "  + curr_time[4] + " " + curr_time[3])
-    blob_list.append(
-        "\n\tSection\t\tLocation\tDays\t Seats\t\t  Time\t\t\t\tFaculty")
-    blob_list.append(
-        "\t-------\t\t--------\t----\t -----\t\t  ----\t\t\t\t-------")
+    blob_list.append(f"{sub.upper()} {code} {find_class(code)} - {sem.upper()} {year} - As of {curr_time[0]} {curr_time[2]} {curr_time[1]} {curr_time[4]} {curr_time[3]}")
+    
+    blob_list.append("\n\tSection\t\tLocation\tDays\t Seats\t\t  Time\t\t\t\tFaculty")
+    blob_list.append("\t-------\t\t--------\t----\t -----\t\t  ----\t\t\t\t-------")
 
     for course in data["classes"]:
         # if a class has no meetings, it should not be on schedule
@@ -132,48 +129,43 @@ def show_schedule(sem, year, sub, code):
             # Location 
             if (len(course["meetings"][0]["location"]) != 7):
                 # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
-                section_string.append("\t\t" + course["meetings"][0]["location"])
+                section_string.append(f"\t\t{course['meetings'][0]['location']}")
                 
             else:
-                section_string.append("\t   " + course["meetings"][0]["location"])
+                section_string.append(f"\t   {course['meetings'][0]['location']}")
                 
             # Days
             if len(str(course["meetings"][0]["days"])) == 1:
-                section_string.append("\t  " + str(course["meetings"][0]["days"]) + "  ")
+                section_string.append(f"\t  {str(course['meetings'][0]['days'])}  ")
 
             elif len(str(course["meetings"][0]["days"])) == 2:
-                section_string.append("\t " + str(course["meetings"][0]["days"]) + "  ")
+                section_string.append(f"\t {str(course['meetings'][0]['days'])}  ")
             
             elif len(str(course["meetings"][0]["days"])) == 3:
-                section_string.append("\t " + str(course["meetings"][0]["days"]) + " ")
+                section_string.append(f"\t {str(course['meetings'][0]['days'])} ")
                 
             elif str(course["meetings"][0]["days"]) == "None":
                 section_string.append("\t --  ")
                 
             else:
-                section_string.append("\t" + str(course["meetings"][0]["days"]) + " ")
+                section_string.append(f"\t{str(course['meetings'][0]['days'])} ")
                 # print(str(course["meetings"][0]["days"]))
 
             
             # Seats Available
             if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
-                section_string.append("\t " + str(course["enrollment_cap"] - course["enrollment_count"]))
+                section_string.append(f"\t {str(course['enrollment_cap'] - course['enrollment_count'])}")
                 
             else:
-                section_string.append("\t" + str(course["enrollment_cap"] - course["enrollment_count"]))
+                section_string.append(f"\t{str(course['enrollment_cap'] - course['enrollment_count'])}")
 
             # Time 
-            section_string.append("\t   " +
-                                  (course["meetings"][0]["start_time"])[0:2] + ":" +
-                                  (course["meetings"][0]["start_time"])[2:4]
-                                  + " - " +
-                                  (course["meetings"][0]["end_time"])[0:2] + ":" +
-                                  (course["meetings"][0]["end_time"])[2:4])
+            section_string.append(f"\t   {(course['meetings'][0]['start_time'])[0:2]}:{(course['meetings'][0]['start_time'])[2:4]} - {(course['meetings'][0]['end_time'])[0:2]}:{(course['meetings'][0]['end_time'])[2:4]}")
 
             # Instructor
             # if a class has no instructor, print Staff instead
             if (len(course["instructors"]) > 0) and course["instructors"][0]["instructor"] != "Staff":
-                section_string.append("\t" + course["instructors"][0]["instructor"])
+                section_string.append(f"\t{course['instructors'][0]['instructor']}")
             else:
                 section_string.append("\t\t   " + "Staff")
 
@@ -195,7 +187,7 @@ async def on_message(message):
 
     msg_split = message.content.split()
     print(message.author, end="")
-    print(" [" + message.content + "]")
+    print(f" [{message.content}]")
     muls = bool
     
     if message.content.__contains__("!csun"):
