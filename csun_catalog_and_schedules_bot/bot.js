@@ -147,12 +147,29 @@ function show_class(subject, code, itchid) {
 
           ret1 = ret1.concat(" - FALL 2022 - As of ");
 
-          ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
+          //ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year);
 
-          ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
+          // ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
 
-          ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
+          // ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
 
+          // ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
+
+          require("request")({
+            url: `http://127.0.0.1:2222/time`,
+            json: true
+          }, async  function (error, response, body) {
+            console.log(`http://127.0.0.1:2222/time`);
+            if (!error) {
+        
+                ret1 = ret1.concat(body)
+        
+             
+        
+        
+            }
+        
+          }); //end request
           ret1 = ret1.concat("\n");
         }
       });
@@ -236,14 +253,29 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             let currentDate = new Date();
 
-            ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + " - As of ");
-           
-            ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
+            ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year);
 
-            ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
+            // ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
 
-            ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
+            // ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
 
+            // ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
+
+            require("request")({
+              url: `http://127.0.0.1:2222/time`,
+              json: true
+            }, async  function (error, response, body) {
+              console.log(`http://127.0.0.1:2222/time`);
+              if (!error) {
+          
+                  ret1 = ret1.concat(body)
+          
+               
+          
+          
+              }
+          
+            }); //end request
             ret1 = ret1.concat("\n");
           }
         });
@@ -324,15 +356,29 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             let currentDate = new Date();
 
-            ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + " - As of ");
+            ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year);
 
-            ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
+            // ret1 = (String(currentDate.getHours()).length === 2) ? ret1.concat(currentDate.getHours() + ":") : ret1.concat("0" + currentDate.getHours() + ":");
 
-            ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
+            // ret1 = (String(currentDate.getMinutes()).length === 2) ? ret1.concat(currentDate.getMinutes() + ":") : ret1.concat("0" + currentDate.getMinutes() + ":");
 
-            ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
+            // ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
 
-            
+            require("request")({
+              url: `http://127.0.0.1:2222/time`,
+              json: true
+            }, async  function (error, response, body) {
+              console.log(`http://127.0.0.1:2222/time`);
+              if (!error) {
+          
+                  ret1 = ret1.concat(body)
+          
+               
+          
+          
+              }
+          
+            }); //end request
 
             ret1 = ret1.concat("\n");
 
