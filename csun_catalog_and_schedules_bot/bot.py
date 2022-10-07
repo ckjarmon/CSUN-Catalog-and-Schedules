@@ -191,7 +191,7 @@ async def on_message(message):
     print(f" [{message.content}]")
     
     
-    if message.author == "Mysto#8529" or message.author == "Kyeou#5054":
+    if message.author == "Mysto#8529" or message.author == "kyeou#5054":
         await client.get_channel(1028088994203967498).send(message.content)
         
     
