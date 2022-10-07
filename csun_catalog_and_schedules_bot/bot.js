@@ -145,7 +145,7 @@ function show_class(subject, code, itchid) {
 
           let currentDate = new Date();
 
-          ret1 = ret1.concat(" - FALL 2022 - As of ");
+          ret1 = ret1.concat(" - FALL 2022");
 
           //ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year);
 
