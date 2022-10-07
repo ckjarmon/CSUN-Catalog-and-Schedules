@@ -191,10 +191,10 @@ async def on_message(message):
     print(f" [{message.content}]")
     
     
-    if message.author == "Mysto#8529" or message.author == "kyeou#5054":
+    if str(message.author).__contains__("Mysto"):
         await client.get_channel(1028088994203967498).send(message.content)
         
-    
+
     muls = bool
     
     if message.content.__contains__("!csun"):
