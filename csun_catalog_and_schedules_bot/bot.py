@@ -1,6 +1,7 @@
 # bot.py
 import numbers
 import os
+from interactions import Channel
 import urllib3
 import json
 import discord
@@ -188,6 +189,12 @@ async def on_message(message):
     msg_split = message.content.split()
     print(message.author, end="")
     print(f" [{message.content}]")
+    
+    
+    if message.author == "Mysto#8529" or message.author == "Kyeou#5054":
+        await client.get_channel(1028088994203967498).send(message.content)
+        
+    
     muls = bool
     
     if message.content.__contains__("!csun"):
