@@ -332,6 +332,8 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
 
+            
+
             ret1 = ret1.concat("\n");
 
           }
