@@ -338,7 +338,7 @@ def open_and_gather():
         try:
             subject_dict = {}
             print(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
-            driver.find_element("name", "SOC_DETAIL$IMG$" + str(a)).click()
+            driver.find_element("id", f"SOC_DETAIL${str(a)}").click()
             time.sleep(4)
             #print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
             section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text.split()
@@ -425,6 +425,7 @@ def open_and_gather():
                     json_blob.append(course_dict.copy())
                     print(course_dict)
                 except NoSuchElementException:
+                    print("Something was not found")
                     break
             driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
             time.sleep(1)

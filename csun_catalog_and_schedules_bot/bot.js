@@ -148,11 +148,11 @@ function show_class(subject, code, itchid) {
           ret1 = ret1.concat(" - FALL 2022" + require("request")({
             url: `http://127.0.0.1:2222/time`,
             json: true
-          }, async  function (error, response, body) {
+          }, async function (error, response, body) {
             console.log(`http://127.0.0.1:2222/time`);
             if (!error) {
         
-                ret1 = ret1.concat(body)
+                ret1 = ret1.concat(body + "\n")
         
              
         
@@ -251,15 +251,15 @@ function show_class_with_term(subject, code, semester, year, itchid) {
               course.subject + " " + course.catalog_number + " " + course.title);
 
             let currentDate = new Date();
-
+           
             ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year + require("request")({
               url: `http://127.0.0.1:2222/time`,
               json: true
-            }, async  function (error, response, body) {
+            }, async function (error, response, body) {
               console.log(`http://127.0.0.1:2222/time`);
               if (!error) {
           
-                  ret1 = ret1.concat(body)
+                  ret1 = ret1.concat(body + "\n")
 
               }
           
@@ -272,7 +272,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             // ret1 = (String(currentDate.getSeconds()).length === 2) ? ret1.concat(currentDate.getSeconds()) : ret1.concat("0" + currentDate.getSeconds());
 
             
-            ret1 = ret1.concat("\n");
+            
           }
         });
 
@@ -359,7 +359,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
               console.log(`http://127.0.0.1:2222/time`);
               if (!error) {
 
-                ret1 = ret1.concat(body)
+                ret1 = ret1.concat(body + "\n")
               }
             }));
 
@@ -371,7 +371,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             
 
-            ret1 = ret1.concat("\n");
+           
 
           }
         });
