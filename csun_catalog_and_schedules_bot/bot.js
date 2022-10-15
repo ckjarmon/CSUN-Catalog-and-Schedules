@@ -328,7 +328,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
     require("request")({
       url: `http://127.0.0.1:8000/${subject}/catalog`,
       json: true
-    }, async  function (error, response, body) {
+    }, async function (error, response, body) {
       console.log(`http://127.0.0.1:8000/${subject}/catalog`);
       if (!error) {
 
