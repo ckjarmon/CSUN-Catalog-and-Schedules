@@ -14,10 +14,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "TR",
+                    "location": "SH184",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -35,10 +35,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "MW",
+                    "location": "SH184",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -51,15 +51,57 @@
             "enrollment_count": 0,
             "instructors": [
                 {
+                    "instructor": "Goldner,Erik H"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH186",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "111",
+            "title": "WORLD SINCE 1500",
+            "class_number": "12603",
+            "enrollment_cap": 49,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Goldner,Erik H"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH186",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "150",
+            "title": "WEST CIV TO 1500",
+            "class_number": "12222",
+            "enrollment_cap": 49,
+            "enrollment_count": 0,
+            "instructors": [
+                {
                     "instructor": "Staff"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "TR",
+                    "location": "SH309",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -77,10 +119,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "MW",
+                    "location": "SH184",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -98,8 +140,8 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "SH184",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -114,15 +156,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Juarez-Dappe,Patricia I"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "T",
+                    "location": "SH184",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -135,15 +177,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Howes,Rachel T"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH286",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -152,6 +194,27 @@
             "catalog_number": "270",
             "title": "US TO 1865",
             "class_number": "12746",
+            "enrollment_cap": 155,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Nuno,John Paul A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "270",
+            "title": "US TO 1865",
+            "class_number": "12842",
             "enrollment_cap": 138,
             "enrollment_count": 0,
             "instructors": [
@@ -162,51 +225,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JA100",
                     "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "270",
-            "title": "US TO 1865",
-            "class_number": "12843",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "270",
-            "title": "US TO 1865",
-            "class_number": "13193",
-            "enrollment_cap": 120,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -215,7 +236,49 @@
             "catalog_number": "271",
             "title": "US SINCE 1865",
             "class_number": "12526",
-            "enrollment_cap": 120,
+            "enrollment_cap": 155,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Devine,Thomas W"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "CR5122",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "271",
+            "title": "US SINCE 1865",
+            "class_number": "12443",
+            "enrollment_cap": 130,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kim,Jessica M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "271",
+            "title": "US SINCE 1865",
+            "class_number": "12527",
+            "enrollment_cap": 82,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -225,51 +288,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "271",
-            "title": "US SINCE 1865",
-            "class_number": "12527",
-            "enrollment_cap": 155,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "271",
-            "title": "US SINCE 1865",
-            "class_number": "13111",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
+                    "location": "SH386",
                     "start_time": "1100h",
-                    "end_time": "1345h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -287,10 +308,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "W",
+                    "location": "SH160",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -303,15 +324,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fitzpatrick-Behrens,Susan R"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "days": "F",
+                    "location": "SH380",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -324,15 +345,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kaja,Jeffrey D"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "SH184",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "301",
+            "title": "HISTORIAN'S CRAFT",
+            "class_number": "20733",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Neirick,Miriam B"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH279",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -345,36 +387,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Oliver,Clementine"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "location": "SH186",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
         {
             "subject": "HIST",
-            "catalog_number": "303",
-            "title": "WST CIV BFOR 1500",
-            "class_number": "12855",
+            "catalog_number": "304",
+            "title": "WST CV AFTR 1500",
+            "class_number": "20734",
             "enrollment_cap": 49,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "O'Sullivan,Donal B"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "MW",
+                    "location": "SH265",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -383,19 +425,19 @@
             "catalog_number": "341",
             "title": "MODERN EUROPE",
             "class_number": "12907",
-            "enrollment_cap": 30,
+            "enrollment_cap": 49,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "O'Sullivan,Donal B"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "MW",
+                    "location": "SH184",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -408,15 +450,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Horowitz,Richard S"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "TR",
+                    "location": "SH184",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -429,24 +471,45 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Horowitz,Richard S"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "W",
+                    "location": "ONLINE",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
         {
             "subject": "HIST",
-            "catalog_number": "349B",
-            "title": "AM WOM SINCE 1848",
-            "class_number": "12908",
-            "enrollment_cap": 30,
+            "catalog_number": "345",
+            "title": "WAR HIST AND FILM",
+            "class_number": "12978",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Fitzpatrick-Behrens,Susan R"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH186",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "350",
+            "title": "HIST WOMEN",
+            "class_number": "12741",
+            "enrollment_cap": 40,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -456,7 +519,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH160",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -464,10 +527,31 @@
         },
         {
             "subject": "HIST",
-            "catalog_number": "357",
-            "title": "HIST OF HOLOCAUST",
-            "class_number": "13246",
-            "enrollment_cap": 15,
+            "catalog_number": "351",
+            "title": "HIST SEX BEHAVIOR",
+            "class_number": "20736",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH160",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "369",
+            "title": "NATIVE PEOPLES",
+            "class_number": "12431",
+            "enrollment_cap": 40,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -477,51 +561,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH209",
                     "start_time": "1400h",
                     "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "366",
-            "title": "POP CULTURE LAT AM",
-            "class_number": "12909",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "369",
-            "title": "NATIVE PEOPLES",
-            "class_number": "12431",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
                 }
             ]
         },
@@ -540,30 +582,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "370",
-            "title": "QUEST AMER HIST I",
-            "class_number": "12827",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "SH186",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -572,17 +593,17 @@
             "catalog_number": "370HON",
             "title": "QUEST AMER HIST I",
             "class_number": "12759",
-            "enrollment_cap": 30,
+            "enrollment_cap": 49,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kaja,Jeffrey D"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH184",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -593,7 +614,7 @@
             "catalog_number": "371",
             "title": "QUEST AMER HIST II",
             "class_number": "12221",
-            "enrollment_cap": 42,
+            "enrollment_cap": 84,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -603,93 +624,30 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "371",
-            "title": "QUEST AMER HIST II",
-            "class_number": "12540",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "371",
-            "title": "QUEST AMER HIST II",
-            "class_number": "12541",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "410",
-            "title": "ANCIENT GREECE",
-            "class_number": "13181",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "415",
-            "title": "BYZANTINE WORLD",
-            "class_number": "13331",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
+                    "location": "SH280",
                     "start_time": "1400h",
                     "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "380",
+            "title": "L.A. PAST FUTURE",
+            "class_number": "13060",
+            "enrollment_cap": 49,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Sides,Josh"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH265",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -707,10 +665,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "F",
+                    "location": "SH186",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -719,69 +677,6 @@
             "catalog_number": "417",
             "title": "CAL EDUCATORS",
             "class_number": "13180",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "417",
-            "title": "CAL EDUCATORS",
-            "class_number": "13241",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "427",
-            "title": "ISRAEL HIST PEOPL",
-            "class_number": "12806",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "433",
-            "title": "PUBLIC HISTORY",
-            "class_number": "12604",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
@@ -791,10 +686,73 @@
             ],
             "meetings": [
                 {
+                    "days": null,
+                    "location": "SH184",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "417",
+            "title": "CAL EDUCATORS",
+            "class_number": "13241",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "SH184",
+                    "start_time": "1230h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "420",
+            "title": "GETTING MEDIEVAL",
+            "class_number": "20737",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Oliver,Clementine"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH106",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "426",
+            "title": "MODERN MID EAST",
+            "class_number": "13106",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Howes,Rachel T"
+                }
+            ],
+            "meetings": [
+                {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "SH182",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -807,15 +765,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "O'Sullivan,Donal B"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -823,39 +781,18 @@
             "subject": "HIST",
             "catalog_number": "450",
             "title": "RUSSIA SINCE 1917",
-            "class_number": "13242",
+            "class_number": "12709",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Neirick,Miriam B"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "452",
-            "title": "1066 TO TUDORS",
-            "class_number": "13245",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
+                    "location": "SH279",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -863,41 +800,62 @@
         },
         {
             "subject": "HIST",
-            "catalog_number": "466",
-            "title": "MEXICO",
-            "class_number": "12826",
+            "catalog_number": "456",
+            "title": "MODERN FRANCE",
+            "class_number": "12983",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "473A",
-            "title": "CIVIL WAR",
-            "class_number": "12863",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
+                    "instructor": "Goldner,Erik H"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH265",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "463",
+            "title": "20 C LATIN AMERCA",
+            "class_number": "12944",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Fitzpatrick-Behrens,Susan R"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH209",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "471",
+            "title": "AMERICAN REVOLUTION",
+            "class_number": "12987",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kaja,Jeffrey D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH186",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -905,22 +863,22 @@
         },
         {
             "subject": "HIST",
-            "catalog_number": "474A",
-            "title": "US 1920-1960",
-            "class_number": "12864",
+            "catalog_number": "473B",
+            "title": "HIST US 1877-1920",
+            "class_number": "12860",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Devine,Thomas W"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "location": "SH267",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -933,57 +891,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Neirick,Miriam B"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "days": "F",
+                    "location": "SH225",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
                 }
             ]
         },
         {
             "subject": "HIST",
-            "catalog_number": "488",
-            "title": "CALIFORNIA",
-            "class_number": "12529",
+            "catalog_number": "491A",
+            "title": "EARLY MODERN CHINA",
+            "class_number": "12832",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Horowitz,Richard S"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "493",
-            "title": "MODERN JAPAN",
-            "class_number": "12984",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "location": "SH276",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -996,13 +933,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kim,Jessica M"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1017,34 +954,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Oliver,Clementine"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "497B",
-            "title": "PROSEMINAR",
-            "class_number": "12692",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "SH288",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1052,20 +968,41 @@
         },
         {
             "subject": "HIST",
-            "catalog_number": "497C",
+            "catalog_number": "497A",
             "title": "PROSEMINAR",
-            "class_number": "12693",
+            "class_number": "13084",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Juarez-Dappe,Patricia I"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "SH288",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "497A",
+            "title": "PROSEMINAR",
+            "class_number": "20754",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Sides,Josh"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH288",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1085,10 +1022,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1215h"
+                    "days": "T",
+                    "location": "SH186",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -1101,15 +1038,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Howes,Rachel T"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "MW",
+                    "location": "SH182",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -1122,34 +1059,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "498C",
-            "title": "TUTORIAL IN HIST",
-            "class_number": "12745",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
+                    "instructor": "Kim,Jessica M"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "SH184",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1157,62 +1073,20 @@
         },
         {
             "subject": "HIST",
-            "catalog_number": "511",
-            "title": "COLLOQ ROMAN HIST",
-            "class_number": "13347",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "594",
-            "title": "INTERNSHIP",
-            "class_number": "12867",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
-            "catalog_number": "596F",
-            "title": "FRENCH REV",
-            "class_number": "13115",
+            "catalog_number": "563",
+            "title": "LAT AM POL/MILTRY",
+            "class_number": "20746",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fitzpatrick-Behrens,Susan R"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH288",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1220,20 +1094,62 @@
         },
         {
             "subject": "HIST",
-            "catalog_number": "596I",
-            "title": "US EAR NAT",
-            "class_number": "13175",
+            "catalog_number": "570",
+            "title": "AMERICAN REV",
+            "class_number": "12930",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kaja,Jeffrey D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH288",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "596AN",
+            "title": "COLLOQBORDERLANDS",
+            "class_number": "20747",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Nuno,John Paul A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH106",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "596EG",
+            "title": "ENLIGHT/REVOLUTN",
+            "class_number": "13108",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Goldner,Erik H"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1248,13 +1164,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Horowitz,Richard S"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "SH265",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1262,20 +1178,41 @@
         },
         {
             "subject": "HIST",
-            "catalog_number": "620",
-            "title": "SEM MIDDLE AGES",
-            "class_number": "13348",
+            "catalog_number": "641",
+            "title": "SEM MOD EUR HIST",
+            "class_number": "12928",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "O'Sullivan,Donal B"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH288",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "HIST",
+            "catalog_number": "692C",
+            "title": "ENV HIST RESEARCH",
+            "class_number": "20901",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Zappia,Natale A"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH184",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1283,41 +1220,20 @@
         },
         {
             "subject": "HIST",
-            "catalog_number": "694",
-            "title": "PRACT TEACH ASST",
-            "class_number": "12422",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "HIST",
             "catalog_number": "698D",
             "title": "CULMIN PROJECT",
-            "class_number": "13208",
+            "class_number": "20784",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Neirick,Miriam B"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "SH266",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }

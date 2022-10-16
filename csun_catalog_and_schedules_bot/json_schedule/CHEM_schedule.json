@@ -38,7 +38,7 @@
                     "days": "TR",
                     "location": "EH2227",
                     "start_time": "1130h",
-                    "end_time": "1245h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -101,7 +101,7 @@
                     "days": "MW",
                     "location": "EH2225",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -227,7 +227,7 @@
                     "days": "MW",
                     "location": "EH2227",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -312,6 +312,321 @@
                     "location": "EH2225",
                     "start_time": "1700h",
                     "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101",
+            "title": "GEN CHEMISTRY I",
+            "class_number": "20605",
+            "enrollment_cap": 72,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "CR5126",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20591",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "EH2222",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20592",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EH2222",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20593",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "EH2222",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20594",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EH2222",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20595",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "EH2222",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20596",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EH2222",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20597",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "EH2222",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20598",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "EH2222",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20599",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "EH2222",
+                    "start_time": "1130h",
+                    "end_time": "2420h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20600",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "EH2222",
+                    "start_time": "1130h",
+                    "end_time": "2420h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20601",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "EH2222",
+                    "start_time": "1830h",
+                    "end_time": "1920h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20602",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EH2222",
+                    "start_time": "1830h",
+                    "end_time": "1920h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20603",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "CR5117",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101D",
+            "title": "GEN CHEM I DISC",
+            "class_number": "20604",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "LO1127",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
                 }
             ]
         },
@@ -592,6 +907,48 @@
             "subject": "CHEM",
             "catalog_number": "101L",
             "title": "GEN CHEM I LAB",
+            "class_number": "18064",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "EH2302",
+                    "start_time": "1400h",
+                    "end_time": "1650h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101L",
+            "title": "GEN CHEM I LAB",
+            "class_number": "18120",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "EH2302",
+                    "start_time": "1700h",
+                    "end_time": "1950h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "101L",
+            "title": "GEN CHEM I LAB",
             "class_number": "18121",
             "enrollment_cap": 24,
             "enrollment_count": 0,
@@ -708,7 +1065,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "EH2225",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -813,7 +1170,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "CR5126",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -834,7 +1191,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "CR5126",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -1319,7 +1676,7 @@
                     "days": "TR",
                     "location": "EH2228",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1968,7 +2325,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "LO1124",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -1991,7 +2348,7 @@
                     "days": "TR",
                     "location": "EH2227",
                     "start_time": "0730h",
-                    "end_time": "0915h"
+                    "end_time": "0815h"
                 }
             ]
         },
@@ -2013,6 +2370,27 @@
                     "location": "CS3306",
                     "start_time": "1300h",
                     "end_time": "1550h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "352L",
+            "title": "PHYS CHEM II LAB",
+            "class_number": "20624",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "CS3306",
+                    "start_time": "0900h",
+                    "end_time": "1150h"
                 }
             ]
         },
@@ -2117,7 +2495,7 @@
                     "days": "TR",
                     "location": "CS3306",
                     "start_time": "0930h",
-                    "end_time": "1220h"
+                    "end_time": "2420h"
                 }
             ]
         },
@@ -2139,6 +2517,27 @@
                     "location": "CS3306",
                     "start_time": "1400h",
                     "end_time": "1650h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "422L",
+            "title": "CHEM ANLYS II LAB",
+            "class_number": "20625",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "CS3306",
+                    "start_time": "1710h",
+                    "end_time": "2000h"
                 }
             ]
         },
@@ -2180,7 +2579,7 @@
                     "days": "TR",
                     "location": "MG4307",
                     "start_time": "1000h",
-                    "end_time": "1250h"
+                    "end_time": "2450h"
                 }
             ]
         },
@@ -2396,27 +2795,6 @@
         },
         {
             "subject": "CHEM",
-            "catalog_number": "465",
-            "title": "TOPICS IN BIOCHEM",
-            "class_number": "18635",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EH2227",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
-        },
-        {
-            "subject": "CHEM",
             "catalog_number": "495A",
             "title": "DIRECTED RESEARCH",
             "class_number": "17686",
@@ -2430,7 +2808,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2451,7 +2829,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2472,7 +2850,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2493,7 +2871,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2501,22 +2879,85 @@
         },
         {
             "subject": "CHEM",
-            "catalog_number": "552",
-            "title": "QUANTUM CHEM",
-            "class_number": "18294",
-            "enrollment_cap": 24,
+            "catalog_number": "555",
+            "title": "COMPUT CHEM",
+            "class_number": "21024",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Miao,Maosheng"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
+                    "days": "R",
+                    "location": "EH2222",
+                    "start_time": "1700h",
+                    "end_time": "1840h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "555L",
+            "title": "COMPUT CHEM LAB",
+            "class_number": "21025",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Miao,Maosheng"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "CS3320",
+                    "start_time": "1000h",
+                    "end_time": "2450h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "567",
+            "title": "PROTEIN STR FUNCT",
+            "class_number": "18320",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Crowhurst,Karin A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
                     "location": "EH2222",
                     "start_time": "1700h",
                     "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "CHEM",
+            "catalog_number": "567L",
+            "title": "PROT STR FUNC LAB",
+            "class_number": "18321",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Crowhurst,Karin A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "LO1322",
+                    "start_time": "0900h",
+                    "end_time": "1150h"
                 }
             ]
         },
@@ -2535,7 +2976,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2556,7 +2997,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2619,7 +3060,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2640,7 +3081,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2661,7 +3102,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2682,7 +3123,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

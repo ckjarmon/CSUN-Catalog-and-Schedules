@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH386",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -26,7 +26,7 @@
             "catalog_number": "150",
             "title": "INTRO TO ANTHRO",
             "class_number": "12229",
-            "enrollment_cap": 65,
+            "enrollment_cap": 130,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -44,10 +44,10 @@
         },
         {
             "subject": "ANTH",
-            "catalog_number": "150",
-            "title": "INTRO TO ANTHRO",
-            "class_number": "12873",
-            "enrollment_cap": 65,
+            "catalog_number": "151",
+            "title": "INTRO BIO ANTHRO",
+            "class_number": "12204",
+            "enrollment_cap": 49,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -56,10 +56,31 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "TR",
+                    "location": "SH265",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "ANTH",
+            "catalog_number": "151",
+            "title": "INTRO BIO ANTHRO",
+            "class_number": "12503",
+            "enrollment_cap": 138,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Rougier,Helene A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "CR5122",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -78,30 +99,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "152",
-            "title": "INTRO CULTRL ANTH",
-            "class_number": "12725",
-            "enrollment_cap": 65,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "location": "SH203",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -110,19 +110,19 @@
             "catalog_number": "153",
             "title": "INTRO ARCHAEOLOGY",
             "class_number": "12205",
-            "enrollment_cap": 70,
+            "enrollment_cap": 65,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Snead,James E"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "location": "SH203",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -131,19 +131,19 @@
             "catalog_number": "212",
             "title": "ANTHRO OF SEX",
             "class_number": "12223",
-            "enrollment_cap": 65,
+            "enrollment_cap": 138,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Campbell,Christina J"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "location": "UL025",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -152,19 +152,19 @@
             "catalog_number": "222",
             "title": "VISIONS OF SACRED",
             "class_number": "12718",
-            "enrollment_cap": 120,
+            "enrollment_cap": 121,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kirner,Kimberly D"
                 }
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "MW",
+                    "location": "UL025",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -173,17 +173,17 @@
             "catalog_number": "232",
             "title": "EXPRESSIVE CULT",
             "class_number": "13352",
-            "enrollment_cap": 27,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Brewer,Skye"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -194,19 +194,19 @@
             "catalog_number": "262",
             "title": "FORENSIC ANTH",
             "class_number": "12965",
-            "enrollment_cap": 120,
+            "enrollment_cap": 138,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Liu,Chin-hsin"
                 }
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "MW",
+                    "location": "UL025",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -215,19 +215,19 @@
             "catalog_number": "302",
             "title": "INTR APPLIED ANTH",
             "class_number": "12544",
-            "enrollment_cap": 65,
+            "enrollment_cap": 130,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Von Mayrhauser,Christina L"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1215h"
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -240,57 +240,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Von Mayrhauser,Christina L"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH234",
                     "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "305",
-            "title": "INDIV + CULTURE",
-            "class_number": "12415",
-            "enrollment_cap": 65,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "307",
-            "title": "ANTHRO NATIVE CA SW",
-            "class_number": "13316",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -299,17 +257,17 @@
             "catalog_number": "308",
             "title": "GENDER & CULTURE",
             "class_number": "12071",
-            "enrollment_cap": 120,
+            "enrollment_cap": 130,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Giraudo,Rachel F"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -329,10 +287,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "days": null,
+                    "location": "SH203",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -341,7 +299,7 @@
             "catalog_number": "310",
             "title": "LNG CULT/ANTH LIN",
             "class_number": "12072",
-            "enrollment_cap": 120,
+            "enrollment_cap": 130,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -351,7 +309,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -362,48 +320,6 @@
             "catalog_number": "310",
             "title": "LNG CULT/ANTH LIN",
             "class_number": "12724",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "315",
-            "title": "WORLD CULTR SOCTY",
-            "class_number": "13173",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "319",
-            "title": "WORLD PREHISTORY",
-            "class_number": "12642",
             "enrollment_cap": 65,
             "enrollment_count": 0,
             "instructors": [
@@ -414,9 +330,30 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "location": "SH203",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "ANTH",
+            "catalog_number": "319",
+            "title": "WORLD PREHISTORY",
+            "class_number": "12642",
+            "enrollment_cap": 49,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Costin,Cathy L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH265",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -434,8 +371,8 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "SH203",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -456,7 +393,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH203",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -464,10 +401,10 @@
         },
         {
             "subject": "ANTH",
-            "catalog_number": "425",
-            "title": "CULTRE+HLTH+HELNG",
-            "class_number": "13318",
-            "enrollment_cap": 25,
+            "catalog_number": "341",
+            "title": "BONES",
+            "class_number": "13085",
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -477,7 +414,28 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH234",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "ANTH",
+            "catalog_number": "345",
+            "title": "ANTH CONTEMPORARY US",
+            "class_number": "20843",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kirner,Kimberly D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH265",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -485,83 +443,20 @@
         },
         {
             "subject": "ANTH",
-            "catalog_number": "429",
-            "title": "ARCH SOUTH AMER",
-            "class_number": "13320",
-            "enrollment_cap": 25,
+            "catalog_number": "346",
+            "title": "URBAN ANTHROPOLOG",
+            "class_number": "21020",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Scheld,Suzanne"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "445",
-            "title": "HUMAN OSTEOLOGY",
-            "class_number": "13321",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "445L",
-            "title": "OSTEOLOGY LAB",
-            "class_number": "13322",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "450",
-            "title": "HISTORICAL ANTHRO",
-            "class_number": "13317",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "SH265",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -569,30 +464,51 @@
         },
         {
             "subject": "ANTH",
-            "catalog_number": "453",
-            "title": "HUMAN PALEONTOLGY",
-            "class_number": "13323",
-            "enrollment_cap": 25,
+            "catalog_number": "396B",
+            "title": "ARCH PERS CONTEMP IS",
+            "class_number": "21021",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Costin,Cathy L"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "SH234",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
         {
             "subject": "ANTH",
-            "catalog_number": "468",
-            "title": "CULTURAL HERITAGE",
-            "class_number": "13324",
+            "catalog_number": "421",
+            "title": "PRIMATOLOGY",
+            "class_number": "13169",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Campbell,Christina J"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH265",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "ANTH",
+            "catalog_number": "430",
+            "title": "ENVIRONMENTAL ANTHRO",
+            "class_number": "21019",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
@@ -603,9 +519,93 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "SH234",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "ANTH",
+            "catalog_number": "449",
+            "title": "HISTARCH",
+            "class_number": "13184",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Snead,James E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH234",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "ANTH",
+            "catalog_number": "465",
+            "title": "MUSEUM ANTHRO",
+            "class_number": "13171",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Giraudo,Rachel F"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH234",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "ANTH",
+            "catalog_number": "475",
+            "title": "ETHNOG RES METHOD",
+            "class_number": "12153",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Giraudo,Rachel F"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH234",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "ANTH",
+            "catalog_number": "476A",
+            "title": "TOPIC ANTH METHOD",
+            "class_number": "20876",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Snead,James E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH203",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -618,15 +618,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rougier,Helene A"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "days": "T",
+                    "location": "SH234",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -639,13 +639,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Liu,Chin-hsin"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "SH234",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -660,13 +660,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Scheld,Suzanne"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -674,9 +674,9 @@
         },
         {
             "subject": "ANTH",
-            "catalog_number": "518",
-            "title": "LAB MTHDS IN ARCH",
-            "class_number": "13327",
+            "catalog_number": "527",
+            "title": "ADV N AMER ARCH",
+            "class_number": "20814",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
@@ -686,52 +686,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1700h",
-                    "end_time": "1900h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "518L",
-            "title": "LAB MTHD ARCH LAB",
-            "class_number": "13328",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1015h"
-                }
-            ]
-        },
-        {
-            "subject": "ANTH",
-            "catalog_number": "549",
-            "title": "ADV HIST ARCH",
-            "class_number": "13329",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "M",
+                    "location": "SH234",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -750,28 +708,28 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "SH234",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
         {
             "subject": "ANTH",
-            "catalog_number": "602",
-            "title": "PROB CULTRL ANTH",
-            "class_number": "12969",
+            "catalog_number": "608",
+            "title": "PROB APPLIED ANTH",
+            "class_number": "12874",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Von Mayrhauser,Christina L"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH234",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -786,13 +744,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Scheld,Suzanne"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -807,13 +765,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kirner,Kimberly D"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "SH234",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -828,13 +786,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Scheld,Suzanne"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -849,13 +807,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Scheld,Suzanne"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -870,13 +828,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Scheld,Suzanne"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

@@ -17,7 +17,7 @@
                     "days": "TR",
                     "location": "TBA",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -46,27 +46,6 @@
             "subject": "PHYS",
             "catalog_number": "100AL",
             "title": "GEN PHYS LAB",
-            "class_number": "17186",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "100AL",
-            "title": "GEN PHYS LAB",
             "class_number": "17185",
             "enrollment_cap": 48,
             "enrollment_count": 0,
@@ -78,7 +57,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -89,7 +68,7 @@
             "catalog_number": "100AL",
             "title": "GEN PHYS LAB",
             "class_number": "17184",
-            "enrollment_cap": 46,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -99,7 +78,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -120,7 +99,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -141,7 +120,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -152,27 +131,6 @@
             "catalog_number": "100AL",
             "title": "GEN PHYS LAB",
             "class_number": "17461",
-            "enrollment_cap": 46,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "100AL",
-            "title": "GEN PHYS LAB",
-            "class_number": "17570",
             "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
@@ -182,10 +140,10 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1700h",
-                    "end_time": "1945h"
+                    "days": "T",
+                    "location": "EH2109",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -204,7 +162,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "CR5122",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -225,7 +183,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "CR5125",
                     "start_time": "1530h",
                     "end_time": "1645h"
                 }
@@ -246,7 +204,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "LO1107",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -267,7 +225,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "LO1107",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -288,7 +246,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "LO1107",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -309,30 +267,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "LO1107",
                     "start_time": "1400h",
                     "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "100BL",
-            "title": "GEN PHYS LAB",
-            "class_number": "17485",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
                 }
             ]
         },
@@ -351,7 +288,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "LO1107",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -372,28 +309,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "100BL",
-            "title": "GEN PHYS LAB",
-            "class_number": "17663",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
+                    "location": "LO1107",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -414,9 +330,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JA100",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -435,30 +351,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SQ104",
                     "start_time": "1230h",
                     "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "220AL",
-            "title": "MECHANICS LAB",
-            "class_number": "17195",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
                 }
             ]
         },
@@ -477,7 +372,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -498,30 +393,9 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "1400h",
                     "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "220AL",
-            "title": "MECHANICS LAB",
-            "class_number": "17198",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1700h",
-                    "end_time": "1945h"
                 }
             ]
         },
@@ -540,7 +414,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -561,30 +435,9 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "1100h",
                     "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "220AL",
-            "title": "MECHANICS LAB",
-            "class_number": "18032",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
                 }
             ]
         },
@@ -603,7 +456,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -624,7 +477,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -645,7 +498,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "EH2109",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -666,7 +519,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "CR5122",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -708,7 +561,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "LO1102",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -729,7 +582,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "LO1102",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -750,7 +603,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "LO1102",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -771,7 +624,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "LO1102",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -792,51 +645,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "LO1102",
                     "start_time": "1100h",
                     "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "220BL",
-            "title": "ELEC + MAG LAB",
-            "class_number": "17667",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "220BL",
-            "title": "ELEC + MAG LAB",
-            "class_number": "18035",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
                 }
             ]
         },
@@ -855,7 +666,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "LO1102",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -876,49 +687,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "220BL",
-            "title": "ELEC + MAG LAB",
-            "class_number": "18103",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "PHYS",
-            "catalog_number": "220BL",
-            "title": "ELEC + MAG LAB",
-            "class_number": "18104",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
+                    "location": "LO1102",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -939,7 +708,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "LO1127",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -960,7 +729,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "LO1117",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -981,9 +750,9 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "LO1100",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1002,7 +771,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1023,7 +792,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1044,7 +813,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1065,7 +834,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1086,9 +855,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "LO1100",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1107,9 +876,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "LO1127",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1128,7 +897,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -1149,7 +918,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "LO1117",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -1170,7 +939,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "LO1127",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -1191,7 +960,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "LO1100",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1212,9 +981,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "LO1127",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1233,7 +1002,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "BP3100",
                     "start_time": "1530h",
                     "end_time": "1650h"
                 }
@@ -1254,7 +1023,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1275,7 +1044,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1296,7 +1065,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "LO1100",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -1317,7 +1086,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1338,7 +1107,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1359,7 +1128,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1380,7 +1149,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1401,7 +1170,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "LO1124",
                     "start_time": "1500h",
                     "end_time": "1640h"
                 }
@@ -1422,7 +1191,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "LO1127",
                     "start_time": "1700h",
                     "end_time": "1815h"
                 }
@@ -1443,7 +1212,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1700h",
                     "end_time": "1815h"
                 }
@@ -1464,7 +1233,28 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "PHYS",
+            "catalog_number": "696B",
+            "title": "DIR GRAD RESEARCH",
+            "class_number": "17211",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1485,7 +1275,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1506,7 +1296,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1527,7 +1317,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1548,7 +1338,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1569,7 +1359,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1590,7 +1380,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1611,7 +1401,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1632,7 +1422,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1653,7 +1443,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1674,7 +1464,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1695,7 +1485,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1716,7 +1506,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1737,7 +1527,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1758,7 +1548,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1779,7 +1569,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1800,7 +1590,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1821,7 +1611,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1842,7 +1632,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1863,7 +1653,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

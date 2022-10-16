@@ -233,6 +233,27 @@
         },
         {
             "subject": "ATHL",
+            "catalog_number": "217",
+            "title": "VAR/SOFTBALL/W",
+            "class_number": "20164",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "TBA",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "ATHL",
             "catalog_number": "220",
             "title": "VAR/WP/W",
             "class_number": "20165",

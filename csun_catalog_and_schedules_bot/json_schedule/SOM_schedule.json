@@ -9,15 +9,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gupta,Akash"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
+                    "days": "TR",
+                    "location": "BB1232",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -30,15 +30,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sheng,Qiuhua"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
+                    "days": "MW",
+                    "location": "BB1230",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -51,15 +51,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sankaran,Siva R"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "location": "BB1232",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -72,36 +72,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sheng,Qiuhua"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "SOM",
-            "catalog_number": "120",
-            "title": "BASIC BUS STAT",
-            "class_number": "13809",
-            "enrollment_cap": 45,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "location": "BB1230",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -110,19 +89,19 @@
             "catalog_number": "306",
             "title": "OPERATIONS MGMT",
             "class_number": "13521",
-            "enrollment_cap": 155,
+            "enrollment_cap": 165,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lee,Jun-Yeon"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -131,17 +110,17 @@
             "catalog_number": "306",
             "title": "OPERATIONS MGMT",
             "class_number": "13554",
-            "enrollment_cap": 155,
+            "enrollment_cap": 165,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Vessal,Ahmad"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "NA101",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -152,17 +131,17 @@
             "catalog_number": "306",
             "title": "OPERATIONS MGMT",
             "class_number": "13555",
-            "enrollment_cap": 155,
+            "enrollment_cap": 55,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Tierney,Jane E"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "BB2206",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -173,17 +152,17 @@
             "catalog_number": "306",
             "title": "OPERATIONS MGMT",
             "class_number": "13556",
-            "enrollment_cap": 155,
+            "enrollment_cap": 150,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Li,Kunpeng"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "JA100",
                     "start_time": "1530h",
                     "end_time": "1645h"
                 }
@@ -194,19 +173,19 @@
             "catalog_number": "306",
             "title": "OPERATIONS MGMT",
             "class_number": "13579",
-            "enrollment_cap": 155,
+            "enrollment_cap": 165,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Tierney,Jane E"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "NA101",
                     "start_time": "1600h",
-                    "end_time": "1715h"
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -215,38 +194,17 @@
             "catalog_number": "306",
             "title": "OPERATIONS MGMT",
             "class_number": "13591",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "SOM",
-            "catalog_number": "306",
-            "title": "OPERATIONS MGMT",
-            "class_number": "13796",
             "enrollment_cap": 40,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Behnezhad,Ali"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1230",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -256,18 +214,18 @@
             "subject": "SOM",
             "catalog_number": "306",
             "title": "OPERATIONS MGMT",
-            "class_number": "13811",
-            "enrollment_cap": 40,
+            "class_number": "13796",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Behnezhad,Ali"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1230",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -278,19 +236,19 @@
             "catalog_number": "306BH",
             "title": "OPERATIONS MGMT",
             "class_number": "13682",
-            "enrollment_cap": 10,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Behnezhad,Ali"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "days": "TR",
+                    "location": "BB1230",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -299,17 +257,17 @@
             "catalog_number": "307",
             "title": "DATA ANAL & MODEL",
             "class_number": "13557",
-            "enrollment_cap": 50,
+            "enrollment_cap": 51,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gupta,Akash"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB2125",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -320,17 +278,17 @@
             "catalog_number": "307",
             "title": "DATA ANAL & MODEL",
             "class_number": "13880",
-            "enrollment_cap": 50,
+            "enrollment_cap": 51,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Vessal,Ahmad"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BB2125",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -351,28 +309,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1730h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "SOM",
-            "catalog_number": "416",
-            "title": "SUPPLY CHAIN MGT.",
-            "class_number": "13904",
-            "enrollment_cap": 50,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "location": "BB2230",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -383,17 +320,17 @@
             "catalog_number": "464",
             "title": "MANUFACT RES PLAN",
             "class_number": "13848",
-            "enrollment_cap": 50,
+            "enrollment_cap": 53,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lee,Jun-Yeon"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BB2125",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -404,7 +341,7 @@
             "catalog_number": "464",
             "title": "MANUFACT RES PLAN",
             "class_number": "13905",
-            "enrollment_cap": 50,
+            "enrollment_cap": 53,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -414,7 +351,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB2125",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -425,59 +362,17 @@
             "catalog_number": "467",
             "title": "QUAL MGT & CTRL",
             "class_number": "13766",
-            "enrollment_cap": 55,
+            "enrollment_cap": 75,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Houshmand Azad,Kaveh"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "SOM",
-            "catalog_number": "467",
-            "title": "QUAL MGT & CTRL",
-            "class_number": "13881",
-            "enrollment_cap": 55,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
-                }
-            ]
-        },
-        {
-            "subject": "SOM",
-            "catalog_number": "467",
-            "title": "QUAL MGT & CTRL",
-            "class_number": "13902",
-            "enrollment_cap": 50,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
+                    "location": "EH2228",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -488,17 +383,17 @@
             "catalog_number": "485",
             "title": "DCSN SUPPORT SYS",
             "class_number": "13466",
-            "enrollment_cap": 44,
+            "enrollment_cap": 51,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Abrams,Behnam"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "BB2125",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -509,40 +404,19 @@
             "catalog_number": "485",
             "title": "DCSN SUPPORT SYS",
             "class_number": "13882",
-            "enrollment_cap": 44,
+            "enrollment_cap": 50,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Abrams,Behnam"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "BB2125",
                     "start_time": "1000h",
-                    "end_time": "1245h"
-                }
-            ]
-        },
-        {
-            "subject": "SOM",
-            "catalog_number": "485",
-            "title": "DCSN SUPPORT SYS",
-            "class_number": "13903",
-            "enrollment_cap": 50,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -551,17 +425,17 @@
             "catalog_number": "591",
             "title": "BUS ANALYTICS FND",
             "class_number": "13746",
-            "enrollment_cap": 32,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Wedel,Thomas"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB1232",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -576,13 +450,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Li,Kunpeng"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "BB1230",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }

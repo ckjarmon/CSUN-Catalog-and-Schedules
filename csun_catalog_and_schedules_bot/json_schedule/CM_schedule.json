@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "JD1565E",
+                    "location": "ONLINE",
                     "start_time": "0900h",
                     "end_time": "1045h"
                 }
@@ -30,7 +30,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Aramali,Vartenie"
                 }
             ],
             "meetings": [
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "JD1565E",
+                    "location": "ONLINE",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -72,7 +72,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Aramali,Vartenie"
                 }
             ],
             "meetings": [
@@ -119,10 +119,10 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
+                    "days": "W",
                     "location": "JD1565E",
                     "start_time": "1400h",
-                    "end_time": "1545h"
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -140,7 +140,7 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
+                    "days": "W",
                     "location": "JD1565E",
                     "start_time": "1600h",
                     "end_time": "1845h"
@@ -161,10 +161,10 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
+                    "days": "M",
                     "location": "ONLINE",
                     "start_time": "1400h",
-                    "end_time": "1545h"
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -183,7 +183,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "ONLINE",
+                    "location": "JD1565E",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -240,7 +240,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amarkhil,Qais"
                 }
             ],
             "meetings": [
@@ -261,7 +261,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amarkhil,Qais"
                 }
             ],
             "meetings": [
@@ -282,7 +282,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amarkhil,Qais"
                 }
             ],
             "meetings": [
@@ -309,7 +309,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "JD1565E",
+                    "location": "ONLINE",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }

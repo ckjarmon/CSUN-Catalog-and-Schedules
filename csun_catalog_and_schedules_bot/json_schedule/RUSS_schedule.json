@@ -5,7 +5,7 @@
             "catalog_number": "101",
             "title": "ELEM RUS I",
             "class_number": "14941",
-            "enrollment_cap": 32,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -15,9 +15,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BB1236",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -26,7 +26,7 @@
             "catalog_number": "102",
             "title": "ELEM RUS II",
             "class_number": "14638",
-            "enrollment_cap": 32,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -35,8 +35,8 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "ONLINE",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -44,10 +44,10 @@
         },
         {
             "subject": "RUSS",
-            "catalog_number": "380",
-            "title": "RUSS CIVILIZATION",
-            "class_number": "15102",
-            "enrollment_cap": 35,
+            "catalog_number": "390",
+            "title": "RUSSIAN FOLKLORE",
+            "class_number": "20879",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

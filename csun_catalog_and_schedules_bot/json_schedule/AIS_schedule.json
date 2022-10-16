@@ -14,18 +14,18 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "TR",
+                    "location": "JR214",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
         {
             "subject": "AIS",
-            "catalog_number": "101",
-            "title": "INTRO AMER IND ST",
-            "class_number": "14326",
+            "catalog_number": "210",
+            "title": "THINKING/KNOWING",
+            "class_number": "20680",
             "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
@@ -36,30 +36,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR221",
                     "start_time": "0930h",
                     "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "AIS",
-            "catalog_number": "222",
-            "title": "AMER IND GENDER",
-            "class_number": "15126",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
                 }
             ]
         },
@@ -77,10 +56,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -99,17 +78,17 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR217",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
         {
             "subject": "AIS",
-            "catalog_number": "304",
-            "title": "AMER IND LAW POL",
-            "class_number": "15327",
+            "catalog_number": "318",
+            "title": "AMERICAN INDIAN LIT",
+            "class_number": "21029",
             "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
@@ -120,7 +99,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

@@ -44,7 +44,7 @@ catalog_link = 'https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_M
 def gather_data():
     print("Semester: " + sys.argv[1])
     print("Year: " + sys.argv[2])
-    print("Subject: " + str(sys.argv[4]))
+    print("Subject: " + str(sys.argv[4].replace(' ', '').replace('/', '')))
 
 
 section_number = [2233, 2227, 2225, 2223, 2221, 2217, 2215, 2213, 2211, 2207, 2205, 2203, 2201, 2197, 2195, 2193, 2191, 2187, 2185, 2183, 2181, 2177, 2175, 2173, 2171, 2167, 2165, 2163, 2161, 2157, 2155, 2153, 2151, 2147, 2145, 2143, 2141,
@@ -329,7 +329,7 @@ def open_and_gather():
     # Days = NR_SSS_SOC_NWRK_DESCR20$0
     # Time = NR_SSS_SOC_NSEC_DESCR25_2$0
     # Instructor = FACURL$0
-    file1 = open(sys.argv[4] + "_schedule.json", "w")
+    file1 = open(sys.argv[4].replace(' ', '').replace('/', '') + "_schedule.json", "w")
     json_blob = []
     course_dict = {}
 
@@ -338,7 +338,9 @@ def open_and_gather():
         try:
             subject_dict = {}
             print(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
+            
             driver.find_element("id", f"SOC_DETAIL${str(a)}").click()
+            
             time.sleep(4)
             #print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
             section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text.split()
@@ -428,7 +430,7 @@ def open_and_gather():
                     print("Something was not found")
                     break
             driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
-            time.sleep(1)
+            time.sleep(3)
         except NoSuchElementException:
             break
 

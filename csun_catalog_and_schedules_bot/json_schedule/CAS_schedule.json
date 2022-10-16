@@ -15,9 +15,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JC228",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -36,9 +36,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR243",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH384",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -72,13 +72,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Carranza,Douglas G"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JR246",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "EU134",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -120,7 +120,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "EU136",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -141,9 +141,30 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "0930h",
                     "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CAS",
+            "catalog_number": "113B",
+            "title": "APPR UNIV WRTNG B",
+            "class_number": "14318",
+            "enrollment_cap": 19,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH307",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -162,7 +183,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR201",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -183,9 +204,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH285",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -198,13 +219,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cortez,Beatriz"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -225,7 +246,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -246,7 +267,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR354",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -267,7 +288,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR243",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -288,7 +309,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR244",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -309,7 +330,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR244",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -330,9 +351,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR221",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -351,7 +372,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR202",
                     "start_time": "1400h",
                     "end_time": "1450h"
                 }
@@ -372,7 +393,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR202",
                     "start_time": "1500h",
                     "end_time": "1640h"
                 }
@@ -387,15 +408,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Carranza,Douglas G"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR246",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -414,7 +435,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "EU130",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -435,7 +456,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR243",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -450,15 +471,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Carranza,Douglas G"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -477,7 +498,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "EU133",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -498,7 +519,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR243",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -513,13 +534,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Carranza,Douglas G"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -540,7 +561,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JR243",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }

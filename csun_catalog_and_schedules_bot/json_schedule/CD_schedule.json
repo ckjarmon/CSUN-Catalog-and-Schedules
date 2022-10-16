@@ -5,17 +5,17 @@
             "catalog_number": "361",
             "title": "LANG DEV IN CHILD",
             "class_number": "18646",
-            "enrollment_cap": 92,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hall,Edward P"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0900h",
                     "end_time": "1015h"
                 }
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -72,13 +72,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Li,Mingshuang"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SQ104",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JC228",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -120,7 +120,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JC228",
                     "start_time": "1130h",
                     "end_time": "1415h"
                 }
@@ -135,15 +135,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Yu,Vickie Y"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -162,7 +162,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -177,13 +177,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramakrishna,Yugandhar"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "SQ104",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -198,13 +198,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Spayd,Karen A"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -225,7 +225,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -246,7 +246,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "MH334",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -261,15 +261,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Roussos,Christine S"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -278,7 +278,7 @@
             "catalog_number": "451",
             "title": "PHON ARTIC DIS",
             "class_number": "19476",
-            "enrollment_cap": 28,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -288,9 +288,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -303,13 +303,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Weber,Elizabeth G"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -330,7 +330,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -351,7 +351,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -372,7 +372,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -393,7 +393,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -413,8 +413,8 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -435,7 +435,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -456,7 +456,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -477,7 +477,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -498,7 +498,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -519,7 +519,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -540,7 +540,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -561,7 +561,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -582,7 +582,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -603,7 +603,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -623,10 +623,31 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "MW",
+                    "location": "MH100",
+                    "start_time": "1300h",
+                    "end_time": "1600h"
+                }
+            ]
+        },
+        {
+            "subject": "CD",
+            "catalog_number": "465",
+            "title": "CL PRC SP PTH IUG",
+            "class_number": "19142",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "MH100",
+                    "start_time": "1300h",
+                    "end_time": "1600h"
                 }
             ]
         },
@@ -639,13 +660,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Roussos,Christine S"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "0830h",
                     "end_time": "0945h"
                 }
@@ -666,9 +687,30 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1430h",
                     "end_time": "1715h"
+                }
+            ]
+        },
+        {
+            "subject": "CD",
+            "catalog_number": "469O",
+            "title": "OBSV & PROF WRTNG",
+            "class_number": "18653",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "MH101",
+                    "start_time": "1230h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -681,13 +723,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Spayd,Karen A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -702,13 +744,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Spayd,Karen A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -729,7 +771,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -750,7 +792,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -771,7 +813,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JD3510",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -792,7 +834,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SG101",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -813,7 +855,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SG105",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -834,7 +876,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SG103",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -855,7 +897,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -876,7 +918,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -897,7 +939,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -918,7 +960,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -938,8 +980,8 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -960,7 +1002,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -981,7 +1023,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1002,7 +1044,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1023,7 +1065,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1044,7 +1086,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1065,7 +1107,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1086,7 +1128,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1107,7 +1149,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1128,7 +1170,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1148,10 +1190,31 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "MW",
+                    "location": "MH100",
+                    "start_time": "1300h",
+                    "end_time": "1600h"
+                }
+            ]
+        },
+        {
+            "subject": "CD",
+            "catalog_number": "565",
+            "title": "CL PRC SP PTH IGR",
+            "class_number": "19826",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "MH100",
+                    "start_time": "1300h",
+                    "end_time": "1600h"
                 }
             ]
         },
@@ -1170,7 +1233,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1191,7 +1254,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1212,7 +1275,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1232,8 +1295,8 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1254,7 +1317,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1275,7 +1338,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1296,7 +1359,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1317,7 +1380,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1338,7 +1401,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1359,7 +1422,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1380,7 +1443,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1401,7 +1464,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1422,7 +1485,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1442,10 +1505,31 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "MW",
+                    "location": "MH100",
+                    "start_time": "1300h",
+                    "end_time": "1600h"
+                }
+            ]
+        },
+        {
+            "subject": "CD",
+            "catalog_number": "566",
+            "title": "CL PRC SP PATH II",
+            "class_number": "19143",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "MH100",
+                    "start_time": "1300h",
+                    "end_time": "1600h"
                 }
             ]
         },
@@ -1464,7 +1548,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1485,7 +1569,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1506,7 +1590,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1526,8 +1610,8 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1548,7 +1632,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1569,7 +1653,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1590,7 +1674,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "1600h",
                     "end_time": "1850h"
                 }
@@ -1611,7 +1695,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1632,7 +1716,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1653,7 +1737,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0900h",
                     "end_time": "1150h"
                 }
@@ -1674,7 +1758,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1695,7 +1779,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1716,7 +1800,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1736,10 +1820,31 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "MW",
+                    "location": "MH100",
+                    "start_time": "1300h",
+                    "end_time": "1600h"
+                }
+            ]
+        },
+        {
+            "subject": "CD",
+            "catalog_number": "567",
+            "title": "CL PRC SP PTH III",
+            "class_number": "19144",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "MH100",
+                    "start_time": "1300h",
+                    "end_time": "1600h"
                 }
             ]
         },
@@ -1752,34 +1857,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Spayd,Karen A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "CD",
-            "catalog_number": "599B",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "20147",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1794,13 +1878,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Roussos,Christine S"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "MH334",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -1815,13 +1899,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Yu,Vickie Y"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -1836,13 +1920,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Biel,Michael E"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "MH334",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -1852,18 +1936,18 @@
             "subject": "CD",
             "catalog_number": "660",
             "title": "STRUC NEURO DISOR",
-            "class_number": "19828",
-            "enrollment_cap": 25,
+            "class_number": "18658",
+            "enrollment_cap": 45,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Yu,Vickie Y"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD3510",
                     "start_time": "0830h",
                     "end_time": "1115h"
                 }
@@ -1878,15 +1962,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kochis-Jennings,Karen A"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
+                    "days": "T",
+                    "location": "MH334",
+                    "start_time": "0830h",
+                    "end_time": "1115h"
                 }
             ]
         },
@@ -1899,13 +1983,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Weber,Elizabeth G"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1920,13 +2004,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Biel,Michael E"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "MH334",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -1947,28 +2031,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "CD",
-            "catalog_number": "672C",
-            "title": "AV CL PR SP-A IIC",
-            "class_number": "20148",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1983,13 +2046,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Li,Mingshuang"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "MH101",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -2004,13 +2067,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kochis-Jennings,Karen A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2021,17 +2084,17 @@
             "catalog_number": "720",
             "title": "PSYCH ACOU SP PER",
             "class_number": "20098",
-            "enrollment_cap": 14,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jin,SuHyun"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "MH304",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -2042,17 +2105,17 @@
             "catalog_number": "742A",
             "title": "AUDITORY AMP I",
             "class_number": "20099",
-            "enrollment_cap": 14,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramakrishna,Yugandhar"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "MH304",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -2073,7 +2136,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -2088,13 +2151,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jin,SuHyun"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "MH304",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -2109,13 +2172,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramakrishna,Yugandhar"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "MH304",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -2126,17 +2189,17 @@
             "catalog_number": "755",
             "title": "ADV PED AUD INT",
             "class_number": "20103",
-            "enrollment_cap": 14,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Li,Mingshuang"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "MH304",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -2147,17 +2210,17 @@
             "catalog_number": "760",
             "title": "RESEARCH AUDIO",
             "class_number": "20105",
-            "enrollment_cap": 14,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramakrishna,Yugandhar"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "MH304",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -2168,17 +2231,17 @@
             "catalog_number": "762",
             "title": "BUSI ASPE AUDIOL",
             "class_number": "20104",
-            "enrollment_cap": 7,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramakrishna,Yugandhar"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "MH209",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -2189,7 +2252,7 @@
             "catalog_number": "767",
             "title": "INT DISPL AUD",
             "class_number": "20106",
-            "enrollment_cap": 7,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2199,7 +2262,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "MH209",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -2210,7 +2273,7 @@
             "catalog_number": "771",
             "title": "CLIN PRAC AUD II",
             "class_number": "20095",
-            "enrollment_cap": 14,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2220,7 +2283,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2241,7 +2304,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2252,6 +2315,27 @@
             "catalog_number": "775C",
             "title": "ADV PRAC AUD III",
             "class_number": "20097",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "MH100",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CD",
+            "catalog_number": "776C",
+            "title": "REQ PROF AUD III",
+            "class_number": "20841",
             "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructors": [
@@ -2262,7 +2346,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "MH100",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

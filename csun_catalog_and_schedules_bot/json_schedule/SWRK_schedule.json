@@ -9,13 +9,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Paez,Jose M"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH160",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -30,13 +30,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Bartlett,Michele"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH182",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH266",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -78,7 +78,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH279",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH310",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -114,13 +114,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lipscomb,Allen E"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -135,13 +135,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mortimer,Katie D"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH160",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -162,7 +162,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH106",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -177,13 +177,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mortimer,Katie D"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH287",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -204,7 +204,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH284",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -219,13 +219,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Paez,Jose M"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH160",
                     "start_time": "1300h",
                     "end_time": "1545h"
                 }
@@ -240,13 +240,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramos Jr,Jose A"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH182",
                     "start_time": "1300h",
                     "end_time": "1545h"
                 }
@@ -261,13 +261,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Abelson,Mark"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH266",
                     "start_time": "1300h",
                     "end_time": "1545h"
                 }
@@ -282,13 +282,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Curiel,Luis O"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH279",
                     "start_time": "1300h",
                     "end_time": "1545h"
                 }
@@ -303,13 +303,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Curiel,Luis O"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "SH302",
                     "start_time": "0745h",
                     "end_time": "0850h"
                 }
@@ -324,13 +324,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Novack,Caroline N"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH310",
                     "start_time": "0745h",
                     "end_time": "0850h"
                 }
@@ -345,13 +345,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Pereira,Luis A"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH371",
                     "start_time": "0745h",
                     "end_time": "0850h"
                 }
@@ -366,13 +366,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mortimer,Katie D"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH284",
                     "start_time": "0745h",
                     "end_time": "0850h"
                 }
@@ -387,13 +387,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Bartlett,Michele"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH279",
                     "start_time": "0745h",
                     "end_time": "0850h"
                 }
@@ -414,7 +414,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "1800h",
                     "end_time": "1850h"
                 }
@@ -425,17 +425,17 @@
             "catalog_number": "523",
             "title": "GENERALST FLD EDU II",
             "class_number": "12615",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Zeledon,Jonathan X"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH310",
                     "start_time": "1800h",
                     "end_time": "1850h"
                 }
@@ -450,13 +450,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Novack,Caroline N"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH371",
                     "start_time": "1800h",
                     "end_time": "1850h"
                 }
@@ -471,13 +471,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Curiel,Luis O"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -492,13 +492,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Novack,Caroline N"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -513,13 +513,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Pereira,Luis A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -534,13 +534,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mortimer,Katie D"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -555,13 +555,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Bartlett,Michele"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -582,7 +582,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -597,13 +597,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Zeledon,Jonathan X"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -618,13 +618,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Novack,Caroline N"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -639,13 +639,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Paez,Jose M"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH284",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -666,7 +666,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH279",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -681,13 +681,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Park,Hyun Sun"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH310",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -708,7 +708,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH279",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -723,13 +723,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "DeBonis,Judith A"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -750,7 +750,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED3115",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -761,17 +761,17 @@
             "catalog_number": "535",
             "title": "SWRK RES METHS I",
             "class_number": "12433",
-            "enrollment_cap": 16,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "DeBonis,Judith A"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH160",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -782,17 +782,17 @@
             "catalog_number": "535",
             "title": "SWRK RES METHS I",
             "class_number": "12434",
-            "enrollment_cap": 16,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jacobsen,Jeanna"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH106",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -803,17 +803,17 @@
             "catalog_number": "601",
             "title": "ADV PRAC URB FAM",
             "class_number": "12436",
-            "enrollment_cap": 16,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Villanueva,Dolores"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH268",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -824,7 +824,7 @@
             "catalog_number": "601",
             "title": "ADV PRAC URB FAM",
             "class_number": "12437",
-            "enrollment_cap": 16,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -834,7 +834,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH279",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -849,15 +849,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mortimer,Katie D"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -870,15 +870,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Bartlett,Michele"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH106",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -897,9 +897,9 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH268",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -918,9 +918,156 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH104",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "623",
+            "title": "SPECIALST FLD EDU II",
+            "class_number": "12194",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH302",
+                    "start_time": "0745h",
+                    "end_time": "0850h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "623",
+            "title": "SPECIALST FLD EDU II",
+            "class_number": "12195",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mortimer,Katie D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH310",
+                    "start_time": "0745h",
+                    "end_time": "0850h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "623",
+            "title": "SPECIALST FLD EDU II",
+            "class_number": "12196",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mankassarian,Rupal"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH371",
+                    "start_time": "0745h",
+                    "end_time": "0850h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "623",
+            "title": "SPECIALST FLD EDU II",
+            "class_number": "12197",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Auerbach,Felicia D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH284",
+                    "start_time": "0745h",
+                    "end_time": "0850h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "623",
+            "title": "SPECIALST FLD EDU II",
+            "class_number": "12227",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Curiel,Luis O"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH284",
+                    "start_time": "1800h",
+                    "end_time": "1850h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "623",
+            "title": "SPECIALST FLD EDU II",
+            "class_number": "12265",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Flores-Holguin,M Xiomara"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH279",
+                    "start_time": "1800h",
+                    "end_time": "1850h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "623",
+            "title": "SPECIALST FLD EDU II",
+            "class_number": "12266",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mankassarian,Rupal"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH160",
+                    "start_time": "1800h",
+                    "end_time": "1850h"
                 }
             ]
         },
@@ -929,7 +1076,7 @@
             "catalog_number": "623P",
             "title": "SPECIALST FLD II PLC",
             "class_number": "12625",
-            "enrollment_cap": 16,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -939,7 +1086,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -954,13 +1101,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mortimer,Katie D"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -975,13 +1122,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mankassarian,Rupal"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -996,13 +1143,34 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Auerbach,Felicia D"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "623P",
+            "title": "SPECIALST FLD II PLC",
+            "class_number": "12629",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Curiel,Luis O"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1013,17 +1181,17 @@
             "catalog_number": "623P",
             "title": "SPECIALST FLD II PLC",
             "class_number": "12630",
-            "enrollment_cap": 11,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Flores-Holguin,M Xiomara"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1034,38 +1202,17 @@
             "catalog_number": "623P",
             "title": "SPECIALST FLD II PLC",
             "class_number": "12631",
-            "enrollment_cap": 11,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mankassarian,Rupal"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "SWRK",
-            "catalog_number": "623P",
-            "title": "SPECIALST FLD II PLC",
-            "class_number": "12951",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1080,13 +1227,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Paez,Jose M"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1097,17 +1244,17 @@
             "catalog_number": "645",
             "title": "URB POLICY & ADV",
             "class_number": "12268",
-            "enrollment_cap": 16,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Abelson,Mark"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH160",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1122,13 +1269,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramos Jr,Jose A"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH106",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1143,13 +1290,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Woo,Darlene"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH182",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1160,17 +1307,17 @@
             "catalog_number": "650A",
             "title": "CHILD WELFARE",
             "class_number": "12517",
-            "enrollment_cap": 18,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Curiel,Luis O"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -1181,7 +1328,7 @@
             "catalog_number": "650A",
             "title": "CHILD WELFARE",
             "class_number": "12757",
-            "enrollment_cap": 15,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1191,7 +1338,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH310",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1199,10 +1346,10 @@
         },
         {
             "subject": "SWRK",
-            "catalog_number": "650B",
-            "title": "ADDICTIONS",
-            "class_number": "13050",
-            "enrollment_cap": 15,
+            "catalog_number": "650C",
+            "title": "RECOVERY",
+            "class_number": "13051",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1212,7 +1359,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH106",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -1222,50 +1369,8 @@
             "subject": "SWRK",
             "catalog_number": "650C",
             "title": "RECOVERY",
-            "class_number": "13051",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
-        },
-        {
-            "subject": "SWRK",
-            "catalog_number": "650M",
-            "title": "GROUP THERAPY",
-            "class_number": "13311",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
-        },
-        {
-            "subject": "SWRK",
-            "catalog_number": "650U",
-            "title": "INTL SOCIAL WORK",
-            "class_number": "12803",
-            "enrollment_cap": 15,
+            "class_number": "12853",
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1275,9 +1380,30 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH371",
                     "start_time": "1900h",
                     "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "SWRK",
+            "catalog_number": "650M",
+            "title": "GROUP THERAPY",
+            "class_number": "13311",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Brooks,Tiffani A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH279",
+                    "start_time": "0900h",
+                    "end_time": "1145h"
                 }
             ]
         },
@@ -1290,13 +1416,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Park,Hyun Sun"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH268",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1311,13 +1437,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "DeBonis,Judith A"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH182",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1332,13 +1458,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jacobsen,Jeanna"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH266",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1353,13 +1479,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Brown,Jodi L"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH104",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1370,17 +1496,17 @@
             "catalog_number": "698",
             "title": "GRADUATE PROJECT",
             "class_number": "12226",
-            "enrollment_cap": 15,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Park,Hyun Sun"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH160",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -1391,17 +1517,17 @@
             "catalog_number": "698",
             "title": "GRADUATE PROJECT",
             "class_number": "12532",
-            "enrollment_cap": 15,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "DeBonis,Judith A"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH106",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }

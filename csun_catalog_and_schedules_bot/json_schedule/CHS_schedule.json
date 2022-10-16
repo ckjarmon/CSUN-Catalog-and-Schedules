@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -36,9 +36,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -78,9 +78,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -93,13 +93,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Aviles Rodriguez,Guillermo G."
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -149,9 +149,9 @@
         },
         {
             "subject": "CHS",
-            "catalog_number": "101",
-            "title": "SP FOR CHICANO I",
-            "class_number": "14985",
+            "catalog_number": "102",
+            "title": "SP FOR CHICANO II",
+            "class_number": "14557",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
@@ -162,7 +162,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -177,13 +177,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Herrera,Xilomen"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -198,13 +198,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "de la Loza,Sandra"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -219,13 +219,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "de la Loza,Sandra"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -246,7 +246,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -261,13 +261,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Herrera,Xilomen"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -282,15 +282,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ruiz,Everto"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -309,7 +309,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH224",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -330,9 +330,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH224",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -351,7 +351,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -366,15 +366,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gonzalez,Omar O"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -393,7 +393,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -408,13 +408,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Guerrero,Carlos R"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -429,13 +429,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gonzalez,Omar O"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -450,13 +450,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Guerrero,Carlos R"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "JR117",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -477,7 +477,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -492,13 +492,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Herrera,Xilomen"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -513,13 +513,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amaro,Jose Francisco"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR301",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -534,15 +534,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Herrera,Xilomen"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -555,13 +555,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fuentes-Chung,Mildred S"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -576,13 +576,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amaro,Jose Francisco"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR301",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -597,13 +597,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lopez,Mario A"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -618,15 +618,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sanchez,George B"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
+                    "days": "F",
+                    "location": "JR118",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -645,7 +645,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -660,13 +660,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Villela,Vilma"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -681,15 +681,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fuentes-Chung,Mildred S"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -702,13 +702,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Villela,Vilma"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -723,13 +723,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amaro,Jose Francisco"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -744,13 +744,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amaro,Jose Francisco"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -765,13 +765,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Valadez,Jesse"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -786,13 +786,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amaro,Jose Francisco"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -807,13 +807,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sanchez,George B"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -828,13 +828,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fuentes-Chung,Mildred S"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -855,9 +855,9 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "location": "JR132",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -876,9 +876,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "location": "JR132",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -891,13 +891,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Valadez,Jesse"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -912,13 +912,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Valadez,Jesse"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -933,13 +933,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Valadez,Jesse"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -954,36 +954,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cueva,Bert Maria"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "CHS",
-            "catalog_number": "202",
-            "title": "RACE & CRITICL THINK",
-            "class_number": "14273",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -996,13 +975,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cueva,Bert Maria"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "EU131",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -1017,13 +996,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gonzalez,Omar O"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -1038,7 +1017,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ruiz,Everto"
                 }
             ],
             "meetings": [
@@ -1065,7 +1044,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1080,13 +1059,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sandoval,Tony L"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1101,15 +1080,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cruz,Jaime S"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1122,13 +1101,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cruz,Jaime S"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -1143,13 +1122,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cruz,Jaime S"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -1164,13 +1143,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hernandez,Carlos Armando"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -1185,13 +1164,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Meraz,Gerard A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1206,15 +1185,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Chavez,Lucila"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "JR118",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1227,13 +1206,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Meraz,Gerard A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -1254,7 +1233,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -1269,7 +1248,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Buelna,Gabriel"
                 }
             ],
             "meetings": [
@@ -1290,7 +1269,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Buelna,Gabriel"
                 }
             ],
             "meetings": [
@@ -1311,7 +1290,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ruffino,Maythe"
                 }
             ],
             "meetings": [
@@ -1332,7 +1311,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ruffino,Maythe"
                 }
             ],
             "meetings": [
@@ -1353,7 +1332,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sandoval,Denise M"
                 }
             ],
             "meetings": [
@@ -1374,13 +1353,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Escobar,Martha D"
+                    "instructor": "Gallo,Antonio"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "EU130",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1395,13 +1374,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Escobar,Martha D"
+                    "instructor": "Gallo,Antonio"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -1422,9 +1401,9 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1443,9 +1422,9 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1458,15 +1437,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Montes,Brenda"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1479,7 +1458,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gallo,Antonio"
                 }
             ],
             "meetings": [
@@ -1500,7 +1479,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Placencio,Alex P"
                 }
             ],
             "meetings": [
@@ -1527,7 +1506,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -1542,13 +1521,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Santiago,Cristina Patricio"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1569,7 +1548,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -1584,13 +1563,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gutierrez,Gabriel"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1610,10 +1589,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -1626,13 +1605,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Herrera,Xocoyotzin"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1653,7 +1632,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -1674,7 +1653,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1600h",
                     "end_time": "1715h"
                 }
@@ -1695,9 +1674,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1716,9 +1695,30 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1600h",
                     "end_time": "1715h"
+                }
+            ]
+        },
+        {
+            "subject": "CHS",
+            "catalog_number": "345",
+            "title": "HIST MEXICAN PEOP",
+            "class_number": "13988",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Chavez,Lucila"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "JR118",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1731,7 +1731,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hernandez,Carlos Armando"
                 }
             ],
             "meetings": [
@@ -1752,13 +1752,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Chavez,Lucila"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -1815,13 +1815,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Santiago,Cristina Patricio"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1842,9 +1842,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1857,13 +1857,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cueva,Bert Maria"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1899,15 +1899,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fernandez,Maria Elena"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1920,13 +1920,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gonzalez,Omar O"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -1968,9 +1968,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1989,9 +1989,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "location": "JR115",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -2004,15 +2004,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sanchez,George B"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
+                    "days": "TR",
+                    "location": "EU132",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -2031,7 +2031,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -2046,13 +2046,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "de la Loza,Sandra"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "1600h",
                     "end_time": "1830h"
                 }
@@ -2067,7 +2067,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Montano,Theresa"
+                    "instructor": "Cruz,Maria Elena"
                 }
             ],
             "meetings": [
@@ -2094,7 +2094,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -2109,13 +2109,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gonzalez,Rosemary"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "SH198",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -2136,7 +2136,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -2151,13 +2151,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Montano,Theresa"
+                    "instructor": "Staff"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JR132",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -2178,7 +2178,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -2199,7 +2199,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -2214,13 +2214,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hernandez,Carlos Armando"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "EU130",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -2235,13 +2235,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Meraz,Gerard A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH198",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -2256,13 +2256,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fernandez,Maria Elena"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -2277,15 +2277,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fernandez,Maria Elena"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JR118",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "CHS",
+            "catalog_number": "445",
+            "title": "HIST OF CHICANO",
+            "class_number": "14754",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hernandez,Carlos Armando"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -2298,7 +2319,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Meraz,Gerard A"
                 }
             ],
             "meetings": [
@@ -2319,7 +2340,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hernandez,Carlos Armando"
                 }
             ],
             "meetings": [
@@ -2346,9 +2367,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR115",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2361,7 +2382,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cruz,Maria Elena"
                 }
             ],
             "meetings": [
@@ -2382,13 +2403,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Herrera,Xilomen"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "1330h",
                     "end_time": "1510h"
                 }
@@ -2403,13 +2424,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Herrera,Xilomen"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2472,9 +2493,30 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JR130",
                     "start_time": "1400h",
                     "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CHS",
+            "catalog_number": "502",
+            "title": "SEM HUM CHICANO",
+            "class_number": "14027",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "ONLINE",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -2493,7 +2535,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JR117",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -2535,7 +2577,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JR119",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -2556,7 +2598,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

@@ -4,90 +4,6 @@
             "subject": "ASTR",
             "catalog_number": "152",
             "title": "ELEM ASTRONOMY",
-            "class_number": "17245",
-            "enrollment_cap": 120,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "152",
-            "title": "ELEM ASTRONOMY",
-            "class_number": "17244",
-            "enrollment_cap": 120,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "152",
-            "title": "ELEM ASTRONOMY",
-            "class_number": "17246",
-            "enrollment_cap": 120,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "152",
-            "title": "ELEM ASTRONOMY",
-            "class_number": "17225",
-            "enrollment_cap": 120,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "152",
-            "title": "ELEM ASTRONOMY",
             "class_number": "18005",
             "enrollment_cap": 120,
             "enrollment_count": 0,
@@ -99,7 +15,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -110,7 +26,7 @@
             "catalog_number": "152",
             "title": "ELEM ASTRONOMY",
             "class_number": "18006",
-            "enrollment_cap": 110,
+            "enrollment_cap": 100,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -120,7 +36,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BP3100",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -141,7 +57,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -162,7 +78,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BP3100",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -173,7 +89,7 @@
             "catalog_number": "154",
             "title": "ELEMENTARY ASTRONOMY",
             "class_number": "18402",
-            "enrollment_cap": 150,
+            "enrollment_cap": 120,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -182,52 +98,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "154L",
-            "title": "ASTRONOMY LAB",
-            "class_number": "17228",
-            "enrollment_cap": 115,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "154L",
-            "title": "ASTRONOMY LAB",
-            "class_number": "17229",
-            "enrollment_cap": 119,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "R",
+                    "location": "ONLINE",
+                    "start_time": "0900h",
+                    "end_time": "1100h"
                 }
             ]
         },
@@ -245,10 +119,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "W",
+                    "location": "ONLINE",
+                    "start_time": "1100h",
+                    "end_time": "2400h"
                 }
             ]
         },
@@ -266,10 +140,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "W",
+                    "location": "ONLINE",
+                    "start_time": "1200h",
+                    "end_time": "1300h"
                 }
             ]
         },
@@ -277,7 +151,7 @@
             "subject": "ASTR",
             "catalog_number": "154L",
             "title": "ASTRONOMY LAB",
-            "class_number": "17357",
+            "class_number": "17483",
             "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
@@ -287,50 +161,8 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "154L",
-            "title": "ASTRONOMY LAB",
-            "class_number": "17465",
-            "enrollment_cap": 46,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "154L",
-            "title": "ASTRONOMY LAB",
-            "class_number": "17483",
-            "enrollment_cap": 46,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "EH2104",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -341,7 +173,7 @@
             "catalog_number": "154L",
             "title": "ASTRONOMY LAB",
             "class_number": "17568",
-            "enrollment_cap": 46,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -351,7 +183,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "EH2104",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -361,29 +193,8 @@
             "subject": "ASTR",
             "catalog_number": "154L",
             "title": "ASTRONOMY LAB",
-            "class_number": "17635",
-            "enrollment_cap": 46,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "ASTR",
-            "catalog_number": "154L",
-            "title": "ASTRONOMY LAB",
             "class_number": "18010",
-            "enrollment_cap": 46,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -393,7 +204,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "EH2104",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -404,7 +215,7 @@
             "catalog_number": "154L",
             "title": "ASTRONOMY LAB",
             "class_number": "18011",
-            "enrollment_cap": 46,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -414,7 +225,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "EH2104",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -425,7 +236,7 @@
             "catalog_number": "154L",
             "title": "ASTRONOMY LAB",
             "class_number": "18012",
-            "enrollment_cap": 46,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -435,7 +246,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "EH2104",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -456,7 +267,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "LO1117",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -477,9 +288,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -498,7 +309,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1100h",
                     "end_time": "1330h"
                 }
@@ -519,7 +330,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "LO1117",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }

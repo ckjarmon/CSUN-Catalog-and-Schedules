@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1555",
                     "start_time": "1100h",
                     "end_time": "1125h"
                 }
@@ -36,9 +36,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1200h",
-                    "end_time": "1225h"
+                    "end_time": "2425h"
                 }
             ]
         },
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "0900h",
                     "end_time": "0925h"
                 }
@@ -78,7 +78,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1400h",
                     "end_time": "1425h"
                 }
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "0800h",
                     "end_time": "0850h"
                 }
@@ -120,9 +120,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "1130h",
-                    "end_time": "1255h"
+                    "end_time": "2455h"
                 }
             ]
         },
@@ -141,7 +141,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1230h",
                     "end_time": "1355h"
                 }
@@ -162,7 +162,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "0930h",
                     "end_time": "1055h"
                 }
@@ -183,7 +183,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1430h",
                     "end_time": "1555h"
                 }
@@ -204,7 +204,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -225,7 +225,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1400h",
                     "end_time": "1425h"
                 }
@@ -246,7 +246,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -267,9 +267,30 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "JD1116",
                     "start_time": "0900h",
                     "end_time": "0950h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "186",
+            "title": "COMP AIDED DESIGN",
+            "class_number": "16551",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "JD1592",
+                    "start_time": "1300h",
+                    "end_time": "1350h"
                 }
             ]
         },
@@ -288,9 +309,114 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "JD1116",
                     "start_time": "1300h",
                     "end_time": "1350h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "186L",
+            "title": "COMP AID DESN LAB",
+            "class_number": "16460",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JD1592",
+                    "start_time": "1430h",
+                    "end_time": "1555h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "186L",
+            "title": "COMP AID DESN LAB",
+            "class_number": "16466",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "JD1592",
+                    "start_time": "0950h",
+                    "end_time": "2430h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "186L",
+            "title": "COMP AID DESN LAB",
+            "class_number": "16481",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "JD1116",
+                    "start_time": "0950h",
+                    "end_time": "2430h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "186L",
+            "title": "COMP AID DESN LAB",
+            "class_number": "16552",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "JD1592",
+                    "start_time": "1350h",
+                    "end_time": "1630h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "186L",
+            "title": "COMP AID DESN LAB",
+            "class_number": "16589",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "JD1116",
+                    "start_time": "1350h",
+                    "end_time": "1630h"
                 }
             ]
         },
@@ -309,7 +435,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -330,7 +456,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1200h",
                     "end_time": "1325h"
                 }
@@ -350,10 +476,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
+                    "days": "R",
+                    "location": "JD1592",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -372,7 +498,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1300h",
                     "end_time": "1545h"
                 }
@@ -393,7 +519,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1593",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -414,7 +540,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1593",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -435,7 +561,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1593",
                     "start_time": "1600h",
                     "end_time": "1650h"
                 }
@@ -456,7 +582,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1593",
                     "start_time": "1600h",
                     "end_time": "1650h"
                 }
@@ -477,7 +603,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -498,7 +624,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -519,7 +645,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JC228",
                     "start_time": "1215h",
                     "end_time": "1500h"
                 }
@@ -540,7 +666,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -561,7 +687,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1593",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -582,9 +708,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -603,7 +729,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -624,7 +750,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "0800h",
                     "end_time": "0825h"
                 }
@@ -645,7 +771,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1700h",
                     "end_time": "1725h"
                 }
@@ -666,7 +792,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "0930h",
                     "end_time": "0955h"
                 }
@@ -687,7 +813,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1700h",
                     "end_time": "1725h"
                 }
@@ -708,7 +834,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -729,7 +855,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "0830h",
                     "end_time": "0955h"
                 }
@@ -750,7 +876,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1730h",
                     "end_time": "1855h"
                 }
@@ -771,7 +897,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1000h",
                     "end_time": "1125h"
                 }
@@ -792,7 +918,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1730h",
                     "end_time": "1855h"
                 }
@@ -813,9 +939,9 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "0950h",
-                    "end_time": "1235h"
+                    "end_time": "2435h"
                 }
             ]
         },
@@ -824,7 +950,7 @@
             "catalog_number": "370",
             "title": "THERMODYNAMICS",
             "class_number": "16305",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -834,7 +960,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -845,7 +971,7 @@
             "catalog_number": "370",
             "title": "THERMODYNAMICS",
             "class_number": "16281",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -855,7 +981,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -866,7 +992,7 @@
             "catalog_number": "370",
             "title": "THERMODYNAMICS",
             "class_number": "16360",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -876,7 +1002,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1600",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -887,7 +1013,7 @@
             "catalog_number": "370",
             "title": "THERMODYNAMICS",
             "class_number": "16587",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -897,7 +1023,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD1600",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -908,7 +1034,7 @@
             "catalog_number": "370",
             "title": "THERMODYNAMICS",
             "class_number": "16685",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -918,7 +1044,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -929,7 +1055,7 @@
             "catalog_number": "375",
             "title": "HEAT TRANSFER I",
             "class_number": "16408",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -939,7 +1065,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -950,7 +1076,7 @@
             "catalog_number": "375",
             "title": "HEAT TRANSFER I",
             "class_number": "16542",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -960,7 +1086,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1300h",
                     "end_time": "1545h"
                 }
@@ -971,7 +1097,7 @@
             "catalog_number": "376",
             "title": "HEAT TRANSFER EES",
             "class_number": "16814",
-            "enrollment_cap": 35,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -981,9 +1107,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -992,7 +1118,7 @@
             "catalog_number": "384",
             "title": "SYSTEM DYNAMIC",
             "class_number": "16286",
-            "enrollment_cap": 35,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1002,7 +1128,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1013,7 +1139,7 @@
             "catalog_number": "384",
             "title": "SYSTEM DYNAMIC",
             "class_number": "16629",
-            "enrollment_cap": 35,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1023,7 +1149,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH334",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1034,7 +1160,7 @@
             "catalog_number": "384",
             "title": "SYSTEM DYNAMIC",
             "class_number": "16687",
-            "enrollment_cap": 35,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1044,7 +1170,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1593",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1065,7 +1191,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1593",
                     "start_time": "0830h",
                     "end_time": "0920h"
                 }
@@ -1086,7 +1212,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1600h",
                     "end_time": "1650h"
                 }
@@ -1107,7 +1233,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD3508",
                     "start_time": "1600h",
                     "end_time": "1650h"
                 }
@@ -1128,7 +1254,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1600",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -1149,7 +1275,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "0925h",
                     "end_time": "1055h"
                 }
@@ -1170,7 +1296,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1592",
                     "start_time": "1700h",
                     "end_time": "1825h"
                 }
@@ -1191,7 +1317,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR212",
                     "start_time": "1700h",
                     "end_time": "1825h"
                 }
@@ -1212,7 +1338,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1232",
                     "start_time": "1000h",
                     "end_time": "1125h"
                 }
@@ -1223,7 +1349,7 @@
             "catalog_number": "390",
             "title": "FLUID MECHANICS",
             "class_number": "16379",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1233,7 +1359,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD3510",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -1244,7 +1370,7 @@
             "catalog_number": "390",
             "title": "FLUID MECHANICS",
             "class_number": "16283",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1254,7 +1380,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -1265,7 +1391,7 @@
             "catalog_number": "390",
             "title": "FLUID MECHANICS",
             "class_number": "16564",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1275,7 +1401,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -1286,7 +1412,7 @@
             "catalog_number": "390",
             "title": "FLUID MECHANICS",
             "class_number": "16662",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1296,7 +1422,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD3508",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -1317,9 +1443,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "MH334",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1338,7 +1464,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1555",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1359,7 +1485,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -1380,7 +1506,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1900h",
                     "end_time": "2015h"
                 }
@@ -1391,7 +1517,7 @@
             "catalog_number": "435",
             "title": "MECHATRONICS",
             "class_number": "16415",
-            "enrollment_cap": 33,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1401,7 +1527,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1230h",
                     "end_time": "1320h"
                 }
@@ -1412,7 +1538,7 @@
             "catalog_number": "435",
             "title": "MECHATRONICS",
             "class_number": "16705",
-            "enrollment_cap": 34,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1422,7 +1548,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1553",
                     "start_time": "1800h",
                     "end_time": "1850h"
                 }
@@ -1433,7 +1559,7 @@
             "catalog_number": "435",
             "title": "MECHATRONICS",
             "class_number": "16779",
-            "enrollment_cap": 33,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1443,7 +1569,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1600",
                     "start_time": "1800h",
                     "end_time": "1850h"
                 }
@@ -1454,7 +1580,7 @@
             "catalog_number": "435L",
             "title": "MECHATRONICS LAB",
             "class_number": "16282",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1464,7 +1590,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1475,7 +1601,7 @@
             "catalog_number": "435L",
             "title": "MECHATRONICS LAB",
             "class_number": "16413",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1485,7 +1611,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1000h",
                     "end_time": "1125h"
                 }
@@ -1496,7 +1622,7 @@
             "catalog_number": "435L",
             "title": "MECHATRONICS LAB",
             "class_number": "16706",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1506,7 +1632,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1330h",
                     "end_time": "1455h"
                 }
@@ -1517,7 +1643,7 @@
             "catalog_number": "435L",
             "title": "MECHATRONICS LAB",
             "class_number": "16780",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1527,7 +1653,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1538,7 +1664,7 @@
             "catalog_number": "435L",
             "title": "MECHATRONICS LAB",
             "class_number": "16868",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1548,7 +1674,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1569,7 +1695,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1552",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -1590,7 +1716,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1600",
                     "start_time": "1000h",
                     "end_time": "1125h"
                 }
@@ -1611,7 +1737,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1600h",
                     "end_time": "1715h"
                 }
@@ -1632,18 +1758,18 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1610",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
         {
             "subject": "ME",
-            "catalog_number": "485",
-            "title": "INTRO ENV ENG",
-            "class_number": "16689",
-            "enrollment_cap": 35,
+            "catalog_number": "484",
+            "title": "CONTRL MECH SYS",
+            "class_number": "16287",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1653,7 +1779,49 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1123",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "484L",
+            "title": "CONTRL MECH LAB",
+            "class_number": "16288",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JD1123",
+                    "start_time": "1500h",
+                    "end_time": "1625h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "485",
+            "title": "INTRO ENV ENG",
+            "class_number": "16689",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JD1563",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -1674,7 +1842,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1624",
                     "start_time": "1230h",
                     "end_time": "1520h"
                 }
@@ -1689,13 +1857,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Khachatourians,Aram"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1624B",
                     "start_time": "1230h",
                     "end_time": "1520h"
                 }
@@ -1710,15 +1878,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Nandikolla,Vidya K"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1123",
                     "start_time": "1230h",
                     "end_time": "1520h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "486A",
+            "title": "SR DSN IN M E",
+            "class_number": "16872",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bishay,Peter L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JD3510",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -1727,17 +1916,17 @@
             "catalog_number": "486B",
             "title": "SR DSGN M E II",
             "class_number": "16347",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Bishay,Peter L"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1130A",
                     "start_time": "1230h",
                     "end_time": "1520h"
                 }
@@ -1752,34 +1941,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Prince,Stewart P"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1520h"
-                }
-            ]
-        },
-        {
-            "subject": "ME",
-            "catalog_number": "486B",
-            "title": "SR DSGN M E II",
-            "class_number": "16400",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1624",
                     "start_time": "1230h",
                     "end_time": "1520h"
                 }
@@ -1790,7 +1958,7 @@
             "catalog_number": "486B",
             "title": "SR DSGN M E II",
             "class_number": "16819",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1800,7 +1968,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1624C",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -1815,13 +1983,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Khachatourians,Aram"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1593",
                     "start_time": "1230h",
                     "end_time": "1520h"
                 }
@@ -1836,13 +2004,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Nandikolla,Vidya K"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ED1121",
                     "start_time": "1230h",
                     "end_time": "1520h"
                 }
@@ -1853,7 +2021,7 @@
             "catalog_number": "491",
             "title": "THERMAL FLUIDS LAB",
             "class_number": "16289",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1863,7 +2031,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1874,7 +2042,7 @@
             "catalog_number": "491",
             "title": "THERMAL FLUIDS LAB",
             "class_number": "16386",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1884,7 +2052,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1895,7 +2063,7 @@
             "catalog_number": "491",
             "title": "THERMAL FLUIDS LAB",
             "class_number": "16703",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1905,7 +2073,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD1616",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -1916,7 +2084,7 @@
             "catalog_number": "491",
             "title": "THERMAL FLUIDS LAB",
             "class_number": "16709",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1926,7 +2094,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -1937,7 +2105,7 @@
             "catalog_number": "491",
             "title": "THERMAL FLUIDS LAB",
             "class_number": "16907",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1947,7 +2115,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "JD1607",
                     "start_time": "1300h",
                     "end_time": "1545h"
                 }
@@ -1958,7 +2126,7 @@
             "catalog_number": "493",
             "title": "HYDRAULICS",
             "class_number": "16290",
-            "enrollment_cap": 35,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1968,7 +2136,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1600",
                     "start_time": "1900h",
                     "end_time": "2015h"
                 }
@@ -1979,7 +2147,7 @@
             "catalog_number": "493",
             "title": "HYDRAULICS",
             "class_number": "16549",
-            "enrollment_cap": 35,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1989,7 +2157,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JD1563",
                     "start_time": "1730h",
                     "end_time": "1845h"
                 }
@@ -1997,10 +2165,10 @@
         },
         {
             "subject": "ME",
-            "catalog_number": "501B",
+            "catalog_number": "501A",
             "title": "ENGR ANALYSIS",
-            "class_number": "16997",
-            "enrollment_cap": 30,
+            "class_number": "16945",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2010,9 +2178,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "location": "JD3520",
+                    "start_time": "1600h",
+                    "end_time": "1715h"
                 }
             ]
         },
@@ -2021,7 +2189,7 @@
             "catalog_number": "515",
             "title": "DYN OF MACHINES",
             "class_number": "16380",
-            "enrollment_cap": 30,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2030,10 +2198,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1730h",
-                    "end_time": "1845h"
+                    "days": "MW",
+                    "location": "JD1593",
+                    "start_time": "1900h",
+                    "end_time": "2015h"
                 }
             ]
         },
@@ -2051,31 +2219,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "JD1563",
                     "start_time": "1600h",
                     "end_time": "1715h"
-                }
-            ]
-        },
-        {
-            "subject": "ME",
-            "catalog_number": "532",
-            "title": "MECH POLYMERS",
-            "class_number": "16896",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1730h",
-                    "end_time": "1845h"
                 }
             ]
         },
@@ -2084,7 +2231,7 @@
             "catalog_number": "575",
             "title": "APPL HEAT+MS TRNS",
             "class_number": "16291",
-            "enrollment_cap": 30,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2094,9 +2241,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
+                    "location": "ONLINE",
+                    "start_time": "1730h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -2105,7 +2252,7 @@
             "catalog_number": "584",
             "title": "MDL SIM DYNA SYST",
             "class_number": "16999",
-            "enrollment_cap": 30,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2115,7 +2262,28 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1593",
+                    "start_time": "1730h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "ME",
+            "catalog_number": "675A",
+            "title": "COND+RAD HEAT TRN",
+            "class_number": "20844",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JD1593",
                     "start_time": "1900h",
                     "end_time": "2015h"
                 }
@@ -2136,7 +2304,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2157,7 +2325,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2178,7 +2346,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2199,7 +2367,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2220,7 +2388,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2241,7 +2409,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2252,7 +2420,7 @@
             "catalog_number": "696C",
             "title": "DIR GRAD RESEARCH",
             "class_number": "17066",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2262,7 +2430,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2273,17 +2441,17 @@
             "catalog_number": "697",
             "title": "DIR COMP STUDIES",
             "class_number": "16513",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Johari,Hamid"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2294,17 +2462,17 @@
             "catalog_number": "697D",
             "title": "COMP EXAM",
             "class_number": "17001",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Johari,Hamid"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2315,17 +2483,17 @@
             "catalog_number": "698D",
             "title": "ME THESIS",
             "class_number": "17002",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Johari,Hamid"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

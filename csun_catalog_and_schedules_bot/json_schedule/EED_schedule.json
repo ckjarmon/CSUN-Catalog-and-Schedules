@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED2107",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ED3113",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB1107",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -78,7 +78,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "BB1238",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB1202",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -120,7 +120,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB1117",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -141,7 +141,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "1600h",
                     "end_time": "1945h"
                 }
@@ -162,7 +162,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "BB1107",
                     "start_time": "1600h",
                     "end_time": "1945h"
                 }
@@ -183,9 +183,9 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "location": "ED2121A",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -193,7 +193,7 @@
             "subject": "EED",
             "catalog_number": "515",
             "title": "LEARNING TECH",
-            "class_number": "15914",
+            "class_number": "16117",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
@@ -204,7 +204,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2121A",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -225,7 +225,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB1107",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -235,7 +235,7 @@
             "subject": "EED",
             "catalog_number": "520",
             "title": "RDG INSTRC DIVRSE",
-            "class_number": "15476",
+            "class_number": "16118",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
@@ -246,7 +246,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED2107",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -330,7 +330,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -351,9 +351,51 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH285",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "559C",
+            "title": "SUPERVISED FW SEM",
+            "class_number": "16119",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "ED1125",
                     "start_time": "1400h",
                     "end_time": "1540h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "559C",
+            "title": "SUPERVISED FW SEM",
+            "class_number": "16120",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "MH334",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
                 }
             ]
         },
@@ -372,7 +414,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -393,7 +435,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -414,7 +456,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "BB1117",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -477,9 +519,9 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "ED2107",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -498,7 +540,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2107",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -519,7 +561,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2107",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -530,7 +572,7 @@
             "catalog_number": "565S",
             "title": "SCI CURR METHOD",
             "class_number": "15678",
-            "enrollment_cap": 25,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -540,7 +582,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -560,10 +602,31 @@
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "ED2107",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "565S",
+            "title": "SCI CURR METHOD",
+            "class_number": "15983",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "ED2107",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -593,7 +656,7 @@
             "catalog_number": "575",
             "title": "INTG SS/ARTS C&M",
             "class_number": "15477",
-            "enrollment_cap": 25,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -603,9 +666,9 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "ED1125",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -623,8 +686,29 @@
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "ED3117",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "575",
+            "title": "INTG SS/ARTS C&M",
+            "class_number": "15919",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "ED3117",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -645,7 +729,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB1107",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -655,7 +739,7 @@
             "subject": "EED",
             "catalog_number": "577",
             "title": "LAINSTRUC ELD DEV",
-            "class_number": "16017",
+            "class_number": "16049",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
@@ -666,7 +750,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED2107",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -728,10 +812,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "ED2107",
                     "start_time": "1400h",
-                    "end_time": "1645h"
+                    "end_time": "1540h"
                 }
             ]
         },
@@ -750,7 +834,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -771,7 +855,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -792,7 +876,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -813,9 +897,9 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "location": "ED1127",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -834,9 +918,9 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "ED2121A",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -855,7 +939,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -876,9 +960,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "ED1125",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -897,7 +981,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -918,9 +1002,30 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "648",
+            "title": "SEM EL SCH SCI ED",
+            "class_number": "16080",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "ED1125",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -939,7 +1044,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED1125",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -959,10 +1064,52 @@
             ],
             "meetings": [
                 {
-                    "days": "R",
+                    "days": null,
                     "location": "TBA",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "695B",
+            "title": "BOLD TCHG: DVLP PHIL",
+            "class_number": "20986",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH305",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "697",
+            "title": "DIR COMP STUDIES",
+            "class_number": "15853",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "TBA",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -972,6 +1119,48 @@
             "title": "THES OR GRAD PROJ",
             "class_number": "15480",
             "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "TBA",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "699A",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "16029",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "TBA",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "EED",
+            "catalog_number": "699B",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "16179",
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructors": [
                 {

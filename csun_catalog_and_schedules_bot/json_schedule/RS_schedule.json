@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH390",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -35,10 +35,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "R",
+                    "location": "SH314",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -47,7 +47,7 @@
             "catalog_number": "100",
             "title": "INTRO TO REL STDY",
             "class_number": "14080",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -56,10 +56,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "R",
+                    "location": "SH384",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -68,7 +68,7 @@
             "catalog_number": "100",
             "title": "INTRO TO REL STDY",
             "class_number": "14558",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -78,7 +78,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -89,7 +89,7 @@
             "catalog_number": "100",
             "title": "INTRO TO REL STDY",
             "class_number": "14716",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -110,17 +110,17 @@
             "catalog_number": "101",
             "title": "THE BIBLE",
             "class_number": "14083",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Talbott,Rick F"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -131,17 +131,17 @@
             "catalog_number": "101",
             "title": "THE BIBLE",
             "class_number": "15027",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Talbott,Rick F"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -162,9 +162,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "location": "SH384",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -182,8 +182,29 @@
             ],
             "meetings": [
                 {
+                    "days": "MW",
+                    "location": "SH384",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "RS",
+            "catalog_number": "150",
+            "title": "WORLD RELIGIONS",
+            "class_number": "14082",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH314",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -193,8 +214,8 @@
             "subject": "RS",
             "catalog_number": "150",
             "title": "WORLD RELIGIONS",
-            "class_number": "14082",
-            "enrollment_cap": 42,
+            "class_number": "14091",
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -204,7 +225,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -214,8 +235,8 @@
             "subject": "RS",
             "catalog_number": "150",
             "title": "WORLD RELIGIONS",
-            "class_number": "14091",
-            "enrollment_cap": 42,
+            "class_number": "14267",
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -225,7 +246,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -246,9 +267,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "location": "SH192",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -266,10 +287,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "MW",
+                    "location": "SH192",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -288,9 +309,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH192",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -299,7 +320,7 @@
             "catalog_number": "204",
             "title": "RELIG LOGIC+MEDIA",
             "class_number": "14937",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -308,10 +329,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "TR",
+                    "location": "SH192",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -320,7 +341,7 @@
             "catalog_number": "204",
             "title": "RELIG LOGIC+MEDIA",
             "class_number": "14938",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -330,7 +351,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -341,7 +362,7 @@
             "catalog_number": "204",
             "title": "RELIG LOGIC+MEDIA",
             "class_number": "14974",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -351,7 +372,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -362,7 +383,7 @@
             "catalog_number": "204",
             "title": "RELIG LOGIC+MEDIA",
             "class_number": "15003",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -372,7 +393,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -383,7 +404,7 @@
             "catalog_number": "204",
             "title": "RELIG LOGIC+MEDIA",
             "class_number": "15024",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -393,7 +414,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -414,9 +435,30 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR214",
                     "start_time": "1230h",
                     "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "RS",
+            "catalog_number": "255",
+            "title": "AMER POL + REL",
+            "class_number": "14170",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH285",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -425,7 +467,7 @@
             "catalog_number": "256",
             "title": "AM REL HIST IDEAL",
             "class_number": "15270",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -435,7 +477,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -446,7 +488,7 @@
             "catalog_number": "256",
             "title": "AM REL HIST IDEAL",
             "class_number": "15271",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -456,7 +498,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -467,7 +509,7 @@
             "catalog_number": "256",
             "title": "AM REL HIST IDEAL",
             "class_number": "15329",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -477,7 +519,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -497,10 +539,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "SH390",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -519,7 +561,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -530,7 +572,7 @@
             "catalog_number": "306",
             "title": "AMER REL DIVERSIT",
             "class_number": "14849",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -540,7 +582,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -551,7 +593,7 @@
             "catalog_number": "306",
             "title": "AMER REL DIVERSIT",
             "class_number": "15188",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -561,7 +603,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -572,28 +614,7 @@
             "catalog_number": "307",
             "title": "REL IN AMERICA",
             "class_number": "14719",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "RS",
-            "catalog_number": "307",
-            "title": "REL IN AMERICA",
-            "class_number": "15004",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -603,7 +624,49 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "RS",
+            "catalog_number": "307",
+            "title": "REL IN AMERICA",
+            "class_number": "15004",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "RS",
+            "catalog_number": "308",
+            "title": "RL-AMER INDIANS",
+            "class_number": "15186",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -614,7 +677,7 @@
             "catalog_number": "310",
             "title": "REL & LITERATURE",
             "class_number": "14882",
-            "enrollment_cap": 44,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -624,7 +687,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -635,7 +698,7 @@
             "catalog_number": "311",
             "title": "RELIGION AND FILM",
             "class_number": "15191",
-            "enrollment_cap": 44,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -645,7 +708,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -653,10 +716,10 @@
         },
         {
             "subject": "RS",
-            "catalog_number": "345",
-            "title": "CHRISTIANITY",
-            "class_number": "15273",
-            "enrollment_cap": 45,
+            "catalog_number": "325",
+            "title": "NEW TESTAMENT",
+            "class_number": "20961",
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -665,10 +728,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "JR352",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -687,9 +750,30 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "location": "SH390",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "RS",
+            "catalog_number": "361",
+            "title": "CONTEMP ETH ISS",
+            "class_number": "14084",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH384",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -707,10 +791,31 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "SH342",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "RS",
+            "catalog_number": "361",
+            "title": "CONTEMP ETH ISS",
+            "class_number": "14574",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH314",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -729,9 +834,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "SH314",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -740,7 +845,7 @@
             "catalog_number": "361",
             "title": "CONTEMP ETH ISS",
             "class_number": "14864",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -750,7 +855,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -761,7 +866,7 @@
             "catalog_number": "361",
             "title": "CONTEMP ETH ISS",
             "class_number": "14881",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -771,7 +876,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -782,7 +887,7 @@
             "catalog_number": "361",
             "title": "CONTEMP ETH ISS",
             "class_number": "14939",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -792,7 +897,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -803,7 +908,7 @@
             "catalog_number": "361",
             "title": "CONTEMP ETH ISS",
             "class_number": "15020",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -813,9 +918,30 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "RS",
+            "catalog_number": "362",
+            "title": "RACE POWER RELIGN",
+            "class_number": "20889",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "EU135",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -834,7 +960,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH192",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -845,7 +971,7 @@
             "catalog_number": "367",
             "title": "PSYCHOLOGY RELIGION",
             "class_number": "15268",
-            "enrollment_cap": 42,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -855,9 +981,30 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "RS",
+            "catalog_number": "380",
+            "title": "ASIAN RELIGIONS",
+            "class_number": "20960",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH365",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -866,7 +1013,7 @@
             "catalog_number": "390",
             "title": "BUDDHISM",
             "class_number": "14341",
-            "enrollment_cap": 43,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -876,7 +1023,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -887,7 +1034,7 @@
             "catalog_number": "390",
             "title": "BUDDHISM",
             "class_number": "14721",
-            "enrollment_cap": 43,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -897,7 +1044,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -918,7 +1065,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "SH384",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }

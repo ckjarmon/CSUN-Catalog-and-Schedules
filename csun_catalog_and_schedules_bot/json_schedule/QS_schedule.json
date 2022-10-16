@@ -2,6 +2,48 @@
     "classes": [
         {
             "subject": "QS",
+            "catalog_number": "101",
+            "title": "INTRO QUEER STUDIES",
+            "class_number": "20764",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH321",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "QS",
+            "catalog_number": "113B",
+            "title": "APPR UNIV WRTNG B",
+            "class_number": "14824",
+            "enrollment_cap": 19,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "EU132",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "QS",
             "catalog_number": "113B",
             "title": "APPR UNIV WRTNG B",
             "class_number": "14943",
@@ -14,8 +56,8 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "ED1123",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -36,7 +78,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR218",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -56,10 +98,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "JR217",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -77,10 +119,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "MW",
+                    "location": "JR330",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -89,70 +131,7 @@
             "catalog_number": "201",
             "title": "RCETHNC IN QUEERSTUD",
             "class_number": "15362",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "QS",
-            "catalog_number": "301",
-            "title": "PERSPECTIVES N QS",
-            "class_number": "14160",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "QS",
-            "catalog_number": "301",
-            "title": "PERSPECTIVES N QS",
-            "class_number": "14947",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "QS",
-            "catalog_number": "302",
-            "title": "LA IN TRANSIT",
-            "class_number": "14209",
-            "enrollment_cap": 40,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -162,7 +141,112 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "EU131",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "QS",
+            "catalog_number": "201",
+            "title": "RCETHNC IN QUEERSTUD",
+            "class_number": "20765",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "EU131",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "QS",
+            "catalog_number": "204",
+            "title": "QUEER POP MUSIC",
+            "class_number": "15248",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EU131",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "QS",
+            "catalog_number": "208",
+            "title": "QUEER HEALTH",
+            "class_number": "15363",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "JR352",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "QS",
+            "catalog_number": "301",
+            "title": "PERSPECTIVES N QS",
+            "class_number": "14160",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR204",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "QS",
+            "catalog_number": "302",
+            "title": "LA IN TRANSIT",
+            "class_number": "14209",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "JR246",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -173,7 +257,7 @@
             "catalog_number": "304",
             "title": "QUEER SCREEN/SPEC",
             "class_number": "15364",
-            "enrollment_cap": 40,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -182,8 +266,8 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "ONLINE",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -194,7 +278,7 @@
             "catalog_number": "369",
             "title": "NATURE OF QUEER",
             "class_number": "15365",
-            "enrollment_cap": 40,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -203,8 +287,8 @@
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "ONLINE",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -215,7 +299,7 @@
             "catalog_number": "369",
             "title": "NATURE OF QUEER",
             "class_number": "15411",
-            "enrollment_cap": 40,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -224,31 +308,10 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "QS",
-            "catalog_number": "369",
-            "title": "NATURE OF QUEER",
-            "class_number": "15434",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -267,7 +330,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

@@ -101,7 +101,7 @@
                     "days": "TR",
                     "location": "SH280",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -194,19 +194,19 @@
             "catalog_number": "150",
             "title": "INTRO PSYCH",
             "class_number": "12551",
-            "enrollment_cap": 74,
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Shiffrar,Maggie M"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1830h",
-                    "end_time": "2115h"
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -215,61 +215,19 @@
             "catalog_number": "150",
             "title": "INTRO PSYCH",
             "class_number": "12552",
-            "enrollment_cap": 56,
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Shiffrar,Maggie M"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
-            "class_number": "12561",
-            "enrollment_cap": 62,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
-            "class_number": "12726",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1830h",
-                    "end_time": "1945h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -278,7 +236,7 @@
             "catalog_number": "250",
             "title": "PHYS COR HUM BEH",
             "class_number": "12096",
-            "enrollment_cap": 231,
+            "enrollment_cap": 74,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -288,7 +246,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "LA181",
+                    "location": "SH309",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -299,7 +257,7 @@
             "catalog_number": "250",
             "title": "PHYS COR HUM BEH",
             "class_number": "12478",
-            "enrollment_cap": 138,
+            "enrollment_cap": 130,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -308,10 +266,10 @@
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "UL025",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "TR",
+                    "location": "EH2132",
+                    "start_time": "1700h",
+                    "end_time": "1815h"
                 }
             ]
         },
@@ -330,7 +288,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -341,17 +299,17 @@
             "catalog_number": "301",
             "title": "PSY PREPROFESSION",
             "class_number": "12262",
-            "enrollment_cap": 494,
+            "enrollment_cap": 180,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fenn,Elise A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -362,7 +320,7 @@
             "catalog_number": "310",
             "title": "ABNORMAL PSYCH",
             "class_number": "12098",
-            "enrollment_cap": 84,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -372,7 +330,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "SH280",
+                    "location": "SH365",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -422,27 +380,6 @@
         },
         {
             "subject": "PSY",
-            "catalog_number": "310",
-            "title": "ABNORMAL PSYCH",
-            "class_number": "12560",
-            "enrollment_cap": 137,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
             "catalog_number": "312",
             "title": "PSY ASPCTS PRATHD",
             "class_number": "12579",
@@ -450,13 +387,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Appell,Jeffrey L"
+                    "instructor": "Hamer,Marc R"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "SH309",
+                    "days": "TR",
+                    "location": "ONLINE",
                     "start_time": "1830h",
                     "end_time": "1945h"
                 }
@@ -471,55 +408,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Appell,Jeffrey L"
+                    "instructor": "Blum,Nancy A"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
+                    "days": "MW",
                     "location": "SH309",
-                    "start_time": "2000h",
-                    "end_time": "2115h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "312",
-            "title": "PSY ASPCTS PRATHD",
-            "class_number": "13357",
-            "enrollment_cap": 73,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "313",
-            "title": "DEVELOPMENTAL PSY",
-            "class_number": "12099",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Vasquez-Salgado,Yolanda"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH380",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -530,19 +425,19 @@
             "catalog_number": "313",
             "title": "DEVELOPMENTAL PSY",
             "class_number": "12445",
-            "enrollment_cap": 231,
+            "enrollment_cap": 130,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Vasquez-Salgado,Yolanda"
+                    "instructor": "Rashtian,Andrea M"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "LA181",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -593,7 +488,7 @@
             "catalog_number": "320",
             "title": "STAT METH PSY RES",
             "class_number": "12100",
-            "enrollment_cap": 0,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -605,7 +500,7 @@
                     "days": "TR",
                     "location": "SH380",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -614,7 +509,7 @@
             "catalog_number": "320",
             "title": "STAT METH PSY RES",
             "class_number": "12104",
-            "enrollment_cap": 0,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -624,7 +519,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -635,7 +530,7 @@
             "catalog_number": "320",
             "title": "STAT METH PSY RES",
             "class_number": "12107",
-            "enrollment_cap": 0,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -645,7 +540,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -656,7 +551,7 @@
             "catalog_number": "320",
             "title": "STAT METH PSY RES",
             "class_number": "12117",
-            "enrollment_cap": 0,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -666,9 +561,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -677,7 +572,7 @@
             "catalog_number": "320",
             "title": "STAT METH PSY RES",
             "class_number": "12143",
-            "enrollment_cap": 0,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -687,7 +582,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -698,7 +593,7 @@
             "catalog_number": "320",
             "title": "STAT METH PSY RES",
             "class_number": "12154",
-            "enrollment_cap": 0,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -708,7 +603,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH365",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -719,7 +614,7 @@
             "catalog_number": "320",
             "title": "STAT METH PSY RES",
             "class_number": "12398",
-            "enrollment_cap": 0,
+            "enrollment_cap": 72,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -740,18 +635,39 @@
             "catalog_number": "320",
             "title": "STAT METH PSY RES",
             "class_number": "12399",
-            "enrollment_cap": 0,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Hess,Michael A"
+                    "instructor": "Abara,Jose P"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
+                    "days": null,
                     "location": "SH365",
                     "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "320",
+            "title": "STAT METH PSY RES",
+            "class_number": "12215",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kantner,Justin D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH365",
+                    "start_time": "1230h",
                     "end_time": "1345h"
                 }
             ]
@@ -761,7 +677,7 @@
             "catalog_number": "320L",
             "title": "LAB STAT METH",
             "class_number": "12101",
-            "enrollment_cap": 0,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -782,7 +698,7 @@
             "catalog_number": "320L",
             "title": "LAB STAT METH",
             "class_number": "12102",
-            "enrollment_cap": 0,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -802,102 +718,18 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12103",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12105",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12106",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12108",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12109",
-            "enrollment_cap": 0,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Kang,Sun-Mee"
+                    "instructor": "Otten,Mark P"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -908,17 +740,17 @@
             "catalog_number": "320L",
             "title": "LAB STAT METH",
             "class_number": "12118",
-            "enrollment_cap": 0,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Kang,Sun-Mee"
+                    "instructor": "Otten,Mark P"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -928,18 +760,18 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12119",
-            "enrollment_cap": 0,
+            "class_number": "12231",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Kang,Sun-Mee"
+                    "instructor": "Otten,Mark P"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -949,18 +781,18 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12120",
-            "enrollment_cap": 0,
+            "class_number": "12232",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Kang,Sun-Mee"
+                    "instructor": "Otten,Mark P"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -970,8 +802,92 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12163",
-            "enrollment_cap": 0,
+            "class_number": "12274",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kang,Sun-Mee"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "320L",
+            "title": "LAB STAT METH",
+            "class_number": "12275",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kang,Sun-Mee"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "320L",
+            "title": "LAB STAT METH",
+            "class_number": "12280",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kang,Sun-Mee"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "320L",
+            "title": "LAB STAT METH",
+            "class_number": "12281",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kang,Sun-Mee"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "320L",
+            "title": "LAB STAT METH",
+            "class_number": "12286",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -991,8 +907,8 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12224",
-            "enrollment_cap": 0,
+            "class_number": "12287",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1012,8 +928,8 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12231",
-            "enrollment_cap": 0,
+            "class_number": "12401",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1024,8 +940,8 @@
                 {
                     "days": "TR",
                     "location": "SH341",
-                    "start_time": "0430h",
-                    "end_time": "0520h"
+                    "start_time": "1630h",
+                    "end_time": "1720h"
                 }
             ]
         },
@@ -1033,8 +949,8 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12232",
-            "enrollment_cap": 0,
+            "class_number": "12402",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1054,8 +970,8 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12233",
-            "enrollment_cap": 0,
+            "class_number": "12403",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1075,230 +991,20 @@
             "subject": "PSY",
             "catalog_number": "320L",
             "title": "LAB STAT METH",
-            "class_number": "12271",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH341",
-                    "start_time": "1000h",
-                    "end_time": "1050h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12272",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH341",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12274",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12275",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12280",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12281",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12286",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12287",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12401",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1730h",
-                    "end_time": "1820h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
-            "class_number": "12402",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "2000h",
-                    "end_time": "2050h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12407",
             "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Abara,Jose P"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1500h",
-                    "end_time": "1550h"
+                    "days": null,
+                    "location": "SH374",
+                    "start_time": "1000h",
+                    "end_time": "1050h"
                 }
             ]
         },
@@ -1311,15 +1017,183 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Abara,Jose P"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1650h"
+                    "days": null,
+                    "location": "SH374",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "320L",
+            "title": "LAB STAT METH",
+            "class_number": "12452",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kantner,Justin D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH374",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321",
+            "title": "PSY RESEARCH METH",
+            "class_number": "12130",
+            "enrollment_cap": 72,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ruvalcaba,Omar"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH309",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321",
+            "title": "PSY RESEARCH METH",
+            "class_number": "12131",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Plunkett,Scott W"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH380",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321",
+            "title": "PSY RESEARCH METH",
+            "class_number": "12250",
+            "enrollment_cap": 96,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Drew,Stefanie A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "CR5125",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321",
+            "title": "PSY RESEARCH METH",
+            "class_number": "12251",
+            "enrollment_cap": 72,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Sadeh,Michelle"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH309",
+                    "start_time": "1700h",
+                    "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321",
+            "title": "PSY RESEARCH METH",
+            "class_number": "12292",
+            "enrollment_cap": 72,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Fritz,Kristina Adela"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH280",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321",
+            "title": "PSY RESEARCH METH",
+            "class_number": "12293",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Wilson,Essence L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH365",
+                    "start_time": "1830h",
+                    "end_time": "1945h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321",
+            "title": "PSY RESEARCH METH",
+            "class_number": "12294",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hess,Michael A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH365",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -1328,7 +1202,7 @@
             "catalog_number": "321L",
             "title": "PSY RES METH LAB",
             "class_number": "12296",
-            "enrollment_cap": 0,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1338,7 +1212,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1349,7 +1223,7 @@
             "catalog_number": "321L",
             "title": "PSY RES METH LAB",
             "class_number": "12297",
-            "enrollment_cap": 0,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1359,7 +1233,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1370,7 +1244,7 @@
             "catalog_number": "321L",
             "title": "PSY RES METH LAB",
             "class_number": "12298",
-            "enrollment_cap": 0,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1380,7 +1254,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1390,8 +1264,8 @@
             "subject": "PSY",
             "catalog_number": "321L",
             "title": "PSY RES METH LAB",
-            "class_number": "12299",
-            "enrollment_cap": 0,
+            "class_number": "12302",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1411,29 +1285,8 @@
             "subject": "PSY",
             "catalog_number": "321L",
             "title": "PSY RES METH LAB",
-            "class_number": "12300",
+            "class_number": "12303",
             "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH341",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12301",
-            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1442,304 +1295,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "SH374",
+                    "days": "MW",
+                    "location": "SH341",
                     "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12302",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH374",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12303",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fenn,Elise A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12304",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fenn,Elise A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12305",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH389",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12306",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH389",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12307",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH389",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12308",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH374",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12309",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sadeh,Michelle"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH374",
-                    "start_time": "1830h",
-                    "end_time": "1945h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12310",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sadeh,Michelle"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH374",
-                    "start_time": "1830h",
-                    "end_time": "1945h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12311",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sadeh,Michelle"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12312",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fritz,Kristina Adela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH374",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12313",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fritz,Kristina Adela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH374",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12314",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12315",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1748,28 +1307,7 @@
             "catalog_number": "321L",
             "title": "PSY RES METH LAB",
             "class_number": "12320",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12321",
-            "enrollment_cap": 25,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1779,9 +1317,72 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "SH389",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12321",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH389",
+                    "start_time": "1700h",
+                    "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12694",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH374",
+                    "start_time": "1700h",
+                    "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12322",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH374",
+                    "start_time": "1700h",
+                    "end_time": "1815h"
                 }
             ]
         },
@@ -1794,34 +1395,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sadeh,Michelle"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
-            "class_number": "12326",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "SH374",
                     "start_time": "1830h",
                     "end_time": "1945h"
                 }
@@ -1831,20 +1411,188 @@
             "subject": "PSY",
             "catalog_number": "321L",
             "title": "PSY RES METH LAB",
-            "class_number": "12327",
-            "enrollment_cap": 23,
+            "class_number": "12326",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sadeh,Michelle"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH374",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12327",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Sadeh,Michelle"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH374",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12331",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Fritz,Kristina Adela"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH374",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12332",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Fritz,Kristina Adela"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "SH374",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12333",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Fritz,Kristina Adela"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH374",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12337",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Wilson,Essence L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "ONLINE",
                     "start_time": "2000h",
                     "end_time": "2115h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12338",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Wilson,Essence L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "ONLINE",
+                    "start_time": "1700h",
+                    "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12343",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hess,Michael A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH341",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "321L",
+            "title": "PSY RES METH LAB",
+            "class_number": "12344",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hess,Michael A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH341",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -1905,7 +1653,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1926,7 +1674,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1949,7 +1697,7 @@
                     "days": "MW",
                     "location": "LA181",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1969,8 +1717,8 @@
                 {
                     "days": "F",
                     "location": "JA100",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "start_time": "0930h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1989,7 +1737,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2010,9 +1758,9 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "location": "ONLINE",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2033,28 +1781,7 @@
                     "days": "MW",
                     "location": "SH342",
                     "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "352",
-            "title": "MOTIVATION",
-            "class_number": "12097",
-            "enrollment_cap": 84,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rashtian,Andrea M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2073,7 +1800,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH120",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -2094,7 +1821,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1700h",
                     "end_time": "1815h"
                 }
@@ -2139,27 +1866,6 @@
                     "location": "JA100",
                     "start_time": "1530h",
                     "end_time": "1815h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "352",
-            "title": "MOTIVATION",
-            "class_number": "12785",
-            "enrollment_cap": 82,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
                 }
             ]
         },
@@ -2210,7 +1916,7 @@
             "catalog_number": "365",
             "title": "INTRO GERONTOLOGY",
             "class_number": "12203",
-            "enrollment_cap": 183,
+            "enrollment_cap": 125,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2231,19 +1937,19 @@
             "catalog_number": "365",
             "title": "INTRO GERONTOLOGY",
             "class_number": "12417",
-            "enrollment_cap": 144,
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Stark,Harry J"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1815h"
+                    "days": "TR",
+                    "location": "SH203",
+                    "start_time": "2130h",
+                    "end_time": "2245h"
                 }
             ]
         },
@@ -2263,8 +1969,8 @@
                 {
                     "days": "MW",
                     "location": "CR5122",
-                    "start_time": "2130h",
-                    "end_time": "2245h"
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -2294,7 +2000,7 @@
             "catalog_number": "367",
             "title": "COGNITIVE PSYCH",
             "class_number": "12889",
-            "enrollment_cap": 152,
+            "enrollment_cap": 84,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2303,10 +2009,52 @@
             ],
             "meetings": [
                 {
+                    "days": "W",
+                    "location": "SH120",
+                    "start_time": "1800h",
+                    "end_time": "2045h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "367",
+            "title": "COGNITIVE PSYCH",
+            "class_number": "12923",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Shiffrar,Maggie M"
+                }
+            ],
+            "meetings": [
+                {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ONLINE",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "367",
+            "title": "COGNITIVE PSYCH",
+            "class_number": "20891",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Shiffrar,Maggie M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2325,51 +2073,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "369",
-            "title": "APPLIED COGNITION",
-            "class_number": "12510",
-            "enrollment_cap": 79,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "380",
-            "title": "PSYCHOL OF STRESS",
-            "class_number": "13312",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2390,7 +2096,7 @@
                     "days": "TR",
                     "location": "NH113",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2409,7 +2115,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "CR5122",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -2450,10 +2156,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -2474,7 +2180,7 @@
                     "days": "W",
                     "location": "SH365",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2495,7 +2201,7 @@
                     "days": "MW",
                     "location": "SH386",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2504,7 +2210,7 @@
             "catalog_number": "460",
             "title": "COUNS + INTERVIEW",
             "class_number": "12113",
-            "enrollment_cap": 0,
+            "enrollment_cap": 231,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2514,9 +2220,30 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "LA181",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "471AB",
+            "title": "ADV INQ CLIN ABA",
+            "class_number": "12246",
+            "enrollment_cap": 84,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Jin,Chunying"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH120",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -2543,69 +2270,6 @@
         },
         {
             "subject": "PSY",
-            "catalog_number": "471CP",
-            "title": "ADV INQ CUL-CLIN PSY",
-            "class_number": "13301",
-            "enrollment_cap": 52,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1700h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "479GG",
-            "title": "ADV INQ SCPSY GAM",
-            "class_number": "13349",
-            "enrollment_cap": 229,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "479GGS",
-            "title": "ADV SCPSY GAM SEM",
-            "class_number": "13350",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1020h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
             "catalog_number": "485AD",
             "title": "ADV INQ RES METH",
             "class_number": "12878",
@@ -2613,13 +2277,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Vargas,Jose Hugo"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "SH264",
                     "start_time": "1530h",
                     "end_time": "1645h"
                 }
@@ -2634,13 +2298,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Vargas,Jose Hugo"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "SH341",
                     "start_time": "1700h",
                     "end_time": "1815h"
                 }
@@ -2669,6 +2333,27 @@
         },
         {
             "subject": "PSY",
+            "catalog_number": "497C",
+            "title": "PROSEM PSY RESRCH",
+            "class_number": "12468",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Fenn,Elise A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
             "catalog_number": "499A",
             "title": "INDEPENDENT STUDY",
             "class_number": "12129",
@@ -2676,13 +2361,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2697,13 +2382,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fenn,Elise A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2718,13 +2403,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2739,13 +2424,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fenn,Elise A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2760,13 +2445,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2781,13 +2466,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fenn,Elise A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2831,7 +2516,7 @@
                     "days": "TR",
                     "location": "SH322",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2850,7 +2535,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "SH322",
+                    "location": "SH374",
                     "start_time": "1230h",
                     "end_time": "1320h"
                 }
@@ -2861,40 +2546,19 @@
             "catalog_number": "581",
             "title": "TEACHING OF PSYCH",
             "class_number": "12469",
-            "enrollment_cap": 25,
+            "enrollment_cap": 40,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Plunkett,Scott W"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "591A",
-            "title": "SEM COG PSY",
-            "class_number": "12520",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
                 }
             ]
         },
@@ -2907,13 +2571,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Chavira,Gabriela"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH203",
                     "start_time": "1630h",
                     "end_time": "1810h"
                 }
@@ -2921,43 +2585,22 @@
         },
         {
             "subject": "PSY",
-            "catalog_number": "594MC",
-            "title": "TUTORIAL IN PSY",
-            "class_number": "13303",
+            "catalog_number": "620",
+            "title": "ADV PSYCHOPATH",
+            "class_number": "13313",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Simpson,Sara"
                 }
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "594RC",
-            "title": "TUT RES METHODS",
-            "class_number": "12793",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "R",
+                    "location": "ONLINE",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -2970,15 +2613,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1200h",
-                    "end_time": "1445h"
+                    "location": "SH322",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -2991,15 +2634,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Katz,Gary S"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "MH209",
                     "start_time": "0900h",
                     "end_time": "1145h"
+                }
+            ]
+        },
+        {
+            "subject": "PSY",
+            "catalog_number": "690A",
+            "title": "ADV SENS PERC",
+            "class_number": "13183",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Drew,Stefanie A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH322",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -3008,19 +2672,19 @@
             "catalog_number": "692A",
             "title": "SEM RES METHODS",
             "class_number": "12116",
-            "enrollment_cap": 41,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Berzenski,Sara R"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "location": "SH322",
+                    "start_time": "0900h",
+                    "end_time": "1145h"
                 }
             ]
         },
@@ -3033,13 +2697,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -3054,13 +2718,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -3075,13 +2739,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -3096,13 +2760,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -3117,13 +2781,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -3138,13 +2802,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Razani,Jill"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

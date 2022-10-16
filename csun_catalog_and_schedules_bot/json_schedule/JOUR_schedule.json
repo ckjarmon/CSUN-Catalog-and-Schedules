@@ -5,7 +5,7 @@
             "catalog_number": "100",
             "title": "MASS COMM",
             "class_number": "11099",
-            "enrollment_cap": 30,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH305",
                     "start_time": "0800h",
                     "end_time": "0940h"
                 }
@@ -143,28 +143,7 @@
                     "days": "T",
                     "location": "MZ361",
                     "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
-        },
-        {
-            "subject": "JOUR",
-            "catalog_number": "210",
-            "title": "NEWS REPORT II",
-            "class_number": "11731",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ360",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -206,28 +185,7 @@
                     "days": "R",
                     "location": "MZ360",
                     "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
-        },
-        {
-            "subject": "JOUR",
-            "catalog_number": "210L",
-            "title": "NEWS REPORT II LA",
-            "class_number": "11738",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "MZ211",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -267,30 +225,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "ONLINE",
+                    "location": "MZ360",
                     "start_time": "1600h",
                     "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "JOUR",
-            "catalog_number": "225",
-            "title": "MULTI STORYTELL",
-            "class_number": "11995",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ211",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
                 }
             ]
         },
@@ -299,7 +236,7 @@
             "catalog_number": "250",
             "title": "VISUAL COMM",
             "class_number": "11429",
-            "enrollment_cap": 30,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -477,7 +414,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "MZ360",
+                    "location": "MZ363",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -521,7 +458,7 @@
                     "days": "TR",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -542,7 +479,7 @@
                     "days": "MW",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -584,7 +521,7 @@
                     "days": "W",
                     "location": "MZ360",
                     "start_time": "1000h",
-                    "end_time": "1245h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -603,30 +540,9 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "0900h",
                     "end_time": "1145h"
-                }
-            ]
-        },
-        {
-            "subject": "JOUR",
-            "catalog_number": "395B",
-            "title": "BRDCAST NEWS PRAC",
-            "class_number": "10058",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
                 }
             ]
         },
@@ -645,30 +561,9 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "JOUR",
-            "catalog_number": "395C",
-            "title": "BRDCST NEWS",
-            "class_number": "11904",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ211",
-                    "start_time": "1600h",
-                    "end_time": "1740h"
                 }
             ]
         },
@@ -750,7 +645,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -813,7 +708,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "MZ101",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -837,6 +732,27 @@
                     "location": "MZ360",
                     "start_time": "0900h",
                     "end_time": "1145h"
+                }
+            ]
+        },
+        {
+            "subject": "JOUR",
+            "catalog_number": "415",
+            "title": "RPTG FOR TV NEWS",
+            "class_number": "10540",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "MZ211",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -905,27 +821,6 @@
         },
         {
             "subject": "JOUR",
-            "catalog_number": "455",
-            "title": "DOC PHOTOJOURNLSM",
-            "class_number": "10065",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ211",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "JOUR",
             "catalog_number": "460",
             "title": "MAG JOURNALISM",
             "class_number": "10652",
@@ -960,7 +855,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "MZ113",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -992,7 +887,7 @@
             "catalog_number": "494AEE",
             "title": "INTERNSHIP",
             "class_number": "11585",
-            "enrollment_cap": 20,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1013,7 +908,7 @@
             "catalog_number": "494BEE",
             "title": "INTERNSHIP",
             "class_number": "11586",
-            "enrollment_cap": 20,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1026,6 +921,27 @@
                     "location": "TBA",
                     "start_time": "0000h",
                     "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "JOUR",
+            "catalog_number": "495DA",
+            "title": "DATA ANALYTICS",
+            "class_number": "20897",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "ONLINE",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1068,27 +984,6 @@
                     "location": "MZ361",
                     "start_time": "1300h",
                     "end_time": "1545h"
-                }
-            ]
-        },
-        {
-            "subject": "JOUR",
-            "catalog_number": "495SLT",
-            "title": "SPAN-LANG TV",
-            "class_number": "10845",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ211",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
                 }
             ]
         },
@@ -1193,7 +1088,7 @@
                     "days": "M",
                     "location": "MZ212",
                     "start_time": "1200h",
-                    "end_time": "1250h"
+                    "end_time": "2450h"
                 }
             ]
         },

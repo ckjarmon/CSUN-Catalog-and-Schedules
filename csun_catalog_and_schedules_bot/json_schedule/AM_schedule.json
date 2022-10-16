@@ -9,7 +9,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Boyajian,David M"
+                    "instructor": "Staff"
                 }
             ],
             "meetings": [
@@ -46,7 +46,7 @@
             "subject": "AM",
             "catalog_number": "316",
             "title": "ENGR DYNAMICS",
-            "class_number": "16818",
+            "class_number": "16753",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
@@ -56,31 +56,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "JD1563",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "AM",
-            "catalog_number": "316",
-            "title": "ENGR DYNAMICS",
-            "class_number": "16753",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Dombourian,Edward M"
-                }
-            ],
-            "meetings": [
-                {
                     "days": "MW",
                     "location": "JD1609",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -156,7 +135,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amarkhil,Qais"
                 }
             ],
             "meetings": [
@@ -198,7 +177,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Zirakian,Tadeh"
+                    "instructor": "Staff"
                 }
             ],
             "meetings": [

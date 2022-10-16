@@ -5,19 +5,19 @@
             "catalog_number": "212",
             "title": "IS FOR BIZ USERS",
             "class_number": "13820",
-            "enrollment_cap": 155,
+            "enrollment_cap": 150,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garlington,Christopher"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "days": "TR",
+                    "location": "JA100",
+                    "start_time": "1730h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -26,17 +26,17 @@
             "catalog_number": "212",
             "title": "IS FOR BIZ USERS",
             "class_number": "13850",
-            "enrollment_cap": 50,
+            "enrollment_cap": 55,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eslami,Seyed Pouyan"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB2230",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -47,17 +47,17 @@
             "catalog_number": "212",
             "title": "IS FOR BIZ USERS",
             "class_number": "13887",
-            "enrollment_cap": 155,
+            "enrollment_cap": 150,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Savin,Jerald M"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JA100",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -68,17 +68,17 @@
             "catalog_number": "212",
             "title": "IS FOR BIZ USERS",
             "class_number": "13888",
-            "enrollment_cap": 50,
+            "enrollment_cap": 55,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eslami,Seyed Pouyan"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "BB2230",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -93,15 +93,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Zhang,Yue"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BB2212",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -114,15 +114,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hu,Tao"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "days": "TR",
+                    "location": "BB2212",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -131,19 +131,19 @@
             "catalog_number": "312",
             "title": "SYS&TECH FOR MGRS",
             "class_number": "13447",
-            "enrollment_cap": 50,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Najafabadi,Mahdi"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "location": "BB2212",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -152,17 +152,17 @@
             "catalog_number": "312",
             "title": "SYS&TECH FOR MGRS",
             "class_number": "13427",
-            "enrollment_cap": 60,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Najafabadi,Mahdi"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB2212",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -173,19 +173,19 @@
             "catalog_number": "312",
             "title": "SYS&TECH FOR MGRS",
             "class_number": "13459",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sharbaf,Mehrdad S"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "days": "F",
+                    "location": "LO1125",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -198,13 +198,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Zhang,Yue"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BB2206",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -219,15 +219,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Savin,Jerald M"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "days": "MW",
+                    "location": "BB2212",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -236,17 +236,17 @@
             "catalog_number": "431",
             "title": "SYS ANALY & DESGN",
             "class_number": "13428",
-            "enrollment_cap": 42,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hu,Tao"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB2212",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -257,17 +257,17 @@
             "catalog_number": "431",
             "title": "SYS ANALY & DESGN",
             "class_number": "13762",
-            "enrollment_cap": 42,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hu,Tao"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BH310",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -278,18 +278,18 @@
             "catalog_number": "435",
             "title": "NETWORKS & CYBERSEC",
             "class_number": "13431",
-            "enrollment_cap": 41,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Choi,Daeeun"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1400h",
+                    "days": "TR",
+                    "location": "BB2212",
+                    "start_time": "1530h",
                     "end_time": "1645h"
                 }
             ]
@@ -299,19 +299,40 @@
             "catalog_number": "435",
             "title": "NETWORKS & CYBERSEC",
             "class_number": "13763",
-            "enrollment_cap": 40,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Choi,Daeeun"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
+                    "days": "R",
+                    "location": "BB2212",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "IS",
+            "catalog_number": "441",
+            "title": "DATABASE MGMT SYS",
+            "class_number": "13469",
+            "enrollment_cap": 42,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Zhang,Yue"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "BB1240",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -320,17 +341,17 @@
             "catalog_number": "441",
             "title": "DATABASE MGMT SYS",
             "class_number": "13764",
-            "enrollment_cap": 70,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Davoudian,Alen"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BB2212",
                     "start_time": "1600h",
                     "end_time": "1715h"
                 }
@@ -341,17 +362,17 @@
             "catalog_number": "451",
             "title": "ENT. SYS & PROJ MGMT",
             "class_number": "13429",
-            "enrollment_cap": 60,
+            "enrollment_cap": 76,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garlington,Christopher"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "CR5126",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -362,19 +383,40 @@
             "catalog_number": "451",
             "title": "ENT. SYS & PROJ MGMT",
             "class_number": "13889",
-            "enrollment_cap": 48,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Najafabadi,Mahdi"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BB2212",
+                    "start_time": "1730h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "IS",
+            "catalog_number": "457",
+            "title": "ADV TELECOM NETWK",
+            "class_number": "13621",
+            "enrollment_cap": 44,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Choi,Daeeun"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "location": "BB2212",
+                    "start_time": "1730h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -383,17 +425,17 @@
             "catalog_number": "497DA",
             "title": "IS DATA ANALYTICS",
             "class_number": "13826",
-            "enrollment_cap": 40,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eslami,Seyed Pouyan"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "BB1240",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -404,19 +446,19 @@
             "catalog_number": "530",
             "title": "ACCT INFO SYSTEMS",
             "class_number": "13847",
-            "enrollment_cap": 46,
+            "enrollment_cap": 40,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Primes,David M"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "BB2204",
                     "start_time": "0900h",
-                    "end_time": "1445h"
+                    "end_time": "1500h"
                 }
             ]
         }

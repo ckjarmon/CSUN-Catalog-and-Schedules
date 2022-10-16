@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED3115",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "1400h",
                     "end_time": "1450h"
                 }
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB1119",
                     "start_time": "1700h",
                     "end_time": "1750h"
                 }
@@ -78,7 +78,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED1122",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ED3115",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -120,7 +120,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "1400h",
                     "end_time": "1450h"
                 }
@@ -141,7 +141,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "1400h",
                     "end_time": "1450h"
                 }
@@ -162,7 +162,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED1126",
                     "start_time": "1300h",
                     "end_time": "1350h"
                 }

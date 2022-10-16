@@ -9,7 +9,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hattar,Marianne Haneh"
                 }
             ],
             "meetings": [
@@ -30,7 +30,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hattar,Marianne Haneh"
                 }
             ],
             "meetings": [
@@ -51,7 +51,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hattar,Marianne Haneh"
                 }
             ],
             "meetings": [
@@ -72,7 +72,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hattar,Marianne Haneh"
                 }
             ],
             "meetings": [
@@ -93,7 +93,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Der-Tavitian,Dr. Rosine"
                 }
             ],
             "meetings": [
@@ -135,7 +135,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Der-Tavitian,Dr. Rosine"
                 }
             ],
             "meetings": [
@@ -156,7 +156,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Der-Tavitian,Dr. Rosine"
                 }
             ],
             "meetings": [
@@ -177,7 +177,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Der-Tavitian,Dr. Rosine"
                 }
             ],
             "meetings": [
@@ -186,27 +186,6 @@
                     "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "NURS",
-            "catalog_number": "495",
-            "title": "ADV PROF PRAC",
-            "class_number": "19321",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "1900h",
-                    "end_time": "1950h"
                 }
             ]
         }

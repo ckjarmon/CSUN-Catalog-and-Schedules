@@ -5,11 +5,11 @@
             "catalog_number": "100",
             "title": "INTRO BIOLOGY",
             "class_number": "17074",
-            "enrollment_cap": 80,
+            "enrollment_cap": 119,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kay-Nishiyama,Cynthia A"
                 }
             ],
             "meetings": [
@@ -38,7 +38,7 @@
                     "days": "TR",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -47,7 +47,7 @@
             "catalog_number": "100",
             "title": "INTRO BIOLOGY",
             "class_number": "17980",
-            "enrollment_cap": 80,
+            "enrollment_cap": 119,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -72,7 +72,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Koontz,Alison"
                 }
             ],
             "meetings": [
@@ -93,7 +93,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Malone,Cindy"
+                    "instructor": "Staff"
                 }
             ],
             "meetings": [
@@ -338,27 +338,6 @@
         },
         {
             "subject": "BIOL",
-            "catalog_number": "100L",
-            "title": "INTRO BIOLOGY LAB",
-            "class_number": "17308",
-            "enrollment_cap": 50,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "BIOL",
             "catalog_number": "101",
             "title": "GENERAL BIOLOGY",
             "class_number": "17446",
@@ -366,7 +345,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ebneshahidi,Ali"
                 }
             ],
             "meetings": [
@@ -374,7 +353,7 @@
                     "days": "MW",
                     "location": "EH2132",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -387,7 +366,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cohen,Joshua Evan"
                 }
             ],
             "meetings": [
@@ -408,7 +387,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Malone,Cindy"
+                    "instructor": "Ebneshahidi,Ali"
                 }
             ],
             "meetings": [
@@ -429,13 +408,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Tsounis,Georgios"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "CR5126",
+                    "location": "CR5122",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -450,7 +429,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Richardson,Terri S"
                 }
             ],
             "meetings": [
@@ -467,7 +446,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17086",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -488,7 +467,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17087",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -509,7 +488,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17088",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -530,7 +509,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17135",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -551,7 +530,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17350",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -572,7 +551,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17544",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -593,7 +572,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17546",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -614,7 +593,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17547",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -635,7 +614,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17548",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -656,7 +635,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17551",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -677,7 +656,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17089",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -698,7 +677,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17549",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -719,7 +698,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17984",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -740,7 +719,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17985",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -761,7 +740,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "17986",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -782,7 +761,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "18153",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -803,7 +782,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "18154",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -824,7 +803,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "18155",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -845,7 +824,7 @@
             "catalog_number": "101L",
             "title": "GEN BIOLOGY LAB",
             "class_number": "18173",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -939,9 +918,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "LA181",
+                    "location": "EH2132",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -950,7 +929,7 @@
             "catalog_number": "106",
             "title": "BIOLOGIC PRIN I",
             "class_number": "18266",
-            "enrollment_cap": 130,
+            "enrollment_cap": 140,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -962,7 +941,7 @@
                     "days": "MW",
                     "location": "CR5122",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1265,19 +1244,19 @@
             "catalog_number": "107",
             "title": "BIOLOGIC PRIN II",
             "class_number": "18043",
-            "enrollment_cap": 90,
+            "enrollment_cap": 100,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hanzawa,Yoshie"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "CR5122",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "MW",
+                    "location": "CR5125",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -1360,8 +1339,8 @@
                 {
                     "days": "W",
                     "location": "CR5232",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
+                    "start_time": "0800h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -1479,7 +1458,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cohen,Joshua Evan"
                 }
             ],
             "meetings": [
@@ -1500,13 +1479,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cohen,Joshua Evan"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "LA181",
+                    "location": "EH2132",
                     "start_time": "1700h",
                     "end_time": "1840h"
                 }
@@ -1664,11 +1643,11 @@
             "catalog_number": "212",
             "title": "LAB STDS HUM ANAT",
             "class_number": "18287",
-            "enrollment_cap": 60,
+            "enrollment_cap": 90,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cohen,Joshua Evan"
                 }
             ],
             "meetings": [
@@ -1689,7 +1668,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Russell,Cody A"
                 }
             ],
             "meetings": [
@@ -1752,7 +1731,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amir Ali,Arsalan"
                 }
             ],
             "meetings": [
@@ -1781,7 +1760,7 @@
                     "days": "MWF",
                     "location": "CR5436",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1794,7 +1773,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ebneshahidi,Ali"
                 }
             ],
             "meetings": [
@@ -2010,7 +1989,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2021,7 +2000,7 @@
             "catalog_number": "315",
             "title": "PRIN MICROBIOLOGY",
             "class_number": "17115",
-            "enrollment_cap": 118,
+            "enrollment_cap": 119,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -2046,7 +2025,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cauilan,Allea Lomboy"
                 }
             ],
             "meetings": [
@@ -2067,7 +2046,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cauilan,Allea Lomboy"
                 }
             ],
             "meetings": [
@@ -2130,7 +2109,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Koch,Karen"
                 }
             ],
             "meetings": [
@@ -2151,7 +2130,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Koch,Karen"
                 }
             ],
             "meetings": [
@@ -2201,7 +2180,7 @@
                     "days": "TR",
                     "location": "CR5230",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2214,7 +2193,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Tsounis,Georgios"
                 }
             ],
             "meetings": [
@@ -2235,7 +2214,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Tsounis,Georgios"
                 }
             ],
             "meetings": [
@@ -2256,7 +2235,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Franklin,Michael P"
                 }
             ],
             "meetings": [
@@ -2277,7 +2256,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kubler,Janet E"
                 }
             ],
             "meetings": [
@@ -2298,7 +2277,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Tsounis,Georgios"
                 }
             ],
             "meetings": [
@@ -2319,7 +2298,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kubler,Janet E"
                 }
             ],
             "meetings": [
@@ -2357,11 +2336,11 @@
             "catalog_number": "360",
             "title": "GENETICS",
             "class_number": "17123",
-            "enrollment_cap": 120,
+            "enrollment_cap": 119,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Van Buskirk,Cheryl L"
+                    "instructor": "Odom,Daniel"
                 }
             ],
             "meetings": [
@@ -2370,6 +2349,48 @@
                     "location": "CR5125",
                     "start_time": "1400h",
                     "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "BIOL",
+            "catalog_number": "380",
+            "title": "CELL BIOLOGY",
+            "class_number": "17124",
+            "enrollment_cap": 76,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Banner,Lisa R"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "CR5126",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "BIOL",
+            "catalog_number": "380",
+            "title": "CELL BIOLOGY",
+            "class_number": "18092",
+            "enrollment_cap": 119,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Odom,Daniel"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "CR5125",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -2445,7 +2466,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Russell,Cody A"
                 }
             ],
             "meetings": [
@@ -2529,7 +2550,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kubler,Janet E"
                 }
             ],
             "meetings": [
@@ -2550,7 +2571,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kubler,Janet E"
                 }
             ],
             "meetings": [
@@ -2558,7 +2579,7 @@
                     "days": "F",
                     "location": "MG4111",
                     "start_time": "1000h",
-                    "end_time": "1245h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -2684,7 +2705,7 @@
                     "days": "MW",
                     "location": "MG4213",
                     "start_time": "0930h",
-                    "end_time": "1220h"
+                    "end_time": "2420h"
                 }
             ]
         },
@@ -2760,7 +2781,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hogue,James N"
                 }
             ],
             "meetings": [
@@ -2865,7 +2886,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Franklin,Michael P"
                 }
             ],
             "meetings": [
@@ -2886,7 +2907,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Franklin,Michael P"
                 }
             ],
             "meetings": [
@@ -2907,7 +2928,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Franklin,Michael P"
                 }
             ],
             "meetings": [
@@ -2916,6 +2937,27 @@
                     "location": "MG4111",
                     "start_time": "1300h",
                     "end_time": "1350h"
+                }
+            ]
+        },
+        {
+            "subject": "BIOL",
+            "catalog_number": "427AL",
+            "title": "PELAG ORGANSM LAB",
+            "class_number": "18284",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Franklin,Michael P"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "MG4111",
+                    "start_time": "1400h",
+                    "end_time": "1650h"
                 }
             ]
         },
@@ -3083,7 +3125,7 @@
                     "days": "MW",
                     "location": "CR5332",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         }

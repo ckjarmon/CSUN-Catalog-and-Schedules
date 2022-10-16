@@ -100,8 +100,8 @@
                 {
                     "days": "T",
                     "location": "AC210",
-                    "start_time": "1300h",
-                    "end_time": "1350h"
+                    "start_time": "1400h",
+                    "end_time": "1450h"
                 }
             ]
         },
@@ -205,8 +205,8 @@
                 {
                     "days": "T",
                     "location": "AC210",
-                    "start_time": "1400h",
-                    "end_time": "1720h"
+                    "start_time": "1500h",
+                    "end_time": "1820h"
                 }
             ]
         },
@@ -248,7 +248,7 @@
                     "days": "TR",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -282,7 +282,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Klemm,Peri M"
                 }
             ],
             "meetings": [
@@ -303,7 +303,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Klemm,Peri M"
                 }
             ],
             "meetings": [
@@ -332,7 +332,7 @@
                     "days": "MW",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -366,7 +366,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Klemm,Peri M"
                 }
             ],
             "meetings": [
@@ -374,7 +374,7 @@
                     "days": "TR",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -387,7 +387,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Wang,Meiqin"
                 }
             ],
             "meetings": [
@@ -395,7 +395,7 @@
                     "days": "R",
                     "location": "SG109",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -408,7 +408,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Wang,Meiqin"
                 }
             ],
             "meetings": [
@@ -519,7 +519,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "AC602",
+                    "location": "AC604",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -569,6 +569,27 @@
         },
         {
             "subject": "ART",
+            "catalog_number": "124A",
+            "title": "DRAWING I",
+            "class_number": "11144",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Rozic,Michelle M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "AC602",
+                    "start_time": "0900h",
+                    "end_time": "1445h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
             "catalog_number": "124B",
             "title": "DRAWING I",
             "class_number": "10011",
@@ -592,27 +613,6 @@
             "subject": "ART",
             "catalog_number": "124B",
             "title": "DRAWING I",
-            "class_number": "10046",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "AC604",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "124B",
-            "title": "DRAWING I",
             "class_number": "10670",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -624,28 +624,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "AC604",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "124B",
-            "title": "DRAWING I",
-            "class_number": "10010",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "AC604",
+                    "location": "AC602",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -702,7 +681,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Saito,Ron S"
                 }
             ],
             "meetings": [
@@ -750,7 +729,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -758,10 +737,10 @@
         },
         {
             "subject": "ART",
-            "catalog_number": "141",
-            "title": "BEGIN 3D DESIGN",
-            "class_number": "10017",
-            "enrollment_cap": 0,
+            "catalog_number": "140",
+            "title": "BEGIN 2D DESIGN",
+            "class_number": "11157",
+            "enrollment_cap": 26,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -770,10 +749,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "AC511",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -781,7 +760,7 @@
             "subject": "ART",
             "catalog_number": "141",
             "title": "BEGIN 3D DESIGN",
-            "class_number": "10018",
+            "class_number": "10017",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
@@ -791,7 +770,7 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
+                    "days": "MW",
                     "location": "AC511",
                     "start_time": "0800h",
                     "end_time": "1045h"
@@ -803,7 +782,7 @@
             "catalog_number": "141",
             "title": "BEGIN 3D DESIGN",
             "class_number": "10682",
-            "enrollment_cap": 0,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -823,7 +802,7 @@
             "subject": "ART",
             "catalog_number": "141",
             "title": "BEGIN 3D DESIGN",
-            "class_number": "10020",
+            "class_number": "11118",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
@@ -833,31 +812,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
+                    "days": "F",
                     "location": "AC511",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "141",
-            "title": "BEGIN 3D DESIGN",
-            "class_number": "10047",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "AC511",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "start_time": "0900h",
+                    "end_time": "1445h"
                 }
             ]
         },
@@ -962,7 +920,7 @@
                     "days": "TR",
                     "location": "AC331",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1002,9 +960,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "AC401",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "location": "AC404",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -1127,10 +1085,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
+                    "days": "TR",
+                    "location": "AC602",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -1149,7 +1107,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "ONLINE",
+                    "location": "AC604",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -1206,7 +1164,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "St. Pierre,Robert J"
                 }
             ],
             "meetings": [
@@ -1227,7 +1185,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Tedeschi,Christian R"
                 }
             ],
             "meetings": [
@@ -1248,15 +1206,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rozic,Michelle M"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
                     "location": "AC505",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -1269,34 +1227,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kelley,James R"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "AC407",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "243",
-            "title": "INTRO TO TYPE",
-            "class_number": "10975",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "AC408",
+                    "days": "MW",
+                    "location": "AC404",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -1311,12 +1248,12 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kelley,James R"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
+                    "days": "MW",
                     "location": "AC407",
                     "start_time": "1100h",
                     "end_time": "1345h"
@@ -1338,7 +1275,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "ONLINE",
+                    "location": "AC407",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -1395,7 +1332,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Alfano,Edward C"
                 }
             ],
             "meetings": [
@@ -1421,10 +1358,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
+                    "days": "TR",
                     "location": "AC334",
-                    "start_time": "1100h",
-                    "end_time": "1630h"
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -1458,7 +1395,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Farquhar,Mark R"
                 }
             ],
             "meetings": [
@@ -1479,15 +1416,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Farquhar,Mark R"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "ONLINE",
+                    "location": "AC402",
                     "start_time": "1400h",
                     "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
+            "catalog_number": "263",
+            "title": "ANIMATION I",
+            "class_number": "11541",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1800h",
+                    "end_time": "2045h"
                 }
             ]
         },
@@ -1500,7 +1458,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cox,Patsy"
                 }
             ],
             "meetings": [
@@ -1528,6 +1486,27 @@
                 {
                     "days": "TR",
                     "location": "AC509",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
+            "catalog_number": "296PV",
+            "title": "DIG PHOTO/VIDEO I",
+            "class_number": "12007",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "AC331",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -1589,8 +1568,8 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "AC401",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -1601,7 +1580,7 @@
             "catalog_number": "305",
             "title": "ART& MASS CULTURE",
             "class_number": "10905",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1622,7 +1601,7 @@
             "catalog_number": "305",
             "title": "ART& MASS CULTURE",
             "class_number": "10790",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1634,7 +1613,7 @@
                     "days": "TR",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1643,7 +1622,7 @@
             "catalog_number": "305",
             "title": "ART& MASS CULTURE",
             "class_number": "10027",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1664,7 +1643,7 @@
             "catalog_number": "305",
             "title": "ART& MASS CULTURE",
             "class_number": "11123",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1685,7 +1664,7 @@
             "catalog_number": "305",
             "title": "ART& MASS CULTURE",
             "class_number": "11136",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1706,7 +1685,7 @@
             "catalog_number": "305",
             "title": "ART& MASS CULTURE",
             "class_number": "11149",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1727,7 +1706,28 @@
             "catalog_number": "305",
             "title": "ART& MASS CULTURE",
             "class_number": "11278",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
+            "catalog_number": "305",
+            "title": "ART& MASS CULTURE",
+            "class_number": "11406",
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1752,7 +1752,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rizk,Magdy"
                 }
             ],
             "meetings": [
@@ -1769,7 +1769,7 @@
             "catalog_number": "307",
             "title": "CORE ART STUDIO",
             "class_number": "11530",
-            "enrollment_cap": 26,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1829,6 +1829,27 @@
         },
         {
             "subject": "ART",
+            "catalog_number": "307",
+            "title": "CORE ART STUDIO",
+            "class_number": "11533",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
             "catalog_number": "309",
             "title": "VIDEO VISUAL ART",
             "class_number": "11589",
@@ -1841,8 +1862,8 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "AC401",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -1863,7 +1884,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "AC401",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1874,7 +1895,7 @@
             "catalog_number": "315",
             "title": "WORLDPERSPARTHIST",
             "class_number": "10029",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1886,7 +1907,7 @@
                     "days": "MW",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1895,11 +1916,11 @@
             "catalog_number": "315",
             "title": "WORLDPERSPARTHIST",
             "class_number": "11124",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Wang,Meiqin"
                 }
             ],
             "meetings": [
@@ -1916,7 +1937,7 @@
             "catalog_number": "315",
             "title": "WORLDPERSPARTHIST",
             "class_number": "11137",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1928,7 +1949,7 @@
                     "days": "TR",
                     "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1937,7 +1958,7 @@
             "catalog_number": "315",
             "title": "WORLDPERSPARTHIST",
             "class_number": "11150",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1958,7 +1979,7 @@
             "catalog_number": "315",
             "title": "WORLDPERSPARTHIST",
             "class_number": "11410",
-            "enrollment_cap": 60,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1983,15 +2004,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ontiveros,Mario"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "SG109",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "SG103",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -2010,7 +2031,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -2031,7 +2052,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1700h",
                     "end_time": "1945h"
                 }
@@ -2052,7 +2073,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SG105",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -2073,7 +2094,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2109,7 +2130,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sandberg,Erik Mark"
                 }
             ],
             "meetings": [
@@ -2130,7 +2151,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sandberg,Erik Mark"
                 }
             ],
             "meetings": [
@@ -2178,7 +2199,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "AC600",
+                    "location": "AC604",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -2198,10 +2219,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "AC602",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
+                    "days": "F",
+                    "location": "AC604",
+                    "start_time": "0800h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -2241,7 +2262,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "AC600",
+                    "location": "AC604",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -2261,10 +2282,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
+                    "days": "F",
+                    "location": "AC604",
+                    "start_time": "0800h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -2283,7 +2304,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -2312,6 +2333,27 @@
         },
         {
             "subject": "ART",
+            "catalog_number": "327",
+            "title": "PAINT II: REP IMG",
+            "class_number": "10970",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "AC606",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
             "catalog_number": "328",
             "title": "WATER COLOR",
             "class_number": "10671",
@@ -2333,6 +2375,27 @@
         },
         {
             "subject": "ART",
+            "catalog_number": "330",
+            "title": "DRAW III COMP",
+            "class_number": "10033",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "AC505",
+                    "start_time": "1800h",
+                    "end_time": "2045h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
             "catalog_number": "335",
             "title": "SCULPTURE II",
             "class_number": "10989",
@@ -2340,7 +2403,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Tedeschi,Christian R"
                 }
             ],
             "meetings": [
@@ -2368,8 +2431,8 @@
                 {
                     "days": "TR",
                     "location": "AC505",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
+                    "start_time": "0800h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -2387,8 +2450,8 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "ONLINE",
+                    "days": "MW",
+                    "location": "AC407",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -2424,12 +2487,12 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kelley,James R"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
+                    "days": "MW",
                     "location": "AC407",
                     "start_time": "1400h",
                     "end_time": "1645h"
@@ -2445,15 +2508,57 @@
             "enrollment_count": 0,
             "instructors": [
                 {
+                    "instructor": "DiMarco,Paula J"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "AC407",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
+            "catalog_number": "345",
+            "title": "ENTERTAIN AD DES",
+            "class_number": "11478",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bautista,Joe G"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "AC407",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
+            "catalog_number": "350",
+            "title": "PHOTOGRAPHY II",
+            "class_number": "20732",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructors": [
+                {
                     "instructor": "Staff"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "location": "AC335",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -2472,9 +2577,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "AC333",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
+                    "location": "AC334",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -2493,7 +2598,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "AC330",
+                    "location": "ONLINE",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -2508,7 +2613,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Owens,Caleb R"
                 }
             ],
             "meetings": [
@@ -2529,7 +2634,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Krane,Lesley S"
                 }
             ],
             "meetings": [
@@ -2555,8 +2660,8 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "AC404",
+                    "days": "TR",
+                    "location": "AC407",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -2571,13 +2676,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Alfano,Edward C"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "AC334",
+                    "location": "AC409",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -2592,13 +2697,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Juarez,Shally"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "AC408",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -2613,7 +2718,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mortcheva,Aglaia"
                 }
             ],
             "meetings": [
@@ -2634,15 +2739,57 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mortcheva,Aglaia"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "ONLINE",
+                    "location": "AC330",
                     "start_time": "1000h",
                     "end_time": "1530h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
+            "catalog_number": "363B",
+            "title": "ANIMATION IIB",
+            "class_number": "11009",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "St. Pierre,Robert J"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "AC402",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "ART",
+            "catalog_number": "363B",
+            "title": "ANIMATION IIB",
+            "class_number": "11834",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "St. Pierre,Robert J"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "AC402",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -2655,7 +2802,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Owens,Caleb R"
                 }
             ],
             "meetings": [
@@ -2760,7 +2907,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Cox,Patsy"
                 }
             ],
             "meetings": [
@@ -2769,237 +2916,6 @@
                     "location": "AC509",
                     "start_time": "1100h",
                     "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "368",
-            "title": "GAME ANIMATION",
-            "class_number": "11919",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "AC330",
-                    "start_time": "1000h",
-                    "end_time": "1530h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "380",
-            "title": "CHILDRENS ART",
-            "class_number": "10036",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ONLINE",
-                    "start_time": "1800h",
-                    "end_time": "1940h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "380",
-            "title": "CHILDRENS ART",
-            "class_number": "11020",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1740h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "380",
-            "title": "CHILDRENS ART",
-            "class_number": "10038",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "380",
-            "title": "CHILDRENS ART",
-            "class_number": "11125",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "380L",
-            "title": "CHILDRENS ART LAB",
-            "class_number": "10037",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ONLINE",
-                    "start_time": "1940h",
-                    "end_time": "2120h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "380L",
-            "title": "CHILDRENS ART LAB",
-            "class_number": "11021",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "AC211",
-                    "start_time": "1600h",
-                    "end_time": "1740h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "380L",
-            "title": "CHILDRENS ART LAB",
-            "class_number": "10039",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "AC211",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "380L",
-            "title": "CHILDRENS ART LAB",
-            "class_number": "11131",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "AC211",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "383",
-            "title": "ART EARLY CHILDHD",
-            "class_number": "11285",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "AC210",
-                    "start_time": "1800h",
-                    "end_time": "1940h"
-                }
-            ]
-        },
-        {
-            "subject": "ART",
-            "catalog_number": "383L",
-            "title": "ART E CHLDHD LAB",
-            "class_number": "11287",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "AC210",
-                    "start_time": "1940h",
-                    "end_time": "2120h"
                 }
             ]
         }

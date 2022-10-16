@@ -5,7 +5,7 @@
             "catalog_number": "150",
             "title": "LIB STUD ANTHRO",
             "class_number": "14121",
-            "enrollment_cap": 23,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -15,50 +15,8 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "JR243",
                     "start_time": "1630h",
-                    "end_time": "1720h"
-                }
-            ]
-        },
-        {
-            "subject": "LRS",
-            "catalog_number": "150",
-            "title": "LIB STUD ANTHRO",
-            "class_number": "15223",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1630h",
-                    "end_time": "1720h"
-                }
-            ]
-        },
-        {
-            "subject": "LRS",
-            "catalog_number": "150F",
-            "title": "LIB STUD ANTHRO F",
-            "class_number": "14101",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1720h",
                     "end_time": "1810h"
                 }
             ]
@@ -67,8 +25,8 @@
             "subject": "LRS",
             "catalog_number": "150F",
             "title": "LIB STUD ANTHRO F",
-            "class_number": "15224",
-            "enrollment_cap": 23,
+            "class_number": "14101",
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -78,8 +36,8 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
-                    "start_time": "1720h",
+                    "location": "JR243",
+                    "start_time": "1630h",
                     "end_time": "1810h"
                 }
             ]
@@ -89,7 +47,7 @@
             "catalog_number": "250",
             "title": "REASON BELIEF EDU",
             "class_number": "14119",
-            "enrollment_cap": 25,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -99,30 +57,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0845h",
-                    "end_time": "1000h"
-                }
-            ]
-        },
-        {
-            "subject": "LRS",
-            "catalog_number": "250",
-            "title": "REASON BELIEF EDU",
-            "class_number": "15380",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "location": "SH390",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -131,7 +68,7 @@
             "catalog_number": "250F",
             "title": "REASON BELIEF EDU F",
             "class_number": "14120",
-            "enrollment_cap": 25,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -141,28 +78,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1050h"
-                }
-            ]
-        },
-        {
-            "subject": "LRS",
-            "catalog_number": "250F",
-            "title": "REASON BELIEF EDU F",
-            "class_number": "15381",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "location": "SH390",
                     "start_time": "1215h",
                     "end_time": "1305h"
                 }
@@ -171,7 +87,7 @@
         {
             "subject": "LRS",
             "catalog_number": "300",
-            "title": "LIB ST GATEWAY",
+            "title": "INTER FUTURETEACH",
             "class_number": "14143",
             "enrollment_cap": 36,
             "enrollment_count": 0,
@@ -182,17 +98,17 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "JR202",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "1150h"
                 }
             ]
         },
         {
             "subject": "LRS",
             "catalog_number": "300",
-            "title": "LIB ST GATEWAY",
+            "title": "INTER FUTURETEACH",
             "class_number": "14142",
             "enrollment_cap": 36,
             "enrollment_count": 0,
@@ -204,17 +120,17 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "SH390",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
                 }
             ]
         },
         {
             "subject": "LRS",
-            "catalog_number": "300",
-            "title": "LIB ST GATEWAY",
-            "class_number": "15148",
+            "catalog_number": "300F",
+            "title": "INTER FUTURETEACH F",
+            "class_number": "20912",
             "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructors": [
@@ -225,18 +141,18 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "location": "JR202",
+                    "start_time": "1150h",
+                    "end_time": "2440h"
                 }
             ]
         },
         {
             "subject": "LRS",
-            "catalog_number": "425MC",
-            "title": "MLTCLTRL/MLTTHNC LIT",
-            "class_number": "15416",
-            "enrollment_cap": 22,
+            "catalog_number": "300F",
+            "title": "INTER FUTURETEACH F",
+            "class_number": "20913",
+            "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -245,10 +161,31 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "days": "R",
+                    "location": "SH390",
+                    "start_time": "1740h",
+                    "end_time": "1920h"
+                }
+            ]
+        },
+        {
+            "subject": "LRS",
+            "catalog_number": "425MC",
+            "title": "MLTCLTRL/MLTTHNC LIT",
+            "class_number": "15416",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Howard,Krystal Jo"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "JR201",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         }
