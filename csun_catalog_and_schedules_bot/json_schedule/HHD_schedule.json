@@ -1,11 +1,11 @@
 {
     "classes": [
         {
-            "subject": "CECS",
-            "catalog_number": "494HCC",
-            "title": "HONORS CO-OP",
-            "class_number": "16418",
-            "enrollment_cap": 5,
+            "subject": "HEBR",
+            "catalog_number": "101",
+            "title": "ELEM HEB I",
+            "class_number": "20858",
+            "enrollment_cap": 34,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -14,10 +14,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
+                    "days": "TR",
                     "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "start_time": "1400h",
+                    "end_time": "1540h"
                 }
             ]
         }

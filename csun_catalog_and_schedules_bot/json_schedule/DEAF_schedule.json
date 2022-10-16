@@ -9,13 +9,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Duong,Desiree A"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED1117",
                     "start_time": "1000h",
                     "end_time": "1140h"
                 }
@@ -30,15 +30,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Duong,Desiree A"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
+                    "location": "ED1130",
+                    "start_time": "1200h",
+                    "end_time": "1340h"
                 }
             ]
         },
@@ -51,15 +51,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Khorsandi,Shmuel"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
+                    "days": "TR",
+                    "location": "ED1117",
+                    "start_time": "0800h",
+                    "end_time": "0940h"
                 }
             ]
         },
@@ -72,15 +72,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Khorsandi,Shmuel"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
+                    "location": "ED1117",
+                    "start_time": "1000h",
+                    "end_time": "1140h"
                 }
             ]
         },
@@ -93,55 +93,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Smith,Kimberly C"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "160",
-            "title": "AMER SIGN LANG I",
-            "class_number": "15466",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "160",
-            "title": "AMER SIGN LANG I",
-            "class_number": "15551",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1206",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -156,7 +114,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fleischer,Flavia S"
                 }
             ],
             "meetings": [
@@ -177,36 +135,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Duong,Desiree A"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED1117",
                     "start_time": "0800h",
                     "end_time": "0940h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "161",
-            "title": "AMER SIGN LANG II",
-            "class_number": "15471",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
                 }
             ]
         },
@@ -219,7 +156,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fleischer,Flavia S"
                 }
             ],
             "meetings": [
@@ -240,35 +177,14 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramirez- Stapleton,Lissa D"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "200",
-            "title": "INTR DEAF STUDIES",
-            "class_number": "15854",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
+                    "days": "W",
+                    "location": "ED1117",
+                    "start_time": "1230h",
                     "end_time": "1515h"
                 }
             ]
@@ -282,13 +198,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hermatz,Lisa Patrice"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "ED1117",
                     "start_time": "1200h",
                     "end_time": "1340h"
                 }
@@ -303,7 +219,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fleischer,Flavia S"
                 }
             ],
             "meetings": [
@@ -324,34 +240,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "281",
-            "title": "AMER SIGN LANG IV",
-            "class_number": "15474",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
+                    "instructor": "Hermatz,Lisa Patrice"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ED1129",
                     "start_time": "1000h",
                     "end_time": "1140h"
                 }
@@ -366,7 +261,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fleischer,Flavia S"
                 }
             ],
             "meetings": [
@@ -387,15 +282,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia-Fernandez,Carla M."
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "ED3113",
+                    "start_time": "1230h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -408,15 +303,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Daigle,Matthew W"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1215h"
+                    "days": "R",
+                    "location": "ED1125",
+                    "start_time": "1230h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -429,15 +324,57 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Whetter,Jevon Ross"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "ED3113",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "DEAF",
+            "catalog_number": "300",
+            "title": "ADV ASL CONVERSA",
+            "class_number": "15903",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Elmira Yingst,Melissa"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED3113",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "DEAF",
+            "catalog_number": "300",
+            "title": "ADV ASL CONVERSA",
+            "class_number": "15904",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Garcia-Fernandez,Carla M."
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "ED3113",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -450,13 +387,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Del Castillo,Catherine D"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "ED1117",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -471,13 +408,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Del Castillo,Catherine D"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "ED1117",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -492,15 +429,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ramirez- Stapleton,Lissa D"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "ED1117",
                     "start_time": "1600h",
-                    "end_time": "1845h"
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -513,36 +450,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia-Fernandez,Carla M."
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "360",
-            "title": "AMER DEAF CULTURE",
-            "class_number": "15943",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1215h"
+                    "days": "W",
+                    "location": "ED1117",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -555,13 +471,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Webb,Jonathan Michael"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -576,34 +492,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Elmira Yingst,Melissa"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "370",
-            "title": "ASL TRANSLATION",
-            "class_number": "15898",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -618,13 +513,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Webb,Jonathan Michael"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "1030h",
                     "end_time": "1145h"
                 }
@@ -639,13 +534,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Leyva,Andrew S"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED1129",
                     "start_time": "1030h",
                     "end_time": "1145h"
                 }
@@ -660,15 +555,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Webb,Jonathan Michael"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "1145h",
-                    "end_time": "1210h"
+                    "end_time": "2410h"
                 }
             ]
         },
@@ -681,15 +576,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Leyva,Andrew S"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ED1129",
                     "start_time": "1145h",
-                    "end_time": "1210h"
+                    "end_time": "2410h"
                 }
             ]
         },
@@ -702,13 +597,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Fleischer,Flavia S"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JA100",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -723,13 +618,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garrow,William G"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -744,13 +639,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eickman,Jordan T"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED1129",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -765,13 +660,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eickman,Jordan T"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED1129",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -786,36 +681,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia-Fernandez,Carla M."
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "402",
-            "title": "DEAF LITERATURE",
-            "class_number": "15948",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -828,13 +702,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garrow,William G"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "ED1129",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -849,13 +723,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Whetter,Jevon Ross"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ED1129",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -875,8 +749,8 @@
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "BB1230",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -884,43 +758,22 @@
         },
         {
             "subject": "DEAF",
-            "catalog_number": "406",
-            "title": "DEAF LEARNER",
-            "class_number": "15781",
+            "catalog_number": "412",
+            "title": "BLACK DEAF COMMUNITY",
+            "class_number": "16093",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "415",
-            "title": "DEAF COMM SERVICE",
-            "class_number": "15588",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
+                    "instructor": "Ramirez- Stapleton,Lissa D"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1215h"
+                    "location": "ED1117",
+                    "start_time": "1230h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -933,34 +786,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hermatz,Lisa Patrice"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "430",
-            "title": "ASL DEVELOPMENT",
-            "class_number": "15945",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "location": "ED3113",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -975,15 +807,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Duong,Desiree A"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1320h"
+                    "days": "M",
+                    "location": "ED1129",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
                 }
             ]
         },
@@ -996,36 +828,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Webb,Jonathan Michael"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "ED1129",
                     "start_time": "0930h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "DEAF",
-            "catalog_number": "482",
-            "title": "PRAC SGN LANG INT",
-            "class_number": "15992",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1038,13 +849,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Thornton,Casey J"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "ED1129",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1059,13 +870,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Thornton,Casey J"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -1080,13 +891,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Thornton,Casey J"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "ED3117",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }
@@ -1101,15 +912,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Thornton,Casey J"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1122,13 +933,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Daigle,Matthew W"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED3115",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -1143,15 +954,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Daigle,Matthew W"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED3115",
                     "start_time": "1020h",
-                    "end_time": "1200h"
+                    "end_time": "2400h"
                 }
             ]
         },
@@ -1164,13 +975,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Khorsandi,Shmuel"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED3115",
                     "start_time": "1230h",
                     "end_time": "1320h"
                 }
@@ -1185,13 +996,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Daigle,Matthew W"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "ED3113",
                     "start_time": "0830h",
                     "end_time": "0920h"
                 }
@@ -1206,15 +1017,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Whetter,Jevon Ross"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1020h"
+                    "days": "W",
+                    "location": "ED1129",
+                    "start_time": "1730h",
+                    "end_time": "1820h"
                 }
             ]
         },
@@ -1227,13 +1038,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Webb,Jonathan Michael"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "ED1117",
                     "start_time": "1230h",
                     "end_time": "1520h"
                 }
@@ -1248,15 +1059,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garrow,William G"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
+                    "days": "M",
+                    "location": "BB1240",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -1269,13 +1080,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eickman,Jordan T"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED1129",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -1290,15 +1101,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eickman,Jordan T"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "T",
+                    "location": "ED1129",
+                    "start_time": "1230h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -1311,13 +1122,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garrow,William G"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "ED3115",
                     "start_time": "1230h",
                     "end_time": "1515h"
                 }

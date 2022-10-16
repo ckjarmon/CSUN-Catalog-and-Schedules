@@ -5,7 +5,7 @@
             "catalog_number": "511",
             "title": "FUND SED MULTI",
             "class_number": "15527",
-            "enrollment_cap": 10,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2101",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -26,7 +26,7 @@
             "catalog_number": "511",
             "title": "FUND SED MULTI",
             "class_number": "15481",
-            "enrollment_cap": 10,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2101",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2103",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -72,13 +72,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "McLemore,Chris S"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ED2101",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -120,7 +120,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ED2101",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -135,13 +135,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Wolfe,Jenn"
+                    "instructor": "Klemp,Ronald M"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH310",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -152,6 +152,27 @@
             "catalog_number": "521",
             "title": "CONTENT LITERACY",
             "class_number": "15494",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Klemp,Ronald M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "ED1126",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "SED",
+            "catalog_number": "521",
+            "title": "CONTENT LITERACY",
+            "class_number": "15485",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
@@ -162,72 +183,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "521",
-            "title": "CONTENT LITERACY",
-            "class_number": "15619",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "521",
-            "title": "CONTENT LITERACY",
-            "class_number": "16115",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "521",
-            "title": "CONTENT LITERACY",
-            "class_number": "16116",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "location": "ED1126",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -240,34 +198,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Dennis,Traci"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "525HE",
-            "title": "METH TCH H ECON",
-            "class_number": "15489",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Davis,Catherine G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
+                    "location": "BH314",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -288,9 +225,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1740h"
+                    "location": "ED2117",
+                    "start_time": "1700h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -309,9 +246,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1800h",
-                    "end_time": "1940h"
+                    "location": "ED2117",
+                    "start_time": "1900h",
+                    "end_time": "2045h"
                 }
             ]
         },
@@ -330,9 +267,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1740h"
+                    "location": "ED2103",
+                    "start_time": "1700h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -351,9 +288,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1800h",
-                    "end_time": "1950h"
+                    "location": "ED2103",
+                    "start_time": "1900h",
+                    "end_time": "2045h"
                 }
             ]
         },
@@ -366,15 +303,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kleinman,Tomer"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "SH310",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -383,17 +320,17 @@
             "catalog_number": "529",
             "title": "TCHG ENGL LRNRS",
             "class_number": "15819",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia,Monica G."
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED1126",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -404,17 +341,17 @@
             "catalog_number": "529",
             "title": "TCHG ENGL LRNRS",
             "class_number": "15820",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia,Monica G."
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -425,80 +362,17 @@
             "catalog_number": "529",
             "title": "TCHG ENGL LRNRS",
             "class_number": "15821",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia,Monica G."
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "529",
-            "title": "TCHG ENGL LRNRS",
-            "class_number": "15822",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "529",
-            "title": "TCHG ENGL LRNRS",
-            "class_number": "15893",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "529",
-            "title": "TCHG ENGL LRNRS",
-            "class_number": "15895",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
+                    "location": "ED3117",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -509,7 +383,7 @@
             "catalog_number": "554",
             "title": "SUP FIELD EXPER",
             "class_number": "15601",
-            "enrollment_cap": 150,
+            "enrollment_cap": 100,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -551,11 +425,11 @@
             "catalog_number": "593",
             "title": "INT FIELD EXPER",
             "class_number": "15602",
-            "enrollment_cap": 12,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gainsburg,Julie"
                 }
             ],
             "meetings": [
@@ -645,7 +519,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2121B",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -660,13 +534,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Alvarez,Michael"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED1126",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -674,30 +548,9 @@
         },
         {
             "subject": "SED",
-            "catalog_number": "600",
-            "title": "RSCH IN SEC EDUC",
-            "class_number": "15802",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Cheng,Ivan"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "610",
-            "title": "ISS MULTI SEC SCH",
-            "class_number": "15590",
+            "catalog_number": "610ET",
+            "title": "ISSUES IN EDTECH",
+            "class_number": "20796",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructors": [
@@ -708,51 +561,9 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2117",
                     "start_time": "1600h",
                     "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "610EN",
-            "title": "ED ISSUES ELA",
-            "class_number": "16108",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "610SC",
-            "title": "LDRSHP IN SCI ED",
-            "class_number": "16109",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
                 }
             ]
         },
@@ -765,13 +576,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "DaLie,Sandra O"
+                    "instructor": "Wolfe,Jenn"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED1126",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -786,57 +597,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rivas,Steven Michael"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH371",
                     "start_time": "1600h",
                     "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "652",
-            "title": "COMP SUP CO LRNG",
-            "class_number": "16111",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "SED",
-            "catalog_number": "654",
-            "title": "LEADRSHP MATH ED",
-            "class_number": "16112",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
                 }
             ]
         },
@@ -855,7 +624,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED2103",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -875,10 +644,10 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
+                    "days": null,
                     "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -897,7 +666,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED1126",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -912,13 +681,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Pak,Mira"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED1126",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -933,15 +702,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Foley,Brian J"
                 }
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "T",
+                    "location": "ED2121B",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -954,15 +723,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Foley,Brian J"
+                    "instructor": "Staff"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
+                    "days": null,
                     "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },

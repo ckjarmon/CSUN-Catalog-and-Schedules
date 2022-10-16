@@ -25,29 +25,8 @@
             "subject": "ECON",
             "catalog_number": "160",
             "title": "MICROECON PRIN",
-            "class_number": "13659",
-            "enrollment_cap": 65,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Beltran Silva,Francisco"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1131",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "ECON",
-            "catalog_number": "160",
-            "title": "MICROECON PRIN",
             "class_number": "13522",
-            "enrollment_cap": 65,
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -93,7 +72,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Histen,Matthew"
                 }
             ],
             "meetings": [
@@ -122,7 +101,7 @@
                     "days": "TR",
                     "location": "CR5122",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -131,7 +110,7 @@
             "catalog_number": "160",
             "title": "MICROECON PRIN",
             "class_number": "13901",
-            "enrollment_cap": 65,
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -143,7 +122,7 @@
                     "days": null,
                     "location": "BB1131",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -156,7 +135,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Yukhov,Alexey"
                 }
             ],
             "meetings": [
@@ -164,7 +143,7 @@
                     "days": "MW",
                     "location": "BB1131",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -183,9 +162,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1119",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -215,7 +194,7 @@
             "catalog_number": "161",
             "title": "MACROECON PRIN",
             "class_number": "13577",
-            "enrollment_cap": 64,
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -290,7 +269,7 @@
                     "days": "MW",
                     "location": "BB1125",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -330,7 +309,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1206",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -372,7 +351,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB2125",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -458,7 +437,7 @@
                     "days": "TR",
                     "location": "BB1123",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -513,7 +492,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Yukhov,Alexey"
                 }
             ],
             "meetings": [
@@ -534,7 +513,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Yukhov,Alexey"
                 }
             ],
             "meetings": [
@@ -584,7 +563,7 @@
                     "days": "TR",
                     "location": "BB1125",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -597,7 +576,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Histen,Matthew"
                 }
             ],
             "meetings": [
@@ -635,7 +614,7 @@
             "catalog_number": "405",
             "title": "INT'L TRADE",
             "class_number": "13551",
-            "enrollment_cap": 46,
+            "enrollment_cap": 45,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -681,7 +660,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Histen,Matthew"
                 }
             ],
             "meetings": [
@@ -708,7 +687,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB2125",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -729,7 +708,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "BB1206",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }

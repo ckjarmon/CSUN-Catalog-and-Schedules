@@ -2,10 +2,31 @@
     "classes": [
         {
             "subject": "AE",
-            "catalog_number": "472",
-            "title": "AERO PROPULSN SYS",
-            "class_number": "16990",
-            "enrollment_cap": 40,
+            "catalog_number": "486B",
+            "title": "SR DSN A E II",
+            "class_number": "16304",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mahjoob,Shadi"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JD1130A",
+                    "start_time": "1230h",
+                    "end_time": "1520h"
+                }
+            ]
+        },
+        {
+            "subject": "AE",
+            "catalog_number": "572",
+            "title": "ROCKET PROPULSION",
+            "class_number": "16944",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -14,8 +35,8 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "JD1553",
                     "start_time": "1600h",
                     "end_time": "1715h"
                 }

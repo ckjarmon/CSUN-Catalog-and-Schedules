@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ED3113",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -47,17 +47,17 @@
             "catalog_number": "417",
             "title": "EQTY DIVRSTY SCH",
             "class_number": "15518",
-            "enrollment_cap": 20,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Su,Zhixin"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -68,7 +68,7 @@
             "catalog_number": "417",
             "title": "EQTY DIVRSTY SCH",
             "class_number": "15519",
-            "enrollment_cap": 20,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -78,49 +78,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "ELPS",
-            "catalog_number": "417",
-            "title": "EQTY DIVRSTY SCH",
-            "class_number": "15520",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "ELPS",
-            "catalog_number": "417",
-            "title": "EQTY DIVRSTY SCH",
-            "class_number": "16181",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -194,7 +152,7 @@
             "catalog_number": "650HE",
             "title": "CONTADMIMLEADSHPHE",
             "class_number": "15951",
-            "enrollment_cap": 15,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -203,8 +161,8 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "SH267",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -215,7 +173,7 @@
             "catalog_number": "656HE",
             "title": "DIVERSTSUCCS HE",
             "class_number": "15950",
-            "enrollment_cap": 15,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -224,8 +182,8 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "SH267",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -236,7 +194,7 @@
             "catalog_number": "663HE",
             "title": "HEPOLLAW",
             "class_number": "15988",
-            "enrollment_cap": 15,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -245,8 +203,8 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "ED3111",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -257,7 +215,7 @@
             "catalog_number": "672",
             "title": "MGT HUM RESOURCES",
             "class_number": "15523",
-            "enrollment_cap": 15,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -267,9 +225,9 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "ED3111",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -278,7 +236,7 @@
             "catalog_number": "672",
             "title": "MGT HUM RESOURCES",
             "class_number": "15641",
-            "enrollment_cap": 15,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -288,18 +246,18 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "ED1123",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
         {
             "subject": "ELPS",
-            "catalog_number": "675",
-            "title": "DEC-MAKING SIMUL",
-            "class_number": "15689",
-            "enrollment_cap": 15,
+            "catalog_number": "674HE",
+            "title": "HEOPR FINHUMRESHE",
+            "class_number": "15989",
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -308,10 +266,10 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "T",
+                    "location": "ED3111",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -320,7 +278,7 @@
             "catalog_number": "682",
             "title": "SUPER OF CUR&INST",
             "class_number": "15596",
-            "enrollment_cap": 15,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -330,9 +288,9 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "location": "ED3111",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -341,7 +299,7 @@
             "catalog_number": "682",
             "title": "SUPER OF CUR&INST",
             "class_number": "15597",
-            "enrollment_cap": 15,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -351,9 +309,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "location": "ED1123",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -362,28 +320,7 @@
             "catalog_number": "688",
             "title": "FIELD WK EDUC ADM",
             "class_number": "15698",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "ELPS",
-            "catalog_number": "688",
-            "title": "FIELD WK EDUC ADM",
-            "class_number": "15699",
-            "enrollment_cap": 12,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -403,8 +340,8 @@
             "subject": "ELPS",
             "catalog_number": "688",
             "title": "FIELD WK EDUC ADM",
-            "class_number": "15700",
-            "enrollment_cap": 12,
+            "class_number": "15699",
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -425,7 +362,7 @@
             "catalog_number": "688HE",
             "title": "FIELDWK HE",
             "class_number": "15949",
-            "enrollment_cap": 12,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -435,30 +372,9 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "ED1123",
                     "start_time": "1600h",
                     "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "ELPS",
-            "catalog_number": "697",
-            "title": "DIR COMP STUDIES",
-            "class_number": "15708",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
                 }
             ]
         },
@@ -467,7 +383,7 @@
             "catalog_number": "697HE",
             "title": "COMPS STUDIES",
             "class_number": "16085",
-            "enrollment_cap": 20,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -485,22 +401,22 @@
         },
         {
             "subject": "ELPS",
-            "catalog_number": "705",
-            "title": "ORG CHANGE",
-            "class_number": "15625",
-            "enrollment_cap": 15,
+            "catalog_number": "715",
+            "title": "CULTURAL COMPTNCE",
+            "class_number": "16040",
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Amah,Ifeoma"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
+                    "days": "W",
+                    "location": "ED3111",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -509,17 +425,17 @@
             "catalog_number": "725",
             "title": "ASSESS AND EVAL",
             "class_number": "15645",
-            "enrollment_cap": 15,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Watford,Tara M"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "ED3111",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -527,20 +443,20 @@
         },
         {
             "subject": "ELPS",
-            "catalog_number": "730",
-            "title": "PBLC POLICY IN ED",
-            "class_number": "15815",
-            "enrollment_cap": 15,
+            "catalog_number": "735",
+            "title": "LAW&PLCY IN PS ED",
+            "class_number": "15917",
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Endrijonas,Erika A"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "ED3111",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -551,19 +467,40 @@
             "catalog_number": "755",
             "title": "HUMAN RELATIONS",
             "class_number": "15709",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Estrada,Delia"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "ED1127",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "ELPS",
+            "catalog_number": "765",
+            "title": "FIELD INQUIRY",
+            "class_number": "15916",
+            "enrollment_cap": 21,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Wolfe,Jenn"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "TBA",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -572,19 +509,19 @@
             "catalog_number": "770",
             "title": "QUANT INQUIRY I",
             "class_number": "15915",
-            "enrollment_cap": 15,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Banuelos,Noelle V"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "W",
+                    "location": "ED3111",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -593,7 +530,7 @@
             "catalog_number": "789",
             "title": "DISSERTATION",
             "class_number": "15646",
-            "enrollment_cap": 15,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -614,11 +551,11 @@
             "catalog_number": "789",
             "title": "DISSERTATION",
             "class_number": "15710",
-            "enrollment_cap": 18,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Durdella,Nathan R"
                 }
             ],
             "meetings": [

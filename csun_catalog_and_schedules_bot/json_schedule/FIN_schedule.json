@@ -605,7 +605,7 @@
                     "days": "T",
                     "location": "BB2228",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -720,6 +720,27 @@
             "title": "SEMINAR FIN ANLY",
             "class_number": "13770",
             "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Covrig,Vicentiu M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "BB1228",
+                    "start_time": "1530h",
+                    "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "FIN",
+            "catalog_number": "491ABH",
+            "title": "SEMINAR FIN ANLY",
+            "class_number": "13771",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructors": [
                 {

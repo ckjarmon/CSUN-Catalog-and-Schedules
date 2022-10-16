@@ -5,19 +5,19 @@
             "catalog_number": "150",
             "title": "INTRO SOCIOLOGY",
             "class_number": "13260",
-            "enrollment_cap": 147,
+            "enrollment_cap": 120,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Pereira,Ana P"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "TR",
+                    "location": "JA100",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -26,19 +26,19 @@
             "catalog_number": "150",
             "title": "INTRO SOCIOLOGY",
             "class_number": "12241",
-            "enrollment_cap": 150,
+            "enrollment_cap": 120,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Missari,Stacy A"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "days": "TR",
+                    "location": "UL025",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
                 }
             ]
         },
@@ -47,7 +47,49 @@
             "catalog_number": "150",
             "title": "INTRO SOCIOLOGY",
             "class_number": "12255",
-            "enrollment_cap": 150,
+            "enrollment_cap": 185,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Carter,Michael J"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "200",
+            "title": "SOCIAL CRISES",
+            "class_number": "20774",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "ONLINE",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "230",
+            "title": "HUMAN SEX BEHAVOR",
+            "class_number": "20775",
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -57,30 +99,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "150",
-            "title": "INTRO SOCIOLOGY",
-            "class_number": "13256",
-            "enrollment_cap": 150,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "location": "SH209",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -89,19 +110,19 @@
             "catalog_number": "303",
             "title": "FAMILY",
             "class_number": "13219",
-            "enrollment_cap": 82,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "McDonald,Lauren E"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "location": "SH209",
+                    "start_time": "1800h",
+                    "end_time": "1915h"
                 }
             ]
         },
@@ -120,9 +141,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "location": "SH342",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -135,13 +156,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Shaw,Victor N"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -156,15 +177,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
+                    "instructor": "Olmos,Daniel"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JA100",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "307",
+            "title": "ETHNIC DIVER AMER",
+            "class_number": "20777",
+            "enrollment_cap": 120,
+            "enrollment_count": 0,
+            "instructors": [
+                {
                     "instructor": "Staff"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "location": "ONLINE",
+                    "start_time": "1900h",
+                    "end_time": "2015h"
                 }
             ]
         },
@@ -177,15 +219,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Missari,Stacy A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "UL025",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -194,7 +236,7 @@
             "catalog_number": "324",
             "title": "SOC OF SEX GENDER",
             "class_number": "13220",
-            "enrollment_cap": 82,
+            "enrollment_cap": 120,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -203,9 +245,9 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0800h",
+                    "days": "MW",
+                    "location": "JA100",
+                    "start_time": "0930h",
                     "end_time": "1045h"
                 }
             ]
@@ -215,7 +257,7 @@
             "catalog_number": "325",
             "title": "SEX ROLES + WORK",
             "class_number": "12184",
-            "enrollment_cap": 73,
+            "enrollment_cap": 74,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -225,9 +267,30 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "location": "ONLINE",
+                    "start_time": "1900h",
+                    "end_time": "2015h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "332",
+            "title": "PPL SOC CUL MID EAST",
+            "class_number": "20776",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH209",
+                    "start_time": "1700h",
+                    "end_time": "1945h"
                 }
             ]
         },
@@ -246,7 +309,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH209",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -266,8 +329,8 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "SH186",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -287,10 +350,31 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "days": "MW",
+                    "location": "SH225",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "345",
+            "title": "SOC PSYCHOLOGY",
+            "class_number": "13221",
+            "enrollment_cap": 82,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "ONLINE",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -308,10 +392,52 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "days": "TR",
+                    "location": "SH342",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "350",
+            "title": "POPULATION DYNMCS",
+            "class_number": "12946",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "McDonald,Lauren E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH225",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "355",
+            "title": "CRIMINOLOGY",
+            "class_number": "20778",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH225",
+                    "start_time": "1800h",
+                    "end_time": "1915h"
                 }
             ]
         },
@@ -330,7 +456,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH280",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -351,9 +477,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "location": "SH380",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -372,7 +498,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH209",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -392,10 +518,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1800h",
-                    "end_time": "1915h"
+                    "days": "MW",
+                    "location": "SH182",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -413,10 +539,31 @@
             ],
             "meetings": [
                 {
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "410",
+            "title": "URBAN SOCIOLOGY",
+            "class_number": "20779",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "location": "ONLINE",
+                    "start_time": "1900h",
+                    "end_time": "2015h"
                 }
             ]
         },
@@ -429,15 +576,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Campbell,Lori A"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "days": "MW",
+                    "location": "SH225",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -446,7 +593,7 @@
             "catalog_number": "424",
             "title": "STATISTICAL TECHN",
             "class_number": "13131",
-            "enrollment_cap": 46,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -456,7 +603,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH209",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -467,7 +614,7 @@
             "catalog_number": "424",
             "title": "STATISTICAL TECHN",
             "class_number": "13132",
-            "enrollment_cap": 46,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -488,7 +635,7 @@
             "catalog_number": "424",
             "title": "STATISTICAL TECHN",
             "class_number": "13133",
-            "enrollment_cap": 46,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -498,9 +645,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "location": "SH209",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -509,7 +656,7 @@
             "catalog_number": "424",
             "title": "STATISTICAL TECHN",
             "class_number": "13134",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -530,7 +677,7 @@
             "catalog_number": "424",
             "title": "STATISTICAL TECHN",
             "class_number": "13135",
-            "enrollment_cap": 46,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -540,9 +687,9 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1000h",
-                    "end_time": "1245h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -551,7 +698,7 @@
             "catalog_number": "424",
             "title": "STATISTICAL TECHN",
             "class_number": "13136",
-            "enrollment_cap": 46,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -561,7 +708,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH203",
                     "start_time": "1800h",
                     "end_time": "1915h"
                 }
@@ -572,7 +719,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13138",
-            "enrollment_cap": 23,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -582,7 +729,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "SH180",
                     "start_time": "1530h",
                     "end_time": "1710h"
                 }
@@ -593,7 +740,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13139",
-            "enrollment_cap": 23,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -603,7 +750,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "SH180",
                     "start_time": "1530h",
                     "end_time": "1710h"
                 }
@@ -614,7 +761,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13141",
-            "enrollment_cap": 23,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -635,7 +782,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13142",
-            "enrollment_cap": 23,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -647,7 +794,7 @@
                     "days": "R",
                     "location": "ONLINE",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "1110h"
                 }
             ]
         },
@@ -656,7 +803,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13144",
-            "enrollment_cap": 23,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -667,8 +814,8 @@
                 {
                     "days": "MW",
                     "location": "SH180",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
+                    "start_time": "0900h",
+                    "end_time": "0950h"
                 }
             ]
         },
@@ -677,19 +824,19 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13145",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Campbell,Lori A"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
                     "location": "SH180",
-                    "start_time": "1500h",
-                    "end_time": "1550h"
+                    "start_time": "1000h",
+                    "end_time": "1050h"
                 }
             ]
         },
@@ -708,7 +855,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "SH180",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -719,7 +866,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13150",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -728,8 +875,8 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
+                    "days": "F",
+                    "location": "ONLINE",
                     "start_time": "0800h",
                     "end_time": "0940h"
                 }
@@ -740,7 +887,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13151",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -749,8 +896,8 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
+                    "days": "F",
+                    "location": "ONLINE",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -761,7 +908,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13197",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -771,7 +918,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "SH180",
                     "start_time": "1930h",
                     "end_time": "2110h"
                 }
@@ -782,7 +929,7 @@
             "catalog_number": "424L",
             "title": "STAT TECH LAB",
             "class_number": "13198",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -792,7 +939,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH180",
                     "start_time": "1930h",
                     "end_time": "2110h"
                 }
@@ -803,7 +950,7 @@
             "catalog_number": "426",
             "title": "SOCIAL LEGISLATN",
             "class_number": "12239",
-            "enrollment_cap": 62,
+            "enrollment_cap": 74,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -812,30 +959,9 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "426",
-            "title": "SOCIAL LEGISLATN",
-            "class_number": "12480",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1100h",
+                    "days": "MW",
+                    "location": "SH309",
+                    "start_time": "1230h",
                     "end_time": "1345h"
                 }
             ]
@@ -845,17 +971,17 @@
             "catalog_number": "430",
             "title": "THEORY I CLASSICAL",
             "class_number": "13117",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Appelrouth,Scott A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH365",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -866,17 +992,17 @@
             "catalog_number": "430",
             "title": "THEORY I CLASSICAL",
             "class_number": "13118",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Appelrouth,Scott A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "1800h",
                     "end_time": "1940h"
                 }
@@ -887,7 +1013,7 @@
             "catalog_number": "430",
             "title": "THEORY I CLASSICAL",
             "class_number": "13119",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -897,7 +1023,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "0800h",
                     "end_time": "1140h"
                 }
@@ -908,7 +1034,7 @@
             "catalog_number": "430",
             "title": "THEORY I CLASSICAL",
             "class_number": "13120",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -918,7 +1044,28 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
+                    "start_time": "0800h",
+                    "end_time": "1140h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "430",
+            "title": "THEORY I CLASSICAL",
+            "class_number": "13121",
+            "enrollment_cap": 37,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "SH265",
                     "start_time": "1100h",
                     "end_time": "1440h"
                 }
@@ -928,29 +1075,8 @@
             "subject": "SOC",
             "catalog_number": "430",
             "title": "THEORY I CLASSICAL",
-            "class_number": "13121",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1740h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "430",
-            "title": "THEORY I CLASSICAL",
             "class_number": "13299",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -960,9 +1086,30 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "1400h",
                     "end_time": "1540h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "433",
+            "title": "SOC GLOBALIZATION",
+            "class_number": "13122",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Olmos,Daniel"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH209",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
                 }
             ]
         },
@@ -981,9 +1128,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "location": "ONLINE",
+                    "start_time": "1700h",
+                    "end_time": "1815h"
                 }
             ]
         },
@@ -1002,9 +1149,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH120",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1013,7 +1160,7 @@
             "catalog_number": "450",
             "title": "MEDICAL SOC",
             "class_number": "13305",
-            "enrollment_cap": 47,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1023,7 +1170,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1700h",
                     "end_time": "1815h"
                 }
@@ -1044,9 +1191,30 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH225",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "459",
+            "title": "CHILD WELFARE",
+            "class_number": "20780",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH280",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1064,10 +1232,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "days": "MW",
+                    "location": "SH209",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -1085,10 +1253,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
+                    "days": "MW",
+                    "location": "SH120",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1097,7 +1265,7 @@
             "catalog_number": "468",
             "title": "THEORY II CONTEMP",
             "class_number": "13123",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1107,7 +1275,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH160",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -1118,7 +1286,7 @@
             "catalog_number": "468",
             "title": "THEORY II CONTEMP",
             "class_number": "13124",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1128,9 +1296,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
+                    "location": "ONLINE",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
                 }
             ]
         },
@@ -1139,7 +1307,7 @@
             "catalog_number": "468",
             "title": "THEORY II CONTEMP",
             "class_number": "13125",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1149,7 +1317,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0800h",
                     "end_time": "1140h"
                 }
@@ -1160,7 +1328,7 @@
             "catalog_number": "468",
             "title": "THEORY II CONTEMP",
             "class_number": "13126",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1170,7 +1338,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH182",
                     "start_time": "1800h",
                     "end_time": "1940h"
                 }
@@ -1181,7 +1349,7 @@
             "catalog_number": "468",
             "title": "THEORY II CONTEMP",
             "class_number": "13127",
-            "enrollment_cap": 40,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1191,7 +1359,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SH102",
                     "start_time": "1800h",
                     "end_time": "1940h"
                 }
@@ -1206,13 +1374,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Capous-Desyllas,Moshoula"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "OFFCAM",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1227,15 +1395,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Capous-Desyllas,Moshoula"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1545h"
+                    "location": "BB1206",
+                    "start_time": "0930h",
+                    "end_time": "1115h"
                 }
             ]
         },
@@ -1248,15 +1416,57 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Capous-Desyllas,Moshoula"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1800h",
                     "end_time": "2045h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "493",
+            "title": "DIVERSITY & S J",
+            "class_number": "20781",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH365",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "496ASM",
+            "title": "ARTIVISM SOC MOVMNTS",
+            "class_number": "21023",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Morgaine,Karen L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH160",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1265,7 +1475,7 @@
             "catalog_number": "497",
             "title": "RESEARCH METHODS",
             "class_number": "12133",
-            "enrollment_cap": 48,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1275,112 +1485,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497",
-            "title": "RESEARCH METHODS",
-            "class_number": "12134",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1245h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497",
-            "title": "RESEARCH METHODS",
-            "class_number": "12121",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1800h",
-                    "end_time": "1915h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497",
-            "title": "RESEARCH METHODS",
-            "class_number": "12202",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497",
-            "title": "RESEARCH METHODS",
-            "class_number": "12172",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497",
-            "title": "RESEARCH METHODS",
-            "class_number": "12363",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "location": "SH225",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -1390,7 +1495,70 @@
             "subject": "SOC",
             "catalog_number": "497",
             "title": "RESEARCH METHODS",
-            "class_number": "12364",
+            "class_number": "12134",
+            "enrollment_cap": 44,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Godard,Ellis"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "497",
+            "title": "RESEARCH METHODS",
+            "class_number": "12121",
+            "enrollment_cap": 44,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH225",
+                    "start_time": "1600h",
+                    "end_time": "1715h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "497",
+            "title": "RESEARCH METHODS",
+            "class_number": "12202",
+            "enrollment_cap": 44,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "SH342",
+                    "start_time": "1000h",
+                    "end_time": "2445h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "497",
+            "title": "RESEARCH METHODS",
+            "class_number": "12172",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
@@ -1401,7 +1569,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "SH180",
                     "start_time": "1515h",
                     "end_time": "1800h"
                 }
@@ -1412,7 +1580,7 @@
             "catalog_number": "497L",
             "title": "METH SOC LAB",
             "class_number": "12128",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1423,8 +1591,8 @@
                 {
                     "days": "M",
                     "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
+                    "start_time": "0930h",
+                    "end_time": "1110h"
                 }
             ]
         },
@@ -1433,7 +1601,7 @@
             "catalog_number": "497L",
             "title": "METH SOC LAB",
             "class_number": "12135",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1444,8 +1612,8 @@
                 {
                     "days": "W",
                     "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
+                    "start_time": "0930h",
+                    "end_time": "1110h"
                 }
             ]
         },
@@ -1454,19 +1622,19 @@
             "catalog_number": "497L",
             "title": "METH SOC LAB",
             "class_number": "12366",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Godard,Ellis"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1300h",
-                    "end_time": "1440h"
+                    "days": "T",
+                    "location": "ONLINE",
+                    "start_time": "1530h",
+                    "end_time": "1710h"
                 }
             ]
         },
@@ -1475,7 +1643,28 @@
             "catalog_number": "497L",
             "title": "METH SOC LAB",
             "class_number": "12367",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Godard,Ellis"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "ONLINE",
+                    "start_time": "1530h",
+                    "end_time": "1710h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "497L",
+            "title": "METH SOC LAB",
+            "class_number": "12127",
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1484,8 +1673,50 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "SH303",
+                    "start_time": "1730h",
+                    "end_time": "1910h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "497L",
+            "title": "METH SOC LAB",
+            "class_number": "12368",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH303",
+                    "start_time": "1730h",
+                    "end_time": "1910h"
+                }
+            ]
+        },
+        {
+            "subject": "SOC",
+            "catalog_number": "497L",
+            "title": "METH SOC LAB",
+            "class_number": "12370",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "SH180",
                     "start_time": "0800h",
                     "end_time": "0940h"
                 }
@@ -1495,71 +1726,8 @@
             "subject": "SOC",
             "catalog_number": "497L",
             "title": "METH SOC LAB",
-            "class_number": "12127",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1930h",
-                    "end_time": "2110h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497L",
-            "title": "METH SOC LAB",
-            "class_number": "12368",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1930h",
-                    "end_time": "2110h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497L",
-            "title": "METH SOC LAB",
-            "class_number": "12370",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1710h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497L",
-            "title": "METH SOC LAB",
             "class_number": "12256",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1568,10 +1736,10 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1710h"
+                    "days": null,
+                    "location": "SH180",
+                    "start_time": "1300h",
+                    "end_time": "1440h"
                 }
             ]
         },
@@ -1589,92 +1757,8 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1730h",
-                    "end_time": "1910h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497L",
-            "title": "METH SOC LAB",
-            "class_number": "12373",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1730h",
-                    "end_time": "1910h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497L",
-            "title": "METH SOC LAB",
-            "class_number": "12257",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1110h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497L",
-            "title": "METH SOC LAB",
-            "class_number": "12375",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1110h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "497L",
-            "title": "METH SOC LAB",
-            "class_number": "12377",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
                     "days": null,
-                    "location": "TBA",
+                    "location": "SH180",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1682,41 +1766,20 @@
         },
         {
             "subject": "SOC",
-            "catalog_number": "585K",
-            "title": "RACE & ETHNICITY",
-            "class_number": "13217",
+            "catalog_number": "545",
+            "title": "SEM SOC PSYCH",
+            "class_number": "20782",
             "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Carter,Michael J"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
-                }
-            ]
-        },
-        {
-            "subject": "SOC",
-            "catalog_number": "585T",
-            "title": "SEL TOP-METHODSOC",
-            "class_number": "13218",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "SH264",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -1731,13 +1794,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Pereira,Ana P"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "SH184",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -1748,17 +1811,17 @@
             "catalog_number": "690",
             "title": "QUANT RES METHODS",
             "class_number": "12999",
-            "enrollment_cap": 23,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Davidson,James"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "SH180",
                     "start_time": "1800h",
                     "end_time": "2045h"
                 }
@@ -1769,17 +1832,17 @@
             "catalog_number": "697",
             "title": "DIR COMP STUDIES",
             "class_number": "12421",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Morgaine,Karen L"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1794,13 +1857,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Morgaine,Karen L"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1815,13 +1878,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Morgaine,Karen L"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1836,13 +1899,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Morgaine,Karen L"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -1857,13 +1920,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Morgaine,Karen L"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

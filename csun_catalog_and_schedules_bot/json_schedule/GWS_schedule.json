@@ -1,11 +1,95 @@
 {
     "classes": [
         {
-            "subject": "GWS",
-            "catalog_number": "100",
-            "title": "INTRO GENDR WOMN STD",
-            "class_number": "14162",
-            "enrollment_cap": 40,
+            "subject": "GEOL",
+            "catalog_number": "101",
+            "title": "GEOL PLANET EARTH",
+            "class_number": "17157",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "101",
+            "title": "GEOL PLANET EARTH",
+            "class_number": "17358",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "CR5125",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "101",
+            "title": "GEOL PLANET EARTH",
+            "class_number": "17158",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "LO1231",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "101",
+            "title": "GEOL PLANET EARTH",
+            "class_number": "17159",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "LO1231",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "101",
+            "title": "GEOL PLANET EARTH",
+            "class_number": "18047",
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -15,144 +99,102 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "100",
-            "title": "INTRO GENDR WOMN STD",
-            "class_number": "14164",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Gonzalez,Liliana C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "100",
-            "title": "INTRO GENDR WOMN STD",
-            "class_number": "14163",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Beyene,Tina"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "100",
-            "title": "INTRO GENDR WOMN STD",
-            "class_number": "14219",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shaikh,Khanum"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "100",
-            "title": "INTRO GENDR WOMN STD",
-            "class_number": "14672",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Gonzalez,Liliana C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "100",
-            "title": "INTRO GENDR WOMN STD",
-            "class_number": "15012",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Gonzalez,Liliana C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "110",
-            "title": "WOMENWORK&FAMILY",
-            "class_number": "14165",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
+                    "location": "LO1231",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "110",
-            "title": "WOMENWORK&FAMILY",
-            "class_number": "14166",
-            "enrollment_cap": 40,
+            "subject": "GEOL",
+            "catalog_number": "101",
+            "title": "GEOL PLANET EARTH",
+            "class_number": "18048",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LO1231",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "101",
+            "title": "GEOL PLANET EARTH",
+            "class_number": "18094",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LO1231",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17310",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "EH2221",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17404",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "EH2221",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17406",
+            "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -162,18 +204,18 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "EH2221",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "110",
-            "title": "WOMENWORK&FAMILY",
-            "class_number": "14348",
-            "enrollment_cap": 40,
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17407",
+            "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -182,19 +224,271 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "EH2221",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17623",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "EH2221",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17624",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "EH2221",
+                    "start_time": "1700h",
+                    "end_time": "1945h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17625",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EH2221",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17932",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EH2221",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17933",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EH2221",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "17934",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "EH2221",
+                    "start_time": "1700h",
+                    "end_time": "1945h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "18049",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "EH2221",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "102",
+            "title": "GEOL PLNT ERTH L",
+            "class_number": "18050",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "EH2221",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "106LRS",
+            "title": "EARTH SPACE SCI",
+            "class_number": "17435",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "110",
+            "title": "THE FOSSIL RECORD",
+            "class_number": "18096",
+            "enrollment_cap": 55,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LO1219",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "110",
+            "title": "THE FOSSIL RECORD",
+            "class_number": "18097",
+            "enrollment_cap": 55,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LO1219",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "220",
-            "title": "MEN & MASCULINITY",
-            "class_number": "15358",
-            "enrollment_cap": 40,
+            "subject": "GEOL",
+            "catalog_number": "112",
+            "title": "LIFE THR TIME LAB",
+            "class_number": "17161",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "LO1205",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "122",
+            "title": "THE WORLD OCEAN",
+            "class_number": "18207",
+            "enrollment_cap": 55,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -204,39 +498,270 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "LO1219",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "230",
-            "title": "WOMEN & ENTRTNMNT",
-            "class_number": "20644",
-            "enrollment_cap": 30,
+            "subject": "GEOL",
+            "catalog_number": "122",
+            "title": "THE WORLD OCEAN",
+            "class_number": "18330",
+            "enrollment_cap": 55,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Bartlow,R Dianne"
+                    "instructor": "Staff"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "LO1219",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
         {
-            "subject": "GWS",
+            "subject": "GEOL",
+            "catalog_number": "123",
+            "title": "WORLD OCEAN LAB",
+            "class_number": "18208",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "LO1205",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "125",
+            "title": "INTRO ENVIRO SCIENCE",
+            "class_number": "20829",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Cotton,Jennifer M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LO1219",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
             "catalog_number": "300",
-            "title": "WOMEN/AGENTS OF CHNG",
-            "class_number": "14205",
-            "enrollment_cap": 35,
+            "title": "ENVIRON GEOLOGY",
+            "class_number": "17164",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "300",
+            "title": "ENVIRON GEOLOGY",
+            "class_number": "17163",
+            "enrollment_cap": 55,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "LO1219",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "300",
+            "title": "ENVIRON GEOLOGY",
+            "class_number": "18416",
+            "enrollment_cap": 55,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "LO1219",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "301",
+            "title": "ENVIRON GEOL LAB",
+            "class_number": "17165",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "303",
+            "title": "COMMUNICATING GEO",
+            "class_number": "18163",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "LO1212",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "306",
+            "title": "EARTH MAT",
+            "class_number": "18409",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LO1210",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "306L",
+            "title": "EARTH MAT LAB",
+            "class_number": "18410",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "LO1210",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "310",
+            "title": "ADV STRUCTURE",
+            "class_number": "18411",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LO1212",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "310L",
+            "title": "ADV STRUCTURE LAB",
+            "class_number": "18412",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "LO1212",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "313",
+            "title": "FIELD METHODS",
+            "class_number": "17669",
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -246,312 +771,18 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "LO1212",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "300",
-            "title": "WOMEN/AGENTS OF CHNG",
-            "class_number": "14206",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Beyene,Tina"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "300",
-            "title": "WOMEN/AGENTS OF CHNG",
-            "class_number": "14264",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "300",
-            "title": "WOMEN/AGENTS OF CHNG",
-            "class_number": "14673",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "300",
-            "title": "WOMEN/AGENTS OF CHNG",
-            "class_number": "14674",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Beyene,Tina"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "300",
-            "title": "WOMEN/AGENTS OF CHNG",
-            "class_number": "15207",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "300",
-            "title": "WOMEN/AGENTS OF CHNG",
-            "class_number": "15241",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "301",
-            "title": "FEMINIST THEORIES",
-            "class_number": "15171",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Beyene,Tina"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "351",
-            "title": "GEN RACE CLAS SEX",
-            "class_number": "15070",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Malhotra,Sheena"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "351",
-            "title": "GEN RACE CLAS SEX",
-            "class_number": "15071",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlow,R Dianne"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "351",
-            "title": "GEN RACE CLAS SEX",
-            "class_number": "15072",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlow,R Dianne"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "351",
-            "title": "GEN RACE CLAS SEX",
-            "class_number": "15073",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlow,R Dianne"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "351",
-            "title": "GEN RACE CLAS SEX",
-            "class_number": "15074",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "351",
-            "title": "GEN RACE CLAS SEX",
-            "class_number": "15075",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "370",
-            "title": "WOMENANDVIOLENCE",
-            "class_number": "15320",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "370",
-            "title": "WOMENANDVIOLENCE",
-            "class_number": "15333",
-            "enrollment_cap": 34,
+            "subject": "GEOL",
+            "catalog_number": "324",
+            "title": "DINOSAURS",
+            "class_number": "18413",
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -568,11 +799,11 @@
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "370",
-            "title": "WOMENANDVIOLENCE",
-            "class_number": "15359",
-            "enrollment_cap": 34,
+            "subject": "GEOL",
+            "catalog_number": "406LRS",
+            "title": "SCI EXP CAPSTONE",
+            "class_number": "17436",
+            "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -581,40 +812,19 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "T",
+                    "location": "LO1227",
+                    "start_time": "1700h",
+                    "end_time": "1945h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "370",
-            "title": "WOMENANDVIOLENCE",
-            "class_number": "15360",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "370",
-            "title": "WOMENANDVIOLENCE",
-            "class_number": "15379",
-            "enrollment_cap": 34,
+            "subject": "GEOL",
+            "catalog_number": "406LRS",
+            "title": "SCI EXP CAPSTONE",
+            "class_number": "17437",
+            "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -624,93 +834,324 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "LO1227",
+                    "start_time": "1800h",
+                    "end_time": "2045h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "490",
+            "title": "SENIOR CAPSTONE",
+            "class_number": "18403",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "LO1212",
+                    "start_time": "1700h",
+                    "end_time": "1945h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "498",
+            "title": "SENIOR THESIS",
+            "class_number": "17166",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "499A",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "17359",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "499B",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "17361",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "499C",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "17676",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "510",
+            "title": "ADV TOP PALEON",
+            "class_number": "20864",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Cotton,Jennifer M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "LO1212",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "548",
+            "title": "SEISMOLOGY",
+            "class_number": "20830",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Weeraratne,Dayanthie S"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "LO1221",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "548L",
+            "title": "SEISMOLOGY LAB",
+            "class_number": "20831",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Weeraratne,Dayanthie S"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "LO1221",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "400",
-            "title": "SEN SEM WS",
-            "class_number": "14167",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shaikh,Khanum"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "GWS",
-            "catalog_number": "430",
-            "title": "WS GLOBALSEX",
-            "class_number": "20638",
+            "subject": "GEOL",
+            "catalog_number": "551",
+            "title": "QUAT GEOCHRON",
+            "class_number": "20905",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Gonzalez,Liliana C"
+                    "instructor": "Cecil,Mary R"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "TR",
+                    "location": "LO1212",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "440",
-            "title": "LAT AM FEMINISMS",
-            "class_number": "20650",
-            "enrollment_cap": 30,
+            "subject": "GEOL",
+            "catalog_number": "696C",
+            "title": "DIR GRAD RESEARCH",
+            "class_number": "17363",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Mendoza,Breny"
+                    "instructor": "Staff"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
         {
-            "subject": "GWS",
-            "catalog_number": "495WAE",
-            "title": "WOMEN & ENTERTAIN",
-            "class_number": "20643",
-            "enrollment_cap": 30,
+            "subject": "GEOL",
+            "catalog_number": "698C",
+            "title": "THESIS/GRAD PROJ",
+            "class_number": "17335",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Lopez-Garza,Marta C"
+                    "instructor": "Staff"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "699A",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "17367",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "699B",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "17370",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "699B",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "17432",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "GEOL",
+            "catalog_number": "699C",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "17534",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         }

@@ -14,10 +14,10 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         }

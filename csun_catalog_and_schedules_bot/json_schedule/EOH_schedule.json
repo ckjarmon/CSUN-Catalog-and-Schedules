@@ -5,16 +5,16 @@
             "catalog_number": "101",
             "title": "INTRO ENV HEALTH",
             "class_number": "18788",
-            "enrollment_cap": 50,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Sullivan,Michael J"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
+                    "days": "MW",
                     "location": "JD1551",
                     "start_time": "1230h",
                     "end_time": "1345h"
@@ -26,11 +26,11 @@
             "catalog_number": "101",
             "title": "INTRO ENV HEALTH",
             "class_number": "18901",
-            "enrollment_cap": 50,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kazanchyan,Gevork"
                 }
             ],
             "meetings": [
@@ -47,11 +47,11 @@
             "catalog_number": "101",
             "title": "INTRO ENV HEALTH",
             "class_number": "19048",
-            "enrollment_cap": 50,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kazanchyan,Gevork"
                 }
             ],
             "meetings": [
@@ -68,7 +68,7 @@
             "catalog_number": "352",
             "title": "ENV HEALTH ADM",
             "class_number": "18780",
-            "enrollment_cap": 35,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -79,8 +79,8 @@
                 {
                     "days": "MW",
                     "location": "JD1551",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -101,7 +101,7 @@
                     "days": "MW",
                     "location": "JD1551",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -122,7 +122,7 @@
                     "days": "TR",
                     "location": "JD1551",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -135,7 +135,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kazanchyan,Gevork"
                 }
             ],
             "meetings": [
@@ -156,7 +156,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Kazanchyan,Gevork"
                 }
             ],
             "meetings": [
@@ -275,31 +275,10 @@
         },
         {
             "subject": "EOH",
-            "catalog_number": "353",
-            "title": "GLOBAL ENV HLTH",
-            "class_number": "19455",
-            "enrollment_cap": 50,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "EOH",
             "catalog_number": "356B",
             "title": "ENVIRON HEALTH II",
             "class_number": "18781",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -311,7 +290,7 @@
                     "days": "TR",
                     "location": "JD2524",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -320,7 +299,7 @@
             "catalog_number": "356B",
             "title": "ENVIRON HEALTH II",
             "class_number": "18782",
-            "enrollment_cap": 40,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -330,7 +309,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "JD2524",
+                    "location": "JD1551",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -341,11 +320,11 @@
             "catalog_number": "454",
             "title": "ENVIRON HLTH LAW",
             "class_number": "19054",
-            "enrollment_cap": 35,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Murray,Sandy H"
                 }
             ],
             "meetings": [
@@ -387,7 +366,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Becerra,Veronica"
                 }
             ],
             "meetings": [
@@ -404,7 +383,7 @@
             "catalog_number": "456",
             "title": "TOXICOLOGY",
             "class_number": "18796",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -425,7 +404,7 @@
             "catalog_number": "457",
             "title": "WATER SUP/SEW DIS",
             "class_number": "18783",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -435,7 +414,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "JD1551",
+                    "location": "JD2524",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -446,11 +425,11 @@
             "catalog_number": "459",
             "title": "HZRDS WST MGT",
             "class_number": "20092",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Harden,Christopher D"
                 }
             ],
             "meetings": [
@@ -509,19 +488,19 @@
             "catalog_number": "468",
             "title": "AIR POLLUT + HLTH",
             "class_number": "18936",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Sullivan,Michael J"
+                    "instructor": "Harden,Christopher D"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "JD1551",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "days": "W",
+                    "location": "JD2520",
+                    "start_time": "0700h",
+                    "end_time": "0945h"
                 }
             ]
         },
@@ -530,7 +509,7 @@
             "catalog_number": "469",
             "title": "ENVIR RISK ANALYS",
             "class_number": "18938",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -539,10 +518,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "JD3502",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "days": "M",
+                    "location": "JD2524",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -551,7 +530,7 @@
             "catalog_number": "494B",
             "title": "ACADEMIC INTERN",
             "class_number": "19201",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -581,7 +560,7 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
+                    "days": "T",
                     "location": "JD1551",
                     "start_time": "1600h",
                     "end_time": "1845h"
@@ -624,7 +603,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "JD2524",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -656,7 +635,7 @@
             "catalog_number": "560",
             "title": "EOH EPI",
             "class_number": "19940",
-            "enrollment_cap": 10,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -677,7 +656,7 @@
             "catalog_number": "581",
             "title": "OCC HLTH PRGMS",
             "class_number": "19906",
-            "enrollment_cap": 16,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -719,7 +698,7 @@
             "catalog_number": "697",
             "title": "DIR COMP STUDIES",
             "class_number": "19140",
-            "enrollment_cap": 18,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -729,9 +708,9 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "JD2524",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
+                    "location": "RE279",
+                    "start_time": "0700h",
+                    "end_time": "0945h"
                 }
             ]
         }

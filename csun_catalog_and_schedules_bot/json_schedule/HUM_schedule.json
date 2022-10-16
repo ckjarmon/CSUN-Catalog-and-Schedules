@@ -5,7 +5,7 @@
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
             "class_number": "15103",
-            "enrollment_cap": 35,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -26,7 +26,7 @@
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
             "class_number": "15114",
-            "enrollment_cap": 35,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -47,7 +47,7 @@
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
             "class_number": "15115",
-            "enrollment_cap": 35,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -68,7 +68,7 @@
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
             "class_number": "15116",
-            "enrollment_cap": 35,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -78,7 +78,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR352",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -89,7 +89,7 @@
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
             "class_number": "15113",
-            "enrollment_cap": 35,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -99,9 +99,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR246",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -110,7 +110,7 @@
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
             "class_number": "15112",
-            "enrollment_cap": 35,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -120,7 +120,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR246",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -131,7 +131,7 @@
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
             "class_number": "15111",
-            "enrollment_cap": 35,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -141,7 +141,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JR246",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -152,28 +152,7 @@
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
             "class_number": "15110",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
-        {
-            "subject": "HUM",
-            "catalog_number": "101",
-            "title": "FORM+IDEA HUMAN",
-            "class_number": "15109",
-            "enrollment_cap": 35,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -183,7 +162,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "JR202",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -193,8 +172,8 @@
             "subject": "HUM",
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
-            "class_number": "15108",
-            "enrollment_cap": 35,
+            "class_number": "15109",
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -203,10 +182,10 @@
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "JR202",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -214,8 +193,8 @@
             "subject": "HUM",
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
-            "class_number": "15107",
-            "enrollment_cap": 35,
+            "class_number": "15108",
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -225,28 +204,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "HUM",
-            "catalog_number": "101",
-            "title": "FORM+IDEA HUMAN",
-            "class_number": "15106",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
+                    "location": "JR202",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -256,8 +214,8 @@
             "subject": "HUM",
             "catalog_number": "101",
             "title": "FORM+IDEA HUMAN",
-            "class_number": "15104",
-            "enrollment_cap": 35,
+            "class_number": "15107",
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -266,10 +224,10 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "TR",
+                    "location": "JR246",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -278,7 +236,7 @@
             "catalog_number": "106",
             "title": "CULTURAL ERAS II",
             "class_number": "15120",
-            "enrollment_cap": 35,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -287,10 +245,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "TR",
+                    "location": "EU136",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         }

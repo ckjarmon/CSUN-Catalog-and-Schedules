@@ -15,9 +15,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NH214",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "TH159",
                     "start_time": "1200h",
                     "end_time": "1340h"
                 }
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -77,10 +77,10 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "NH111",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "NH214",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -120,9 +120,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "NH111",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -141,7 +141,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "TH159",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -162,7 +162,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "NH214",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -183,7 +183,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NH111",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -204,7 +204,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NH214",
                     "start_time": "1500h",
                     "end_time": "1640h"
                 }
@@ -225,7 +225,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NH214",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -246,7 +246,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "NH214",
                     "start_time": "1200h",
                     "end_time": "1340h"
                 }
@@ -267,7 +267,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "NH214",
                     "start_time": "1000h",
                     "end_time": "1140h"
                 }
@@ -288,7 +288,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "TH361",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -351,7 +351,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "NH214",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -371,10 +371,73 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "NH209",
                     "start_time": "0930h",
                     "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
+            "catalog_number": "261",
+            "title": "FUND SCN/PROP TCH",
+            "class_number": "11169",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "TH158",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
+            "catalog_number": "261P",
+            "title": "PROD SCN/PROP TCH",
+            "class_number": "10874",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "TH158",
+                    "start_time": "0900h",
+                    "end_time": "1100h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
+            "catalog_number": "262",
+            "title": "FUND COSTUME TECH",
+            "class_number": "11295",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "TH365",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -393,9 +456,9 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "TH365",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -414,9 +477,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "TH160",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -435,9 +498,9 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "TH160",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -498,7 +561,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "TH159",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -519,7 +582,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -539,10 +602,10 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "NH209",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -561,7 +624,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "NH209",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -572,7 +635,7 @@
             "catalog_number": "325",
             "title": "WORLD DRAMA PERF",
             "class_number": "11587",
-            "enrollment_cap": 140,
+            "enrollment_cap": 60,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -582,9 +645,30 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
+            "catalog_number": "325",
+            "title": "WORLD DRAMA PERF",
+            "class_number": "11588",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "NH209",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -603,7 +687,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -623,10 +707,10 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "TH159",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -645,9 +729,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NH100",
                     "start_time": "1000h",
-                    "end_time": "1245h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -666,9 +750,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "TH361",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -687,7 +771,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "TH361",
                     "start_time": "1530h",
                     "end_time": "1710h"
                 }
@@ -708,7 +792,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -729,7 +813,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "TH361",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -750,7 +834,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -771,7 +855,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "TH160",
                     "start_time": "1200h",
                     "end_time": "1340h"
                 }
@@ -792,7 +876,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONCAMP",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -813,7 +897,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -824,7 +908,7 @@
             "catalog_number": "371",
             "title": "CREATIVE DRAMA",
             "class_number": "11297",
-            "enrollment_cap": 20,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -834,9 +918,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1200h",
-                    "end_time": "1250h"
+                    "end_time": "2450h"
                 }
             ]
         },
@@ -855,7 +939,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NH209",
                     "start_time": "1600h",
                     "end_time": "1650h"
                 }
@@ -876,7 +960,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -897,7 +981,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1300h",
                     "end_time": "1350h"
                 }
@@ -918,9 +1002,30 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NH209",
                     "start_time": "1700h",
                     "end_time": "1750h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
+            "catalog_number": "381",
+            "title": "MGT TECHNIQUE-TH",
+            "class_number": "20752",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "NH111",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -929,6 +1034,27 @@
             "catalog_number": "382A",
             "title": "THEA MGMT PRCTCUM",
             "class_number": "10519",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
+            "catalog_number": "382B",
+            "title": "THEA MGMT PRCTCUM",
+            "class_number": "10520",
             "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructors": [
@@ -981,9 +1107,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "NH121",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1002,7 +1128,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "NH209",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -1073,6 +1199,27 @@
         },
         {
             "subject": "TH",
+            "catalog_number": "390B",
+            "title": "TH PROD PARTICIP",
+            "class_number": "10890",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
             "catalog_number": "397",
             "title": "TH HONRS TUTORIAL",
             "class_number": "10513",
@@ -1086,7 +1233,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "NH104",
                     "start_time": "1300h",
                     "end_time": "1350h"
                 }
@@ -1094,10 +1241,10 @@
         },
         {
             "subject": "TH",
-            "catalog_number": "432",
-            "title": "TH/DRAMA US",
-            "class_number": "11974",
-            "enrollment_cap": 30,
+            "catalog_number": "410",
+            "title": "INDIGENOUS DRAMA LIT",
+            "class_number": "20753",
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1107,7 +1254,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NH209",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -1118,7 +1265,7 @@
             "catalog_number": "444",
             "title": "PRIN OF DIRECTING",
             "class_number": "10514",
-            "enrollment_cap": 20,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -1128,7 +1275,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "TH159",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1149,9 +1296,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "UL037",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -1170,9 +1317,30 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "SH302",
                     "start_time": "1230h",
                     "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
+            "catalog_number": "454",
+            "title": "ADV DIRECT ACTING",
+            "class_number": "11916",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "TH159",
+                    "start_time": "1200h",
+                    "end_time": "1725h"
                 }
             ]
         },
@@ -1191,9 +1359,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "TH160",
                     "start_time": "1000h",
-                    "end_time": "1200h"
+                    "end_time": "2400h"
                 }
             ]
         },
@@ -1212,9 +1380,9 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "NH209",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -1233,9 +1401,9 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "NH209",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -1304,6 +1472,27 @@
         },
         {
             "subject": "TH",
+            "catalog_number": "490B",
+            "title": "TH PROD PARTICIP",
+            "class_number": "10893",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "TH",
             "catalog_number": "498F",
             "title": "TH HON PROJ/THSIS",
             "class_number": "10516",
@@ -1338,7 +1527,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "TH159",
                     "start_time": "1400h",
                     "end_time": "1645h"
                 }
@@ -1359,7 +1548,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "TH159",
                     "start_time": "1200h",
                     "end_time": "1725h"
                 }

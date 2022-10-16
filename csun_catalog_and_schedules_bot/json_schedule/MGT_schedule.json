@@ -2,10 +2,10 @@
     "classes": [
         {
             "subject": "MGT",
-            "catalog_number": "360",
-            "title": "MANAG & ORG BEHAV",
-            "class_number": "13402",
-            "enrollment_cap": 120,
+            "catalog_number": "340",
+            "title": "MGT EMERGING TECH",
+            "class_number": "20681",
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -14,8 +14,29 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "MW",
+                    "location": "BB1230",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "MGT",
+            "catalog_number": "360",
+            "title": "MANAG & ORG BEHAV",
+            "class_number": "13402",
+            "enrollment_cap": 120,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hoch,Julia E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "NA101",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -35,10 +56,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2015h"
+                    "days": "R",
+                    "location": "NA101",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -51,15 +72,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rubino,Cristina"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "NA101",
                     "start_time": "1900h",
-                    "end_time": "2015h"
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -78,9 +99,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "NA101",
                     "start_time": "1600h",
-                    "end_time": "1715h"
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -93,13 +114,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hoch,Julia E"
                 }
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "NA101",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -114,13 +135,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rubino,Cristina"
                 }
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "NA101",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -135,13 +156,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Naidoo,Loren"
                 }
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "R",
+                    "location": "BB1236",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -156,13 +177,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Naidoo,Loren"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1240",
                     "start_time": "1530h",
                     "end_time": "1645h"
                 }
@@ -177,15 +198,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ronen,Sigalit"
                 }
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "MW",
+                    "location": "BB1240",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -203,10 +224,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "days": "W",
+                    "location": "BB1240",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -225,9 +246,30 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "BB1236",
                     "start_time": "1900h",
                     "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "MGT",
+            "catalog_number": "370",
+            "title": "MGT SKILLS DEVLOP",
+            "class_number": "20682",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Naidoo,Loren"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BB1236",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -245,9 +287,9 @@
             ],
             "meetings": [
                 {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1530h",
+                    "days": "TR",
+                    "location": "BB1240",
+                    "start_time": "1700h",
                     "end_time": "1815h"
                 }
             ]
@@ -267,9 +309,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "ONLINE",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
                 }
             ]
         },
@@ -288,7 +330,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "BB1208",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -309,9 +351,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "BB1236",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
                 }
             ]
         },
@@ -329,31 +371,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "BB1208",
                     "start_time": "1900h",
                     "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "MGT",
-            "catalog_number": "450",
-            "title": "ORG CHANGE & DEV",
-            "class_number": "13586",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
                 }
             ]
         },
@@ -372,7 +393,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB1204",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -387,15 +408,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ronen,Sigalit"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "days": "MW",
+                    "location": "BB1236",
+                    "start_time": "1700h",
+                    "end_time": "1815h"
                 }
             ]
         },
@@ -408,15 +429,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ronen,Sigalit"
                 }
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
+                    "days": "M",
+                    "location": "BB1236",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -435,7 +456,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB1204",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -455,8 +476,8 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "BB1208",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -477,30 +498,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BB1236",
                     "start_time": "1400h",
                     "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "MGT",
-            "catalog_number": "464",
-            "title": "INTERNTL BUS MGMT",
-            "class_number": "13440",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
                 }
             ]
         },
@@ -518,10 +518,10 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "days": "TR",
+                    "location": "BB1240",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
                 }
             ]
         },
@@ -534,13 +534,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Alpaslan,Can M"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB1236",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -551,7 +551,7 @@
             "catalog_number": "498C",
             "title": "INTERNSHIP MGT",
             "class_number": "13683",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -560,52 +560,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "MGT",
-            "catalog_number": "498C",
-            "title": "INTERNSHIP MGT",
-            "class_number": "13804",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
+                    "days": "M",
+                    "location": "ONLINE",
                     "start_time": "1900h",
                     "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "MGT",
-            "catalog_number": "499C",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "13408",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
                 }
             ]
         },
@@ -618,13 +576,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Moore,Richard W"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB1208",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -639,36 +597,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Degravel,Daniel"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB1103",
                     "start_time": "1900h",
                     "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "MGT",
-            "catalog_number": "699",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "13507",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
                 }
             ]
         }

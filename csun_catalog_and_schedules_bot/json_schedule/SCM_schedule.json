@@ -5,17 +5,17 @@
             "catalog_number": "447",
             "title": "TRANS & LOGIS MGT",
             "class_number": "13886",
-            "enrollment_cap": 50,
+            "enrollment_cap": 55,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Farrokhvar,Leily"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB2206",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -26,7 +26,7 @@
             "catalog_number": "492",
             "title": "SUP CHN MGT STRAT",
             "class_number": "13543",
-            "enrollment_cap": 50,
+            "enrollment_cap": 55,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "BB2230",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }

@@ -9,7 +9,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Aramali,Vartenie"
                 }
             ],
             "meetings": [
@@ -30,7 +30,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Aramali,Vartenie"
                 }
             ],
             "meetings": [
@@ -72,7 +72,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Medina,Ricardo"
+                    "instructor": "Aramali,Vartenie"
                 }
             ],
             "meetings": [
@@ -122,7 +122,7 @@
                     "days": "MW",
                     "location": "JD1563",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -172,33 +172,12 @@
             "subject": "CE",
             "catalog_number": "280",
             "title": "COMP APPL CIVIL",
-            "class_number": "16375",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JD1565",
-                    "start_time": "1400h",
-                    "end_time": "1425h"
-                }
-            ]
-        },
-        {
-            "subject": "CE",
-            "catalog_number": "280",
-            "title": "COMP APPL CIVIL",
             "class_number": "17042",
             "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Maalouf,Sami"
                 }
             ],
             "meetings": [
@@ -227,28 +206,7 @@
                     "days": "MW",
                     "location": "JD1565",
                     "start_time": "1130h",
-                    "end_time": "1245h"
-                }
-            ]
-        },
-        {
-            "subject": "CE",
-            "catalog_number": "280L",
-            "title": "COMP APPL CIVIL",
-            "class_number": "16377",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JD1565",
-                    "start_time": "1430h",
-                    "end_time": "1545h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -261,7 +219,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Maalouf,Sami"
                 }
             ],
             "meetings": [
@@ -362,7 +320,7 @@
             "catalog_number": "315",
             "title": "CONST ENGR",
             "class_number": "16477",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -371,10 +329,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
+                    "days": "T",
                     "location": "JD1565",
-                    "start_time": "0900h",
-                    "end_time": "1045h"
+                    "start_time": "0930h",
+                    "end_time": "1120h"
                 }
             ]
         },
@@ -383,7 +341,7 @@
             "catalog_number": "315",
             "title": "CONST ENGR",
             "class_number": "16756",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -404,7 +362,7 @@
             "catalog_number": "315L",
             "title": "CONST ENGR LAB",
             "class_number": "16478",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -413,10 +371,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
+                    "days": "R",
                     "location": "JD1565",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
+                    "start_time": "0930h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -513,13 +471,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Medina,Ricardo"
+                    "instructor": "Zirakian,Tadeh"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "JD1563",
+                    "location": "ONLINE",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -555,7 +513,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Dombourian,Edward M"
+                    "instructor": "Boyajian,David M"
                 }
             ],
             "meetings": [
@@ -563,7 +521,7 @@
                     "days": "TR",
                     "location": "JD1609",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -647,7 +605,7 @@
                     "days": "F",
                     "location": "JD1609",
                     "start_time": "1000h",
-                    "end_time": "1245h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -668,7 +626,7 @@
                     "days": null,
                     "location": "JD1609",
                     "start_time": "1000h",
-                    "end_time": "1245h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -689,7 +647,7 @@
                     "days": null,
                     "location": "JD1117",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -752,7 +710,7 @@
                     "days": "TR",
                     "location": "JD1563",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -813,30 +771,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "JD1553",
                     "start_time": "1530h",
                     "end_time": "1555h"
-                }
-            ]
-        },
-        {
-            "subject": "CE",
-            "catalog_number": "488AL",
-            "title": "CIVIL SR DSN I LAB",
-            "class_number": "16943",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
                 }
             ]
         },
@@ -897,7 +834,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -947,69 +884,6 @@
         },
         {
             "subject": "CE",
-            "catalog_number": "536",
-            "title": "STRUCTURES II",
-            "class_number": "16908",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "CE",
-            "catalog_number": "536L",
-            "title": "STRUCTURES II LAB",
-            "class_number": "16909",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "CE",
-            "catalog_number": "636",
-            "title": "STRUCT DYNAMICS",
-            "class_number": "16910",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1730h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "CE",
             "catalog_number": "638",
             "title": "REINF CONCRET DES",
             "class_number": "20651",
@@ -1024,27 +898,6 @@
                 {
                     "days": "T",
                     "location": "JD1609",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "CE",
-            "catalog_number": "639",
-            "title": "STRU STEEL DESIGN",
-            "class_number": "16911",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -1149,7 +1002,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }

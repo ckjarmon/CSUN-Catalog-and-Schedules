@@ -5,7 +5,7 @@
             "catalog_number": "100",
             "title": "JEWISH REL CULTR",
             "class_number": "14561",
-            "enrollment_cap": 17,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -14,19 +14,19 @@
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "SH108",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
         {
             "subject": "JS",
-            "catalog_number": "100HON",
-            "title": "JEWISH REL CULTR",
-            "class_number": "15386",
-            "enrollment_cap": 18,
+            "catalog_number": "220",
+            "title": "JEWS ON FILM",
+            "class_number": "20898",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -36,9 +36,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
+                    "location": "SH192",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -47,7 +47,7 @@
             "catalog_number": "318",
             "title": "APPLIED JEW ETHIC",
             "class_number": "14748",
-            "enrollment_cap": 35,
+            "enrollment_cap": 40,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -57,9 +57,30 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "JS",
+            "catalog_number": "333",
+            "title": "JEWISH GRAPHIC NOVEL",
+            "class_number": "20688",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH108",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -78,7 +99,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "SH209",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -89,7 +110,7 @@
             "catalog_number": "390CS",
             "title": "INTERN_NONPROFITS",
             "class_number": "14296",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -98,31 +119,10 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1700h",
-                    "end_time": "1945h"
-                }
-            ]
-        },
-        {
-            "subject": "JS",
-            "catalog_number": "427",
-            "title": "ISRAEL HIST PEOPL",
-            "class_number": "14750",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         }

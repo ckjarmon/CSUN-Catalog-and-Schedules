@@ -5,7 +5,7 @@
             "catalog_number": "703",
             "title": "APP BIOMECH II",
             "class_number": "19289",
-            "enrollment_cap": 31,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -15,9 +15,9 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "JD2528",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -26,7 +26,7 @@
             "catalog_number": "703L",
             "title": "APP BIOM II LAB",
             "class_number": "19290",
-            "enrollment_cap": 15,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -68,7 +68,7 @@
             "catalog_number": "706",
             "title": "APPL NEURO",
             "class_number": "19983",
-            "enrollment_cap": 31,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -89,7 +89,7 @@
             "catalog_number": "706L",
             "title": "APPL NEURO LAB",
             "class_number": "19984",
-            "enrollment_cap": 15,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -99,7 +99,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JD2520",
                     "start_time": "0900h",
                     "end_time": "1145h"
                 }
@@ -131,7 +131,7 @@
             "catalog_number": "711",
             "title": "PT MGMT",
             "class_number": "20051",
-            "enrollment_cap": 31,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -152,7 +152,7 @@
             "catalog_number": "711L",
             "title": "PT MGMT LAB",
             "class_number": "20052",
-            "enrollment_cap": 15,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -194,7 +194,7 @@
             "catalog_number": "712",
             "title": "ELECTROTHER",
             "class_number": "20055",
-            "enrollment_cap": 28,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -215,7 +215,7 @@
             "catalog_number": "712L",
             "title": "ELECTROTHER LAB",
             "class_number": "20056",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -257,7 +257,7 @@
             "catalog_number": "720",
             "title": "MUSC SKEL PRAC I",
             "class_number": "19292",
-            "enrollment_cap": 31,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -267,7 +267,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "JD2520",
                     "start_time": "1200h",
                     "end_time": "1315h"
                 }
@@ -278,7 +278,7 @@
             "catalog_number": "720L",
             "title": "MUSC SKEL I LAB",
             "class_number": "19293",
-            "enrollment_cap": 15,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -320,7 +320,7 @@
             "catalog_number": "732",
             "title": "NEURO MGMT I",
             "class_number": "19669",
-            "enrollment_cap": 28,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -330,9 +330,9 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JD2528",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -341,7 +341,7 @@
             "catalog_number": "732L",
             "title": "NEURO MGMT I LAB",
             "class_number": "19670",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -455,10 +455,10 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
+                    "days": "F",
                     "location": "JD1580",
                     "start_time": "0800h",
-                    "end_time": "0940h"
+                    "end_time": "0945h"
                 }
             ]
         },
@@ -497,10 +497,10 @@
             ],
             "meetings": [
                 {
-                    "days": "W",
+                    "days": "F",
                     "location": "JD1580",
                     "start_time": "1000h",
-                    "end_time": "1245h"
+                    "end_time": "2445h"
                 }
             ]
         },
@@ -530,7 +530,7 @@
             "catalog_number": "746L",
             "title": "APPL THER EX LAB",
             "class_number": "20006",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -541,8 +541,8 @@
                 {
                     "days": "F",
                     "location": "JD1621",
-                    "start_time": "1200h",
-                    "end_time": "1445h"
+                    "start_time": "0800h",
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -572,7 +572,7 @@
             "catalog_number": "752A",
             "title": "EBPT II",
             "class_number": "19436",
-            "enrollment_cap": 14,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -582,30 +582,9 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
-        },
-        {
-            "subject": "PT",
-            "catalog_number": "752A",
-            "title": "EBPT II",
-            "class_number": "19690",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
+                    "location": "SG103",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
                 }
             ]
         },
@@ -723,7 +702,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Bartlett,Andrew S"
+                    "instructor": "Bartlett,Andrew"
                 }
             ],
             "meetings": [
@@ -824,7 +803,7 @@
             "catalog_number": "773",
             "title": "MED IMAGING",
             "class_number": "20054",
-            "enrollment_cap": 32,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -833,10 +812,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
+                    "days": "T",
                     "location": "ONLINE",
                     "start_time": "0900h",
-                    "end_time": "1040h"
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -845,7 +824,7 @@
             "catalog_number": "774",
             "title": "MED SCREENING",
             "class_number": "19672",
-            "enrollment_cap": 28,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -854,10 +833,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
+                    "days": "F",
+                    "location": "UL001",
+                    "start_time": "1130h",
+                    "end_time": "1310h"
                 }
             ]
         },
@@ -870,7 +849,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Bartlett,Andrew S"
+                    "instructor": "Bartlett,Andrew"
                 }
             ],
             "meetings": [
@@ -891,7 +870,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Bartlett,Andrew S"
+                    "instructor": "Bartlett,Andrew"
                 }
             ],
             "meetings": [
@@ -912,7 +891,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Bartlett,Andrew S"
+                    "instructor": "Bartlett,Andrew"
                 }
             ],
             "meetings": [
@@ -939,7 +918,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "JD2528",
                     "start_time": "1530h",
                     "end_time": "1710h"
                 }
@@ -950,7 +929,7 @@
             "catalog_number": "785H",
             "title": "PT STRENGTH COND",
             "class_number": "20060",
-            "enrollment_cap": 9,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -959,7 +938,28 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
+                    "days": "W",
+                    "location": "JD1580",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "PT",
+            "catalog_number": "785I",
+            "title": "ADV APPLIED ANATOMY",
+            "class_number": "20902",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bartlett,Andrew"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
                     "location": "JD1580",
                     "start_time": "0800h",
                     "end_time": "1045h"
@@ -971,7 +971,7 @@
             "catalog_number": "790",
             "title": "CLIN PRAC I",
             "class_number": "19295",
-            "enrollment_cap": 31,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -980,7 +980,7 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
+                    "days": "R",
                     "location": "ONLINE",
                     "start_time": "1400h",
                     "end_time": "1450h"
@@ -992,7 +992,7 @@
             "catalog_number": "792",
             "title": "CLIN PRAC II",
             "class_number": "19435",
-            "enrollment_cap": 28,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructors": [
                 {

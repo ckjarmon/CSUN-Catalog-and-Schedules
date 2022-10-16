@@ -14,10 +14,10 @@
             ],
             "meetings": [
                 {
-                    "days": "T",
+                    "days": "TR",
                     "location": "BB1234",
                     "start_time": "0930h",
-                    "end_time": "1215h"
+                    "end_time": "1045h"
                 }
             ]
         },
@@ -38,7 +38,7 @@
                     "days": "MW",
                     "location": "BB1234",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -67,27 +67,6 @@
             "subject": "BLAW",
             "catalog_number": "280",
             "title": "BUSINESS LAW I",
-            "class_number": "13538",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
-        },
-        {
-            "subject": "BLAW",
-            "catalog_number": "280",
-            "title": "BUSINESS LAW I",
             "class_number": "13559",
             "enrollment_cap": 42,
             "enrollment_count": 0,
@@ -99,7 +78,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "BB1121",
+                    "location": "BB1234",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -110,11 +89,11 @@
             "catalog_number": "280",
             "title": "BUSINESS LAW I",
             "class_number": "13560",
-            "enrollment_cap": 42,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ng,Christopher E"
                 }
             ],
             "meetings": [
@@ -141,7 +120,7 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "BB1121",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -177,7 +156,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Campbell,Mark D"
                 }
             ],
             "meetings": [
@@ -194,7 +173,7 @@
             "catalog_number": "280",
             "title": "BUSINESS LAW I",
             "class_number": "13564",
-            "enrollment_cap": 55,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -219,7 +198,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Ross,Lauren"
                 }
             ],
             "meetings": [
@@ -227,7 +206,7 @@
                     "days": "MW",
                     "location": "BB1121",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -236,7 +215,7 @@
             "catalog_number": "308",
             "title": "BUSINESS LAW II",
             "class_number": "13500",
-            "enrollment_cap": 48,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -246,7 +225,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "BB1228",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -257,7 +236,7 @@
             "catalog_number": "308",
             "title": "BUSINESS LAW II",
             "class_number": "13519",
-            "enrollment_cap": 48,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -267,7 +246,7 @@
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB1121",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -299,7 +278,7 @@
             "catalog_number": "308",
             "title": "BUSINESS LAW II",
             "class_number": "13540",
-            "enrollment_cap": 48,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -320,7 +299,7 @@
             "catalog_number": "308",
             "title": "BUSINESS LAW II",
             "class_number": "13541",
-            "enrollment_cap": 48,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -330,9 +309,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1234",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -341,17 +320,17 @@
             "catalog_number": "308",
             "title": "BUSINESS LAW II",
             "class_number": "13565",
-            "enrollment_cap": 48,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Knox,KC"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "BB1125",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -393,7 +372,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "BB1234",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -425,7 +404,7 @@
             "catalog_number": "368",
             "title": "BUS ETHICS VALUES",
             "class_number": "13821",
-            "enrollment_cap": 48,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -435,7 +414,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "BB1234",
+                    "location": "BB1228",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
@@ -446,7 +425,7 @@
             "catalog_number": "370",
             "title": "CORP SOC RESPBLTY",
             "class_number": "13838",
-            "enrollment_cap": 42,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -456,7 +435,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BB1133",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -467,7 +446,7 @@
             "catalog_number": "374",
             "title": "ETHICAL DM & BUS",
             "class_number": "13866",
-            "enrollment_cap": 42,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -476,10 +455,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
+                    "days": "T",
+                    "location": "BB1129",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -500,7 +479,7 @@
                     "days": "TR",
                     "location": "BB1121",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -530,7 +509,7 @@
             "catalog_number": "451",
             "title": "ENTERTAINMENT LAW",
             "class_number": "13867",
-            "enrollment_cap": 42,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -539,10 +518,10 @@
             ],
             "meetings": [
                 {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
+                    "days": "M",
+                    "location": "SG109",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
                 }
             ]
         },
@@ -551,7 +530,7 @@
             "catalog_number": "453",
             "title": "NEGOTIATION",
             "class_number": "13773",
-            "enrollment_cap": 42,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -561,30 +540,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "BB1234",
+                    "location": "BB1121",
                     "start_time": "1400h",
                     "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "BLAW",
-            "catalog_number": "453",
-            "title": "NEGOTIATION",
-            "class_number": "20647",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Golden,Nina G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "BB1234",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
                 }
             ]
         },
@@ -627,6 +585,27 @@
                     "location": "BB1121",
                     "start_time": "0900h",
                     "end_time": "1145h"
+                }
+            ]
+        },
+        {
+            "subject": "BLAW",
+            "catalog_number": "653",
+            "title": "GR NEGOTIATION",
+            "class_number": "20701",
+            "enrollment_cap": 42,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Flugge Goyer,Valerie"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "BB1232",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         }

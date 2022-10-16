@@ -15,7 +15,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BC156",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -36,7 +36,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BC156",
                     "start_time": "1300h",
                     "end_time": "1350h"
                 }
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BC156",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -72,13 +72,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Truong,Jacqueline"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BC156",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -93,13 +93,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jung,Taeyou"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BC156",
                     "start_time": "1300h",
                     "end_time": "1350h"
                 }
@@ -114,13 +114,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hurtado,Ileana M"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -141,7 +141,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "1730h",
                     "end_time": "1820h"
                 }
@@ -156,13 +156,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hurtado,Ileana M"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -177,13 +177,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Brolsma,Donald J"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "1300h",
                     "end_time": "1350h"
                 }
@@ -198,13 +198,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia,Liz M"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "1730h",
                     "end_time": "1820h"
                 }
@@ -215,7 +215,7 @@
             "catalog_number": "118",
             "title": "ADPT SEL DEF",
             "class_number": "19170",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -225,7 +225,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE251",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -236,38 +236,17 @@
             "catalog_number": "120",
             "title": "ARTS IMRSN DANCE",
             "class_number": "19251",
-            "enrollment_cap": 25,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1300h",
-                    "end_time": "1350h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "120",
-            "title": "ARTS IMRSN DANCE",
-            "class_number": "20121",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1300h",
                     "end_time": "1350h"
                 }
@@ -278,38 +257,17 @@
             "catalog_number": "120L",
             "title": "ARTS IMRSN DANCE",
             "class_number": "19252",
-            "enrollment_cap": 25,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "120L",
-            "title": "ARTS IMRSN DANCE",
-            "class_number": "20122",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -330,7 +288,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JP0000",
                     "start_time": "0900h",
                     "end_time": "1040h"
                 }
@@ -351,9 +309,9 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JP0000",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -372,7 +330,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "JP0000",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -393,30 +351,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE160",
                     "start_time": "1230h",
                     "end_time": "1320h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "124A",
-            "title": "BASKETBALL I",
-            "class_number": "18706",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
                 }
             ]
         },
@@ -435,7 +372,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE160",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -456,7 +393,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE160",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -477,7 +414,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "FT0000",
                     "start_time": "0800h",
                     "end_time": "0850h"
                 }
@@ -498,7 +435,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "FT0000",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -519,30 +456,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "FT0000",
                     "start_time": "1100h",
                     "end_time": "1150h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "126A",
-            "title": "STRENGTH TRAINING",
-            "class_number": "18707",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0850h"
                 }
             ]
         },
@@ -555,13 +471,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Farr,John W"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE200",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -576,13 +492,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Farr,John W"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE200",
                     "start_time": "1000h",
                     "end_time": "1050h"
                 }
@@ -597,13 +513,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Farr,John W"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE200",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -618,15 +534,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Marchetti,Paulo H"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE278",
                     "start_time": "1200h",
-                    "end_time": "1250h"
+                    "end_time": "2450h"
                 }
             ]
         },
@@ -645,7 +561,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "FT0000",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -666,7 +582,7 @@
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "FT0000",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -687,7 +603,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "FT0000",
                     "start_time": "0800h",
                     "end_time": "0850h"
                 }
@@ -708,7 +624,7 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "FT0000",
                     "start_time": "0800h",
                     "end_time": "0940h"
                 }
@@ -723,13 +639,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gale,Paul J"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -744,13 +660,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gale,Paul J"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1800h",
                     "end_time": "1940h"
                 }
@@ -765,13 +681,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gale,Paul J"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -786,15 +702,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gale,Paul J"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1200h",
-                    "end_time": "1250h"
+                    "end_time": "2450h"
                 }
             ]
         },
@@ -813,9 +729,9 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE251",
                     "start_time": "1200h",
-                    "end_time": "1250h"
+                    "end_time": "2450h"
                 }
             ]
         },
@@ -834,9 +750,9 @@
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "RE251",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -849,36 +765,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Gale,Paul J"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1800h",
                     "end_time": "1940h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "133A",
-            "title": "TAI CHI CH'UAN",
-            "class_number": "19001",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1300h",
-                    "end_time": "1440h"
                 }
             ]
         },
@@ -891,34 +786,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lenhart,Raquel Rahal"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "135A",
-            "title": "AEROBIC DANCE I",
-            "class_number": "18719",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "0900h",
                     "end_time": "1040h"
                 }
@@ -933,15 +807,78 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lenhart,Raquel Rahal"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "0900h",
                     "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "137A",
+            "title": "DANCE BALLRM I",
+            "class_number": "18723",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Rosenthal,Bethana A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "RE230",
+                    "start_time": "1500h",
+                    "end_time": "1550h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "137A",
+            "title": "DANCE BALLRM I",
+            "class_number": "19849",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Eusanio,Jacqueline C"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "RE230",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "137A",
+            "title": "DANCE BALLRM I",
+            "class_number": "19951",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Eusanio,Jacqueline C"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "RE230",
+                    "start_time": "0900h",
+                    "end_time": "0950h"
                 }
             ]
         },
@@ -960,9 +897,9 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
+                    "location": "RE292",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -981,9 +918,9 @@
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
+                    "location": "RE292",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -996,13 +933,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -1023,7 +960,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "1300h",
                     "end_time": "1350h"
                 }
@@ -1038,15 +975,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
+                    "location": "RE292",
+                    "start_time": "1400h",
+                    "end_time": "1540h"
                 }
             ]
         },
@@ -1059,36 +996,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "1300h",
                     "end_time": "1350h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "142A",
-            "title": "DANCE LAT AM I",
-            "class_number": "18960",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
                 }
             ]
         },
@@ -1101,15 +1017,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -1122,36 +1038,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "142A",
-            "title": "DANCE LAT AM I",
-            "class_number": "19968",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1840h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -1169,8 +1064,8 @@
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "T",
+                    "location": "RE292",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -1191,9 +1086,30 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1400h",
                     "end_time": "1540h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "143B",
+            "title": "HIP HOP DANCE II",
+            "class_number": "20865",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JD1600",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
                 }
             ]
         },
@@ -1206,13 +1122,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hassenpflug,Wendy E"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -1227,13 +1143,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenblatt,Evan R"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "1800h",
                     "end_time": "1940h"
                 }
@@ -1248,36 +1164,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lenhart,Raquel Rahal"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "147",
-            "title": "PILATES",
-            "class_number": "19172",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1300h",
-                    "end_time": "1440h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -1290,13 +1185,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lenhart,Raquel Rahal"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "0900h",
                     "end_time": "1040h"
                 }
@@ -1311,13 +1206,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenblatt,Evan R"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "0800h",
                     "end_time": "0850h"
                 }
@@ -1332,13 +1227,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hassenpflug,Wendy E"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1200h",
                     "end_time": "1340h"
                 }
@@ -1353,13 +1248,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hassenpflug,Wendy E"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -1374,13 +1269,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lamonica,Christine"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -1395,13 +1290,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lamonica,Christine"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1500h",
                     "end_time": "1640h"
                 }
@@ -1416,13 +1311,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hassenpflug,Wendy E"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1200h",
                     "end_time": "1340h"
                 }
@@ -1437,13 +1332,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hassenpflug,Wendy E"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1400h",
                     "end_time": "1540h"
                 }
@@ -1458,13 +1353,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lamonica,Christine"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -1479,13 +1374,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lenhart,Raquel Rahal"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -1500,57 +1395,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lenhart,Raquel Rahal"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1500h",
                     "end_time": "1640h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "149",
-            "title": "YOGA",
-            "class_number": "18961",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1700h",
-                    "end_time": "1840h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "149",
-            "title": "YOGA",
-            "class_number": "18962",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
                 }
             ]
         },
@@ -1563,13 +1416,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lenhart,Raquel Rahal"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "RE B1",
                     "start_time": "1900h",
                     "end_time": "2040h"
                 }
@@ -1590,7 +1443,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NF0000",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -1611,7 +1464,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "NF0000",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -1626,13 +1479,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lenhart,Raquel Rahal"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
+                    "days": "W",
+                    "location": "RE251",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -1647,13 +1500,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lane,Kevin"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RESMPOOL",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -1668,13 +1521,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lane,Kevin"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "RESMPOOL",
                     "start_time": "0900h",
                     "end_time": "1040h"
                 }
@@ -1689,15 +1542,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lane,Kevin"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1020h"
+                    "location": "RESMPOOL",
+                    "start_time": "0900h",
+                    "end_time": "0950h"
                 }
             ]
         },
@@ -1710,13 +1563,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lane,Kevin"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RESMPOOL",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -1731,13 +1584,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lane,Kevin"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
+                    "days": "TR",
+                    "location": "RESMPOOL",
                     "start_time": "1230h",
                     "end_time": "1320h"
                 }
@@ -1752,13 +1605,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lane,Kevin"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RESMPOOL",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -1773,13 +1626,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lane,Kevin"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RESMPOOL",
                     "start_time": "0800h",
                     "end_time": "0850h"
                 }
@@ -1800,7 +1653,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "TN0000",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -1821,7 +1674,7 @@
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "TN0000",
                     "start_time": "1100h",
                     "end_time": "1150h"
                 }
@@ -1842,7 +1695,7 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "TN0000",
                     "start_time": "0930h",
                     "end_time": "1020h"
                 }
@@ -1863,30 +1716,9 @@
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "TN0000",
                     "start_time": "1100h",
                     "end_time": "1150h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "185A",
-            "title": "TENNIS I",
-            "class_number": "19501",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
                 }
             ]
         },
@@ -1904,10 +1736,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "TR",
+                    "location": "RE160",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
                 }
             ]
         },
@@ -1925,10 +1757,10 @@
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "TR",
+                    "location": "RE160",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
                 }
             ]
         },
@@ -1941,36 +1773,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hassenpflug,Wendy E"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "SG109",
                     "start_time": "0930h",
                     "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "200",
-            "title": "FOUND KINESIOLOGY",
-            "class_number": "18981",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
                 }
             ]
         },
@@ -1983,15 +1794,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Loy,Steven F"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE157",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2004,13 +1815,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Loy,Steven F"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE157",
                     "start_time": "1230h",
                     "end_time": "1345h"
                 }
@@ -2025,15 +1836,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenblatt,Evan R"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -2046,15 +1857,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenblatt,Evan R"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "1100h",
-                    "end_time": "1240h"
+                    "end_time": "2440h"
                 }
             ]
         },
@@ -2067,13 +1878,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eusanio,Jacqueline C"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "0800h",
                     "end_time": "0850h"
                 }
@@ -2088,15 +1899,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Lane,Kevin"
                 }
             ],
             "meetings": [
                 {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
+                    "days": "MW",
+                    "location": "RESMPOOL",
+                    "start_time": "1300h",
+                    "end_time": "1350h"
                 }
             ]
         },
@@ -2109,13 +1920,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jung,Yeonhak"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "RE180",
                     "start_time": "1000h",
                     "end_time": "1140h"
                 }
@@ -2130,13 +1941,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jung,Yeonhak"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "RE180",
                     "start_time": "1000h",
                     "end_time": "1140h"
                 }
@@ -2151,13 +1962,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mena,Derek"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "RE160",
                     "start_time": "1600h",
                     "end_time": "1750h"
                 }
@@ -2172,13 +1983,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mena,Derek"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "RE160",
                     "start_time": "1800h",
                     "end_time": "1850h"
                 }
@@ -2193,13 +2004,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Khachatryan,Nvard"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0800h",
                     "end_time": "0915h"
                 }
@@ -2214,13 +2025,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mcclain,Christopher S"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE159",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -2235,13 +2046,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Khachatryan,Nvard"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1400h",
                     "end_time": "1515h"
                 }
@@ -2256,13 +2067,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Mcclain,Christopher S"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "RE155",
                     "start_time": "1100h",
                     "end_time": "1345h"
                 }
@@ -2277,15 +2088,36 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Khachatryan,Nvard"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1600h",
                     "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "303",
+            "title": "SPORTMGT",
+            "class_number": "20866",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hatcher,Kevin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "RE159",
+                    "start_time": "1800h",
+                    "end_time": "1915h"
                 }
             ]
         },
@@ -2298,15 +2130,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hatcher,Kevin"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
+                    "location": "RE157",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
                 }
             ]
         },
@@ -2319,15 +2151,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Linden,Andy"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "RE155",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2340,13 +2172,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jonsrud,Jarrod"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2361,34 +2193,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jonsrud,Jarrod"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "305",
-            "title": "HIST PHIL KIN",
-            "class_number": "19781",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2403,15 +2214,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Smith,Daniel"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "RE104",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2424,13 +2235,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Samson,Ashley A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0930h",
                     "end_time": "1045h"
                 }
@@ -2445,15 +2256,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Samson,Ashley A"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1100h",
-                    "end_time": "1215h"
+                    "end_time": "2415h"
                 }
             ]
         },
@@ -2466,13 +2277,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Weinstein,Aaron J"
                 }
             ],
             "meetings": [
                 {
                     "days": "F",
-                    "location": "TBA",
+                    "location": "RE104",
                     "start_time": "0800h",
                     "end_time": "1045h"
                 }
@@ -2487,78 +2298,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Galli,Nick A"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "0000h",
                     "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "308",
-            "title": "MARKETING SPORT IND",
-            "class_number": "20110",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "309",
-            "title": "SCI TECH SPORTS",
-            "class_number": "20118",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "309",
-            "title": "SCI TECH SPORTS",
-            "class_number": "20119",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
                 }
             ]
         },
@@ -2571,15 +2319,141 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jensen,Jacob Cannon"
                 }
             ],
             "meetings": [
                 {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
+                    "days": "W",
+                    "location": "RE155",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "311",
+            "title": "ADP TH EX PR APP",
+            "class_number": "18746",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Truong,Jacqueline"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BC140",
+                    "start_time": "0900h",
+                    "end_time": "0950h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "311",
+            "title": "ADP TH EX PR APP",
+            "class_number": "18880",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Jung,Taeyou"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BC140",
+                    "start_time": "1200h",
+                    "end_time": "2450h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "311",
+            "title": "ADP TH EX PR APP",
+            "class_number": "18964",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Brolsma,Donald J"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BC140",
+                    "start_time": "1500h",
+                    "end_time": "1550h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "311",
+            "title": "ADP TH EX PR APP",
+            "class_number": "19506",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Garcia,Liz M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BC140",
+                    "start_time": "0800h",
+                    "end_time": "0850h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "311",
+            "title": "ADP TH EX PR APP",
+            "class_number": "19507",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Jung,Taeyou"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BC140",
+                    "start_time": "1200h",
+                    "end_time": "2450h"
+                }
+            ]
+        },
+        {
+            "subject": "KIN",
+            "catalog_number": "311",
+            "title": "ADP TH EX PR APP",
+            "class_number": "19604",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Garcia,Liz M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BC140",
+                    "start_time": "1500h",
+                    "end_time": "1550h"
                 }
             ]
         },
@@ -2592,13 +2466,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jung,Taeyou"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "BC140",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2613,13 +2487,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia,Liz M"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "BC140",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2634,15 +2508,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Brolsma,Donald J"
                 }
             ],
             "meetings": [
                 {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
+                    "days": null,
+                    "location": "BC140",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
                 }
             ]
         },
@@ -2655,13 +2529,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Truong,Jacqueline"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "BC140",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2676,13 +2550,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Jung,Taeyou"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
+                    "location": "BC140",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2697,34 +2571,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia,Liz M"
                 }
             ],
             "meetings": [
                 {
                     "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "KIN",
-            "catalog_number": "311L",
-            "title": "ADP TH EX P A LAB",
-            "class_number": "19890",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
+                    "location": "BC140",
                     "start_time": "0000h",
                     "end_time": "0000h"
                 }
@@ -2739,13 +2592,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Truong,Jacqueline"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "0800h",
                     "end_time": "0850h"
                 }
@@ -2760,15 +2613,15 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hurtado,Ileana M"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "1200h",
-                    "end_time": "1250h"
+                    "end_time": "2450h"
                 }
             ]
         },
@@ -2781,13 +2634,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Todd,Teri A"
                 }
             ],
             "meetings": [
                 {
                     "days": "MW",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "1530h",
                     "end_time": "1620h"
                 }
@@ -2802,13 +2655,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia,Liz M"
                 }
             ],
             "meetings": [
                 {
                     "days": "TR",
-                    "location": "TBA",
+                    "location": "BC126",
                     "start_time": "0900h",
                     "end_time": "0950h"
                 }
@@ -2823,7 +2676,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Truong,Jacqueline"
                 }
             ],
             "meetings": [
@@ -2844,7 +2697,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Hurtado,Ileana M"
                 }
             ],
             "meetings": [
@@ -2865,7 +2718,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Todd,Teri A"
                 }
             ],
             "meetings": [
@@ -2886,7 +2739,7 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Garcia,Liz M"
                 }
             ],
             "meetings": [
@@ -2907,13 +2760,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -2928,13 +2781,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eusanio,Jacqueline C"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1600h",
                     "end_time": "1740h"
                 }
@@ -2949,13 +2802,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Rosenthal,Bethana A"
                 }
             ],
             "meetings": [
                 {
                     "days": "M",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1800h",
                     "end_time": "1850h"
                 }
@@ -2970,13 +2823,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eusanio,Jacqueline C"
                 }
             ],
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1800h",
                     "end_time": "1850h"
                 }
@@ -2991,13 +2844,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eusanio,Jacqueline C"
                 }
             ],
             "meetings": [
                 {
                     "days": "T",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -3012,13 +2865,13 @@
             "enrollment_count": 0,
             "instructors": [
                 {
-                    "instructor": "Staff"
+                    "instructor": "Eusanio,Jacqueline C"
                 }
             ],
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "RE230",
                     "start_time": "1300h",
                     "end_time": "1440h"
                 }
@@ -3039,7 +2892,7 @@
             "meetings": [
                 {
                     "days": "MWF",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "0900h",
                     "end_time": "1040h"
                 }
@@ -3060,7 +2913,7 @@
             "meetings": [
                 {
                     "days": "R",
-                    "location": "TBA",
+                    "location": "RE292",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }

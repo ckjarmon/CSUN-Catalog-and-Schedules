@@ -5,7 +5,7 @@
             "catalog_number": "412",
             "title": "RL EST PRACTICE",
             "class_number": "13862",
-            "enrollment_cap": 50,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -14,10 +14,10 @@
             ],
             "meetings": [
                 {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
+                    "days": "T",
+                    "location": "BB1121",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
                 }
             ]
         },
@@ -26,7 +26,7 @@
             "catalog_number": "414",
             "title": "RE PRINCIPLES",
             "class_number": "13863",
-            "enrollment_cap": 42,
+            "enrollment_cap": 48,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -57,7 +57,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "TBA",
+                    "location": "ONLINE",
                     "start_time": "1900h",
                     "end_time": "2145h"
                 }
@@ -68,7 +68,7 @@
             "catalog_number": "418",
             "title": "RE MKT ANALYSIS",
             "class_number": "13865",
-            "enrollment_cap": 48,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructors": [
                 {
@@ -78,7 +78,7 @@
             "meetings": [
                 {
                     "days": "W",
-                    "location": "BB1234",
+                    "location": "BB1232",
                     "start_time": "1600h",
                     "end_time": "1845h"
                 }
