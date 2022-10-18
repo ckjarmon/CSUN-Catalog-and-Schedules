@@ -432,7 +432,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
 client.on('messageUpdate', (oldMessage, newMessage) => {
   //await client.get_channel(1028088994203967498).send(f"{message.author} [{message.content}]")
-  client.channels.get("1028088994203967498").send(`${message.author} ${newMessage}`)
+  client.channels.cache.get("1028088994203967498").send(`${message.author} ${newMessage}`)
 });
 
 client.on('interactionCreate', async interaction => {
