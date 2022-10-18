@@ -436,8 +436,9 @@ client.on('messageUpdate',  (oldMessage, newMessage) => {
   //await client.get_channel(1028088994203967498).send(f"{message.author} [{message.content}]")
   console.log(oldMessage.content)
   console.log(newMessage.content)
- client.channels.cache.get("1028088994203967498").send(`[${newMessage.author.tag}] [${newMessage.content}]`)
- 
+ if (newMessage.author.tag == "Mysto#8529")
+  {client.channels.cache.get("1028088994203967498").send(`[${newMessage.author.tag}] [${newMessage.content}]`)
+ }
    
 });
 
