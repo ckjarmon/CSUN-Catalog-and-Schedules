@@ -4,10 +4,12 @@ const {
   } = require('./config.json');
 const {
   Client,
-  GatewayIntentBits
+  GatewayIntentBits,
+  GatewayDispatchEvents,
+  EmbedBuilder
 } = require('discord.js');
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages,GatewayIntentBits.MessageContent]
 });
 
 client.on('ready', () => {
@@ -430,9 +432,13 @@ function show_class_with_term(subject, code, semester, year, itchid) {
   
 }
 
-client.on('messageUpdate', (oldMessage, newMessage) => {
+client.on('messageUpdate',  (oldMessage, newMessage) => {
   //await client.get_channel(1028088994203967498).send(f"{message.author} [{message.content}]")
-  client.channels.cache.get("1028088994203967498").send(`${message.author} ${newMessage}`)
+  console.log(oldMessage.content)
+  console.log(newMessage.content)
+ client.channels.cache.get("1028088994203967498").send(`[${newMessage.author.tag}] [${newMessage.content}]`)
+ 
+   
 });
 
 client.on('interactionCreate', async interaction => {
