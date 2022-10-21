@@ -1,4 +1,4 @@
-require('dotenv').config() 
+require('dotenv').config()
 const {
   token
 } = require('./config.json');
@@ -45,23 +45,23 @@ function show_prof(subject, prof, itchid) {
             ret2 = (course.catalog_number.length === 4) ? ret2.concat("\t   " + course.catalog_number) : ret2.concat("\t   " + course.catalog_number + " ");
             ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
             ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
-            
+
             switch (course.meetings[0].days.length) {
               case 1:
                 ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
                 break;
               case 2:
-                ret2.concat("\t\t  " + course.meetings[0].days);
+                ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
                 break;
               case 3:
-                ret2.concat("\t\t  " + course.meetings[0].days);
+                ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
                 break;
               default:
                 ret2 = ret2.concat("\t\t " + course.meetings[0].days);
             }
 
-            
-            ret2 = ret2.concat(```\t\t\t ${(course.enrollment_cap - course.enrollment_cap)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}```); 
+
+            ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_cap)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
             ret2 = ret2.concat("\n");
           });
         } else {
@@ -94,11 +94,11 @@ function show_levels(subject, level, itchid) {
     json: true
   }, async function (error, response, body) {
     if (!error) {
-      ret1 = ret1.concat(subject.toUpperCase() + " " + level + "-level classes\n") 
+      ret1 = ret1.concat(subject.toUpperCase() + " " + level + "-level classes\n")
       for (let i = 0; i < subject.length; i++) {
         ret1 = ret1.concat("-")
       }
-      ret1 = ret1.concat("\n") 
+      ret1 = ret1.concat("\n")
       console.log(`http://127.0.0.1:8000/${subject}/catalog`);
       const stuffs = JSON.parse(JSON.stringify(body));
       stuffs.forEach(course => {
@@ -126,7 +126,7 @@ function show_class(subject, code, itchid) {
       const stuffs = JSON.parse(JSON.stringify(body));
       stuffs.forEach(course => {
         if (course.catalog_number === code) {
-          ret1 = ret1.concat(```${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n${course.subject} ${course.catalog_number} ${course.title}```);
+          ret1 = ret1.concat(`${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n${course.subject} ${course.catalog_number} ${course.title}`);
           ret1 = ret1.concat(" - FALL 2022");
           require("request")({
             url: `http://127.0.0.1:2222/time`,
@@ -154,24 +154,24 @@ function show_class(subject, code, itchid) {
           ret2 = ret2.concat("\t " + course.class_number);
           ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("\t\t       ") : ret2.concat("");
           ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
-          
-          
+
+
 
           switch (course.meetings[0].days.length) {
             case 1:
               ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
               break;
             case 2:
-              ret2.concat("\t\t  " + course.meetings[0].days);
+              ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
               break;
             case 3:
-              ret2.concat("\t\t  " + course.meetings[0].days);
+              ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
               break;
             default:
               ret2 = ret2.concat("\t\t " + course.meetings[0].days);
           }
 
-          ret2 = ret2.concat(```\t\t\t ${(course.enrollment_cap - course.enrollment_cap)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}```); 
+          ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_cap)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
           ret2 = (course.instructors.length > 0) ? ret2.concat("\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
           ret2 = ret2.concat("\n");
         }
@@ -238,21 +238,21 @@ function show_class_with_term(subject, code, semester, year, itchid) {
                   ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
                   break;
                 case 2:
-                  ret2.concat("\t\t  " + course.meetings[0].days);
+                  ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
                   break;
                 case 3:
-                  ret2.concat("\t\t  " + course.meetings[0].days);
+                  ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
                   break;
                 default:
                   ret2 = ret2.concat("\t\t " + course.meetings[0].days);
               }
-              
+
             } else {
               ret2 = ret2.concat("\t\t  --");
             }
 
-
-            ret2 = ret2.concat(```\t\t\t ${(course.enrollment_cap - course.enrollment_cap)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}```); 
+            console.log(ret2)
+            ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_cap)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
             ret2 = (course.instructors.length > 0 && course.instructors !== "Staff") ? ret2.concat("\t\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
             ret2 = ret2.concat("\n");
           }
@@ -302,7 +302,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
     }, async function (error, response, body) {
 
       console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/classes/' + subject);
-      
+
       if (!error) {
         const stuffs = JSON.parse(JSON.stringify(body));
         ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
@@ -312,24 +312,25 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret2 = ret2.concat("\t " + course.class_number);
             ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
             ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
-            
-            
-            
+
+
+
             switch (course.meetings[0].days.length) {
               case 1:
                 ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
                 break;
               case 2:
-                ret2.concat("\t\t  " + course.meetings[0].days);
+                ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
                 break;
               case 3:
-                ret2.concat("\t\t  " + course.meetings[0].days);
+                ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
                 break;
               default:
                 ret2 = ret2.concat("\t\t " + course.meetings[0].days);
             }
 
-            ret2 = ret2.concat(```\t\t\t {(course.enrollment_cap - course.enrollment_cap)}\t\t\t"{course.meetings[0].start_time.substring(0, 2)}:{course.meetings[0].start_time.substring(2, 4)} - {course.meetings[0].end_time.substring(0, 2)}:{course.meetings[0].end_time.substring(2, 4)}```); 
+
+            ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_cap)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
             ret2 = (course.instructors.length > 0) ? ret2.concat("\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
             ret2 = ret2.concat("\n");
 
@@ -355,8 +356,8 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 }
 
 client.on('messageUpdate', (oldMessage, newMessage) => {
-  console.log(oldMessage.content) 
-  console.log(newMessage.content) 
+  console.log(oldMessage.content)
+  console.log(newMessage.content)
   if (newMessage.author.tag == "Mysto#8529") {
     client.channels.cache.get("1028088994203967498").send(`[${newMessage.author.tag}] [${newMessage.content}]`)
   }
@@ -364,42 +365,48 @@ client.on('messageUpdate', (oldMessage, newMessage) => {
 
 client.on('interactionCreate', async interaction => {
   if (!interaction.isChatInputCommand()) return;
-  
-  const { commandName } = interaction;
-  
+
+  const {
+    commandName
+  } = interaction;
+
   if (commandName === 'class') {
-    
+
     itchid = interaction.channelId;
     semester = interaction.options.getString('semester');
     year = interaction.options.getString('year');
 
-    if ((semester || year) && !(semester && year)) { 
-      
+    if ((semester || year) && !(semester && year)) {
+
       await interaction.reply("Need both semester and year if other than Fall 2022.")
-    
+
     } else if (semester && year) {
-      
+
       var subject = "",
         fir_class = "",
         sec_class = "",
         thi_class = "";
-      
-        subject = interaction.options.getString('subject').toLowerCase();
+
+      subject = interaction.options.getString('subject').toLowerCase();
       fir_class = interaction.options.getString('catalog_number');
       sec_class = interaction.options.getString('catalog_number1');
       thi_class = interaction.options.getString('catalog_number2');
-      
-                       show_class_with_term(subject, fir_class, semester, year, itchid);
-      if (sec_class) { show_class_with_term(subject, sec_class, semester, year, itchid); }
-      if (thi_class) { show_class_with_term(subject, thi_class, semester, year, itchid); }
-    
-    
+
+      show_class_with_term(subject, fir_class, semester, year, itchid);
+      if (sec_class) {
+        show_class_with_term(subject, sec_class, semester, year, itchid);
+      }
+      if (thi_class) {
+        show_class_with_term(subject, thi_class, semester, year, itchid);
+      }
+
+
       await interaction.reply("Gimme a sec");
-    
-    
+
+
     } else {
-      
-      
+
+
       var subject = "",
         fir_class = "",
         sec_class = "",
@@ -412,45 +419,58 @@ client.on('interactionCreate', async interaction => {
       thi_class = interaction.options.getString('catalog_number2');
 
 
-                       show_class(subject, fir_class, itchid);
-      if (sec_class) { show_class(subject, sec_class, itchid); }
-      if (thi_class) { show_class(subject, thi_class, itchid); }
-      
+      show_class(subject, fir_class, itchid);
+      if (sec_class) {
+        show_class(subject, sec_class, itchid);
+      }
+      if (thi_class) {
+        show_class(subject, thi_class, itchid);
+      }
+
       await interaction.reply("Gimme a sec");
     }
   } else if (commandName === 'classes') {
-    
+
     itchid = interaction.channelId;
-    
-    const class1 = interaction.options.getString('class1').split(" ") 
+
+    const class1 = interaction.options.getString('class1').split(" ")
     const class2 = (interaction.options.getString('class2')) ? interaction.options.getString('class2').split(" ") : [];
     const class3 = (interaction.options.getString('class3')) ? interaction.options.getString('class3').split(" ") : [];
-    
-    
-    var semester = "", year = "";
-    
+
+
+    var semester = "",
+      year = "";
+
     semester = interaction.options.getString('semester');
     year = interaction.options.getString('year');
 
 
-    if ((semester || year) && !(semester && year)) { 
-      
+    if ((semester || year) && !(semester && year)) {
+
       await interaction.reply("Need both semester and year if other than Fall 2022.");
-    
+
     } else if (semester && year) {
 
-                           show_class_with_term(class1[0], class1[1], semester, year, itchid);
-      if (class2.length) { show_class_with_term(class2[0], class2[1], semester, year, itchid); }
-      if (class3.length) { show_class_with_term(class3[0], class3[1], semester, year, itchid); }
-      
+      show_class_with_term(class1[0], class1[1], semester, year, itchid);
+      if (class2.length) {
+        show_class_with_term(class2[0], class2[1], semester, year, itchid);
+      }
+      if (class3.length) {
+        show_class_with_term(class3[0], class3[1], semester, year, itchid);
+      }
+
       await interaction.reply("Gimme a sec");
 
     } else {
-      
-                           show_class(class1[0], class1[1], itchid);
-      if (class2.length) { show_class(class2[0], class2[1], itchid); }
-      if (class3.length) { show_class(class3[0], class3[1], itchid); }
-      
+
+      show_class(class1[0], class1[1], itchid);
+      if (class2.length) {
+        show_class(class2[0], class2[1], itchid);
+      }
+      if (class3.length) {
+        show_class(class3[0], class3[1], itchid);
+      }
+
       await interaction.reply("Gimme a sec");
     }
   } else if (commandName === 'prof') {
@@ -461,17 +481,17 @@ client.on('interactionCreate', async interaction => {
 
   } else if (commandName === 'help') {
 
-    let ret = "```\"/class\" for 1 or more classes of common subject \n\n" + 
-              "\"/classes\" for 1 or more classes of different subjects \n\n" + 
-              "\"/prof\" to show a prof's teaching schedule \n\n" + 
-              "Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
+    let ret = "```\"/class\" for 1 or more classes of common subject \n\n" +
+      "\"/classes\" for 1 or more classes of different subjects \n\n" +
+      "\"/prof\" to show a prof's teaching schedule \n\n" +
+      "Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
 
     await interaction.reply(ret);
 
   } else if (commandName === 'level') {
 
     itchid = interaction.channelId;
-    show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid) 
+    show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid)
     await interaction.reply("Gimme a sec");
 
   }
