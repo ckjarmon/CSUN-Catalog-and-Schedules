@@ -231,7 +231,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret2 = (course.class_number.length === 5) ? ret2.concat("\t " + course.class_number) : ret2.concat("\t  " + course.class_number);
             ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
             ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
-            if (course.meetings[0].days) {
+            //if (course.meetings[0].days) {
 
               switch (course.meetings[0].days.length) {
                 case 1:
@@ -247,9 +247,9 @@ function show_class_with_term(subject, code, semester, year, itchid) {
                   ret2 = ret2.concat("\t\t " + course.meetings[0].days);
               }
 
-            } else {
-              ret2 = ret2.concat("\t\t  --");
-            }
+            //} else {
+           ///   ret2 = ret2.concat("\t\t  --");
+           // }
 
            
             ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
