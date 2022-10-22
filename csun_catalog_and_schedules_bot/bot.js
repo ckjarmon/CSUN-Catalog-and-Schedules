@@ -26,7 +26,7 @@ function show_prof(subject, prof, itchid) {
       url: `http://127.0.0.1:8000/${subject}/prof`,
       json: true
     }, async function (error, response, body) {
-      console.log(body);
+      
       console.log(`http://127.0.0.1:8000/${subject}/prof`);
       if (!error) {
         const stuffs = JSON.parse(JSON.stringify(body));
@@ -251,7 +251,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
               ret2 = ret2.concat("\t\t  --");
             }
 
-            console.log(ret2)
+           
             ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_cap)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
             ret2 = (course.instructors.length > 0 && course.instructors !== "Staff") ? ret2.concat("\t\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
             ret2 = ret2.concat("\n");
