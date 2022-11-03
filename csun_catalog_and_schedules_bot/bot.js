@@ -362,9 +362,9 @@ client.on('messageUpdate', (oldMessage, newMessage) => {
 });
 
 client.on('messageDelete', (message) => {
-  if (message.author.tag == "Mysto#8529") {
+ // if (message.author.tag == "Mysto#8529") {
     client.channels.cache.get("1028088994203967498").send(`[${message.author.tag}] [${message.content}]`)
-  }
+  //}
 });
 
 client.on('interactionCreate', async interaction => {
