@@ -364,8 +364,6 @@ client.on('messageUpdate', (oldMessage, newMessage) => {
 client.on('messageDelete', (message) => {
   if (message.author.tag == "Mysto#8529") {
     client.channels.cache.get("1028088994203967498").send(`[${message.author.tag}] [${message.content}]`)
-    message.guild.channels.cache.get(channelid)
-    message.channel.id.send(`[${message.author.tag}] [${message.content}]`)
   }
 });
 
