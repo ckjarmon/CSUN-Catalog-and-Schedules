@@ -191,9 +191,7 @@ async def on_message(message):
     print(f"{message.author} [{message.content}]")
     
     
-    if str(message.author).__contains__("Mysto"):
-        await client.get_channel(1028088994203967498).send(f"{message.author} [{message.content}]")
-        
+
 
     muls = bool
     
