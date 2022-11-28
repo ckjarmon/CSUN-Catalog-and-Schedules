@@ -111,7 +111,7 @@ function show_prof(subject, itchid, id) {
     }, async function (error, response, body) {
 
       console.log(_url);
-      
+
       body.info["Name"] = body.info.first_name + " " + body.info.last_name;
       delete body.info.subject
       delete body.info.location
@@ -226,7 +226,6 @@ function show_class(subject, code, itchid) {
         if (course.catalog_number === code) {
           ret1 = ret1.concat(`${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n${course.subject} ${course.catalog_number} ${course.title}`);
           ret1 = ret1.concat(" - SPRING 2023");
-          ret1 = ret1.concat(time)
           require("request")({
             url: `http://127.0.0.1:2222/time`,
             json: true
