@@ -1,3573 +1,2625 @@
 {
-    "classes": [
+    "ENGL 113A": [
         {
-            "subject": "ENGL",
-            "catalog_number": "113A",
-            "title": "APPR UNIV WRTNG A",
             "class_number": "14339",
-            "enrollment_cap": 19,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR304",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Ganjavi,Shadi",
+            "days": "TR",
+            "location": "EU134",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "shadi.mahjoob@csun.edu",
+                "shadi.ganjavi@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113A",
-            "title": "APPR UNIV WRTNG A",
             "class_number": "14624",
-            "enrollment_cap": 19,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH285",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Robinson,Janice",
+            "days": "TR",
+            "location": "SH285",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "janice.robinson@csun.edu",
+                "janice.woolsey@csun.edu",
+                "janice.tessman@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113A",
-            "title": "APPR UNIV WRTNG A",
             "class_number": "14625",
-            "enrollment_cap": 19,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR304",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "jennifer.rodrick@csun.edu",
+            "days": "TR",
+            "location": "JR304",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "jennifer.rodrick@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113A",
-            "title": "APPR UNIV WRTNG A",
             "class_number": "14626",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "Roman,Kathleen Anne",
+            "days": "MW",
+            "location": "JR201",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "14653",
             "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR201",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "emily.havey@csun.edu",
+            "days": "TR",
+            "location": "JR217",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "emily.havey@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113A",
-            "title": "APPR UNIV WRTNG A",
             "class_number": "14658",
-            "enrollment_cap": 19,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR245",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "jennifer.rodrick@csun.edu",
+            "days": "TR",
+            "location": "JR247",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "jennifer.rodrick@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113A",
-            "title": "APPR UNIV WRTNG A",
             "class_number": "14816",
-            "enrollment_cap": 19,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR217",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Hernandez,Andrea P",
+            "days": "MW",
+            "location": "JR217",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "beverly.hernandez@csun.edu",
+                "andrea.hernandez@csun.edu",
+                "victoria.hernandez@csun.edu",
+                "carlos.a.hernandez@csun.edu",
+                "fernando.hernandez@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
+            "class_number": "14980",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "corinne.slosburg@csun.edu",
+            "days": "MW",
+            "location": "JR201",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "corinne.slosburg@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 113B": [
+        {
             "class_number": "14323",
-            "enrollment_cap": 19,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR217",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "jutta.schamp@csun.edu",
+            "days": "TR",
+            "location": "JR217",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "jutta.schamp@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14324",
-            "enrollment_cap": 19,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR303",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "Reynolds,Amy L",
+            "days": "MW",
+            "location": "JR303",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "victoria.reynolds@csun.edu",
+                "amy.reynolds@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14432",
-            "enrollment_cap": 19,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR245",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Reynolds,Amy L",
+            "days": "MW",
+            "location": "JR245",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "victoria.reynolds@csun.edu",
+                "amy.reynolds@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14433",
-            "enrollment_cap": 19,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR354",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "jutta.schamp@csun.edu",
+            "days": "TR",
+            "location": "JR354",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "jutta.schamp@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14434",
-            "enrollment_cap": 19,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR303",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "jennifer.rodrick@csun.edu",
+            "days": "TR",
+            "location": "JR303",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "jennifer.rodrick@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
-            "class_number": "14435",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR217",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14436",
-            "enrollment_cap": 19,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR245",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
+            "instructor": "Spitler-Lawson,Rae",
+            "days": "MW",
+            "location": "JR245",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14438",
-            "enrollment_cap": 19,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR245",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "terrie.mathis@csun.edu",
+            "days": "TR",
+            "location": "JR245",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "terrie.mathis@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14440",
-            "enrollment_cap": 19,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR354",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "corinne.slosburg@csun.edu",
+            "days": "MW",
+            "location": "JR354",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "corinne.slosburg@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
-            "class_number": "14443",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR201",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14448",
-            "enrollment_cap": 19,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR201",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Robinson,Janice",
+            "days": "TR",
+            "location": "JR201",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "janice.robinson@csun.edu",
+                "janice.woolsey@csun.edu",
+                "janice.tessman@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14449",
-            "enrollment_cap": 19,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR242",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "v.villela@csun.edu",
+            "days": "TR",
+            "location": "JR242",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "v.villela@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14450",
-            "enrollment_cap": 19,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR217",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
+            "instructor": "Spitler-Lawson,Rae",
+            "days": "MW",
+            "location": "JR217",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14451",
-            "enrollment_cap": 19,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR201",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "kirk.sever@csun.edu",
+            "days": "TR",
+            "location": "JR201",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "kirk.sever@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14452",
-            "enrollment_cap": 19,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Khadka,Santosh"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR303",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "santosh.khadka@csun.edu",
+            "days": "MW",
+            "location": "JR303",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "santosh.khadka@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 114A": [
         {
-            "subject": "ENGL",
-            "catalog_number": "114A",
-            "title": "APPR UNIV WRTNG A",
             "class_number": "14340",
-            "enrollment_cap": 19,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR242",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Robinson,Janice",
+            "days": "TR",
+            "location": "JR354",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "janice.robinson@csun.edu",
+                "janice.woolsey@csun.edu",
+                "janice.tessman@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "114A",
-            "title": "APPR UNIV WRTNG A",
             "class_number": "14661",
-            "enrollment_cap": 19,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR201",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "kirk.sever@csun.edu",
+            "days": "TR",
+            "location": "JR201",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "kirk.sever@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 114B": [
         {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
-            "class_number": "14290",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR354",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14496",
-            "enrollment_cap": 19,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR354",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Cross,Janet",
+            "days": "TR",
+            "location": "JR354",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "janet.kubler@csun.edu",
+                "janet.fish@csun.edu",
+                "janet.cross@csun.edu",
+                "janet.adams@csun.edu",
+                "sydney.cross@csun.edu",
+                "michael.crosswhite@csun.edu",
+                "mark.cross@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14497",
-            "enrollment_cap": 19,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR354",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Reynolds,Amy L",
+            "days": "MW",
+            "location": "JR354",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "victoria.reynolds@csun.edu",
+                "amy.reynolds@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14500",
-            "enrollment_cap": 19,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR245",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JR245",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14507",
-            "enrollment_cap": 19,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR303",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Cross,Janet",
+            "days": "TR",
+            "location": "JR303",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "janet.kubler@csun.edu",
+                "janet.fish@csun.edu",
+                "janet.cross@csun.edu",
+                "janet.adams@csun.edu",
+                "sydney.cross@csun.edu",
+                "michael.crosswhite@csun.edu",
+                "mark.cross@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14512",
-            "enrollment_cap": 19,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR242",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "stacey.bieber@csun.edu",
+            "days": "TR",
+            "location": "JR242",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "stacey.bieber@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14516",
-            "enrollment_cap": 19,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR201",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "kelly.rowley@csun.edu",
+            "days": "TR",
+            "location": "JR201",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "kelly.rowley@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14518",
-            "enrollment_cap": 19,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR201",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Reynolds,Amy L",
+            "days": "MW",
+            "location": "JR201",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "victoria.reynolds@csun.edu",
+                "amy.reynolds@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "114B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14521",
-            "enrollment_cap": 19,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH285",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
+            "instructor": "Roman,Kathleen Anne",
+            "days": "MW",
+            "location": "JR242",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
+        }
+    ],
+    "ENGL 115": [
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "14421",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH285",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "kelan.koning@csun.edu",
+            "days": "MW",
+            "location": "SH285",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "kelan.koning@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "14599",
-            "enrollment_cap": 24,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "EU131",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "EU131",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "14602",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR215",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "v.villela@csun.edu",
+            "days": "TR",
+            "location": "JR215",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "v.villela@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "14608",
-            "enrollment_cap": 24,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EU132",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "mary.griffith@csun.edu",
+            "days": "TR",
+            "location": "EU132",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "mary.griffith@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "15229",
-            "enrollment_cap": 24,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR201",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "jessica.glick@csun.edu",
+            "days": "MW",
+            "location": "JR201",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "jessica.glick@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "15230",
-            "enrollment_cap": 24,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR215",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "JR215",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "15277",
-            "enrollment_cap": 24,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR215",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "teresa.boyer@csun.edu",
+            "days": "MW",
+            "location": "JR215",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "teresa.boyer@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
+            "class_number": "15278",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "kelan.koning@csun.edu",
+            "days": "MW",
+            "location": "JR243",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "kelan.koning@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15279",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "noreen.v.lace@csun.edu",
+            "days": "TR",
+            "location": "SH192",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "noreen.v.lace@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15280",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Brady,Kimmerly D",
+            "days": "TR",
+            "location": "JR303",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "kimmerly.brady@csun.edu",
+                "keith.brady@csun.edu"
+            ]
+        },
+        {
             "class_number": "15311",
-            "enrollment_cap": 24,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR217",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "teresa.boyer@csun.edu",
+            "days": "MW",
+            "location": "JR217",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "teresa.boyer@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "15312",
-            "enrollment_cap": 24,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR354",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "kelly.rowley@csun.edu",
+            "days": "TR",
+            "location": "JR354",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "kelly.rowley@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "15313",
-            "enrollment_cap": 24,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR242",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "sean.pessin@csun.edu",
+            "days": "MW",
+            "location": "JR242",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "sean.pessin@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "15314",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR245",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "louis.solis@csun.edu",
+            "days": "TR",
+            "location": "JR247",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "louis.solis@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 205": [
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14175",
-            "enrollment_cap": 30,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pandey,Iswari P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR302",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Pandey,Iswari P",
+            "days": "R",
+            "location": "JR302",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "iswari.pandey@csun.edu",
+                "joanne.pandey@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14176",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR244",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "kimberly.wells@csun.edu",
+            "days": "TR",
+            "location": "JR244",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "kimberly.wells@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14177",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Khadka,Santosh"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR302",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "santosh.khadka@csun.edu",
+            "days": "MW",
+            "location": "JR302",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "santosh.khadka@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14179",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR303",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "amber.norwood@csun.edu",
+            "days": "T",
+            "location": "JR303",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "amber.norwood@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14180",
-            "enrollment_cap": 30,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR215",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "tina.bertacchi-love@csun.edu",
+            "days": "MW",
+            "location": "JR215",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "tina.bertacchi-love@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14181",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR215",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Glover,Star",
+            "days": "MW",
+            "location": "JR215",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "harry.stark@csun.edu",
+                "azure.glover@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14182",
-            "enrollment_cap": 30,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pandey,Iswari P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR302",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Pandey,Iswari P",
+            "days": "T",
+            "location": "JR302",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "iswari.pandey@csun.edu",
+                "joanne.pandey@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14183",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Schofield,Michael J",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "bruce.schofield@csun.edu",
+                "michael.schofield@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14184",
-            "enrollment_cap": 30,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR302",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "trista.payte@csun.edu",
+            "days": "T",
+            "location": "JR217",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "trista.payte@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14185",
-            "enrollment_cap": 30,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "kimberly.wells@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "kimberly.wells@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14186",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Khadka,Santosh"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR302",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "santosh.khadka@csun.edu",
+            "days": "MW",
+            "location": "JR302",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "santosh.khadka@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14187",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR242",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Brady,Kimmerly D",
+            "days": "R",
+            "location": "JR242",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "kimmerly.brady@csun.edu",
+                "keith.brady@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14188",
-            "enrollment_cap": 30,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "kimberly.wells@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "kimberly.wells@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14200",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "EU134",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "tina.bertacchi-love@csun.edu",
+            "days": "MW",
+            "location": "EU134",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "tina.bertacchi-love@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14778",
-            "enrollment_cap": 30,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR201",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "tina.bertacchi-love@csun.edu",
+            "days": "T",
+            "location": "JR201",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "tina.bertacchi-love@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14779",
-            "enrollment_cap": 30,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR302",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
+            "instructor": "Brady,Kimmerly D",
+            "days": "W",
+            "location": "JR302",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": [
+                "kimmerly.brady@csun.edu",
+                "keith.brady@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14780",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "EU134",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "amber.norwood@csun.edu",
+            "days": "M",
+            "location": "EU134",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "amber.norwood@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14782",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR217",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "tina.bertacchi-love@csun.edu",
+            "days": "TR",
+            "location": "JR217",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "tina.bertacchi-love@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "14785",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR215",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
+            "instructor": "Brady,Kimmerly D",
+            "days": "M",
+            "location": "JR215",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": [
+                "kimmerly.brady@csun.edu",
+                "keith.brady@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "205",
-            "title": "BUS COMM RHET CON",
             "class_number": "15029",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Schofield,Michael J",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "bruce.schofield@csun.edu",
+                "michael.schofield@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 208": [
         {
-            "subject": "ENGL",
-            "catalog_number": "208",
-            "title": "CREATIVE WRITING",
             "class_number": "13954",
-            "enrollment_cap": 26,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR302",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Young,Kimberly D",
+            "days": "TR",
+            "location": "JR302",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "kathleen.young@csun.edu",
+                "kimberly.young@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "208",
-            "title": "CREATIVE WRITING",
             "class_number": "13941",
-            "enrollment_cap": 26,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EU134",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "shubha.venugopal@csun.edu",
+            "days": "TR",
+            "location": "EU134",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "shubha.venugopal@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "208",
-            "title": "CREATIVE WRITING",
             "class_number": "13940",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,Rick",
+            "days": "T",
+            "location": "JR304",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "miriam.neirick@csun.edu",
+                "erick.jovel@csun.edu",
+                "rick.talbott@csun.edu",
+                "jennifer.rodrick@csun.edu",
+                "ricky.manoff@csun.edu",
+                "rick.gunther@csun.edu",
+                "david.hendrickson@csun.edu",
+                "erick.jimenez@csun.edu",
+                "rick.mitchell@csun.edu",
+                "susan.fitzpatrick-behrens@csun.edu",
+                "rick.covington@csun.edu",
+                "patrick.omalley@csun.edu",
+                "patrick.polk@csun.edu",
+                "james.mitchell@csun.edu",
+                "delora.mitchell@csun.edu",
+                "molly.rearick@csun.edu"
+            ]
+        },
+        {
+            "class_number": "14872",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "amber.norwood@csun.edu",
+            "days": "W",
+            "location": "SH285",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "amber.norwood@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 215": [
+        {
+            "class_number": "15092",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "richard.mcginis@csun.edu",
+            "days": "MW",
+            "location": "JR304",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "richard.mcginis@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15093",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Gides,John C",
+            "days": "T",
+            "location": "SH207",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "15094",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "richard.mcginis@csun.edu",
+            "days": "MW",
+            "location": "JR243",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "richard.mcginis@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15257",
+            "enrollment_cap": 19,
+            "enrollment_count": 0,
+            "instructor": "maseri.schultz@csun.edu",
+            "days": "T",
+            "location": "JR354",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": [
+                "maseri.schultz@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15261",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JR215",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
+        }
+    ],
+    "ENGL 250FE": [
+        {
+            "class_number": "14131",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mitchell,Rick"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR304",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Glover,Star",
+            "days": "MW",
+            "location": "EU134",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "harry.stark@csun.edu",
+                "azure.glover@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 255": [
         {
-            "subject": "ENGL",
-            "catalog_number": "208",
-            "title": "CREATIVE WRITING",
-            "class_number": "14037",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR303",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "208",
-            "title": "CREATIVE WRITING",
-            "class_number": "14872",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR303",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "215",
-            "title": "CRIT THINK WRIT",
-            "class_number": "15092",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Jennifer C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR304",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "215",
-            "title": "CRIT THINK WRIT",
-            "class_number": "15093",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Jennifer C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH207",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "215",
-            "title": "CRIT THINK WRIT",
-            "class_number": "15094",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR302",
-                    "start_time": "1900h",
-                    "end_time": "2015h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "215",
-            "title": "CRIT THINK WRIT",
-            "class_number": "15257",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR354",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "215",
-            "title": "CRIT THINK WRIT",
-            "class_number": "15261",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR215",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "215",
-            "title": "CRIT THINK WRIT",
-            "class_number": "15316",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "EU134",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "250FE",
-            "title": "PERS ENGL STUDIES",
-            "class_number": "14131",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH285",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "255",
-            "title": "INTRO TO LIT",
             "class_number": "14038",
-            "enrollment_cap": 37,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bryson,Michael E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "michael.bryson@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "michael.bryson@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "255",
-            "title": "INTRO TO LIT",
-            "class_number": "14615",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EU131",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "255",
-            "title": "INTRO TO LIT",
             "class_number": "14910",
-            "enrollment_cap": 37,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bryson,Michael E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "michael.bryson@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "michael.bryson@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 255HON": [
         {
-            "subject": "ENGL",
-            "catalog_number": "258",
-            "title": "MAJ ENG WRITERS I",
+            "class_number": "14627",
+            "enrollment_cap": 33,
+            "enrollment_count": 0,
+            "instructor": "Baker,Jeffrey S",
+            "days": "TR",
+            "location": "JR202",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "jeff.baker@csun.edu",
+                "katherine.r.baker@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 258": [
+        {
             "class_number": "14040",
-            "enrollment_cap": 32,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kleinman,Scott"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR304",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Kleinman,Scott",
+            "days": "TR",
+            "location": "JR304",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu",
+                "whitney.scott@csun.edu",
+                "scott.amiss@csun.edu",
+                "tomer.kleinman@csun.edu",
+                "scott.whitfield@csun.edu",
+                "scott.andrews@csun.edu",
+                "scott.kleinman@csun.edu",
+                "scott.shepard@csun.edu",
+                "scott.sturgeon@csun.edu",
+                "scott.appelrouth@csun.edu",
+                "scott.cooper@csun.edu",
+                "scott.ploen@csun.edu",
+                "scott.hauswirth@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 259": [
         {
-            "subject": "ENGL",
-            "catalog_number": "259",
-            "title": "MAJ ENG WRTERS II",
             "class_number": "14006",
-            "enrollment_cap": 32,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Byler,Lauren L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR302",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "lauren.byler@csun.edu",
+            "days": "TR",
+            "location": "JR302",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "lauren.byler@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "259",
-            "title": "MAJ ENG WRTERS II",
             "class_number": "13931",
-            "enrollment_cap": 32,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR244",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "maseri.schultz@csun.edu",
+            "days": "W",
+            "location": "JR244",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "maseri.schultz@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 275": [
         {
-            "subject": "ENGL",
-            "catalog_number": "275",
-            "title": "MAJOR AMER WRIT",
             "class_number": "13994",
-            "enrollment_cap": 32,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stanley,Sandra L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR244",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "sandra.stanley@csun.edu",
+            "days": "TR",
+            "location": "JR244",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "sandra.stanley@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 300": [
         {
-            "subject": "ENGL",
-            "catalog_number": "300",
-            "title": "CONTEMP LITRATURE",
             "class_number": "13936",
             "enrollment_cap": 37,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR352",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
+            "instructor": "audrey.thacker@csun.edu",
+            "days": "T",
+            "location": "JR352",
+            "start_time": "1530h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "audrey.thacker@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "300",
-            "title": "CONTEMP LITRATURE",
             "class_number": "13930",
-            "enrollment_cap": 37,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Tripp,Colleen M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "colleen.tripp@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "colleen.tripp@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "300",
-            "title": "CONTEMP LITRATURE",
             "class_number": "14678",
-            "enrollment_cap": 37,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Tripp,Colleen M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "colleen.tripp@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "colleen.tripp@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 301": [
         {
-            "subject": "ENGL",
-            "catalog_number": "301",
-            "title": "LANG AND LING",
             "class_number": "13989",
-            "enrollment_cap": 30,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shi,Enchao"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR244",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Shi,Enchao",
+            "days": "MW",
+            "location": "JR244",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "enchao.shi@csun.edu",
+                "margaret.shiffrar@csun.edu",
+                "christine.shin@csun.edu",
+                "yohannes.shiferaw@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 302": [
         {
-            "subject": "ENGL",
-            "catalog_number": "301",
-            "title": "LANG AND LING",
-            "class_number": "14043",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shi,Enchao"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR244",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "302",
-            "title": "INTR MOD GRAMMAR",
             "class_number": "14114",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR354",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Shi,Enchao",
+            "days": "MW",
+            "location": "JR354",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "enchao.shi@csun.edu",
+                "margaret.shiffrar@csun.edu",
+                "christine.shin@csun.edu",
+                "yohannes.shiferaw@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "302",
-            "title": "INTR MOD GRAMMAR",
             "class_number": "13953",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shi,Enchao"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH285",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Shi,Enchao",
+            "days": "MW",
+            "location": "SH285",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "enchao.shi@csun.edu",
+                "margaret.shiffrar@csun.edu",
+                "christine.shin@csun.edu",
+                "yohannes.shiferaw@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "302",
-            "title": "INTR MOD GRAMMAR",
             "class_number": "13945",
-            "enrollment_cap": 30,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shi,Enchao"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR242",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Shi,Enchao",
+            "days": "T",
+            "location": "JR242",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "enchao.shi@csun.edu",
+                "margaret.shiffrar@csun.edu",
+                "christine.shin@csun.edu",
+                "yohannes.shiferaw@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 303": [
         {
-            "subject": "ENGL",
-            "catalog_number": "303",
-            "title": "LANG-GRAM-LING",
             "class_number": "15216",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH285",
-                    "start_time": "0900h",
-                    "end_time": "0950h"
-                }
+            "instructor": "Ganjavi,Shadi",
+            "days": "TR",
+            "location": "JR348",
+            "start_time": "0900h",
+            "end_time": "0950h",
+            "possible_emails": [
+                "shadi.mahjoob@csun.edu",
+                "shadi.ganjavi@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "303",
-            "title": "LANG-GRAM-LING",
             "class_number": "15217",
-            "enrollment_cap": 30,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR217",
-                    "start_time": "1600h",
-                    "end_time": "1650h"
-                }
+            "instructor": "terrie.mathis@csun.edu",
+            "days": "TR",
+            "location": "JR132",
+            "start_time": "1600h",
+            "end_time": "1650h",
+            "possible_emails": [
+                "terrie.mathis@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 303L": [
         {
-            "subject": "ENGL",
-            "catalog_number": "303L",
-            "title": "LANGGRAMLINGLAB",
             "class_number": "15200",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH285",
-                    "start_time": "1000h",
-                    "end_time": "1050h"
-                }
+            "instructor": "Ganjavi,Shadi",
+            "days": "TR",
+            "location": "JR348",
+            "start_time": "1000h",
+            "end_time": "1050h",
+            "possible_emails": [
+                "shadi.mahjoob@csun.edu",
+                "shadi.ganjavi@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "303L",
-            "title": "LANGGRAMLINGLAB",
             "class_number": "15201",
-            "enrollment_cap": 30,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR217",
-                    "start_time": "1700h",
-                    "end_time": "1750h"
-                }
+            "instructor": "terrie.mathis@csun.edu",
+            "days": "TR",
+            "location": "JR132",
+            "start_time": "1700h",
+            "end_time": "1750h",
+            "possible_emails": [
+                "terrie.mathis@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 305": [
         {
-            "subject": "ENGL",
-            "catalog_number": "305",
-            "title": "INT EXPOSTRY WRIT",
             "class_number": "14059",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR303",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "jessica.glick@csun.edu",
+            "days": "W",
+            "location": "JR303",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "jessica.glick@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "305",
-            "title": "INT EXPOSTRY WRIT",
             "class_number": "14057",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR215",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Cross,Janet",
+            "days": "T",
+            "location": "JR215",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "janet.kubler@csun.edu",
+                "janet.fish@csun.edu",
+                "janet.cross@csun.edu",
+                "janet.adams@csun.edu",
+                "sydney.cross@csun.edu",
+                "michael.crosswhite@csun.edu",
+                "mark.cross@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "305",
-            "title": "INT EXPOSTRY WRIT",
             "class_number": "14058",
-            "enrollment_cap": 30,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Swenson,Patricia J",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "adam.swenson@csun.edu",
+                "pat.swenson@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "305",
-            "title": "INT EXPOSTRY WRIT",
             "class_number": "13928",
-            "enrollment_cap": 30,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "diana.shamiryan@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "diana.shamiryan@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "305",
-            "title": "INT EXPOSTRY WRIT",
             "class_number": "14060",
-            "enrollment_cap": 30,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR242",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Swenson,Patricia J",
+            "days": "MW",
+            "location": "JR242",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "adam.swenson@csun.edu",
+                "pat.swenson@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "305",
-            "title": "INT EXPOSTRY WRIT",
             "class_number": "14214",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "amanda.harrison@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "amanda.harrison@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 306": [
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
-            "class_number": "14090",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR302",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "14172",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "diana.shamiryan@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "diana.shamiryan@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "14372",
-            "enrollment_cap": 30,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "diana.shamiryan@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "diana.shamiryan@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "15035",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "noreen.v.lace@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "noreen.v.lace@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "14808",
-            "enrollment_cap": 30,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR242",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Gides,John C",
+            "days": "M",
+            "location": "JR242",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "14817",
-            "enrollment_cap": 30,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR204",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
-            ]
+            "instructor": "Gides,John C",
+            "days": "W",
+            "location": "JR204",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "14876",
-            "enrollment_cap": 30,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "amber.norwood@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "amber.norwood@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "14880",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "noreen.v.lace@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "noreen.v.lace@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "14917",
-            "enrollment_cap": 30,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR352",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "EU132",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "306",
-            "title": "REPORT WRITING",
             "class_number": "15031",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "stacey.bieber@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "stacey.bieber@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 308": [
         {
-            "subject": "ENGL",
-            "catalog_number": "308",
-            "title": "NARRATIVE WRITING",
             "class_number": "14061",
-            "enrollment_cap": 22,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pousson,Martin"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR247",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Pousson,Martin",
+            "days": "TR",
+            "location": "JR245",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "mario.martinez-quijada@csun.edu",
+                "martin.eisen@csun.edu",
+                "vincent.martinez@csun.edu",
+                "priscilla.martinez.497@my.csun.edu",
+                "jonathan.martinez@csun.edu",
+                "martin.cohen@csun.edu",
+                "jonathan.martin@csun.edu",
+                "nathan.martin@csun.edu",
+                "jess.martin@csun.edu",
+                "fernando.martinez@csun.edu",
+                "martin.pousson@csun.edu",
+                "joe.martinez@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "308",
-            "title": "NARRATIVE WRITING",
             "class_number": "14017",
-            "enrollment_cap": 22,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pousson,Martin"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR247",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Pousson,Martin",
+            "days": "TR",
+            "location": "JR245",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "mario.martinez-quijada@csun.edu",
+                "martin.eisen@csun.edu",
+                "vincent.martinez@csun.edu",
+                "priscilla.martinez.497@my.csun.edu",
+                "jonathan.martinez@csun.edu",
+                "martin.cohen@csun.edu",
+                "jonathan.martin@csun.edu",
+                "nathan.martin@csun.edu",
+                "jess.martin@csun.edu",
+                "fernando.martinez@csun.edu",
+                "martin.pousson@csun.edu",
+                "joe.martinez@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 309": [
         {
-            "subject": "ENGL",
-            "catalog_number": "308",
-            "title": "NARRATIVE WRITING",
-            "class_number": "14543",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "309",
-            "title": "VERSE WRITING",
             "class_number": "14002",
-            "enrollment_cap": 22,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hall,Leilani R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR304",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
+            "instructor": "Hall,Leilani R",
+            "days": "T",
+            "location": "JR304",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": [
+                "leilani.hall@csun.edu",
+                "ed.hall@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 310": [
         {
-            "subject": "ENGL",
-            "catalog_number": "310",
-            "title": "PLAYWRITING",
             "class_number": "14414",
-            "enrollment_cap": 22,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mitchell,Rick"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR242",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Mitchell,Rick",
+            "days": "TR",
+            "location": "JR242",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "miriam.neirick@csun.edu",
+                "erick.jovel@csun.edu",
+                "rick.talbott@csun.edu",
+                "jennifer.rodrick@csun.edu",
+                "ricky.manoff@csun.edu",
+                "rick.gunther@csun.edu",
+                "david.hendrickson@csun.edu",
+                "erick.jimenez@csun.edu",
+                "rick.mitchell@csun.edu",
+                "susan.fitzpatrick-behrens@csun.edu",
+                "rick.covington@csun.edu",
+                "patrick.omalley@csun.edu",
+                "patrick.polk@csun.edu",
+                "james.mitchell@csun.edu",
+                "delora.mitchell@csun.edu",
+                "molly.rearick@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 311": [
         {
-            "subject": "ENGL",
-            "catalog_number": "311",
-            "title": "HIST AFRO-AM WRIT",
-            "class_number": "14004",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR244",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "311",
-            "title": "HIST AFRO-AM WRIT",
             "class_number": "14062",
-            "enrollment_cap": 37,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR246",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "amanda.harrison@csun.edu",
+            "days": "W",
+            "location": "JR246",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "amanda.harrison@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "311",
-            "title": "HIST AFRO-AM WRIT",
             "class_number": "14541",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "amanda.harrison@csun.edu",
+            "days": "TR",
+            "location": "EU131",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "amanda.harrison@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 312": [
+        {
+            "class_number": "14148",
+            "enrollment_cap": 31,
+            "enrollment_count": 0,
+            "instructor": "steven.wexler@csun.edu",
+            "days": "MW",
+            "location": "JR304",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "steven.wexler@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 313": [
+        {
+            "class_number": "14104",
+            "enrollment_cap": 33,
+            "enrollment_count": 0,
+            "instructor": "steven.wexler@csun.edu",
+            "days": "M",
+            "location": "JR352",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "steven.wexler@csun.edu"
+            ]
+        },
+        {
+            "class_number": "13995",
             "enrollment_cap": 36,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EU134",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "steven.wexler@csun.edu",
+            "days": "W",
+            "location": "JR352",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "steven.wexler@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "312",
-            "title": "LITERATURE + FILM",
-            "class_number": "14148",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wexler,Steven N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR304",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "313",
-            "title": "POPULAR CULTURE",
-            "class_number": "14104",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wexler,Steven N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR352",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "313",
-            "title": "POPULAR CULTURE",
-            "class_number": "13995",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wexler,Steven N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR352",
-                    "start_time": "0200h",
-                    "end_time": "0315h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "313",
-            "title": "POPULAR CULTURE",
             "class_number": "14377",
-            "enrollment_cap": 37,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hatfield,Charles W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR348",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "charles.hatfield@csun.edu",
+            "days": "MW",
+            "location": "JR348",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "charles.hatfield@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 333": [
         {
-            "subject": "ENGL",
-            "catalog_number": "333",
-            "title": "COMICS",
             "class_number": "13943",
-            "enrollment_cap": 37,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hatfield,Charles W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR304",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "charles.hatfield@csun.edu",
+            "days": "MW",
+            "location": "JR304",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "charles.hatfield@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "333",
-            "title": "COMICS",
             "class_number": "14637",
-            "enrollment_cap": 37,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EU131",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "louis.solis@csun.edu",
+            "days": "TR",
+            "location": "JR352",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "louis.solis@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "333",
-            "title": "COMICS",
             "class_number": "14898",
-            "enrollment_cap": 37,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hattori,Tomo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Hattori,Tomo",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "tomo.hattori@csun.edu",
+                "isabella.crisostomo.119@my.csun.edu",
+                "monica.tomova@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "333",
-            "title": "COMICS",
-            "class_number": "15022",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR348",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "333",
-            "title": "COMICS",
             "class_number": "15023",
-            "enrollment_cap": 37,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "EU131",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "charles.hatfield@csun.edu",
+            "days": "MW",
+            "location": "EU131",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "charles.hatfield@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "333",
-            "title": "COMICS",
             "class_number": "15331",
-            "enrollment_cap": 37,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Spitler-Lawson,Rae",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "ENGL 355": [
         {
-            "subject": "ENGL",
-            "catalog_number": "355",
-            "title": "WRITING ABOUT LIT",
             "class_number": "14018",
-            "enrollment_cap": 26,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kleinman,Scott"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR302",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
+            "instructor": "Kleinman,Scott",
+            "days": "R",
+            "location": "JR302",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu",
+                "whitney.scott@csun.edu",
+                "scott.amiss@csun.edu",
+                "tomer.kleinman@csun.edu",
+                "scott.whitfield@csun.edu",
+                "scott.andrews@csun.edu",
+                "scott.kleinman@csun.edu",
+                "scott.shepard@csun.edu",
+                "scott.sturgeon@csun.edu",
+                "scott.appelrouth@csun.edu",
+                "scott.cooper@csun.edu",
+                "scott.ploen@csun.edu",
+                "scott.hauswirth@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "355",
-            "title": "WRITING ABOUT LIT",
             "class_number": "14064",
-            "enrollment_cap": 26,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kleinman,Scott"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR302",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
+            "instructor": "Kleinman,Scott",
+            "days": "T",
+            "location": "JR302",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu",
+                "whitney.scott@csun.edu",
+                "scott.amiss@csun.edu",
+                "tomer.kleinman@csun.edu",
+                "scott.whitfield@csun.edu",
+                "scott.andrews@csun.edu",
+                "scott.kleinman@csun.edu",
+                "scott.shepard@csun.edu",
+                "scott.sturgeon@csun.edu",
+                "scott.appelrouth@csun.edu",
+                "scott.cooper@csun.edu",
+                "scott.ploen@csun.edu",
+                "scott.hauswirth@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 364": [
         {
-            "subject": "ENGL",
-            "catalog_number": "364",
-            "title": "SHORT STORY",
             "class_number": "13937",
-            "enrollment_cap": 37,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Swenson,Patricia J",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "adam.swenson@csun.edu",
+                "pat.swenson@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "364",
-            "title": "SHORT STORY",
             "class_number": "14616",
-            "enrollment_cap": 37,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR304",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Mendoza PhD,Rub\u00e9n R",
+            "days": "T",
+            "location": "JR348",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "364",
-            "title": "SHORT STORY",
             "class_number": "14688",
-            "enrollment_cap": 37,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Mendoza PhD,Rub\u00e9n R",
+            "days": "R",
+            "location": "JR244",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
+        }
+    ],
+    "ENGL 368": [
         {
-            "subject": "ENGL",
-            "catalog_number": "368",
-            "title": "GAY MALE WRITERS",
             "class_number": "14866",
-            "enrollment_cap": 37,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR348",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "amanda.harrison@csun.edu",
+            "days": "R",
+            "location": "EU136",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "amanda.harrison@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 371": [
         {
-            "subject": "ENGL",
-            "catalog_number": "371",
-            "title": "ISS JEW-AM WRITNG",
             "class_number": "14094",
-            "enrollment_cap": 37,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "EU131",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "audrey.thacker@csun.edu",
+            "days": "W",
+            "location": "EU131",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "audrey.thacker@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 393": [
         {
-            "subject": "ENGL",
-            "catalog_number": "393",
-            "title": "JUN HONRS TUTR II",
             "class_number": "14282",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR301",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "406",
-            "title": "ADV EXPOSTRY WRIT",
-            "class_number": "14147",
             "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR242",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Hattori,Tomo",
+            "days": "W",
+            "location": "JR301",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": [
+                "tomo.hattori@csun.edu",
+                "isabella.crisostomo.119@my.csun.edu",
+                "monica.tomova@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 406": [
         {
-            "subject": "ENGL",
-            "catalog_number": "407",
-            "title": "COMP+THE PROFESNS",
+            "class_number": "14147",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "stacey.bieber@csun.edu",
+            "days": "M",
+            "location": "JR243",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "stacey.bieber@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 407": [
+        {
             "class_number": "14968",
-            "enrollment_cap": 30,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pandey,Iswari P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR244",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Pandey,Iswari P",
+            "days": "T",
+            "location": "JR244",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "iswari.pandey@csun.edu",
+                "joanne.pandey@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 408": [
         {
-            "subject": "ENGL",
-            "catalog_number": "408",
-            "title": "ADV NARR WRITING",
             "class_number": "13939",
-            "enrollment_cap": 24,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pousson,Martin"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR217",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Pousson,Martin",
+            "days": "TR",
+            "location": "JR217",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "mario.martinez-quijada@csun.edu",
+                "martin.eisen@csun.edu",
+                "vincent.martinez@csun.edu",
+                "priscilla.martinez.497@my.csun.edu",
+                "jonathan.martinez@csun.edu",
+                "martin.cohen@csun.edu",
+                "jonathan.martin@csun.edu",
+                "nathan.martin@csun.edu",
+                "jess.martin@csun.edu",
+                "fernando.martinez@csun.edu",
+                "martin.pousson@csun.edu",
+                "joe.martinez@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "408",
-            "title": "ADV NARR WRITING",
             "class_number": "14109",
-            "enrollment_cap": 24,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pousson,Martin"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EU134",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Pousson,Martin",
+            "days": "TR",
+            "location": "EU134",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "mario.martinez-quijada@csun.edu",
+                "martin.eisen@csun.edu",
+                "vincent.martinez@csun.edu",
+                "priscilla.martinez.497@my.csun.edu",
+                "jonathan.martinez@csun.edu",
+                "martin.cohen@csun.edu",
+                "jonathan.martin@csun.edu",
+                "nathan.martin@csun.edu",
+                "jess.martin@csun.edu",
+                "fernando.martinez@csun.edu",
+                "martin.pousson@csun.edu",
+                "joe.martinez@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "408",
-            "title": "ADV NARR WRITING",
             "class_number": "20785",
-            "enrollment_cap": 30,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Haake,Katharine K"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR242",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "kate.haake@csun.edu",
+            "days": "M",
+            "location": "JR242",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "kate.haake@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 412": [
         {
-            "subject": "ENGL",
-            "catalog_number": "412",
-            "title": "LITERARY MAGAZINE",
             "class_number": "14242",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR215",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "sean.pessin@csun.edu",
+            "days": "W",
+            "location": "JR215",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "sean.pessin@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 417": [
         {
-            "subject": "ENGL",
-            "catalog_number": "417",
-            "title": "SHAKESPRE SURVEY",
             "class_number": "15321",
-            "enrollment_cap": 37,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bryson,Michael E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR348",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "michael.bryson@csun.edu",
+            "days": "R",
+            "location": "JR348",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "michael.bryson@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 421MVL": [
         {
-            "subject": "ENGL",
-            "catalog_number": "419",
-            "title": "ENGL DR 1660-1800",
-            "class_number": "14416",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR348",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "421MVL",
-            "title": "MARVEL",
             "class_number": "20957",
-            "enrollment_cap": 25,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hatfield,Charles W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR330",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "charles.hatfield@csun.edu",
+            "days": "T",
+            "location": "JR330",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "charles.hatfield@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 428": [
         {
-            "subject": "ENGL",
-            "catalog_number": "428",
-            "title": "CHILD LIT",
             "class_number": "14065",
-            "enrollment_cap": 37,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Clark,Dorothy G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Clark,Dorothy G",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "rebecca.clarkmane@csun.edu",
+                "heather.clark@csun.edu",
+                "dorothy.g.clark@csun.edu",
+                "adam.clark@csun.edu",
+                "irene.clark@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "428",
-            "title": "CHILD LIT",
             "class_number": "14194",
-            "enrollment_cap": 37,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Howard,Krystal Jo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR348",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Howard,Krystal Jo",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "timothy.p.howard@csun.edu",
+                "alexander.howard@csun.edu",
+                "krystal.howard@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "428",
-            "title": "CHILD LIT",
             "class_number": "14124",
-            "enrollment_cap": 37,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Howard,Krystal Jo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR244",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Howard,Krystal Jo",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "timothy.p.howard@csun.edu",
+                "alexander.howard@csun.edu",
+                "krystal.howard@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 429": [
         {
-            "subject": "ENGL",
-            "catalog_number": "429",
-            "title": "LIT ADOLESCENTS",
             "class_number": "13927",
-            "enrollment_cap": 37,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR352",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Overman,Linda Rader R",
+            "days": "TR",
+            "location": "EU131",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "james.overman@csun.edu",
+                "linda.overman@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 434": [
         {
-            "subject": "ENGL",
-            "catalog_number": "434",
-            "title": "19TH-CEN WMN NOV",
             "class_number": "14841",
-            "enrollment_cap": 34,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Tripp,Colleen M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR244",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "colleen.tripp@csun.edu",
+            "days": "MW",
+            "location": "JR244",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "colleen.tripp@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 436": [
         {
-            "subject": "ENGL",
-            "catalog_number": "436",
-            "title": "MAJ CRIT THEORIES",
             "class_number": "13934",
-            "enrollment_cap": 37,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Dawahare,Anthony D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR348",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Dawahare,Anthony D",
+            "days": "MW",
+            "location": "JR348",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "anna.dawahare@csun.edu",
+                "anthony.dawahare@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "436",
-            "title": "MAJ CRIT THEORIES",
             "class_number": "14145",
-            "enrollment_cap": 37,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wexler,Steven N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR244",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "steven.wexler@csun.edu",
+            "days": "M",
+            "location": "JR244",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "steven.wexler@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "436",
-            "title": "MAJ CRIT THEORIES",
             "class_number": "14241",
-            "enrollment_cap": 37,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Dawahare,Anthony D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR348",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Dawahare,Anthony D",
+            "days": "M",
+            "location": "JR348",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "anna.dawahare@csun.edu",
+                "anthony.dawahare@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 455": [
         {
-            "subject": "ENGL",
-            "catalog_number": "455",
-            "title": "LITERACY&RHET",
             "class_number": "15391",
-            "enrollment_cap": 37,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Clark,Irene L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR244",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Clark,Irene L",
+            "days": "MW",
+            "location": "JR244",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "rebecca.clarkmane@csun.edu",
+                "heather.clark@csun.edu",
+                "dorothy.g.clark@csun.edu",
+                "adam.clark@csun.edu",
+                "irene.clark@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 456": [
         {
-            "subject": "ENGL",
-            "catalog_number": "456",
-            "title": "AGE OF REVOLUTIONS",
             "class_number": "15387",
-            "enrollment_cap": 37,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Spratt,Danielle L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR304",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "nazanin.keynejad@csun.edu",
+            "days": "W",
+            "location": "JR304",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "nazanin.keynejad@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 460": [
         {
-            "subject": "ENGL",
-            "catalog_number": "460",
-            "title": "VICTORIAN AGE",
             "class_number": "14693",
-            "enrollment_cap": 37,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Byler,Lauren L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR352",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "lauren.byler@csun.edu",
+            "days": "TR",
+            "location": "JR352",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "lauren.byler@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 463B": [
         {
-            "subject": "ENGL",
-            "catalog_number": "461",
-            "title": "MODRN BRITISH LIT",
-            "class_number": "15013",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR302",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "ENGL",
-            "catalog_number": "463B",
-            "title": "CONTEMP POETRY",
             "class_number": "14695",
-            "enrollment_cap": 37,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hall,Leilani R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR304",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Hall,Leilani R",
+            "days": "R",
+            "location": "JR304",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "leilani.hall@csun.edu",
+                "ed.hall@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 465": [
         {
-            "subject": "ENGL",
-            "catalog_number": "465",
-            "title": "THEORIES OF FICTION",
             "class_number": "13938",
-            "enrollment_cap": 37,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Higgs,Christopher D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR304",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "christopher.higgs@csun.edu",
+            "days": "M",
+            "location": "JR304",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "christopher.higgs@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 473": [
         {
-            "subject": "ENGL",
-            "catalog_number": "473",
-            "title": "AM LIT 1607-1860",
             "class_number": "14418",
-            "enrollment_cap": 37,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Dawahare,Anthony D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR302",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Dawahare,Anthony D",
+            "days": "MW",
+            "location": "JR302",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "anna.dawahare@csun.edu",
+                "anthony.dawahare@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 475": [
         {
-            "subject": "ENGL",
-            "catalog_number": "475",
-            "title": "AM LIT 1912-1945",
             "class_number": "13935",
-            "enrollment_cap": 37,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Dawahare,Anthony D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR302",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Dawahare,Anthony D",
+            "days": "MW",
+            "location": "JR302",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "anna.dawahare@csun.edu",
+                "anthony.dawahare@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 476": [
         {
-            "subject": "ENGL",
-            "catalog_number": "476",
-            "title": "CONTEM AMER LIT",
             "class_number": "14338",
-            "enrollment_cap": 37,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR304",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Mendoza PhD,Rub\u00e9n R",
+            "days": "W",
+            "location": "JR304",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "ENGL 487": [
         {
-            "subject": "ENGL",
-            "catalog_number": "487",
-            "title": "LATINO/A LIT",
             "class_number": "14289",
             "enrollment_cap": 37,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR348",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Mendoza PhD,Rub\u00e9n R",
+            "days": "T",
+            "location": "JR348",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "ENGL 490": [
         {
-            "subject": "ENGL",
-            "catalog_number": "490",
-            "title": "SR SEM NARR WRTNG",
             "class_number": "13947",
-            "enrollment_cap": 20,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Higgs,Christopher D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR352",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "christopher.higgs@csun.edu",
+            "days": "W",
+            "location": "JR352",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "christopher.higgs@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 491": [
         {
-            "subject": "ENGL",
-            "catalog_number": "491",
-            "title": "SR SEM VERSE WRTG",
             "class_number": "13923",
-            "enrollment_cap": 20,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hall,Leilani R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR319",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Hall,Leilani R",
+            "days": "TR",
+            "location": "JR319",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "leilani.hall@csun.edu",
+                "ed.hall@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 494": [
         {
-            "subject": "ENGL",
-            "catalog_number": "494",
-            "title": "ENGL INTERN SEM",
             "class_number": "14370",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR303",
-                    "start_time": "1600h",
-                    "end_time": "1650h"
-                }
+            "instructor": "heidi.schumacher@csun.edu",
+            "days": "W",
+            "location": "JR303",
+            "start_time": "1600h",
+            "end_time": "1650h",
+            "possible_emails": [
+                "heidi.schumacher@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 494IP": [
         {
-            "subject": "ENGL",
-            "catalog_number": "494IP",
-            "title": "ENGL INTERN PRGM",
             "class_number": "14328",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR303",
-                    "start_time": "1700h",
-                    "end_time": "1945h"
-                }
+            "instructor": "heidi.schumacher@csun.edu",
+            "days": "W",
+            "location": "JR303",
+            "start_time": "1700h",
+            "end_time": "1945h",
+            "possible_emails": [
+                "heidi.schumacher@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 495ESM": [
         {
-            "subject": "ENGL",
-            "catalog_number": "495ESM",
-            "title": "MULTIGEN LITERACY",
             "class_number": "14112",
-            "enrollment_cap": 20,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR304",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Overman,Linda Rader R",
+            "days": "T",
+            "location": "BB1238",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "james.overman@csun.edu",
+                "linda.overman@csun.edu"
             ]
-        },
+        }
+    ],
+    "ENGL 495GBL": [
         {
-            "subject": "ENGL",
-            "catalog_number": "495GBL",
-            "title": "GLOBAL LITERATURES",
             "class_number": "20958",
-            "enrollment_cap": 22,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pandey,Iswari P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR319",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Pandey,Iswari P",
+            "days": "R",
+            "location": "JR319",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "iswari.pandey@csun.edu",
+                "joanne.pandey@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 495HH": [
+        {
+            "class_number": "20959",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "michael.bryson@csun.edu",
+            "days": "R",
+            "location": "JR319",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "michael.bryson@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 495TW": [
+        {
+            "class_number": "21045",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "lauren.byler@csun.edu",
+            "days": "T",
+            "location": "JR303",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "lauren.byler@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 497A": [
+        {
+            "class_number": "14329",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "danielle.spratt@csun.edu",
+            "days": "R",
+            "location": "EU133",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "danielle.spratt@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 507": [
+        {
+            "class_number": "15264",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "danielle.spratt@csun.edu",
+            "days": "T",
+            "location": "JR201",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "danielle.spratt@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 512": [
+        {
+            "class_number": "14618",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,Rick",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "miriam.neirick@csun.edu",
+                "erick.jovel@csun.edu",
+                "rick.talbott@csun.edu",
+                "jennifer.rodrick@csun.edu",
+                "ricky.manoff@csun.edu",
+                "rick.gunther@csun.edu",
+                "david.hendrickson@csun.edu",
+                "erick.jimenez@csun.edu",
+                "rick.mitchell@csun.edu",
+                "susan.fitzpatrick-behrens@csun.edu",
+                "rick.covington@csun.edu",
+                "patrick.omalley@csun.edu",
+                "patrick.polk@csun.edu",
+                "james.mitchell@csun.edu",
+                "delora.mitchell@csun.edu",
+                "molly.rearick@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 525WC": [
+        {
+            "class_number": "20899",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "sandra.stanley@csun.edu",
+            "days": "R",
+            "location": "JR304",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "sandra.stanley@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 608": [
+        {
+            "class_number": "14891",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "kate.haake@csun.edu",
+            "days": "W",
+            "location": "JR319",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "kate.haake@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 609": [
+        {
+            "class_number": "14932",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Hall,Leilani R",
+            "days": "T",
+            "location": "JR319",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "leilani.hall@csun.edu",
+                "ed.hall@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 630USG": [
+        {
+            "class_number": "20900",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "colleen.tripp@csun.edu",
+            "days": "M",
+            "location": "JR302",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "colleen.tripp@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 651": [
+        {
+            "class_number": "14285",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "santosh.khadka@csun.edu",
+            "days": "W",
+            "location": "JR201",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "santosh.khadka@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 653": [
+        {
+            "class_number": "20791",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Clark,Irene L",
+            "days": "W",
+            "location": "JR348",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "rebecca.clarkmane@csun.edu",
+                "heather.clark@csun.edu",
+                "dorothy.g.clark@csun.edu",
+                "adam.clark@csun.edu",
+                "irene.clark@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 697C": [
+        {
+            "class_number": "14366",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "lauren.byler@csun.edu",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "lauren.byler@csun.edu"
+            ]
+        }
+    ],
+    "ENGL 698D": [
+        {
+            "class_number": "14287",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Lee,Jennifer C",
+            "days": "M",
+            "location": "JR319",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
         },
         {
-            "subject": "ENGL",
-            "catalog_number": "495GL",
-            "title": "Goodness in Lit",
-            "class_number": "15260",
-            "enrollment_cap": 20,
+            "class_number": "14845",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pandey,Iswari P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR242",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "christopher.higgs@csun.edu",
+            "days": "W",
+            "location": "JR319",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "christopher.higgs@csun.edu"
             ]
         }
     ]

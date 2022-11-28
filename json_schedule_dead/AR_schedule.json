@@ -1,0 +1,25 @@
+{
+    "classes": [
+        {
+            "subject": "A/R",
+            "catalog_number": "602",
+            "title": "TEACHER PERFORMANCE ASSESSMENT",
+            "class_number": "20545",
+            "enrollment_cap": 100,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "TBA",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        }
+    ]
+}

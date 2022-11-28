@@ -1,0 +1,1936 @@
+{
+    "classes": [
+        {
+            "subject": "CJS",
+            "catalog_number": "102",
+            "title": "INTRO CJS",
+            "class_number": "13001",
+            "enrollment_cap": 130,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Timmer,Anastasiia"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "EH2132",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "102",
+            "title": "INTRO CJS",
+            "class_number": "13002",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH280",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20685",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH303",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20686",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Pyo,Jimin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH180",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20689",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH180",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20690",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "ONLINE",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20691",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Pih,Kay Kei-Ho"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH303",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20692",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Posey,Brianne"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH303",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20693",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ramirez,Nayan G."
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH180",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20696",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Pyo,Jimin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH303",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20697",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20698",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "TBA",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "280",
+            "title": "STATS CRIM JUSTICE",
+            "class_number": "20700",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "TBA",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "310",
+            "title": "JUVENILE JUSTICE",
+            "class_number": "13003",
+            "enrollment_cap": 130,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Pih,Kay Kei-Ho"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "310",
+            "title": "JUVENILE JUSTICE",
+            "class_number": "13004",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH309",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "310",
+            "title": "JUVENILE JUSTICE",
+            "class_number": "13157",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH264",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "320",
+            "title": "INTRO TO CR LAW",
+            "class_number": "13005",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Zucker,Bruce A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH102",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "320",
+            "title": "INTRO TO CR LAW",
+            "class_number": "13006",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "320",
+            "title": "INTRO TO CR LAW",
+            "class_number": "13007",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "SH264",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "320",
+            "title": "INTRO TO CR LAW",
+            "class_number": "13162",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH182",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "320",
+            "title": "INTRO TO CR LAW",
+            "class_number": "13265",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH264",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "320",
+            "title": "INTRO TO CR LAW",
+            "class_number": "13266",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH182",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "326",
+            "title": "VICTIMOLOGY",
+            "class_number": "13008",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Lorenz,Katherine P"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "326",
+            "title": "VICTIMOLOGY",
+            "class_number": "13152",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Lorenz,Katherine P"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH264",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "326",
+            "title": "VICTIMOLOGY",
+            "class_number": "20767",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH276",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "328",
+            "title": "DIVERSITY & CRIME",
+            "class_number": "13267",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH106",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "334",
+            "title": "LAW ENF SECURITY",
+            "class_number": "13010",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "ONLINE",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "334",
+            "title": "LAW ENF SECURITY",
+            "class_number": "13156",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH276",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "340",
+            "title": "ETHICS IN CJ",
+            "class_number": "13011",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "340",
+            "title": "ETHICS IN CJ",
+            "class_number": "13012",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Shaw,Victor N"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH264",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "340",
+            "title": "ETHICS IN CJ",
+            "class_number": "13013",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "ONLINE",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "340",
+            "title": "ETHICS IN CJ",
+            "class_number": "13014",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH182",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "340",
+            "title": "ETHICS IN CJ",
+            "class_number": "13159",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH182",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "344",
+            "title": "CORRECTIONS",
+            "class_number": "13015",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Glidden,Marc"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH265",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "344",
+            "title": "CORRECTIONS",
+            "class_number": "13016",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH276",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "350",
+            "title": "CRIM THEORY",
+            "class_number": "13017",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Pih,Kay Kei-Ho"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH276",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "350",
+            "title": "CRIM THEORY",
+            "class_number": "13018",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Shaw,Victor N"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "350",
+            "title": "CRIM THEORY",
+            "class_number": "13019",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH264",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "350",
+            "title": "CRIM THEORY",
+            "class_number": "13020",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH264",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "350",
+            "title": "CRIM THEORY",
+            "class_number": "13158",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH265",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "360",
+            "title": "CAREER PLAN CJ",
+            "class_number": "13021",
+            "enrollment_cap": 120,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "CR5125",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "360",
+            "title": "CAREER PLAN CJ",
+            "class_number": "13022",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "360",
+            "title": "CAREER PLAN CJ",
+            "class_number": "13270",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH342",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "370",
+            "title": "CJ SYSTEMS",
+            "class_number": "13023",
+            "enrollment_cap": 130,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ballard,James D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "370",
+            "title": "CJ SYSTEMS",
+            "class_number": "13024",
+            "enrollment_cap": 60,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH386",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380",
+            "title": "CRIM METHODS",
+            "class_number": "20760",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH225",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380",
+            "title": "CRIM METHODS",
+            "class_number": "20761",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH209",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380",
+            "title": "CRIM METHODS",
+            "class_number": "20762",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH184",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380",
+            "title": "CRIM METHODS",
+            "class_number": "20763",
+            "enrollment_cap": 48,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1900h",
+                    "end_time": "1950h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380L",
+            "title": "CRIM METHODS LAB",
+            "class_number": "13028",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH180",
+                    "start_time": "1500h",
+                    "end_time": "1640h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380L",
+            "title": "CRIM METHODS LAB",
+            "class_number": "13029",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH180",
+                    "start_time": "1500h",
+                    "end_time": "1640h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380L",
+            "title": "CRIM METHODS LAB",
+            "class_number": "13031",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH180",
+                    "start_time": "1330h",
+                    "end_time": "1510h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380L",
+            "title": "CRIM METHODS LAB",
+            "class_number": "13160",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH180",
+                    "start_time": "1330h",
+                    "end_time": "1510h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380L",
+            "title": "CRIM METHODS LAB",
+            "class_number": "13274",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH180",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380L",
+            "title": "CRIM METHODS LAB",
+            "class_number": "13275",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH303",
+                    "start_time": "1300h",
+                    "end_time": "1440h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380L",
+            "title": "CRIM METHODS LAB",
+            "class_number": "13277",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "ONLINE",
+                    "start_time": "2000h",
+                    "end_time": "2140h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "380L",
+            "title": "CRIM METHODS LAB",
+            "class_number": "13278",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "ONLINE",
+                    "start_time": "2000h",
+                    "end_time": "2140h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "402",
+            "title": "GANGS",
+            "class_number": "13025",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ballard,James D"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "402",
+            "title": "GANGS",
+            "class_number": "13285",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH276",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "402",
+            "title": "GANGS",
+            "class_number": "13286",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH380",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "418",
+            "title": "GENDER AND CRIME",
+            "class_number": "13026",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH276",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "418",
+            "title": "GENDER AND CRIME",
+            "class_number": "13154",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH160",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "422",
+            "title": "WH COLL CRIME",
+            "class_number": "13027",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH276",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "432",
+            "title": "ALC, DRGS, AND CR",
+            "class_number": "13032",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "432",
+            "title": "ALC, DRGS, AND CR",
+            "class_number": "13287",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH106",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "438",
+            "title": "GENDER & CRIM JUSTCE",
+            "class_number": "13033",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Posey,Brianne"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH264",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "444",
+            "title": "COMM CORRECTIONS",
+            "class_number": "13034",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH182",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "444",
+            "title": "COMM CORRECTIONS",
+            "class_number": "20787",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH264",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "446",
+            "title": "DOMESTIC VIOLENCE",
+            "class_number": "13035",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Lorenz,Katherine P"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH264",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "446",
+            "title": "DOMESTIC VIOLENCE",
+            "class_number": "13290",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH160",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "448",
+            "title": "GLOBAL PERSP CJ",
+            "class_number": "13036",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Timmer,Anastasiia"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "452AV",
+            "title": "ADVOCACY IN CJS",
+            "class_number": "13083",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH264",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "452HR",
+            "title": "HUM RIGHTS CRIM & CJ",
+            "class_number": "13294",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH106",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "452ME",
+            "title": "MENTOR IN CJS",
+            "class_number": "13280",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ramirez,Nayan G."
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH276",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "452MH",
+            "title": "MENTAL HEALTH & CRIM",
+            "class_number": "13346",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH160",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "452MO",
+            "title": "MOSAIC",
+            "class_number": "13298",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH106",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "452PR",
+            "title": "PROFILING",
+            "class_number": "20788",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "452WD",
+            "title": "US DRUG WAR COLOMBIA",
+            "class_number": "21010",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH160",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "454AC",
+            "title": "APPLIED CORRECTIONS",
+            "class_number": "13342",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Glidden,Marc"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH264",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "454IC",
+            "title": "IMM, LAW & CRIME",
+            "class_number": "13082",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Gamino,Eric"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH276",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "454MJ",
+            "title": "MINORITIES AND CJ",
+            "class_number": "13292",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Posey,Brianne"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "454PL",
+            "title": "PSYCHOLOGY & LAW",
+            "class_number": "20789",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Pyo,Jimin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "454PY",
+            "title": "POLICE & YOUTH PROG",
+            "class_number": "20772",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Gamino,Eric"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH184",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "454RE",
+            "title": "REENTRY & PROGRAMS",
+            "class_number": "20790",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH276",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "454WJ",
+            "title": "WRIT & PERF SOC JUST",
+            "class_number": "20783",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mitchell,Rick"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH186",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "480",
+            "title": "APPL RES IN CJS",
+            "class_number": "13037",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH182",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "494A",
+            "title": "CJ INT SEMINAR",
+            "class_number": "13042",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Gamino,Eric"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH184",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "494AA",
+            "title": "CJ INT FIELD EXP",
+            "class_number": "13043",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "OFFCAM",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "494B",
+            "title": "CJ INT SEMINAR",
+            "class_number": "13044",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Zucker,Bruce A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "CY111",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "494BB",
+            "title": "CJ INT FIELD EXP",
+            "class_number": "13045",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Zucker,Bruce A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "OFFCAM",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "494E",
+            "title": "CJ INT SEMINAR",
+            "class_number": "13046",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "ONLINE",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "CJS",
+            "catalog_number": "494EE",
+            "title": "CJ INT FIELD EXP",
+            "class_number": "13047",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "OFFCAM",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        }
+    ]
+}

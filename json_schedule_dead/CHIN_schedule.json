@@ -1,0 +1,67 @@
+{
+    "classes": [
+        {
+            "subject": "CHIN",
+            "catalog_number": "101",
+            "title": "ELEM CHIN I",
+            "class_number": "14311",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Huang,Junliang"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR316",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
+                }
+            ]
+        },
+        {
+            "subject": "CHIN",
+            "catalog_number": "101",
+            "title": "ELEM CHIN I",
+            "class_number": "14642",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR203",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
+                }
+            ]
+        },
+        {
+            "subject": "CHIN",
+            "catalog_number": "102",
+            "title": "ELEM CHIN II",
+            "class_number": "14639",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR212",
+                    "start_time": "1300h",
+                    "end_time": "1440h"
+                }
+            ]
+        }
+    ]
+}

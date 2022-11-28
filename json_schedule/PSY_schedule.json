@@ -1,2817 +1,2020 @@
 {
-    "classes": [
+    "PSY 150": [
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12090",
-            "enrollment_cap": 183,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Huynh,Que-Lam"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "NH113",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Huynh,Que-Lam",
+            "days": "MW",
+            "location": "NH113",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "virginia.huynh@csun.edu",
+                "quelam.huynh@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12091",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Huynh,Que-Lam"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH380",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Huynh,Que-Lam",
+            "days": "MW",
+            "location": "SH380",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "virginia.huynh@csun.edu",
+                "quelam.huynh@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12092",
-            "enrollment_cap": 65,
+            "enrollment_cap": 56,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH203",
-                    "start_time": "1530h",
-                    "end_time": "1815h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "SH203",
+            "start_time": "1530h",
+            "end_time": "1815h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12093",
-            "enrollment_cap": 62,
+            "enrollment_cap": 50,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH342",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH342",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12094",
-            "enrollment_cap": 84,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH280",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH280",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12095",
-            "enrollment_cap": 84,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH280",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH280",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12139",
-            "enrollment_cap": 82,
+            "enrollment_cap": 74,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH386",
-                    "start_time": "1600h",
-                    "end_time": "1715h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH386",
+            "start_time": "1600h",
+            "end_time": "1715h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12177",
-            "enrollment_cap": 74,
+            "enrollment_cap": 57,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH309",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "F",
+            "location": "SH309",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12217",
-            "enrollment_cap": 84,
+            "enrollment_cap": 55,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH280",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH280",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12551",
-            "enrollment_cap": 60,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shiffrar,Maggie M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "margaret.shiffrar@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "margaret.shiffrar@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "150",
-            "title": "INTRO PSYCH",
             "class_number": "12552",
-            "enrollment_cap": 60,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shiffrar,Maggie M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "margaret.shiffrar@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "margaret.shiffrar@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 250": [
         {
-            "subject": "PSY",
-            "catalog_number": "250",
-            "title": "PHYS COR HUM BEH",
             "class_number": "12096",
-            "enrollment_cap": 74,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Abara,Jose P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH309",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
+            "instructor": "jose.abara@csun.edu",
+            "days": "F",
+            "location": "SH309",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "jose.abara@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "250",
-            "title": "PHYS COR HUM BEH",
             "class_number": "12478",
-            "enrollment_cap": 130,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Abara,Jose P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EH2132",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
+            "instructor": "jose.abara@csun.edu",
+            "days": "TR",
+            "location": "EH2132",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": [
+                "jose.abara@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 301": [
         {
-            "subject": "PSY",
-            "catalog_number": "301",
-            "title": "PSY PREPROFESSION",
             "class_number": "12261",
-            "enrollment_cap": 360,
+            "enrollment_cap": 251,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Malmberg,Debra Berry"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "debra.malmberg@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "debra.malmberg@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "301",
-            "title": "PSY PREPROFESSION",
             "class_number": "12262",
-            "enrollment_cap": 180,
+            "enrollment_cap": 68,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fenn,Elise A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "elise.fenn@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "elise.fenn@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 310": [
         {
-            "subject": "PSY",
-            "catalog_number": "310",
-            "title": "ABNORMAL PSYCH",
             "class_number": "12098",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mitrushina,Maura N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH365",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "maura.mitrushina@csun.edu",
+            "days": "MW",
+            "location": "SH365",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "maura.mitrushina@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "310",
-            "title": "ABNORMAL PSYCH",
             "class_number": "12464",
-            "enrollment_cap": 82,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Katz,Gary S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH386",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Katz,Gary S",
+            "days": "MW",
+            "location": "SH386",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "charles.katz@csun.edu",
+                "daniel.katz@csun.edu",
+                "gary.katz@csun.edu",
+                "richard.katz@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "310",
-            "title": "ABNORMAL PSYCH",
             "class_number": "12500",
-            "enrollment_cap": 231,
+            "enrollment_cap": 188,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Arentoft,Alyssa"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "LA181",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
-        },
+            "instructor": "Arentoft,Alyssa",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": []
+        }
+    ],
+    "PSY 312": [
         {
-            "subject": "PSY",
-            "catalog_number": "312",
-            "title": "PSY ASPCTS PRATHD",
             "class_number": "12579",
-            "enrollment_cap": 74,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hamer,Marc R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1830h",
-                    "end_time": "1945h"
-                }
+            "instructor": "marc.hamer@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1830h",
+            "end_time": "1945h",
+            "possible_emails": [
+                "marc.hamer@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "312",
-            "title": "PSY ASPCTS PRATHD",
             "class_number": "12913",
-            "enrollment_cap": 74,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Blum,Nancy A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH309",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Blum,Nancy A",
+            "days": "MW",
+            "location": "SH309",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "nancy.blum@csun.edu",
+                "david.blumenkrantz@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 313": [
         {
-            "subject": "PSY",
-            "catalog_number": "313",
-            "title": "DEVELOPMENTAL PSY",
             "class_number": "12445",
-            "enrollment_cap": 130,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rashtian,Andrea M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "andrea.rashtian@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "andrea.rashtian@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "313",
-            "title": "DEVELOPMENTAL PSY",
             "class_number": "12564",
-            "enrollment_cap": 48,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Saetermoe,Carrie L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH380",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
+            "instructor": "Saetermoe,Carrie L",
+            "days": "MW",
+            "location": "SH380",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "313",
-            "title": "DEVELOPMENTAL PSY",
             "class_number": "12828",
-            "enrollment_cap": 48,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Saetermoe,Carrie L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH380",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
+            "instructor": "Saetermoe,Carrie L",
+            "days": "MW",
+            "location": "SH380",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
+        }
+    ],
+    "PSY 320": [
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12100",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Quilici,Jill L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH380",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "jill.quilici@csun.edu",
+            "days": "TR",
+            "location": "SH380",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "jill.quilici@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12104",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "mark.otten@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mark.otten@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12107",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "mark.otten@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mark.otten@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12117",
-            "enrollment_cap": 48,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kang,Sun-Mee"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Kang,Sun-Mee",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "piljoo.kang@csun.edu",
+                "sun-mee.kang@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12143",
-            "enrollment_cap": 48,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kang,Sun-Mee"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Kang,Sun-Mee",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "piljoo.kang@csun.edu",
+                "sun-mee.kang@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12154",
-            "enrollment_cap": 48,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Berzenski,Sara R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH365",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "sara.berzenski@csun.edu",
+            "days": "TR",
+            "location": "SH365",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "sara.berzenski@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12398",
-            "enrollment_cap": 72,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH386",
-                    "start_time": "1730h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Hess,Michael A",
+            "days": "TR",
+            "location": "SH386",
+            "start_time": "1730h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "gigi.k.hessamian@csun.edu",
+                "michael.hess@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12399",
-            "enrollment_cap": 48,
+            "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Abara,Jose P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "SH365",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
+            "instructor": "jose.abara@csun.edu",
+            "days": null,
+            "location": "SH365",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "jose.abara@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320",
-            "title": "STAT METH PSY RES",
             "class_number": "12215",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kantner,Justin D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH365",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "justin.kantner@csun.edu",
+            "days": "TR",
+            "location": "SH365",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "justin.kantner@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 320L": [
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12101",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Quilici,Jill L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH341",
-                    "start_time": "1230h",
-                    "end_time": "1320h"
-                }
+            "instructor": "jill.quilici@csun.edu",
+            "days": "TR",
+            "location": "SH341",
+            "start_time": "1230h",
+            "end_time": "1320h",
+            "possible_emails": [
+                "jill.quilici@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12102",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Quilici,Jill L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH341",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
+            "instructor": "jill.quilici@csun.edu",
+            "days": "TR",
+            "location": "SH341",
+            "start_time": "1400h",
+            "end_time": "1450h",
+            "possible_emails": [
+                "jill.quilici@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12109",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "mark.otten@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mark.otten@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12118",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "mark.otten@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mark.otten@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12231",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "mark.otten@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mark.otten@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12232",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Otten,Mark P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "mark.otten@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mark.otten@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12274",
-            "enrollment_cap": 24,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kang,Sun-Mee"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Kang,Sun-Mee",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "piljoo.kang@csun.edu",
+                "sun-mee.kang@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12275",
-            "enrollment_cap": 24,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kang,Sun-Mee"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Kang,Sun-Mee",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "piljoo.kang@csun.edu",
+                "sun-mee.kang@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12280",
-            "enrollment_cap": 24,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kang,Sun-Mee"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Kang,Sun-Mee",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "piljoo.kang@csun.edu",
+                "sun-mee.kang@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12281",
-            "enrollment_cap": 24,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kang,Sun-Mee"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Kang,Sun-Mee",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "piljoo.kang@csun.edu",
+                "sun-mee.kang@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12286",
-            "enrollment_cap": 24,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Berzenski,Sara R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH341",
-                    "start_time": "0830h",
-                    "end_time": "0920h"
-                }
+            "instructor": "sara.berzenski@csun.edu",
+            "days": "TR",
+            "location": "SH341",
+            "start_time": "0830h",
+            "end_time": "0920h",
+            "possible_emails": [
+                "sara.berzenski@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12287",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Berzenski,Sara R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH341",
-                    "start_time": "1100h",
-                    "end_time": "1150h"
-                }
+            "instructor": "sara.berzenski@csun.edu",
+            "days": "TR",
+            "location": "SH341",
+            "start_time": "1100h",
+            "end_time": "1150h",
+            "possible_emails": [
+                "sara.berzenski@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12401",
-            "enrollment_cap": 24,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH341",
-                    "start_time": "1630h",
-                    "end_time": "1720h"
-                }
+            "instructor": "Hess,Michael A",
+            "days": "TR",
+            "location": "SH341",
+            "start_time": "1630h",
+            "end_time": "1720h",
+            "possible_emails": [
+                "gigi.k.hessamian@csun.edu",
+                "michael.hess@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12402",
-            "enrollment_cap": 24,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH341",
-                    "start_time": "1900h",
-                    "end_time": "2040h"
-                }
+            "instructor": "Hess,Michael A",
+            "days": "T",
+            "location": "SH341",
+            "start_time": "1900h",
+            "end_time": "2040h",
+            "possible_emails": [
+                "gigi.k.hessamian@csun.edu",
+                "michael.hess@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12403",
-            "enrollment_cap": 24,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH341",
-                    "start_time": "1900h",
-                    "end_time": "2040h"
-                }
+            "instructor": "Hess,Michael A",
+            "days": "R",
+            "location": "SH341",
+            "start_time": "1900h",
+            "end_time": "2040h",
+            "possible_emails": [
+                "gigi.k.hessamian@csun.edu",
+                "michael.hess@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12407",
-            "enrollment_cap": 24,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Abara,Jose P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "SH374",
-                    "start_time": "1000h",
-                    "end_time": "1050h"
-                }
+            "instructor": "jose.abara@csun.edu",
+            "days": null,
+            "location": "SH374",
+            "start_time": "1000h",
+            "end_time": "1050h",
+            "possible_emails": [
+                "jose.abara@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12408",
-            "enrollment_cap": 24,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Abara,Jose P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "SH374",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
+            "instructor": "jose.abara@csun.edu",
+            "days": null,
+            "location": "SH374",
+            "start_time": "1400h",
+            "end_time": "1450h",
+            "possible_emails": [
+                "jose.abara@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "320L",
-            "title": "LAB STAT METH",
             "class_number": "12452",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kantner,Justin D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH374",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
+            "instructor": "justin.kantner@csun.edu",
+            "days": "T",
+            "location": "SH374",
+            "start_time": "1400h",
+            "end_time": "1450h",
+            "possible_emails": [
+                "justin.kantner@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 321": [
         {
-            "subject": "PSY",
-            "catalog_number": "321",
-            "title": "PSY RESEARCH METH",
             "class_number": "12130",
-            "enrollment_cap": 72,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ruvalcaba,Omar"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH309",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Ruvalcaba,Omar",
+            "days": "MW",
+            "location": "SH309",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "mxiomara.floresholguin@csun.edu",
+                "omar.ruvalcaba@csun.edu",
+                "omar.gonzalez.93@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321",
-            "title": "PSY RESEARCH METH",
             "class_number": "12131",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Plunkett,Scott W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH380",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "scott.plunkett@csun.edu",
+            "days": "MW",
+            "location": "SH380",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321",
-            "title": "PSY RESEARCH METH",
             "class_number": "12250",
-            "enrollment_cap": 96,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Drew,Stefanie A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "CR5125",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "stefanie.drew@csun.edu",
+            "days": "TR",
+            "location": "CR5125",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "stefanie.drew@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321",
-            "title": "PSY RESEARCH METH",
             "class_number": "12251",
-            "enrollment_cap": 72,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sadeh,Michelle"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH309",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
+            "instructor": "Sadeh,Michelle",
+            "days": "TR",
+            "location": "SH309",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": [
+                "michelle.rozic@csun.edu",
+                "michelle.sadeh@csun.edu",
+                "michelle.street@csun.edu",
+                "michelle.brownlee@csun.edu",
+                "michelle.menjivar@csun.edu",
+                "michelle.rodriguez@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321",
-            "title": "PSY RESEARCH METH",
             "class_number": "12292",
-            "enrollment_cap": 72,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fritz,Kristina Adela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH280",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "kristina.fritz@csun.edu",
+            "days": "MW",
+            "location": "SH280",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "kristina.fritz@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321",
-            "title": "PSY RESEARCH METH",
             "class_number": "12293",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wilson,Essence L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH365",
-                    "start_time": "1830h",
-                    "end_time": "1945h"
-                }
+            "instructor": "Wilson,Essence L",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1830h",
+            "end_time": "1945h",
+            "possible_emails": [
+                "essence.wilson@csun.edu",
+                "emily.wilson.514@my.csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321",
-            "title": "PSY RESEARCH METH",
             "class_number": "12294",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH365",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Hess,Michael A",
+            "days": "F",
+            "location": "SH365",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "gigi.k.hessamian@csun.edu",
+                "michael.hess@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 321L": [
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12296",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ruvalcaba,Omar"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Ruvalcaba,Omar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mxiomara.floresholguin@csun.edu",
+                "omar.ruvalcaba@csun.edu",
+                "omar.gonzalez.93@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12297",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ruvalcaba,Omar"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Ruvalcaba,Omar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mxiomara.floresholguin@csun.edu",
+                "omar.ruvalcaba@csun.edu",
+                "omar.gonzalez.93@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12298",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ruvalcaba,Omar"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Ruvalcaba,Omar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mxiomara.floresholguin@csun.edu",
+                "omar.ruvalcaba@csun.edu",
+                "omar.gonzalez.93@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12302",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Plunkett,Scott W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH341",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "scott.plunkett@csun.edu",
+            "days": "MW",
+            "location": "SH341",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12303",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Plunkett,Scott W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH341",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "scott.plunkett@csun.edu",
+            "days": "MW",
+            "location": "SH341",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12320",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH389",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "SH389",
+            "start_time": "1530h",
+            "end_time": "1645h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12321",
-            "enrollment_cap": 24,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH389",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "SH389",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12694",
-            "enrollment_cap": 24,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH374",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "SH374",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12322",
-            "enrollment_cap": 24,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH374",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "SH374",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": []
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12325",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sadeh,Michelle"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH374",
-                    "start_time": "1830h",
-                    "end_time": "1945h"
-                }
+            "instructor": "Sadeh,Michelle",
+            "days": "T",
+            "location": "SH374",
+            "start_time": "1830h",
+            "end_time": "1945h",
+            "possible_emails": [
+                "michelle.rozic@csun.edu",
+                "michelle.sadeh@csun.edu",
+                "michelle.street@csun.edu",
+                "michelle.brownlee@csun.edu",
+                "michelle.menjivar@csun.edu",
+                "michelle.rodriguez@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12326",
-            "enrollment_cap": 24,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sadeh,Michelle"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH374",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
+            "instructor": "Sadeh,Michelle",
+            "days": "R",
+            "location": "SH374",
+            "start_time": "1530h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "michelle.rozic@csun.edu",
+                "michelle.sadeh@csun.edu",
+                "michelle.street@csun.edu",
+                "michelle.brownlee@csun.edu",
+                "michelle.menjivar@csun.edu",
+                "michelle.rodriguez@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12327",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sadeh,Michelle"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH374",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
+            "instructor": "Sadeh,Michelle",
+            "days": "T",
+            "location": "SH374",
+            "start_time": "1530h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "michelle.rozic@csun.edu",
+                "michelle.sadeh@csun.edu",
+                "michelle.street@csun.edu",
+                "michelle.brownlee@csun.edu",
+                "michelle.menjivar@csun.edu",
+                "michelle.rodriguez@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12331",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fritz,Kristina Adela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH374",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "kristina.fritz@csun.edu",
+            "days": "M",
+            "location": "SH374",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "kristina.fritz@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12332",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fritz,Kristina Adela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH374",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "kristina.fritz@csun.edu",
+            "days": "W",
+            "location": "SH374",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "kristina.fritz@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12333",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fritz,Kristina Adela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH374",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "kristina.fritz@csun.edu",
+            "days": "M",
+            "location": "SH374",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "kristina.fritz@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12337",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wilson,Essence L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "2000h",
-                    "end_time": "2115h"
-                }
+            "instructor": "Wilson,Essence L",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "2000h",
+            "end_time": "2115h",
+            "possible_emails": [
+                "essence.wilson@csun.edu",
+                "emily.wilson.514@my.csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12338",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wilson,Essence L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
+            "instructor": "Wilson,Essence L",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": [
+                "essence.wilson@csun.edu",
+                "emily.wilson.514@my.csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12343",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH341",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Hess,Michael A",
+            "days": "F",
+            "location": "SH341",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "gigi.k.hessamian@csun.edu",
+                "michael.hess@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "321L",
-            "title": "PSY RES METH LAB",
             "class_number": "12344",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hess,Michael A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH341",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Hess,Michael A",
+            "days": "F",
+            "location": "SH341",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "gigi.k.hessamian@csun.edu",
+                "michael.hess@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 327": [
         {
-            "subject": "PSY",
-            "catalog_number": "327",
-            "title": "INFANCY/EARLYCHLD",
             "class_number": "12779",
-            "enrollment_cap": 48,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jin,Chunying"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH203",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "Jin,Chunying",
+            "days": "MW",
+            "location": "SH203",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "suhyun.jin@csun.edu",
+                "chunying.jin@csun.edu",
+                "yanbo.jin@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "327",
-            "title": "INFANCY/EARLYCHLD",
             "class_number": "12780",
-            "enrollment_cap": 62,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Viani,Gidget"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH342",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "gidget.brogdon.982@csun.edu",
+            "days": "MW",
+            "location": "SH342",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "gidget.brogdon.982@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 345": [
         {
-            "subject": "PSY",
-            "catalog_number": "345",
-            "title": "SOCIAL PSYCHOLOGY",
             "class_number": "12110",
-            "enrollment_cap": 200,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mcauliff,Bradley D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "bradley.mcauliff@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "bradley.mcauliff@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "345",
-            "title": "SOCIAL PSYCHOLOGY",
             "class_number": "12476",
-            "enrollment_cap": 60,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mcauliff,Bradley D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "bradley.mcauliff@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "bradley.mcauliff@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "345",
-            "title": "SOCIAL PSYCHOLOGY",
             "class_number": "12535",
-            "enrollment_cap": 231,
+            "enrollment_cap": 193,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mahmud,Aida"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "LA181",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Mahmud,Aida",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "nasser.alwehaidah@csun.edu",
+                "aida.mahmud@csun.edu",
+                "carl.maida@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "345",
-            "title": "SOCIAL PSYCHOLOGY",
             "class_number": "12788",
-            "enrollment_cap": 150,
+            "enrollment_cap": 141,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fritz,Kristina Adela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JA100",
-                    "start_time": "0930h",
-                    "end_time": "2415h"
-                }
+            "instructor": "kristina.fritz@csun.edu",
+            "days": "F",
+            "location": "JA100",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "kristina.fritz@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 351": [
         {
-            "subject": "PSY",
-            "catalog_number": "351",
-            "title": "BEH PSY & THERAPY",
             "class_number": "12521",
-            "enrollment_cap": 120,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Malmberg,Debra Berry"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "debra.malmberg@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "debra.malmberg@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "351",
-            "title": "BEH PSY & THERAPY",
             "class_number": "12781",
-            "enrollment_cap": 185,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kazemi,Ellie"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Kazemi,Ellie",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "ellie.kazemi@csun.edu",
+                "kellie.m.evans@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "351",
-            "title": "BEH PSY & THERAPY",
             "class_number": "12833",
-            "enrollment_cap": 62,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jin,Chunying"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH342",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Jin,Chunying",
+            "days": "MW",
+            "location": "SH342",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "suhyun.jin@csun.edu",
+                "chunying.jin@csun.edu",
+                "yanbo.jin@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 352": [
         {
-            "subject": "PSY",
-            "catalog_number": "352",
-            "title": "MOTIVATION",
             "class_number": "12562",
-            "enrollment_cap": 84,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hamer,Marc R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH120",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "marc.hamer@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "marc.hamer@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "352",
-            "title": "MOTIVATION",
             "class_number": "12782",
-            "enrollment_cap": 82,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hamer,Marc R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
+            "instructor": "marc.hamer@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": [
+                "marc.hamer@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "352",
-            "title": "MOTIVATION",
             "class_number": "12783",
-            "enrollment_cap": 130,
+            "enrollment_cap": 69,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stark,Harry J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EH2132",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "harry.stark@csun.edu",
+            "days": "TR",
+            "location": "EH2132",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "harry.stark@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "352",
-            "title": "MOTIVATION",
             "class_number": "12784",
-            "enrollment_cap": 150,
+            "enrollment_cap": 66,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sadeh,Michelle"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JA100",
-                    "start_time": "1530h",
-                    "end_time": "1815h"
-                }
+            "instructor": "Sadeh,Michelle",
+            "days": "M",
+            "location": "JA100",
+            "start_time": "1530h",
+            "end_time": "1815h",
+            "possible_emails": [
+                "michelle.rozic@csun.edu",
+                "michelle.sadeh@csun.edu",
+                "michelle.street@csun.edu",
+                "michelle.brownlee@csun.edu",
+                "michelle.menjivar@csun.edu",
+                "michelle.rodriguez@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 361": [
         {
-            "subject": "PSY",
-            "catalog_number": "361",
-            "title": "ADOLESCENCE",
             "class_number": "12213",
-            "enrollment_cap": 138,
+            "enrollment_cap": 107,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Blum,Nancy A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "UL025",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "Blum,Nancy A",
+            "days": "MW",
+            "location": "UL025",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "nancy.blum@csun.edu",
+                "david.blumenkrantz@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "361",
-            "title": "ADOLESCENCE",
             "class_number": "12563",
-            "enrollment_cap": 84,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Blum,Nancy A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH280",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "365",
-            "title": "INTRO GERONTOLOGY",
-            "class_number": "12203",
-            "enrollment_cap": 125,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Chan,Thomas"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "NH113",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "365",
-            "title": "INTRO GERONTOLOGY",
-            "class_number": "12417",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stark,Harry J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH203",
-                    "start_time": "2130h",
-                    "end_time": "2245h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "367",
-            "title": "COGNITIVE PSYCH",
-            "class_number": "12259",
-            "enrollment_cap": 155,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Viani,Gidget"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "CR5122",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "367",
-            "title": "COGNITIVE PSYCH",
-            "class_number": "12580",
-            "enrollment_cap": 62,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mahmud,Aida"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH342",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "367",
-            "title": "COGNITIVE PSYCH",
-            "class_number": "12889",
-            "enrollment_cap": 84,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH120",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "367",
-            "title": "COGNITIVE PSYCH",
-            "class_number": "12923",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shiffrar,Maggie M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "367",
-            "title": "COGNITIVE PSYCH",
-            "class_number": "20891",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shiffrar,Maggie M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "369",
-            "title": "APPLIED COGNITION",
-            "class_number": "12247",
-            "enrollment_cap": 185,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wohldmann,Erica L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "382",
-            "title": "PRIN HUMAN FACTOR",
-            "class_number": "12581",
-            "enrollment_cap": 183,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kasamanian,Michael"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "NH113",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "382",
-            "title": "PRIN HUMAN FACTOR",
-            "class_number": "12837",
-            "enrollment_cap": 120,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kramarova,Olga"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "CR5122",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "406",
-            "title": "DEV PSYCHOPATHOL",
-            "class_number": "13182",
-            "enrollment_cap": 74,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rice,Brian J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH309",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "426",
-            "title": "CONTEMP TRNDS PSY",
-            "class_number": "12582",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wohldmann,Erica L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "PSY",
-            "catalog_number": "426",
-            "title": "CONTEMP TRNDS PSY",
-            "class_number": "12838",
             "enrollment_cap": 48,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Chan,Thomas"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH365",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Blum,Nancy A",
+            "days": "F",
+            "location": "SH280",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "nancy.blum@csun.edu",
+                "david.blumenkrantz@csun.edu"
+            ]
+        }
+    ],
+    "PSY 365": [
+        {
+            "class_number": "12203",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructor": "Chan,Thomas",
+            "days": "W",
+            "location": "NH113",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "nate.thomas@csun.edu",
+                "anupama.chandran@csun.edu",
+                "thomas.smith@csun.edu",
+                "thomas.minehan@csun.edu",
+                "musheng.chang@csun.edu",
+                "ward.thomas@csun.edu",
+                "thomas.chan@csun.edu",
+                "shuohung.chang@csun.edu",
+                "thomas.mcwilliams@csun.edu",
+                "marsha.chan@csun.edu",
+                "julia.chang@csun.edu",
+                "tae.chang@csun.edu",
+                "thomasl.thomas@csun.edu",
+                "thomas.wedel@csun.edu",
+                "thomas.oshiro@csun.edu",
+                "thomas.hartman@csun.edu",
+                "matthew.chan@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "455",
-            "title": "ETHICS IN PSYCH",
+            "class_number": "12417",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "harry.stark@csun.edu",
+            "days": "TR",
+            "location": "SH280",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "harry.stark@csun.edu"
+            ]
+        }
+    ],
+    "PSY 367": [
+        {
+            "class_number": "12259",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructor": "gidget.brogdon.982@csun.edu",
+            "days": "MW",
+            "location": "CR5122",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "gidget.brogdon.982@csun.edu"
+            ]
+        },
+        {
+            "class_number": "12580",
+            "enrollment_cap": 19,
+            "enrollment_count": 0,
+            "instructor": "Mahmud,Aida",
+            "days": "MW",
+            "location": "SH342",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "nasser.alwehaidah@csun.edu",
+                "aida.mahmud@csun.edu",
+                "carl.maida@csun.edu"
+            ]
+        },
+        {
+            "class_number": "12889",
+            "enrollment_cap": 54,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "SH120",
+            "start_time": "1800h",
+            "end_time": "2045h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "12923",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "margaret.shiffrar@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "margaret.shiffrar@csun.edu"
+            ]
+        },
+        {
+            "class_number": "20891",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "margaret.shiffrar@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "margaret.shiffrar@csun.edu"
+            ]
+        }
+    ],
+    "PSY 369": [
+        {
+            "class_number": "12247",
+            "enrollment_cap": 66,
+            "enrollment_count": 0,
+            "instructor": "erica.wohldmann@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "erica.wohldmann@csun.edu"
+            ]
+        }
+    ],
+    "PSY 382": [
+        {
+            "class_number": "12581",
+            "enrollment_cap": 68,
+            "enrollment_count": 0,
+            "instructor": "Kasamanian,Michael",
+            "days": "TR",
+            "location": "NH113",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "michael.bruse@csun.edu",
+                "michael.sullivan@csun.edu",
+                "michael.enriquez@csun.edu",
+                "michael.schuster@csun.edu",
+                "michael.bryson@csun.edu",
+                "michael.porco@csun.edu",
+                "michael.schofield@csun.edu",
+                "michael.carter@csun.edu",
+                "michael.ward@csun.edu",
+                "michael.kamins@csun.edu",
+                "michael.pesses@csun.edu",
+                "michael.biel@csun.edu",
+                "michael.pierce@csun.edu",
+                "michael.bonitatis@csun.edu",
+                "michael.geisser@csun.edu",
+                "michael.crosswhite@csun.edu",
+                "michael.doron@csun.edu",
+                "michael.franklin@csun.edu",
+                "michael.eller@csun.edu",
+                "michael.button@csun.edu",
+                "michael.alvarez@csun.edu",
+                "michael.witte@csun.edu",
+                "michael.hoggan@csun.edu",
+                "michael.hess@csun.edu",
+                "michael.vierra@csun.edu",
+                "michael.phillips@csun.edu",
+                "jill.michaels@csun.edu",
+                "michael.neubauer@csun.edu",
+                "michael.mull@csun.edu",
+                "michael.milligan@csun.edu"
+            ]
+        },
+        {
+            "class_number": "12837",
+            "enrollment_cap": 73,
+            "enrollment_count": 0,
+            "instructor": "Kramarova,Olga",
+            "days": "R",
+            "location": "CR5122",
+            "start_time": "1800h",
+            "end_time": "2045h",
+            "possible_emails": [
+                "olga.kramarova@csun.edu",
+                "olga.legg@csun.edu"
+            ]
+        }
+    ],
+    "PSY 406": [
+        {
+            "class_number": "13182",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "brian.rice@csun.edu",
+            "days": "TR",
+            "location": "SH309",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "brian.rice@csun.edu"
+            ]
+        }
+    ],
+    "PSY 426": [
+        {
+            "class_number": "12582",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "erica.wohldmann@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "erica.wohldmann@csun.edu"
+            ]
+        },
+        {
+            "class_number": "12838",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chan,Thomas",
+            "days": "W",
+            "location": "SH365",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "nate.thomas@csun.edu",
+                "anupama.chandran@csun.edu",
+                "thomas.smith@csun.edu",
+                "thomas.minehan@csun.edu",
+                "musheng.chang@csun.edu",
+                "ward.thomas@csun.edu",
+                "thomas.chan@csun.edu",
+                "shuohung.chang@csun.edu",
+                "thomas.mcwilliams@csun.edu",
+                "marsha.chan@csun.edu",
+                "julia.chang@csun.edu",
+                "tae.chang@csun.edu",
+                "thomasl.thomas@csun.edu",
+                "thomas.wedel@csun.edu",
+                "thomas.oshiro@csun.edu",
+                "thomas.hartman@csun.edu",
+                "matthew.chan@csun.edu"
+            ]
+        }
+    ],
+    "PSY 455": [
+        {
             "class_number": "12474",
-            "enrollment_cap": 82,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Viani,Gidget"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH386",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "gidget.brogdon.982@csun.edu",
+            "days": "MW",
+            "location": "SH386",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "gidget.brogdon.982@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 460": [
         {
-            "subject": "PSY",
-            "catalog_number": "460",
-            "title": "COUNS + INTERVIEW",
             "class_number": "12113",
-            "enrollment_cap": 231,
+            "enrollment_cap": 98,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rashtian,Andrea M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "LA181",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "andrea.rashtian@csun.edu",
+            "days": "TR",
+            "location": "LA181",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "andrea.rashtian@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 471AB": [
         {
-            "subject": "PSY",
-            "catalog_number": "471AB",
-            "title": "ADV INQ CLIN ABA",
             "class_number": "12246",
-            "enrollment_cap": 84,
+            "enrollment_cap": 63,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jin,Chunying"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH120",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Jin,Chunying",
+            "days": "MW",
+            "location": "SH120",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "suhyun.jin@csun.edu",
+                "chunying.jin@csun.edu",
+                "yanbo.jin@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 471CN": [
         {
-            "subject": "PSY",
-            "catalog_number": "471CN",
-            "title": "ADV INQ CLIN NEUR",
             "class_number": "12712",
-            "enrollment_cap": 74,
+            "enrollment_cap": 49,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mitrushina,Maura N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH309",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "maura.mitrushina@csun.edu",
+            "days": "MW",
+            "location": "SH309",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "maura.mitrushina@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 485AD": [
         {
-            "subject": "PSY",
-            "catalog_number": "485AD",
-            "title": "ADV INQ RES METH",
             "class_number": "12878",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Vargas,Jose Hugo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH264",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
+            "instructor": "jose.h.vargas@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1530h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "jose.h.vargas@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 485ADS": [
         {
-            "subject": "PSY",
-            "catalog_number": "485ADS",
-            "title": "ADV INQ METH SEM",
             "class_number": "12880",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Vargas,Jose Hugo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH341",
-                    "start_time": "1700h",
-                    "end_time": "1815h"
-                }
+            "instructor": "jose.h.vargas@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1700h",
+            "end_time": "1815h",
+            "possible_emails": [
+                "jose.h.vargas@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 493SOC": [
         {
-            "subject": "PSY",
-            "catalog_number": "493SOC",
-            "title": "PROF DEV II",
             "class_number": "12792",
             "enrollment_cap": 48,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Chavira,Gabriela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH365",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
+            "instructor": "Chavira,Gabriela",
+            "days": "M",
+            "location": "SH365",
+            "start_time": "1400h",
+            "end_time": "1540h",
+            "possible_emails": [
+                "gabriela.chavira@csun.edu",
+                "gabriela.esquivel@csun.edu",
+                "gabriela.aprato@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 497C": [
         {
-            "subject": "PSY",
-            "catalog_number": "497C",
-            "title": "PROSEM PSY RESRCH",
             "class_number": "12468",
-            "enrollment_cap": 25,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fenn,Elise A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "elise.fenn@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "elise.fenn@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 499A": [
         {
-            "subject": "PSY",
-            "catalog_number": "499A",
-            "title": "INDEPENDENT STUDY",
             "class_number": "12129",
-            "enrollment_cap": 25,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "499A",
-            "title": "INDEPENDENT STUDY",
             "class_number": "13088",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fenn,Elise A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "elise.fenn@csun.edu",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "elise.fenn@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 499B": [
         {
-            "subject": "PSY",
-            "catalog_number": "499B",
-            "title": "INDEPENDENT STUDY",
             "class_number": "12138",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "499B",
-            "title": "INDEPENDENT STUDY",
             "class_number": "13089",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fenn,Elise A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "elise.fenn@csun.edu",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "elise.fenn@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 499C": [
         {
-            "subject": "PSY",
-            "catalog_number": "499C",
-            "title": "INDEPENDENT STUDY",
             "class_number": "12140",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
         },
         {
-            "subject": "PSY",
-            "catalog_number": "499C",
-            "title": "INDEPENDENT STUDY",
             "class_number": "13090",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Fenn,Elise A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "elise.fenn@csun.edu",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "elise.fenn@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 500": [
         {
-            "subject": "PSY",
-            "catalog_number": "500",
-            "title": "SEM PROF DEVELOP",
             "class_number": "12519",
-            "enrollment_cap": 25,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Drew,Stefanie A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH322",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
+            "instructor": "stefanie.drew@csun.edu",
+            "days": "R",
+            "location": "SH322",
+            "start_time": "1400h",
+            "end_time": "1450h",
+            "possible_emails": [
+                "stefanie.drew@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 524": [
         {
-            "subject": "PSY",
-            "catalog_number": "524",
-            "title": "MULTIVARIATE",
             "class_number": "12147",
-            "enrollment_cap": 24,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ainsworth,Andrew T"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH322",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "andrew.ainsworth@csun.edu",
+            "days": "TR",
+            "location": "SH322",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "andrew.ainsworth@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 524L": [
         {
-            "subject": "PSY",
-            "catalog_number": "524L",
-            "title": "MULTIVARIATE/LAB",
             "class_number": "12148",
-            "enrollment_cap": 24,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ainsworth,Andrew T"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH374",
-                    "start_time": "1230h",
-                    "end_time": "1320h"
-                }
+            "instructor": "andrew.ainsworth@csun.edu",
+            "days": "TR",
+            "location": "SH374",
+            "start_time": "1230h",
+            "end_time": "1320h",
+            "possible_emails": [
+                "andrew.ainsworth@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 581": [
         {
-            "subject": "PSY",
-            "catalog_number": "581",
-            "title": "TEACHING OF PSYCH",
             "class_number": "12469",
-            "enrollment_cap": 40,
+            "enrollment_cap": 36,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Plunkett,Scott W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "scott.plunkett@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "scott.plunkett@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 594AA": [
         {
-            "subject": "PSY",
-            "catalog_number": "594AA",
-            "title": "TUT BEH DISORDERS",
             "class_number": "13359",
             "enrollment_cap": 60,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Chavira,Gabriela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH203",
-                    "start_time": "1630h",
-                    "end_time": "1810h"
-                }
+            "instructor": "Chavira,Gabriela",
+            "days": "M",
+            "location": "SH203",
+            "start_time": "1630h",
+            "end_time": "1810h",
+            "possible_emails": [
+                "gabriela.chavira@csun.edu",
+                "gabriela.esquivel@csun.edu",
+                "gabriela.aprato@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 594MC": [
         {
-            "subject": "PSY",
-            "catalog_number": "620",
-            "title": "ADV PSYCHOPATH",
+            "class_number": "13303",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": []
+        }
+    ],
+    "PSY 594RC": [
+        {
+            "class_number": "12793",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": []
+        }
+    ],
+    "PSY 620": [
+        {
             "class_number": "13313",
-            "enrollment_cap": 25,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Simpson,Sara"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Simpson,Sara",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "sara.berzenski@csun.edu",
+                "sarah.hansen@csun.edu",
+                "kyle.simpson@csun.edu",
+                "susan.simpson@csun.edu",
+                "sarah.salazar@csun.edu",
+                "sarah.cathcart@csun.edu",
+                "sarah.jaque@csun.edu",
+                "helen.simpson@csun.edu",
+                "guadalupe.simpson@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 655BC": [
         {
-            "subject": "PSY",
-            "catalog_number": "655BC",
-            "title": "FIELD WK PSY SERV",
             "class_number": "12253",
-            "enrollment_cap": 25,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH322",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Razani,Jill",
+            "days": "T",
+            "location": "SH322",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 655CC": [
         {
-            "subject": "PSY",
-            "catalog_number": "655CC",
-            "title": "FIELD WK PSY SERV",
             "class_number": "12252",
-            "enrollment_cap": 25,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Katz,Gary S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MH209",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
+            "instructor": "Katz,Gary S",
+            "days": "M",
+            "location": "MH209",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "possible_emails": [
+                "charles.katz@csun.edu",
+                "daniel.katz@csun.edu",
+                "gary.katz@csun.edu",
+                "richard.katz@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 690A": [
         {
-            "subject": "PSY",
-            "catalog_number": "690A",
-            "title": "ADV SENS PERC",
             "class_number": "13183",
-            "enrollment_cap": 25,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Drew,Stefanie A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH322",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
+            "instructor": "stefanie.drew@csun.edu",
+            "days": "T",
+            "location": "SH322",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "stefanie.drew@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 692A": [
         {
-            "subject": "PSY",
-            "catalog_number": "692A",
-            "title": "SEM RES METHODS",
             "class_number": "12116",
-            "enrollment_cap": 25,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Berzenski,Sara R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH322",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
+            "instructor": "sara.berzenski@csun.edu",
+            "days": "W",
+            "location": "SH322",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "possible_emails": [
+                "sara.berzenski@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 696": [
         {
-            "subject": "PSY",
-            "catalog_number": "696",
-            "title": "DIR CLIN RESEARCH",
             "class_number": "13341",
-            "enrollment_cap": 5,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 697C": [
         {
-            "subject": "PSY",
-            "catalog_number": "697C",
-            "title": "DIR COMP STUDIES",
             "class_number": "12112",
-            "enrollment_cap": 25,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 698C": [
         {
-            "subject": "PSY",
-            "catalog_number": "698C",
-            "title": "THESIS OR GRAD PJ",
             "class_number": "12151",
-            "enrollment_cap": 25,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 699A": [
         {
-            "subject": "PSY",
-            "catalog_number": "699A",
-            "title": "INDEPENDENT STUDY",
             "class_number": "12132",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 699B": [
         {
-            "subject": "PSY",
-            "catalog_number": "699B",
-            "title": "INDEPENDENT STUDY",
             "class_number": "12137",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
-        },
+        }
+    ],
+    "PSY 699C": [
         {
-            "subject": "PSY",
-            "catalog_number": "699C",
-            "title": "INDEPENDENT STUDY",
             "class_number": "12136",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Razani,Jill"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Razani,Jill",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "rob.razani@csun.edu",
+                "jill.razani@csun.edu",
+                "jill.biondo@csun.edu",
+                "jill.michaels@csun.edu",
+                "jill.quilici@csun.edu"
             ]
         }
     ]

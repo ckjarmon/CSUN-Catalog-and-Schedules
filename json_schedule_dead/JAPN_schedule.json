@@ -1,0 +1,172 @@
+{
+    "classes": [
+        {
+            "subject": "JAPN",
+            "catalog_number": "101",
+            "title": "ELEM JAPN I",
+            "class_number": "14234",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR315",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "JAPN",
+            "catalog_number": "101",
+            "title": "ELEM JAPN I",
+            "class_number": "14349",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR315",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
+                }
+            ]
+        },
+        {
+            "subject": "JAPN",
+            "catalog_number": "101",
+            "title": "ELEM JAPN I",
+            "class_number": "14651",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR203",
+                    "start_time": "1300h",
+                    "end_time": "1440h"
+                }
+            ]
+        },
+        {
+            "subject": "JAPN",
+            "catalog_number": "101",
+            "title": "ELEM JAPN I",
+            "class_number": "14652",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR301",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
+                }
+            ]
+        },
+        {
+            "subject": "JAPN",
+            "catalog_number": "102",
+            "title": "ELEM JAPN II",
+            "class_number": "14235",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR301",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "JAPN",
+            "catalog_number": "102",
+            "title": "ELEM JAPN II",
+            "class_number": "14368",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Huang,Junliang"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR316",
+                    "start_time": "1300h",
+                    "end_time": "1440h"
+                }
+            ]
+        },
+        {
+            "subject": "JAPN",
+            "catalog_number": "202",
+            "title": "INTERMEDJAPN II",
+            "class_number": "14236",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR203",
+                    "start_time": "1300h",
+                    "end_time": "1440h"
+                }
+            ]
+        },
+        {
+            "subject": "JAPN",
+            "catalog_number": "304",
+            "title": "ADV GRAMMAR/COMP",
+            "class_number": "14277",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Langford,Drake"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR316",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        }
+    ]
+}

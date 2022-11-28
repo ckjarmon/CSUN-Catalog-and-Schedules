@@ -1,738 +1,595 @@
 {
-    "classes": [
+    "ECON 160": [
         {
-            "subject": "ECON",
-            "catalog_number": "160",
-            "title": "MICROECON PRIN",
             "class_number": "13650",
-            "enrollment_cap": 120,
+            "enrollment_cap": 80,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ng,Kenneth"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JA100",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Ng,Kenneth",
+            "days": "MW",
+            "location": "JA100",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "kenneth.ng@csun.edu",
+                "thuy-trinh.nguyen@csun.edu",
+                "kenneth.murray@csun.edu",
+                "kenneth.chapman@csun.edu",
+                "nancy.nguyen@csun.edu",
+                "kenneth.luna@csun.edu",
+                "phuc.b.nguyen@my.csun.edu",
+                "dorothy.nguyengraff@csun.edu",
+                "kenneth.lee@csun.edu",
+                "christopher.ng@csun.edu",
+                "kenneth.jones@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "160",
-            "title": "MICROECON PRIN",
             "class_number": "13522",
-            "enrollment_cap": 60,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Beltran Silva,Francisco"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1131",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Beltran Silva,Francisco",
+            "days": "TR",
+            "location": "BB1131",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "francisco.beltransilva@csun.edu",
+                "francisco.jimeno@csun.edu",
+                "francisco.tamayo@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "160",
-            "title": "MICROECON PRIN",
             "class_number": "13549",
-            "enrollment_cap": 46,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Marcal,Leah E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "BB1125",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "leah.marcal@csun.edu",
+            "days": "R",
+            "location": "BB1125",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "leah.marcal@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "160",
-            "title": "MICROECON PRIN",
             "class_number": "13576",
-            "enrollment_cap": 65,
+            "enrollment_cap": 50,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Histen,Matthew"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "BB1131",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Histen,Matthew",
+            "days": "T",
+            "location": "BB1131",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "matthew.brown@csun.edu",
+                "matthew.soto@csun.edu",
+                "matthew.daigle@csun.edu",
+                "erin.matthews@csun.edu",
+                "matthew.histen@csun.edu",
+                "matthew.radmanesh@csun.edu",
+                "matthew.reinig@csun.edu",
+                "matthew.dalessio@csun.edu",
+                "matthew.jackson@csun.edu",
+                "matthew.chan@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "160",
-            "title": "MICROECON PRIN",
             "class_number": "13582",
-            "enrollment_cap": 120,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kung,Edward"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "CR5122",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Kung,Edward",
+            "days": "TR",
+            "location": "CR5122",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "edward.alfano@csun.edu",
+                "edward.kung@csun.edu",
+                "edward.dombourian@csun.edu",
+                "edward.carroll@csun.edu",
+                "darcy.edwards@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "160",
-            "title": "MICROECON PRIN",
             "class_number": "13901",
-            "enrollment_cap": 60,
+            "enrollment_cap": 56,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Whitman,Douglas G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "BB1131",
-                    "start_time": "0930h",
-                    "end_time": "2415h"
-                }
+            "instructor": "glen.whitman@csun.edu",
+            "days": null,
+            "location": "BB1131",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "glen.whitman@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 161": [
         {
-            "subject": "ECON",
-            "catalog_number": "161",
-            "title": "MACROECON PRIN",
             "class_number": "13660",
-            "enrollment_cap": 62,
+            "enrollment_cap": 53,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Yukhov,Alexey"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1131",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "alex.yukhov@csun.edu",
+            "days": "MW",
+            "location": "BB1131",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "alex.yukhov@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "161",
-            "title": "MACROECON PRIN",
             "class_number": "13495",
-            "enrollment_cap": 42,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Patra,Soma"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1119",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
+            "instructor": "Patra,Soma",
+            "days": "TR",
+            "location": "BB1119",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         },
         {
-            "subject": "ECON",
-            "catalog_number": "161",
-            "title": "MACROECON PRIN",
             "class_number": "13542",
-            "enrollment_cap": 64,
+            "enrollment_cap": 55,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Patra,Soma"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1131",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
+            "instructor": "Patra,Soma",
+            "days": "W",
+            "location": "BB2206",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "ECON",
-            "catalog_number": "161",
-            "title": "MACROECON PRIN",
             "class_number": "13577",
-            "enrollment_cap": 60,
+            "enrollment_cap": 59,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Patra,Soma"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "BB1131",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
+            "instructor": "Patra,Soma",
+            "days": "F",
+            "location": "BB2230",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": []
         },
         {
-            "subject": "ECON",
-            "catalog_number": "161",
-            "title": "MACROECON PRIN",
             "class_number": "20671",
-            "enrollment_cap": 45,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "McInnis,Nicardo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1123",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "nicardo.mcinnis@csun.edu",
+            "days": "MW",
+            "location": "BB1123",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "nicardo.mcinnis@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "161",
-            "title": "MACROECON PRIN",
             "class_number": "20673",
-            "enrollment_cap": 60,
+            "enrollment_cap": 49,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "McInnis,Nicardo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1131",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "nicardo.mcinnis@csun.edu",
+            "days": "M",
+            "location": "BB1131",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "nicardo.mcinnis@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 308": [
         {
-            "subject": "ECON",
-            "catalog_number": "308",
-            "title": "MANAGERIAL ECON",
             "class_number": "13510",
-            "enrollment_cap": 48,
+            "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Tom K"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1125",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Lee,Tom K",
+            "days": "MW",
+            "location": "BB1125",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "308",
-            "title": "MANAGERIAL ECON",
             "class_number": "13511",
-            "enrollment_cap": 48,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Tom K"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1125",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Lee,Tom K",
+            "days": "MW",
+            "location": "BB1125",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "308",
-            "title": "MANAGERIAL ECON",
             "class_number": "13512",
-            "enrollment_cap": 42,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Chapman,Kenneth S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1206",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "kenneth.chapman@csun.edu",
+            "days": "TR",
+            "location": "BB1206",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "kenneth.chapman@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "308",
-            "title": "MANAGERIAL ECON",
             "class_number": "13513",
-            "enrollment_cap": 48,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Tom K"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1123",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Lee,Tom K",
+            "days": "W",
+            "location": "BB1123",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 309": [
         {
-            "subject": "ECON",
-            "catalog_number": "309",
-            "title": "USE OF ECON DATA",
             "class_number": "13432",
-            "enrollment_cap": 44,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hymel,Kent M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB2125",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "kent.hymel@csun.edu",
+            "days": "TR",
+            "location": "BB2125",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "kent.hymel@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "309",
-            "title": "USE OF ECON DATA",
             "class_number": "13490",
-            "enrollment_cap": 48,
+            "enrollment_cap": 45,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hymel,Kent M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "BB1125",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "kent.hymel@csun.edu",
+            "days": "T",
+            "location": "BB1125",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "kent.hymel@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 310": [
         {
-            "subject": "ECON",
-            "catalog_number": "310",
-            "title": "PRICE THEORY",
             "class_number": "13477",
-            "enrollment_cap": 48,
+            "enrollment_cap": 47,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ng,Kenneth"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1123",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "Ng,Kenneth",
+            "days": "MW",
+            "location": "BB1123",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "kenneth.ng@csun.edu",
+                "thuy-trinh.nguyen@csun.edu",
+                "kenneth.murray@csun.edu",
+                "kenneth.chapman@csun.edu",
+                "nancy.nguyen@csun.edu",
+                "kenneth.luna@csun.edu",
+                "phuc.b.nguyen@my.csun.edu",
+                "dorothy.nguyengraff@csun.edu",
+                "kenneth.lee@csun.edu",
+                "christopher.ng@csun.edu",
+                "kenneth.jones@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "310",
-            "title": "PRICE THEORY",
             "class_number": "13442",
-            "enrollment_cap": 48,
+            "enrollment_cap": 43,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ng,Kenneth"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1123",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Ng,Kenneth",
+            "days": "MW",
+            "location": "BB1123",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "kenneth.ng@csun.edu",
+                "thuy-trinh.nguyen@csun.edu",
+                "kenneth.murray@csun.edu",
+                "kenneth.chapman@csun.edu",
+                "nancy.nguyen@csun.edu",
+                "kenneth.luna@csun.edu",
+                "phuc.b.nguyen@my.csun.edu",
+                "dorothy.nguyengraff@csun.edu",
+                "kenneth.lee@csun.edu",
+                "christopher.ng@csun.edu",
+                "kenneth.jones@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "310",
-            "title": "PRICE THEORY",
             "class_number": "13646",
-            "enrollment_cap": 46,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Halcoussis,Dennis"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1123",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Halcoussis,Dennis",
+            "days": "TR",
+            "location": "BB1123",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "dennis.halcoussis@csun.edu",
+                "dennis.fliegelman@csun.edu",
+                "dennis.mestas@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "310",
-            "title": "PRICE THEORY",
             "class_number": "13441",
-            "enrollment_cap": 46,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Halcoussis,Dennis"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "BB1123",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Halcoussis,Dennis",
+            "days": "R",
+            "location": "BB1123",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "dennis.halcoussis@csun.edu",
+                "dennis.fliegelman@csun.edu",
+                "dennis.mestas@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 311": [
         {
-            "subject": "ECON",
-            "catalog_number": "311",
-            "title": "MONEY AND BANKING",
             "class_number": "13491",
-            "enrollment_cap": 62,
+            "enrollment_cap": 52,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Tom K"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1131",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
+            "instructor": "Lee,Tom K",
+            "days": "MW",
+            "location": "BB1131",
+            "start_time": "1530h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 312": [
         {
-            "subject": "ECON",
-            "catalog_number": "312",
-            "title": "MACROECOMIC THRY",
             "class_number": "13478",
-            "enrollment_cap": 48,
+            "enrollment_cap": 41,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Yukhov,Alexey"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1125",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "alex.yukhov@csun.edu",
+            "days": "MW",
+            "location": "BB1125",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "alex.yukhov@csun.edu"
             ]
         },
         {
-            "subject": "ECON",
-            "catalog_number": "312",
-            "title": "MACROECOMIC THRY",
             "class_number": "13575",
-            "enrollment_cap": 48,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Yukhov,Alexey"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1125",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "alex.yukhov@csun.edu",
+            "days": "W",
+            "location": "BB1125",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "alex.yukhov@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 355": [
         {
-            "subject": "ECON",
-            "catalog_number": "355",
-            "title": "HEALTH ECONOMICS",
             "class_number": "13574",
-            "enrollment_cap": 45,
+            "enrollment_cap": 41,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "McInnis,Nicardo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "BB1123",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "nicardo.mcinnis@csun.edu",
+            "days": "MW",
+            "location": "BB1123",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "nicardo.mcinnis@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 360": [
         {
-            "subject": "ECON",
-            "catalog_number": "360",
-            "title": "ENVRMNTAL ECONMCS",
             "class_number": "13626",
-            "enrollment_cap": 48,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Hymel,Kent M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1125",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "kent.hymel@csun.edu",
+            "days": "TR",
+            "location": "BB1125",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "kent.hymel@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 365": [
         {
-            "subject": "ECON",
-            "catalog_number": "365",
-            "title": "LAW AND ECONOMICS",
             "class_number": "13558",
-            "enrollment_cap": 48,
+            "enrollment_cap": 41,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Histen,Matthew"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1123",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Histen,Matthew",
+            "days": "TR",
+            "location": "BB1123",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "matthew.brown@csun.edu",
+                "matthew.soto@csun.edu",
+                "matthew.daigle@csun.edu",
+                "erin.matthews@csun.edu",
+                "matthew.histen@csun.edu",
+                "matthew.radmanesh@csun.edu",
+                "matthew.reinig@csun.edu",
+                "matthew.dalessio@csun.edu",
+                "matthew.jackson@csun.edu",
+                "matthew.chan@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 370": [
         {
-            "subject": "ECON",
-            "catalog_number": "370",
-            "title": "ECON DEVELOPMENT",
             "class_number": "13627",
-            "enrollment_cap": 48,
+            "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Beltran Silva,Francisco"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "BB1123",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Beltran Silva,Francisco",
+            "days": "T",
+            "location": "BB1123",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "francisco.beltransilva@csun.edu",
+                "francisco.jimeno@csun.edu",
+                "francisco.tamayo@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 405": [
         {
-            "subject": "ECON",
-            "catalog_number": "405",
-            "title": "INT'L TRADE",
             "class_number": "13551",
-            "enrollment_cap": 45,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Marcal,Leah E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "BB1125",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "leah.marcal@csun.edu",
+            "days": "T",
+            "location": "BB1125",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "leah.marcal@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 409": [
         {
-            "subject": "ECON",
-            "catalog_number": "409",
-            "title": "INTR ECONOMETRICS",
             "class_number": "13713",
-            "enrollment_cap": 44,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Halcoussis,Dennis"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB2228",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Halcoussis,Dennis",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "dennis.halcoussis@csun.edu",
+                "dennis.fliegelman@csun.edu",
+                "dennis.mestas@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 410": [
         {
-            "subject": "ECON",
-            "catalog_number": "410",
-            "title": "INDUSTRIAL ORG",
             "class_number": "13525",
-            "enrollment_cap": 48,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Histen,Matthew"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "BB1123",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Histen,Matthew",
+            "days": "TR",
+            "location": "BB1123",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "matthew.brown@csun.edu",
+                "matthew.soto@csun.edu",
+                "matthew.daigle@csun.edu",
+                "erin.matthews@csun.edu",
+                "matthew.histen@csun.edu",
+                "matthew.radmanesh@csun.edu",
+                "matthew.reinig@csun.edu",
+                "matthew.dalessio@csun.edu",
+                "matthew.jackson@csun.edu",
+                "matthew.chan@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 433": [
         {
-            "subject": "ECON",
-            "catalog_number": "433",
-            "title": "PUBLIC ECONOMICS",
             "class_number": "13509",
-            "enrollment_cap": 44,
+            "enrollment_cap": 36,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kung,Edward"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "BB2125",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Kung,Edward",
+            "days": "T",
+            "location": "BB2125",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "edward.alfano@csun.edu",
+                "edward.kung@csun.edu",
+                "edward.dombourian@csun.edu",
+                "edward.carroll@csun.edu",
+                "darcy.edwards@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 500": [
         {
-            "subject": "ECON",
-            "catalog_number": "500",
-            "title": "ECONOMICS SURVEY",
             "class_number": "13585",
-            "enrollment_cap": 42,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Chapman,Kenneth S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "BB1206",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "kenneth.chapman@csun.edu",
+            "days": "R",
+            "location": "BB1206",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "kenneth.chapman@csun.edu"
             ]
-        },
+        }
+    ],
+    "ECON 600": [
         {
-            "subject": "ECON",
-            "catalog_number": "600",
-            "title": "ECON OF STRATEGY",
             "class_number": "13435",
-            "enrollment_cap": 35,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Marcal,Leah E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "BB1103",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "leah.marcal@csun.edu",
+            "days": "R",
+            "location": "BB1103",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "leah.marcal@csun.edu"
             ]
         }
     ]

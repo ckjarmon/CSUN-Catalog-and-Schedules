@@ -1,66 +1,48 @@
 {
-    "classes": [
+    "BANA 310": [
         {
-            "subject": "BANA",
-            "catalog_number": "310",
-            "title": "DATA VISUAL BUS",
             "class_number": "13883",
-            "enrollment_cap": 35,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sheng,Qiuhua"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB2212",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Sheng,Qiuhua",
+            "days": "W",
+            "location": "BB2212",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "qiuhua.sheng@csun.edu",
+                "donna.sheng@csun.edu"
             ]
-        },
+        }
+    ],
+    "BANA 320": [
         {
-            "subject": "BANA",
-            "catalog_number": "320",
-            "title": "PREDICT ANA BUS",
             "class_number": "13884",
-            "enrollment_cap": 35,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Gupta,Akash"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "BB2212",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Gupta,Akash",
+            "days": "T",
+            "location": "BB2212",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "takashi.yagisawa@csun.edu",
+                "akash.gupta@csun.edu"
             ]
-        },
+        }
+    ],
+    "BANA 420": [
         {
-            "subject": "BANA",
-            "catalog_number": "420",
-            "title": "PRESCRIPT ANA BUS",
             "class_number": "20677",
-            "enrollment_cap": 35,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Farrokhvar,Leily"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB2206",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "leily@csun.edu",
+            "days": "M",
+            "location": "BB2206",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "leily@csun.edu"
             ]
         }
     ]

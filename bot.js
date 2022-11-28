@@ -15,7 +15,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-function show_prof(subject, prof, itchid) {
+function show_prof_dead(subject, prof, itchid) {
   const class_codes = ["AE", "AM", "AAS", "ACCT", "AFRS", "AIS", "ANTH", "ARAB", "ARMN", "ART", "ASTR", "AT", "ATHL", "BANA", "BIOL", "BLAW", "BUS", "CE", "CADV", "CAS", "CCE", "CD", "CECS", "CHS", "CHEM", "CHIN", "CIT", "CJS", "CLAS", "CM", "COMP", "COMS", "CTVA", "DEAF", "EED", "ECE", "ECON", "EDUC", "ELPS", "ENGL", "ENT", "EOH", "EPC", "FCFC", "FCHC", "FCS", "FIN", "FLIT", "FREN", "GBUS", "GEOG", "GEOL", "GWS", "HEBR", "HHD", "HIST", "HSCI", "HUM", "INDS", "IS", "ITAL", "JS", "JAPN", "JOUR", "KIN", "KNFC", "KOR", "LIB", "LING", "LRS", "ME", "MATH", "MCOM", "MGT", "MKT", "MSE", "MUS", "NURS", "PERS", "PHIL", "PHSC", "PHYS", "POLS", "PSY", "PT", "QS", "RS", "RE", "RTM", "RUSS", "SED", "SCI", "SCM", "SOC", "SOM", "SPAN", "SPED", "SUS", "SUST", "SWRK", "TH", "UNIV", "URBS"];
   if (class_codes.includes(subject.toUpperCase())) {
     var ret2 = "";
@@ -23,11 +23,11 @@ function show_prof(subject, prof, itchid) {
     console.log("Show prof called.");
     var ret1 = "";
     require("request")({
-      url: `http://127.0.0.1:8000/${subject}/prof`,
+      url: `http://127.0.0.1:2222/${subject}/prof`,
       json: true
     }, async function (error, response, body) {
       
-      console.log(`http://127.0.0.1:8000/${subject}/prof`);
+      console.log(`http://127.0.0.1:2222/${subject}/prof`);
       if (!error) {
         const stuffs = JSON.parse(JSON.stringify(body));
         var prof_email = "";
@@ -86,11 +86,107 @@ function show_prof(subject, prof, itchid) {
   }
 }
 
+
+function show_prof(subject, itchid, id) {
+  var ret1 = "";
+  _url = (id) ? `http://127.0.0.1:2222/profs/${subject}/${id}` : `http://127.0.0.1:2222/profs/${subject}`;
+  if (!id) {
+    require("request")({
+      url: _url,
+      json: true
+    }, async function (error, response, body) {
+
+      console.log(_url);
+      let ret1 = String(body).replaceAll(',', '')
+      if (!error) {
+        setTimeout(async () => {
+          await client.channels.cache.get(itchid).send("```" + ret1 + "```")
+        }, 2000);
+      }
+    });
+  } else {
+    require("request")({
+      url: _url,
+      json: true
+    }, async function (error, response, body) {
+
+      console.log(_url);
+      
+      body.info["Name"] = body.info.first_name + " " + body.info.last_name;
+      delete body.info.subject
+      delete body.info.location
+      delete body.info.phone_number
+      
+      delete body.info.first_name;
+      delete body.info.last_name;
+      delete body.info.image_link
+      for (n in body.info) {
+        if (body.info[n] !== "N/A") {
+          ret1 = ret1.concat(`${n.substring(0, 1).toUpperCase()}${n.substring(1)}` + ": " + body.info[n] + "\n")
+        }
+      }
+
+      var ret2 = ""
+      ret1 = ret1.concat("SPRING 2023");
+      require("request")({
+        url: `http://127.0.0.1:2222/time`,
+        json: true
+      }, async function (error, response, body) {
+        console.log(`http://127.0.0.1:2222/time`);
+        if (!error) {
+          ret1 = ret1.concat(body + "\n")
+        }
+      });
+      ret1 = ret1.concat("\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n");
+      body.sch.forEach(course => {
+        ret1 = ret1.concat("\t " + course.class_number);
+        ret1 = (course.subject.length === 4) ? ret1.concat("\t   " + course.subject) : ret1.concat("\t   " + course.subject + " ");
+        ret1 = (course.catalog_number.length === 4) ? ret1.concat("\t   " + course.catalog_number) : ret1.concat("\t   " + course.catalog_number + " ");
+        ret1 = (course.location.length === 3) ? ret1.concat("   ") : ret1.concat("");
+        ret1 = (course.location.length === 5) ? ret1.concat("\t\t   " + course.location) : ret1.concat("\t\t  " + course.location);
+        if (course.days !== "None") {
+          switch (course.days.length) {
+            case 1:
+              ret1 = ret1.concat("\t\t   " + course.days);
+              break;
+            case 2:
+              ret1 = ret1.concat("\t\t  " + course.days);
+              break;
+            case 3:
+              ret1 = ret1.concat("\t\t  " + course.days);
+              break;
+            default:
+              ret1 = ret1.concat("\t\t " + course.days);
+          }
+        } else {
+          ret1 = ret1.concat("\t\t  --");
+        }
+
+
+        ret1 = ret1.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
+        ret1 = ret1.concat("\n");
+      });
+
+
+
+
+
+
+      if (!error) {
+        setTimeout(async () => {
+          await client.channels.cache.get(itchid).send("```" + ret1 + "```")
+        }, 2000);
+      }
+    });
+  }
+
+}
+
 function show_levels(subject, level, itchid) {
   console.log("Show levels called.");
   var ret1 = "";
   require("request")({
-    url: `http://127.0.0.1:8000/${subject}/catalog`,
+    url: `http://127.0.0.1:2222/${subject}/catalog`,
     json: true
   }, async function (error, response, body) {
     if (!error) {
@@ -99,7 +195,7 @@ function show_levels(subject, level, itchid) {
         ret1 = ret1.concat("-")
       }
       ret1 = ret1.concat("\n")
-      console.log(`http://127.0.0.1:8000/${subject}/catalog`);
+      console.log(`http://127.0.0.1:2222/${subject}/catalog`);
       const stuffs = JSON.parse(JSON.stringify(body));
       stuffs.forEach(course => {
         if (course.catalog_number[0] === level[0]) {
@@ -114,27 +210,30 @@ function show_levels(subject, level, itchid) {
 }
 
 function show_class(subject, code, itchid) {
+
+  
   console.log("Show class called.");
   var ret1 = "",
     ret2 = "";
   require("request")({
-    url: `http://127.0.0.1:8000/${subject}/catalog`,
+    url: `http://127.0.0.1:2222/${subject}/catalog`,
     json: true
   }, async function (error, response, body) {
-    console.log(`http://127.0.0.1:8000/${subject}/catalog`);
+    console.log(`http://127.0.0.1:2222/${subject}/catalog`);
     if (!error) {
       const stuffs = JSON.parse(JSON.stringify(body));
       stuffs.forEach(course => {
         if (course.catalog_number === code) {
           ret1 = ret1.concat(`${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n${course.subject} ${course.catalog_number} ${course.title}`);
-          ret1 = ret1.concat(" - FALL 2022");
+          ret1 = ret1.concat(" - SPRING 2023");
+          ret1 = ret1.concat(time)
           require("request")({
             url: `http://127.0.0.1:2222/time`,
             json: true
-          }, async function (error, response, body) {
+          }, function (error, response, body) {
             console.log(`http://127.0.0.1:2222/time`);
             if (!error) {
-              ret1 = ret1.concat(body + "\n")
+             ret1 = ret1.concat(body + "\n");
             }
           });
         }
@@ -142,44 +241,48 @@ function show_class(subject, code, itchid) {
     }
   }); /*end request*/
   require("request")({
-    url: 'https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/' + subject,
+     url: `http://127.0.0.1:2222/${subject}/schedule`,
     json: true
   }, async function (error, response, body) {
-    console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/' + subject);
+    console.log(`http://127.0.0.1:2222/${subject}/schedule`);
     if (!error) {
       const stuffs = JSON.parse(JSON.stringify(body));
       ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
-      stuffs.classes.forEach(course => {
-        if (course.catalog_number === code && course.meetings.length > 0) {
+      stuffs[`${String(subject).toUpperCase()} ${code}`].forEach(course => {
+      console.log(course)
           ret2 = ret2.concat("\t " + course.class_number);
-          ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("\t\t       ") : ret2.concat("");
-          ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
+          ret2 = (course.location.length === 3) ? ret2.concat("\t\t       ") : ret2.concat("");
+          ret2 = (course.location.length === 5) ? ret2.concat("\t\t   " + course.location) : ret2.concat("\t\t  " + course.location);
 
 
 
-          switch (course.meetings[0].days.length) {
-            case 1:
-              ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
-              break;
-            case 2:
-              ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
-              break;
-            case 3:
-              ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
-              break;
-            default:
-              ret2 = ret2.concat("\t\t " + course.meetings[0].days);
-          }
+          if (course.days !== null) {
+            switch (course.days.length) {
+              case 1:
+                ret2 = ret2.concat("\t\t   " + course.days);
+                break;
+              case 2:
+                ret2 = ret2.concat("\t\t  " + course.days);
+                break;
+              case 3:
+                ret2 = ret2.concat("\t\t  " + course.days);
+                break;
+              default:
+                ret2 = ret2.concat("\t\t " + course.days);
+            }} else {
+              ret2 = ret2.concat("\t\t  --");
+            }
+          
 
-          ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
-          ret2 = (course.instructors.length > 0) ? ret2.concat("\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
+          ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
+          ret2 = (course.instructor !== "Staff") ? ret2.concat("\t\t" + course.instructor) : ret2.concat("\t\t\t\tStaff");
           ret2 = ret2.concat("\n");
-        }
+        
       });
     } /*end if*/
     if (ret1.length + ret2.length < 4000) {
       setTimeout(async () => {
-        await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")
+        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 4000) + "```")
       }, 2000);
     } else {
       setTimeout(async () => {
@@ -191,91 +294,14 @@ function show_class(subject, code, itchid) {
 
 function show_class_with_term(subject, code, semester, year, itchid) {
   console.log("Show class override called.");
-  if (semester == "spring" && year == '23') {
+ 
     var ret1 = "",
       ret2 = "";
     require("request")({
-      url: `http://127.0.0.1:8000/${subject}/catalog`,
+      url: `http://127.0.0.1:2222/${subject}/catalog`,
       json: true
     }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:8000/${subject}/catalog`);
-      if (!error) {
-        const stuffs = JSON.parse(JSON.stringify(body));
-        stuffs.forEach(course => {
-          if (course.catalog_number === code) {
-            ret1 = ret1.concat(course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description + "\n\n" + course.subject + " " + course.catalog_number + " " + course.title);
-            ret1 = ret1.concat(" - " + semester.toUpperCase() + " " + year);
-            require("request")({
-              url: `http://127.0.0.1:2222/time`,
-              json: true
-            }, async function (error, response, body) {
-              console.log(`http://127.0.0.1:2222/time`);
-              if (!error) {
-                ret1 = ret1.concat(body + "\n")
-              }
-            })
-          }
-        });
-      }
-    }); /*end request*/
-    require("request")({
-      url: `http://127.0.0.1:8000/${subject}/schedule`,
-      json: true
-    }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:8000/${subject}/schedule`);
-      if (!error) {
-        const stuffs = JSON.parse(JSON.stringify(body));
-        ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
-        stuffs.classes.forEach(course => {
-          if (course.catalog_number === code && course.meetings.length > 0) {
-            ret2 = (course.class_number.length === 5) ? ret2.concat("\t " + course.class_number) : ret2.concat("\t  " + course.class_number);
-            ret2 = (course.meetings[0].location.length === 3) ? ret2.concat("   ") : ret2.concat("");
-            ret2 = (course.meetings[0].location.length === 5) ? ret2.concat("\t\t   " + course.meetings[0].location) : ret2.concat("\t\t  " + course.meetings[0].location);
-            if (course.meetings[0].days !== null) {
-
-              switch (course.meetings[0].days.length) {
-                case 1:
-                  ret2 = ret2.concat("\t\t   " + course.meetings[0].days);
-                  break;
-                case 2:
-                  ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
-                  break;
-                case 3:
-                  ret2 = ret2.concat("\t\t  " + course.meetings[0].days);
-                  break;
-                default:
-                  ret2 = ret2.concat("\t\t " + course.meetings[0].days);
-              }
-
-            } else {
-              ret2 = ret2.concat("\t\t  --");
-            }
-
-           
-            ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
-            ret2 = (course.instructors.length > 0 && course.instructors !== "Staff") ? ret2.concat("\t\t\t" + course.instructors[0].instructor) : ret2.concat("\t\t\t\tStaff");
-            ret2 = ret2.concat("\n");
-          }
-        });
-        if (ret1.length + ret2.length < 4000) {
-          setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")
-          }, 2000);
-        } else {
-          setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```Response too long.```")
-          }, 2000);
-        }
-      } /*end if*/
-    }); /*end request*/
-  } else {
-    var ret1 = "",
-      ret2 = "";
-    require("request")({
-      url: `http://127.0.0.1:8000/${subject}/catalog`,
-      json: true
-    }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:8000/${subject}/catalog`);
+      console.log(`http://127.0.0.1:2222/${subject}/catalog`);
       if (!error) {
         const stuffs = JSON.parse(JSON.stringify(body));
         stuffs.forEach(course => {
@@ -297,11 +323,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       }
     }); /*end request*/
     require("request")({
-      url: 'https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/classes/' + subject,
+      url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`,
       json: true
     }, async function (error, response, body) {
 
-      console.log('https://api.metalab.csun.edu/curriculum/api/2.0/terms/' + semester + '-20' + year + '/classes/' + subject);
+      console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`);
 
       if (!error) {
         const stuffs = JSON.parse(JSON.stringify(body));
@@ -353,7 +379,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       } /*end if*/
     }); /*end request*/
   }
-}
+
 
 client.on('messageUpdate', (oldMessage, newMessage) => {
   if (newMessage.author.tag == "Mysto#8529") {
@@ -451,7 +477,7 @@ client.on('interactionCreate', async interaction => {
 
     if ((semester || year) && !(semester && year)) {
 
-      await interaction.reply("Need both semester and year if other than Fall 2022.");
+      await interaction.reply("Need both semester and year if other than Spring 2023.");
 
     } else if (semester && year) {
 
@@ -480,14 +506,15 @@ client.on('interactionCreate', async interaction => {
   } else if (commandName === 'prof') {
 
     itchid = interaction.channelId;
-    show_prof(interaction.options.getString('subject'), interaction.options.getString('prof_name'), itchid);
+    show_prof(interaction.options.getString('subject'), itchid, interaction.options.getString('prof_id'));
     await interaction.reply("Gimme a sec");
 
   } else if (commandName === 'help') {
 
-    let ret = "```\"/class\" for 1 or more classes of common subject \n\n" +
+    let ret = "```\"/class\" for 1 or more classes of common subject (default is SPRING 23) \n\n" +
       "\"/classes\" for 1 or more classes of different subjects \n\n" +
       "\"/prof\" to show a prof's teaching schedule \n\n" +
+      "\"/level\" to show classes at a specific level (100, 200, 300 etc.) \n\n" +
       "Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
 
     await interaction.reply(ret);

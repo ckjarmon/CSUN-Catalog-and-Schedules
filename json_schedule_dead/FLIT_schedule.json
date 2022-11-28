@@ -1,0 +1,130 @@
+{
+    "classes": [
+        {
+            "subject": "FLIT",
+            "catalog_number": "150",
+            "title": "GATEWYS WST CIVIL",
+            "class_number": "14118",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Watson,Tim William"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR330",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "FLIT",
+            "catalog_number": "151",
+            "title": "MOD CHINESE CULTURE",
+            "class_number": "15395",
+            "enrollment_cap": 42,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Huang,Junliang"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FLIT",
+            "catalog_number": "234",
+            "title": "VIRT STUDY ABROAD",
+            "class_number": "14196",
+            "enrollment_cap": 42,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FLIT",
+            "catalog_number": "381",
+            "title": "ITA-AM EXP CI LIT",
+            "class_number": "14388",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FLIT",
+            "catalog_number": "402",
+            "title": "JAPANESE LIT",
+            "class_number": "15172",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Langford,Drake"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR316",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "FLIT",
+            "catalog_number": "491",
+            "title": "CAPSTONE SEMINAR",
+            "class_number": "14130",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Langford,Drake"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "JR316",
+                    "start_time": "1530h",
+                    "end_time": "1815h"
+                }
+            ]
+        }
+    ]
+}

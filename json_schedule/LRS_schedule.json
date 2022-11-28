@@ -1,192 +1,134 @@
 {
-    "classes": [
+    "LRS 150": [
         {
-            "subject": "LRS",
-            "catalog_number": "150",
-            "title": "LIB STUD ANTHRO",
             "class_number": "14121",
-            "enrollment_cap": 37,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR243",
-                    "start_time": "1630h",
-                    "end_time": "1810h"
-                }
+            "instructor": "patrick.polk@csun.edu",
+            "days": "T",
+            "location": "JR243",
+            "start_time": "1630h",
+            "end_time": "1810h",
+            "possible_emails": [
+                "patrick.polk@csun.edu"
             ]
-        },
+        }
+    ],
+    "LRS 150F": [
         {
-            "subject": "LRS",
-            "catalog_number": "150F",
-            "title": "LIB STUD ANTHRO F",
             "class_number": "14101",
-            "enrollment_cap": 37,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR243",
-                    "start_time": "1630h",
-                    "end_time": "1810h"
-                }
+            "instructor": "diana.portillo@csun.edu",
+            "days": "R",
+            "location": "JR243",
+            "start_time": "1630h",
+            "end_time": "1810h",
+            "possible_emails": [
+                "diana.portillo@csun.edu"
             ]
-        },
+        }
+    ],
+    "LRS 250": [
         {
-            "subject": "LRS",
-            "catalog_number": "250",
-            "title": "REASON BELIEF EDU",
             "class_number": "14119",
-            "enrollment_cap": 35,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH390",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "robert.gressis@csun.edu",
+            "days": "TR",
+            "location": "SH390",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "robert.gressis@csun.edu"
             ]
-        },
+        }
+    ],
+    "LRS 250F": [
         {
-            "subject": "LRS",
-            "catalog_number": "250F",
-            "title": "REASON BELIEF EDU F",
             "class_number": "14120",
-            "enrollment_cap": 35,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH390",
-                    "start_time": "1215h",
-                    "end_time": "1305h"
-                }
+            "instructor": "renee.ziolkowska@csun.edu",
+            "days": "TR",
+            "location": "SH390",
+            "start_time": "1215h",
+            "end_time": "1305h",
+            "possible_emails": [
+                "renee.ziolkowska@csun.edu"
             ]
-        },
+        }
+    ],
+    "LRS 300": [
         {
-            "subject": "LRS",
-            "catalog_number": "300",
-            "title": "INTER FUTURETEACH",
             "class_number": "14143",
-            "enrollment_cap": 36,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR202",
-                    "start_time": "1100h",
-                    "end_time": "1150h"
-                }
+            "instructor": "sean.pessin@csun.edu",
+            "days": "MW",
+            "location": "JR202",
+            "start_time": "1100h",
+            "end_time": "1150h",
+            "possible_emails": [
+                "sean.pessin@csun.edu"
             ]
         },
         {
-            "subject": "LRS",
-            "catalog_number": "300",
-            "title": "INTER FUTURETEACH",
             "class_number": "14142",
-            "enrollment_cap": 36,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH390",
-                    "start_time": "1600h",
-                    "end_time": "1740h"
-                }
+            "instructor": "sean.pessin@csun.edu",
+            "days": "R",
+            "location": "SH390",
+            "start_time": "1600h",
+            "end_time": "1740h",
+            "possible_emails": [
+                "sean.pessin@csun.edu"
             ]
-        },
+        }
+    ],
+    "LRS 300F": [
         {
-            "subject": "LRS",
-            "catalog_number": "300F",
-            "title": "INTER FUTURETEACH F",
             "class_number": "20912",
-            "enrollment_cap": 36,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR202",
-                    "start_time": "1150h",
-                    "end_time": "2440h"
-                }
+            "instructor": "gina.srmabekian@csun.edu",
+            "days": "MW",
+            "location": "JR202",
+            "start_time": "1150h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "gina.srmabekian@csun.edu"
             ]
         },
         {
-            "subject": "LRS",
-            "catalog_number": "300F",
-            "title": "INTER FUTURETEACH F",
             "class_number": "20913",
-            "enrollment_cap": 36,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH390",
-                    "start_time": "1740h",
-                    "end_time": "1920h"
-                }
+            "instructor": "tina.bertacchi-love@csun.edu",
+            "days": "R",
+            "location": "SH390",
+            "start_time": "1740h",
+            "end_time": "1920h",
+            "possible_emails": [
+                "tina.bertacchi-love@csun.edu"
             ]
-        },
+        }
+    ],
+    "LRS 425MC": [
         {
-            "subject": "LRS",
-            "catalog_number": "425MC",
-            "title": "MLTCLTRL/MLTTHNC LIT",
             "class_number": "15416",
-            "enrollment_cap": 25,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Howard,Krystal Jo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR201",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Howard,Krystal Jo",
+            "days": "M",
+            "location": "EU133",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "timothy.p.howard@csun.edu",
+                "alexander.howard@csun.edu",
+                "krystal.howard@csun.edu"
             ]
         }
     ]

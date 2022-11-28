@@ -209,11 +209,11 @@ async def on_message(message):
     
     if message.content.__contains__("!csun") and len(msg_split) == 3:
         response1 = show_classes(msg_split[1], msg_split[2])
-        response2 = show_schedule("Fall", "2022", msg_split[1], msg_split[2])
+        response2 = show_schedule("Sprig", "2023", msg_split[1], msg_split[2])
         await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
         
     elif message.content.__contains__("!csun help"):
-        await message.channel.send("```Shows both class description and schedule by default. Default schedule is Fall 2022 \
+        await message.channel.send("```Shows both class description and schedule by default. Default schedule is Spring 2023 \
                                    \nTo show different schedule, append it to the end.\n\n" +
                                    "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\n" + 
                                    "For default and multiple classes (in a single subject)\n\t!csun subject class_code class_code class_code" + 

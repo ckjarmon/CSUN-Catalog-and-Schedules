@@ -1,0 +1,613 @@
+{
+    "classes": [
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14222",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR203",
+                    "start_time": "0800h",
+                    "end_time": "0940h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14223",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR212",
+                    "start_time": "0930h",
+                    "end_time": "1110h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14224",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR301",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14350",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JR315",
+                    "start_time": "1400h",
+                    "end_time": "1540h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14225",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1800h",
+                    "end_time": "1940h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14226",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR203",
+                    "start_time": "0800h",
+                    "end_time": "0940h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14250",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR330",
+                    "start_time": "0930h",
+                    "end_time": "1110h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14771",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "ED1126",
+                    "start_time": "1100h",
+                    "end_time": "2440h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14772",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR330",
+                    "start_time": "1400h",
+                    "end_time": "1540h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14773",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1700h",
+                    "end_time": "1840h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14774",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "14775",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "101",
+            "title": "ELEM SPAN I",
+            "class_number": "15154",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "102",
+            "title": "ELEM SPAN II",
+            "class_number": "14221",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR203",
+                    "start_time": "1500h",
+                    "end_time": "1640h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "102",
+            "title": "ELEM SPAN II",
+            "class_number": "14393",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "103",
+            "title": "ELEM WRITN SPAN I",
+            "class_number": "20883",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "220A",
+            "title": "INTER SPANISH I",
+            "class_number": "14251",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "304",
+            "title": "ADV GRAM + COMP",
+            "class_number": "13913",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH221",
+                    "start_time": "1800h",
+                    "end_time": "1915h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "306",
+            "title": "ADVCD COMPOSITION",
+            "class_number": "13914",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Perez-Boluda,Adrian"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "307",
+            "title": "ANLYS HISPAN LIT",
+            "class_number": "13915",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Montepeque,Axel"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "363",
+            "title": "LIT LATIN AMER I",
+            "class_number": "14926",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Montepeque,Axel"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "372",
+            "title": "INTRO SPAN INTER",
+            "class_number": "15245",
+            "enrollment_cap": 34,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Icardo Isasa PhD,Ane"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "JR330",
+                    "start_time": "1500h",
+                    "end_time": "1745h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "380",
+            "title": "LATIN-AMER CIVIL",
+            "class_number": "14665",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Tyutina,Svetlana V"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "428",
+            "title": "LAT AM LIT 20 CEN",
+            "class_number": "20884",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Montepeque,Axel"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "JR315",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "472",
+            "title": "LEGAL & BIZ INTER",
+            "class_number": "20885",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Tyutina,Svetlana V"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "497",
+            "title": "COMP STRUC SPAN ENGL",
+            "class_number": "14649",
+            "enrollment_cap": 34,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Icardo Isasa PhD,Ane"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "JR330",
+                    "start_time": "1730h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "603",
+            "title": "SEM ROMANCE LING",
+            "class_number": "14998",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Icardo Isasa PhD,Ane"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "JR330",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "606",
+            "title": "SEM IN A GENRE",
+            "class_number": "14648",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Montepeque,Axel"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "JR315",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "SPAN",
+            "catalog_number": "697",
+            "title": "DIR COMP STUDIES",
+            "class_number": "14301",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Perez-Boluda,Adrian"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        }
+    ]
+}

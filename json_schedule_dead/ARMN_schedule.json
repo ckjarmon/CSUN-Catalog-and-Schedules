@@ -1,0 +1,88 @@
+{
+    "classes": [
+        {
+            "subject": "ARMN",
+            "catalog_number": "101",
+            "title": "ELEM ARMENIAN I",
+            "class_number": "13908",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Shemmassian,Vahram L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "EU133",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "ARMN",
+            "catalog_number": "310",
+            "title": "ARMENIAN CULTURE",
+            "class_number": "14386",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Shemmassian,Vahram L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "EU133",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "ARMN",
+            "catalog_number": "360",
+            "title": "CHG ROLE ARMN WOM",
+            "class_number": "14254",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH221",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "ARMN",
+            "catalog_number": "417",
+            "title": "EQTY DIVRSTY SCH",
+            "class_number": "20806",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH221",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        }
+    ]
+}

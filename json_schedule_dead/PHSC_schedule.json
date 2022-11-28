@@ -1,0 +1,25 @@
+{
+    "classes": [
+        {
+            "subject": "PHSC",
+            "catalog_number": "170",
+            "title": "INTRO PHYSICAL SCI",
+            "class_number": "17180",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LO1227",
+                    "start_time": "1400h",
+                    "end_time": "1540h"
+                }
+            ]
+        }
+    ]
+}

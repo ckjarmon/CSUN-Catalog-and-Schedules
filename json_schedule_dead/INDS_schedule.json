@@ -1,0 +1,67 @@
+{
+    "classes": [
+        {
+            "subject": "INDS",
+            "catalog_number": "250",
+            "title": "INTRO INTERDISCPLNRY",
+            "class_number": "15383",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Carassai,Mauro"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "INDS",
+            "catalog_number": "300",
+            "title": "FRAMEWORKS INTERDISC",
+            "class_number": "15384",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Carassai,Mauro"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "INDS",
+            "catalog_number": "350",
+            "title": "ADVANCED INTERDISCPL",
+            "class_number": "20808",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Carassai,Mauro"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ED1126",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        }
+    ]
+}
