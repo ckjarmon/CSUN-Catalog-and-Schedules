@@ -1,0 +1,1957 @@
+{
+    "classes": [
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "21009",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BB1206",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "20542",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH314",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "20503",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH108",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "20547",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH221",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "20548",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH224",
+                    "start_time": "1700h",
+                    "end_time": "1750h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "20549",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BB1107",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "21006",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH102",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "21007",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH312",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60AA",
+            "title": "SI MATH 131",
+            "class_number": "21008",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH307",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60BB",
+            "title": "SI CAS 115",
+            "class_number": "20491",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH317",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20171",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BB1228",
+                    "start_time": "1030h",
+                    "end_time": "1120h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20352",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH207",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20569",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH205",
+                    "start_time": "1600h",
+                    "end_time": "1650h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20570",
+            "enrollment_cap": 27,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH207",
+                    "start_time": "1830h",
+                    "end_time": "1920h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20572",
+            "enrollment_cap": 27,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH305",
+                    "start_time": "1000h",
+                    "end_time": "1050h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20573",
+            "enrollment_cap": 27,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH221",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20576",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH314",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20577",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH192",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20579",
+            "enrollment_cap": 27,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "MZ124",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20582",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH207",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20585",
+            "enrollment_cap": 27,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH307",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60C",
+            "title": "SI CHEM 100",
+            "class_number": "20561",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH106",
+                    "start_time": "1300h",
+                    "end_time": "1350h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60NN",
+            "title": "SI MATH 106",
+            "class_number": "20539",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BB1202",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60NN",
+            "title": "SI MATH 106",
+            "class_number": "21005",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH207",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60NN",
+            "title": "SI MATH 106",
+            "class_number": "20557",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH221",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60O",
+            "title": "SI ENGL 115",
+            "class_number": "20501",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH317",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60O",
+            "title": "SI ENGL 115",
+            "class_number": "20497",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH317",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60O",
+            "title": "SI ENGL 115",
+            "class_number": "20499",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH319",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60S",
+            "title": "SI AAS 115",
+            "class_number": "20504",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH317",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60X",
+            "title": "SI MATH 140",
+            "class_number": "20223",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH224",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60X",
+            "title": "SI MATH 140",
+            "class_number": "20233",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH302",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60X",
+            "title": "SI MATH 140",
+            "class_number": "20330",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH224",
+                    "start_time": "1600h",
+                    "end_time": "1650h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60X",
+            "title": "SI MATH 140",
+            "class_number": "20331",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH205",
+                    "start_time": "1600h",
+                    "end_time": "1650h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60X",
+            "title": "SI MATH 140",
+            "class_number": "20334",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JD1552",
+                    "start_time": "1000h",
+                    "end_time": "1050h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60X",
+            "title": "SI MATH 140",
+            "class_number": "20335",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH305",
+                    "start_time": "1000h",
+                    "end_time": "1050h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60X",
+            "title": "SI MATH 140",
+            "class_number": "20336",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JD2522",
+                    "start_time": "1600h",
+                    "end_time": "1650h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "60X",
+            "title": "SI MATH 140",
+            "class_number": "20337",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH371",
+                    "start_time": "1600h",
+                    "end_time": "1650h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "61E",
+            "title": "SI ENGL 113A",
+            "class_number": "20244",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH317",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "61E",
+            "title": "SI ENGL 113A",
+            "class_number": "20346",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH317",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "61E",
+            "title": "SI ENGL 113A",
+            "class_number": "20347",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH317",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "61E",
+            "title": "SI ENGL 113A",
+            "class_number": "20348",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH319",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "61E",
+            "title": "SI ENGL 113A",
+            "class_number": "20356",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH310",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "61E",
+            "title": "SI ENGL 113A",
+            "class_number": "20389",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH317",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "61L",
+            "title": "SI LING 113A",
+            "class_number": "20428",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH319",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "61L",
+            "title": "SI LING 113A",
+            "class_number": "20429",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH319",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62A",
+            "title": "SI AAS 113B",
+            "class_number": "20227",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH317",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62A",
+            "title": "SI AAS 113B",
+            "class_number": "20305",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH319",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62A",
+            "title": "SI AAS 113B",
+            "class_number": "20306",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BB1107",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62C",
+            "title": "SI CAS 113B",
+            "class_number": "20225",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JD1593",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62C",
+            "title": "SI CAS 113B",
+            "class_number": "20228",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH207",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62C",
+            "title": "SI CAS 113B",
+            "class_number": "20404",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH319",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20226",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH319",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20229",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JD1552",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20245",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH307",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20246",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH371",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20247",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH305",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20248",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH312",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20249",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH207",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20251",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BH319",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20253",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH317",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20256",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JD1593",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20261",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JD1552",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20262",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH224",
+                    "start_time": "0930h",
+                    "end_time": "1020h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20263",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH319",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20264",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH371",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62E",
+            "title": "SI ENGL 113B",
+            "class_number": "20265",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BH319",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62H",
+            "title": "SI CH S 113B",
+            "class_number": "20231",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "BB1107",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62H",
+            "title": "SI CH S 113B",
+            "class_number": "20310",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH224",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62H",
+            "title": "SI CH S 113B",
+            "class_number": "20311",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "MZ124",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62H",
+            "title": "SI CH S 113B",
+            "class_number": "20312",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH305",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62H",
+            "title": "SI CH S 113B",
+            "class_number": "20313",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "MZ124",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62L",
+            "title": "SI LING 113B",
+            "class_number": "20437",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "JD1552",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62L",
+            "title": "SI LING 113B",
+            "class_number": "20473",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JD1552",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62L",
+            "title": "SI LING 113B",
+            "class_number": "20474",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "TBA",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62L",
+            "title": "SI LING 113B",
+            "class_number": "20475",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH224",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62L",
+            "title": "SI LING 113B",
+            "class_number": "20973",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH205",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62P",
+            "title": "SI AFRS 113B",
+            "class_number": "20232",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH305",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62Q",
+            "title": "SI QS 113B",
+            "class_number": "20394",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JD1552",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "62Q",
+            "title": "SI QS 113B",
+            "class_number": "20402",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH371",
+                    "start_time": "1100h",
+                    "end_time": "1150h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "100",
+            "title": "FRESHMAN SEMINAR",
+            "class_number": "20193",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH205",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "100",
+            "title": "FRESHMAN SEMINAR",
+            "class_number": "20170",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH205",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "100",
+            "title": "FRESHMAN SEMINAR",
+            "class_number": "20198",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH205",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "100",
+            "title": "FRESHMAN SEMINAR",
+            "class_number": "20210",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH205",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "100",
+            "title": "FRESHMAN SEMINAR",
+            "class_number": "20211",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH205",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "100",
+            "title": "FRESHMAN SEMINAR",
+            "class_number": "20212",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH205",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "100",
+            "title": "FRESHMAN SEMINAR",
+            "class_number": "20396",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Riegos-Olmos,Elizabeth"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SG108",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "100",
+            "title": "FRESHMAN SEMINAR",
+            "class_number": "20397",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Villanueva,Marvin O"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "UL002",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "396A",
+            "title": "TRANSFER SEMINAR",
+            "class_number": "20906",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Street,Michelle M B"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SG110",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "396A",
+            "title": "TRANSFER SEMINAR",
+            "class_number": "20907",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Robinson,Janice"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH305",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "396A",
+            "title": "TRANSFER SEMINAR",
+            "class_number": "20908",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Pirjan,Sevetlana"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH305",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "396A",
+            "title": "TRANSFER SEMINAR",
+            "class_number": "20909",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Dudley,Mary M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH285",
+                    "start_time": "1530h",
+                    "end_time": "1620h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "396A",
+            "title": "TRANSFER SEMINAR",
+            "class_number": "20910",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Robinson,Janice"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH224",
+                    "start_time": "1700h",
+                    "end_time": "1750h"
+                }
+            ]
+        },
+        {
+            "subject": "UNIV",
+            "catalog_number": "396A",
+            "title": "TRANSFER SEMINAR",
+            "class_number": "20911",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Robinson,Janice"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "MZ113",
+                    "start_time": "1700h",
+                    "end_time": "1750h"
+                }
+            ]
+        }
+    ]
+}

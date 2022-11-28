@@ -1,276 +1,165 @@
 {
-    "classes": [
+    "AM 316": [
         {
-            "subject": "AM",
-            "catalog_number": "316",
-            "title": "ENGR DYNAMICS",
             "class_number": "16233",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JD1609",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "JD1609",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": []
         },
         {
-            "subject": "AM",
-            "catalog_number": "316",
-            "title": "ENGR DYNAMICS",
             "class_number": "16332",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Boyajian,David M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JD1609",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "david.boyajian@csun.edu",
+            "days": "MW",
+            "location": "JD1609",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "david.boyajian@csun.edu"
             ]
         },
         {
-            "subject": "AM",
-            "catalog_number": "316",
-            "title": "ENGR DYNAMICS",
             "class_number": "16753",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JD1609",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD1609",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         },
         {
-            "subject": "AM",
-            "catalog_number": "316",
-            "title": "ENGR DYNAMICS",
             "class_number": "16858",
-            "enrollment_cap": 30,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sun,C. Shawn"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JD1609",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Sun,C. Shawn",
+            "days": "MW",
+            "location": "JD1609",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "shawn.sun@csun.edu",
+                "qin.sun@csun.edu",
+                "lin.sun@csun.edu",
+                "weimin.sun@csun.edu",
+                "yifei.sun@csun.edu",
+                "heekyung.sung@csun.edu"
             ]
         },
         {
-            "subject": "AM",
-            "catalog_number": "316",
-            "title": "ENGR DYNAMICS",
             "class_number": "16859",
-            "enrollment_cap": 30,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JD1563",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD1563",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
+        }
+    ],
+    "AM 317": [
         {
-            "subject": "AM",
-            "catalog_number": "317",
-            "title": "MECHANICS LAB",
             "class_number": "16436",
-            "enrollment_cap": 20,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD1561",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "JD1561",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "AM",
-            "catalog_number": "317",
-            "title": "MECHANICS LAB",
             "class_number": "16547",
-            "enrollment_cap": 20,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Amarkhil,Qais"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JD1561",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "qais.amarkhil@csun.edu",
+            "days": "T",
+            "location": "JD1561",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "qais.amarkhil@csun.edu"
             ]
         },
         {
-            "subject": "AM",
-            "catalog_number": "317",
-            "title": "MECHANICS LAB",
             "class_number": "16656",
-            "enrollment_cap": 20,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD1561",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "JD1561",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "AM",
-            "catalog_number": "317",
-            "title": "MECHANICS LAB",
             "class_number": "16231",
-            "enrollment_cap": 20,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1561",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JD1561",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "AM",
-            "catalog_number": "317",
-            "title": "MECHANICS LAB",
             "class_number": "16659",
-            "enrollment_cap": 20,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JD1561",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JD1561",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "possible_emails": []
         },
         {
-            "subject": "AM",
-            "catalog_number": "317",
-            "title": "MECHANICS LAB",
             "class_number": "16713",
-            "enrollment_cap": 20,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JD1561",
-                    "start_time": "1300h",
-                    "end_time": "1545h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JD1561",
+            "start_time": "1300h",
+            "end_time": "1545h",
+            "possible_emails": []
+        }
+    ],
+    "AM 410": [
         {
-            "subject": "AM",
-            "catalog_number": "410",
-            "title": "VIBRATION ANALY",
             "class_number": "16232",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Zirakian,Tadeh"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JD1609",
-                    "start_time": "1730h",
-                    "end_time": "1845h"
-                }
+            "instructor": "tadeh.zirakian@csun.edu",
+            "days": "MW",
+            "location": "JD1609",
+            "start_time": "1730h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "tadeh.zirakian@csun.edu"
             ]
         },
         {
-            "subject": "AM",
-            "catalog_number": "410",
-            "title": "VIBRATION ANALY",
             "class_number": "16690",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Zirakian,Tadeh"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JD1609",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
+            "instructor": "tadeh.zirakian@csun.edu",
+            "days": "MW",
+            "location": "JD1609",
+            "start_time": "1530h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "tadeh.zirakian@csun.edu"
             ]
         }
     ]

@@ -1,0 +1,46 @@
+{
+    "classes": [
+        {
+            "subject": "GEH",
+            "catalog_number": "333",
+            "title": "WAYS OF KNOWING",
+            "class_number": "20550",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Kleinman,Scott"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH312",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "GEH",
+            "catalog_number": "333",
+            "title": "WAYS OF KNOWING",
+            "class_number": "20551",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Giotta,Gina N"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "JR242",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        }
+    ]
+}

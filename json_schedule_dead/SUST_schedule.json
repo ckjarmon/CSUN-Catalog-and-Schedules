@@ -1,0 +1,109 @@
+{
+    "classes": [
+        {
+            "subject": "SUST",
+            "catalog_number": "300",
+            "title": "SUST PERSPECTIVES",
+            "class_number": "14425",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SUST",
+            "catalog_number": "300",
+            "title": "SUST PERSPECTIVES",
+            "class_number": "14942",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "JR246",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "SUST",
+            "catalog_number": "310",
+            "title": "SUST PRACTICES",
+            "class_number": "14369",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "SUST",
+            "catalog_number": "310",
+            "title": "SUST PRACTICES",
+            "class_number": "14911",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "EU130",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "SUST",
+            "catalog_number": "401",
+            "title": "APPLIED SUST",
+            "class_number": "14426",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH225",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        }
+    ]
+}

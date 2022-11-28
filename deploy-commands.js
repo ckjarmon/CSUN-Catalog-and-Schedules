@@ -43,8 +43,7 @@ const commands = [
 		new SlashCommandBuilder().setName('prof').setDescription('see what a prof is teaching').addStringOption(option =>
 			option.setName('subject').setDescription('subject prof teaches')
 			.setRequired(true)).addStringOption(option =>
-			option.setName('prof_name').setDescription('last name of prof')
-			.setRequired(true)),
+			option.setName('prof_id').setDescription('after running prof command with no id, pick the number of the prof you want to see').setRequired(false)),
 		new SlashCommandBuilder().setName('level').setDescription('see classes at a 00-th level').addStringOption(option =>
 			option.setName('subject').setDescription('subject')
 			.setRequired(true)).addStringOption(option =>

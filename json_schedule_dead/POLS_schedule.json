@@ -1,0 +1,1432 @@
+{
+    "classes": [
+        {
+            "subject": "POLS",
+            "catalog_number": "155",
+            "title": "AMER POL INST",
+            "class_number": "12082",
+            "enrollment_cap": 160,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Michaud,Kristy E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "LA181",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "155",
+            "title": "AMER POL INST",
+            "class_number": "12083",
+            "enrollment_cap": 231,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Leitch,David G"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "LA181",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "155",
+            "title": "AMER POL INST",
+            "class_number": "12084",
+            "enrollment_cap": 138,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Morin,Jason L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "155",
+            "title": "AMER POL INST",
+            "class_number": "12085",
+            "enrollment_cap": 155,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "CR5122",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "155",
+            "title": "AMER POL INST",
+            "class_number": "12199",
+            "enrollment_cap": 185,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hirata,Keiko"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "NH113",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "155",
+            "title": "AMER POL INST",
+            "class_number": "12200",
+            "enrollment_cap": 231,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Garcia-Acevedo,Maria R"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "LA181",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "155",
+            "title": "AMER POL INST",
+            "class_number": "12424",
+            "enrollment_cap": 121,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Becker,Lawrence A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "155HON",
+            "title": "AMER POL INST",
+            "class_number": "12816",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "De Maio,Jennifer"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH266",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "197",
+            "title": "RACE & ETHNIC POL",
+            "class_number": "12815",
+            "enrollment_cap": 74,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ricks,Boris E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "225",
+            "title": "ELEM INTRNTNL REL",
+            "class_number": "12201",
+            "enrollment_cap": 62,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "De Maio,Jennifer"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH342",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "310",
+            "title": "PROB POL ECON",
+            "class_number": "12729",
+            "enrollment_cap": 84,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mitchell,James A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH120",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "321",
+            "title": "COMP POL IDEOLOG",
+            "class_number": "12530",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH266",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "332",
+            "title": "POL/LATIN AMERICA",
+            "class_number": "12632",
+            "enrollment_cap": 74,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Alvarez,Linda"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH309",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "347",
+            "title": "JUD PROCESS",
+            "class_number": "12491",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH270",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "350",
+            "title": "GREAT QUEST POLTI",
+            "class_number": "12488",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Dungey,Nicholas W"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH270",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "350",
+            "title": "GREAT QUEST POLTI",
+            "class_number": "12149",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH267",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "350",
+            "title": "GREAT QUEST POLTI",
+            "class_number": "12898",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH266",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "350",
+            "title": "GREAT QUEST POLTI",
+            "class_number": "20903",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Dungey,Nicholas W"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH267",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "355",
+            "title": "AM NTL ST LOC GVT",
+            "class_number": "12088",
+            "enrollment_cap": 84,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH120",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "355",
+            "title": "AM NTL ST LOC GVT",
+            "class_number": "12489",
+            "enrollment_cap": 74,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Alvarez,Linda"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH309",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "355",
+            "title": "AM NTL ST LOC GVT",
+            "class_number": "12490",
+            "enrollment_cap": 74,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mitchell,James A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH309",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "355",
+            "title": "AM NTL ST LOC GVT",
+            "class_number": "12534",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ricks,Boris E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH266",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "360",
+            "title": "PUBLIC ADMIN",
+            "class_number": "12633",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ricks,Boris E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH270",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "361",
+            "title": "INTR TO PUBL POL",
+            "class_number": "12554",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "372",
+            "title": "PRIN METH POL SCI",
+            "class_number": "12236",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Macias,Alexandra"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH303",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "372",
+            "title": "PRIN METH POL SCI",
+            "class_number": "12237",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Macias,Alexandra"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH303",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "372",
+            "title": "PRIN METH POL SCI",
+            "class_number": "12238",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH303",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "372",
+            "title": "PRIN METH POL SCI",
+            "class_number": "12471",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH303",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "403",
+            "title": "ST + LOCAL GOVMT",
+            "class_number": "12219",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH270",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "405",
+            "title": "POL FRAM & AGNDA SET",
+            "class_number": "13282",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH266",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "406",
+            "title": "ANALYSIS POLICY PROB",
+            "class_number": "12731",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH270",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "410",
+            "title": "ADVANCE COMP POLI",
+            "class_number": "12905",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Macias,Alexandra"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH270",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "412",
+            "title": "MOD WEST POL THEO",
+            "class_number": "12915",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Dungey,Nicholas W"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH270",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "420D",
+            "title": "INTL REL MID EAST",
+            "class_number": "13309",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH270",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "427A",
+            "title": "MODEL UN",
+            "class_number": "12918",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "De Maio,Jennifer"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH303",
+                    "start_time": "0800h",
+                    "end_time": "0850h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "427AL",
+            "title": "MODEL UN LAB",
+            "class_number": "12919",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "De Maio,Jennifer"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH303",
+                    "start_time": "0900h",
+                    "end_time": "2450h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "429",
+            "title": "US FOREIGN POLICY",
+            "class_number": "12155",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH270",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "433A",
+            "title": "POL/CENTRAL AMER",
+            "class_number": "12509",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Alvarez,Linda"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "439A",
+            "title": "GOV/POL SUBSAHARN",
+            "class_number": "12636",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "De Maio,Jennifer"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH266",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "440",
+            "title": "AMER POL PARTIES",
+            "class_number": "12637",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH270",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "441",
+            "title": "INTEREST GROUPS",
+            "class_number": "12494",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH266",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "443",
+            "title": "CONG & LEGIS PROCESS",
+            "class_number": "12733",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Becker,Lawrence A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "ONLINE",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "445",
+            "title": "POL BEHAVIOR",
+            "class_number": "12997",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Morin,Jason L"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH266",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "446",
+            "title": "THE PRESIDENCY",
+            "class_number": "12508",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Becker,Lawrence A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH270",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "450",
+            "title": "JURISPRUDENCE",
+            "class_number": "12851",
+            "enrollment_cap": 41,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Leitch,David G"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH266",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "455",
+            "title": "CRIMINAL PROCED",
+            "class_number": "12220",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bradberry,Leigh A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH270",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "455",
+            "title": "CRIMINAL PROCED",
+            "class_number": "12817",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH270",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "457A",
+            "title": "CONST LAW I",
+            "class_number": "12934",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH186",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "457B",
+            "title": "CONST LAW II",
+            "class_number": "12086",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bradberry,Leigh A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH270",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "461",
+            "title": "ENVR POLICY",
+            "class_number": "12922",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Michaud,Kristy E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH270",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "467",
+            "title": "URBAN ADMIN",
+            "class_number": "12818",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH267",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "471A",
+            "title": "PROSEM AM GO",
+            "class_number": "12162",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Ricks,Boris E"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH290",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "471B",
+            "title": "PROSEM-COMP GOVNT",
+            "class_number": "12425",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Garcia-Acevedo,Maria R"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH290",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "471C",
+            "title": "PROSEM-INTNTL REL",
+            "class_number": "12496",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hirata,Keiko"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SH290",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "471D",
+            "title": "PROSEM-POLITCL TH",
+            "class_number": "12681",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Dungey,Nicholas W"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SH290",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "471E",
+            "title": "PROSEM-PUBLC ADMN",
+            "class_number": "12426",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SH290",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "471F",
+            "title": "PROSEM-PUBLIC LAW",
+            "class_number": "12413",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bradberry,Leigh A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH290",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "471F",
+            "title": "PROSEM-PUBLIC LAW",
+            "class_number": "20756",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH290",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "480",
+            "title": "POL GLOBALIZATION",
+            "class_number": "13310",
+            "enrollment_cap": 43,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "ONLINE",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "490CA",
+            "title": "SUP IND PROJ CAL",
+            "class_number": "12557",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Macias,Alexandra"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "494I",
+            "title": "POLS INTERNSHIP",
+            "class_number": "12482",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Macias,Alexandra"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH104",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "494IA",
+            "title": "POLS INT A",
+            "class_number": "12932",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Macias,Alexandra"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "OFFCAM",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "494J",
+            "title": "JUDICIAL INTNSHIP",
+            "class_number": "12481",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bradberry,Leigh A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SH290",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "494JA",
+            "title": "JUDICIAL INT A",
+            "class_number": "12929",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bradberry,Leigh A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "OFFCAM",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "522C",
+            "title": "SEM INT RELATIONS",
+            "class_number": "20757",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mitchell,James A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SH290",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "540F",
+            "title": "SEM IN PUB POLCY",
+            "class_number": "20758",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Hogen-Esch,Tom J"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SH290",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "599C",
+            "title": "INDEPENDENT STUDY",
+            "class_number": "12089",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Macias,Alexandra"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "POLS",
+            "catalog_number": "698D",
+            "title": "GRADUATE PROJECT",
+            "class_number": "12938",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Macias,Alexandra"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        }
+    ]
+}

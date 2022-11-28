@@ -1,0 +1,1705 @@
+{
+    "classes": [
+        {
+            "subject": "FCS",
+            "catalog_number": "111",
+            "title": "INTERIOR DS MTRS",
+            "class_number": "20799",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "ONLINE",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "113",
+            "title": "INT DSGN COMM I",
+            "class_number": "19443",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ201",
+                    "start_time": "1230h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "150",
+            "title": "APPAREL CONST I",
+            "class_number": "18882",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SQ241",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "150L",
+            "title": "APPRL CONST I LAB",
+            "class_number": "19210",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SQ241",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "160",
+            "title": "INTRO TEXTILES",
+            "class_number": "18910",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Tung,Tracie"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ100",
+                    "start_time": "1530h",
+                    "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "160",
+            "title": "INTRO TEXTILES",
+            "class_number": "20017",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Tung,Tracie"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SQ109",
+                    "start_time": "1530h",
+                    "end_time": "1815h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "170",
+            "title": "CREATIVE EXP FCS",
+            "class_number": "18792",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ102",
+                    "start_time": "1400h",
+                    "end_time": "1450h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "170",
+            "title": "CREATIVE EXP FCS",
+            "class_number": "18849",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Cho,Hira"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ101",
+                    "start_time": "1530h",
+                    "end_time": "1710h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "201",
+            "title": "INTROD FOOD SCI",
+            "class_number": "18793",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Allison,Brittany"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SQ112",
+                    "start_time": "1530h",
+                    "end_time": "1710h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "201L",
+            "title": "INTRO FOOD SCI L",
+            "class_number": "18794",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Allison,Brittany"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SQ112",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "201L",
+            "title": "INTRO FOOD SCI L",
+            "class_number": "18992",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Allison,Brittany"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SQ112",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "207",
+            "title": "NUTRITION FR LIFE",
+            "class_number": "18795",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ101",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "207",
+            "title": "NUTRITION FR LIFE",
+            "class_number": "18894",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Torabian-Riasati,Setareh"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "210",
+            "title": "HIST INTR ARCH I",
+            "class_number": "19347",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "213",
+            "title": "INT DSGN COMM II",
+            "class_number": "18937",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "TBA",
+                    "start_time": "0800h",
+                    "end_time": "0825h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "213L",
+            "title": "INT DSGN COMM II LAB",
+            "class_number": "18918",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "TBA",
+                    "start_time": "0825h",
+                    "end_time": "1110h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "217",
+            "title": "INT DSGN STUDIO II",
+            "class_number": "20081",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ201",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "232",
+            "title": "INDIV + FAM DEV",
+            "class_number": "18797",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ100",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "232",
+            "title": "INDIV + FAM DEV",
+            "class_number": "18994",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ100",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "234",
+            "title": "CHILD FAM COMM",
+            "class_number": "19027",
+            "enrollment_cap": 50,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ100",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "250",
+            "title": "APPAREL CONST II",
+            "class_number": "18798",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ241",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "250L",
+            "title": "APPRL CON II LAB",
+            "class_number": "18799",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ241",
+                    "start_time": "1050h",
+                    "end_time": "1335h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "255",
+            "title": "FASHION INDUSTRY",
+            "class_number": "18850",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Cho,Hira"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SQ102",
+                    "start_time": "1545h",
+                    "end_time": "1830h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "271",
+            "title": "APPAREL ANALYSIS",
+            "class_number": "18914",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SQ109",
+                    "start_time": "1400h",
+                    "end_time": "1540h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "271L",
+            "title": "APPAREL ANYLS LAB",
+            "class_number": "18915",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SQ241",
+                    "start_time": "1400h",
+                    "end_time": "1540h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "301",
+            "title": "FOOD SCIENCE TECH",
+            "class_number": "18800",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Garcia-Torres,Rosalia"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SQ102",
+                    "start_time": "1400h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "304",
+            "title": "FDSV PROD",
+            "class_number": "18801",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Allison,Brittany"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SQ112",
+                    "start_time": "1400h",
+                    "end_time": "1540h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "307",
+            "title": "ADV NUTR MACRO",
+            "class_number": "18802",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Torabian-Riasati,Setareh"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SQ102",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "308",
+            "title": "ADV NUTR MICRO",
+            "class_number": "18988",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "ONLINE",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "312",
+            "title": "LIGHT & MECH SYS",
+            "class_number": "18804",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "King,Kristin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SQ215",
+                    "start_time": "1230h",
+                    "end_time": "1410h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "312L",
+            "title": "LIGHT & MECH LAB",
+            "class_number": "18805",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "King,Kristin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ215",
+                    "start_time": "1230h",
+                    "end_time": "1410h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "315",
+            "title": "ISSUES IN HOUSING",
+            "class_number": "19275",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ100",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "316",
+            "title": "INT DSGN COMM III",
+            "class_number": "18920",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "ONLINE",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "317",
+            "title": "INT DSGN STUDIO IV",
+            "class_number": "20084",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ215",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "320",
+            "title": "FAM RES MGT",
+            "class_number": "19127",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mimura,Yoko"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "320",
+            "title": "FAM RES MGT",
+            "class_number": "19274",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mimura,Yoko"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "321",
+            "title": "CONTP FOODS/NUTR",
+            "class_number": "18807",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "JD2524",
+                    "start_time": "1230h",
+                    "end_time": "1320h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "321L",
+            "title": "CONTP FOODS/NUTR LAB",
+            "class_number": "18808",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "JD2520",
+                    "start_time": "1320h",
+                    "end_time": "1525h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "322",
+            "title": "EQUIPMENT I",
+            "class_number": "18809",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ112",
+                    "start_time": "1000h",
+                    "end_time": "1050h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "322L",
+            "title": "EQUIPMENT I LAB",
+            "class_number": "18810",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SQ112",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "322L",
+            "title": "EQUIPMENT I LAB",
+            "class_number": "18916",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SQ112",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "323",
+            "title": "FAM IN MONEY MNGT",
+            "class_number": "19008",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bradley,Linda A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "ONLINE",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "323",
+            "title": "FAM IN MONEY MNGT",
+            "class_number": "19448",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bradley,Linda A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "323",
+            "title": "FAM IN MONEY MNGT",
+            "class_number": "20085",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Bradley,Linda A"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "324",
+            "title": "CONSUMER RIGHTS",
+            "class_number": "19128",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "324",
+            "title": "CONSUMER RIGHTS",
+            "class_number": "19449",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "330",
+            "title": "CHILD GRWTH DEV I",
+            "class_number": "18811",
+            "enrollment_cap": 50,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ100",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "330",
+            "title": "CHILD GRWTH DEV I",
+            "class_number": "18812",
+            "enrollment_cap": 50,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ100",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "335",
+            "title": "PRENATAL INF DEV",
+            "class_number": "18963",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ101",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "340",
+            "title": "MARRIAGE FAM REL",
+            "class_number": "18814",
+            "enrollment_cap": 50,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ101",
+                    "start_time": "1100h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "340",
+            "title": "MARRIAGE FAM REL",
+            "class_number": "18815",
+            "enrollment_cap": 50,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Giordano,Angie M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SQ100",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "340",
+            "title": "MARRIAGE FAM REL",
+            "class_number": "18816",
+            "enrollment_cap": 50,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "ONLINE",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "340",
+            "title": "MARRIAGE FAM REL",
+            "class_number": "19126",
+            "enrollment_cap": 105,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Giordano,Angie M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "340",
+            "title": "MARRIAGE FAM REL",
+            "class_number": "18817",
+            "enrollment_cap": 105,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "McCollum,Heather R"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "340",
+            "title": "MARRIAGE FAM REL",
+            "class_number": "19178",
+            "enrollment_cap": 105,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Krishnan,Uma"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "340",
+            "title": "MARRIAGE FAM REL",
+            "class_number": "19249",
+            "enrollment_cap": 105,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Jefferson,Sean"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "356",
+            "title": "ANLYS EVAL AP QUA",
+            "class_number": "18818",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SQ109",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "356L",
+            "title": "EVAL AP QUAL LAB",
+            "class_number": "18819",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "SQ241",
+                    "start_time": "1600h",
+                    "end_time": "1740h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "357",
+            "title": "APPARL HUMAN BEHAVR",
+            "class_number": "20086",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "360",
+            "title": "TEXTILES",
+            "class_number": "18885",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Cao,Wei"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "360L",
+            "title": "TEXTILES LAB",
+            "class_number": "18886",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Cao,Wei"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ230",
+                    "start_time": "0930h",
+                    "end_time": "2415h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "360L",
+            "title": "TEXTILES LAB",
+            "class_number": "19451",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Cao,Wei"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ230",
+                    "start_time": "1245h",
+                    "end_time": "1530h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "371",
+            "title": "APP DES FLAT PATN",
+            "class_number": "18820",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SQ241",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "371L",
+            "title": "APP DES FL PT LAB",
+            "class_number": "18821",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SQ241",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "380",
+            "title": "FCS/FOUND + RES",
+            "class_number": "18822",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ102",
+                    "start_time": "1230h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "380",
+            "title": "FCS/FOUND + RES",
+            "class_number": "18823",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Mimura,Yoko"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ102",
+                    "start_time": "0930h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "380",
+            "title": "FCS/FOUND + RES",
+            "class_number": "18895",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "R",
+                    "location": "JD1124",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "380",
+            "title": "FCS/FOUND + RES",
+            "class_number": "19036",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SQ101",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "401",
+            "title": "FOOD ANALYSIS",
+            "class_number": "18824",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Garcia-Torres,Rosalia"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SQ112",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "401L",
+            "title": "FOOD ANALYSIS LAB",
+            "class_number": "18825",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SQ134",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "402",
+            "title": "MED NUT THPY I",
+            "class_number": "19055",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "ONLINE",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "403",
+            "title": "MED NUT THPY II",
+            "class_number": "19038",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ102",
+                    "start_time": "0800h",
+                    "end_time": "0915h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "404",
+            "title": "FDSVC SYM MGT",
+            "class_number": "19039",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Allison,Brittany"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SQ112",
+                    "start_time": "0900h",
+                    "end_time": "1040h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "404L",
+            "title": "FDSVS SYS MGT LAB",
+            "class_number": "19040",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Allison,Brittany"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "F",
+                    "location": "SQ112",
+                    "start_time": "1100h",
+                    "end_time": "1345h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "408",
+            "title": "COMMUNITY NUTR",
+            "class_number": "18826",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "RE151",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "411",
+            "title": "INT DSGN STUDIO V",
+            "class_number": "18946",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "MW",
+                    "location": "SQ215",
+                    "start_time": "1600h",
+                    "end_time": "1845h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "412",
+            "title": "ORG INTR DSGN PRC",
+            "class_number": "18851",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "T",
+                    "location": "SQ102",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "413",
+            "title": "CON DOCS",
+            "class_number": "19581",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "King,Kristin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "SQ201",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "413L",
+            "title": "CON DOCS LAB",
+            "class_number": "19582",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "King,Kristin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SQ201",
+                    "start_time": "0800h",
+                    "end_time": "1045h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "414",
+            "title": "SR COMP ID STUDIO",
+            "class_number": "18827",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "King,Kristin"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "SQ215",
+                    "start_time": "0930h",
+                    "end_time": "1335h"
+                }
+            ]
+        },
+        {
+            "subject": "FCS",
+            "catalog_number": "420",
+            "title": "C I FAM RES MGT",
+            "class_number": "18828",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONLINE",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        }
+    ]
+}

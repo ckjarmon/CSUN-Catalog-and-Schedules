@@ -1,24 +1,17 @@
 {
-    "classes": [
+    "CCE 490": [
         {
-            "subject": "CCE",
-            "catalog_number": "490",
-            "title": "CCE CAPSTONE",
             "class_number": "15196",
-            "enrollment_cap": 30,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Alvizo,Xochitl",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "xochitl.alvizo@csun.edu",
+                "xochitl.floresmarcial@csun.edu"
             ]
         }
     ]

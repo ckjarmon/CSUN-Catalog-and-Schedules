@@ -1,0 +1,67 @@
+{
+    "classes": [
+        {
+            "subject": "GBUS",
+            "catalog_number": "600",
+            "title": "CONTEMPORARY ORG",
+            "class_number": "13372",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "BB4117",
+                    "start_time": "0900h",
+                    "end_time": "1600h"
+                }
+            ]
+        },
+        {
+            "subject": "GBUS",
+            "catalog_number": "607",
+            "title": "DATA ANALYTICS",
+            "class_number": "13829",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Sankaran,Siva R"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "BB2125",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "GBUS",
+            "catalog_number": "698A",
+            "title": "GRADUATE PROJECT",
+            "class_number": "13623",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Staff"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": null,
+                    "location": "ONCAMP",
+                    "start_time": "0000h",
+                    "end_time": "0000h"
+                }
+            ]
+        }
+    ]
+}

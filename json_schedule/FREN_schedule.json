@@ -1,87 +1,57 @@
 {
-    "classes": [
+    "FREN 101": [
         {
-            "subject": "FREN",
-            "catalog_number": "101",
-            "title": "ELEM FREN I",
             "class_number": "14227",
-            "enrollment_cap": 25,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR212",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
+            "instructor": "ludmila.posner@csun.edu",
+            "days": "TR",
+            "location": "JR212",
+            "start_time": "0900h",
+            "end_time": "1040h",
+            "possible_emails": [
+                "ludmila.posner@csun.edu"
             ]
         },
         {
-            "subject": "FREN",
-            "catalog_number": "101",
-            "title": "ELEM FREN I",
             "class_number": "14228",
-            "enrollment_cap": 25,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR203",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
+            "instructor": "mahsa.pourabedi@csun.edu",
+            "days": "MW",
+            "location": "JR203",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "mahsa.pourabedi@csun.edu"
             ]
         },
         {
-            "subject": "FREN",
-            "catalog_number": "101",
-            "title": "ELEM FREN I",
             "class_number": "14229",
-            "enrollment_cap": 25,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR212",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
+            "instructor": "mahsa.pourabedi@csun.edu",
+            "days": "TR",
+            "location": "JR212",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "mahsa.pourabedi@csun.edu"
             ]
-        },
+        }
+    ],
+    "FREN 102": [
         {
-            "subject": "FREN",
-            "catalog_number": "102",
-            "title": "ELEM FREN II",
             "class_number": "14230",
-            "enrollment_cap": 34,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "corinne.slosburg@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "corinne.slosburg@csun.edu"
             ]
         }
     ]

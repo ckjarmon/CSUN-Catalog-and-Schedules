@@ -1,87 +1,61 @@
 {
-    "classes": [
+    "ITAL 101": [
         {
-            "subject": "ITAL",
-            "catalog_number": "101",
-            "title": "ELEM ITAL I",
             "class_number": "14231",
-            "enrollment_cap": 32,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR243",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
+            "instructor": "alessia.weisberg@csun.edu",
+            "days": "TR",
+            "location": "JR243",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "alessia.weisberg@csun.edu"
             ]
         },
         {
-            "subject": "ITAL",
-            "catalog_number": "101",
-            "title": "ELEM ITAL I",
             "class_number": "14232",
-            "enrollment_cap": 32,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH221",
-                    "start_time": "1300h",
-                    "end_time": "1440h"
-                }
+            "instructor": "alessia.weisberg@csun.edu",
+            "days": "T",
+            "location": "SH221",
+            "start_time": "1300h",
+            "end_time": "1440h",
+            "possible_emails": [
+                "alessia.weisberg@csun.edu"
             ]
-        },
+        }
+    ],
+    "ITAL 102": [
         {
-            "subject": "ITAL",
-            "catalog_number": "102",
-            "title": "ELEM ITAL II",
             "class_number": "14233",
-            "enrollment_cap": 25,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "alessia.weisberg@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "alessia.weisberg@csun.edu"
             ]
-        },
+        }
+    ],
+    "ITAL 204": [
         {
-            "subject": "ITAL",
-            "catalog_number": "201",
-            "title": "INTER ITALIAN I",
-            "class_number": "15249",
+            "class_number": "14836",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "EU132",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Miller,Patricia I",
+            "days": "T",
+            "location": "EU132",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "justin.miller.45@csun.edu",
+                "amanda.b.miller@csun.edu",
+                "pat.miller@csun.edu"
             ]
         }
     ]

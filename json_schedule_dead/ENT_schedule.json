@@ -1,0 +1,88 @@
+{
+    "classes": [
+        {
+            "subject": "ENT",
+            "catalog_number": "101",
+            "title": "EXPLORE ENTREPRENEUR",
+            "class_number": "20674",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Scillitoe,Joanne"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BB1133",
+                    "start_time": "1530h",
+                    "end_time": "1645h"
+                }
+            ]
+        },
+        {
+            "subject": "ENT",
+            "catalog_number": "310",
+            "title": "ENT FOUNDATION",
+            "class_number": "20675",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Shelton,Lois M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "M",
+                    "location": "JR119",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        },
+        {
+            "subject": "ENT",
+            "catalog_number": "320",
+            "title": "SOCIAL ENTREPRENEUR",
+            "class_number": "20683",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Moore,Richard W"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "TR",
+                    "location": "BB1202",
+                    "start_time": "1400h",
+                    "end_time": "1515h"
+                }
+            ]
+        },
+        {
+            "subject": "ENT",
+            "catalog_number": "410",
+            "title": "ENT OPERATION",
+            "class_number": "20676",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructors": [
+                {
+                    "instructor": "Shelton,Lois M"
+                }
+            ],
+            "meetings": [
+                {
+                    "days": "W",
+                    "location": "SH224",
+                    "start_time": "1900h",
+                    "end_time": "2145h"
+                }
+            ]
+        }
+    ]
+}

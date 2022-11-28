@@ -1,1663 +1,805 @@
 {
-    "classes": [
+    "GEOL 101": [
         {
-            "subject": "GEOG",
-            "catalog_number": "101",
-            "title": "THE PHYSCL ENVIRN",
-            "class_number": "12157",
-            "enrollment_cap": 84,
+            "class_number": "17157",
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH120",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        },
+        {
+            "class_number": "17358",
+            "enrollment_cap": 55,
+            "enrollment_count": 0,
+            "instructor": "dayanthie.weeraratne@csun.edu",
+            "days": "MW",
+            "location": "CR5125",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "dayanthie.weeraratne@csun.edu"
             ]
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "101A",
-            "title": "PHYSICAL ENVIRON",
-            "class_number": "13222",
-            "enrollment_cap": 42,
+            "class_number": "17158",
+            "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1231",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "101AL",
-            "title": "PHYSICAL ENVIRON LAB",
-            "class_number": "13223",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "101HON",
-            "title": "THE PHYSCL ENVIRN",
-            "class_number": "13351",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Craine,James W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "102",
-            "title": "PHYSICAL GEOG LAB",
-            "class_number": "12501",
+            "class_number": "17159",
             "enrollment_cap": 48,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH170",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1231",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "102",
-            "title": "PHYSICAL GEOG LAB",
-            "class_number": "12502",
-            "enrollment_cap": 48,
+            "class_number": "18047",
+            "enrollment_cap": 47,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH170",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "LO1231",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "103",
-            "title": "WEATHER",
-            "class_number": "12679",
-            "enrollment_cap": 84,
+            "class_number": "18048",
+            "enrollment_cap": 49,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Giraldo,Mario A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "LO1231",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "103A",
-            "title": "WEATHER",
-            "class_number": "13224",
-            "enrollment_cap": 41,
+            "class_number": "18094",
+            "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "LO1231",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 102": [
         {
-            "subject": "GEOG",
-            "catalog_number": "103AL",
-            "title": "WEATHER LAB",
-            "class_number": "13225",
-            "enrollment_cap": 41,
+            "class_number": "17310",
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "EH2221",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "105",
-            "title": "WEATHER LAB",
-            "class_number": "12073",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH170",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "105",
-            "title": "WEATHER LAB",
-            "class_number": "12680",
-            "enrollment_cap": 48,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH170",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "107",
-            "title": "PEOPL PLACES LANDSCP",
-            "class_number": "12442",
-            "enrollment_cap": 125,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Graves,Steven M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SQ104",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "111",
-            "title": "CLIMATE CHANGE",
-            "class_number": "13226",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "111L",
-            "title": "CLIMATE CHANGE LB",
-            "class_number": "13227",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "150",
-            "title": "WRLD GEOG PEOP PLCS",
-            "class_number": "12651",
-            "enrollment_cap": 120,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sun,Yifei"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "150",
-            "title": "WRLD GEOG PEOP PLCS",
-            "class_number": "13099",
-            "enrollment_cap": 84,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Davidson,Ronald A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "170",
-            "title": "WATER RESOURCE CA",
-            "class_number": "20669",
+            "class_number": "17404",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "EH2221",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "206",
-            "title": "INTRO GIS",
-            "class_number": "12207",
-            "enrollment_cap": 24,
+            "class_number": "17406",
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sun,Yifei"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH103",
-                    "start_time": "1230h",
-                    "end_time": "1320h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "EH2221",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "206",
-            "title": "INTRO GIS",
-            "class_number": "12871",
-            "enrollment_cap": 24,
+            "class_number": "17407",
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Maas,Regan M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH103",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "EH2221",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "206",
-            "title": "INTRO GIS",
-            "class_number": "20645",
-            "enrollment_cap": 24,
+            "class_number": "17623",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rader,Alana"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "EH2221",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "206L",
-            "title": "INTRO GIS LAB",
-            "class_number": "12208",
-            "enrollment_cap": 24,
+            "class_number": "17624",
+            "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sun,Yifei"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH103",
-                    "start_time": "1320h",
-                    "end_time": "1410h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "EH2221",
+            "start_time": "1700h",
+            "end_time": "1945h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "206L",
-            "title": "INTRO GIS LAB",
-            "class_number": "12423",
-            "enrollment_cap": 24,
+            "class_number": "17625",
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Maas,Regan M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH103",
-                    "start_time": "1540h",
-                    "end_time": "1735h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "EH2221",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "206L",
-            "title": "INTRO GIS LAB",
-            "class_number": "20646",
-            "enrollment_cap": 24,
+            "class_number": "17932",
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rader,Alana"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "EH2221",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "300",
-            "title": "THE GEOG CRAFT",
-            "class_number": "12183",
-            "enrollment_cap": 24,
+            "class_number": "17933",
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Drake,Luke P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH166",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Staff",
+            "days": "W",
+            "location": "EH2221",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "17934",
+            "enrollment_cap": 35,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "EH2221",
+            "start_time": "1700h",
+            "end_time": "1945h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "18049",
+            "enrollment_cap": 34,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "EH2221",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "18050",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "EH2221",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 106LRS": [
+        {
+            "class_number": "17435",
+            "enrollment_cap": 46,
+            "enrollment_count": 0,
+            "instructor": "brittany.huerta@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "brittany.huerta@csun.edu"
+            ]
+        }
+    ],
+    "GEOL 107": [
+        {
+            "class_number": "20868",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructor": "julian.lozos@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "julian.lozos@csun.edu"
+            ]
+        }
+    ],
+    "GEOL 107L": [
+        {
+            "class_number": "20869",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 110": [
+        {
+            "class_number": "18096",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "brittany.huerta@csun.edu",
+            "days": "TR",
+            "location": "LO1219",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "brittany.huerta@csun.edu"
             ]
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "301",
-            "title": "CULTURAL GEOG",
-            "class_number": "13262",
+            "class_number": "18097",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "LO1219",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 112": [
+        {
+            "class_number": "17161",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "LO1205",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 117": [
+        {
+            "class_number": "21167",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructor": "Hauswirth,Scott",
+            "days": "MW",
+            "location": "LO1205",
+            "start_time": "1000h",
+            "end_time": "1050h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu",
+                "whitney.scott@csun.edu",
+                "scott.amiss@csun.edu",
+                "scott.whitfield@csun.edu",
+                "scott.andrews@csun.edu",
+                "scott.kleinman@csun.edu",
+                "scott.shepard@csun.edu",
+                "scott.sturgeon@csun.edu",
+                "scott.appelrouth@csun.edu",
+                "scott.cooper@csun.edu",
+                "scott.ploen@csun.edu",
+                "scott.hauswirth@csun.edu"
+            ]
+        }
+    ],
+    "GEOL 117L": [
+        {
+            "class_number": "21168",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructor": "Hauswirth,Scott",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "scott.plunkett@csun.edu",
+                "whitney.scott@csun.edu",
+                "scott.amiss@csun.edu",
+                "scott.whitfield@csun.edu",
+                "scott.andrews@csun.edu",
+                "scott.kleinman@csun.edu",
+                "scott.shepard@csun.edu",
+                "scott.sturgeon@csun.edu",
+                "scott.appelrouth@csun.edu",
+                "scott.cooper@csun.edu",
+                "scott.ploen@csun.edu",
+                "scott.hauswirth@csun.edu"
+            ]
+        }
+    ],
+    "GEOL 122": [
+        {
+            "class_number": "18207",
             "enrollment_cap": 41,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Davidson,Ronald A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "priya.ganguli@csun.edu",
+            "days": "MW",
+            "location": "LO1219",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "priya.ganguli@csun.edu"
             ]
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "304",
-            "title": "MAP AND IMAGE INT",
-            "class_number": "13296",
+            "class_number": "18330",
+            "enrollment_cap": 38,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1219",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 123": [
+        {
+            "class_number": "18208",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH103",
-                    "start_time": "1530h",
-                    "end_time": "1710h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "LO1205",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 125": [
         {
-            "subject": "GEOG",
-            "catalog_number": "304L",
-            "title": "MAP RD & INT LAB",
-            "class_number": "13297",
-            "enrollment_cap": 24,
+            "class_number": "20829",
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH103",
-                    "start_time": "1710h",
-                    "end_time": "1850h"
-                }
+            "instructor": "jennifer.cotton@csun.edu",
+            "days": "TR",
+            "location": "LO1219",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "jennifer.cotton@csun.edu"
             ]
-        },
+        }
+    ],
+    "GEOL 300": [
         {
-            "subject": "GEOG",
-            "catalog_number": "306",
-            "title": "INTERMEDIATE GIS",
-            "class_number": "12077",
-            "enrollment_cap": 24,
+            "class_number": "17164",
+            "enrollment_cap": 52,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH107",
-                    "start_time": "0930h",
-                    "end_time": "1020h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "306",
-            "title": "INTERMEDIATE GIS",
-            "class_number": "12804",
-            "enrollment_cap": 24,
+            "class_number": "17163",
+            "enrollment_cap": 54,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Boroushaki,Soheil"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH107",
-                    "start_time": "1530h",
-                    "end_time": "1620h"
-                }
+            "instructor": "Hauswirth,Scott",
+            "days": "MW",
+            "location": "LO1219",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu",
+                "whitney.scott@csun.edu",
+                "scott.amiss@csun.edu",
+                "scott.whitfield@csun.edu",
+                "scott.andrews@csun.edu",
+                "scott.kleinman@csun.edu",
+                "scott.shepard@csun.edu",
+                "scott.sturgeon@csun.edu",
+                "scott.appelrouth@csun.edu",
+                "scott.cooper@csun.edu",
+                "scott.ploen@csun.edu",
+                "scott.hauswirth@csun.edu"
             ]
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "306L",
-            "title": "INTERMED GIS LAB",
-            "class_number": "12078",
-            "enrollment_cap": 24,
+            "class_number": "18416",
+            "enrollment_cap": 54,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH107",
-                    "start_time": "1020h",
-                    "end_time": "1145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1219",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 301": [
         {
-            "subject": "GEOG",
-            "catalog_number": "306L",
-            "title": "INTERMED GIS LAB",
-            "class_number": "12805",
-            "enrollment_cap": 24,
+            "class_number": "17165",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Boroushaki,Soheil"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH107",
-                    "start_time": "1620h",
-                    "end_time": "1745h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 303": [
         {
-            "subject": "GEOG",
-            "catalog_number": "311",
-            "title": "THE ATMOSPHERE",
-            "class_number": "13228",
-            "enrollment_cap": 24,
+            "class_number": "18163",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH166",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "julian.lozos@csun.edu",
+            "days": "W",
+            "location": "LO1212",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "julian.lozos@csun.edu"
             ]
-        },
+        }
+    ],
+    "GEOL 306": [
         {
-            "subject": "GEOG",
-            "catalog_number": "316",
-            "title": "ENVIRON GEOG",
-            "class_number": "12663",
-            "enrollment_cap": 24,
+            "class_number": "18409",
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH166",
-                    "start_time": "1530h",
-                    "end_time": "1645h"
-                }
+            "instructor": "robinson.cecil@csun.edu",
+            "days": "TR",
+            "location": "LO1210",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "robinson.cecil@csun.edu"
             ]
-        },
+        }
+    ],
+    "GEOL 306L": [
         {
-            "subject": "GEOG",
-            "catalog_number": "318",
-            "title": "EUROPE",
-            "class_number": "12945",
-            "enrollment_cap": 70,
+            "class_number": "18410",
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Davidson,Ronald A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH386",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "robinson.cecil@csun.edu",
+            "days": "T",
+            "location": "LO1210",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "robinson.cecil@csun.edu"
             ]
-        },
+        }
+    ],
+    "GEOL 310": [
         {
-            "subject": "GEOG",
-            "catalog_number": "321",
-            "title": "UNITED STATES",
-            "class_number": "12497",
-            "enrollment_cap": 120,
+            "class_number": "18411",
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Craine,James W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "brittany.huerta@csun.edu",
+            "days": "TR",
+            "location": "LO1212",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "brittany.huerta@csun.edu"
             ]
-        },
+        }
+    ],
+    "GEOL 310L": [
         {
-            "subject": "GEOG",
-            "catalog_number": "322",
-            "title": "LATIN AMERICA",
-            "class_number": "12821",
-            "enrollment_cap": 70,
+            "class_number": "18412",
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jackiewicz,Edward L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "brittany.huerta@csun.edu",
+            "days": "T",
+            "location": "LO1212",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "brittany.huerta@csun.edu"
             ]
-        },
+        }
+    ],
+    "GEOL 313": [
         {
-            "subject": "GEOG",
-            "catalog_number": "324",
-            "title": "CHINA",
-            "class_number": "12772",
-            "enrollment_cap": 42,
+            "class_number": "17669",
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sun,Yifei"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH160",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "F",
+            "location": "LO1212",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 324": [
         {
-            "subject": "GEOG",
-            "catalog_number": "330",
-            "title": "CALIFORNIA",
-            "class_number": "12707",
-            "enrollment_cap": 65,
+            "class_number": "18413",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Davidson,Ronald A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 406LRS": [
         {
-            "subject": "GEOG",
-            "catalog_number": "364",
-            "title": "GEOG ECOSYSTEMS",
-            "class_number": "13230",
-            "enrollment_cap": 24,
+            "class_number": "17436",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Giraldo,Mario A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1530h",
-                    "end_time": "1710h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "LO1227",
+            "start_time": "1700h",
+            "end_time": "1945h",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "364L",
-            "title": "GEOG ECOSYSTEMS",
-            "class_number": "13231",
-            "enrollment_cap": 24,
+            "class_number": "17437",
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Giraldo,Mario A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH103",
-                    "start_time": "1530h",
-                    "end_time": "1710h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "LO1227",
+            "start_time": "1800h",
+            "end_time": "2045h",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 490": [
         {
-            "subject": "GEOG",
-            "catalog_number": "365",
-            "title": "GEOMORPHOLOGY",
-            "class_number": "13252",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rader,Alana"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH166",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "365L",
-            "title": "GEOMORPHOL LAB",
-            "class_number": "13253",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rader,Alana"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH166",
-                    "start_time": "1530h",
-                    "end_time": "1620h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "366",
-            "title": "ENVIRON HAZARDS",
-            "class_number": "13263",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH166",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "370",
-            "title": "WATER SOC ENV",
-            "class_number": "12872",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH166",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "375",
-            "title": "ENV, ECON, AND DEV",
-            "class_number": "20667",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "404AC",
-            "title": "FLD STD LA",
-            "class_number": "13232",
-            "enrollment_cap": 41,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Graves,Steven M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH106",
-                    "start_time": "0800h",
-                    "end_time": "1300h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "404BC",
-            "title": "FLD STD FOREIGN",
-            "class_number": "13233",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Drake,Luke P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "SH103",
-                    "start_time": "1100h",
-                    "end_time": "1600h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "406",
-            "title": "ADVANCED GIS",
-            "class_number": "12234",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Boroushaki,Soheil"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH107",
-                    "start_time": "1230h",
-                    "end_time": "1320h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "406L",
-            "title": "ADVANCED GIS LAB",
-            "class_number": "12235",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Boroushaki,Soheil"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH107",
-                    "start_time": "1320h",
-                    "end_time": "1445h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "408B",
-            "title": "ENV APPL IN GIS",
-            "class_number": "13234",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH103",
-                    "start_time": "1700h",
-                    "end_time": "1840h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "408BL",
-            "title": "ENV APPL IN GIS",
-            "class_number": "13235",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Giraldo,Mario A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH103",
-                    "start_time": "1840h",
-                    "end_time": "2110h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "408E",
-            "title": "GIS AUTO CUSTOM",
-            "class_number": "13100",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Boroushaki,Soheil"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH107",
-                    "start_time": "1800h",
-                    "end_time": "1825h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "408EL",
-            "title": "GIS AUTO CUST LAB",
-            "class_number": "20639",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Boroushaki,Soheil"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH107",
-                    "start_time": "1825h",
-                    "end_time": "2110h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "449",
-            "title": "MIXED METHODS GEOG",
-            "class_number": "20670",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Drake,Luke P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH107",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "482",
-            "title": "POP MIGRATION ENV",
-            "class_number": "20641",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Maas,Regan M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH107",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "490",
-            "title": "SENIOR PROJECT",
-            "class_number": "12150",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Maas,Regan M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH170",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "490",
-            "title": "SENIOR PROJECT",
-            "class_number": "12173",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Drake,Luke P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH130A",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "490",
-            "title": "SENIOR PROJECT",
-            "class_number": "13251",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "494",
-            "title": "INTERNSHIP",
-            "class_number": "13254",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "499A",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "12362",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "499B",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "12074",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "499C",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "12144",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "499C",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "12145",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "499C",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "12963",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "550F",
-            "title": "FORENSIC GEOGRAPHY",
-            "class_number": "13238",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Graves,Steven M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH103",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "610E",
-            "title": "SPECIAL TOPICS",
-            "class_number": "20668",
+            "class_number": "18403",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Rader,Alana"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH166",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
-                }
+            "instructor": "Hauswirth,Scott",
+            "days": "W",
+            "location": "LO1212",
+            "start_time": "1700h",
+            "end_time": "1945h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu",
+                "whitney.scott@csun.edu",
+                "scott.amiss@csun.edu",
+                "scott.whitfield@csun.edu",
+                "scott.andrews@csun.edu",
+                "scott.kleinman@csun.edu",
+                "scott.shepard@csun.edu",
+                "scott.sturgeon@csun.edu",
+                "scott.appelrouth@csun.edu",
+                "scott.cooper@csun.edu",
+                "scott.ploen@csun.edu",
+                "scott.hauswirth@csun.edu"
             ]
-        },
+        }
+    ],
+    "GEOL 498": [
         {
-            "subject": "GEOG",
-            "catalog_number": "690A",
-            "title": "SPECIAL TOPICS",
-            "class_number": "20637",
-            "enrollment_cap": 15,
+            "class_number": "17166",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Maas,Regan M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 499A": [
         {
-            "subject": "GEOG",
-            "catalog_number": "690C",
-            "title": "DIGITAL CARTOG",
-            "class_number": "20773",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Deis,David A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SH103",
-                    "start_time": "1730h",
-                    "end_time": "2015h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "696",
-            "title": "RESEARCH DESIGN",
-            "class_number": "20642",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Craine,James W"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "697",
-            "title": "DIR COMP STUDIES",
-            "class_number": "12176",
+            "class_number": "17359",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 499B": [
         {
-            "subject": "GEOG",
-            "catalog_number": "697",
-            "title": "DIR COMP STUDIES",
-            "class_number": "12179",
+            "class_number": "17361",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 499C": [
         {
-            "subject": "GEOG",
-            "catalog_number": "698",
-            "title": "THESIS",
-            "class_number": "12075",
+            "class_number": "17676",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 510": [
         {
-            "subject": "GEOG",
-            "catalog_number": "698",
-            "title": "THESIS",
-            "class_number": "12159",
+            "class_number": "20864",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "jennifer.cotton@csun.edu",
+            "days": "R",
+            "location": "LO1212",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "jennifer.cotton@csun.edu"
+            ]
+        }
+    ],
+    "GEOL 548": [
+        {
+            "class_number": "20830",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "dayanthie.weeraratne@csun.edu",
+            "days": "MW",
+            "location": "LO1221",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "dayanthie.weeraratne@csun.edu"
+            ]
+        }
+    ],
+    "GEOL 548L": [
+        {
+            "class_number": "20831",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "dayanthie.weeraratne@csun.edu",
+            "days": "MW",
+            "location": "LO1221",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "dayanthie.weeraratne@csun.edu"
+            ]
+        }
+    ],
+    "GEOL 551": [
+        {
+            "class_number": "20905",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructor": "robinson.cecil@csun.edu",
+            "days": "W",
+            "location": "LO1212",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "robinson.cecil@csun.edu"
+            ]
+        }
+    ],
+    "GEOL 696C": [
+        {
+            "class_number": "17363",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 698C": [
         {
-            "subject": "GEOG",
-            "catalog_number": "698",
-            "title": "THESIS",
-            "class_number": "12160",
+            "class_number": "17335",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 699A": [
         {
-            "subject": "GEOG",
-            "catalog_number": "698",
-            "title": "THESIS",
-            "class_number": "12161",
+            "class_number": "17367",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 699B": [
         {
-            "subject": "GEOG",
-            "catalog_number": "698",
-            "title": "THESIS",
-            "class_number": "12198",
+            "class_number": "17370",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "GEOG",
-            "catalog_number": "698",
-            "title": "THESIS",
-            "class_number": "13353",
-            "enrollment_cap": 1,
+            "class_number": "17432",
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "GEOL 699C": [
         {
-            "subject": "GEOG",
-            "catalog_number": "699A",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "12080",
+            "class_number": "17534",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "GEOG",
-            "catalog_number": "699B",
-            "title": "INDEPENDENT STUDY",
-            "class_number": "12076",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ]
 }

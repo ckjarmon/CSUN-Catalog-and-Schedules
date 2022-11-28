@@ -1,25 +1,15 @@
 {
-    "classes": [
+    "SCI 595PD": [
         {
-            "subject": "SCI",
-            "catalog_number": "595PD",
-            "title": "PROF DEV STEM TEACH",
             "class_number": "18636",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "0900h",
-                    "end_time": "1150h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "possible_emails": []
         }
     ]
 }
