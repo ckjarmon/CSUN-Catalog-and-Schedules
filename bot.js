@@ -245,6 +245,7 @@ function show_class(subject, code, itchid) {
   }, async function (error, response, body) {
     console.log(`http://127.0.0.1:2222/${subject}/schedule`);
     if (!error) {
+
       const stuffs = JSON.parse(JSON.stringify(body));
       ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
       stuffs[`${String(subject).toUpperCase()} ${code}`].forEach(course => {
