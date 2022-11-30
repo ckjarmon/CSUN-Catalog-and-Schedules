@@ -20,7 +20,7 @@
     {
         "subject": "GEOG",
         "catalog_number": "101AL",
-        "title": "The Physical Environment Lab Lab",
+        "title": "The Physical Environment Lab",
         "description": "Corequisite: GEOG 101A. Examines the natural environment including the distribution of and relationships between weather, climate, landforms, vegetation, hydrology, and soils. Students will learn critical skills to understand the processes shaping the physical world and gain an understanding of environmental and landscape change over time. 2 hours lab. Students may not receive credit for both GEOG 101AL and GEOG 102. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B1 Physical Science requirement by completing GEOG 101A.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -56,7 +56,7 @@
     {
         "subject": "GEOG",
         "catalog_number": "103AL",
-        "title": "Weather Lab Lab",
+        "title": "Weather Lab",
         "description": "Corequisite: GEOG 103A. Explores the fundamental concepts of the dynamics of Earth\u2019s atmosphere, its composition, and the processes and patterns of weather. The topics covered in this course include an examination of how Earth\u2019s atmosphere is warmed and cooled, daily and seasonal temperature variations, the development and type of clouds, moisture (rain, snow, humidity, dew, fog), wind systems, air masses and fronts, and special topics such as thunderstorms, tornadoes, and hurricanes, as well as weather forecasting. 2 hours lab. Students may not receive credit for both GEOG 103AL and GEOG 105. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B1 Physical Science requirement by completing GEOG 103A.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -92,7 +92,7 @@
     {
         "subject": "GEOG",
         "catalog_number": "111L",
-        "title": "Understanding Climate Change Lab Lab",
+        "title": "Understanding Climate Change Lab",
         "description": "Corequisite: GEOG 111. Laboratory exercises include climate prediction modeling, the use of proxy data, and examination of the impacts of climate change. 3 hours lab per week. Students receive credit for only one course chosen from either GEOG 111L, SUST 111L, or SCI 111L. (Available for General Education, B3 Science Laboratory Activity requirement provided GEOG 111 is also completed.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -218,7 +218,7 @@
     {
         "subject": "GEOG",
         "catalog_number": "311L",
-        "title": "The Atmosphere Lab Lab",
+        "title": "The Atmosphere Lab",
         "description": "Prerequisites: GEOG 101 or GEOG 101A or GEOG 103 or GEOG 103A or ASTR 152 or GEOL 100 or GEOL 110 or GEOL 122; Completion of the lower division writing requirement. Explanations of rain, wind, smog, etc. Basic principles of energy transfer. 2 hours lab.",
         "units": "1",
         "prerequisites": "{{GEOG 101} || {GEOG 101A} || {GEOG 103} || {GEOG 103A} || {ASTR 152} || {GEOL 100} || {GEOL 110} || {GEOL 122}} && {Completion of the lower division writing requirement}",
@@ -335,7 +335,7 @@
     {
         "subject": "GEOG",
         "catalog_number": "365L",
-        "title": "Geomorphology Lab Lab",
+        "title": "Geomorphology Lab",
         "description": "Prerequisites: GEOG 101 or GEOG 101A or GEOL 101; Completion of the lower division writing requirement. Corequisite: GEOG 365. Analytical and descriptive study of physical processes responsible for development and evolution of Earth\u2019s surface features. Aspects of local geomorphology will be observed on field trips. 2 hours field activity.",
         "units": "1",
         "prerequisites": "{{{GEOG 101} || {GEOG 101A} || {GEOL 101}} && {Completion of the lower division writing requirement}}",
@@ -353,7 +353,7 @@
     {
         "subject": "GEOG",
         "catalog_number": "366L",
-        "title": "Geography of Environmental Hazards Lab Lab",
+        "title": "Geography of Environmental Hazards Lab",
         "description": "Prerequisites: A lower division science course from Physical Geography, Geological Sciences, Physics, Chemistry, or Biology; completion of the lower division writing requirement. Corequisite: GEOG 366. Observations, experiments and demonstrations designed to familiarize students with the scientific investigation of environmental hazards. 2 hours lab.",
         "units": "1",
         "prerequisites": "{{A lower division science course from Physical Geography, Geological Sciences, Physics, Chemistry, or Biology} && {completion of the lower division writing requirement}}",
