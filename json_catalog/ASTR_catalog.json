@@ -20,7 +20,7 @@
     {
         "subject": "ASTR",
         "catalog_number": "154L",
-        "title": "Observational Astronomy Lab Lab",
+        "title": "Observational Astronomy Lab",
         "description": "Corequisite: ASTR 154. Introduction to the techniques of observational astronomy, including data acquisition and interpretation. Testing of astronomical hypotheses by using data from observations of the moon, planets, sun, stars and galaxies. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided ASTR 154 is also completed.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -56,7 +56,7 @@
     {
         "subject": "ASTR",
         "catalog_number": "352L",
-        "title": "Current Developments in Astronomy Lab Lab",
+        "title": "Current Developments in Astronomy Lab",
         "description": "Preparatory: Completion of the lower division writing requirement. Recommended Corequisite or Preparatory: ASTR 352. Use of observational and laboratory facilities and published data to explore current developments in astronomy. 3 hours per week.",
         "units": "1",
         "prerequisites": "{None}",

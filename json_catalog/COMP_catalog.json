@@ -362,7 +362,7 @@
     {
         "subject": "COMP",
         "catalog_number": "491L",
-        "title": "Senior Project Lab Lab",
+        "title": "Senior Project Lab",
         "description": "Prerequisites: COMP 490/L. Project-oriented lab to allow students to complete the design, implementation and testing of the team-based software engineering project started in COMP 490/L. Lab: 3 hours per week.",
         "units": "1",
         "prerequisites": "{COMP 490/L}",

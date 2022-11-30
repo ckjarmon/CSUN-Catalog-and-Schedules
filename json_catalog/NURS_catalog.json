@@ -110,7 +110,7 @@
     {
         "subject": "NURS",
         "catalog_number": "427L",
-        "title": "Dynamics of Nursing Leadership and Leadership in Nursing Lab Lab",
+        "title": "Dynamics of Nursing Leadership and Leadership in Nursing Lab",
         "description": "Prerequisites: All 300-level Nursing courses; NURS 426. Corequisite: NURS 427L. Focuses on the function of the professional nurse through leadership, administration and change. Presents theories of group dynamics, leadership, organizations, planned change, power and conflict as they apply in the nursing unit. Regular written assignments are required. Lab: Application through use of leadership and administration theories and skills in clinical settings. Students synthesize professional nursing roles through individualized learning contract. Credit given only if a passing grade is earned in both lecture and lab courses.",
         "units": "1",
         "prerequisites": "{{All 300-level Nursing courses} && {NURS 426}}",
@@ -164,7 +164,7 @@
     {
         "subject": "NURS",
         "catalog_number": "443L",
-        "title": "Nursing Care of Children and Clinical Lab Lab",
+        "title": "Nursing Care of Children and Clinical Lab",
         "description": "Prerequisites: All 300-level courses in the Accelerated BSN Pathway. Corequisite: NURS 443L. Focuses on the professional nurse\u2019s role in assessing, promoting, maintaining, restoring and evaluating the care of children with actual or potential altered health. Includes age-specific health considerations of newborns through adolescents within the interactional context of family and environment. Theories, models and concepts are related to nursing care of the child and the family. Lab: Supervised experience provides opportunities for role-development and application of knowledge and skills. Passing grades must be earned in lecture course concurrently for credit in both courses.",
         "units": "1.5",
         "prerequisites": "{All 300-level courses in the Accelerated BSN Pathway}",
@@ -182,7 +182,7 @@
     {
         "subject": "NURS",
         "catalog_number": "444L",
-        "title": "Nursing Care of Childbearing Family and Clinical Lab Lab",
+        "title": "Nursing Care of Childbearing Family and Clinical Lab",
         "description": "Prerequisites: All 300-level courses in the Accelerated BSN Pathway. Corequisite: NURS 444L. Focuses on the professional nurse\u2019s role in the care of the multiperson unit of the child-bearing family. Emphasis is on assessment and management of the woman, baby and family during the antepartum, intrapartum and postpartum periods. Includes both healthy and pathologic processes. Lab: Supervised clinical lab provides opportunities for role- and skills-development and application. Passing grades must be earned in lecture course and lab concurrently for credit in both courses.",
         "units": "1.5",
         "prerequisites": "{All 300-level courses in the Accelerated BSN Pathway}",

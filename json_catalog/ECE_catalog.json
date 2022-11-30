@@ -47,7 +47,7 @@
     {
         "subject": "ECE",
         "catalog_number": "240L",
-        "title": "Electrical Engineering Fundamentals Lab Lab",
+        "title": "Electrical Engineering Fundamentals Lab",
         "description": "Prerequisites: MATH 250; PHYS 220B and PHYS 220BL. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits, analysis and design. Lab includes experiments on resistive circuits, operational amplifiers, network theorems, first and second order circuits, dc meters, passive filters, resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.",
         "units": "1",
         "prerequisites": "{{MATH 250} && {PHYS 220B/L}}",
@@ -344,7 +344,7 @@
     {
         "subject": "ECE",
         "catalog_number": "480L",
-        "title": "Fundamentals of Control Systems Lab Lab",
+        "title": "Fundamentals of Control Systems Lab",
         "description": "Prerequisite: ECE 350. Corequisite: ECE 480. As an accompaniment to the 3-unit course Fundamentals of Control Systems (ECE 480), this laboratory provides experiments to verify theoretical studies and use their applications in the design of a control system with given specifications. The experiments are mainly electrical circuits with actual measurements and simulations and design applications using system response, Routh-Hurwitz stability criterion, system identification, steady state error, root-locus, Nyquist criterion and the effects of disturbance. Use of MATLAB, Simulink and PSPICE is emphasized for analysis and design. Available for graduate credit. 3-hours lab per week.",
         "units": "1",
         "prerequisites": "{ECE 350}",
@@ -731,7 +731,7 @@
     {
         "subject": "ECE",
         "catalog_number": "666L",
-        "title": "Fiber Optic Communications Lab Lab",
+        "title": "Fiber Optic Communications Lab",
         "description": "Prerequisites: ECE 460/L. Corequisite: ECE 666. This lab accompanying course ECE 666 covers fiber optic communication design, measurements and simulations. This includes numerical aperture, fiber attenuation, power distribution in single mode fibers, mode distribution in multimode fibers, fiber coupling efficiency and connectors/splices losses. Design, construction and simulation of WDM communication system components also are covered. Individual and group projects are assigned to students. 3 hours lab per week.",
         "units": "1",
         "prerequisites": "{ECE 460/L}",

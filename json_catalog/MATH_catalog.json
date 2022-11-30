@@ -11,7 +11,7 @@
     {
         "subject": "MATH",
         "catalog_number": "102L",
-        "title": "Pre-Calculus I Lab Lab",
+        "title": "Pre-Calculus I Lab",
         "description": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 102. All students in MATH 102 are encouraged to enroll in this course. This is a Credit/No Credit hybrid enrichment laboratory for students in MATH 102. This course will include a self-paced, modular online component. 2 hours lab per week. (Credit/No Credit only)",
         "units": "1",
         "prerequisites": "{Required for all conditionally prepared students enrolled in MATH 102}",
@@ -47,7 +47,7 @@
     {
         "subject": "MATH",
         "catalog_number": "105L",
-        "title": "Pre-Calculus II Lab Lab",
+        "title": "Pre-Calculus II Lab",
         "description": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 105. All students in MATH 105 are encouraged to enroll in this course. This is a Credit/No Credit hybrid enrichment laboratory for students in MATH 105. This course will include a self-paced, modular online component. 3 hours lab per week. (Credit/No Credit only)",
         "units": "1",
         "prerequisites": "{Required for all conditionally prepared students enrolled in MATH 105}",
@@ -182,7 +182,7 @@
     {
         "subject": "MATH",
         "catalog_number": "255AL",
-        "title": "Calculus for the Life Sciences I Lab Lab",
+        "title": "Calculus for the Life Sciences I Lab",
         "description": "Required for all conditionally prepared students enrolled in MATH 255A. All students in MATH 255A are encouraged to enroll in this lab. This course will include a self-paced, modular outline component. 3 lab hours per week. (Credit/No Credit only)",
         "units": "1",
         "prerequisites": "{None}",
@@ -200,7 +200,7 @@
     {
         "subject": "MATH",
         "catalog_number": "255BL",
-        "title": "Calculus for the Life Sciences II Lab Lab",
+        "title": "Calculus for the Life Sciences II Lab",
         "description": "Required for all conditionally prepared students enrolled in MATH 255B. All students in MATH 255B are encouraged to enroll in this course. This course will include a self-paced, modular online component. 3 lab hours per week. (Credit/No Credit only)",
         "units": "1",
         "prerequisites": "{None}",
@@ -236,7 +236,7 @@
     {
         "subject": "MATH",
         "catalog_number": "310L",
-        "title": "Basic Concepts of Geometry Lab Lab",
+        "title": "Basic Concepts of Geometry Lab",
         "description": "Recommended Corequisite or Preparatory: MATH 310. Problem solving using models and simulation in mathematics appropriate for the elementary-school classroom. 2 hours of activities per week. (Credit/No Credit only)",
         "units": "1",
         "prerequisites": "{None}",

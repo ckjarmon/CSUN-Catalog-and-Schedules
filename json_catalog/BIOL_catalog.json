@@ -11,7 +11,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "100L",
-        "title": "Introductory Biology Lab Lab",
+        "title": "Introductory Biology Lab",
         "description": "Corequisite: BIOL 100. Not for credit in the Biology major. Observations, experiments, demonstrations and required field trips to augment Introductory Biology. Emphasis on the methods of science, basic biological principles, the natural environment and the effects of human activity on the environment. Lab 3 hours. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B2 Life Science requirement by completing BIOL 100.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -29,7 +29,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "101L",
-        "title": "General Biology Lab Lab",
+        "title": "General Biology Lab",
         "description": "Corequisite: BIOL 101. Not for credit in the Biology major and may not be taken for credit by students who have completed BIOL 106 or BIOL 107. Analysis of selected topics illustrating major concepts in biology, including evolution, environmental relationships, heredity, the cell, energetics and functions of living systems, and development. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B2 Life Science requirement by completing BIOL 101.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -47,7 +47,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "106L",
-        "title": "Biological Principles I Lab Lab",
+        "title": "Biological Principles I Lab",
         "description": "Corequisite: BIOL 106. Primarily for Biology majors. Half of a two-semester sequence that includes BIOL 107 and BIOL 107L. Selected topics illustrating major concepts in biology, including the scientific process, heredity, evolution, taxonomy and systematics, ecology and animal behavior. Observations, experiments and demonstrations. Emphasis on unifying biological concepts and methods in science. Lab 3 hours. (Available for General Education, B3 Science Laboratory Activity *if required in a student\u2019s major. Students satisfy the B2 Life Science requirement by completing BIOL 106.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -65,7 +65,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "107L",
-        "title": "Biological Principles II Lab Lab",
+        "title": "Biological Principles II Lab",
         "description": "Corequisite: BIOL 107. Recommended Corequisite or Preparatory: CHEM 102 and CHEM 102L. Half of a two-semester sequence that includes BIOL 106 and BIOL 106L. Selected topics illustrating major concepts in biology, including biological chemistry, cells, molecular genetics, animal development and plant and animal physiology. Observations, experiments and demonstrations. Emphasis on unifying biological concepts and methods in science. Lab 3 hours. (Available for General Education, B3 Science Laboratory Activity *if required in a student\u2019s major. Students satisfy the B2 Life Science requirement by completing BIOL 107.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -128,7 +128,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "218L",
-        "title": "Microbes and People Lab Lab",
+        "title": "Microbes and People Lab",
         "description": "Prerequisite: Completion of the lower division writing requirement. Corequisite: BIOL 218. Not available for Biology majors. Acquaints non-science majors with the microbial world, explores the involvement of microbes in disease, food production, and the environment. Lab 3 hours. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B2 Life Science requirement by completing BIOL 218.)",
         "units": "1",
         "prerequisites": "{Completion of the lower division writing requirement}",
@@ -137,7 +137,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "247L",
-        "title": "Introduction to Molecular Biology Research Lab Lab",
+        "title": "Introduction to Molecular Biology Research Lab",
         "description": "Prerequisites: BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; CHEM 101. Introduction to theory and techniques used in molecular biology research. Students learn through hands-on experience in the laboratory the experimental design, technical mechanisms, and interpretation of commonly used molecular biology experiments including: issues of laboratory safety, using bioinformatics in research, isolation and manipulation of DNA, polymerase chain reaction (PCR), cloning, transformation of bacteria, growth and selection of bacteria, and sequencing. Lab 9 hours.",
         "units": "3",
         "prerequisites": "{{BIOL 107/L} && {CHEM 101}}",
@@ -299,7 +299,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "325L",
-        "title": "Life in the Sea Lab Lab",
+        "title": "Life in the Sea Lab",
         "description": "Prerequisite: Completion of the lower division writing requirement. Recommended Corequisite: BIOL 325. Not for credit in Biology major. Studies of the classification, anatomy, physiology, behavior and ecology of marine organisms through lab and field exercises.",
         "units": "1",
         "prerequisites": "{Completion of the lower division writing requirement}",
@@ -362,7 +362,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "362L",
-        "title": "Genetics and Society Lab Lab",
+        "title": "Genetics and Society Lab",
         "description": "Prerequisites: BIOL 100 and BIOL 100L, or BIOL 101 and BIOL 101L, or BIOL 102/L, or BIOL 106 and BIOL 106L, or BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; Completion of the lower division writing requirement. Corequisite: BIOL 362. Introduction to current topics in genetics and their impact on society and life, in language that is non-technical. Learn about the application of genetics to agriculture, environment, human health and medicine. Understand issues pertaining to genetic engineering, cloning, gene therapy, stem cells etc. Not for credit in Biology major. Lab 3 hours.",
         "units": "1",
         "prerequisites": "{{{BIOL 100/L} || {BIOL 101/L} || {BIOL 102/L} || {BIOL 106/L} || {BIOL 107/L}} && {completion of the lower division writing requirement}}",
@@ -1289,7 +1289,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "485L",
-        "title": "Immunology with Serology Lab Lab",
+        "title": "Immunology with Serology Lab",
         "description": "Prerequisite: BIOL 380. Corequisite: BIOL 485L. Preparatory: BIOL 381. Study of the immune response examining humoral and cellular immunity, the nature, structure and reactions of antigens and antibodies, mediators of immunity, hypersensitivity and immuno-hematology. The lab emphasizes the principles and uses of serological methods for evaluation of the immune response. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
         "units": "2",
         "prerequisites": "{BIOL 380}",
@@ -1406,7 +1406,7 @@
     {
         "subject": "BIOL",
         "catalog_number": "502L",
-        "title": "Biometry Lab Lab",
+        "title": "Biometry Lab",
         "description": "Corequisite: BIOL 502. Students have supervised time to work problem sets. Lab 3 hours.",
         "units": "1",
         "prerequisites": "{None}",

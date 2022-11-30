@@ -11,7 +11,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "100L",
-        "title": "Principles of Chemistry Lab Lab",
+        "title": "Principles of Chemistry Lab",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or exemption. Corequisite: CHEM 100. Optional laboratory course to accompany CHEM 100 in which the fundamentals of scientific inquiry and basic laboratory techniques are presented. One 3-hour lab per week. (Available for General Education, B3 Science Laboratory Activity provided CHEM 100 is also completed.)",
         "units": "1",
         "prerequisites": "{{Multiple Measures Placement in GE-level Mathematics} || {Have exemption}}",
@@ -38,7 +38,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "101L",
-        "title": "General Chemistry I Lab Lab",
+        "title": "General Chemistry I Lab",
         "description": "Prerequisite: Satisfactory score on the Chemistry Placement Test (CPT) or a grade of \u201cC\u201d or higher (\u201cC-\u201d does not satisfy the prerequisite) in CHEM 100 taken at CSUN only. Corequisites: CHEM 101 and CHEM 101D. Lab section emphasizes basic lab skills, quantitative relationships in chemistry and inorganic preparative procedures. 3 hour lab per week. (Available for General Education, B3 Science Laboratory Activity requirement provided CHEM 101 is also completed.)",
         "units": "0",
         "prerequisites": "Satisfactory score on the Chemistry Placement Test (CPT) or a grade of \u201cC\u201d or higher (\u201cC-\u201d does not satisfy the prerequisite) in CHEM 100 taken at CSUN only",
@@ -65,7 +65,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "102L",
-        "title": "General Chemistry II Lab Lab",
+        "title": "General Chemistry II Lab",
         "description": "Prerequisites: CHEM 101, CHEM 101D, and CHEM 101L with a minimum grade of \u201cC-\u201d in CHEM 101. Corequisites: CHEM 102 and CHEM 102D. Lab section consists of experiments dealing with kinetics, acid-base and solubility equilibria, selected reactions of metals and nonmetals, and qualitative elemental analysis. 3 hour lab per week. (Available for General Education, B3 Science Laboratory Activity requirement provided CHEM 102 is also completed.)",
         "units": "1",
         "prerequisites": "{{CHEM 101/L} && {CHEM 101D}}",
@@ -83,7 +83,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "103L",
-        "title": "Introductory Chemistry I Lab Lab",
+        "title": "Introductory Chemistry I Lab",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or exemption. Corequisite: CHEM 103. Not open to engineering, biology or physical science majors. Designed to stress fundamental principles of inorganic chemistry, the structure of atoms and molecules, the periodic table, states of matter, chemical calculations involving stoichiometry and simple algebraic operations. One 3-hour lab per week. (Available for General Education, B3 Science Laboratory Activity requirement provided CHEM 103 is also completed.)",
         "units": "1",
         "prerequisites": "{{Multiple Measures Placement in GE-level Mathematics} || {Have exemption}}",
@@ -101,7 +101,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "104L",
-        "title": "Introductory Chemistry II Lab Lab",
+        "title": "Introductory Chemistry II Lab",
         "description": "Prerequisites: CHEM 103 and CHEM 103L. Corequisite: CHEM 104. Not open to engineering, biology or physical science majors. Continuation of CHEM 103/L. Properties of solutions, chemical equilibrium, acids and bases. Chemistry of simple organic compounds and common elements. One 3-hour lab per week. (Available for General Education, B3 Science Laboratory Activity requirement provided CHEM 104 is also completed.)",
         "units": "1",
         "prerequisites": "{CHEM 103/L}",
@@ -209,7 +209,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "351L",
-        "title": "Physical Chemistry I Lab Lab",
+        "title": "Physical Chemistry I Lab",
         "description": "Corequisite: CHEM 351. Laboratory course for CHEM 351. Introduction to the experimental methods of physical chemistry based on the concepts covered in CHEM 351. One 3-hour lab per week. (Offered Fall semester.)",
         "units": "1",
         "prerequisites": "{None}",
@@ -227,7 +227,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "352L",
-        "title": "Physical Chemistry II Lab Lab",
+        "title": "Physical Chemistry II Lab",
         "description": "Corequisite: CHEM 352. Laboratory course for CHEM 352. Selected experiments illustrating some of the important concepts covered in CHEM 352. One 3-hour lab per week. (Offered Spring semester.)",
         "units": "2",
         "prerequisites": "{None}",
@@ -245,7 +245,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "365L",
-        "title": "Introduction to Biochemistry Lab Lab",
+        "title": "Introduction to Biochemistry Lab",
         "description": "Prerequisites: CHEM 235/L. Corequisite: CHEM 365. A course designed for non-science majors, describing chemistry and metabolism of proteins, carbohydrates, lipids, vitamins, hormones, etc. One 3-hour laboratory per week. No credit for Science or Engineering majors except for certain options in Biology; consult your major department.",
         "units": "0",
         "prerequisites": "{CHEM 235/L}",
@@ -263,7 +263,7 @@
     {
         "subject": "CHEM",
         "catalog_number": "401L",
-        "title": "Inorganic Chemistry Lab Lab",
+        "title": "Inorganic Chemistry Lab",
         "description": "Corequisite: CHEM 401. Synthesis and characterization of inorganic and organometallic compounds. Synthetic techniques important to inorganic chemistry, such as electrochemical synthesis, autoclave reactions and inert atmosphere techniques, as well as inorganic spectroscopic techniques. Available for graduate credit. One 3-hour lab per week.",
         "units": "1",
         "prerequisites": "{None}",

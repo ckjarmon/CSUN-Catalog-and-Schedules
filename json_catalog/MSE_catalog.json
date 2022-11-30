@@ -56,7 +56,7 @@
     {
         "subject": "MSE",
         "catalog_number": "227L",
-        "title": "Engineering Materials Lab Lab",
+        "title": "Engineering Materials Lab",
         "description": "Prerequisites: MATH 150A, CHEM 101, CHEM 101L, PHYS 220A, PHYS 220AL. Corequisite: MSE 227. Introductory lab course in engineering materials and their properties. Includes experiments in mechanical properties, heat treatment, metallography, corrosion properties and X-ray diffraction. Course culminates in a special project in which students identify, design and perform an experiment of their choosing. One 3-hour lab per week.",
         "units": "1",
         "prerequisites": "{{MATH 150A} && {CHEM 101/L} && {PHYS 220A/L}}",

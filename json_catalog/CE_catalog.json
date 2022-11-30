@@ -92,7 +92,7 @@
     {
         "subject": "CE",
         "catalog_number": "335L",
-        "title": "Structures I and Computational Lab Lab",
+        "title": "Structures I and Computational Lab",
         "description": "Prerequisite: CE 340. Corequisite: CE 335L. Determination of the force distribution and deflections in statically determinant and indeterminant structures using the classical, non-matrix methods of structural analysis. 3 hours of lecture per week. Lab: Structural analysis problem solving session. Computer applications of structural analysis and design. 3 hours of lab per week. (Design units: 0.)",
         "units": "1",
         "prerequisites": "CE 340",

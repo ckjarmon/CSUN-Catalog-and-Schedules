@@ -21,9 +21,9 @@ def esta_conn():
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
 
-# @app.route('/<string:subject>/<string:data>')
-# def get(**kwargs):
-    # return json.load(open(f'./json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+@app.route('/<string:subject>/<string:data>')
+def get(**kwargs):
+    return json.load(open(f'./json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
 @app.route('/time')
 def stime():

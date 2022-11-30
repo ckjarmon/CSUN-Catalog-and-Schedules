@@ -11,7 +11,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "100AL",
-        "title": "General Physics I Lab Lab",
+        "title": "General Physics I Lab",
         "description": "Prerequisite: MATH 105 or MATH 106, or a score on the Mathematics Placement Test (MPT) sufficient for entry into MATH 150A or MATH 255A. Recommended Corequisite or Preparatory: PHYS 100A. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided PHYS 100A is also completed.)",
         "units": "1",
         "prerequisites": "{{MATH 105} || {MATH 106} || {or a score on the Mathematics Placement Test (MPT) sufficient for entry into MATH 150A or MATH 255A}}",
@@ -29,7 +29,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "100BL",
-        "title": "General Physics II Lab Lab",
+        "title": "General Physics II Lab",
         "description": "Prerequisite: PHYS 100A. Recommended Corequisite or Preparatory: PHYS 100B. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided PHYS 100B is also completed.)",
         "units": "1",
         "prerequisites": "{PHYS 100A}",
@@ -47,7 +47,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "220AL",
-        "title": "Mechanics Lab Lab",
+        "title": "Mechanics Lab",
         "description": "Prerequisite: MATH 150A or MATH 255A. Recommended Corequisite or Preparatory: MATH 150B or MATH 255B and PHYS 220A or PHYS 225. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided PHYS 220A or PHYS 225 is also completed.)",
         "units": "1",
         "prerequisites": "{{MATH 150A} || {MATH 255A}}",
@@ -65,7 +65,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "220BL",
-        "title": "Electricity and Magnetism Lab Lab",
+        "title": "Electricity and Magnetism Lab",
         "description": "Prerequisites: PHYS 220A or PHYS 225; MATH 150B or MATH 255B. Recommended Corequisite or Preparatory: MATH 250; PHYS 220B or PHYS 226. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided PHYS 220B or PHYS 226 is also completed.)",
         "units": "1",
         "prerequisites": "{{PHYS 220A} || {PHYS 225}} && {{MATH 150B} || {MATH 255B}}",
@@ -101,7 +101,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "227L",
-        "title": "Physics III Lab Lab",
+        "title": "Physics III Lab",
         "description": "Recommended Corequisite or Preparatory: PHYS 227. 3 hours per week.",
         "units": "1",
         "prerequisites": "{None}",
