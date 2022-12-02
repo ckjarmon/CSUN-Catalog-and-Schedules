@@ -98,10 +98,11 @@ function show_prof(subject, itchid, id) {
 
       console.log(_url);
       let ret1 = String(body).replaceAll(',', '')
+      console.log(body)
       if (!error) {
         setTimeout(async () => {
           await client.channels.cache.get(itchid).send("```" + ret1 + "```")
-        }, 2000);
+        }, 3000);
       }
     });
   } else {
@@ -126,7 +127,7 @@ function show_prof(subject, itchid, id) {
         }
       }
 
-      var ret2 = ""
+      
       ret1 = ret1.concat("SPRING 2023");
       require("request")({
         url: `http://127.0.0.1:2222/time`,
@@ -175,7 +176,7 @@ function show_prof(subject, itchid, id) {
       if (!error) {
         setTimeout(async () => {
           await client.channels.cache.get(itchid).send("```" + ret1 + "```")
-        }, 2000);
+        }, 3000);
       }
     });
   }
