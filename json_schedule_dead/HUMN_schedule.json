@@ -1,25 +1,15 @@
 {
-    "classes": [
+    "HUMN 300": [
         {
-            "subject": "HUMN",
-            "catalog_number": "300",
-            "title": "CAREER READY",
             "class_number": "15417",
-            "enrollment_cap": 30,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
         }
     ]
 }

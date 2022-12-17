@@ -132,7 +132,7 @@ function show_prof(subject, itchid, id) {
       require("request")({
         url: `http://127.0.0.1:2222/time`,
         json: true
-      }, async function (error, response, body) {
+      }, function (error, response, body) {
         console.log(`http://127.0.0.1:2222/time`);
         if (!error) {
           ret1 = ret1.concat(body + "\n")
@@ -210,6 +210,7 @@ function show_levels(subject, level, itchid) {
   }, 2000);
 }
 
+// for every semester after Fall 2022
 function show_class(subject, code, itchid) {
 
   

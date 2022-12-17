@@ -1,2902 +1,1979 @@
 {
-    "classes": [
+    "EPC 314": [
         {
-            "subject": "EPC",
-            "catalog_number": "314",
-            "title": "PSYCH FOUND K-12",
             "class_number": "15533",
-            "enrollment_cap": 23,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Choi I,Yong Ho"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Choi I,Yong Ho",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "314",
-            "title": "PSYCH FOUND K-12",
             "class_number": "15684",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Emmerling-Baker,Denise"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Emmerling-Baker,Denise",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "denise.sandoval@csun.edu",
+                "denise.lerette@csun.edu",
+                "denise.sidansky@csun.edu",
+                "denise.emmerling-baker@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "314",
-            "title": "PSYCH FOUND K-12",
             "class_number": "15890",
-            "enrollment_cap": 25,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Laija-Rodriguez,Wilda"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "wilda.laija-rodriguez@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "wilda.laija-rodriguez@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "314",
-            "title": "PSYCH FOUND K-12",
             "class_number": "15896",
-            "enrollment_cap": 25,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stohl,Ellen R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ED1130",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "mane.dovlatyan-atashian@csun.edu",
+            "days": "TR",
+            "location": "ED1130",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "mane.dovlatyan-atashian@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "314",
-            "title": "PSYCH FOUND K-12",
             "class_number": "16028",
-            "enrollment_cap": 25,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Torvinen,Deanne B"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "BB1119",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "deanne.torvinen@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "deanne.torvinen@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 315": [
         {
-            "subject": "EPC",
-            "catalog_number": "315",
-            "title": "PSY FND LRNG TCHG",
             "class_number": "15536",
-            "enrollment_cap": 25,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mariano,Karen D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "karen.mariano@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "karen.mariano@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "315",
-            "title": "PSY FND LRNG TCHG",
             "class_number": "15567",
-            "enrollment_cap": 25,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mariano,Karen D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "karen.mariano@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "karen.mariano@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "315",
-            "title": "PSY FND LRNG TCHG",
             "class_number": "15541",
-            "enrollment_cap": 23,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Dovlatyan,Mane Sona"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ED1121",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "mane.dovlatyan-atashian@csun.edu",
+            "days": "TR",
+            "location": "ED1121",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "mane.dovlatyan-atashian@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "315",
-            "title": "PSY FND LRNG TCHG",
             "class_number": "15629",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Karamali,Pariza A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "420",
-            "title": "ED PSY ADOL",
-            "class_number": "15441",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Torvinen,Deanne B"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED1129",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "420",
-            "title": "ED PSY ADOL",
-            "class_number": "15658",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lubnow,David"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "420",
-            "title": "ED PSY ADOL",
-            "class_number": "15622",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lubnow,David"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "420",
-            "title": "ED PSY ADOL",
-            "class_number": "16053",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ozery,Daphna"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "420",
-            "title": "ED PSY ADOL",
-            "class_number": "16172",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ozery,Daphna"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "420",
-            "title": "ED PSY ADOL",
-            "class_number": "16173",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ozery,Daphna"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "430",
-            "title": "DEV LRN ERLY CHLD",
-            "class_number": "15438",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ED1127",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "430",
-            "title": "DEV LRN ERLY CHLD",
-            "class_number": "15866",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "430",
-            "title": "DEV LRN ERLY CHLD",
-            "class_number": "16076",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "451",
-            "title": "COUNSELING FUND",
-            "class_number": "15584",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pioli,Donna L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "451",
-            "title": "COUNSELING FUND",
-            "class_number": "15439",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lyden,Eric C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "451",
-            "title": "COUNSELING FUND",
-            "class_number": "15688",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pioli,Donna L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED1127",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "451",
-            "title": "COUNSELING FUND",
-            "class_number": "15891",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lyden,Eric C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1119",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "451",
-            "title": "COUNSELING FUND",
-            "class_number": "16073",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Harris,Sue"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "BB1234",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "500",
-            "title": "FOUND TCHG",
-            "class_number": "15571",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bowes,Michele F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "600",
-            "title": "ED STAT RES &MEAS",
-            "class_number": "15444",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1240",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "EPC",
-            "catalog_number": "602",
-            "title": "RESEARCH PRINCIPL",
-            "class_number": "15445",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED2119",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "pariza.karamali@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "pariza.karamali@csun.edu"
+            ]
+        }
+    ],
+    "EPC 420": [
+        {
+            "class_number": "15441",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "deanne.torvinen@csun.edu",
+            "days": "M",
+            "location": "ED1129",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "deanne.torvinen@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "602",
-            "title": "RESEARCH PRINCIPL",
+            "class_number": "15658",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Lubnow,David",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": [
+                "david.hsu@csun.edu",
+                "david.de-rozas@csun.edu",
+                "david.weintraub@csun.edu",
+                "david.hendrickson@csun.edu",
+                "david.robaire@csun.edu",
+                "david.song@csun.edu",
+                "david.pardess@csun.edu",
+                "david.berkowitz@csun.edu",
+                "david.deutsch@csun.edu",
+                "david.desser@csun.edu",
+                "david.leitch@csun.edu",
+                "david.shternberg@csun.edu",
+                "david.medeiros@csun.edu",
+                "ronald.davidson@csun.edu",
+                "david.edelstein@csun.edu",
+                "cecile.bendavid@csun.edu",
+                "david.russell@csun.edu",
+                "david.bogumil@csun.edu",
+                "ana.cadavid@csun.edu",
+                "david.marlett@csun.edu",
+                "david.klein@csun.edu",
+                "david.grewe@csun.edu",
+                "david.s.ackerman@csun.edu",
+                "david.pozzi@csun.edu",
+                "david.deis@csun.edu",
+                "david.boyajian@csun.edu",
+                "david.blumenkrantz@csun.edu",
+                "david.l.moguel@csun.edu",
+                "david.lubnow@csun.edu",
+                "david.rodriguez@csun.edu",
+                "david.freedman@csun.edu",
+                "james.davidson@csun.edu",
+                "david.fractor@csun.edu",
+                "david.bermudes@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15622",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Lubnow,David",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": [
+                "david.hsu@csun.edu",
+                "david.de-rozas@csun.edu",
+                "david.weintraub@csun.edu",
+                "david.hendrickson@csun.edu",
+                "david.robaire@csun.edu",
+                "david.song@csun.edu",
+                "david.pardess@csun.edu",
+                "david.berkowitz@csun.edu",
+                "david.deutsch@csun.edu",
+                "david.desser@csun.edu",
+                "david.leitch@csun.edu",
+                "david.shternberg@csun.edu",
+                "david.medeiros@csun.edu",
+                "ronald.davidson@csun.edu",
+                "david.edelstein@csun.edu",
+                "cecile.bendavid@csun.edu",
+                "david.russell@csun.edu",
+                "david.bogumil@csun.edu",
+                "ana.cadavid@csun.edu",
+                "david.marlett@csun.edu",
+                "david.klein@csun.edu",
+                "david.grewe@csun.edu",
+                "david.s.ackerman@csun.edu",
+                "david.pozzi@csun.edu",
+                "david.deis@csun.edu",
+                "david.boyajian@csun.edu",
+                "david.blumenkrantz@csun.edu",
+                "david.l.moguel@csun.edu",
+                "david.lubnow@csun.edu",
+                "david.rodriguez@csun.edu",
+                "david.freedman@csun.edu",
+                "james.davidson@csun.edu",
+                "david.fractor@csun.edu",
+                "david.bermudes@csun.edu"
+            ]
+        },
+        {
+            "class_number": "16053",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "daphna.ozery@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": [
+                "daphna.ozery@csun.edu"
+            ]
+        },
+        {
+            "class_number": "16172",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "daphna.ozery@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": [
+                "daphna.ozery@csun.edu"
+            ]
+        },
+        {
+            "class_number": "16173",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "daphna.ozery@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": [
+                "daphna.ozery@csun.edu"
+            ]
+        }
+    ],
+    "EPC 430": [
+        {
+            "class_number": "15438",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "TBA",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "15866",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "16076",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": []
+        }
+    ],
+    "EPC 451": [
+        {
+            "class_number": "15584",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "donna.l.pioli@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "donna.l.pioli@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15439",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "eric.lyden@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "eric.lyden@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15688",
+            "enrollment_cap": 21,
+            "enrollment_count": 0,
+            "instructor": "donna.l.pioli@csun.edu",
+            "days": "W",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "donna.l.pioli@csun.edu"
+            ]
+        },
+        {
+            "class_number": "15891",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "eric.lyden@csun.edu",
+            "days": "W",
+            "location": "BB1119",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "eric.lyden@csun.edu"
+            ]
+        },
+        {
+            "class_number": "16073",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Harris,Sue",
+            "days": "R",
+            "location": "BB1234",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "matt.harris@csun.edu",
+                "brandon.harris@csun.edu",
+                "suellen.helm-torres@csun.edu",
+                "amanda.harrison@csun.edu",
+                "sue.harris@csun.edu"
+            ]
+        }
+    ],
+    "EPC 500": [
+        {
+            "class_number": "15571",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "michele.bowes@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "michele.bowes@csun.edu"
+            ]
+        }
+    ],
+    "EPC 600": [
+        {
+            "class_number": "15444",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "BB1240",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 602": [
+        {
+            "class_number": "15445",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "ED2119",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        },
+        {
             "class_number": "15569",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED2121B",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "ED2121B",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 603MFA": [
         {
-            "subject": "EPC",
-            "catalog_number": "603MFA",
-            "title": "CLINICAL RESEARCH",
             "class_number": "16137",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Caldwell,Ben E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED3115",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Caldwell,Ben E",
+            "days": "W",
+            "location": "ED3115",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "angela.caldwell@csun.edu",
+                "benjamin.caldwell@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "603MFA",
-            "title": "CLINICAL RESEARCH",
             "class_number": "16138",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Caldwell,Ben E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED3113",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Caldwell,Ben E",
+            "days": "W",
+            "location": "ED3113",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "angela.caldwell@csun.edu",
+                "benjamin.caldwell@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "603MFA",
-            "title": "CLINICAL RESEARCH",
             "class_number": "16139",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Buttitta,Deborah J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1123",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Buttitta,Deborah J",
+            "days": "W",
+            "location": "BB1123",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 609": [
         {
-            "subject": "EPC",
-            "catalog_number": "620",
-            "title": "COUN STD SER PROF",
-            "class_number": "15446",
-            "enrollment_cap": 20,
+            "class_number": "15555",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Castaneda,Grace"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1232",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "tovah.sands@csun.edu",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "tovah.sands@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 620": [
         {
-            "subject": "EPC",
-            "catalog_number": "621",
-            "title": "SC CONSULTATION",
+            "class_number": "15446",
+            "enrollment_cap": 19,
+            "enrollment_count": 0,
+            "instructor": "grace.castaneda@csun.edu",
+            "days": "W",
+            "location": "BB1232",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "grace.castaneda@csun.edu"
+            ]
+        }
+    ],
+    "EPC 621": [
+        {
             "class_number": "16054",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR247",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "JR247",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 635": [
         {
-            "subject": "EPC",
-            "catalog_number": "635",
-            "title": "FOUN DEV CUR ECED",
             "class_number": "15447",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH302",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Leon,Katie",
+            "days": "W",
+            "location": "SH302",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "katie.leon@csun.edu",
+                "katie.mortimer@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 636": [
         {
-            "subject": "EPC",
-            "catalog_number": "636",
-            "title": "SYS POL PROF ECE",
             "class_number": "15664",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR247",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Busillo-Aguayo,Joannie L",
+            "days": "T",
+            "location": "JR247",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 639C": [
         {
-            "subject": "EPC",
-            "catalog_number": "639C",
-            "title": "FLD WK EARLY CHLD",
             "class_number": "15967",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1206",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
+            "instructor": "Busillo-Aguayo,Joannie L",
+            "days": "T",
+            "location": "BB1206",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "639C",
-            "title": "FLD WK EARLY CHLD",
             "class_number": "15968",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED1130",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Leon,Katie",
+            "days": "T",
+            "location": "TBA",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "katie.leon@csun.edu",
+                "katie.mortimer@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 641": [
         {
-            "subject": "EPC",
-            "catalog_number": "641",
-            "title": "BILASSMT",
             "class_number": "16020",
-            "enrollment_cap": 25,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ED1117",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "ED1117",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 643": [
         {
-            "subject": "EPC",
-            "catalog_number": "643",
-            "title": "DIVERSITY COUNSEL",
             "class_number": "15448",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Minton,Shyrea J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED1121",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "shyrea.minton@csun.edu",
+            "days": "M",
+            "location": "ED1121",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "shyrea.minton@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "643",
-            "title": "DIVERSITY COUNSEL",
             "class_number": "15543",
-            "enrollment_cap": 15,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Galvan,Angelica"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1232",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "angelica.galvan@csun.edu",
+            "days": "M",
+            "location": "BB1232",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "angelica.galvan@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 648": [
         {
-            "subject": "EPC",
-            "catalog_number": "648",
-            "title": "CONSULT W PAR PRO",
             "class_number": "15626",
-            "enrollment_cap": 25,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "BB1119",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "T",
+            "location": "BB1119",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 657A": [
         {
-            "subject": "EPC",
-            "catalog_number": "657A",
-            "title": "CAREER THEORY SEM",
             "class_number": "15578",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Galvan,Angelica"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED1121",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "angelica.galvan@csun.edu",
+            "days": "W",
+            "location": "ED1121",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "angelica.galvan@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "657A",
-            "title": "CAREER THEORY SEM",
             "class_number": "15582",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED1117",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ED1117",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 658": [
         {
-            "subject": "EPC",
-            "catalog_number": "658",
-            "title": "SEM GRP COUNSEL",
             "class_number": "15452",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH307",
-                    "start_time": "1300h",
-                    "end_time": "1545h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "SH307",
+            "start_time": "1300h",
+            "end_time": "1545h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "658",
-            "title": "SEM GRP COUNSEL",
             "class_number": "20989",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH371",
-                    "start_time": "1300h",
-                    "end_time": "1545h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "SH371",
+            "start_time": "1300h",
+            "end_time": "1545h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "658",
-            "title": "SEM GRP COUNSEL",
             "class_number": "20990",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sands,Tovah"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH371",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "TBA",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "658",
-            "title": "SEM GRP COUNSEL",
             "class_number": "20991",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pettit,Pamela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "SH312",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "tovah.sands@csun.edu",
+            "days": "W",
+            "location": "SH312",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "tovah.sands@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "658",
-            "title": "SEM GRP COUNSEL",
             "class_number": "20995",
-            "enrollment_cap": 15,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sands,Tovah"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "CR5209",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Cornejo Jr,Juan",
+            "days": "W",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "mercedes.juan@csun.edu",
+                "juan.gomez@csun.edu",
+                "juan.c.oliva@csun.edu",
+                "juan.cornejo@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 658L": [
         {
-            "subject": "EPC",
-            "catalog_number": "658L",
-            "title": "GROUP CONS LAB",
             "class_number": "15453",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "658L",
-            "title": "GROUP CONS LAB",
             "class_number": "20992",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "658L",
-            "title": "GROUP CONS LAB",
             "class_number": "20993",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sands,Tovah"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "658L",
-            "title": "GROUP CONS LAB",
             "class_number": "20994",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pettit,Pamela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "tovah.sands@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "tovah.sands@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "658L",
-            "title": "GROUP CONS LAB",
             "class_number": "20996",
-            "enrollment_cap": 15,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sands,Tovah"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Cornejo Jr,Juan",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mercedes.juan@csun.edu",
+                "juan.gomez@csun.edu",
+                "juan.c.oliva@csun.edu",
+                "juan.cornejo@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 659B": [
         {
-            "subject": "EPC",
-            "catalog_number": "659B",
-            "title": "PRACTICUM",
             "class_number": "15746",
             "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ED1117",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ED1117",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659B",
-            "title": "PRACTICUM",
             "class_number": "15747",
             "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JD1552",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "JD1552",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659B",
-            "title": "PRACTICUM",
             "class_number": "15748",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Galvan,Angelica"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JR201",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "angelica.galvan@csun.edu",
+            "days": "M",
+            "location": "JR201",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "angelica.galvan@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659B",
-            "title": "PRACTICUM",
             "class_number": "15749",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Timmy E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1133",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Lee,Timmy E",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659B",
-            "title": "PRACTICUM",
             "class_number": "15750",
             "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Gutierrez,Ernesto R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1125",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Gutierrez,Ernesto R",
+            "days": "M",
+            "location": "BB1125",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "gabriel.gutierrez@csun.edu",
+                "miguel.gutierrez@csun.edu",
+                "ernesto.gutierrez@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659B",
-            "title": "PRACTICUM",
             "class_number": "20997",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lucore,Lisa Ann"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1208",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Lucore,Lisa Ann",
+            "days": "M",
+            "location": "BB1208",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 659DC": [
         {
-            "subject": "EPC",
-            "catalog_number": "659DC",
-            "title": "FLDWRK COUNS SERV",
             "class_number": "15758",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Minton,Shyrea J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED1121",
-                    "start_time": "1300h",
-                    "end_time": "1545h"
-                }
+            "instructor": "shyrea.minton@csun.edu",
+            "days": "M",
+            "location": "ED1121",
+            "start_time": "1300h",
+            "end_time": "1545h",
+            "possible_emails": [
+                "shyrea.minton@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659DC",
-            "title": "FLDWRK COUNS SERV",
             "class_number": "15759",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Timmy E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1206",
-                    "start_time": "1300h",
-                    "end_time": "1545h"
-                }
+            "instructor": "Lee,Timmy E",
+            "days": "M",
+            "location": "BB1206",
+            "start_time": "1300h",
+            "end_time": "1545h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659DC",
-            "title": "FLDWRK COUNS SERV",
             "class_number": "15760",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wang,Steven"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR212",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Wang,Steven",
+            "days": "M",
+            "location": "JR212",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "steven.wang@csun.edu",
+                "wen.wang@csun.edu",
+                "steven.fitzgerald@csun.edu",
+                "katherine.stevenson@csun.edu",
+                "dongyi.wang@csun.edu",
+                "steven.stepanek@csun.edu",
+                "steven.hampton@csun.edu",
+                "steven.rivas@csun.edu",
+                "taehyung.wang@csun.edu",
+                "steven.sherry@csun.edu",
+                "steven.oppenheimer@csun.edu",
+                "steven.loy@csun.edu",
+                "meiqin.wang@csun.edu",
+                "steven.stumpf@csun.edu",
+                "steven.wexler@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659DC",
-            "title": "FLDWRK COUNS SERV",
             "class_number": "16000",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR247",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "JR247",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 659FC": [
         {
-            "subject": "EPC",
-            "catalog_number": "659FC",
-            "title": "PRACINSCHPSYCH",
             "class_number": "15761",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "SH302",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "SH302",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659FC",
-            "title": "PRACINSCHPSYCH",
             "class_number": "15762",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ED3113",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ED3113",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 659HC": [
         {
-            "subject": "EPC",
-            "catalog_number": "659HC",
-            "title": "INTRN SCH PSY",
             "class_number": "15763",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ED1121",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "ED1121",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659HC",
-            "title": "INTRN SCH PSY",
             "class_number": "15764",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ED1123",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "ED1123",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 659KC": [
         {
-            "subject": "EPC",
-            "catalog_number": "659KC",
-            "title": "FLDWRK IN CLIN COUNS",
             "class_number": "15765",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shain,Roman"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH205",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "roman.shain@csun.edu",
+            "days": "M",
+            "location": "SH205",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "roman.shain@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659KC",
-            "title": "FLDWRK IN CLIN COUNS",
             "class_number": "15766",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Morrow-Bell,Kim D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH267",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "kim.morrow-bell@csun.edu",
+            "days": "M",
+            "location": "SH267",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "kim.morrow-bell@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659KC",
-            "title": "FLDWRK IN CLIN COUNS",
             "class_number": "20988",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Enriquez,Michael V"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH285",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "michael.enriquez@csun.edu",
+            "days": "M",
+            "location": "SH285",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "michael.enriquez@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 659MFB": [
         {
-            "subject": "EPC",
-            "catalog_number": "659MFB",
-            "title": "PRACTICUM IN MFT",
             "class_number": "16152",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stevens,Mark A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED3115",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "katherine.stevenson@csun.edu",
+            "days": "M",
+            "location": "ED3115",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "katherine.stevenson@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFB",
-            "title": "PRACTICUM IN MFT",
             "class_number": "16153",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pemberton,Jennifer V"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED1127",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "jennifer.pemberton@csun.edu",
+            "days": "M",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "jennifer.pemberton@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFB",
-            "title": "PRACTICUM IN MFT",
             "class_number": "16154",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Georgette,Pamela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR247",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Georgette,Pamela",
+            "days": "M",
+            "location": "JR247",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "pamela.sasada@csun.edu",
+                "pamela.georgette@csun.edu",
+                "pamela.pettit@csun.edu",
+                "pamela.scherban-sierra@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFB",
-            "title": "PRACTICUM IN MFT",
             "class_number": "16155",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1107",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "barbara.jankovich@csun.edu",
+            "days": "M",
+            "location": "BB1107",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "barbara.jankovich@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFB",
-            "title": "PRACTICUM IN MFT",
             "class_number": "16156",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stevens,Mark A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1234",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "katherine.stevenson@csun.edu",
+            "days": "M",
+            "location": "BB1234",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "katherine.stevenson@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFB",
-            "title": "PRACTICUM IN MFT",
             "class_number": "16157",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kaiser,Stacy Y"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1204",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Kaiser,Stacy Y",
+            "days": "M",
+            "location": "BB1204",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "stacy.kaiser@csun.edu",
+                "kayla.kaiser@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFB",
-            "title": "PRACTICUM IN MFT",
             "class_number": "20998",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH284",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Lemert,Rebecca",
+            "days": "M",
+            "location": "SH284",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "rebecca.clarkmane@csun.edu",
+                "rebecca.litke@csun.edu",
+                "rebecca.lawson@csun.edu",
+                "rebecca.buck@csun.edu",
+                "rebecca.pena.783@my.csun.edu",
+                "rebecca.lemert@csun.edu",
+                "rebecca.lustig@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 659MFD": [
         {
-            "subject": "EPC",
-            "catalog_number": "659MFD",
-            "title": "MFT FIELDWORK 2",
             "class_number": "15955",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mora,Peter"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1238",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Mora,Peter",
+            "days": "M",
+            "location": "BB1238",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "peter.kappas@csun.edu",
+                "nora.moran@csun.edu",
+                "peter.garcia@csun.edu",
+                "peter.mora@csun.edu",
+                "lauren.moradi@csun.edu",
+                "peter.berlin@csun.edu",
+                "natalie.morales@csun.edu",
+                "farisa.morales@csun.edu",
+                "will.moran@csun.edu",
+                "peter.marston@csun.edu",
+                "peter.sepsis@csun.edu",
+                "peter.bishay@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFD",
-            "title": "MFT FIELDWORK 2",
             "class_number": "15956",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stone,Dana J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1208",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "dana.stone@csun.edu",
+            "days": "M",
+            "location": "BB1208",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "dana.stone@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFD",
-            "title": "MFT FIELDWORK 2",
             "class_number": "15957",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Keenan,Carine M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH305",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "carine.keenan@csun.edu",
+            "days": "M",
+            "location": "SH305",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "carine.keenan@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFD",
-            "title": "MFT FIELDWORK 2",
             "class_number": "15958",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kaiser,Stacy Y"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1202",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Kaiser,Stacy Y",
+            "days": "M",
+            "location": "BB1202",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "stacy.kaiser@csun.edu",
+                "kayla.kaiser@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFD",
-            "title": "MFT FIELDWORK 2",
             "class_number": "15959",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1202",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Lemert,Rebecca",
+            "days": "M",
+            "location": "BB1202",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "rebecca.clarkmane@csun.edu",
+                "rebecca.litke@csun.edu",
+                "rebecca.lawson@csun.edu",
+                "rebecca.buck@csun.edu",
+                "rebecca.pena.783@my.csun.edu",
+                "rebecca.lemert@csun.edu",
+                "rebecca.lustig@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFD",
-            "title": "MFT FIELDWORK 2",
             "class_number": "15960",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Goldberg-Roth,Kim L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1206",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "kim.goldberg-roth@csun.edu",
+            "days": "M",
+            "location": "BB1206",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "kim.goldberg-roth@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "659MFD",
-            "title": "MFT FIELDWORK 2",
             "class_number": "15961",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pettit,Pamela"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH287",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Pettit,Pamela",
+            "days": "M",
+            "location": "SH287",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "pamela.sasada@csun.edu",
+                "pamela.georgette@csun.edu",
+                "pamela.pettit@csun.edu",
+                "pamela.scherban-sierra@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 661": [
         {
-            "subject": "EPC",
-            "catalog_number": "661",
-            "title": "MULTI BEH INTRV",
             "class_number": "15454",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "BB1232",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "BB1232",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 663B": [
         {
-            "subject": "EPC",
-            "catalog_number": "663B",
-            "title": "ASSMTSOC-EMOTION",
             "class_number": "15455",
-            "enrollment_cap": 13,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ED1121",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "ED1121",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "663B",
-            "title": "ASSMTSOC-EMOTION",
             "class_number": "15456",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ED1127",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "ED1127",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 663BL": [
         {
-            "subject": "EPC",
-            "catalog_number": "663BL",
-            "title": "ASSMTSOC-EMOTLAB",
             "class_number": "15457",
-            "enrollment_cap": 13,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH305",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "vedeesh.saggar@csun.edu",
+            "days": "W",
+            "location": "SH305",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "vedeesh.saggar@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "663BL",
-            "title": "ASSMTSOC-EMOTLAB",
             "class_number": "16083",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH305",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "vedeesh.saggar@csun.edu",
+            "days": "W",
+            "location": "SH305",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "vedeesh.saggar@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 668": [
         {
-            "subject": "EPC",
-            "catalog_number": "668",
-            "title": "PRTNSHPS IN ECE",
             "class_number": "15857",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JR247",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JR247",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 670A": [
         {
-            "subject": "EPC",
-            "catalog_number": "670A",
-            "title": "SYSTEMIC THEORY",
             "class_number": "15458",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shain,Roman"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED1121",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "roman.shain@csun.edu",
+            "days": "W",
+            "location": "ED1121",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "roman.shain@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "670A",
-            "title": "SYSTEMIC THEORY",
             "class_number": "15542",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jakubanis,Beth"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1117",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "BB1117",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 670MFB": [
         {
-            "subject": "EPC",
-            "catalog_number": "670MFB",
-            "title": "POSTMODERN COG-BEHAV",
             "class_number": "16149",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kaiser,Stacy Y"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED1121",
-                    "start_time": "0930h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Kaiser,Stacy Y",
+            "days": "M",
+            "location": "ED1121",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "stacy.kaiser@csun.edu",
+                "kayla.kaiser@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "670MFB",
-            "title": "POSTMODERN COG-BEHAV",
             "class_number": "16150",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Gehart,Diane R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1204",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "diane.gehart@csun.edu",
+            "days": "M",
+            "location": "BB1204",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "diane.gehart@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "670MFB",
-            "title": "POSTMODERN COG-BEHAV",
             "class_number": "16151",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Buttitta,Deborah J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BH313",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Buttitta,Deborah J",
+            "days": "M",
+            "location": "BH313",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 670MFC": [
         {
-            "subject": "EPC",
-            "catalog_number": "670MFC",
-            "title": "MFT GROUP THERAPY",
             "class_number": "16021",
-            "enrollment_cap": 15,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ED1122",
-                    "start_time": "0930h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Samuel,Danielle A",
+            "days": "M",
+            "location": "ED1122",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "sandor.samuels@csun.edu",
+                "danielle.samuel@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "670MFC",
-            "title": "MFT GROUP THERAPY",
             "class_number": "16022",
-            "enrollment_cap": 15,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Samuel,Danielle A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "SH312",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Samuel,Danielle A",
+            "days": "M",
+            "location": "SH312",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "sandor.samuels@csun.edu",
+                "danielle.samuel@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "670MFC",
-            "title": "MFT GROUP THERAPY",
             "class_number": "16023",
-            "enrollment_cap": 15,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pemberton,Jennifer V"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "BB1208",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "jennifer.pemberton@csun.edu",
+            "days": "M",
+            "location": "BB1208",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "jennifer.pemberton@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 672MFA": [
         {
-            "subject": "EPC",
-            "catalog_number": "672MFA",
-            "title": "DIAGNOSIS MFT",
             "class_number": "16174",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Keenan,Carine M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED1122",
-                    "start_time": "0930h",
-                    "end_time": "2415h"
-                }
+            "instructor": "carine.keenan@csun.edu",
+            "days": "W",
+            "location": "ED1122",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "carine.keenan@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "672MFA",
-            "title": "DIAGNOSIS MFT",
             "class_number": "16175",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Souris,Mark John"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED1121",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "mark.souris@csun.edu",
+            "days": "W",
+            "location": "ED1121",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "mark.souris@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "672MFA",
-            "title": "DIAGNOSIS MFT",
             "class_number": "16176",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Souris,Mark John"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED1121",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "mark.souris@csun.edu",
+            "days": "W",
+            "location": "ED1121",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "mark.souris@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 672MFB": [
         {
-            "subject": "EPC",
-            "catalog_number": "672MFB",
-            "title": "NEUROBIO TRAUMA",
             "class_number": "16161",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pemberton,Jennifer V"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "jennifer.pemberton@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "jennifer.pemberton@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "672MFB",
-            "title": "NEUROBIO TRAUMA",
             "class_number": "16162",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pemberton,Jennifer V"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "jennifer.pemberton@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "jennifer.pemberton@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "672MFB",
-            "title": "NEUROBIO TRAUMA",
             "class_number": "16163",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pemberton,Jennifer V"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "jennifer.pemberton@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "jennifer.pemberton@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 673": [
         {
-            "subject": "EPC",
-            "catalog_number": "673",
-            "title": "COMMUNITY MH",
             "class_number": "16167",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shain,Roman"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ED1121",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "roman.shain@csun.edu",
+            "days": "T",
+            "location": "ED1121",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "roman.shain@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "673",
-            "title": "COMMUNITY MH",
             "class_number": "16168",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Nguyen,Nancy"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ED1123",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ED1123",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 677MFB": [
         {
-            "subject": "EPC",
-            "catalog_number": "677MFB",
-            "title": "GENDER AND SEX IN FT",
             "class_number": "16158",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stone,Dana J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "dana.stone@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "dana.stone@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "677MFB",
-            "title": "GENDER AND SEX IN FT",
             "class_number": "16159",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stone,Dana J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "dana.stone@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "dana.stone@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "677MFB",
-            "title": "GENDER AND SEX IN FT",
             "class_number": "16160",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stone,Dana J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "dana.stone@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "dana.stone@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 679MF": [
         {
-            "subject": "EPC",
-            "catalog_number": "679MF",
-            "title": "CLINICAL ASSESSMT",
             "class_number": "15963",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Willoughby,Louis D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED1121",
-                    "start_time": "0930h",
-                    "end_time": "2415h"
-                }
+            "instructor": "louis.willoughby@csun.edu",
+            "days": "W",
+            "location": "ED1121",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "louis.willoughby@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "679MF",
-            "title": "CLINICAL ASSESSMT",
             "class_number": "15964",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Willoughby,Louis D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1238",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
+            "instructor": "louis.willoughby@csun.edu",
+            "days": "W",
+            "location": "BB1238",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "louis.willoughby@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "679MF",
-            "title": "CLINICAL ASSESSMT",
             "class_number": "15965",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1240",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Georgette,Pamela",
+            "days": "W",
+            "location": "BB1240",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "pamela.sasada@csun.edu",
+                "pamela.georgette@csun.edu",
+                "pamela.pettit@csun.edu",
+                "pamela.scherban-sierra@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 687": [
         {
-            "subject": "EPC",
-            "catalog_number": "687",
-            "title": "CAREER GUIDANCE",
             "class_number": "16058",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ED3113",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ED3113",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 689": [
         {
-            "subject": "EPC",
-            "catalog_number": "689",
-            "title": "LDRSHP SCH CNSING",
             "class_number": "15461",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Minton,Shyrea J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB1202",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "shyrea.minton@csun.edu",
+            "days": "W",
+            "location": "BB1202",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "shyrea.minton@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 690C": [
         {
-            "subject": "EPC",
-            "catalog_number": "690C",
-            "title": "ADVANCED FIELDWRK",
             "class_number": "15930",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "TBA",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 690MFC": [
         {
-            "subject": "EPC",
-            "catalog_number": "690MFC",
-            "title": "ADV FIELDWORK MFT",
             "class_number": "16170",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Gehart,Diane R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "diane.gehart@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "diane.gehart@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "690MFC",
-            "title": "ADV FIELDWORK MFT",
             "class_number": "16171",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Willoughby,Louis D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "louis.willoughby@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "louis.willoughby@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 695MF": [
         {
-            "subject": "EPC",
-            "catalog_number": "695MF",
-            "title": "SEMINAR PROF WRITING",
             "class_number": "16145",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Losey,Diana L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Losey,Diana L",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "695MF",
-            "title": "SEMINAR PROF WRITING",
             "class_number": "16146",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Losey,Diana L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Losey,Diana L",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "EPC 695S": [
         {
-            "subject": "EPC",
-            "catalog_number": "695S",
-            "title": "STUDENT PERSONNEL",
             "class_number": "15462",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD1552",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "JD1552",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "EPC 695WC": [
         {
-            "subject": "EPC",
-            "catalog_number": "695WC",
-            "title": "GRAD WRTNG IN EPC",
             "class_number": "15743",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Leon,Katie",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "katie.leon@csun.edu",
+                "katie.mortimer@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "695WC",
-            "title": "GRAD WRTNG IN EPC",
             "class_number": "15744",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "EPC 696": [
         {
-            "subject": "EPC",
-            "catalog_number": "696",
-            "title": "DIR GRAD RESEARCH",
             "class_number": "15858",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Minton,Shyrea J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "shyrea.minton@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "shyrea.minton@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696",
-            "title": "DIR GRAD RESEARCH",
             "class_number": "15859",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Goldschmidt,Pete G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "pete.goldschmidt@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "pete.goldschmidt@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696",
-            "title": "DIR GRAD RESEARCH",
             "class_number": "15925",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Timmy E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Lee,Timmy E",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696",
-            "title": "DIR GRAD RESEARCH",
             "class_number": "15969",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Busillo-Aguayo,Joannie L",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696",
-            "title": "DIR GRAD RESEARCH",
             "class_number": "15974",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696",
-            "title": "DIR GRAD RESEARCH",
             "class_number": "16169",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696",
-            "title": "DIR GRAD RESEARCH",
             "class_number": "16178",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "EPC 696MF": [
         {
-            "subject": "EPC",
-            "catalog_number": "696MF",
-            "title": "DIRECTED RESEARCH FT",
             "class_number": "16143",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Gehart,Diane R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "diane.gehart@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "diane.gehart@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696MF",
-            "title": "DIRECTED RESEARCH FT",
             "class_number": "16144",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stone,Dana J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "dana.stone@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "dana.stone@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696MF",
-            "title": "DIRECTED RESEARCH FT",
             "class_number": "16164",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stevens,Mark A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "katherine.stevenson@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "katherine.stevenson@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696MF",
-            "title": "DIRECTED RESEARCH FT",
             "class_number": "16165",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Pemberton,Jennifer V"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "jennifer.pemberton@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "jennifer.pemberton@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "696MF",
-            "title": "DIRECTED RESEARCH FT",
             "class_number": "16166",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Buttitta,Deborah J"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Buttitta,Deborah J",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "EPC 697": [
         {
-            "subject": "EPC",
-            "catalog_number": "697",
-            "title": "DIR COMP STUDIES",
             "class_number": "15673",
             "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "alberto.restori@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "alberto.restori@csun.edu"
             ]
         },
         {
-            "subject": "EPC",
-            "catalog_number": "697",
-            "title": "DIR COMP STUDIES",
             "class_number": "16177",
             "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "wilda.laija-rodriguez@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "wilda.laija-rodriguez@csun.edu"
             ]
-        },
+        }
+    ],
+    "EPC 698C": [
         {
-            "subject": "EPC",
-            "catalog_number": "698C",
-            "title": "THESIS-GRAD PROJ",
             "class_number": "15463",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "EPC",
-            "catalog_number": "698C",
-            "title": "THESIS-GRAD PROJ",
             "class_number": "16147",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "EPC 699C": [
         {
-            "subject": "EPC",
-            "catalog_number": "699C",
-            "title": "INDEPENDENT STUDY",
             "class_number": "15464",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ]
 }

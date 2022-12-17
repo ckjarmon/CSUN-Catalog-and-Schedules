@@ -1,7 +1,7 @@
 # bot.py
 import numbers
 import os
-from interactions import Channel
+
 import urllib3
 import json
 import discord
@@ -9,30 +9,30 @@ from dotenv import load_dotenv
 import time
 import mysql.connector
 from mysql.connector import errorcode
+from discord import Intents
+from discord.ext import commands
 
+# intents = discord.Intents().all()
+# client = commands.Bot(command_prefix=',', intents=intents)
+
+intents = Intents.default()
+intents.message_content = True
+
+client = commands.Bot(command_prefix="!", intents=intents)
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
-client = discord.Client()
+
 
 
 def show_classes(subject, number):
 
     data = json.load(open('json_catalog/' + subject.upper() + '_catalog.json'))
-    json_blobs = []
     for course in data:
         if (number == course["catalog_number"]):
-            json_blobs.append(course)
-            break
-            
-    if len(json_blobs) > 0:
-        ret = str(json_blobs[0]["subject"].upper() + " " + json_blobs[0]["catalog_number"] + " " + json_blobs[0]["title"] + "\n\n")
-        for a in json_blobs:
-            if a["description"] is not None:
-                ret += a["description"]
-                break
-        return ret
+            return f"{course['subject'].upper()} {course['catalog_number']} {course['title']}\n\n{course['description']}"
+
 
 
 
@@ -40,214 +40,212 @@ def show_classes(subject, number):
 def show_schedule(sem, year, sub, code):
     if sem.lower() == "spring" and year == "2023":
         
-        data = json.load(open("json_schedule/" + sub.upper() + "_schedule.json"))
-        """
-        load_dotenv()
-        dausername = os.getenv('sqlusername')
-        dapassword = os.getenv('sqlpass')
-        request_tuple = (sub, code)
-        data = {}
-        data["classes"] = []
-        try:
-            rootConnection = mysql.connector.connect(
-            user=dausername,
-            password=dapassword,
-            host='127.0.0.1',
-            database='csun')
-    
-            rootCursor = rootConnection.cursor()
-    
-        except mysql.connector.Error as err:
-            if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
-                print('Invalid credentials')
-            elif err.errno == errorcode.ER_BAD_DB_ERROR:
-                print('Database not found')
-            else:
-                print('Cannot connect to database:', err)
-
-        else:
-            rootCursor.execute('select * from section where subject_code = %s and catalog_number = %s', request_tuple)
-            stuffs = rootCursor.fetchall()
-            
-            for row in stuffs:
-                temp_dict = {}
-                temp_dict["catalog_number"] = row[1]
-                temp_dict["title"] = row[9]
-                temp_dict["meetings"] = []
-                temp_dict["meetings"].append({})
-                temp_dict["meetings"][0]["location"] = row[4]
-                temp_dict["meetings"][0]["start_time"] = row[5]
-                temp_dict["meetings"][0]["end_time"] = row[6]
-                temp_dict["meetings"][0]["days"] = row[7]
-                temp_dict["class_number"] = str(row[3])
-                temp_dict["enrollment_cap"] = row[8]
-                temp_dict["enrollment_count"] = 0
-                temp_dict["instructors"] = []
-                temp_dict["instructors"].append({})
-                temp_dict["instructors"][0]["instructor"] = row[2]
-                data["classes"].append(temp_dict)
-            rootCursor.close()
-            rootConnection.close()
-            """
-
-                
+        data = json.load(open("json_schedule/" + sub.upper() + "_schedule.json"))          
         
+        def find_class(current_class):
+            for course in json.load(open("json_catalog/" + sub.upper() + "_catalog.json"))   :
+                if (current_class == course["catalog_number"]):
+                    return course["title"]
+        
+        blob_list = []
+        curr_time = time.asctime(time.localtime(time.time())).split()
+        blob_list.append(f"{sub.upper()} {code} {find_class(code)} - {sem.upper()} {year} - As of {curr_time[0]} {curr_time[2]} {curr_time[1]} {curr_time[4]} {curr_time[3]}")
+
+        blob_list.append("\n\tSection\t\tLocation\tDays\t Seats\t\t  Time\t\t\t\tFaculty")
+        blob_list.append("\t-------\t\t--------\t----\t -----\t\t  ----\t\t\t\t-------")
+        for course in data[f"{sub.upper()} {code}"]:
+            section_string = []
+
+            section_string.append("\t " + course["class_number"] + " ")
+            if (len(course["location"]) == 3):
+                section_string.append("  ")
+                
+            # Location 
+            if (len(course["location"]) != 7):
+                # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
+                section_string.append(f"\t\t{course['location']}")
+            else:
+                section_string.append(f"\t   {course['location']}")
+                
+                
+            # Days
+            if len(str(course["days"])) == 1:
+                section_string.append(f"\t  {str(course['days'])}  ")
+            elif len(str(course["days"])) == 2:
+                section_string.append(f"\t {str(course['days'])}  ")
+            elif len(str(course["days"])) == 3:
+                section_string.append(f"\t {str(course['days'])} ")
+            elif str(course["days"]) == "None":
+                section_string.append("\t --  ")
+            else:
+                section_string.append(f"\t{str(course['days'])} ")
+                # print(str(course["meetings"][0]["days"]))
+                
+                
+            # Seats Available
+            if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
+                section_string.append(f"\t {str(course['enrollment_cap'] - course['enrollment_count'])}")
+            else:
+                section_string.append(f"\t{str(course['enrollment_cap'] - course['enrollment_count'])}")
+            # Time 
+            section_string.append(f"\t   {(course['start_time'])[0:2]}:{(course['start_time'])[2:4]} - {(course['end_time'])[0:2]}:{(course['end_time'])[2:4]}")
+            # Instructor
+            # if a class has no instructor, print Staff instead
+            if course["instructor"] != "Staff":
+                section_string.append(f"\t{course['instructor']}")
+            else:
+                section_string.append("\t\t   " + "Staff")
+            blob_list.append(" ".join(section_string))
+            print("------------------------------------------------------------------")
+            print(section_string)
+        return "\n".join([str(x) for x in blob_list])
+            
+"""        
     else:
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
                                                                           year + "/classes/" + \
                                                                           sub
             # try to read the data and load
+        print(url)
         try:
             data = json.loads(urllib3.PoolManager().request("GET", url).data)
         except Exception as e:
             data = json.loads({})
 
-    def find_class(current_class):
-        ret_value = ""
-        for course in data["classes"]:
-            if (current_class == course["catalog_number"]):
-                ret_value = course["title"]
-        return ret_value
+        def find_class(current_class):
+            ret_value = ""
+            import pprint
+            pprint.pprint(data)
+            for course in data:
+                if (current_class == course["catalog_number"]):
+                    ret_value = course["title"]
+            return ret_value
 
-    blob_list = []
-    curr_time = time.asctime(time.localtime(time.time())).split()
-    blob_list.append(f"{sub.upper()} {code} {find_class(code)} - {sem.upper()} {year} - As of {curr_time[0]} {curr_time[2]} {curr_time[1]} {curr_time[4]} {curr_time[3]}")
-    
-    blob_list.append("\n\tSection\t\tLocation\tDays\t Seats\t\t  Time\t\t\t\tFaculty")
-    blob_list.append("\t-------\t\t--------\t----\t -----\t\t  ----\t\t\t\t-------")
+        blob_list = []
+        curr_time = time.asctime(time.localtime(time.time())).split()
+        blob_list.append(f"{sub.upper()} {code} {find_class(code)} - {sem.upper()} {year} - As of {curr_time[0]} {curr_time[2]} {curr_time[1]} {curr_time[4]} {curr_time[3]}")
 
-    for course in data["classes"]:
-        # if a class has no meetings, it should not be on schedule
-        if (len(course["meetings"]) > 0) and code == course["catalog_number"]:
-            section_string = []
-          
-            section_string.append("\t " + course["class_number"] + " ")
-            
-            if (len(course["meetings"][0]["location"]) == 3):
-                
-                section_string.append("  ")
-            
-            # Location 
-            if (len(course["meetings"][0]["location"]) != 7):
-                # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
-                section_string.append(f"\t\t{course['meetings'][0]['location']}")
-                
-            else:
-                section_string.append(f"\t   {course['meetings'][0]['location']}")
-                
-            # Days
-            if len(str(course["meetings"][0]["days"])) == 1:
-                section_string.append(f"\t  {str(course['meetings'][0]['days'])}  ")
+        blob_list.append("\n\tSection\t\tLocation\tDays\t Seats\t\t  Time\t\t\t\tFaculty")
+        blob_list.append("\t-------\t\t--------\t----\t -----\t\t  ----\t\t\t\t-------")
 
-            elif len(str(course["meetings"][0]["days"])) == 2:
-                section_string.append(f"\t {str(course['meetings'][0]['days'])}  ")
-            
-            elif len(str(course["meetings"][0]["days"])) == 3:
-                section_string.append(f"\t {str(course['meetings'][0]['days'])} ")
-                
-            elif str(course["meetings"][0]["days"]) == "None":
-                section_string.append("\t --  ")
-                
-            else:
-                section_string.append(f"\t{str(course['meetings'][0]['days'])} ")
-                # print(str(course["meetings"][0]["days"]))
+        for course in data["catalog_number"]:
+            # if a class has no meetings, it should not be on schedule
+            if (len(course["meetings"]) > 0) and code == course["catalog_number"]:
+                section_string = []
 
-            
-            # Seats Available
-            if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
-                section_string.append(f"\t {str(course['enrollment_cap'] - course['enrollment_count'])}")
-                
-            else:
-                section_string.append(f"\t{str(course['enrollment_cap'] - course['enrollment_count'])}")
+                section_string.append("\t " + course["class_number"] + " ")
 
-            # Time 
-            section_string.append(f"\t   {(course['meetings'][0]['start_time'])[0:2]}:{(course['meetings'][0]['start_time'])[2:4]} - {(course['meetings'][0]['end_time'])[0:2]}:{(course['meetings'][0]['end_time'])[2:4]}")
+                if (len(course["meetings"][0]["location"]) == 3):
 
-            # Instructor
-            # if a class has no instructor, print Staff instead
-            if (len(course["instructors"]) > 0) and course["instructors"][0]["instructor"] != "Staff":
-                section_string.append(f"\t{course['instructors'][0]['instructor']}")
-            else:
-                section_string.append("\t\t   " + "Staff")
+                    section_string.append("  ")
 
-            blob_list.append(" ".join(section_string))
-            print("------------------------------------------------------------------")
-            print(section_string)
-    return "\n".join([str(x) for x in blob_list])
+                # Location 
+                if (len(course["meetings"][0]["location"]) != 7):
+                    # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
+                    section_string.append(f"\t\t{course['meetings'][0]['location']}")
 
+                else:
+                    section_string.append(f"\t   {course['meetings'][0]['location']}")
+
+                # Days
+                if len(str(course["meetings"][0]["days"])) == 1:
+                    section_string.append(f"\t  {str(course['meetings'][0]['days'])}  ")
+
+                elif len(str(course["meetings"][0]["days"])) == 2:
+                    section_string.append(f"\t {str(course['meetings'][0]['days'])}  ")
+
+                elif len(str(course["meetings"][0]["days"])) == 3:
+                    section_string.append(f"\t {str(course['meetings'][0]['days'])} ")
+
+                elif str(course["meetings"][0]["days"]) == "None":
+                    section_string.append("\t --  ")
+
+                else:
+                    section_string.append(f"\t{str(course['meetings'][0]['days'])} ")
+                    # print(str(course["meetings"][0]["days"]))
+
+
+                # Seats Available
+                if len(str(course["enrollment_cap"] - course["enrollment_count"])) == 1:
+                    section_string.append(f"\t {str(course['enrollment_cap'] - course['enrollment_count'])}")
+
+                else:
+                    section_string.append(f"\t{str(course['enrollment_cap'] - course['enrollment_count'])}")
+
+                # Time 
+                section_string.append(f"\t   {(course['meetings'][0]['start_time'])[0:2]}:{(course['meetings'][0]['start_time'])[2:4]} - {(course['meetings'][0]['end_time'])[0:2]}:{(course['meetings'][0]['end_time'])[2:4]}")
+
+                # Instructor
+                # if a class has no instructor, print Staff instead
+                if (len(course["instructors"]) > 0) and course["instructors"][0]["instructor"] != "Staff":
+                    section_string.append(f"\t{course['instructors'][0]['instructor']}")
+                else:
+                    section_string.append("\t\t   " + "Staff")
+
+                blob_list.append(" ".join(section_string))
+                print("------------------------------------------------------------------")
+                print(section_string)
+        return "\n".join([str(x) for x in blob_list])
+"""
 
 @client.event
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
 
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
+@client.command()
+async def csun(ctx, *message):
+    
+    
+    message = ' '.join(message)
+    
+    print(f"{ctx} {message}")
+    
+
+    if ctx.author == client.user:
         return
 
-    msg_split = message.content.split()
-    print(message.author, end="")
-    print(f"{message.author} [{message.content}]")
+    msg_split = message.split()
+    print(ctx.author, end="")
+    print(f"{ctx.author} [{message}]")
     
     
 
 
-    muls = bool
-    
-    if message.content.__contains__("!csun"):
-        muls = True
-        for i in range(2, len(msg_split)):
-            try:
-                summ = int(msg_split[i])
-            except:
+    # for multi-class quieries
+    muls = True
+    if message.__contains__("!csun"):
+        for i in range(1, len(msg_split)):
+            if not isinstance(msg_split[i], int):
                 muls = False
                 break
             
 
     #await message.channel.send("```" + str(muls) + "```")
     
-    if message.content.__contains__("!csun") and len(msg_split) == 3:
-        response1 = show_classes(msg_split[1], msg_split[2])
-        response2 = show_schedule("Sprig", "2023", msg_split[1], msg_split[2])
-        await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
+    if  len(msg_split) == 2:
+        response1 = show_classes(msg_split[0], msg_split[1])
+        response2 = show_schedule("Spring", "2023", msg_split[0], msg_split[1])
+        await ctx.send("```" + str(response1) + "\n\n" + str(response2) + "```")
         
-    elif message.content.__contains__("!csun help"):
-        await message.channel.send("```Shows both class description and schedule by default. Default schedule is Spring 2023 \
-                                   \nTo show different schedule, append it to the end.\n\n" +
-                                   "For default:\n\t!csun subject class_code\nExample:\n\t!csun comp 182\n\n" + 
-                                   "For default and multiple classes (in a single subject)\n\t!csun subject class_code class_code class_code" + 
-                                   "\nExample:\n\t!csun comp 110 182 282\n\n" + 
-                                   "For Different Semester:\n\t!csun subject class_code semester YY\n" +
-                                   "Example:\n\t!csun subject class_code spring 23\n\n" + 
-                                   "For Grade:\n\t!csun grade (grade weight)*\n"  + 
-                                   "Example:\n\t!csun grade 74 25 85 35 70 40\n\nSource Code: \
-                                   \nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
+    elif message.__contains__("help"):
+        await ctx.send("```Shows both class description and schedule by default. Only schedule is Spring 2023 \
+                                   \nAbility view past schedules prior to Spring 2023 has been deprecated in this version.\n\n" +
+                                   "Refer to the slash command /help (for the CSUN C&S bot) for instructions\n\n" + 
+                                   "For multiple classes (in a single subject)\n\t!csun subject class_code class_code class_code" + 
+                                   "\nExample:\n\t!csun comp 110 182 282\n\n" +
+                                   "\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
         
-    elif  message.content.__contains__("!csun") and muls:
-        for i in range(2, len(msg_split)):
-            response1 = show_classes(msg_split[1], msg_split[i])
-            response2 = show_schedule("Fall", "2022", msg_split[1], msg_split[i])
-            await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
+    elif muls:
+        for i in range(1, len(msg_split)):
+            response1 = show_classes(msg_split[0], msg_split[i])
+            response2 = show_schedule("Spring", "2023", msg_split[0], msg_split[i])
+            await ctx.send("```" + str(response1) + "\n\n" + str(response2) + "```")
     
-    elif message.content.__contains__("!csun grade"):
-        grade = 0
-        total_weight = 0
-        for i in range(2, int(len(msg_split)-2/2)+1, 2):
-            grade += (float(msg_split[i]) * (float(msg_split[i+1]))/100)
-            total_weight += float(msg_split[i+1])
-            #await message.channel.send("```" + str(i) + "```")
-        await message.channel.send("```" + str(grade) + "```")
-        if total_weight != 100.0:
-            await message.channel.send("```Warning: Weights don't total 100.```")
             
-    elif len(msg_split) > 3 and message.content.__contains__("!csun"):
-        response1 = show_classes(msg_split[1], msg_split[2])
-        response2 = show_schedule(msg_split[3], "20" + msg_split[4], msg_split[1], msg_split[2])
-        await message.channel.send("```" + str(response1) + "\n\n" + str(response2) + "```")
 
     
-        
+
     
         
 

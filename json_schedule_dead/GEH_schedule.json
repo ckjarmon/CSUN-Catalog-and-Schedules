@@ -1,87 +1,41 @@
 {
-    "classes": [
+    "GEH 333": [
         {
-            "subject": "GEH",
-            "catalog_number": "333",
-            "title": "WAYS OF KNOWING",
             "class_number": "20550",
-            "enrollment_cap": 20,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Kleinman,Scott",
+            "days": "TR",
+            "location": "UL002",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "scott.plunkett@csun.edu",
+                "whitney.scott@csun.edu",
+                "scott.amiss@csun.edu",
+                "tomer.kleinman@csun.edu",
+                "scott.whitfield@csun.edu",
+                "scott.andrews@csun.edu",
+                "scott.kleinman@csun.edu",
+                "scott.shepard@csun.edu",
+                "scott.sturgeon@csun.edu",
+                "scott.appelrouth@csun.edu",
+                "scott.cooper@csun.edu",
+                "scott.ploen@csun.edu",
+                "scott.hauswirth@csun.edu"
             ]
         },
         {
-            "subject": "GEH",
-            "catalog_number": "333",
-            "title": "WAYS OF KNOWING",
             "class_number": "20551",
-            "enrollment_cap": 20,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "GEH",
-            "catalog_number": "333",
-            "title": "WAYS OF KNOWING",
-            "class_number": "20552",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "GEH",
-            "catalog_number": "333",
-            "title": "WAYS OF KNOWING",
-            "class_number": "20553",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "gina.giotta@csun.edu",
+            "days": "TR",
+            "location": "ONCAMP",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "gina.giotta@csun.edu"
             ]
         }
     ]

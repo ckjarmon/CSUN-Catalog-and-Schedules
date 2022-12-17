@@ -1,130 +1,92 @@
 {
-    "classes": [
+    "MCOM 612": [
         {
-            "subject": "MCOM",
-            "catalog_number": "612",
-            "title": "JOURN_PRAC",
             "class_number": "11921",
-            "enrollment_cap": 13,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ360",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "julie.bien@csun.edu",
+            "days": "M",
+            "location": "MZ360",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "julie.bien@csun.edu"
             ]
-        },
+        }
+    ],
+    "MCOM 630": [
         {
-            "subject": "MCOM",
-            "catalog_number": "630",
-            "title": "ANALYSIS MEDIA",
             "class_number": "10068",
-            "enrollment_cap": 14,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ361",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "elizabeth.blakey@csun.edu",
+            "days": "R",
+            "location": "MZ212",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "elizabeth.blakey@csun.edu"
             ]
-        },
+        }
+    ],
+    "MCOM 690": [
         {
-            "subject": "MCOM",
-            "catalog_number": "690",
-            "title": "RESRCH PRACTICUM",
             "class_number": "10069",
-            "enrollment_cap": 18,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ213",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Wall,Melissa A",
+            "days": "T",
+            "location": "MZ212",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "melissa.a.wall@csun.edu",
+                "debra.wallace@csun.edu"
             ]
-        },
+        }
+    ],
+    "MCOM 696": [
         {
-            "subject": "MCOM",
-            "catalog_number": "696",
-            "title": "DIR GRAD RESEARCH",
             "class_number": "10070",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Wall,Melissa A",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "melissa.a.wall@csun.edu",
+                "debra.wallace@csun.edu"
             ]
-        },
+        }
+    ],
+    "MCOM 697A": [
         {
-            "subject": "MCOM",
-            "catalog_number": "697A",
-            "title": "DIR COMP EXAM",
             "class_number": "10966",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "elizabeth.blakey@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "elizabeth.blakey@csun.edu"
             ]
-        },
+        }
+    ],
+    "MCOM 698C": [
         {
-            "subject": "MCOM",
-            "catalog_number": "698C",
-            "title": "THESIS/GRAD PROJ",
             "class_number": "10071",
-            "enrollment_cap": 7,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ]
 }

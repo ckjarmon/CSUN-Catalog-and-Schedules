@@ -1,129 +1,109 @@
 {
-    "classes": [
+    "JS 100": [
         {
-            "subject": "JS",
-            "catalog_number": "100",
-            "title": "JEWISH REL CULTR",
             "class_number": "14561",
-            "enrollment_cap": 30,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH108",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "elaine.goodfriend@csun.edu",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "elaine.goodfriend@csun.edu"
             ]
-        },
+        }
+    ],
+    "JS 220": [
         {
-            "subject": "JS",
-            "catalog_number": "220",
-            "title": "JEWS ON FILM",
             "class_number": "20898",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH192",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Weininger,Melissa",
+            "days": "MW",
+            "location": "SH192",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "melissa.tindage@csun.edu",
+                "melissa.baughn@csun.edu",
+                "melissa.a.wall@csun.edu",
+                "melissa.weininger@csun.edu",
+                "melissa.yingst@csun.edu",
+                "melissa.gutterman.945@my.csun.edu",
+                "melissa.takahashi@csun.edu"
             ]
-        },
+        }
+    ],
+    "JS 318": [
         {
-            "subject": "JS",
-            "catalog_number": "318",
-            "title": "APPLIED JEW ETHIC",
             "class_number": "14748",
-            "enrollment_cap": 40,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "JS 333": [
         {
-            "subject": "JS",
-            "catalog_number": "333",
-            "title": "JEWISH GRAPHIC NOVEL",
             "class_number": "20688",
-            "enrollment_cap": 30,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "SH108",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Weininger,Melissa",
+            "days": "MW",
+            "location": "SH108",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "melissa.tindage@csun.edu",
+                "melissa.baughn@csun.edu",
+                "melissa.a.wall@csun.edu",
+                "melissa.weininger@csun.edu",
+                "melissa.yingst@csun.edu",
+                "melissa.gutterman.945@my.csun.edu",
+                "melissa.takahashi@csun.edu"
             ]
-        },
+        }
+    ],
+    "JS 335": [
         {
-            "subject": "JS",
-            "catalog_number": "335",
-            "title": "JEWSH IDENTITY US",
             "class_number": "15378",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH209",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Thompson,Jennifer A",
+            "days": "TR",
+            "location": "SH209",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "lizabeth.thompson@csun.edu",
+                "neil.thompson@csun.edu",
+                "jennifer.a.thompson@csun.edu"
             ]
-        },
+        }
+    ],
+    "JS 390CS": [
         {
-            "subject": "JS",
-            "catalog_number": "390CS",
-            "title": "INTERN_NONPROFITS",
             "class_number": "14296",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Weininger,Melissa",
+            "days": "F",
+            "location": "JR204",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "melissa.tindage@csun.edu",
+                "melissa.baughn@csun.edu",
+                "melissa.a.wall@csun.edu",
+                "melissa.weininger@csun.edu",
+                "melissa.yingst@csun.edu",
+                "melissa.gutterman.945@my.csun.edu",
+                "melissa.takahashi@csun.edu"
             ]
         }
     ]

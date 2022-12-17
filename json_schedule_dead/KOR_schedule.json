@@ -1,66 +1,50 @@
 {
-    "classes": [
+    "KOR 101": [
         {
-            "subject": "KOR",
-            "catalog_number": "101",
-            "title": "ELEM KOR I",
             "class_number": "14312",
-            "enrollment_cap": 35,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR315",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
+            "instructor": "Yoon,Sung Ja",
+            "days": "TR",
+            "location": "JR315",
+            "start_time": "0900h",
+            "end_time": "1040h",
+            "possible_emails": [
+                "sungwook.yoon@csun.edu",
+                "hyungjo.yoon@csun.edu",
+                "sung.yoon@csun.edu"
             ]
         },
         {
-            "subject": "KOR",
-            "catalog_number": "101",
-            "title": "ELEM KOR I",
             "class_number": "15397",
-            "enrollment_cap": 35,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR315",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
+            "instructor": "Yoon,Sung Ja",
+            "days": "TR",
+            "location": "JR315",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "sungwook.yoon@csun.edu",
+                "hyungjo.yoon@csun.edu",
+                "sung.yoon@csun.edu"
             ]
-        },
+        }
+    ],
+    "KOR 102": [
         {
-            "subject": "KOR",
-            "catalog_number": "102",
-            "title": "ELEM KOR II",
             "class_number": "14644",
-            "enrollment_cap": 32,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Yoon,Sung Ja",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "sungwook.yoon@csun.edu",
+                "hyungjo.yoon@csun.edu",
+                "sung.yoon@csun.edu"
             ]
         }
     ]
