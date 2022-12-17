@@ -1,1032 +1,784 @@
 {
-    "classes": [
+    "RTM 150": [
         {
-            "subject": "RTM",
-            "catalog_number": "150",
-            "title": "INTR OUTDR ED/BCK",
             "class_number": "19575",
-            "enrollment_cap": 25,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wright,Alan N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "alan.wright@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "alan.wright@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 151A": [
         {
-            "subject": "RTM",
-            "catalog_number": "151A",
-            "title": "BACKPACKING",
             "class_number": "18951",
-            "enrollment_cap": 16,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Applen,Brittany N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "RE151",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
-                }
+            "instructor": "brittany.applen@csun.edu",
+            "days": null,
+            "location": "RE151",
+            "start_time": "1000h",
+            "end_time": "1140h",
+            "possible_emails": [
+                "brittany.applen@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 151B": [
         {
-            "subject": "RTM",
-            "catalog_number": "151B",
-            "title": "ROCK CLMB MOUNT",
             "class_number": "19163",
-            "enrollment_cap": 16,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Schmidt,Jason D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "RE151",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
-                }
+            "instructor": "jason.schmidt@csun.edu",
+            "days": null,
+            "location": "RE151",
+            "start_time": "1000h",
+            "end_time": "1140h",
+            "possible_emails": [
+                "jason.schmidt@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 151C": [
         {
-            "subject": "RTM",
-            "catalog_number": "151C",
-            "title": "WINTR MOUNTNRNG",
             "class_number": "19832",
-            "enrollment_cap": 16,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "RE151",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "RE151",
+            "start_time": "1200h",
+            "end_time": "1340h",
+            "possible_emails": []
+        }
+    ],
+    "RTM 151D": [
         {
-            "subject": "RTM",
-            "catalog_number": "151D",
-            "title": "FLATWTR BOATING",
             "class_number": "18952",
-            "enrollment_cap": 16,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "OFFCAM",
-                    "start_time": "0900h",
-                    "end_time": "1140h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "OFFCAM",
+            "start_time": "0900h",
+            "end_time": "1140h",
+            "possible_emails": []
+        }
+    ],
+    "RTM 151F": [
         {
-            "subject": "RTM",
-            "catalog_number": "151F",
-            "title": "SURVIVAL",
             "class_number": "19164",
-            "enrollment_cap": 16,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Applen,Brittany N"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "RE151",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
+            "instructor": "brittany.applen@csun.edu",
+            "days": null,
+            "location": "RE151",
+            "start_time": "0800h",
+            "end_time": "0940h",
+            "possible_emails": [
+                "brittany.applen@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 151G": [
         {
-            "subject": "RTM",
-            "catalog_number": "151G",
-            "title": "CHALLENGE/ROPES",
             "class_number": "18997",
-            "enrollment_cap": 16,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wilsey,Kassandra C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "HR0000",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
+            "instructor": "kassandra.wilsey@csun.edu",
+            "days": null,
+            "location": "HR0000",
+            "start_time": "1400h",
+            "end_time": "1540h",
+            "possible_emails": [
+                "kassandra.wilsey@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 151H": [
         {
-            "subject": "RTM",
-            "catalog_number": "151H",
-            "title": "CAVING",
             "class_number": "19051",
-            "enrollment_cap": 16,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Despain,Joel D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "RE151",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
-                }
+            "instructor": "joel.despain@csun.edu",
+            "days": null,
+            "location": "RE151",
+            "start_time": "1200h",
+            "end_time": "1340h",
+            "possible_emails": [
+                "joel.despain@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 202": [
         {
-            "subject": "RTM",
-            "catalog_number": "202",
-            "title": "PLAN PROG REC EXP",
             "class_number": "18923",
-            "enrollment_cap": 31,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Vincent,Leanne M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JD1610",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
+            "instructor": "leanne.vincent@csun.edu",
+            "days": "T",
+            "location": "JD1610",
+            "start_time": "1400h",
+            "end_time": "1540h",
+            "possible_emails": [
+                "leanne.vincent@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 202L": [
         {
-            "subject": "RTM",
-            "catalog_number": "202L",
-            "title": "PLAN PRG REC EXP (L)",
             "class_number": "18924",
-            "enrollment_cap": 31,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Vincent,Leanne M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1610",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
+            "instructor": "leanne.vincent@csun.edu",
+            "days": "R",
+            "location": "JD1610",
+            "start_time": "1400h",
+            "end_time": "1540h",
+            "possible_emails": [
+                "leanne.vincent@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 204": [
         {
-            "subject": "RTM",
-            "catalog_number": "204",
-            "title": "INTRO REC THER",
             "class_number": "19005",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Newton,Delfina D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE153",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "delfina.newton@csun.edu",
+            "days": "TR",
+            "location": "RE153",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "delfina.newton@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 251": [
         {
-            "subject": "RTM",
-            "catalog_number": "251",
-            "title": "REC & NATL ENVIR",
             "class_number": "19330",
-            "enrollment_cap": 45,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "LUO,LAWRENCE"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "LUO,LAWRENCE",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "lawrence.chu@csun.edu",
+                "lawrence.lan@csun.edu",
+                "lawrence.becker@csun.edu",
+                "lawrence.kaplan@csun.edu",
+                "lawrence.luo@csun.edu",
+                "lawrence.stoffel.43@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 265": [
         {
-            "subject": "RTM",
-            "catalog_number": "265",
-            "title": "WTR SKI & WKBRD",
             "class_number": "18925",
-            "enrollment_cap": 16,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "OFFCAM",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "F",
+            "location": "OFFCAM",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "possible_emails": []
+        }
+    ],
+    "RTM 267": [
         {
-            "subject": "RTM",
-            "catalog_number": "267",
-            "title": "SAILING",
             "class_number": "18926",
-            "enrollment_cap": 20,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "OFFCAM",
-                    "start_time": "1300h",
-                    "end_time": "1445h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "F",
+            "location": "OFFCAM",
+            "start_time": "1300h",
+            "end_time": "1350h",
+            "possible_emails": []
+        }
+    ],
+    "RTM 267L": [
         {
-            "subject": "RTM",
-            "catalog_number": "267L",
-            "title": "SAILING LAB",
             "class_number": "18927",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "OFFCAM",
+            "start_time": "1350h",
+            "end_time": "1545h",
+            "possible_emails": []
+        }
+    ],
+    "RTM 278": [
+        {
+            "class_number": "18928",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "heekyung.sung@csun.edu",
+            "days": "TR",
+            "location": "RE153",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "heekyung.sung@csun.edu"
+            ]
+        },
+        {
+            "class_number": "19331",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "heekyung.sung@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "heekyung.sung@csun.edu"
+            ]
+        }
+    ],
+    "RTM 280": [
+        {
+            "class_number": "18929",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE153",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
+        }
+    ],
+    "RTM 300": [
+        {
+            "class_number": "18947",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Ward,Veda E",
+            "days": "TR",
+            "location": "RE151",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "veda.ward@csun.edu",
+                "michael.ward@csun.edu"
+            ]
+        }
+    ],
+    "RTM 302": [
+        {
+            "class_number": "18980",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "OFFCAM",
-                    "start_time": "1445h",
-                    "end_time": "1545h"
-                }
+            "instructor": "timothy.szczepanski@csun.edu",
+            "days": "TR",
+            "location": "RE153",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "timothy.szczepanski@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 303": [
         {
-            "subject": "RTM",
-            "catalog_number": "278",
-            "title": "EXPL TOURHOSPRECPARK",
-            "class_number": "18928",
-            "enrollment_cap": 26,
+            "class_number": "18948",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sung,Erika HeeKyung"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE153",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "jimmy.xie@csun.edu",
+            "days": "TR",
+            "location": "RE151",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "jimmy.xie@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 304": [
         {
-            "subject": "RTM",
-            "catalog_number": "278",
-            "title": "EXPL TOURHOSPRECPARK",
-            "class_number": "19331",
-            "enrollment_cap": 26,
+            "class_number": "19025",
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sung,Erika HeeKyung"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "nathalie.virem@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "nathalie.virem@csun.edu"
+            ]
+        }
+    ],
+    "RTM 305": [
+        {
+            "class_number": "18930",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "robin.sachs@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "robin.sachs@csun.edu"
             ]
         },
         {
-            "subject": "RTM",
-            "catalog_number": "280",
-            "title": "ORG OF REC & SPORT",
-            "class_number": "18929",
+            "class_number": "19333",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructor": "francisca.castillo@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "francisca.castillo@csun.edu"
+            ]
+        }
+    ],
+    "RTM 310": [
+        {
+            "class_number": "18953",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "kassandra.wilsey@csun.edu",
+            "days": "F",
+            "location": "RE153",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "kassandra.wilsey@csun.edu"
+            ]
+        }
+    ],
+    "RTM 310L": [
+        {
+            "class_number": "18954",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "kassandra.wilsey@csun.edu",
+            "days": "F",
+            "location": "RE153",
+            "start_time": "0900h",
+            "end_time": "1040h",
+            "possible_emails": [
+                "kassandra.wilsey@csun.edu"
+            ]
+        }
+    ],
+    "RTM 314": [
+        {
+            "class_number": "19197",
+            "enrollment_cap": 21,
+            "enrollment_count": 0,
+            "instructor": "Lee,Joong-Won",
+            "days": "R",
+            "location": "RE153",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
+            ]
+        }
+    ],
+    "RTM 330": [
+        {
+            "class_number": "19165",
             "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE153",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "Ward,Veda E",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "veda.ward@csun.edu",
+                "michael.ward@csun.edu"
             ]
         },
         {
-            "subject": "RTM",
-            "catalog_number": "300",
-            "title": "RECR AND COMM DEV",
-            "class_number": "18947",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ward,Veda E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE151",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "302",
-            "title": "LEADERSHIP REC/HS",
-            "class_number": "18980",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Szczepanski,Timothy C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE153",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "303",
-            "title": "PROMO RECR EXP",
-            "class_number": "18948",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Xie,Jimmy"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE151",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "304",
-            "title": "ENTREPRENEUR REC",
-            "class_number": "19025",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Virem,Nathalie P"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "305",
-            "title": "DYN CHILD PLAY",
-            "class_number": "18930",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sachs,Robin S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "305",
-            "title": "DYN CHILD PLAY",
-            "class_number": "19333",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Castillo,Francisca A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "310",
-            "title": "ADVENTURE RECR",
-            "class_number": "18953",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wilsey,Kassandra C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "RE153",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "310L",
-            "title": "ADVENTURE REC LAB",
-            "class_number": "18954",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wilsey,Kassandra C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "RE153",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "314",
-            "title": "HOSP & CUSTOM SER",
-            "class_number": "19197",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Joong-Won"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "RE153",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "330",
-            "title": "WOMEN & LEISURE",
-            "class_number": "19165",
-            "enrollment_cap": 33,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ward,Veda E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "330",
-            "title": "WOMEN & LEISURE",
             "class_number": "19334",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "francisca.castillo@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "francisca.castillo@csun.edu"
+            ]
+        }
+    ],
+    "RTM 352": [
+        {
+            "class_number": "18931",
+            "enrollment_cap": 31,
+            "enrollment_count": 0,
+            "instructor": "delfina.newton@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "delfina.newton@csun.edu"
+            ]
+        }
+    ],
+    "RTM 353": [
+        {
+            "class_number": "19833",
             "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Castillo,Francisca A"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "dianne.philibosian@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "dianne.philibosian@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 353L": [
         {
-            "subject": "RTM",
-            "catalog_number": "352",
-            "title": "PLAY & HUM POTENT",
-            "class_number": "18931",
-            "enrollment_cap": 36,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Newton,Delfina D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SG109",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "353",
-            "title": "LIT WILDERNES EXP",
-            "class_number": "19833",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Philibosian,Dianne L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
-        {
-            "subject": "RTM",
-            "catalog_number": "353L",
-            "title": "LIT WLDR EXPR LAB",
             "class_number": "19834",
-            "enrollment_cap": 35,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Philibosian,Dianne L"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "dianne.philibosian@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "dianne.philibosian@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 403": [
         {
-            "subject": "RTM",
-            "catalog_number": "403",
-            "title": "EVL RES REC HM SV",
             "class_number": "18950",
-            "enrollment_cap": 25,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "LUO,LAWRENCE"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE151",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
+            "instructor": "jimmy.xie@csun.edu",
+            "days": "TR",
+            "location": "RE151",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "jimmy.xie@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 406": [
         {
-            "subject": "RTM",
-            "catalog_number": "406",
-            "title": "CHILD CREATIVITY",
             "class_number": "19337",
-            "enrollment_cap": 40,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sachs,Robin S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "robin.sachs@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "robin.sachs@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 406L": [
         {
-            "subject": "RTM",
-            "catalog_number": "406L",
-            "title": "CHILD CREAT LAB",
             "class_number": "19338",
-            "enrollment_cap": 40,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sachs,Robin S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "robin.sachs@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "robin.sachs@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 415": [
         {
-            "subject": "RTM",
-            "catalog_number": "415",
-            "title": "LEISURE & AGING",
             "class_number": "19481",
             "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ward,Veda E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE153",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Ward,Veda E",
+            "days": "TR",
+            "location": "RE153",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "veda.ward@csun.edu",
+                "michael.ward@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 434": [
         {
-            "subject": "RTM",
-            "catalog_number": "434",
-            "title": "ACCOMMODATIONS",
             "class_number": "19396",
-            "enrollment_cap": 25,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Shade,Babette D"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "RE153",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "babette.shade@csun.edu",
+            "days": "T",
+            "location": "RE153",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "babette.shade@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 444": [
         {
-            "subject": "RTM",
-            "catalog_number": "444",
-            "title": "NPROF ORGS/FUN DEV",
             "class_number": "19339",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sung,Erika HeeKyung"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE151",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "heekyung.sung@csun.edu",
+            "days": "TR",
+            "location": "RE151",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "heekyung.sung@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 452": [
         {
-            "subject": "RTM",
-            "catalog_number": "452",
-            "title": "OUTDOOR REC LDRSP",
             "class_number": "19248",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Wilsey,Kassandra C"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD2522",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "kassandra.wilsey@csun.edu",
+            "days": "W",
+            "location": "JD2522",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "kassandra.wilsey@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 490": [
         {
-            "subject": "RTM",
-            "catalog_number": "490",
-            "title": "CHLG LEIS SVC SEM",
             "class_number": "18933",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Joong-Won"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "RE151",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Lee,Joong-Won",
+            "days": "TR",
+            "location": "RE151",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 494C": [
         {
-            "subject": "RTM",
-            "catalog_number": "494C",
-            "title": "SUPERVSD INTERN",
             "class_number": "19340",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sung,Erika HeeKyung"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "RE151",
-                    "start_time": "1500h",
-                    "end_time": "1745h"
-                }
+            "instructor": "heekyung.sung@csun.edu",
+            "days": null,
+            "location": "RE151",
+            "start_time": "1500h",
+            "end_time": "1745h",
+            "possible_emails": [
+                "heekyung.sung@csun.edu"
             ]
         },
         {
-            "subject": "RTM",
-            "catalog_number": "494C",
-            "title": "SUPERVSD INTERN",
             "class_number": "19341",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ward,Veda E"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "RE151",
-                    "start_time": "1800h",
-                    "end_time": "2045h"
-                }
+            "instructor": "Ward,Veda E",
+            "days": null,
+            "location": "RE151",
+            "start_time": "1800h",
+            "end_time": "2045h",
+            "possible_emails": [
+                "veda.ward@csun.edu",
+                "michael.ward@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 499C": [
         {
-            "subject": "RTM",
-            "catalog_number": "499C",
-            "title": "INDEPENDENT STUDY",
             "class_number": "20113",
             "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Martin,Nathan T."
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Martin,Nathan T.",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mario.martinez-quijada@csun.edu",
+                "vincent.martinez@csun.edu",
+                "jonathan.martinez@csun.edu",
+                "jonathan.martin@csun.edu",
+                "nathan.martin@csun.edu",
+                "jess.martin@csun.edu",
+                "fernando.martinez@csun.edu",
+                "priscilla.martinez.497@my.csun.edu",
+                "joe.martinez@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 550": [
         {
-            "subject": "RTM",
-            "catalog_number": "550",
-            "title": "MARKETING THRM",
             "class_number": "19045",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Xie,Jimmy"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ED1130",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "jimmy.xie@csun.edu",
+            "days": "R",
+            "location": "ED1130",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "jimmy.xie@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 560": [
         {
-            "subject": "RTM",
-            "catalog_number": "560",
-            "title": "FACILITY DESIGN",
             "class_number": "19482",
-            "enrollment_cap": 10,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "OFFCAM",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "OFFCAM",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "RTM 610": [
         {
-            "subject": "RTM",
-            "catalog_number": "610",
-            "title": "SUST HOSP TOURISM",
             "class_number": "20114",
             "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Joong-Won"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ED1130",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Lee,Joong-Won",
+            "days": "T",
+            "location": "ED1130",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 693B": [
         {
-            "subject": "RTM",
-            "catalog_number": "693B",
-            "title": "SUPV INTERNSHIP",
             "class_number": "19342",
             "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Martin,Nathan T."
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "RE151",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "Lee,Joong-Won",
+            "days": "M",
+            "location": "RE151",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 697": [
         {
-            "subject": "RTM",
-            "catalog_number": "697",
-            "title": "COMP STUDIES",
             "class_number": "19836",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Lee,Joong-Won"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "RE151",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
+            "instructor": "Lee,Joong-Won",
+            "days": "F",
+            "location": "RE276",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "jennifer.c.lee@csun.edu",
+                "wonjun.lee@csun.edu",
+                "nancy.lee@csun.edu",
+                "daehwan.lee@csun.edu",
+                "yeonjoo.lee@csun.edu",
+                "kenneth.lee@csun.edu",
+                "joongwon.lee@csun.edu",
+                "timmy.lee@csun.edu",
+                "junyeon.lee@csun.edu",
+                "tom.lee@csun.edu"
             ]
-        },
+        }
+    ],
+    "RTM 698": [
         {
-            "subject": "RTM",
-            "catalog_number": "698",
-            "title": "THESIS GRAD PGM",
             "class_number": "19035",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Martin,Nathan T."
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Martin,Nathan T.",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mario.martinez-quijada@csun.edu",
+                "vincent.martinez@csun.edu",
+                "jonathan.martinez@csun.edu",
+                "jonathan.martin@csun.edu",
+                "nathan.martin@csun.edu",
+                "jess.martin@csun.edu",
+                "fernando.martinez@csun.edu",
+                "priscilla.martinez.497@my.csun.edu",
+                "joe.martinez@csun.edu"
             ]
         }
     ]

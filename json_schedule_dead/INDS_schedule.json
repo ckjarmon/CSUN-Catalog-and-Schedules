@@ -1,66 +1,46 @@
 {
-    "classes": [
+    "INDS 250": [
         {
-            "subject": "INDS",
-            "catalog_number": "250",
-            "title": "INTRO INTERDISCPLNRY",
             "class_number": "15383",
-            "enrollment_cap": 35,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Carassai,Mauro"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "mauro.carassai@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mauro.carassai@csun.edu"
             ]
-        },
+        }
+    ],
+    "INDS 300": [
         {
-            "subject": "INDS",
-            "catalog_number": "300",
-            "title": "FRAMEWORKS INTERDISC",
             "class_number": "15384",
-            "enrollment_cap": 35,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Carassai,Mauro"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "mauro.carassai@csun.edu",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "mauro.carassai@csun.edu"
             ]
-        },
+        }
+    ],
+    "INDS 350": [
         {
-            "subject": "INDS",
-            "catalog_number": "350",
-            "title": "ADVANCED INTERDISCPL",
             "class_number": "20808",
-            "enrollment_cap": 30,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Carassai,Mauro"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ED1126",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "mauro.carassai@csun.edu",
+            "days": "MW",
+            "location": "ED1126",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "mauro.carassai@csun.edu"
             ]
         }
     ]

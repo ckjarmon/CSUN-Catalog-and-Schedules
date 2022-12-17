@@ -1,1054 +1,753 @@
 {
-    "classes": [
+    "PT 703": [
         {
-            "subject": "PT",
-            "catalog_number": "703",
-            "title": "APP BIOMECH II",
             "class_number": "19289",
             "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD2528",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
+            "instructor": "Adams,Janet M",
+            "days": "W",
+            "location": "JD2528",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "janet.adams@csun.edu",
+                "crystal.adams@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 703L": [
         {
-            "subject": "PT",
-            "catalog_number": "703L",
-            "title": "APP BIOM II LAB",
             "class_number": "19290",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD1580",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
-        {
-            "subject": "PT",
-            "catalog_number": "703L",
-            "title": "APP BIOM II LAB",
-            "class_number": "19291",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Adams,Janet M",
+            "days": "W",
+            "location": "JD1580",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "janet.adams@csun.edu",
+                "crystal.adams@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "706",
-            "title": "APPL NEURO",
+            "class_number": "19291",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Adams,Janet M",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "janet.adams@csun.edu",
+                "crystal.adams@csun.edu"
+            ]
+        }
+    ],
+    "PT 706": [
+        {
             "class_number": "19983",
             "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h",
+            "possible_emails": []
+        }
+    ],
+    "PT 706L": [
         {
-            "subject": "PT",
-            "catalog_number": "706L",
-            "title": "APPL NEURO LAB",
             "class_number": "19984",
             "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JD2520",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JD2520",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "possible_emails": []
         },
         {
-            "subject": "PT",
-            "catalog_number": "706L",
-            "title": "APPL NEURO LAB",
             "class_number": "19985",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "PT 711": [
         {
-            "subject": "PT",
-            "catalog_number": "711",
-            "title": "PT MGMT",
             "class_number": "20051",
             "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JD1580",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
-                }
+            "instructor": "witaya.mathiyakom@csun.edu",
+            "days": "T",
+            "location": "JD1580",
+            "start_time": "1200h",
+            "end_time": "1340h",
+            "possible_emails": [
+                "witaya.mathiyakom@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 711L": [
         {
-            "subject": "PT",
-            "catalog_number": "711L",
-            "title": "PT MGMT LAB",
             "class_number": "20052",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JD1580",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "PT",
-            "catalog_number": "711L",
-            "title": "PT MGMT LAB",
-            "class_number": "20053",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "witaya.mathiyakom@csun.edu",
+            "days": "T",
+            "location": "JD1580",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "witaya.mathiyakom@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "712",
-            "title": "ELECTROTHER",
+            "class_number": "20053",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "witaya.mathiyakom@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "witaya.mathiyakom@csun.edu"
+            ]
+        }
+    ],
+    "PT 712": [
+        {
             "class_number": "20055",
             "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1580",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
-                }
+            "instructor": "witaya.mathiyakom@csun.edu",
+            "days": "R",
+            "location": "JD1580",
+            "start_time": "1200h",
+            "end_time": "1340h",
+            "possible_emails": [
+                "witaya.mathiyakom@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 712L": [
         {
-            "subject": "PT",
-            "catalog_number": "712L",
-            "title": "ELECTROTHER LAB",
             "class_number": "20056",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1580",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
+            "instructor": "witaya.mathiyakom@csun.edu",
+            "days": "R",
+            "location": "JD1580",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "witaya.mathiyakom@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "712L",
-            "title": "ELECTROTHER LAB",
             "class_number": "20057",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "witaya.mathiyakom@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "witaya.mathiyakom@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 720": [
         {
-            "subject": "PT",
-            "catalog_number": "720",
-            "title": "MUSC SKEL PRAC I",
             "class_number": "19292",
             "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kachingwe,Aimie F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "JD2520",
-                    "start_time": "1200h",
-                    "end_time": "1315h"
-                }
+            "instructor": "aimie.kachingwe@csun.edu",
+            "days": "M",
+            "location": "JD2202",
+            "start_time": "1200h",
+            "end_time": "1445h",
+            "possible_emails": [
+                "aimie.kachingwe@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 720L": [
         {
-            "subject": "PT",
-            "catalog_number": "720L",
-            "title": "MUSC SKEL I LAB",
             "class_number": "19293",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kachingwe,Aimie F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "JD1621",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "PT",
-            "catalog_number": "720L",
-            "title": "MUSC SKEL I LAB",
-            "class_number": "19294",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kachingwe,Aimie F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "aimie.kachingwe@csun.edu",
+            "days": null,
+            "location": "JD1621",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "aimie.kachingwe@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "732",
-            "title": "NEURO MGMT I",
+            "class_number": "19294",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "aimie.kachingwe@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "aimie.kachingwe@csun.edu"
+            ]
+        }
+    ],
+    "PT 732": [
+        {
             "class_number": "19669",
             "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD2528",
-                    "start_time": "1100h",
-                    "end_time": "2440h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h",
+            "possible_emails": []
+        }
+    ],
+    "PT 732L": [
         {
-            "subject": "PT",
-            "catalog_number": "732L",
-            "title": "NEURO MGMT I LAB",
             "class_number": "19670",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD1621",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "JD1621",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
         },
         {
-            "subject": "PT",
-            "catalog_number": "732L",
-            "title": "NEURO MGMT I LAB",
             "class_number": "19671",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "PT 740": [
         {
-            "subject": "PT",
-            "catalog_number": "740",
-            "title": "MUS SKEL PRAC III",
             "class_number": "20632",
-            "enrollment_cap": 32,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1625",
-                    "start_time": "1300h",
-                    "end_time": "1440h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JD1625",
+            "start_time": "1200h",
+            "end_time": "1340h",
+            "possible_emails": []
+        }
+    ],
+    "PT 740L": [
         {
-            "subject": "PT",
-            "catalog_number": "740L",
-            "title": "MUSC SKEL III LAB",
             "class_number": "20633",
-            "enrollment_cap": 16,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1625",
-                    "start_time": "1500h",
-                    "end_time": "1745h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JD1625",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
         },
         {
-            "subject": "PT",
-            "catalog_number": "740L",
-            "title": "MUSC SKEL III LAB",
             "class_number": "20634",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "PT 742": [
         {
-            "subject": "PT",
-            "catalog_number": "742",
-            "title": "PED PRAC MGMT",
             "class_number": "20629",
-            "enrollment_cap": 16,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JD1580",
-                    "start_time": "0800h",
-                    "end_time": "0945h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JD1580",
+            "start_time": "0800h",
+            "end_time": "0945h",
+            "possible_emails": []
         },
         {
-            "subject": "PT",
-            "catalog_number": "742",
-            "title": "PED PRAC MGMT",
             "class_number": "20640",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "PT 742L": [
         {
-            "subject": "PT",
-            "catalog_number": "742L",
-            "title": "PED PRAC MGMT LAB",
             "class_number": "20630",
-            "enrollment_cap": 16,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JD1580",
-                    "start_time": "1000h",
-                    "end_time": "2445h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JD1580",
+            "start_time": "1000h",
+            "end_time": "1245h",
+            "possible_emails": []
         },
         {
-            "subject": "PT",
-            "catalog_number": "742L",
-            "title": "PED PRAC MGMT LAB",
             "class_number": "20631",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "PT 746L": [
         {
-            "subject": "PT",
-            "catalog_number": "746L",
-            "title": "APPL THER EX LAB",
             "class_number": "20006",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JD1621",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
+            "instructor": "hatem.jaber@csun.edu",
+            "days": "F",
+            "location": "JD1621",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "hatem.jaber@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "746L",
-            "title": "APPL THER EX LAB",
             "class_number": "20007",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "hatem.jaber@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "hatem.jaber@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 752A": [
         {
-            "subject": "PT",
-            "catalog_number": "752A",
-            "title": "EBPT II",
             "class_number": "19436",
             "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "SG103",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
+            "instructor": "witaya.mathiyakom@csun.edu",
+            "days": "R",
+            "location": "SG103",
+            "start_time": "0900h",
+            "end_time": "1040h",
+            "possible_emails": [
+                "witaya.mathiyakom@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 752C": [
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19437",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ferreira,Paula"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Ferreira,Paula",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "paula.ferreira@csun.edu",
+                "paula.thomson@csun.edu",
+                "paula.schiffman@csun.edu",
+                "paula.dimarco@csun.edu",
+                "paula.fischhaber@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19438",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "hatem.jaber@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "hatem.jaber@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19439",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kachingwe,Aimie F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "aimie.kachingwe@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "aimie.kachingwe@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19440",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "witaya.mathiyakom@csun.edu",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "witaya.mathiyakom@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19441",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Phillips,Beth Jo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Phillips,Beth Jo",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "michael.phillips@csun.edu",
+                "beth.phillips@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19442",
-            "enrollment_cap": 4,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Bartlett,Andrew",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "andrew.renfroe@csun.edu",
+                "andrew.bartlett@csun.edu",
+                "scott.andrews@csun.edu",
+                "andrew.dominick@csun.edu",
+                "andrew.silverstein@csun.edu",
+                "richard.andrews@csun.edu",
+                "andrew.surmani@csun.edu",
+                "andrew.green.280@my.csun.edu",
+                "andrew.linden@csun.edu",
+                "andrew.leyva@csun.edu",
+                "andrew.ainsworth@csun.edu",
+                "andrew.oppenberg@csun.edu",
+                "michele.bartlett@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19539",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "PT 772": [
         {
-            "subject": "PT",
-            "catalog_number": "772",
-            "title": "GAIT ANALYSIS",
             "class_number": "20002",
-            "enrollment_cap": 32,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1330h",
-                    "end_time": "1420h"
-                }
+            "instructor": "Adams,Janet M",
+            "days": "T",
+            "location": "JD1625",
+            "start_time": "1330h",
+            "end_time": "1420h",
+            "possible_emails": [
+                "janet.adams@csun.edu",
+                "crystal.adams@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 772L": [
         {
-            "subject": "PT",
-            "catalog_number": "772L",
-            "title": "GAIT ANALYSIS LAB",
             "class_number": "20003",
-            "enrollment_cap": 16,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1430h",
-                    "end_time": "1715h"
-                }
+            "instructor": "Adams,Janet M",
+            "days": "T",
+            "location": "JD1625",
+            "start_time": "1430h",
+            "end_time": "1715h",
+            "possible_emails": [
+                "janet.adams@csun.edu",
+                "crystal.adams@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "772L",
-            "title": "GAIT ANALYSIS LAB",
             "class_number": "20004",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Adams,Janet M",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "janet.adams@csun.edu",
+                "crystal.adams@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 773": [
         {
-            "subject": "PT",
-            "catalog_number": "773",
-            "title": "MED IMAGING",
             "class_number": "20054",
             "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ferreira,Paula"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "0900h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Ferreira,Paula",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "0900h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "paula.ferreira@csun.edu",
+                "paula.thomson@csun.edu",
+                "paula.schiffman@csun.edu",
+                "paula.dimarco@csun.edu",
+                "paula.fischhaber@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 774": [
         {
-            "subject": "PT",
-            "catalog_number": "774",
-            "title": "MED SCREENING",
             "class_number": "19672",
             "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "UL001",
-                    "start_time": "1130h",
-                    "end_time": "1310h"
-                }
+            "instructor": "hatem.jaber@csun.edu",
+            "days": "F",
+            "location": "JD1625",
+            "start_time": "1130h",
+            "end_time": "1310h",
+            "possible_emails": [
+                "hatem.jaber@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 778": [
         {
-            "subject": "PT",
-            "catalog_number": "778",
-            "title": "WELL PREVENT",
             "class_number": "20028",
-            "enrollment_cap": 32,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD1580",
-                    "start_time": "1100h",
-                    "end_time": "1150h"
-                }
+            "instructor": "Bartlett,Andrew",
+            "days": "M",
+            "location": "JD1580",
+            "start_time": "1100h",
+            "end_time": "1150h",
+            "possible_emails": [
+                "andrew.renfroe@csun.edu",
+                "andrew.bartlett@csun.edu",
+                "scott.andrews@csun.edu",
+                "andrew.dominick@csun.edu",
+                "andrew.silverstein@csun.edu",
+                "richard.andrews@csun.edu",
+                "andrew.surmani@csun.edu",
+                "andrew.green.280@my.csun.edu",
+                "andrew.linden@csun.edu",
+                "andrew.leyva@csun.edu",
+                "andrew.ainsworth@csun.edu",
+                "andrew.oppenberg@csun.edu",
+                "michele.bartlett@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 778L": [
         {
-            "subject": "PT",
-            "catalog_number": "778L",
-            "title": "WELL PREVENT LAB",
             "class_number": "19550",
-            "enrollment_cap": 16,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD1580",
-                    "start_time": "1200h",
-                    "end_time": "1445h"
-                }
+            "instructor": "Bartlett,Andrew",
+            "days": "M",
+            "location": "JD1580",
+            "start_time": "1200h",
+            "end_time": "1445h",
+            "possible_emails": [
+                "andrew.renfroe@csun.edu",
+                "andrew.bartlett@csun.edu",
+                "scott.andrews@csun.edu",
+                "andrew.dominick@csun.edu",
+                "andrew.silverstein@csun.edu",
+                "richard.andrews@csun.edu",
+                "andrew.surmani@csun.edu",
+                "andrew.green.280@my.csun.edu",
+                "andrew.linden@csun.edu",
+                "andrew.leyva@csun.edu",
+                "andrew.ainsworth@csun.edu",
+                "andrew.oppenberg@csun.edu",
+                "michele.bartlett@csun.edu"
             ]
         },
         {
-            "subject": "PT",
-            "catalog_number": "778L",
-            "title": "WELL PREVENT LAB",
             "class_number": "19551",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Bartlett,Andrew",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "andrew.renfroe@csun.edu",
+                "andrew.bartlett@csun.edu",
+                "scott.andrews@csun.edu",
+                "andrew.dominick@csun.edu",
+                "andrew.silverstein@csun.edu",
+                "richard.andrews@csun.edu",
+                "andrew.surmani@csun.edu",
+                "andrew.green.280@my.csun.edu",
+                "andrew.linden@csun.edu",
+                "andrew.leyva@csun.edu",
+                "andrew.ainsworth@csun.edu",
+                "andrew.oppenberg@csun.edu",
+                "michele.bartlett@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 780": [
         {
-            "subject": "PT",
-            "catalog_number": "780",
-            "title": "PROF PRACTI II",
             "class_number": "20005",
-            "enrollment_cap": 32,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD2528",
-                    "start_time": "1530h",
-                    "end_time": "1710h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "JD2528",
+            "start_time": "1530h",
+            "end_time": "1710h",
+            "possible_emails": []
+        }
+    ],
+    "PT 785H": [
         {
-            "subject": "PT",
-            "catalog_number": "785H",
-            "title": "PT STRENGTH COND",
             "class_number": "20060",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD1580",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "JD1580",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
+        }
+    ],
+    "PT 785I": [
         {
-            "subject": "PT",
-            "catalog_number": "785I",
-            "title": "ADV APPLIED ANATOMY",
             "class_number": "20902",
-            "enrollment_cap": 16,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD1580",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Bartlett,Andrew",
+            "days": "W",
+            "location": "JD1580",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "andrew.renfroe@csun.edu",
+                "andrew.bartlett@csun.edu",
+                "scott.andrews@csun.edu",
+                "andrew.dominick@csun.edu",
+                "andrew.silverstein@csun.edu",
+                "richard.andrews@csun.edu",
+                "andrew.surmani@csun.edu",
+                "andrew.green.280@my.csun.edu",
+                "andrew.linden@csun.edu",
+                "andrew.leyva@csun.edu",
+                "andrew.ainsworth@csun.edu",
+                "andrew.oppenberg@csun.edu",
+                "michele.bartlett@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 790": [
         {
-            "subject": "PT",
-            "catalog_number": "790",
-            "title": "CLIN PRAC I",
             "class_number": "19295",
             "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stewart,Myra Nichole"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
+            "instructor": "myra.stewart@csun.edu",
+            "days": "R",
+            "location": "JD2528",
+            "start_time": "1400h",
+            "end_time": "1450h",
+            "possible_emails": [
+                "myra.stewart@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 792": [
         {
-            "subject": "PT",
-            "catalog_number": "792",
-            "title": "CLIN PRAC II",
             "class_number": "19435",
             "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stewart,Myra Nichole"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1020h"
-                }
+            "instructor": "myra.stewart@csun.edu",
+            "days": "M",
+            "location": "JD1580",
+            "start_time": "0930h",
+            "end_time": "1020h",
+            "possible_emails": [
+                "myra.stewart@csun.edu"
             ]
-        },
+        }
+    ],
+    "PT 797": [
         {
-            "subject": "PT",
-            "catalog_number": "797",
-            "title": "CULM EXAM",
             "class_number": "19553",
-            "enrollment_cap": 16,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         },
         {
-            "subject": "PT",
-            "catalog_number": "797",
-            "title": "CULM EXAM",
             "class_number": "19554",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ]
 }

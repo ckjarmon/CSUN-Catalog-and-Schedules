@@ -1,67 +1,45 @@
 {
-    "classes": [
+    "GBUS 600": [
         {
-            "subject": "GBUS",
-            "catalog_number": "600",
-            "title": "CONTEMPORARY ORG",
             "class_number": "13372",
-            "enrollment_cap": 30,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "BB4117",
-                    "start_time": "0900h",
-                    "end_time": "1600h"
-                }
+            "instructor": "zhaleh.semnaniazad@csun.edu",
+            "days": null,
+            "location": "BB4117",
+            "start_time": "0900h",
+            "end_time": "1600h",
+            "possible_emails": [
+                "zhaleh.semnaniazad@csun.edu"
             ]
-        },
+        }
+    ],
+    "GBUS 607": [
         {
-            "subject": "GBUS",
-            "catalog_number": "607",
-            "title": "DATA ANALYTICS",
             "class_number": "13829",
-            "enrollment_cap": 25,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Sankaran,Siva R"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "BB2125",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "siva.sankaran@csun.edu",
+            "days": "W",
+            "location": "BB2125",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "siva.sankaran@csun.edu"
             ]
-        },
+        }
+    ],
+    "GBUS 698A": [
         {
-            "subject": "GBUS",
-            "catalog_number": "698A",
-            "title": "GRADUATE PROJECT",
             "class_number": "13623",
-            "enrollment_cap": 30,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONCAMP",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ]
 }

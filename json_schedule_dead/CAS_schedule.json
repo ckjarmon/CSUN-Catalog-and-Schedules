@@ -1,570 +1,403 @@
 {
-    "classes": [
+    "CAS 100": [
         {
-            "subject": "CAS",
-            "catalog_number": "100",
-            "title": "INTRO CENTRL AMER ST",
             "class_number": "14033",
-            "enrollment_cap": 35,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JC228",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Duarte,Jocelyn E",
+            "days": "TR",
+            "location": "JR348",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "stephen.duarte@csun.edu",
+                "jocelyn.duarte@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "100",
-            "title": "INTRO CENTRL AMER ST",
             "class_number": "14030",
-            "enrollment_cap": 35,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR243",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "celia.simonds@csun.edu",
+            "days": "MW",
+            "location": "JR243",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "celia.simonds@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "100",
-            "title": "INTRO CENTRL AMER ST",
             "class_number": "14032",
-            "enrollment_cap": 35,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH384",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Duarte,Jocelyn E",
+            "days": "TR",
+            "location": "SH384",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "stephen.duarte@csun.edu",
+                "jocelyn.duarte@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "100",
-            "title": "INTRO CENTRL AMER ST",
             "class_number": "14031",
-            "enrollment_cap": 35,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Carranza,Douglas G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JR246",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Carranza,Douglas G",
+            "days": "R",
+            "location": "JR246",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "jose.carranza@csun.edu",
+                "douglas.carranza@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "100",
-            "title": "INTRO CENTRL AMER ST",
             "class_number": "14976",
-            "enrollment_cap": 35,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "EU134",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "celia.simonds@csun.edu",
+            "days": "M",
+            "location": "EU134",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "celia.simonds@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 102": [
         {
-            "subject": "CAS",
-            "catalog_number": "102",
-            "title": "SALVADORAN EXPER",
             "class_number": "14034",
-            "enrollment_cap": 35,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "EU136",
-                    "start_time": "0800h",
-                    "end_time": "0915h"
-                }
+            "instructor": "daisy.lemus@csun.edu",
+            "days": "M",
+            "location": "EU136",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": [
+                "daisy.lemus@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 113A": [
         {
-            "subject": "CAS",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
+            "class_number": "21095",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Alonzi,Giovan",
+            "days": "TR",
+            "location": "JR242",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "giovan.alonzi@csun.edu",
+                "valerie.giovanini@csun.edu"
+            ]
+        }
+    ],
+    "CAS 113B": [
+        {
             "class_number": "14317",
-            "enrollment_cap": 19,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ED1123",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Alonzi,Giovan",
+            "days": "TR",
+            "location": "ED1123",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "giovan.alonzi@csun.edu",
+                "valerie.giovanini@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
             "class_number": "14318",
-            "enrollment_cap": 19,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH307",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Alonzi,Giovan",
+            "days": "TR",
+            "location": "SH307",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "giovan.alonzi@csun.edu",
+                "valerie.giovanini@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 115": [
         {
-            "subject": "CAS",
-            "catalog_number": "113B",
-            "title": "APPR UNIV WRTNG B",
-            "class_number": "14952",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR201",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
-        {
-            "subject": "CAS",
-            "catalog_number": "115",
-            "title": "APPR UNIV WRITING",
             "class_number": "14759",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "SH285",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "shahrazad.encinias@csun.edu",
+            "days": "TR",
+            "location": "SH285",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "shahrazad.encinias@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "151",
-            "title": "FUND PUB SPEAKING",
+            "class_number": "21094",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructor": "shahrazad.encinias@csun.edu",
+            "days": "TR",
+            "location": "EU133",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "shahrazad.encinias@csun.edu"
+            ]
+        }
+    ],
+    "CAS 151": [
+        {
             "class_number": "14617",
-            "enrollment_cap": 27,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Cortez,Beatriz"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Cortez,Beatriz",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "beatriz.cortez@csun.edu",
+                "mercedes.cortez@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "151",
-            "title": "FUND PUB SPEAKING",
             "class_number": "14887",
-            "enrollment_cap": 27,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "lizbeth.ruiztorres@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "lizbeth.ruiztorres@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "151",
-            "title": "FUND PUB SPEAKING",
             "class_number": "14977",
-            "enrollment_cap": 27,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR354",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "Rodriguez,Leslie",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "leslie.echols@csun.edu",
+                "david.rodriguez@csun.edu",
+                "michelle.rodriguez@csun.edu",
+                "herman.rodriguez@csun.edu",
+                "leslie.labertew@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "151",
-            "title": "FUND PUB SPEAKING",
             "class_number": "15161",
-            "enrollment_cap": 27,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR243",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "daisy.lemus@csun.edu",
+            "days": "TR",
+            "location": "JR243",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "daisy.lemus@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "151",
-            "title": "FUND PUB SPEAKING",
             "class_number": "15165",
-            "enrollment_cap": 27,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JR244",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
+            "instructor": "daisy.lemus@csun.edu",
+            "days": "F",
+            "location": "JR244",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "daisy.lemus@csun.edu"
             ]
         },
         {
-            "subject": "CAS",
-            "catalog_number": "151",
-            "title": "FUND PUB SPEAKING",
             "class_number": "15328",
             "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JR244",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Rodriguez,Leslie",
+            "days": "F",
+            "location": "JR244",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "leslie.echols@csun.edu",
+                "david.rodriguez@csun.edu",
+                "michelle.rodriguez@csun.edu",
+                "herman.rodriguez@csun.edu",
+                "leslie.labertew@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 201": [
         {
-            "subject": "CAS",
-            "catalog_number": "201",
-            "title": "SURV CENT AM LIT",
             "class_number": "14798",
-            "enrollment_cap": 35,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR221",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "susana.marcelo@csun.edu",
+            "days": "MW",
+            "location": "JR221",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "susana.marcelo@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 270": [
         {
-            "subject": "CAS",
-            "catalog_number": "270",
-            "title": "FIELDWORK IN COMM",
             "class_number": "14321",
-            "enrollment_cap": 20,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JR202",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
+            "instructor": "celia.simonds@csun.edu",
+            "days": "F",
+            "location": "JR202",
+            "start_time": "1400h",
+            "end_time": "1450h",
+            "possible_emails": [
+                "celia.simonds@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 270F": [
         {
-            "subject": "CAS",
-            "catalog_number": "270F",
-            "title": "FIELDWORK IN COMM",
             "class_number": "14334",
-            "enrollment_cap": 20,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JR202",
-                    "start_time": "1500h",
-                    "end_time": "1640h"
-                }
+            "instructor": "celia.simonds@csun.edu",
+            "days": "F",
+            "location": "JR202",
+            "start_time": "1500h",
+            "end_time": "1640h",
+            "possible_emails": [
+                "celia.simonds@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 309": [
         {
-            "subject": "CAS",
-            "catalog_number": "309",
-            "title": "ANC HIST CENT AM",
             "class_number": "14575",
-            "enrollment_cap": 35,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Carranza,Douglas G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR246",
-                    "start_time": "1100h",
-                    "end_time": "2415h"
-                }
+            "instructor": "Carranza,Douglas G",
+            "days": "TR",
+            "location": "JR246",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "jose.carranza@csun.edu",
+                "douglas.carranza@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 310": [
         {
-            "subject": "CAS",
-            "catalog_number": "310",
-            "title": "MODRN HIST CENT AM",
             "class_number": "14035",
-            "enrollment_cap": 35,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "EU130",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "celia.simonds@csun.edu",
+            "days": "MW",
+            "location": "EU130",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "celia.simonds@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 311": [
         {
-            "subject": "CAS",
-            "catalog_number": "311",
-            "title": "CNTRL AMER DIASPORA",
             "class_number": "14036",
-            "enrollment_cap": 35,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "JR243",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
+            "instructor": "daisy.lemus@csun.edu",
+            "days": "MW",
+            "location": "JR243",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "daisy.lemus@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 350": [
         {
-            "subject": "CAS",
-            "catalog_number": "350",
-            "title": "URBAN IN CEN AMER",
             "class_number": "15194",
-            "enrollment_cap": 30,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Carranza,Douglas G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Carranza,Douglas G",
+            "days": "W",
+            "location": "EU134",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "jose.carranza@csun.edu",
+                "douglas.carranza@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 365": [
         {
-            "subject": "CAS",
-            "catalog_number": "365",
-            "title": "CHNG ROL CNTR AM WOM",
             "class_number": "14249",
-            "enrollment_cap": 35,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "EU133",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
+            "instructor": "Duarte,Jocelyn E",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "stephen.duarte@csun.edu",
+                "jocelyn.duarte@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 369": [
         {
-            "subject": "CAS",
-            "catalog_number": "368",
-            "title": "CNTR AMER REV MOVMNT",
-            "class_number": "14095",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR243",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
-        {
-            "subject": "CAS",
-            "catalog_number": "369",
-            "title": "CONT SOC MOV C AM",
             "class_number": "14159",
-            "enrollment_cap": 35,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Carranza,Douglas G"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "ONLINE",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
+            "instructor": "Carranza,Douglas G",
+            "days": "W",
+            "location": "EU133",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "jose.carranza@csun.edu",
+                "douglas.carranza@csun.edu"
             ]
-        },
+        }
+    ],
+    "CAS 410": [
         {
-            "subject": "CAS",
-            "catalog_number": "410",
-            "title": "CENT AMERIC CHILD",
             "class_number": "14576",
-            "enrollment_cap": 30,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JR243",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
+            "instructor": "lizbeth.ruiztorres@csun.edu",
+            "days": "M",
+            "location": "JR243",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "lizbeth.ruiztorres@csun.edu"
             ]
         }
     ]

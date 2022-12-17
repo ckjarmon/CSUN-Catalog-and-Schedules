@@ -1,24 +1,16 @@
 {
-    "classes": [
+    "ARAB 101": [
         {
-            "subject": "ARAB",
-            "catalog_number": "101",
-            "title": "ELEM ARABIC I",
             "class_number": "14912",
-            "enrollment_cap": 32,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "JR330",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
-                }
+            "instructor": "sumaya.bezrati@csun.edu",
+            "days": "TR",
+            "location": "JR330",
+            "start_time": "1200h",
+            "end_time": "1340h",
+            "possible_emails": [
+                "sumaya.bezrati@csun.edu"
             ]
         }
     ]
