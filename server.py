@@ -64,7 +64,7 @@ def profs(**kwargs):
                      "mail_drop": x[7] if x[7] not in [None, ""] else "N/A",
                      "subject": x[8] if x[8] not in [None, ""] else "N/A",
                      "office": x[9] if x[9] not in [None, ""] else "N/A"}
-                    for x in rootCursor.fetchall()]
+                    for x in rootCursor.fetchall()][0]
         rootCursor.execute(f"""select class_number, 
                                    enrollment_cap, 
                                    enrollment_count, 
@@ -74,8 +74,8 @@ def profs(**kwargs):
                                    start_time, 
                                    end_time, 
                                    catalog_number, 
-                                   subject from section where instructor = '{p[0]['email']}'""")
-        p = {"info": p[0], "sch": [{"class_number": c[0],
+                                   subject from section where instructor like '%{p['last_name'].split(',')[0]}%'""")
+        p = {"info": p, "sch": [{"class_number": c[0],
                          "enrollment_cap": c[1],
                          "enrollment_count": c[2],
                          "instructor": c[3],
