@@ -2,234 +2,181 @@
     "CD 361": [
         {
             "class_number": "18646",
-            "enrollment_cap": -1,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Hall,Edward P",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "leilani.hall@csun.edu",
-                "ed.hall@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "CD 405": [
         {
             "class_number": "18943",
-            "enrollment_cap": 26,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
             "location": "ONLINE",
             "start_time": "0900h",
-            "end_time": "1015h",
-            "possible_emails": []
+            "end_time": "1015h"
         },
         {
             "class_number": "19417",
-            "enrollment_cap": 28,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
             "location": "MH101",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "CD 410": [
         {
             "class_number": "18644",
-            "enrollment_cap": 68,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructor": "Li,Mingshuang",
             "days": "M",
             "location": "SQ104",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "stephanie.lim@csun.edu",
-                "li.liu@csun.edu",
-                "todd.lituchy@csun.edu",
-                "dong.liu@csun.edu",
-                "jennifer.little@csun.edu",
-                "jae.lim@csun.edu",
-                "bingbing.li@csun.edu",
-                "vicki.lin@csun.edu",
-                "sharon.lim@csun.edu",
-                "kunpeng.li@csun.edu",
-                "jing.li@csun.edu",
-                "andrew.linden@csun.edu",
-                "mei.lim@csun.edu",
-                "chinhsin.liu@csun.edu",
-                "mingshuang.li@csun.edu",
-                "julio.lima@csun.edu",
-                "allen.lipscomb@csun.edu",
-                "say.peng.lim@csun.edu",
-                "rebecca.litke@csun.edu",
-                "dominic.little@csun.edu",
-                "vida.liu@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "CD 415": [
         {
             "class_number": "18645",
-            "enrollment_cap": 28,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "JC228",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": []
+            "end_time": "1515h"
         },
         {
             "class_number": "19357",
-            "enrollment_cap": 34,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
             "location": "JC228",
             "start_time": "1130h",
-            "end_time": "1415h",
-            "possible_emails": []
+            "end_time": "1415h"
         }
     ],
     "CD 442": [
         {
             "class_number": "18647",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Yu,Vickie Y",
             "days": "R",
             "location": "MH101",
             "start_time": "1100h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "senhua.yu@csun.edu",
-                "alex.yukhov@csun.edu",
-                "doug.yule@csun.edu",
-                "vickie.yu@csun.edu",
-                "jiyeon.yun@csun.edu"
-            ]
+            "end_time": "1215h"
         },
         {
             "class_number": "18944",
-            "enrollment_cap": 33,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "MH101",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "CD 445": [
         {
             "class_number": "18648",
-            "enrollment_cap": 53,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructor": "yugandhar.ramakrishna@csun.edu",
+            "instructor": "Ramakrishna,Yugandhar",
             "days": "W",
             "location": "SQ104",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "yugandhar.ramakrishna@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "CD 446": [
         {
             "class_number": "18649",
-            "enrollment_cap": 30,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "karen.spayd@csun.edu",
+            "instructor": "Spayd,Karen A",
             "days": "R",
             "location": "ONLINE",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "karen.spayd@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "CD 450": [
         {
             "class_number": "18650",
-            "enrollment_cap": 17,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "MH101",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         },
         {
             "class_number": "19603",
-            "enrollment_cap": 18,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "MH334",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": []
+            "end_time": "1515h"
         }
     ],
     "CD 451": [
         {
             "class_number": "18651",
-            "enrollment_cap": 28,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Roussos,Christine S",
             "days": "MW",
             "location": "MH101",
             "start_time": "1100h",
-            "end_time": "1215h",
-            "possible_emails": []
+            "end_time": "1215h"
         },
         {
             "class_number": "19476",
-            "enrollment_cap": 3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1100h",
-            "end_time": "1215h",
-            "possible_emails": []
+            "end_time": "1215h"
         }
     ],
     "CD 462": [
         {
             "class_number": "19349",
-            "enrollment_cap": 28,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "elizabeth.weber@csun.edu",
+            "instructor": "Weber,Elizabeth G",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "elizabeth.weber@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "19428",
-            "enrollment_cap": 20,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "CD 465": [
@@ -241,8 +188,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19069",
@@ -252,8 +198,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19070",
@@ -263,8 +208,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19071",
@@ -274,8 +218,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19072",
@@ -285,8 +228,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19073",
@@ -296,8 +238,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19074",
@@ -307,8 +248,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19075",
@@ -318,19 +258,17 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19076",
             "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "S",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19077",
@@ -340,8 +278,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19078",
@@ -351,8 +288,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19079",
@@ -362,8 +298,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19080",
@@ -373,8 +308,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19081",
@@ -384,8 +318,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "1300h",
-            "end_time": "1600h",
-            "possible_emails": []
+            "end_time": "1600h"
         },
         {
             "class_number": "19142",
@@ -395,45 +328,41 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1300h",
-            "end_time": "1600h",
-            "possible_emails": []
+            "end_time": "1600h"
         }
     ],
     "CD 469A": [
         {
             "class_number": "18652",
-            "enrollment_cap": 24,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Roussos,Christine S",
             "days": "MW",
             "location": "MH101",
             "start_time": "0830h",
-            "end_time": "0945h",
-            "possible_emails": []
+            "end_time": "0945h"
         },
         {
             "class_number": "19477",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
             "location": "MH101",
             "start_time": "1430h",
-            "end_time": "1715h",
-            "possible_emails": []
+            "end_time": "1715h"
         }
     ],
     "CD 469O": [
         {
             "class_number": "18653",
-            "enrollment_cap": 35,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "MH101",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": []
+            "end_time": "1515h"
         }
     ],
     "CD 475": [
@@ -441,112 +370,99 @@
             "class_number": "19058",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "karen.spayd@csun.edu",
+            "instructor": "Spayd,Karen A",
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "karen.spayd@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "19063",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "karen.spayd@csun.edu",
+            "instructor": "Spayd,Karen A",
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "karen.spayd@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "CD 480": [
         {
             "class_number": "18654",
-            "enrollment_cap": 13,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
             "location": "MH101",
             "start_time": "1100h",
-            "end_time": "1345h",
-            "possible_emails": []
+            "end_time": "1345h"
         },
         {
             "class_number": "19479",
-            "enrollment_cap": 12,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
             "location": "MH101",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "CD 485": [
         {
             "class_number": "18655",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
             "location": "JD3510",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": []
+            "end_time": "1515h"
         },
         {
             "class_number": "19664",
-            "enrollment_cap": 20,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
             "location": "SG101",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "CD 501": [
         {
             "class_number": "18656",
-            "enrollment_cap": 25,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "MH101",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": []
+            "end_time": "1515h"
         },
         {
             "class_number": "19777",
-            "enrollment_cap": 25,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "MH334",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": []
+            "end_time": "1515h"
         }
     ],
     "CD 552": [
         {
             "class_number": "19350",
-            "enrollment_cap": 25,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "CD 565": [
@@ -558,8 +474,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19813",
@@ -569,8 +484,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19814",
@@ -580,8 +494,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19815",
@@ -591,8 +504,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19816",
@@ -602,8 +514,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19817",
@@ -613,8 +524,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19818",
@@ -624,8 +534,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19819",
@@ -635,19 +544,17 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19820",
             "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "S",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19821",
@@ -657,8 +564,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19822",
@@ -668,8 +574,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19823",
@@ -679,8 +584,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19824",
@@ -690,8 +594,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19825",
@@ -701,8 +604,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "1300h",
-            "end_time": "1600h",
-            "possible_emails": []
+            "end_time": "1600h"
         },
         {
             "class_number": "19826",
@@ -712,8 +614,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1300h",
-            "end_time": "1600h",
-            "possible_emails": []
+            "end_time": "1600h"
         }
     ],
     "CD 566": [
@@ -725,8 +626,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19085",
@@ -736,8 +636,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19086",
@@ -747,8 +646,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19087",
@@ -758,8 +656,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19088",
@@ -769,8 +666,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19089",
@@ -780,8 +676,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19090",
@@ -791,8 +686,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19091",
@@ -802,19 +696,17 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19092",
             "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "S",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19093",
@@ -824,8 +716,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19094",
@@ -835,8 +726,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19095",
@@ -846,8 +736,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19096",
@@ -857,8 +746,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19097",
@@ -868,8 +756,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "1300h",
-            "end_time": "1600h",
-            "possible_emails": []
+            "end_time": "1600h"
         },
         {
             "class_number": "19143",
@@ -879,8 +766,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1300h",
-            "end_time": "1600h",
-            "possible_emails": []
+            "end_time": "1600h"
         }
     ],
     "CD 567": [
@@ -892,8 +778,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19098",
@@ -903,8 +788,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19099",
@@ -914,8 +798,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19100",
@@ -925,8 +808,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19101",
@@ -936,8 +818,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19102",
@@ -947,8 +828,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19103",
@@ -958,8 +838,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1600h",
-            "end_time": "1850h",
-            "possible_emails": []
+            "end_time": "1850h"
         },
         {
             "class_number": "19104",
@@ -969,19 +848,17 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19105",
             "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "S",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19106",
@@ -991,8 +868,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "0900h",
-            "end_time": "1150h",
-            "possible_emails": []
+            "end_time": "1150h"
         },
         {
             "class_number": "19107",
@@ -1002,8 +878,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19108",
@@ -1013,8 +888,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19109",
@@ -1024,8 +898,7 @@
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "19110",
@@ -1035,8 +908,7 @@
             "days": "MW",
             "location": "MH100",
             "start_time": "1300h",
-            "end_time": "1600h",
-            "possible_emails": []
+            "end_time": "1600h"
         },
         {
             "class_number": "19144",
@@ -1046,8 +918,7 @@
             "days": "TR",
             "location": "MH100",
             "start_time": "1300h",
-            "end_time": "1600h",
-            "possible_emails": []
+            "end_time": "1600h"
         }
     ],
     "CD 577": [
@@ -1055,169 +926,117 @@
             "class_number": "19062",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "karen.spayd@csun.edu",
+            "instructor": "Spayd,Karen A",
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "karen.spayd@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "CD 651": [
         {
             "class_number": "19227",
-            "enrollment_cap": 25,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Roussos,Christine S",
             "days": "R",
             "location": "MH334",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": []
+            "end_time": "1515h"
         }
     ],
     "CD 659": [
         {
             "class_number": "18657",
-            "enrollment_cap": 25,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Yu,Vickie Y",
             "days": "T",
             "location": "MH101",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "senhua.yu@csun.edu",
-                "alex.yukhov@csun.edu",
-                "doug.yule@csun.edu",
-                "vickie.yu@csun.edu",
-                "jiyeon.yun@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "19717",
-            "enrollment_cap": 25,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructor": "michael.biel@csun.edu",
+            "instructor": "Biel,Michael E",
             "days": "T",
             "location": "MH334",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "michael.biel@csun.edu"
-            ]
+            "end_time": "1515h"
         }
     ],
     "CD 660": [
         {
             "class_number": "18658",
-            "enrollment_cap": 45,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
             "instructor": "Yu,Vickie Y",
             "days": "F",
             "location": "JD3510",
             "start_time": "0830h",
-            "end_time": "1115h",
-            "possible_emails": [
-                "senhua.yu@csun.edu",
-                "alex.yukhov@csun.edu",
-                "doug.yule@csun.edu",
-                "vickie.yu@csun.edu",
-                "jiyeon.yun@csun.edu"
-            ]
+            "end_time": "1115h"
         }
     ],
     "CD 661": [
         {
             "class_number": "18659",
-            "enrollment_cap": 28,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Kochis-Jennings,Karen A",
             "days": "T",
             "location": "MH334",
             "start_time": "0830h",
-            "end_time": "1115h",
-            "possible_emails": []
+            "end_time": "1115h"
         }
     ],
     "CD 662": [
         {
             "class_number": "19351",
-            "enrollment_cap": 25,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "elizabeth.weber@csun.edu",
+            "instructor": "Weber,Elizabeth G",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "elizabeth.weber@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "CD 668": [
         {
             "class_number": "18661",
-            "enrollment_cap": 15,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructor": "michael.biel@csun.edu",
+            "instructor": "Biel,Michael E",
             "days": "F",
             "location": "MH334",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "michael.biel@csun.edu"
-            ]
+            "end_time": "1515h"
         }
     ],
     "CD 672A": [
         {
             "class_number": "19145",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "CD 674": [
         {
             "class_number": "18660",
-            "enrollment_cap": 25,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Li,Mingshuang",
             "days": "R",
             "location": "MH101",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "stephanie.lim@csun.edu",
-                "li.liu@csun.edu",
-                "todd.lituchy@csun.edu",
-                "dong.liu@csun.edu",
-                "jennifer.little@csun.edu",
-                "jae.lim@csun.edu",
-                "bingbing.li@csun.edu",
-                "vicki.lin@csun.edu",
-                "sharon.lim@csun.edu",
-                "kunpeng.li@csun.edu",
-                "jing.li@csun.edu",
-                "andrew.linden@csun.edu",
-                "mei.lim@csun.edu",
-                "chinhsin.liu@csun.edu",
-                "mingshuang.li@csun.edu",
-                "julio.lima@csun.edu",
-                "allen.lipscomb@csun.edu",
-                "say.peng.lim@csun.edu",
-                "rebecca.litke@csun.edu",
-                "dominic.little@csun.edu",
-                "vida.liu@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "CD 697": [
@@ -1229,215 +1048,163 @@
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "CD 720": [
         {
             "class_number": "20098",
-            "enrollment_cap": 11,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Jin,SuHyun",
             "days": "M",
             "location": "MH304",
             "start_time": "1800h",
-            "end_time": "2045h",
-            "possible_emails": [
-                "suhyun.jin@csun.edu",
-                "chunying.jin@csun.edu",
-                "yanbo.jin@csun.edu"
-            ]
+            "end_time": "2045h"
         }
     ],
     "CD 742A": [
         {
             "class_number": "20099",
-            "enrollment_cap": 11,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "yugandhar.ramakrishna@csun.edu",
+            "instructor": "Ramakrishna,Yugandhar",
             "days": "R",
             "location": "MH304",
             "start_time": "1800h",
-            "end_time": "2045h",
-            "possible_emails": [
-                "yugandhar.ramakrishna@csun.edu"
-            ]
+            "end_time": "2045h"
         }
     ],
     "CD 748": [
         {
             "class_number": "20100",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "ONLINE",
             "start_time": "1800h",
-            "end_time": "2045h",
-            "possible_emails": []
+            "end_time": "2045h"
         }
     ],
     "CD 752": [
         {
             "class_number": "20101",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Jin,SuHyun",
             "days": "W",
             "location": "MH304",
             "start_time": "1800h",
-            "end_time": "2045h",
-            "possible_emails": [
-                "suhyun.jin@csun.edu",
-                "chunying.jin@csun.edu",
-                "yanbo.jin@csun.edu"
-            ]
+            "end_time": "2045h"
         }
     ],
     "CD 753B": [
         {
             "class_number": "20102",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "yugandhar.ramakrishna@csun.edu",
+            "instructor": "Ramakrishna,Yugandhar",
             "days": "F",
             "location": "MH304",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "yugandhar.ramakrishna@csun.edu"
-            ]
+            "end_time": "1515h"
         }
     ],
     "CD 755": [
         {
             "class_number": "20103",
-            "enrollment_cap": 11,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Li,Mingshuang",
             "days": "W",
             "location": "MH304",
             "start_time": "0900h",
-            "end_time": "1145h",
-            "possible_emails": [
-                "stephanie.lim@csun.edu",
-                "li.liu@csun.edu",
-                "todd.lituchy@csun.edu",
-                "dong.liu@csun.edu",
-                "jennifer.little@csun.edu",
-                "jae.lim@csun.edu",
-                "bingbing.li@csun.edu",
-                "vicki.lin@csun.edu",
-                "sharon.lim@csun.edu",
-                "kunpeng.li@csun.edu",
-                "jing.li@csun.edu",
-                "andrew.linden@csun.edu",
-                "mei.lim@csun.edu",
-                "chinhsin.liu@csun.edu",
-                "mingshuang.li@csun.edu",
-                "julio.lima@csun.edu",
-                "allen.lipscomb@csun.edu",
-                "say.peng.lim@csun.edu",
-                "rebecca.litke@csun.edu",
-                "dominic.little@csun.edu",
-                "vida.liu@csun.edu"
-            ]
+            "end_time": "1145h"
         }
     ],
     "CD 760": [
         {
             "class_number": "20105",
-            "enrollment_cap": 11,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "yugandhar.ramakrishna@csun.edu",
+            "instructor": "Ramakrishna,Yugandhar",
             "days": "W",
             "location": "MH304",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "yugandhar.ramakrishna@csun.edu"
-            ]
+            "end_time": "1515h"
         }
     ],
     "CD 762": [
         {
             "class_number": "20104",
-            "enrollment_cap": 11,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructor": "yugandhar.ramakrishna@csun.edu",
+            "instructor": "Malan,John D",
             "days": "M",
             "location": "MH209",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "yugandhar.ramakrishna@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "CD 767": [
         {
             "class_number": "20106",
-            "enrollment_cap": 11,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "MH209",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "CD 771": [
         {
             "class_number": "20095",
-            "enrollment_cap": 11,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "CD 774": [
         {
             "class_number": "20096",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "CD 775C": [
         {
             "class_number": "20097",
-            "enrollment_cap": 9,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "CD 776C": [
         {
             "class_number": "20841",
-            "enrollment_cap": 7,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "MH100",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ]
 }

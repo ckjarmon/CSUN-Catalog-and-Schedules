@@ -8,298 +8,183 @@
             "days": "M",
             "location": "ONLINE",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         },
         {
             "class_number": "15684",
-            "enrollment_cap": 20,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Emmerling-Baker,Denise",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1230h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "denise.sandoval@csun.edu",
-                "denise.lerette@csun.edu",
-                "denise.sidansky@csun.edu",
-                "denise.emmerling-baker@csun.edu"
-            ]
+            "end_time": "1345h"
         },
         {
             "class_number": "15890",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "wilda.laija-rodriguez@csun.edu",
+            "instructor": "Laija-Rodriguez,Wilda",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "0930h",
-            "end_time": "1045h",
-            "possible_emails": [
-                "wilda.laija-rodriguez@csun.edu"
-            ]
+            "end_time": "1045h"
         },
         {
             "class_number": "15896",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "mane.dovlatyan-atashian@csun.edu",
+            "instructor": "Dovlatyan,Mane Sona",
             "days": "TR",
             "location": "ED1130",
             "start_time": "1230h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "mane.dovlatyan-atashian@csun.edu"
-            ]
+            "end_time": "1345h"
         },
         {
             "class_number": "16028",
-            "enrollment_cap": 21,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "deanne.torvinen@csun.edu",
+            "instructor": "Torvinen,Deanne B",
             "days": "R",
             "location": "ONLINE",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "deanne.torvinen@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 315": [
         {
             "class_number": "15536",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "karen.mariano@csun.edu",
+            "instructor": "Mariano,Karen D",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1230h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "karen.mariano@csun.edu"
-            ]
+            "end_time": "1345h"
         },
         {
             "class_number": "15567",
-            "enrollment_cap": 16,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "karen.mariano@csun.edu",
+            "instructor": "Mariano,Karen D",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1400h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "karen.mariano@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "15541",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "mane.dovlatyan-atashian@csun.edu",
+            "instructor": "Dovlatyan,Mane Sona",
             "days": "TR",
             "location": "ED1121",
             "start_time": "1100h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "mane.dovlatyan-atashian@csun.edu"
-            ]
+            "end_time": "1215h"
         },
         {
             "class_number": "15629",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "pariza.karamali@csun.edu",
+            "instructor": "Karamali,Pariza A",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "pariza.karamali@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 420": [
         {
             "class_number": "15441",
-            "enrollment_cap": 14,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "deanne.torvinen@csun.edu",
+            "instructor": "Torvinen,Deanne B",
             "days": "M",
             "location": "ED1129",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "deanne.torvinen@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "15658",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lubnow,David",
             "days": null,
             "location": "ONLINE",
             "start_time": "TBA",
-            "end_time": "TBA",
-            "possible_emails": [
-                "david.hsu@csun.edu",
-                "david.de-rozas@csun.edu",
-                "david.weintraub@csun.edu",
-                "david.hendrickson@csun.edu",
-                "david.robaire@csun.edu",
-                "david.song@csun.edu",
-                "david.pardess@csun.edu",
-                "david.berkowitz@csun.edu",
-                "david.deutsch@csun.edu",
-                "david.desser@csun.edu",
-                "david.leitch@csun.edu",
-                "david.shternberg@csun.edu",
-                "david.medeiros@csun.edu",
-                "ronald.davidson@csun.edu",
-                "david.edelstein@csun.edu",
-                "cecile.bendavid@csun.edu",
-                "david.russell@csun.edu",
-                "david.bogumil@csun.edu",
-                "ana.cadavid@csun.edu",
-                "david.marlett@csun.edu",
-                "david.klein@csun.edu",
-                "david.grewe@csun.edu",
-                "david.s.ackerman@csun.edu",
-                "david.pozzi@csun.edu",
-                "david.deis@csun.edu",
-                "david.boyajian@csun.edu",
-                "david.blumenkrantz@csun.edu",
-                "david.l.moguel@csun.edu",
-                "david.lubnow@csun.edu",
-                "david.rodriguez@csun.edu",
-                "david.freedman@csun.edu",
-                "james.davidson@csun.edu",
-                "david.fractor@csun.edu",
-                "david.bermudes@csun.edu"
-            ]
+            "end_time": "TBA"
         },
         {
             "class_number": "15622",
-            "enrollment_cap": 17,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Lubnow,David",
             "days": null,
             "location": "ONLINE",
             "start_time": "TBA",
-            "end_time": "TBA",
-            "possible_emails": [
-                "david.hsu@csun.edu",
-                "david.de-rozas@csun.edu",
-                "david.weintraub@csun.edu",
-                "david.hendrickson@csun.edu",
-                "david.robaire@csun.edu",
-                "david.song@csun.edu",
-                "david.pardess@csun.edu",
-                "david.berkowitz@csun.edu",
-                "david.deutsch@csun.edu",
-                "david.desser@csun.edu",
-                "david.leitch@csun.edu",
-                "david.shternberg@csun.edu",
-                "david.medeiros@csun.edu",
-                "ronald.davidson@csun.edu",
-                "david.edelstein@csun.edu",
-                "cecile.bendavid@csun.edu",
-                "david.russell@csun.edu",
-                "david.bogumil@csun.edu",
-                "ana.cadavid@csun.edu",
-                "david.marlett@csun.edu",
-                "david.klein@csun.edu",
-                "david.grewe@csun.edu",
-                "david.s.ackerman@csun.edu",
-                "david.pozzi@csun.edu",
-                "david.deis@csun.edu",
-                "david.boyajian@csun.edu",
-                "david.blumenkrantz@csun.edu",
-                "david.l.moguel@csun.edu",
-                "david.lubnow@csun.edu",
-                "david.rodriguez@csun.edu",
-                "david.freedman@csun.edu",
-                "james.davidson@csun.edu",
-                "david.fractor@csun.edu",
-                "david.bermudes@csun.edu"
-            ]
+            "end_time": "TBA"
         },
         {
             "class_number": "16053",
-            "enrollment_cap": 9,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "daphna.ozery@csun.edu",
+            "instructor": "Ozery,Daphna",
             "days": null,
             "location": "ONLINE",
             "start_time": "TBA",
-            "end_time": "TBA",
-            "possible_emails": [
-                "daphna.ozery@csun.edu"
-            ]
+            "end_time": "TBA"
         },
         {
             "class_number": "16172",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "daphna.ozery@csun.edu",
+            "instructor": "Ozery,Daphna",
             "days": null,
             "location": "ONLINE",
             "start_time": "TBA",
-            "end_time": "TBA",
-            "possible_emails": [
-                "daphna.ozery@csun.edu"
-            ]
+            "end_time": "TBA"
         },
         {
             "class_number": "16173",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "daphna.ozery@csun.edu",
+            "instructor": "Ozery,Daphna",
             "days": null,
             "location": "ONLINE",
             "start_time": "TBA",
-            "end_time": "TBA",
-            "possible_emails": [
-                "daphna.ozery@csun.edu"
-            ]
+            "end_time": "TBA"
         }
     ],
     "EPC 430": [
         {
             "class_number": "15438",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Dovlatyan,Mane Sona",
             "days": "W",
-            "location": "TBA",
+            "location": "ED1130",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         },
         {
             "class_number": "15866",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         },
         {
             "class_number": "16076",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Leon,Katie",
             "days": null,
             "location": "ONLINE",
-            "start_time": "TBA",
-            "end_time": "TBA",
-            "possible_emails": []
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     ],
     "EPC 451": [
@@ -307,122 +192,107 @@
             "class_number": "15584",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "donna.l.pioli@csun.edu",
+            "instructor": "Pioli,Donna L",
             "days": "M",
             "location": "ONLINE",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "donna.l.pioli@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "15439",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "eric.lyden@csun.edu",
+            "instructor": "Lyden,Eric C",
             "days": "T",
             "location": "ONLINE",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "eric.lyden@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "15688",
-            "enrollment_cap": 21,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "donna.l.pioli@csun.edu",
+            "instructor": "Pioli,Donna L",
             "days": "W",
             "location": "ED1127",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "donna.l.pioli@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "15891",
-            "enrollment_cap": 7,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "eric.lyden@csun.edu",
+            "instructor": "Lyden,Eric C",
             "days": "W",
             "location": "BB1119",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "eric.lyden@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "16073",
-            "enrollment_cap": 23,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Harris,Sue",
             "days": "R",
             "location": "BB1234",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "matt.harris@csun.edu",
-                "brandon.harris@csun.edu",
-                "suellen.helm-torres@csun.edu",
-                "amanda.harrison@csun.edu",
-                "sue.harris@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 500": [
         {
             "class_number": "15571",
-            "enrollment_cap": 20,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructor": "michele.bowes@csun.edu",
+            "instructor": "Bowes,Michele F",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "michele.bowes@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "EPC 600": [
         {
             "class_number": "15444",
-            "enrollment_cap": 12,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Goldschmidt,Pete G",
             "days": "W",
-            "location": "BB1240",
+            "location": "ED2119",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 602": [
         {
             "class_number": "15445",
-            "enrollment_cap": 10,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "ED2119",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         },
         {
             "class_number": "15569",
-            "enrollment_cap": 15,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "ED2121B",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "21258",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Goldschmidt,Pete G",
+            "days": "M",
+            "location": "ED2121A",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
     "EPC 603MFA": [
@@ -434,66 +304,51 @@
             "days": "W",
             "location": "ED3115",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "angela.caldwell@csun.edu",
-                "benjamin.caldwell@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16138",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Caldwell,Ben E",
+            "instructor": "Buttitta,Deborah J",
             "days": "W",
             "location": "ED3113",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "angela.caldwell@csun.edu",
-                "benjamin.caldwell@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16139",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Buttitta,Deborah J",
+            "instructor": "Caldwell,Ben E",
             "days": "W",
             "location": "BB1123",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "EPC 609": [
         {
             "class_number": "15555",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructor": "tovah.sands@csun.edu",
+            "instructor": "Sands,Tovah",
             "days": "M",
             "location": "CR5209",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "tovah.sands@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 620": [
         {
             "class_number": "15446",
-            "enrollment_cap": 19,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "grace.castaneda@csun.edu",
+            "instructor": "Castaneda,Grace",
             "days": "W",
             "location": "BB1232",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "grace.castaneda@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "EPC 621": [
@@ -505,37 +360,31 @@
             "days": "W",
             "location": "JR247",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "EPC 635": [
         {
             "class_number": "15447",
-            "enrollment_cap": 14,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Leon,Katie",
-            "days": "W",
+            "days": "T",
             "location": "SH302",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "katie.leon@csun.edu",
-                "katie.mortimer@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "EPC 636": [
         {
             "class_number": "15664",
-            "enrollment_cap": 14,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Busillo-Aguayo,Joannie L",
             "days": "T",
             "location": "JR247",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 639C": [
@@ -544,25 +393,20 @@
             "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Busillo-Aguayo,Joannie L",
-            "days": "T",
+            "days": "W",
             "location": "BB1206",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         },
         {
             "class_number": "15968",
-            "enrollment_cap": 8,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Leon,Katie",
             "days": "T",
-            "location": "TBA",
+            "location": "BB1234",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "katie.leon@csun.edu",
-                "katie.mortimer@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 641": [
@@ -570,79 +414,79 @@
             "class_number": "16020",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "ED1117",
+            "instructor": "Carranza,Jose A",
+            "days": "T",
+            "location": "BB1206",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 643": [
         {
             "class_number": "15448",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "shyrea.minton@csun.edu",
+            "instructor": "Minton,Shyrea J",
             "days": "M",
             "location": "ED1121",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "shyrea.minton@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "15543",
-            "enrollment_cap": 13,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "angelica.galvan@csun.edu",
+            "instructor": "Galvan,Angelica",
             "days": "M",
             "location": "BB1232",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "angelica.galvan@csun.edu"
-            ]
+            "end_time": "1845h"
+        }
+    ],
+    "EPC 643SP": [
+        {
+            "class_number": "21277",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Williams,Madhavi",
+            "days": "T",
+            "location": "ED1121",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
     "EPC 648": [
         {
             "class_number": "15626",
-            "enrollment_cap": 23,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Laija-Rodriguez,Wilda",
             "days": "T",
             "location": "BB1119",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "EPC 657A": [
         {
             "class_number": "15578",
-            "enrollment_cap": 14,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "angelica.galvan@csun.edu",
+            "instructor": "Galvan,Angelica",
             "days": "W",
             "location": "ED1121",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "angelica.galvan@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "15582",
-            "enrollment_cap": 12,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "ED1117",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 658": [
@@ -654,8 +498,7 @@
             "days": "M",
             "location": "SH307",
             "start_time": "1300h",
-            "end_time": "1545h",
-            "possible_emails": []
+            "end_time": "1545h"
         },
         {
             "class_number": "20989",
@@ -665,8 +508,7 @@
             "days": "M",
             "location": "SH371",
             "start_time": "1300h",
-            "end_time": "1545h",
-            "possible_emails": []
+            "end_time": "1545h"
         },
         {
             "class_number": "20990",
@@ -674,39 +516,29 @@
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "SH285",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         },
         {
             "class_number": "20991",
-            "enrollment_cap": 14,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "tovah.sands@csun.edu",
+            "instructor": "Sands,Tovah",
             "days": "W",
             "location": "SH312",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "tovah.sands@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "20995",
-            "enrollment_cap": 13,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Cornejo Jr,Juan",
             "days": "W",
             "location": "CR5209",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "mercedes.juan@csun.edu",
-                "juan.gomez@csun.edu",
-                "juan.c.oliva@csun.edu",
-                "juan.cornejo@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 658L": [
@@ -718,8 +550,7 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "20992",
@@ -729,8 +560,7 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "20993",
@@ -740,37 +570,27 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "20994",
-            "enrollment_cap": 14,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "tovah.sands@csun.edu",
+            "instructor": "Sands,Tovah",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "tovah.sands@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "20996",
-            "enrollment_cap": 13,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Cornejo Jr,Juan",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "mercedes.juan@csun.edu",
-                "juan.gomez@csun.edu",
-                "juan.c.oliva@csun.edu",
-                "juan.cornejo@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "EPC 659B": [
@@ -782,8 +602,7 @@
             "days": "T",
             "location": "ED1117",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         },
         {
             "class_number": "15747",
@@ -793,84 +612,59 @@
             "days": "T",
             "location": "JD1552",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         },
         {
             "class_number": "15748",
-            "enrollment_cap": 9,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "angelica.galvan@csun.edu",
+            "instructor": "Galvan,Angelica",
             "days": "M",
             "location": "JR201",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "angelica.galvan@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "15749",
-            "enrollment_cap": 9,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Lee,Timmy E",
             "days": "M",
-            "location": "BB1133",
+            "location": "ED1130",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "jennifer.c.lee@csun.edu",
-                "wonjun.lee@csun.edu",
-                "nancy.lee@csun.edu",
-                "daehwan.lee@csun.edu",
-                "yeonjoo.lee@csun.edu",
-                "kenneth.lee@csun.edu",
-                "joongwon.lee@csun.edu",
-                "timmy.lee@csun.edu",
-                "junyeon.lee@csun.edu",
-                "tom.lee@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "15750",
-            "enrollment_cap": 10,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Gutierrez,Ernesto R",
             "days": "M",
-            "location": "BB1125",
+            "location": "ED1121",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "gabriel.gutierrez@csun.edu",
-                "miguel.gutierrez@csun.edu",
-                "ernesto.gutierrez@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "20997",
-            "enrollment_cap": 9,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Lucore,Lisa Ann",
             "days": "M",
             "location": "BB1208",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 659DC": [
         {
             "class_number": "15758",
-            "enrollment_cap": 9,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "shyrea.minton@csun.edu",
+            "instructor": "Minton,Shyrea J",
             "days": "M",
             "location": "ED1121",
             "start_time": "1300h",
-            "end_time": "1545h",
-            "possible_emails": [
-                "shyrea.minton@csun.edu"
-            ]
+            "end_time": "1545h"
         },
         {
             "class_number": "15759",
@@ -880,46 +674,17 @@
             "days": "M",
             "location": "BB1206",
             "start_time": "1300h",
-            "end_time": "1545h",
-            "possible_emails": [
-                "jennifer.c.lee@csun.edu",
-                "wonjun.lee@csun.edu",
-                "nancy.lee@csun.edu",
-                "daehwan.lee@csun.edu",
-                "yeonjoo.lee@csun.edu",
-                "kenneth.lee@csun.edu",
-                "joongwon.lee@csun.edu",
-                "timmy.lee@csun.edu",
-                "junyeon.lee@csun.edu",
-                "tom.lee@csun.edu"
-            ]
+            "end_time": "1545h"
         },
         {
             "class_number": "15760",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Wang,Steven",
             "days": "M",
             "location": "JR212",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "steven.wang@csun.edu",
-                "wen.wang@csun.edu",
-                "steven.fitzgerald@csun.edu",
-                "katherine.stevenson@csun.edu",
-                "dongyi.wang@csun.edu",
-                "steven.stepanek@csun.edu",
-                "steven.hampton@csun.edu",
-                "steven.rivas@csun.edu",
-                "taehyung.wang@csun.edu",
-                "steven.sherry@csun.edu",
-                "steven.oppenheimer@csun.edu",
-                "steven.loy@csun.edu",
-                "meiqin.wang@csun.edu",
-                "steven.stumpf@csun.edu",
-                "steven.wexler@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "16000",
@@ -929,97 +694,83 @@
             "days": "M",
             "location": "JR247",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 659FC": [
         {
             "class_number": "15761",
-            "enrollment_cap": 14,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Laija-Rodriguez,Wilda",
             "days": "T",
             "location": "SH302",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         },
         {
             "class_number": "15762",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Ramage,Jean C",
             "days": "T",
             "location": "ED3113",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 659HC": [
         {
             "class_number": "15763",
-            "enrollment_cap": 9,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Golden,Joan",
             "days": "R",
             "location": "ED1121",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         },
         {
             "class_number": "15764",
-            "enrollment_cap": 9,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Geisser,Michael S",
             "days": "R",
             "location": "ED1123",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 659KC": [
         {
             "class_number": "15765",
-            "enrollment_cap": 9,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructor": "roman.shain@csun.edu",
+            "instructor": "Shain,Roman",
             "days": "M",
             "location": "SH205",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "roman.shain@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "15766",
-            "enrollment_cap": 9,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "kim.morrow-bell@csun.edu",
+            "instructor": "Morrow-Bell,Kim D",
             "days": "M",
             "location": "SH267",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "kim.morrow-bell@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "20988",
-            "enrollment_cap": 9,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "michael.enriquez@csun.edu",
+            "instructor": "Enriquez,Michael V",
             "days": "M",
             "location": "SH285",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "michael.enriquez@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "EPC 659MFB": [
@@ -1027,27 +778,21 @@
             "class_number": "16152",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "katherine.stevenson@csun.edu",
+            "instructor": "Stevens,Mark A",
             "days": "M",
             "location": "ED3115",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "katherine.stevenson@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16153",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "jennifer.pemberton@csun.edu",
+            "instructor": "Pemberton,Jennifer V",
             "days": "M",
             "location": "ED1127",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "jennifer.pemberton@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16154",
@@ -1057,39 +802,27 @@
             "days": "M",
             "location": "JR247",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "pamela.sasada@csun.edu",
-                "pamela.georgette@csun.edu",
-                "pamela.pettit@csun.edu",
-                "pamela.scherban-sierra@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16155",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "barbara.jankovich@csun.edu",
+            "instructor": "Jankovich,Barbara J",
             "days": "M",
             "location": "BB1107",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "barbara.jankovich@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16156",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "katherine.stevenson@csun.edu",
+            "instructor": "Stevens,Mark A",
             "days": "M",
             "location": "BB1234",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "katherine.stevenson@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "16157",
@@ -1099,11 +832,7 @@
             "days": "M",
             "location": "BB1204",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "stacy.kaiser@csun.edu",
-                "kayla.kaiser@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "20998",
@@ -1113,16 +842,7 @@
             "days": "M",
             "location": "SH284",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "rebecca.clarkmane@csun.edu",
-                "rebecca.litke@csun.edu",
-                "rebecca.lawson@csun.edu",
-                "rebecca.buck@csun.edu",
-                "rebecca.pena.783@my.csun.edu",
-                "rebecca.lemert@csun.edu",
-                "rebecca.lustig@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "EPC 659MFD": [
@@ -1134,47 +854,27 @@
             "days": "M",
             "location": "BB1238",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "peter.kappas@csun.edu",
-                "nora.moran@csun.edu",
-                "peter.garcia@csun.edu",
-                "peter.mora@csun.edu",
-                "lauren.moradi@csun.edu",
-                "peter.berlin@csun.edu",
-                "natalie.morales@csun.edu",
-                "farisa.morales@csun.edu",
-                "will.moran@csun.edu",
-                "peter.marston@csun.edu",
-                "peter.sepsis@csun.edu",
-                "peter.bishay@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "15956",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "dana.stone@csun.edu",
+            "instructor": "Stone,Dana J",
             "days": "M",
             "location": "BB1208",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "dana.stone@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "15957",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "carine.keenan@csun.edu",
+            "instructor": "Keenan,Carine M",
             "days": "M",
             "location": "SH305",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "carine.keenan@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "15958",
@@ -1184,43 +884,27 @@
             "days": "M",
             "location": "BB1202",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "stacy.kaiser@csun.edu",
-                "kayla.kaiser@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "15959",
-            "enrollment_cap": 8,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Lemert,Rebecca",
             "days": "M",
             "location": "BB1202",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "rebecca.clarkmane@csun.edu",
-                "rebecca.litke@csun.edu",
-                "rebecca.lawson@csun.edu",
-                "rebecca.buck@csun.edu",
-                "rebecca.pena.783@my.csun.edu",
-                "rebecca.lemert@csun.edu",
-                "rebecca.lustig@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "15960",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "kim.goldberg-roth@csun.edu",
+            "instructor": "Goldberg-Roth,Kim L",
             "days": "M",
             "location": "BB1206",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "kim.goldberg-roth@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "15961",
@@ -1230,26 +914,41 @@
             "days": "M",
             "location": "SH287",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "pamela.sasada@csun.edu",
-                "pamela.georgette@csun.edu",
-                "pamela.pettit@csun.edu",
-                "pamela.scherban-sierra@csun.edu"
-            ]
+            "end_time": "2145h"
+        }
+    ],
+    "EPC 659SPB": [
+        {
+            "class_number": "21272",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Geisser,Michael S",
+            "days": "T",
+            "location": "ED1130",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "21273",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Bornstein,Suzanne S",
+            "days": "T",
+            "location": "ED1129",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "EPC 661": [
         {
             "class_number": "15454",
-            "enrollment_cap": 24,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Geisser,Michael S",
             "days": "R",
             "location": "BB1232",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "EPC 663B": [
@@ -1257,23 +956,21 @@
             "class_number": "15455",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "ED1121",
+            "instructor": "Golden,Joan",
+            "days": "T",
+            "location": "ED1127",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         },
         {
             "class_number": "15456",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "ED1127",
+            "instructor": "Vogel,Paul J",
+            "days": "T",
+            "location": "ED3113",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "EPC 663BL": [
@@ -1281,27 +978,21 @@
             "class_number": "15457",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "vedeesh.saggar@csun.edu",
+            "instructor": "Saggar,Vedeesh Kumar",
             "days": "W",
             "location": "SH305",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "vedeesh.saggar@csun.edu"
-            ]
+            "end_time": "1845h"
         },
         {
             "class_number": "16083",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "vedeesh.saggar@csun.edu",
+            "instructor": "Saggar,Vedeesh Kumar",
             "days": "W",
             "location": "SH305",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "vedeesh.saggar@csun.edu"
-            ]
+            "end_time": "2145h"
         }
     ],
     "EPC 668": [
@@ -1309,27 +1000,23 @@
             "class_number": "15857",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Fish,Janet E",
             "days": "R",
             "location": "JR247",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "EPC 670A": [
         {
             "class_number": "15458",
-            "enrollment_cap": 20,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "roman.shain@csun.edu",
+            "instructor": "Shain,Roman",
             "days": "W",
             "location": "ED1121",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "roman.shain@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "15542",
@@ -1339,8 +1026,7 @@
             "days": "W",
             "location": "BB1117",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 670MFB": [
@@ -1352,24 +1038,17 @@
             "days": "M",
             "location": "ED1121",
             "start_time": "0930h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "stacy.kaiser@csun.edu",
-                "kayla.kaiser@csun.edu"
-            ]
+            "end_time": "1215h"
         },
         {
             "class_number": "16150",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "diane.gehart@csun.edu",
+            "instructor": "Gehart,Diane R",
             "days": "M",
             "location": "BB1204",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "diane.gehart@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16151",
@@ -1379,8 +1058,7 @@
             "days": "M",
             "location": "BH313",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "EPC 670MFC": [
@@ -1392,38 +1070,27 @@
             "days": "M",
             "location": "ED1122",
             "start_time": "0930h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "sandor.samuels@csun.edu",
-                "danielle.samuel@csun.edu"
-            ]
+            "end_time": "1215h"
         },
         {
             "class_number": "16022",
-            "enrollment_cap": 18,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Samuel,Danielle A",
             "days": "M",
             "location": "SH312",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "sandor.samuels@csun.edu",
-                "danielle.samuel@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16023",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "jennifer.pemberton@csun.edu",
+            "instructor": "Pemberton,Jennifer V",
             "days": "M",
             "location": "BB1208",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "jennifer.pemberton@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 672MFA": [
@@ -1431,40 +1098,31 @@
             "class_number": "16174",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "carine.keenan@csun.edu",
+            "instructor": "Keenan,Carine M",
             "days": "W",
             "location": "ED1122",
             "start_time": "0930h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "carine.keenan@csun.edu"
-            ]
+            "end_time": "1215h"
         },
         {
             "class_number": "16175",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "mark.souris@csun.edu",
+            "instructor": "Souris,Mark John",
             "days": "W",
             "location": "ED1121",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "mark.souris@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "16176",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "mark.souris@csun.edu",
+            "instructor": "Souris,Mark John",
             "days": "W",
             "location": "ED1121",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "mark.souris@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 672MFB": [
@@ -1472,66 +1130,73 @@
             "class_number": "16161",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "jennifer.pemberton@csun.edu",
+            "instructor": "Pemberton,Jennifer V",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "jennifer.pemberton@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16162",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "jennifer.pemberton@csun.edu",
+            "instructor": "Pemberton,Jennifer V",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "jennifer.pemberton@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16163",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "jennifer.pemberton@csun.edu",
+            "instructor": "Pemberton,Jennifer V",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "jennifer.pemberton@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "EPC 673": [
         {
             "class_number": "16167",
-            "enrollment_cap": 14,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "roman.shain@csun.edu",
+            "instructor": "Shain,Roman",
             "days": "T",
             "location": "ED1121",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": [
-                "roman.shain@csun.edu"
-            ]
+            "end_time": "2145h"
         },
         {
             "class_number": "16168",
-            "enrollment_cap": 12,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
             "location": "ED1123",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "21259",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ED1122",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "21260",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ED1130",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "EPC 677MFB": [
@@ -1539,68 +1204,53 @@
             "class_number": "16158",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "dana.stone@csun.edu",
+            "instructor": "Stone,Dana J",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "dana.stone@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16159",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "dana.stone@csun.edu",
+            "instructor": "Stone,Dana J",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "dana.stone@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16160",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "dana.stone@csun.edu",
+            "instructor": "Stone,Dana J",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "dana.stone@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "EPC 679MF": [
         {
             "class_number": "15963",
-            "enrollment_cap": 18,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "louis.willoughby@csun.edu",
+            "instructor": "Willoughby,Louis D",
             "days": "W",
             "location": "ED1121",
             "start_time": "0930h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "louis.willoughby@csun.edu"
-            ]
+            "end_time": "1215h"
         },
         {
             "class_number": "15964",
-            "enrollment_cap": 18,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "louis.willoughby@csun.edu",
+            "instructor": "Willoughby,Louis D",
             "days": "W",
             "location": "BB1238",
             "start_time": "1230h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "louis.willoughby@csun.edu"
-            ]
+            "end_time": "1515h"
         },
         {
             "class_number": "15965",
@@ -1610,13 +1260,7 @@
             "days": "W",
             "location": "BB1240",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "pamela.sasada@csun.edu",
-                "pamela.georgette@csun.edu",
-                "pamela.pettit@csun.edu",
-                "pamela.scherban-sierra@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 687": [
@@ -1628,23 +1272,19 @@
             "days": "W",
             "location": "ED3113",
             "start_time": "1900h",
-            "end_time": "2145h",
-            "possible_emails": []
+            "end_time": "2145h"
         }
     ],
     "EPC 689": [
         {
             "class_number": "15461",
-            "enrollment_cap": 25,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "shyrea.minton@csun.edu",
+            "instructor": "Minton,Shyrea J",
             "days": "W",
             "location": "BB1202",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": [
-                "shyrea.minton@csun.edu"
-            ]
+            "end_time": "1845h"
         }
     ],
     "EPC 690C": [
@@ -1654,10 +1294,21 @@
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "BB1204",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
+        }
+    ],
+    "EPC 690MFA": [
+        {
+            "class_number": "21264",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     ],
     "EPC 690MFC": [
@@ -1665,27 +1316,21 @@
             "class_number": "16170",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "diane.gehart@csun.edu",
+            "instructor": "Gehart,Diane R",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "diane.gehart@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16171",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "louis.willoughby@csun.edu",
+            "instructor": "Willoughby,Louis D",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "louis.willoughby@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "EPC 695MF": [
@@ -1697,8 +1342,7 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "16146",
@@ -1708,8 +1352,7 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "EPC 695S": [
@@ -1721,63 +1364,41 @@
             "days": "W",
             "location": "JD1552",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "possible_emails": []
+            "end_time": "1845h"
         }
     ],
     "EPC 695WC": [
         {
             "class_number": "15743",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Leon,Katie",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "katie.leon@csun.edu",
-                "katie.mortimer@csun.edu"
-            ]
-        },
-        {
-            "class_number": "15744",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "EPC 696": [
         {
             "class_number": "15858",
-            "enrollment_cap": 9,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "shyrea.minton@csun.edu",
+            "instructor": "Minton,Shyrea J",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "shyrea.minton@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "15859",
-            "enrollment_cap": 9,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "pete.goldschmidt@csun.edu",
+            "instructor": "Goldschmidt,Pete G",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "pete.goldschmidt@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "15925",
@@ -1787,30 +1408,17 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "jennifer.c.lee@csun.edu",
-                "wonjun.lee@csun.edu",
-                "nancy.lee@csun.edu",
-                "daehwan.lee@csun.edu",
-                "yeonjoo.lee@csun.edu",
-                "kenneth.lee@csun.edu",
-                "joongwon.lee@csun.edu",
-                "timmy.lee@csun.edu",
-                "junyeon.lee@csun.edu",
-                "tom.lee@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "15969",
-            "enrollment_cap": 8,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Busillo-Aguayo,Joannie L",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "15974",
@@ -1820,8 +1428,7 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "16169",
@@ -1831,19 +1438,17 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "16178",
-            "enrollment_cap": 8,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "EPC 696MF": [
@@ -1851,53 +1456,41 @@
             "class_number": "16143",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "diane.gehart@csun.edu",
+            "instructor": "Gehart,Diane R",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "diane.gehart@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16144",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "dana.stone@csun.edu",
+            "instructor": "Stone,Dana J",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "dana.stone@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16164",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "katherine.stevenson@csun.edu",
+            "instructor": "Stevens,Mark A",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "katherine.stevenson@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16165",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "jennifer.pemberton@csun.edu",
+            "instructor": "Pemberton,Jennifer V",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "jennifer.pemberton@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16166",
@@ -1907,49 +1500,41 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "EPC 697": [
         {
             "class_number": "15673",
-            "enrollment_cap": 40,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
-            "instructor": "alberto.restori@csun.edu",
+            "instructor": "Restori,Alberto F",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "alberto.restori@csun.edu"
-            ]
+            "end_time": "ARR"
         },
         {
             "class_number": "16177",
             "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructor": "wilda.laija-rodriguez@csun.edu",
+            "instructor": "Laija-Rodriguez,Wilda",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "wilda.laija-rodriguez@csun.edu"
-            ]
+            "end_time": "ARR"
         }
     ],
     "EPC 698C": [
         {
             "class_number": "15463",
-            "enrollment_cap": 20,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         },
         {
             "class_number": "16147",
@@ -1959,8 +1544,7 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ],
     "EPC 699C": [
@@ -1972,8 +1556,7 @@
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "end_time": "ARR"
         }
     ]
 }
