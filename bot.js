@@ -128,7 +128,7 @@ function show_prof(subject, itchid, id) {
       }
 
       
-      ret1 = ret1.concat("SPRING 2023");
+      ret1 = ret1.concat("\tSPRING 2023\n-----------\n");
       require("request")({
         url: `http://127.0.0.1:2222/time`,
         json: true
