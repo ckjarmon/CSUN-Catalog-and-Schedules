@@ -128,14 +128,14 @@ function show_prof(subject, itchid, id) {
       }
 
       
-      ret1 = ret1.concat("\tSPRING 2023\n-----------\n");
+      ret1 = ret1.concat("\n\tSPRING 2023\n\t-----------\n");
       require("request")({
         url: `http://127.0.0.1:2222/time`,
         json: true
       }, function (error, response, body) {
         console.log(`http://127.0.0.1:2222/time`);
         if (!error) {
-          ret1 = ret1.concat(body + "\n")
+          ret1 = ret1.concat("\n" + body + "\n")
         }
       });
       ret1 = ret1.concat("\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n");
