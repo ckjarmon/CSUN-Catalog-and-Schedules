@@ -89,6 +89,7 @@ function show_prof_dead(subject, prof, itchid) {
 
 function show_prof(subject, itchid, id) {
   var ret1 = "";
+  ret1 = ret1.concat("THIS IS CURRENTLY SHIT RN SO BEAR WITH ME, im trying my best\n\n")
   _url = (id) ? `http://127.0.0.1:2222/profs/${subject}/${id}` : `http://127.0.0.1:2222/profs/${subject}`;
   if (!id) {
     require("request")({
