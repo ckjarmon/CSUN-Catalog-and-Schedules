@@ -277,7 +277,7 @@ function show_class(subject, code, itchid) {
           
 
           ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
-          ret2 = (course.instructor !== "Staff") ? ret2.concat("\t\t" + course.instructor) : ret2.concat("\t\t\t\tStaff");
+          ret2 = (course.instructor !== "Staff") ? ret2.concat("\t\t\t" + course.instructor) : ret2.concat("\t\t\t\tStaff");
           ret2 = ret2.concat("\n");
         
       });
