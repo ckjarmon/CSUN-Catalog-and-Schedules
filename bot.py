@@ -92,7 +92,7 @@ def show_schedule(sem, year, sub, code):
             # Instructor
             # if a class has no instructor, print Staff instead
             if course["instructor"] != "Staff":
-                section_string.append(f"\t{course['instructor']}")
+                section_string.append(f"\t\t{course['instructor']}")
             else:
                 section_string.append("\t\t   " + "Staff")
             blob_list.append(" ".join(section_string))
