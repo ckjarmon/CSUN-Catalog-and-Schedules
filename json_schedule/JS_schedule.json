@@ -1,6 +1,6 @@
 {
-    "JS 101": [
-        {
+    "JS 101": {
+        "14231": {
             "class_number": "14231",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,7 +10,7 @@
             "start_time": "1100h",
             "end_time": "1240h"
         },
-        {
+        "14232": {
             "class_number": "14232",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -20,9 +20,9 @@
             "start_time": "1300h",
             "end_time": "1440h"
         }
-    ],
-    "JS 102": [
-        {
+    },
+    "JS 102": {
+        "14233": {
             "class_number": "14233",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -32,9 +32,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "JS 204": [
-        {
+    },
+    "JS 204": {
+        "14836": {
             "class_number": "14836",
             "enrollment_cap": 18,
             "enrollment_count": 0,
@@ -44,5 +44,5 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ]
+    }
 }

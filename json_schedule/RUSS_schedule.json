@@ -1,8 +1,8 @@
 {
-    "RUSS 150": [
-        {
+    "RUSS 150": {
+        "19575": {
             "class_number": "19575",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Wright,Alan N",
             "days": null,
@@ -10,11 +10,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 151A": [
-        {
+    },
+    "RUSS 151A": {
+        "18951": {
             "class_number": "18951",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Applen,Brittany N",
             "days": "S",
@@ -22,9 +22,9 @@
             "start_time": "1000h",
             "end_time": "1140h"
         }
-    ],
-    "RUSS 151B": [
-        {
+    },
+    "RUSS 151B": {
+        "19163": {
             "class_number": "19163",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -34,9 +34,9 @@
             "start_time": "1000h",
             "end_time": "1140h"
         }
-    ],
-    "RUSS 151C": [
-        {
+    },
+    "RUSS 151C": {
+        "19832": {
             "class_number": "19832",
             "enrollment_cap": 11,
             "enrollment_count": 0,
@@ -46,9 +46,9 @@
             "start_time": "1200h",
             "end_time": "1340h"
         }
-    ],
-    "RUSS 151D": [
-        {
+    },
+    "RUSS 151D": {
+        "18952": {
             "class_number": "18952",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -58,9 +58,9 @@
             "start_time": "0900h",
             "end_time": "1140h"
         }
-    ],
-    "RUSS 151F": [
-        {
+    },
+    "RUSS 151F": {
+        "19164": {
             "class_number": "19164",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -70,11 +70,11 @@
             "start_time": "0800h",
             "end_time": "0940h"
         }
-    ],
-    "RUSS 151G": [
-        {
+    },
+    "RUSS 151G": {
+        "18997": {
             "class_number": "18997",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Wilsey,Kassandra C",
             "days": "S",
@@ -82,9 +82,9 @@
             "start_time": "1400h",
             "end_time": "1540h"
         }
-    ],
-    "RUSS 151H": [
-        {
+    },
+    "RUSS 151H": {
+        "19051": {
             "class_number": "19051",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -94,9 +94,9 @@
             "start_time": "1200h",
             "end_time": "1340h"
         }
-    ],
-    "RUSS 202": [
-        {
+    },
+    "RUSS 202": {
+        "18923": {
             "class_number": "18923",
             "enrollment_cap": 23,
             "enrollment_count": 0,
@@ -106,9 +106,9 @@
             "start_time": "1400h",
             "end_time": "1540h"
         }
-    ],
-    "RUSS 202L": [
-        {
+    },
+    "RUSS 202L": {
+        "18924": {
             "class_number": "18924",
             "enrollment_cap": 23,
             "enrollment_count": 0,
@@ -118,9 +118,9 @@
             "start_time": "1400h",
             "end_time": "1540h"
         }
-    ],
-    "RUSS 204": [
-        {
+    },
+    "RUSS 204": {
+        "19005": {
             "class_number": "19005",
             "enrollment_cap": 16,
             "enrollment_count": 0,
@@ -130,9 +130,9 @@
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "RUSS 251": [
-        {
+    },
+    "RUSS 251": {
+        "19330": {
             "class_number": "19330",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -142,9 +142,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 265": [
-        {
+    },
+    "RUSS 265": {
+        "18925": {
             "class_number": "18925",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -154,9 +154,9 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "RUSS 267": [
-        {
+    },
+    "RUSS 267": {
+        "18926": {
             "class_number": "18926",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -166,9 +166,9 @@
             "start_time": "1300h",
             "end_time": "1350h"
         }
-    ],
-    "RUSS 267L": [
-        {
+    },
+    "RUSS 267L": {
+        "18927": {
             "class_number": "18927",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -178,9 +178,9 @@
             "start_time": "1350h",
             "end_time": "1545h"
         }
-    ],
-    "RUSS 278": [
-        {
+    },
+    "RUSS 278": {
+        "18928": {
             "class_number": "18928",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -190,9 +190,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "19331": {
             "class_number": "19331",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Sung,Erika HeeKyung",
             "days": null,
@@ -200,9 +200,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 280": [
-        {
+    },
+    "RUSS 280": {
+        "18929": {
             "class_number": "18929",
             "enrollment_cap": 18,
             "enrollment_count": 0,
@@ -212,9 +212,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "RUSS 300": [
-        {
+    },
+    "RUSS 300": {
+        "18947": {
             "class_number": "18947",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -224,11 +224,11 @@
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "RUSS 302": [
-        {
+    },
+    "RUSS 302": {
+        "18980": {
             "class_number": "18980",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Szczepanski,Timothy C",
             "days": "TR",
@@ -236,9 +236,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "RUSS 303": [
-        {
+    },
+    "RUSS 303": {
+        "18948": {
             "class_number": "18948",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -248,9 +248,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "RUSS 304": [
-        {
+    },
+    "RUSS 304": {
+        "19025": {
             "class_number": "19025",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -260,9 +260,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "RUSS 305": [
-        {
+    },
+    "RUSS 305": {
+        "18930": {
             "class_number": "18930",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -272,7 +272,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19333": {
             "class_number": "19333",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -282,9 +282,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 310": [
-        {
+    },
+    "RUSS 310": {
+        "18953": {
             "class_number": "18953",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -294,9 +294,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         }
-    ],
-    "RUSS 310L": [
-        {
+    },
+    "RUSS 310L": {
+        "18954": {
             "class_number": "18954",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -306,11 +306,11 @@
             "start_time": "0900h",
             "end_time": "1040h"
         }
-    ],
-    "RUSS 314": [
-        {
+    },
+    "RUSS 314": {
+        "19197": {
             "class_number": "19197",
-            "enrollment_cap": 11,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Lee,Joong-Won",
             "days": "R",
@@ -318,11 +318,11 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RUSS 330": [
-        {
+    },
+    "RUSS 330": {
+        "19165": {
             "class_number": "19165",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Ward,Veda E",
             "days": null,
@@ -330,7 +330,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19334": {
             "class_number": "19334",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -340,9 +340,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 352": [
-        {
+    },
+    "RUSS 352": {
+        "18931": {
             "class_number": "18931",
             "enrollment_cap": 11,
             "enrollment_count": 0,
@@ -352,9 +352,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 353": [
-        {
+    },
+    "RUSS 353": {
+        "19833": {
             "class_number": "19833",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -364,9 +364,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 353L": [
-        {
+    },
+    "RUSS 353L": {
+        "19834": {
             "class_number": "19834",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -376,11 +376,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 403": [
-        {
+    },
+    "RUSS 403": {
+        "18950": {
             "class_number": "18950",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Xie,Jimmy",
             "days": "TR",
@@ -388,9 +388,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "RUSS 406": [
-        {
+    },
+    "RUSS 406": {
+        "19337": {
             "class_number": "19337",
             "enrollment_cap": -3,
             "enrollment_count": 0,
@@ -400,9 +400,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 406L": [
-        {
+    },
+    "RUSS 406L": {
+        "19338": {
             "class_number": "19338",
             "enrollment_cap": -3,
             "enrollment_count": 0,
@@ -412,9 +412,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 415": [
-        {
+    },
+    "RUSS 415": {
+        "19481": {
             "class_number": "19481",
             "enrollment_cap": 26,
             "enrollment_count": 0,
@@ -424,9 +424,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "RUSS 434": [
-        {
+    },
+    "RUSS 434": {
+        "19396": {
             "class_number": "19396",
             "enrollment_cap": 9,
             "enrollment_count": 0,
@@ -436,9 +436,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RUSS 444": [
-        {
+    },
+    "RUSS 444": {
+        "19339": {
             "class_number": "19339",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -448,9 +448,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "RUSS 452": [
-        {
+    },
+    "RUSS 452": {
+        "19248": {
             "class_number": "19248",
             "enrollment_cap": 25,
             "enrollment_count": 0,
@@ -460,9 +460,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "RUSS 490": [
-        {
+    },
+    "RUSS 490": {
+        "18933": {
             "class_number": "18933",
             "enrollment_cap": 9,
             "enrollment_count": 0,
@@ -472,9 +472,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "RUSS 494C": [
-        {
+    },
+    "RUSS 494C": {
+        "19340": {
             "class_number": "19340",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -484,7 +484,7 @@
             "start_time": "1500h",
             "end_time": "1745h"
         },
-        {
+        "19341": {
             "class_number": "19341",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -494,9 +494,9 @@
             "start_time": "1800h",
             "end_time": "2045h"
         }
-    ],
-    "RUSS 499C": [
-        {
+    },
+    "RUSS 499C": {
+        "20113": {
             "class_number": "20113",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -506,9 +506,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "RUSS 550": [
-        {
+    },
+    "RUSS 550": {
+        "19045": {
             "class_number": "19045",
             "enrollment_cap": 11,
             "enrollment_count": 0,
@@ -518,9 +518,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RUSS 560": [
-        {
+    },
+    "RUSS 560": {
+        "19482": {
             "class_number": "19482",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -530,9 +530,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RUSS 610": [
-        {
+    },
+    "RUSS 610": {
+        "20114": {
             "class_number": "20114",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -542,9 +542,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RUSS 693B": [
-        {
+    },
+    "RUSS 693B": {
+        "19342": {
             "class_number": "19342",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -554,9 +554,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "RUSS 697": [
-        {
+    },
+    "RUSS 697": {
+        "19836": {
             "class_number": "19836",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -566,9 +566,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RUSS 698": [
-        {
+    },
+    "RUSS 698": {
+        "19035": {
             "class_number": "19035",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -578,5 +578,5 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ]
+    }
 }

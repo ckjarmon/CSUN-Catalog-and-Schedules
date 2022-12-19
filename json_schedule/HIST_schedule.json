@@ -1,6 +1,6 @@
 {
-    "HIST 513": [
-        {
+    "HIST 513": {
+        "19982": {
             "class_number": "19982",
             "enrollment_cap": 17,
             "enrollment_count": 0,
@@ -10,5 +10,5 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ]
+    }
 }

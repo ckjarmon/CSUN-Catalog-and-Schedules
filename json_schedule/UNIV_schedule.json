@@ -1,6 +1,6 @@
 {
-    "UNIV 108A": [
-        {
+    "UNIV 108A": {
+        "10871": {
             "class_number": "10871",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -10,7 +10,7 @@
             "start_time": "1100h",
             "end_time": "1240h"
         },
-        {
+        "10901": {
             "class_number": "10901",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -20,11 +20,11 @@
             "start_time": "1200h",
             "end_time": "1340h"
         }
-    ],
-    "UNIV 110": [
-        {
+    },
+    "UNIV 110": {
+        "11292": {
             "class_number": "11292",
-            "enrollment_cap": 72,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructor": "Morrison,J'aime B",
             "days": null,
@@ -32,11 +32,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 111": [
-        {
+    },
+    "UNIV 111": {
+        "10911": {
             "class_number": "10911",
-            "enrollment_cap": 15,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Clark,Ronnie",
             "days": "MW",
@@ -44,7 +44,7 @@
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "10797": {
             "class_number": "10797",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -54,9 +54,9 @@
             "start_time": "1100h",
             "end_time": "1345h"
         },
-        {
+        "10548": {
             "class_number": "10548",
-            "enrollment_cap": 8,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Aviles Rodriguez,Guillermo G.",
             "days": "TR",
@@ -64,7 +64,7 @@
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "10518": {
             "class_number": "10518",
             "enrollment_cap": 31,
             "enrollment_count": 0,
@@ -74,7 +74,7 @@
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "10912": {
             "class_number": "10912",
             "enrollment_cap": 31,
             "enrollment_count": 0,
@@ -84,9 +84,9 @@
             "start_time": "0800h",
             "end_time": "1045h"
         }
-    ],
-    "UNIV 111HON": [
-        {
+    },
+    "UNIV 111HON": {
+        "11320": {
             "class_number": "11320",
             "enrollment_cap": 35,
             "enrollment_count": 0,
@@ -96,9 +96,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "UNIV 142M": [
-        {
+    },
+    "UNIV 142M": {
+        "10872": {
             "class_number": "10872",
             "enrollment_cap": 11,
             "enrollment_count": 0,
@@ -108,7 +108,7 @@
             "start_time": "1500h",
             "end_time": "1640h"
         },
-        {
+        "10914": {
             "class_number": "10914",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -118,9 +118,9 @@
             "start_time": "1300h",
             "end_time": "1440h"
         }
-    ],
-    "UNIV 143V": [
-        {
+    },
+    "UNIV 143V": {
+        "10873": {
             "class_number": "10873",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -130,7 +130,7 @@
             "start_time": "1200h",
             "end_time": "1340h"
         },
-        {
+        "10915": {
             "class_number": "10915",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -140,9 +140,9 @@
             "start_time": "1000h",
             "end_time": "1140h"
         }
-    ],
-    "UNIV 155": [
-        {
+    },
+    "UNIV 155": {
+        "10877": {
             "class_number": "10877",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -152,9 +152,9 @@
             "start_time": "1300h",
             "end_time": "1440h"
         }
-    ],
-    "UNIV 190": [
-        {
+    },
+    "UNIV 190": {
+        "11293": {
             "class_number": "11293",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -164,7 +164,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "11321": {
             "class_number": "11321",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -174,9 +174,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 208A": [
-        {
+    },
+    "UNIV 208A": {
+        "10848": {
             "class_number": "10848",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -186,11 +186,11 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "UNIV 222": [
-        {
+    },
+    "UNIV 222": {
+        "10868": {
             "class_number": "10868",
-            "enrollment_cap": 23,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Lim,Stephanie J",
             "days": "MW",
@@ -198,9 +198,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "UNIV 261": [
-        {
+    },
+    "UNIV 261": {
+        "11169": {
             "class_number": "11169",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -210,9 +210,9 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 261P": [
-        {
+    },
+    "UNIV 261P": {
+        "10874": {
             "class_number": "10874",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -222,9 +222,9 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "UNIV 262": [
-        {
+    },
+    "UNIV 262": {
+        "11295": {
             "class_number": "11295",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -234,9 +234,9 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "UNIV 262P": [
-        {
+    },
+    "UNIV 262P": {
+        "10875": {
             "class_number": "10875",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -246,11 +246,11 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 263": [
-        {
+    },
+    "UNIV 263": {
+        "11170": {
             "class_number": "11170",
-            "enrollment_cap": 7,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": "TR",
@@ -258,11 +258,11 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 263P": [
-        {
+    },
+    "UNIV 263P": {
+        "10876": {
             "class_number": "10876",
-            "enrollment_cap": 7,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": "F",
@@ -270,9 +270,9 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 290": [
-        {
+    },
+    "UNIV 290": {
+        "11294": {
             "class_number": "11294",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -282,7 +282,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "11322": {
             "class_number": "11322",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -292,9 +292,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 308A": [
-        {
+    },
+    "UNIV 308A": {
+        "11300": {
             "class_number": "11300",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -304,11 +304,11 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "UNIV 310": [
-        {
+    },
+    "UNIV 310": {
+        "11057": {
             "class_number": "11057",
-            "enrollment_cap": 54,
+            "enrollment_cap": 51,
             "enrollment_count": 0,
             "instructor": "Kaback,Douglas E",
             "days": null,
@@ -316,9 +316,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 321A": [
-        {
+    },
+    "UNIV 321A": {
+        "10869": {
             "class_number": "10869",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -328,9 +328,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 321B": [
-        {
+    },
+    "UNIV 321B": {
+        "10870": {
             "class_number": "10870",
             "enrollment_cap": 17,
             "enrollment_count": 0,
@@ -340,9 +340,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "UNIV 325": [
-        {
+    },
+    "UNIV 325": {
+        "11587": {
             "class_number": "11587",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -352,7 +352,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "11588": {
             "class_number": "11588",
             "enrollment_cap": 51,
             "enrollment_count": 0,
@@ -362,11 +362,11 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "UNIV 333": [
-        {
+    },
+    "UNIV 333": {
+        "11853": {
             "class_number": "11853",
-            "enrollment_cap": 10,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Jackson,Matthew A",
             "days": null,
@@ -374,9 +374,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 342M": [
-        {
+    },
+    "UNIV 342M": {
+        "11051": {
             "class_number": "11051",
             "enrollment_cap": 11,
             "enrollment_count": 0,
@@ -386,9 +386,9 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 346": [
-        {
+    },
+    "UNIV 346": {
+        "11028": {
             "class_number": "11028",
             "enrollment_cap": 21,
             "enrollment_count": 0,
@@ -398,9 +398,9 @@
             "start_time": "1000h",
             "end_time": "1245h"
         }
-    ],
-    "UNIV 350": [
-        {
+    },
+    "UNIV 350": {
+        "10510": {
             "class_number": "10510",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -410,9 +410,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 361B": [
-        {
+    },
+    "UNIV 361B": {
+        "11012": {
             "class_number": "11012",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -422,9 +422,9 @@
             "start_time": "1530h",
             "end_time": "1710h"
         }
-    ],
-    "UNIV 361P": [
-        {
+    },
+    "UNIV 361P": {
+        "1002": {
             "class_number": "1002",
             "enrollment_cap": 29,
             "enrollment_count": 0,
@@ -434,9 +434,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 362A": [
-        {
+    },
+    "UNIV 362A": {
+        "11175": {
             "class_number": "11175",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -446,9 +446,9 @@
             "start_time": "TBA",
             "end_time": "TBA"
         }
-    ],
-    "UNIV 362B": [
-        {
+    },
+    "UNIV 362B": {
+        "11013": {
             "class_number": "11013",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -458,9 +458,9 @@
             "start_time": "1300h",
             "end_time": "1440h"
         }
-    ],
-    "UNIV 362P": [
-        {
+    },
+    "UNIV 362P": {
+        "1003": {
             "class_number": "1003",
             "enrollment_cap": 30,
             "enrollment_count": 0,
@@ -470,9 +470,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 363A": [
-        {
+    },
+    "UNIV 363A": {
+        "11296": {
             "class_number": "11296",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -482,9 +482,9 @@
             "start_time": "1200h",
             "end_time": "1340h"
         }
-    ],
-    "UNIV 363P": [
-        {
+    },
+    "UNIV 363P": {
+        "1004": {
             "class_number": "1004",
             "enrollment_cap": 30,
             "enrollment_count": 0,
@@ -494,9 +494,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 371": [
-        {
+    },
+    "UNIV 371": {
+        "10684": {
             "class_number": "10684",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -506,7 +506,7 @@
             "start_time": "0900h",
             "end_time": "0950h"
         },
-        {
+        "11297": {
             "class_number": "11297",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -516,7 +516,7 @@
             "start_time": "1200h",
             "end_time": "1250h"
         },
-        {
+        "11956": {
             "class_number": "11956",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -526,9 +526,9 @@
             "start_time": "1600h",
             "end_time": "1650h"
         }
-    ],
-    "UNIV 371L": [
-        {
+    },
+    "UNIV 371L": {
+        "10685": {
             "class_number": "10685",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -538,7 +538,7 @@
             "start_time": "1000h",
             "end_time": "1050h"
         },
-        {
+        "11298": {
             "class_number": "11298",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -548,7 +548,7 @@
             "start_time": "1300h",
             "end_time": "1350h"
         },
-        {
+        "11972": {
             "class_number": "11972",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -558,9 +558,9 @@
             "start_time": "1700h",
             "end_time": "1750h"
         }
-    ],
-    "UNIV 381": [
-        {
+    },
+    "UNIV 381": {
+        "20752": {
             "class_number": "20752",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -570,9 +570,9 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "UNIV 382A": [
-        {
+    },
+    "UNIV 382A": {
+        "10519": {
             "class_number": "10519",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -582,9 +582,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 382B": [
-        {
+    },
+    "UNIV 382B": {
+        "10520": {
             "class_number": "10520",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -594,9 +594,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 382C": [
-        {
+    },
+    "UNIV 382C": {
+        "10521": {
             "class_number": "10521",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -606,9 +606,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 384": [
-        {
+    },
+    "UNIV 384": {
+        "10841": {
             "class_number": "10841",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -618,9 +618,9 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 390B": [
-        {
+    },
+    "UNIV 390B": {
+        "11025": {
             "class_number": "11025",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -630,7 +630,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "10888": {
             "class_number": "10888",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -640,7 +640,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "10889": {
             "class_number": "10889",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -650,7 +650,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "10890": {
             "class_number": "10890",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -660,9 +660,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 397": [
-        {
+    },
+    "UNIV 397": {
+        "10513": {
             "class_number": "10513",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -672,9 +672,9 @@
             "start_time": "1300h",
             "end_time": "1350h"
         }
-    ],
-    "UNIV 410": [
-        {
+    },
+    "UNIV 410": {
+        "20753": {
             "class_number": "20753",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -684,9 +684,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "UNIV 444": [
-        {
+    },
+    "UNIV 444": {
+        "10514": {
             "class_number": "10514",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -696,9 +696,9 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "UNIV 448": [
-        {
+    },
+    "UNIV 448": {
+        "11889": {
             "class_number": "11889",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -708,9 +708,9 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "UNIV 449": [
-        {
+    },
+    "UNIV 449": {
+        "10846": {
             "class_number": "10846",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -720,9 +720,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "UNIV 454": [
-        {
+    },
+    "UNIV 454": {
+        "11916": {
             "class_number": "11916",
             "enrollment_cap": 9,
             "enrollment_count": 0,
@@ -732,9 +732,9 @@
             "start_time": "1200h",
             "end_time": "1725h"
         }
-    ],
-    "UNIV 457": [
-        {
+    },
+    "UNIV 457": {
+        "10572": {
             "class_number": "10572",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -744,9 +744,9 @@
             "start_time": "1000h",
             "end_time": "1200h"
         }
-    ],
-    "UNIV 473": [
-        {
+    },
+    "UNIV 473": {
+        "10724": {
             "class_number": "10724",
             "enrollment_cap": 16,
             "enrollment_count": 0,
@@ -756,9 +756,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         }
-    ],
-    "UNIV 473L": [
-        {
+    },
+    "UNIV 473L": {
+        "10725": {
             "class_number": "10725",
             "enrollment_cap": 16,
             "enrollment_count": 0,
@@ -768,9 +768,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         }
-    ],
-    "UNIV 490B": [
-        {
+    },
+    "UNIV 490B": {
+        "11029": {
             "class_number": "11029",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -780,7 +780,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "10891": {
             "class_number": "10891",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -790,7 +790,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "10892": {
             "class_number": "10892",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -800,7 +800,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "10893": {
             "class_number": "10893",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -810,9 +810,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 498F": [
-        {
+    },
+    "UNIV 498F": {
+        "10516": {
             "class_number": "10516",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -822,9 +822,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "UNIV 544": [
-        {
+    },
+    "UNIV 544": {
+        "11930": {
             "class_number": "11930",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -834,9 +834,9 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "UNIV 545": [
-        {
+    },
+    "UNIV 545": {
+        "11888": {
             "class_number": "11888",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -846,9 +846,9 @@
             "start_time": "1200h",
             "end_time": "1725h"
         }
-    ],
-    "UNIV 698C": [
-        {
+    },
+    "UNIV 698C": {
+        "10524": {
             "class_number": "10524",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -858,5 +858,5 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ]
+    }
 }

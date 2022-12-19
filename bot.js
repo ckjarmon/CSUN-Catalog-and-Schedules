@@ -6,10 +6,11 @@ const {
   Client,
   GatewayIntentBits,
   GatewayDispatchEvents,
-  EmbedBuilder
+  EmbedBuilder,
+  Guild
 } = require('discord.js');
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
+  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMembers]
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -214,7 +215,7 @@ function show_levels(subject, level, itchid) {
 // for every semester after Fall 2022
 function show_class(subject, code, itchid) {
 
-  
+
   console.log("Show class called.");
   var ret1 = "",
     ret2 = "";
@@ -235,7 +236,7 @@ function show_class(subject, code, itchid) {
           }, function (error, response, body) {
             console.log(`http://127.0.0.1:2222/time`);
             if (!error) {
-             ret1 = ret1.concat(body + "\n");
+              ret1 = ret1.concat(body + "\n");
             }
           });
         }
@@ -243,45 +244,52 @@ function show_class(subject, code, itchid) {
     }
   }); /*end request*/
   require("request")({
-     url: `http://127.0.0.1:2222/${subject}/schedule`,
+    url: `http://127.0.0.1:2222/${subject}/schedule`,
     json: true
   }, async function (error, response, body) {
     console.log(`http://127.0.0.1:2222/${subject}/schedule`);
     if (!error) {
 
       const stuffs = JSON.parse(JSON.stringify(body));
-      ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
-      stuffs[`${String(subject).toUpperCase()} ${code}`].forEach(course => {
-      console.log(course)
-          ret2 = ret2.concat("\t " + course.class_number);
-          ret2 = (course.location.length === 3) ? ret2.concat("\t\t       ") : ret2.concat("");
-          ret2 = (course.location.length === 5) ? ret2.concat("\t\t   " + course.location) : ret2.concat("\t\t  " + course.location);
+      ret2 = ret2.concat("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty\n\t-------\t\t--------\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n");
+      for (const key in stuffs[`${String(subject).toUpperCase()} ${code}`]) {
+        course = stuffs[`${String(subject).toUpperCase()} ${code}`][key]
+
+        console.log(course)
+
+        ret2 = ret2.concat("\t " + course.class_number);
+        ret2 = (course.location.length === 3) ? ret2.concat("\t\t       ") : ret2.concat("");
+        ret2 = (course.location.length === 5) ? ret2.concat("\t\t   " + course.location) : ret2.concat("\t\t  " + course.location);
 
 
 
-          if (course.days !== null) {
-            switch (course.days.length) {
-              case 1:
-                ret2 = ret2.concat("\t\t   " + course.days);
-                break;
-              case 2:
-                ret2 = ret2.concat("\t\t  " + course.days);
-                break;
-              case 3:
-                ret2 = ret2.concat("\t\t  " + course.days);
-                break;
-              default:
-                ret2 = ret2.concat("\t\t " + course.days);
-            }} else {
-              ret2 = ret2.concat("\t\t  --");
-            }
-          
+        if (course.days !== null) {
+          switch (course.days.length) {
+            case 1:
+              ret2 = ret2.concat("\t\t   " + course.days);
+              break;
+            case 2:
+              ret2 = ret2.concat("\t\t  " + course.days);
+              break;
+            case 3:
+              ret2 = ret2.concat("\t\t  " + course.days);
+              break;
+            default:
+              ret2 = ret2.concat("\t\t " + course.days);
+          }
+        } else {
+          ret2 = ret2.concat("\t\t  --");
+        }
 
-          ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
-          ret2 = (course.instructor !== "Staff") ? ret2.concat("\t\t\t" + course.instructor) : ret2.concat("\t\t\t\tStaff");
-          ret2 = ret2.concat("\n");
-        
-      });
+
+        ret2 = ret2.concat(`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`)
+        if (course.waitlist_cap > 0) { ret2 = ret2.concat(`\t\t\t      ${(course.waitlist_cap - course.waitlist_count)}`) }
+        else { ret2 = ret2.concat(`\t\t\t     N/A   `) }
+        ret2 = ret2.concat(`\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
+        ret2 = (course.instructor !== "Staff") ? ret2.concat("\t\t" + course.instructor) : ret2.concat("\t\t\t\tStaff");
+        ret2 = ret2.concat("\n");
+      }
+
     } /*end if*/
     if (ret1.length + ret2.length < 4000) {
       setTimeout(async () => {
@@ -528,6 +536,9 @@ client.on('interactionCreate', async interaction => {
     show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid)
     await interaction.reply("Gimme a sec");
 
+  } else if (commandName === 'gunfight') {
+   //console.log(interaction.options.getUser('target').id.toString())
+   console.log(client.guilds.cache.get(interaction.options.getUser('target').id.toString()))
   }
 });
 client.login(token);

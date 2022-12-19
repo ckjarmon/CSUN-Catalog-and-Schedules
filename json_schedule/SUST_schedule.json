@@ -1,6 +1,6 @@
 {
-    "SUST 510": [
-        {
+    "SUST 510": {
+        "21159": {
             "class_number": "21159",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -10,9 +10,9 @@
             "start_time": "1800h",
             "end_time": "2040h"
         }
-    ],
-    "SUST 520": [
-        {
+    },
+    "SUST 520": {
+        "21162": {
             "class_number": "21162",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -22,5 +22,5 @@
             "start_time": "1800h",
             "end_time": "2040h"
         }
-    ]
+    }
 }

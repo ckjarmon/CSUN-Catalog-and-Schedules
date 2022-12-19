@@ -1,6 +1,6 @@
 {
-    "SWRK 300": [
-        {
+    "SWRK 300": {
+        "14425": {
             "class_number": "14425",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,9 +10,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "14942": {
             "class_number": "14942",
-            "enrollment_cap": 35,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
             "instructor": "Chaudhari,Lisa",
             "days": "R",
@@ -20,9 +20,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "SWRK 310": [
-        {
+    },
+    "SWRK 310": {
+        "14369": {
             "class_number": "14369",
             "enrollment_cap": -1,
             "enrollment_count": 0,
@@ -32,7 +32,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "14911": {
             "class_number": "14911",
             "enrollment_cap": 24,
             "enrollment_count": 0,
@@ -42,9 +42,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "SWRK 401": [
-        {
+    },
+    "SWRK 401": {
+        "14426": {
             "class_number": "14426",
             "enrollment_cap": 18,
             "enrollment_count": 0,
@@ -54,5 +54,5 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ]
+    }
 }

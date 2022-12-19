@@ -1,8 +1,8 @@
 {
-    "QS 703": [
-        {
+    "QS 703": {
+        "19289": {
             "class_number": "19289",
-            "enrollment_cap": 32,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Adams,Janet M",
             "days": "W",
@@ -10,11 +10,11 @@
             "start_time": "1100h",
             "end_time": "1240h"
         }
-    ],
-    "QS 703L": [
-        {
+    },
+    "QS 703L": {
+        "19290": {
             "class_number": "19290",
-            "enrollment_cap": 16,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
@@ -22,7 +22,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "19291": {
             "class_number": "19291",
             "enrollment_cap": 16,
             "enrollment_count": 0,
@@ -32,11 +32,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 706": [
-        {
+    },
+    "QS 706": {
+        "19983": {
             "class_number": "19983",
-            "enrollment_cap": 32,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Chang,Julia W",
             "days": "W",
@@ -44,11 +44,11 @@
             "start_time": "0800h",
             "end_time": "0940h"
         }
-    ],
-    "QS 706L": [
-        {
+    },
+    "QS 706L": {
+        "19984": {
             "class_number": "19984",
-            "enrollment_cap": 17,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Chang,Julia W",
             "days": "F",
@@ -56,7 +56,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "19985": {
             "class_number": "19985",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -66,11 +66,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 711": [
-        {
+    },
+    "QS 711": {
+        "20051": {
             "class_number": "20051",
-            "enrollment_cap": 32,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -78,11 +78,11 @@
             "start_time": "1200h",
             "end_time": "1340h"
         }
-    ],
-    "QS 711L": [
-        {
+    },
+    "QS 711L": {
+        "20052": {
             "class_number": "20052",
-            "enrollment_cap": 16,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -90,7 +90,7 @@
             "start_time": "0800h",
             "end_time": "1045h"
         },
-        {
+        "20053": {
             "class_number": "20053",
             "enrollment_cap": 16,
             "enrollment_count": 0,
@@ -100,9 +100,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 712": [
-        {
+    },
+    "QS 712": {
+        "20055": {
             "class_number": "20055",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -112,9 +112,9 @@
             "start_time": "1200h",
             "end_time": "1340h"
         }
-    ],
-    "QS 712L": [
-        {
+    },
+    "QS 712L": {
+        "20056": {
             "class_number": "20056",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -124,7 +124,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "20057": {
             "class_number": "20057",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -134,11 +134,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 720": [
-        {
+    },
+    "QS 720": {
+        "19292": {
             "class_number": "19292",
-            "enrollment_cap": 32,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -146,11 +146,11 @@
             "start_time": "1200h",
             "end_time": "1315h"
         }
-    ],
-    "QS 720L": [
-        {
+    },
+    "QS 720L": {
+        "19293": {
             "class_number": "19293",
-            "enrollment_cap": 16,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -158,7 +158,7 @@
             "start_time": "0800h",
             "end_time": "1045h"
         },
-        {
+        "19294": {
             "class_number": "19294",
             "enrollment_cap": 16,
             "enrollment_count": 0,
@@ -168,9 +168,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 732": [
-        {
+    },
+    "QS 732": {
+        "19669": {
             "class_number": "19669",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -180,9 +180,9 @@
             "start_time": "1115h",
             "end_time": "1255h"
         }
-    ],
-    "QS 732L": [
-        {
+    },
+    "QS 732L": {
+        "19670": {
             "class_number": "19670",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -192,7 +192,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "19671": {
             "class_number": "19671",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -202,9 +202,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 740": [
-        {
+    },
+    "QS 740": {
+        "20632": {
             "class_number": "20632",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -214,9 +214,9 @@
             "start_time": "1300h",
             "end_time": "1440h"
         }
-    ],
-    "QS 740L": [
-        {
+    },
+    "QS 740L": {
+        "20633": {
             "class_number": "20633",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -226,7 +226,7 @@
             "start_time": "1500h",
             "end_time": "1745h"
         },
-        {
+        "20634": {
             "class_number": "20634",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -236,9 +236,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 742": [
-        {
+    },
+    "QS 742": {
+        "20629": {
             "class_number": "20629",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -248,7 +248,7 @@
             "start_time": "0800h",
             "end_time": "0945h"
         },
-        {
+        "20640": {
             "class_number": "20640",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -258,9 +258,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 742L": [
-        {
+    },
+    "QS 742L": {
+        "20630": {
             "class_number": "20630",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -270,7 +270,7 @@
             "start_time": "1000h",
             "end_time": "1245h"
         },
-        {
+        "20631": {
             "class_number": "20631",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -280,9 +280,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 746L": [
-        {
+    },
+    "QS 746L": {
+        "20006": {
             "class_number": "20006",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -292,7 +292,7 @@
             "start_time": "0800h",
             "end_time": "1045h"
         },
-        {
+        "20007": {
             "class_number": "20007",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -302,9 +302,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 752A": [
-        {
+    },
+    "QS 752A": {
+        "19436": {
             "class_number": "19436",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -314,9 +314,9 @@
             "start_time": "0900h",
             "end_time": "1040h"
         }
-    ],
-    "QS 752C": [
-        {
+    },
+    "QS 752C": {
+        "19437": {
             "class_number": "19437",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -326,7 +326,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19438": {
             "class_number": "19438",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -336,7 +336,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19439": {
             "class_number": "19439",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -346,7 +346,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19440": {
             "class_number": "19440",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -356,7 +356,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19441": {
             "class_number": "19441",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -366,7 +366,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19442": {
             "class_number": "19442",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -376,7 +376,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19539": {
             "class_number": "19539",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -386,9 +386,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 772": [
-        {
+    },
+    "QS 772": {
+        "20002": {
             "class_number": "20002",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -398,9 +398,9 @@
             "start_time": "1330h",
             "end_time": "1420h"
         }
-    ],
-    "QS 772L": [
-        {
+    },
+    "QS 772L": {
+        "20003": {
             "class_number": "20003",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -410,7 +410,7 @@
             "start_time": "1430h",
             "end_time": "1715h"
         },
-        {
+        "20004": {
             "class_number": "20004",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -420,9 +420,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 773": [
-        {
+    },
+    "QS 773": {
+        "20054": {
             "class_number": "20054",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -432,9 +432,9 @@
             "start_time": "0900h",
             "end_time": "1045h"
         }
-    ],
-    "QS 774": [
-        {
+    },
+    "QS 774": {
+        "19672": {
             "class_number": "19672",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -444,9 +444,9 @@
             "start_time": "1130h",
             "end_time": "1310h"
         }
-    ],
-    "QS 778": [
-        {
+    },
+    "QS 778": {
+        "20028": {
             "class_number": "20028",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -456,9 +456,9 @@
             "start_time": "1100h",
             "end_time": "1150h"
         }
-    ],
-    "QS 778L": [
-        {
+    },
+    "QS 778L": {
+        "19550": {
             "class_number": "19550",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -468,7 +468,7 @@
             "start_time": "1200h",
             "end_time": "1445h"
         },
-        {
+        "19551": {
             "class_number": "19551",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -478,9 +478,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "QS 780": [
-        {
+    },
+    "QS 780": {
+        "20005": {
             "class_number": "20005",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -490,9 +490,9 @@
             "start_time": "1530h",
             "end_time": "1710h"
         }
-    ],
-    "QS 785H": [
-        {
+    },
+    "QS 785H": {
+        "20060": {
             "class_number": "20060",
             "enrollment_cap": 11,
             "enrollment_count": 0,
@@ -502,9 +502,9 @@
             "start_time": "1100h",
             "end_time": "1345h"
         }
-    ],
-    "QS 785I": [
-        {
+    },
+    "QS 785I": {
+        "20902": {
             "class_number": "20902",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -514,11 +514,11 @@
             "start_time": "0800h",
             "end_time": "1045h"
         }
-    ],
-    "QS 790": [
-        {
+    },
+    "QS 790": {
+        "19295": {
             "class_number": "19295",
-            "enrollment_cap": 32,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Stewart,Myra Nichole",
             "days": "R",
@@ -526,9 +526,9 @@
             "start_time": "1400h",
             "end_time": "1450h"
         }
-    ],
-    "QS 792": [
-        {
+    },
+    "QS 792": {
+        "19435": {
             "class_number": "19435",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -538,9 +538,9 @@
             "start_time": "0930h",
             "end_time": "1020h"
         }
-    ],
-    "QS 797": [
-        {
+    },
+    "QS 797": {
+        "19553": {
             "class_number": "19553",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -550,7 +550,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "19554": {
             "class_number": "19554",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -560,5 +560,5 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ]
+    }
 }

@@ -3,7 +3,7 @@
     "@discordjs/rest": "^1.0.1",
     "@types/node": "^18.7.10",
     "discord-api-types": "^0.37.3",
-    "discord.js": "^14.2.0",
+    "discord.js": "^14.7.1",
     "dotenv": "^16.0.1",
     "https": "^1.0.0",
     "node-fetch": "^2.6.1",

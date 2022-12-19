@@ -48,8 +48,9 @@ const commands = [
 			option.setName('subject').setDescription('subject')
 			.setRequired(true)).addStringOption(option =>
 			option.setName('level').setDescription('00-th level')
-			.setRequired(true))
-	]
+			.setRequired(true)),
+			new SlashCommandBuilder().setName('gunfight').setDescription('start a gunfight').addUserOption(op => op.setName('target').setDescription('ya tu sabes').setRequired(true)),
+		]
 	.map(command => command.toJSON());
 
 const rest = new REST({

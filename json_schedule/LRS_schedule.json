@@ -1,6 +1,6 @@
 {
-    "LRS 113A": [
-        {
+    "LRS 113A": {
+        "15036": {
             "class_number": "15036",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -10,7 +10,7 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "15037": {
             "class_number": "15037",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -20,9 +20,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "LRS 113B": [
-        {
+    },
+    "LRS 113B": {
+        "15083": {
             "class_number": "15083",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -32,7 +32,7 @@
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "15084": {
             "class_number": "15084",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -42,9 +42,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "15086": {
             "class_number": "15086",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
@@ -52,7 +52,7 @@
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "15087": {
             "class_number": "15087",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -62,9 +62,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "LRS 200": [
-        {
+    },
+    "LRS 200": {
+        "14723": {
             "class_number": "14723",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -74,9 +74,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "14742": {
             "class_number": "14742",
-            "enrollment_cap": 21,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Saltzman,Moira",
             "days": "TR",
@@ -84,9 +84,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "LRS 250": [
-        {
+    },
+    "LRS 250": {
+        "14299": {
             "class_number": "14299",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -96,7 +96,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "15005": {
             "class_number": "15005",
             "enrollment_cap": -1,
             "enrollment_count": 0,
@@ -106,11 +106,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "LRS 303": [
-        {
+    },
+    "LRS 303": {
+        "15400": {
             "class_number": "15400",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Medeiros,David J",
             "days": "MW",
@@ -118,9 +118,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "LRS 309": [
-        {
+    },
+    "LRS 309": {
+        "15401": {
             "class_number": "15401",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -130,9 +130,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "LRS 310": [
-        {
+    },
+    "LRS 310": {
+        "14300": {
             "class_number": "14300",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -142,7 +142,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "15143": {
             "class_number": "15143",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -152,7 +152,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "15335": {
             "class_number": "15335",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -162,7 +162,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "15437": {
             "class_number": "15437",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -172,9 +172,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "LRS 325": [
-        {
+    },
+    "LRS 325": {
+        "14534": {
             "class_number": "14534",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -184,7 +184,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "14831": {
             "class_number": "14831",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -194,9 +194,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "LRS 330": [
-        {
+    },
+    "LRS 330": {
+        "20792": {
             "class_number": "20792",
             "enrollment_cap": 26,
             "enrollment_count": 0,
@@ -206,11 +206,11 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "LRS 402": [
-        {
+    },
+    "LRS 402": {
+        "14533": {
             "class_number": "14533",
-            "enrollment_cap": 18,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Saltzman,Moira",
             "days": "M",
@@ -218,9 +218,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "LRS 404": [
-        {
+    },
+    "LRS 404": {
+        "14539": {
             "class_number": "14539",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -230,9 +230,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "LRS 417": [
-        {
+    },
+    "LRS 417": {
+        "13949": {
             "class_number": "13949",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -242,7 +242,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "13952": {
             "class_number": "13952",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -252,7 +252,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "13950": {
             "class_number": "13950",
             "enrollment_cap": 19,
             "enrollment_count": 0,
@@ -262,9 +262,9 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "LRS 427": [
-        {
+    },
+    "LRS 427": {
+        "14281": {
             "class_number": "14281",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -274,9 +274,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "LRS 505": [
-        {
+    },
+    "LRS 505": {
+        "15242": {
             "class_number": "15242",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -286,9 +286,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "LRS 506": [
-        {
+    },
+    "LRS 506": {
+        "15179": {
             "class_number": "15179",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -298,9 +298,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "LRS 520": [
-        {
+    },
+    "LRS 520": {
+        "14833": {
             "class_number": "14833",
             "enrollment_cap": 16,
             "enrollment_count": 0,
@@ -310,9 +310,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "LRS 525": [
-        {
+    },
+    "LRS 525": {
+        "14828": {
             "class_number": "14828",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -322,9 +322,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "LRS 541": [
-        {
+    },
+    "LRS 541": {
+        "15006": {
             "class_number": "15006",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -334,9 +334,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "LRS 555": [
-        {
+    },
+    "LRS 555": {
+        "14727": {
             "class_number": "14727",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -346,9 +346,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "LRS 566": [
-        {
+    },
+    "LRS 566": {
+        "14728": {
             "class_number": "14728",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -358,9 +358,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "LRS 578": [
-        {
+    },
+    "LRS 578": {
+        "15007": {
             "class_number": "15007",
             "enrollment_cap": 17,
             "enrollment_count": 0,
@@ -370,9 +370,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "LRS 698D": [
-        {
+    },
+    "LRS 698D": {
+        "15178": {
             "class_number": "15178",
             "enrollment_cap": 11,
             "enrollment_count": 0,
@@ -382,5 +382,5 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ]
+    }
 }

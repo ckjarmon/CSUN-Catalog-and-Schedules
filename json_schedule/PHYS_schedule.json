@@ -1,6 +1,6 @@
 {
-    "PHYS 170": [
-        {
+    "PHYS 170": {
+        "17180": {
             "class_number": "17180",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,5 +10,5 @@
             "start_time": "1400h",
             "end_time": "1540h"
         }
-    ]
+    }
 }

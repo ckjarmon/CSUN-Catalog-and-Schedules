@@ -1,6 +1,6 @@
 {
-    "JOUR 101": [
-        {
+    "JOUR 101": {
+        "14234": {
             "class_number": "14234",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,7 +10,7 @@
             "start_time": "0900h",
             "end_time": "1040h"
         },
-        {
+        "14349": {
             "class_number": "14349",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -20,9 +20,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         },
-        {
+        "14651": {
             "class_number": "14651",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Snyder,Wendy K",
             "days": "MW",
@@ -30,9 +30,9 @@
             "start_time": "1300h",
             "end_time": "1440h"
         },
-        {
+        "14652": {
             "class_number": "14652",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Kato,Nina",
             "days": "TR",
@@ -40,9 +40,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         }
-    ],
-    "JOUR 102": [
-        {
+    },
+    "JOUR 102": {
+        "14235": {
             "class_number": "14235",
             "enrollment_cap": -4,
             "enrollment_count": 0,
@@ -52,7 +52,7 @@
             "start_time": "0900h",
             "end_time": "1040h"
         },
-        {
+        "14368": {
             "class_number": "14368",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -62,9 +62,9 @@
             "start_time": "1300h",
             "end_time": "1440h"
         }
-    ],
-    "JOUR 202": [
-        {
+    },
+    "JOUR 202": {
+        "14236": {
             "class_number": "14236",
             "enrollment_cap": 9,
             "enrollment_count": 0,
@@ -74,9 +74,9 @@
             "start_time": "1300h",
             "end_time": "1440h"
         }
-    ],
-    "JOUR 205": [
-        {
+    },
+    "JOUR 205": {
+        "14837": {
             "class_number": "14837",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -86,9 +86,9 @@
             "start_time": "1300h",
             "end_time": "1415h"
         }
-    ],
-    "JOUR 304": [
-        {
+    },
+    "JOUR 304": {
+        "14277": {
             "class_number": "14277",
             "enrollment_cap": 25,
             "enrollment_count": 0,
@@ -98,5 +98,5 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ]
+    }
 }

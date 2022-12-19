@@ -1,6 +1,6 @@
 {
-    "ITAL 212": [
-        {
+    "ITAL 212": {
+        "13820": {
             "class_number": "13820",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,7 +10,7 @@
             "start_time": "1730h",
             "end_time": "1845h"
         },
-        {
+        "13850": {
             "class_number": "13850",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -20,9 +20,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "13887": {
             "class_number": "13887",
-            "enrollment_cap": 19,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Savin,Jerald M",
             "days": "W",
@@ -30,7 +30,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "13888": {
             "class_number": "13888",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -40,11 +40,11 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "ITAL 312": [
-        {
+    },
+    "ITAL 312": {
+        "13446": {
             "class_number": "13446",
-            "enrollment_cap": 15,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Zhang,Yue",
             "days": "MW",
@@ -52,7 +52,7 @@
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "13455": {
             "class_number": "13455",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -62,7 +62,7 @@
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "13447": {
             "class_number": "13447",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -72,9 +72,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "13427": {
             "class_number": "13427",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Najafabadi,Mahdi",
             "days": "M",
@@ -82,7 +82,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "13459": {
             "class_number": "13459",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -92,7 +92,7 @@
             "start_time": "1100h",
             "end_time": "1345h"
         },
-        {
+        "13463": {
             "class_number": "13463",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -102,9 +102,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "ITAL 355": [
-        {
+    },
+    "ITAL 355": {
+        "13779": {
             "class_number": "13779",
             "enrollment_cap": 23,
             "enrollment_count": 0,
@@ -114,9 +114,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "ITAL 431": [
-        {
+    },
+    "ITAL 431": {
+        "13428": {
             "class_number": "13428",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -126,7 +126,7 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "13762": {
             "class_number": "13762",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -136,9 +136,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ITAL 435": [
-        {
+    },
+    "ITAL 435": {
+        "13431": {
             "class_number": "13431",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -148,7 +148,7 @@
             "start_time": "1530h",
             "end_time": "1645h"
         },
-        {
+        "13763": {
             "class_number": "13763",
             "enrollment_cap": 19,
             "enrollment_count": 0,
@@ -158,11 +158,11 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ITAL 441": [
-        {
+    },
+    "ITAL 441": {
+        "13469": {
             "class_number": "13469",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Zhang,Yue",
             "days": "M",
@@ -170,7 +170,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "13764": {
             "class_number": "13764",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -180,9 +180,9 @@
             "start_time": "1600h",
             "end_time": "1715h"
         }
-    ],
-    "ITAL 451": [
-        {
+    },
+    "ITAL 451": {
+        "13429": {
             "class_number": "13429",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -192,7 +192,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "13889": {
             "class_number": "13889",
             "enrollment_cap": 24,
             "enrollment_count": 0,
@@ -202,9 +202,9 @@
             "start_time": "1730h",
             "end_time": "1845h"
         }
-    ],
-    "ITAL 457": [
-        {
+    },
+    "ITAL 457": {
+        "13621": {
             "class_number": "13621",
             "enrollment_cap": 35,
             "enrollment_count": 0,
@@ -214,9 +214,9 @@
             "start_time": "1730h",
             "end_time": "1845h"
         }
-    ],
-    "ITAL 497DA": [
-        {
+    },
+    "ITAL 497DA": {
+        "13826": {
             "class_number": "13826",
             "enrollment_cap": 34,
             "enrollment_count": 0,
@@ -226,9 +226,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ITAL 530": [
-        {
+    },
+    "ITAL 530": {
+        "13847": {
             "class_number": "13847",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -238,5 +238,5 @@
             "start_time": "0900h",
             "end_time": "1500h"
         }
-    ]
+    }
 }

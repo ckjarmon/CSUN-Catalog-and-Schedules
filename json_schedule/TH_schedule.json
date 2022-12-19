@@ -1,6 +1,6 @@
 {
-    "TH 502": [
-        {
+    "TH 502": {
+        "12166": {
             "class_number": "12166",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,7 +10,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12180": {
             "class_number": "12180",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -20,7 +20,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12188": {
             "class_number": "12188",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -30,7 +30,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12189": {
             "class_number": "12189",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -40,9 +40,9 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "TH 503": [
-        {
+    },
+    "TH 503": {
+        "12438": {
             "class_number": "12438",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -52,7 +52,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12439": {
             "class_number": "12439",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -62,7 +62,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12440": {
             "class_number": "12440",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -72,7 +72,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12441": {
             "class_number": "12441",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -82,7 +82,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "13048": {
             "class_number": "13048",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -92,7 +92,7 @@
             "start_time": "1800h",
             "end_time": "2045h"
         },
-        {
+        "13049": {
             "class_number": "13049",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -102,9 +102,9 @@
             "start_time": "1800h",
             "end_time": "2045h"
         }
-    ],
-    "TH 520": [
-        {
+    },
+    "TH 520": {
+        "12167": {
             "class_number": "12167",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -114,7 +114,7 @@
             "start_time": "1300h",
             "end_time": "1545h"
         },
-        {
+        "12168": {
             "class_number": "12168",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -124,7 +124,7 @@
             "start_time": "1300h",
             "end_time": "1545h"
         },
-        {
+        "12211": {
             "class_number": "12211",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -134,7 +134,7 @@
             "start_time": "1300h",
             "end_time": "1545h"
         },
-        {
+        "12270": {
             "class_number": "12270",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -144,9 +144,9 @@
             "start_time": "1300h",
             "end_time": "1545h"
         }
-    ],
-    "TH 523": [
-        {
+    },
+    "TH 523": {
+        "12609": {
             "class_number": "12609",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -156,7 +156,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12610": {
             "class_number": "12610",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -166,7 +166,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12611": {
             "class_number": "12611",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -176,7 +176,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12612": {
             "class_number": "12612",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -186,7 +186,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12613": {
             "class_number": "12613",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -196,7 +196,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12614": {
             "class_number": "12614",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -206,7 +206,7 @@
             "start_time": "1800h",
             "end_time": "1850h"
         },
-        {
+        "12615": {
             "class_number": "12615",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -216,7 +216,7 @@
             "start_time": "1800h",
             "end_time": "1850h"
         },
-        {
+        "12616": {
             "class_number": "12616",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -226,9 +226,9 @@
             "start_time": "1800h",
             "end_time": "1850h"
         }
-    ],
-    "TH 523P": [
-        {
+    },
+    "TH 523P": {
+        "12617": {
             "class_number": "12617",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -238,7 +238,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12618": {
             "class_number": "12618",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -248,7 +248,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12619": {
             "class_number": "12619",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -258,7 +258,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12620": {
             "class_number": "12620",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -268,7 +268,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12621": {
             "class_number": "12621",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -278,7 +278,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12622": {
             "class_number": "12622",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -288,7 +288,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12623": {
             "class_number": "12623",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -298,7 +298,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12624": {
             "class_number": "12624",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -308,9 +308,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "TH 525": [
-        {
+    },
+    "TH 525": {
+        "12263": {
             "class_number": "12263",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -320,7 +320,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "12264": {
             "class_number": "12264",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -330,9 +330,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "TH 535": [
-        {
+    },
+    "TH 535": {
+        "12169": {
             "class_number": "12169",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -342,7 +342,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12170": {
             "class_number": "12170",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -352,7 +352,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12190": {
             "class_number": "12190",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -362,7 +362,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12683": {
             "class_number": "12683",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -372,7 +372,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12433": {
             "class_number": "12433",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -382,7 +382,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "12434": {
             "class_number": "12434",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -392,9 +392,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "TH 601": [
-        {
+    },
+    "TH 601": {
+        "12436": {
             "class_number": "12436",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -404,7 +404,7 @@
             "start_time": "1800h",
             "end_time": "2045h"
         },
-        {
+        "12437": {
             "class_number": "12437",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -414,9 +414,9 @@
             "start_time": "1800h",
             "end_time": "2045h"
         }
-    ],
-    "TH 602": [
-        {
+    },
+    "TH 602": {
+        "12171": {
             "class_number": "12171",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -426,7 +426,7 @@
             "start_time": "0930h",
             "end_time": "1215h"
         },
-        {
+        "12181": {
             "class_number": "12181",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -436,7 +436,7 @@
             "start_time": "0930h",
             "end_time": "1215h"
         },
-        {
+        "12212": {
             "class_number": "12212",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -446,7 +446,7 @@
             "start_time": "0930h",
             "end_time": "1215h"
         },
-        {
+        "12225": {
             "class_number": "12225",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -456,9 +456,9 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "TH 623": [
-        {
+    },
+    "TH 623": {
+        "12194": {
             "class_number": "12194",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -468,7 +468,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12195": {
             "class_number": "12195",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -478,7 +478,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12196": {
             "class_number": "12196",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -488,7 +488,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12197": {
             "class_number": "12197",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -498,7 +498,7 @@
             "start_time": "0745h",
             "end_time": "0850h"
         },
-        {
+        "12227": {
             "class_number": "12227",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -508,7 +508,7 @@
             "start_time": "1800h",
             "end_time": "1850h"
         },
-        {
+        "12265": {
             "class_number": "12265",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -518,7 +518,7 @@
             "start_time": "1800h",
             "end_time": "1850h"
         },
-        {
+        "12266": {
             "class_number": "12266",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -528,9 +528,9 @@
             "start_time": "1800h",
             "end_time": "1850h"
         }
-    ],
-    "TH 623P": [
-        {
+    },
+    "TH 623P": {
+        "12625": {
             "class_number": "12625",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -540,7 +540,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12626": {
             "class_number": "12626",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -550,7 +550,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12627": {
             "class_number": "12627",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -560,7 +560,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12628": {
             "class_number": "12628",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -570,7 +570,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12629": {
             "class_number": "12629",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -580,7 +580,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12630": {
             "class_number": "12630",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -590,7 +590,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "12631": {
             "class_number": "12631",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -600,9 +600,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "TH 645": [
-        {
+    },
+    "TH 645": {
+        "12267": {
             "class_number": "12267",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -612,7 +612,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12268": {
             "class_number": "12268",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -622,7 +622,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12269": {
             "class_number": "12269",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -632,7 +632,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12435": {
             "class_number": "12435",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -642,9 +642,9 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "TH 650A": [
-        {
+    },
+    "TH 650A": {
+        "12517": {
             "class_number": "12517",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -654,7 +654,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12757": {
             "class_number": "12757",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -664,9 +664,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "TH 650C": [
-        {
+    },
+    "TH 650C": {
+        "13051": {
             "class_number": "13051",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -676,7 +676,7 @@
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "12853": {
             "class_number": "12853",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -686,9 +686,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "TH 650M": [
-        {
+    },
+    "TH 650M": {
+        "13311": {
             "class_number": "13311",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -698,9 +698,9 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "TH 698": [
-        {
+    },
+    "TH 698": {
+        "12174": {
             "class_number": "12174",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -710,7 +710,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12175": {
             "class_number": "12175",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -720,7 +720,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12191": {
             "class_number": "12191",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -730,7 +730,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12192": {
             "class_number": "12192",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -740,7 +740,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12226": {
             "class_number": "12226",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -750,7 +750,7 @@
             "start_time": "1800h",
             "end_time": "2045h"
         },
-        {
+        "12532": {
             "class_number": "12532",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -760,5 +760,5 @@
             "start_time": "1800h",
             "end_time": "2045h"
         }
-    ]
+    }
 }
