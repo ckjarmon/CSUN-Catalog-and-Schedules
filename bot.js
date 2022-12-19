@@ -44,16 +44,16 @@ function show_prof_dead(subject, prof, itchid) {
           stuffs[prof_email].classes.forEach(course => {
             ret2 += ("\t " + course.class_number);
 
-            ret2 = (course.catalog_number.length === 4) 
-            ? ret2.concat("\t   " + course.catalog_number) 
-            : ret2.concat("\t   " + course.catalog_number + " ");
+            ret2 += (course.catalog_number.length === 4) 
+            ? ("\t   " + course.catalog_number) 
+            : ("\t   " + course.catalog_number + " ");
 
-            ret2 = (course.meetings[0].location.length === 3) 
-            ? ret2.concat("   ") : ret2.concat("");
+            ret2 += (course.meetings[0].location.length === 3) 
+            ? ("   ") : ("");
 
-            ret2 = (course.meetings[0].location.length === 5) 
-            ? ret2.concat("\t\t   " + course.meetings[0].location) 
-            : ret2.concat("\t\t  " + course.meetings[0].location);
+            ret2 += (course.meetings[0].location.length === 5) 
+            ? ("\t\t   " + course.meetings[0].location) 
+            : ("\t\t  " + course.meetings[0].location);
 
             switch (course.meetings[0].days.length) {
               case 1:
@@ -152,25 +152,28 @@ function show_prof(subject, itchid, id) {
           ret1 += ("\n" + body + "\n")
         }
       });
-      ret1 += ("\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n");
+      ret1 += ("\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time")
+      ret1 += ("\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n");
       body.sch.forEach(course => {
+
         ret1 += ("\t " + course.class_number);
-        ret1 = (course.subject.length === 4) 
-        ? ret1.concat("\t   " + course.subject) 
-        : ret1.concat("\t   " + course.subject + " ");
 
-        ret1 = (course.catalog_number.length === 4) 
-        ? ret1.concat("\t   " + course.catalog_number) 
-        : ret1.concat("\t   " + course.catalog_number + " ");
+        ret1 += (course.subject.length === 4) 
+        ? ("\t   " + course.subject) 
+        : ("\t   " + course.subject + " ");
 
-        ret1 = (course.location.length === 3) 
-        ? ret1.concat("   ") 
-        : ret1.concat("");
+        ret1 += (course.catalog_number.length === 4) 
+        ? ("\t   " + course.catalog_number) 
+        : ("\t   " + course.catalog_number + " ");
+
+        ret1 += (course.location.length === 3) 
+        ? ("   ") 
+        : ("");
 
 
-        ret1 = (course.location.length === 5) 
-        ? ret1.concat("\t\t   " + course.location) 
-        : ret1.concat("\t\t  " + course.location);
+        ret1 += (course.location.length === 5) 
+        ? ("\t\t   " + course.location) 
+        : ("\t\t  " + course.location);
 
 
         if (course.days !== "None") {
@@ -278,21 +281,24 @@ function show_class(subject, code, itchid) {
     if (!error) {
 
       const stuffs = JSON.parse(JSON.stringify(body));
+
       ret2 += ("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty");
       ret2 += ("\n\t-------\t\t--------\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n");
+
       for (const key in stuffs[`${String(subject).toUpperCase()} ${code}`]) {
         course = stuffs[`${String(subject).toUpperCase()} ${code}`][key]
 
         console.log(course)
 
         ret2 += ("\t " + course.class_number);
-        ret2 = (course.location.length === 3) 
-        ? ret2.concat("\t\t       ") 
-        : ret2.concat("");
 
-        ret2 = (course.location.length === 5) 
-        ? ret2.concat("\t\t   " + course.location) 
-        : ret2.concat("\t\t  " + course.location);
+        ret2 += (course.location.length === 3) 
+        ? ("\t\t       ") 
+        : ("");
+
+        ret2 += (course.location.length === 5) 
+        ? ("\t\t   " + course.location) 
+        : ("\t\t  " + course.location);
 
 
 
@@ -320,9 +326,9 @@ function show_class(subject, code, itchid) {
         else { ret2 += (`\t\t\t     N/A   `) }
         ret2 += (`\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
         
-        ret2 = (course.instructor !== "Staff") 
-        ? ret2.concat("\t\t" + course.instructor) 
-        : ret2.concat("\t\t\t\tStaff");
+        ret2 += (course.instructor !== "Staff") 
+        ? ("\t\t" + course.instructor) 
+        : ("\t\t\t\tStaff");
 
         ret2 += ("\n");
       }
@@ -387,13 +393,13 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             ret2 += ("\t " + course.class_number);
 
-            ret2 = (course.meetings[0].location.length === 3) 
-            ? ret2.concat("   ") 
-            : ret2.concat("");
+            ret2 += (course.meetings[0].location.length === 3) 
+            ? ("   ") 
+            : ("");
 
-            ret2 = (course.meetings[0].location.length === 5) 
-            ? ret2.concat("\t\t   " + course.meetings[0].location) 
-            : ret2.concat("\t\t  " + course.meetings[0].location);
+            ret2 += (course.meetings[0].location.length === 5) 
+            ? ("\t\t   " + course.meetings[0].location) 
+            : ("\t\t  " + course.meetings[0].location);
 
 
 
@@ -414,9 +420,10 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
             ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`);
             ret2 += (`\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
-            ret2 = (course.instructors.length > 0) 
-            ? ret2.concat("\t\t" + course.instructors[0].instructor) 
-            : ret2.concat("\t\t\t\tStaff");
+            
+            ret2 += (course.instructors.length > 0) 
+            ? ("\t\t" + course.instructors[0].instructor) 
+            : ("\t\t\t\tStaff");
             ret2 += ("\n");
 
           }
