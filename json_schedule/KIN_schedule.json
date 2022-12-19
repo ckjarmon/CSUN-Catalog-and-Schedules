@@ -1,6 +1,6 @@
 {
-    "KIN 100": [
-        {
+    "KIN 100": {
+        "11099": {
             "class_number": "11099",
             "enrollment_cap": 47,
             "enrollment_count": 0,
@@ -10,9 +10,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "KIN 110": [
-        {
+    },
+    "KIN 110": {
+        "11717": {
             "class_number": "11717",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -22,7 +22,7 @@
             "start_time": "0800h",
             "end_time": "0940h"
         },
-        {
+        "11718": {
             "class_number": "11718",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -32,9 +32,9 @@
             "start_time": "0800h",
             "end_time": "0940h"
         }
-    ],
-    "KIN 110L": [
-        {
+    },
+    "KIN 110L": {
+        "11723": {
             "class_number": "11723",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -44,7 +44,7 @@
             "start_time": "0800h",
             "end_time": "0940h"
         },
-        {
+        "11724": {
             "class_number": "11724",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -54,9 +54,9 @@
             "start_time": "0800h",
             "end_time": "0940h"
         }
-    ],
-    "KIN 210": [
-        {
+    },
+    "KIN 210": {
+        "11729": {
             "class_number": "11729",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -66,7 +66,7 @@
             "start_time": "1900h",
             "end_time": "2040h"
         },
-        {
+        "11730": {
             "class_number": "11730",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -76,9 +76,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         }
-    ],
-    "KIN 210L": [
-        {
+    },
+    "KIN 210L": {
+        "11736": {
             "class_number": "11736",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -88,7 +88,7 @@
             "start_time": "1900h",
             "end_time": "2040h"
         },
-        {
+        "11737": {
             "class_number": "11737",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -98,9 +98,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         }
-    ],
-    "KIN 225": [
-        {
+    },
+    "KIN 225": {
+        "11993": {
             "class_number": "11993",
             "enrollment_cap": -1,
             "enrollment_count": 0,
@@ -110,7 +110,7 @@
             "start_time": "1600h",
             "end_time": "1845h"
         },
-        {
+        "11994": {
             "class_number": "11994",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -120,9 +120,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "KIN 250": [
-        {
+    },
+    "KIN 250": {
+        "11429": {
             "class_number": "11429",
             "enrollment_cap": 38,
             "enrollment_count": 0,
@@ -132,9 +132,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "KIN 255": [
-        {
+    },
+    "KIN 255": {
+        "11903": {
             "class_number": "11903",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -144,9 +144,9 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "KIN 310": [
-        {
+    },
+    "KIN 310": {
+        "10646": {
             "class_number": "10646",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -156,9 +156,9 @@
             "start_time": "1100h",
             "end_time": "1345h"
         }
-    ],
-    "KIN 315": [
-        {
+    },
+    "KIN 315": {
+        "10055": {
             "class_number": "10055",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -168,9 +168,9 @@
             "start_time": "1230h",
             "end_time": "1515h"
         }
-    ],
-    "KIN 325": [
-        {
+    },
+    "KIN 325": {
+        "10536": {
             "class_number": "10536",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -180,7 +180,7 @@
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "10858": {
             "class_number": "10858",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -190,7 +190,7 @@
             "start_time": "1200h",
             "end_time": "1445h"
         },
-        {
+        "11324": {
             "class_number": "11324",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -200,9 +200,9 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "KIN 341": [
-        {
+    },
+    "KIN 341": {
+        "10598": {
             "class_number": "10598",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -212,9 +212,9 @@
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "KIN 350": [
-        {
+    },
+    "KIN 350": {
+        "10056": {
             "class_number": "10056",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -224,9 +224,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "KIN 365": [
-        {
+    },
+    "KIN 365": {
+        "11909": {
             "class_number": "11909",
             "enrollment_cap": 31,
             "enrollment_count": 0,
@@ -236,7 +236,7 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "12036": {
             "class_number": "12036",
             "enrollment_cap": 45,
             "enrollment_count": 0,
@@ -246,11 +246,11 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "KIN 371": [
-        {
+    },
+    "KIN 371": {
+        "10532": {
             "class_number": "10532",
-            "enrollment_cap": 10,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "MW",
@@ -258,9 +258,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "KIN 372": [
-        {
+    },
+    "KIN 372": {
+        "10057": {
             "class_number": "10057",
             "enrollment_cap": 37,
             "enrollment_count": 0,
@@ -270,9 +270,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "KIN 375": [
-        {
+    },
+    "KIN 375": {
+        "11920": {
             "class_number": "11920",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -282,7 +282,7 @@
             "start_time": "1000h",
             "end_time": "1245h"
         },
-        {
+        "11997": {
             "class_number": "11997",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -292,9 +292,9 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "KIN 395B": [
-        {
+    },
+    "KIN 395B": {
+        "11496": {
             "class_number": "11496",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -304,9 +304,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "KIN 395C": [
-        {
+    },
+    "KIN 395C": {
+        "11905": {
             "class_number": "11905",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -316,9 +316,9 @@
             "start_time": "1400h",
             "end_time": "1540h"
         }
-    ],
-    "KIN 397B": [
-        {
+    },
+    "KIN 397B": {
+        "10060": {
             "class_number": "10060",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -328,9 +328,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "KIN 397C": [
-        {
+    },
+    "KIN 397C": {
+        "11906": {
             "class_number": "11906",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -340,9 +340,9 @@
             "start_time": "0930h",
             "end_time": "1110h"
         }
-    ],
-    "KIN 398B": [
-        {
+    },
+    "KIN 398B": {
+        "10651": {
             "class_number": "10651",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -352,9 +352,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "KIN 398C": [
-        {
+    },
+    "KIN 398C": {
+        "11907": {
             "class_number": "11907",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -364,9 +364,9 @@
             "start_time": "1400h",
             "end_time": "1540h"
         }
-    ],
-    "KIN 400": [
-        {
+    },
+    "KIN 400": {
+        "10533": {
             "class_number": "10533",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -376,7 +376,7 @@
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "10534": {
             "class_number": "10534",
             "enrollment_cap": 23,
             "enrollment_count": 0,
@@ -386,9 +386,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "KIN 410": [
-        {
+    },
+    "KIN 410": {
+        "10691": {
             "class_number": "10691",
             "enrollment_cap": -1,
             "enrollment_count": 0,
@@ -398,9 +398,9 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "KIN 415": [
-        {
+    },
+    "KIN 415": {
+        "10540": {
             "class_number": "10540",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -410,9 +410,9 @@
             "start_time": "1100h",
             "end_time": "1345h"
         }
-    ],
-    "KIN 430": [
-        {
+    },
+    "KIN 430": {
+        "11908": {
             "class_number": "11908",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -422,9 +422,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "KIN 440": [
-        {
+    },
+    "KIN 440": {
+        "10061": {
             "class_number": "10061",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -434,9 +434,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "KIN 445": [
-        {
+    },
+    "KIN 445": {
+        "10541": {
             "class_number": "10541",
             "enrollment_cap": 9,
             "enrollment_count": 0,
@@ -446,9 +446,9 @@
             "start_time": "1100h",
             "end_time": "1645h"
         }
-    ],
-    "KIN 460": [
-        {
+    },
+    "KIN 460": {
+        "10652": {
             "class_number": "10652",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -458,9 +458,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "KIN 474SLJ": [
-        {
+    },
+    "KIN 474SLJ": {
+        "10599": {
             "class_number": "10599",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -470,9 +470,9 @@
             "start_time": "1100h",
             "end_time": "1345h"
         }
-    ],
-    "KIN 478": [
-        {
+    },
+    "KIN 478": {
+        "10062": {
             "class_number": "10062",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -482,11 +482,11 @@
             "start_time": "1530h",
             "end_time": "1815h"
         }
-    ],
-    "KIN 494AEE": [
-        {
+    },
+    "KIN 494AEE": {
+        "11585": {
             "class_number": "11585",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Bien,Julie S",
             "days": null,
@@ -494,11 +494,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "KIN 494BEE": [
-        {
+    },
+    "KIN 494BEE": {
+        "11586": {
             "class_number": "11586",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Bien,Julie S",
             "days": null,
@@ -506,9 +506,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "KIN 495DA": [
-        {
+    },
+    "KIN 495DA": {
+        "20897": {
             "class_number": "20897",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -518,9 +518,9 @@
             "start_time": "0930h",
             "end_time": "1215h"
         }
-    ],
-    "KIN 495POD": [
-        {
+    },
+    "KIN 495POD": {
+        "12001": {
             "class_number": "12001",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -530,9 +530,9 @@
             "start_time": "1100h",
             "end_time": "1345h"
         }
-    ],
-    "KIN 495SJ": [
-        {
+    },
+    "KIN 495SJ": {
+        "11925": {
             "class_number": "11925",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -542,9 +542,9 @@
             "start_time": "1300h",
             "end_time": "1545h"
         }
-    ],
-    "KIN 498": [
-        {
+    },
+    "KIN 498": {
+        "10064": {
             "class_number": "10064",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -554,7 +554,7 @@
             "start_time": "1000h",
             "end_time": "1050h"
         },
-        {
+        "10067": {
             "class_number": "10067",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -564,7 +564,7 @@
             "start_time": "1000h",
             "end_time": "1050h"
         },
-        {
+        "10815": {
             "class_number": "10815",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -574,7 +574,7 @@
             "start_time": "1300h",
             "end_time": "1350h"
         },
-        {
+        "10063": {
             "class_number": "10063",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -584,7 +584,7 @@
             "start_time": "0900h",
             "end_time": "0950h"
         },
-        {
+        "10546": {
             "class_number": "10546",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -594,7 +594,7 @@
             "start_time": "1200h",
             "end_time": "1250h"
         },
-        {
+        "10066": {
             "class_number": "10066",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -604,7 +604,7 @@
             "start_time": "0900h",
             "end_time": "0950h"
         },
-        {
+        "11154": {
             "class_number": "11154",
             "enrollment_cap": 11,
             "enrollment_count": 0,
@@ -614,5 +614,5 @@
             "start_time": "1400h",
             "end_time": "1450h"
         }
-    ]
+    }
 }

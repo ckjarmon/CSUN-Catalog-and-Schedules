@@ -1,6 +1,6 @@
 {
-    "IS 250": [
-        {
+    "IS 250": {
+        "15383": {
             "class_number": "15383",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,9 +10,9 @@
             "start_time": "TBA",
             "end_time": "TBA"
         }
-    ],
-    "IS 300": [
-        {
+    },
+    "IS 300": {
+        "15384": {
             "class_number": "15384",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -22,9 +22,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "IS 350": [
-        {
+    },
+    "IS 350": {
+        "20808": {
             "class_number": "20808",
             "enrollment_cap": 19,
             "enrollment_count": 0,
@@ -34,5 +34,5 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ]
+    }
 }

@@ -1,6 +1,6 @@
 {
-    "SPED 101": [
-        {
+    "SPED 101": {
+        "14222": {
             "class_number": "14222",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -10,7 +10,7 @@
             "start_time": "0800h",
             "end_time": "0940h"
         },
-        {
+        "14223": {
             "class_number": "14223",
             "enrollment_cap": 19,
             "enrollment_count": 0,
@@ -20,7 +20,7 @@
             "start_time": "0930h",
             "end_time": "1110h"
         },
-        {
+        "14224": {
             "class_number": "14224",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -30,9 +30,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         },
-        {
+        "14350": {
             "class_number": "14350",
-            "enrollment_cap": 8,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Margolis,Ethan Michael",
             "days": "MW",
@@ -40,9 +40,9 @@
             "start_time": "1400h",
             "end_time": "1540h"
         },
-        {
+        "14225": {
             "class_number": "14225",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -50,9 +50,9 @@
             "start_time": "1800h",
             "end_time": "1940h"
         },
-        {
+        "14226": {
             "class_number": "14226",
-            "enrollment_cap": 21,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Rojas-Torres,Jose Ernesto",
             "days": "TR",
@@ -60,9 +60,9 @@
             "start_time": "0800h",
             "end_time": "0940h"
         },
-        {
+        "14250": {
             "class_number": "14250",
-            "enrollment_cap": 13,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Aprato,Gabriela F",
             "days": "TR",
@@ -70,9 +70,9 @@
             "start_time": "0930h",
             "end_time": "1110h"
         },
-        {
+        "14771": {
             "class_number": "14771",
-            "enrollment_cap": 8,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Rojas-Torres,Jose Ernesto",
             "days": "TR",
@@ -80,9 +80,9 @@
             "start_time": "1100h",
             "end_time": "1240h"
         },
-        {
+        "14772": {
             "class_number": "14772",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Aprato,Gabriela F",
             "days": "TR",
@@ -90,9 +90,9 @@
             "start_time": "1400h",
             "end_time": "1540h"
         },
-        {
+        "14773": {
             "class_number": "14773",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rojas-Torres,Jose Ernesto",
             "days": "TR",
@@ -100,7 +100,7 @@
             "start_time": "1700h",
             "end_time": "1840h"
         },
-        {
+        "14774": {
             "class_number": "14774",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -110,7 +110,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "14775": {
             "class_number": "14775",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -120,7 +120,7 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        {
+        "15154": {
             "class_number": "15154",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -130,9 +130,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "SPED 102": [
-        {
+    },
+    "SPED 102": {
+        "14221": {
             "class_number": "14221",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -142,7 +142,7 @@
             "start_time": "1500h",
             "end_time": "1640h"
         },
-        {
+        "14393": {
             "class_number": "14393",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -152,9 +152,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "SPED 103": [
-        {
+    },
+    "SPED 103": {
+        "20883": {
             "class_number": "20883",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -164,11 +164,11 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "SPED 220A": [
-        {
+    },
+    "SPED 220A": {
+        "14251": {
             "class_number": "14251",
-            "enrollment_cap": 19,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Benvenuto,Adriana Marcela",
             "days": null,
@@ -176,9 +176,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "SPED 304": [
-        {
+    },
+    "SPED 304": {
+        "13913": {
             "class_number": "13913",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -188,11 +188,11 @@
             "start_time": "1800h",
             "end_time": "1915h"
         }
-    ],
-    "SPED 306": [
-        {
+    },
+    "SPED 306": {
+        "13914": {
             "class_number": "13914",
-            "enrollment_cap": 27,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
             "instructor": "Perez-Boluda,Adrian",
             "days": "F",
@@ -200,11 +200,11 @@
             "start_time": "1000h",
             "end_time": "1245h"
         }
-    ],
-    "SPED 307": [
-        {
+    },
+    "SPED 307": {
+        "13915": {
             "class_number": "13915",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Montepeque,Axel",
             "days": null,
@@ -212,9 +212,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "SPED 363": [
-        {
+    },
+    "SPED 363": {
+        "14926": {
             "class_number": "14926",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -224,9 +224,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "SPED 372": [
-        {
+    },
+    "SPED 372": {
+        "15245": {
             "class_number": "15245",
             "enrollment_cap": 19,
             "enrollment_count": 0,
@@ -236,9 +236,9 @@
             "start_time": "1500h",
             "end_time": "1745h"
         }
-    ],
-    "SPED 380": [
-        {
+    },
+    "SPED 380": {
+        "14665": {
             "class_number": "14665",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -248,9 +248,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "SPED 428": [
-        {
+    },
+    "SPED 428": {
+        "20884": {
             "class_number": "20884",
             "enrollment_cap": 23,
             "enrollment_count": 0,
@@ -260,11 +260,11 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "SPED 472": [
-        {
+    },
+    "SPED 472": {
+        "20885": {
             "class_number": "20885",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Tyutina,Svetlana V",
             "days": null,
@@ -272,9 +272,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "SPED 497": [
-        {
+    },
+    "SPED 497": {
+        "14649": {
             "class_number": "14649",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -284,9 +284,9 @@
             "start_time": "1730h",
             "end_time": "1845h"
         }
-    ],
-    "SPED 603": [
-        {
+    },
+    "SPED 603": {
+        "14998": {
             "class_number": "14998",
             "enrollment_cap": 19,
             "enrollment_count": 0,
@@ -296,9 +296,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "SPED 606": [
-        {
+    },
+    "SPED 606": {
+        "14648": {
             "class_number": "14648",
             "enrollment_cap": 18,
             "enrollment_count": 0,
@@ -308,9 +308,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "SPED 697": [
-        {
+    },
+    "SPED 697": {
+        "14301": {
             "class_number": "14301",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -320,5 +320,5 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ]
+    }
 }

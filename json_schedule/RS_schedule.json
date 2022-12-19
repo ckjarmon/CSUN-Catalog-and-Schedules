@@ -1,6 +1,6 @@
 {
-    "RS 101": [
-        {
+    "RS 101": {
+        "20764": {
             "class_number": "20764",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,9 +10,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "RS 113B": [
-        {
+    },
+    "RS 113B": {
+        "14824": {
             "class_number": "14824",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -22,7 +22,7 @@
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "14943": {
             "class_number": "14943",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -32,9 +32,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "RS 115": [
-        {
+    },
+    "RS 115": {
+        "15309": {
             "class_number": "15309",
             "enrollment_cap": 20,
             "enrollment_count": 0,
@@ -44,7 +44,7 @@
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "15310": {
             "class_number": "15310",
             "enrollment_cap": 22,
             "enrollment_count": 0,
@@ -54,9 +54,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "RS 151": [
-        {
+    },
+    "RS 151": {
+        "15361": {
             "class_number": "15361",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -66,9 +66,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "RS 201": [
-        {
+    },
+    "RS 201": {
+        "15362": {
             "class_number": "15362",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -78,9 +78,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "20765": {
             "class_number": "20765",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Lau,Jacob",
             "days": "R",
@@ -88,9 +88,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "RS 204": [
-        {
+    },
+    "RS 204": {
+        "15248": {
             "class_number": "15248",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -100,9 +100,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "RS 208": [
-        {
+    },
+    "RS 208": {
+        "15363": {
             "class_number": "15363",
             "enrollment_cap": 25,
             "enrollment_count": 0,
@@ -112,9 +112,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RS 301": [
-        {
+    },
+    "RS 301": {
+        "14160": {
             "class_number": "14160",
             "enrollment_cap": 15,
             "enrollment_count": 0,
@@ -124,9 +124,21 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "RS 304": [
-        {
+    },
+    "RS 302": {
+        "14209": {
+            "class_number": "14209",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Cartier,Marie A",
+            "days": "T",
+            "location": "JR246",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "RS 304": {
+        "15364": {
             "class_number": "15364",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -136,9 +148,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RS 369": [
-        {
+    },
+    "RS 369": {
+        "15365": {
             "class_number": "15365",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -148,7 +160,7 @@
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "15411": {
             "class_number": "15411",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -158,5 +170,5 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ]
+    }
 }

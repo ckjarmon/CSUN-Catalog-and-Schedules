@@ -1,6 +1,6 @@
 {
-    "MGT 612": [
-        {
+    "MGT 612": {
+        "11921": {
             "class_number": "11921",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -10,9 +10,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "MGT 630": [
-        {
+    },
+    "MGT 630": {
+        "10068": {
             "class_number": "10068",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -22,9 +22,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "MGT 690": [
-        {
+    },
+    "MGT 690": {
+        "10069": {
             "class_number": "10069",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -34,9 +34,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "MGT 696": [
-        {
+    },
+    "MGT 696": {
+        "10070": {
             "class_number": "10070",
             "enrollment_cap": 4,
             "enrollment_count": 0,
@@ -46,9 +46,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "MGT 697A": [
-        {
+    },
+    "MGT 697A": {
+        "10966": {
             "class_number": "10966",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -58,9 +58,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "MGT 698C": [
-        {
+    },
+    "MGT 698C": {
+        "10071": {
             "class_number": "10071",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -70,5 +70,5 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ]
+    }
 }

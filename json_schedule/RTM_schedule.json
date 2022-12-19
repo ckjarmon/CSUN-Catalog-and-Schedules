@@ -1,6 +1,6 @@
 {
-    "RTM 412": [
-        {
+    "RTM 412": {
+        "13862": {
             "class_number": "13862",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -10,9 +10,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "RTM 414": [
-        {
+    },
+    "RTM 414": {
+        "13863": {
             "class_number": "13863",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -22,9 +22,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "RTM 416": [
-        {
+    },
+    "RTM 416": {
+        "13864": {
             "class_number": "13864",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -34,9 +34,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "RTM 418": [
-        {
+    },
+    "RTM 418": {
+        "13865": {
             "class_number": "13865",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -46,9 +46,9 @@
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "RTM 420": [
-        {
+    },
+    "RTM 420": {
+        "13856": {
             "class_number": "13856",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -58,5 +58,5 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ]
+    }
 }

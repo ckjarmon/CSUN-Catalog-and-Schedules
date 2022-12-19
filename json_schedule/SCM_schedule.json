@@ -1,6 +1,6 @@
 {
-    "SCM 595PD": [
-        {
+    "SCM 595PD": {
+        "18636": {
             "class_number": "18636",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -10,5 +10,5 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ]
+    }
 }

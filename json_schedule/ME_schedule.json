@@ -1,6 +1,6 @@
 {
-    "ME 150": [
-        {
+    "ME 150": {
+        "14121": {
             "class_number": "14121",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -10,9 +10,9 @@
             "start_time": "1630h",
             "end_time": "1810h"
         }
-    ],
-    "ME 150F": [
-        {
+    },
+    "ME 150F": {
+        "14101": {
             "class_number": "14101",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -22,9 +22,9 @@
             "start_time": "1630h",
             "end_time": "1810h"
         }
-    ],
-    "ME 250": [
-        {
+    },
+    "ME 250": {
+        "14119": {
             "class_number": "14119",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -34,9 +34,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "ME 250F": [
-        {
+    },
+    "ME 250F": {
+        "14120": {
             "class_number": "14120",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -46,11 +46,11 @@
             "start_time": "1215h",
             "end_time": "1305h"
         }
-    ],
-    "ME 300": [
-        {
+    },
+    "ME 300": {
+        "14143": {
             "class_number": "14143",
-            "enrollment_cap": 19,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Pessin,Sean Edward",
             "days": "MW",
@@ -58,7 +58,7 @@
             "start_time": "1100h",
             "end_time": "1150h"
         },
-        {
+        "14142": {
             "class_number": "14142",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -68,11 +68,11 @@
             "start_time": "1600h",
             "end_time": "1740h"
         }
-    ],
-    "ME 300F": [
-        {
+    },
+    "ME 300F": {
+        "20912": {
             "class_number": "20912",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Srmabekian,Gina A",
             "days": "MW",
@@ -80,7 +80,7 @@
             "start_time": "1150h",
             "end_time": "1240h"
         },
-        {
+        "20913": {
             "class_number": "20913",
             "enrollment_cap": 19,
             "enrollment_count": 0,
@@ -90,9 +90,9 @@
             "start_time": "1740h",
             "end_time": "1920h"
         }
-    ],
-    "ME 425MC": [
-        {
+    },
+    "ME 425MC": {
+        "15416": {
             "class_number": "15416",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -102,5 +102,5 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ]
+    }
 }

@@ -37,13 +37,12 @@ def profs(**kwargs):
     # if no id, return list of profs
     # if id, return prof and classes they are teaching
     rootCursor = esta_conn()
-    rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
-    nn_profs = sorted([f"{x[0]} {x[1]}" for x in rootCursor.fetchall()], key=lambda x:name_normalize(x.split(" ")[1]))
-    rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
-    profs = sorted([f"{name_normalize(x[0])} {name_normalize(x[1])}" for x in rootCursor.fetchall()], key=lambda x:x.split(" ")[1])
+    
+    
     # print(sum([len(x) for x in profs]))
     try:
-        
+        rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
+        nn_profs = sorted([f"{x[0]} {x[1]}" for x in rootCursor.fetchall()], key=lambda x:name_normalize(x.split(" ")[1]))
         rootCursor.execute(f"""select email, 
                                first_name, 
                                last_name, 
@@ -88,6 +87,8 @@ def profs(**kwargs):
         print(p)
         return p
     except KeyError:
+        rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
+        profs = sorted([f"{name_normalize(x[0])} {name_normalize(x[1])}" for x in rootCursor.fetchall()], key=lambda x:x.split(" ")[1])
         return [f"{profs.index(x)+1} {x}\n" for x in profs]
 
 

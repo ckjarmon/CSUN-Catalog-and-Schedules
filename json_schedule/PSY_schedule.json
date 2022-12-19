@@ -1,8 +1,8 @@
 {
-    "PSY 155": [
-        {
+    "PSY 155": {
+        "12082": {
             "class_number": "12082",
-            "enrollment_cap": 118,
+            "enrollment_cap": 116,
             "enrollment_count": 0,
             "instructor": "Guevara,Gloria Y",
             "days": "F",
@@ -10,7 +10,7 @@
             "start_time": "1100h",
             "end_time": "1345h"
         },
-        {
+        "12083": {
             "class_number": "12083",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -20,7 +20,7 @@
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "12084": {
             "class_number": "12084",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -30,7 +30,7 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "12085": {
             "class_number": "12085",
             "enrollment_cap": 139,
             "enrollment_count": 0,
@@ -40,7 +40,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "12199": {
             "class_number": "12199",
             "enrollment_cap": 101,
             "enrollment_count": 0,
@@ -50,9 +50,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "12200": {
             "class_number": "12200",
-            "enrollment_cap": 149,
+            "enrollment_cap": 147,
             "enrollment_count": 0,
             "instructor": "Garcia-Acevedo,Maria R",
             "days": "TR",
@@ -60,7 +60,7 @@
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "12424": {
             "class_number": "12424",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -70,9 +70,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 155HON": [
-        {
+    },
+    "PSY 155HON": {
+        "12816": {
             "class_number": "12816",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -82,9 +82,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 197": [
-        {
+    },
+    "PSY 197": {
+        "12815": {
             "class_number": "12815",
             "enrollment_cap": 19,
             "enrollment_count": 0,
@@ -94,9 +94,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "PSY 225": [
-        {
+    },
+    "PSY 225": {
+        "12201": {
             "class_number": "12201",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -106,9 +106,9 @@
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "PSY 310": [
-        {
+    },
+    "PSY 310": {
+        "12729": {
             "class_number": "12729",
             "enrollment_cap": 55,
             "enrollment_count": 0,
@@ -118,9 +118,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "PSY 321": [
-        {
+    },
+    "PSY 321": {
+        "12530": {
             "class_number": "12530",
             "enrollment_cap": 12,
             "enrollment_count": 0,
@@ -130,9 +130,9 @@
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "PSY 332": [
-        {
+    },
+    "PSY 332": {
+        "12632": {
             "class_number": "12632",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -142,9 +142,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "PSY 347": [
-        {
+    },
+    "PSY 347": {
+        "12491": {
             "class_number": "12491",
             "enrollment_cap": 32,
             "enrollment_count": 0,
@@ -154,11 +154,11 @@
             "start_time": "1100h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 350": [
-        {
+    },
+    "PSY 350": {
+        "12488": {
             "class_number": "12488",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Dungey,Nicholas W",
             "days": "MW",
@@ -166,7 +166,7 @@
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "12149": {
             "class_number": "12149",
             "enrollment_cap": 27,
             "enrollment_count": 0,
@@ -176,9 +176,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "12898": {
             "class_number": "12898",
-            "enrollment_cap": 36,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructor": "Motameni,Ahmad R",
             "days": "TR",
@@ -186,7 +186,7 @@
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "20903": {
             "class_number": "20903",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -196,9 +196,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 355": [
-        {
+    },
+    "PSY 355": {
+        "12088": {
             "class_number": "12088",
             "enrollment_cap": 75,
             "enrollment_count": 0,
@@ -208,7 +208,7 @@
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "12489": {
             "class_number": "12489",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -218,9 +218,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "12490": {
             "class_number": "12490",
-            "enrollment_cap": 40,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructor": "Mitchell,James A",
             "days": "TR",
@@ -228,9 +228,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "12534": {
             "class_number": "12534",
-            "enrollment_cap": 17,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Saroukhanian,Talin",
             "days": "MW",
@@ -238,11 +238,11 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "PSY 360": [
-        {
+    },
+    "PSY 360": {
+        "12633": {
             "class_number": "12633",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Saroukhanian,Talin",
             "days": "MW",
@@ -250,9 +250,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 361": [
-        {
+    },
+    "PSY 361": {
+        "12554": {
             "class_number": "12554",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -262,9 +262,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "PSY 372": [
-        {
+    },
+    "PSY 372": {
+        "12236": {
             "class_number": "12236",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -274,7 +274,7 @@
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "12237": {
             "class_number": "12237",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -284,9 +284,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "12238": {
             "class_number": "12238",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Guevara,Gloria Y",
             "days": "T",
@@ -294,7 +294,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "12471": {
             "class_number": "12471",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -304,9 +304,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "PSY 403": [
-        {
+    },
+    "PSY 403": {
+        "12219": {
             "class_number": "12219",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -316,9 +316,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "PSY 405": [
-        {
+    },
+    "PSY 405": {
+        "13282": {
             "class_number": "13282",
             "enrollment_cap": 26,
             "enrollment_count": 0,
@@ -328,9 +328,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "PSY 406": [
-        {
+    },
+    "PSY 406": {
+        "12731": {
             "class_number": "12731",
             "enrollment_cap": 22,
             "enrollment_count": 0,
@@ -340,9 +340,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 410": [
-        {
+    },
+    "PSY 410": {
+        "12905": {
             "class_number": "12905",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -352,9 +352,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "PSY 412": [
-        {
+    },
+    "PSY 412": {
+        "12915": {
             "class_number": "12915",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -364,11 +364,11 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "PSY 420D": [
-        {
+    },
+    "PSY 420D": {
+        "13309": {
             "class_number": "13309",
-            "enrollment_cap": 11,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Motameni,Ahmad R",
             "days": "W",
@@ -376,9 +376,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "PSY 427A": [
-        {
+    },
+    "PSY 427A": {
+        "12918": {
             "class_number": "12918",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -388,9 +388,9 @@
             "start_time": "0800h",
             "end_time": "0850h"
         }
-    ],
-    "PSY 427AL": [
-        {
+    },
+    "PSY 427AL": {
+        "12919": {
             "class_number": "12919",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -400,9 +400,9 @@
             "start_time": "0900h",
             "end_time": "1250h"
         }
-    ],
-    "PSY 429": [
-        {
+    },
+    "PSY 429": {
+        "12155": {
             "class_number": "12155",
             "enrollment_cap": 21,
             "enrollment_count": 0,
@@ -412,9 +412,9 @@
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "PSY 433A": [
-        {
+    },
+    "PSY 433A": {
+        "12509": {
             "class_number": "12509",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -424,9 +424,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "PSY 439A": [
-        {
+    },
+    "PSY 439A": {
+        "12636": {
             "class_number": "12636",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -436,9 +436,9 @@
             "start_time": "TBA",
             "end_time": "TBA"
         }
-    ],
-    "PSY 440": [
-        {
+    },
+    "PSY 440": {
+        "12637": {
             "class_number": "12637",
             "enrollment_cap": 25,
             "enrollment_count": 0,
@@ -448,9 +448,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "PSY 441": [
-        {
+    },
+    "PSY 441": {
+        "12494": {
             "class_number": "12494",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -460,9 +460,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 443": [
-        {
+    },
+    "PSY 443": {
+        "12733": {
             "class_number": "12733",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -472,9 +472,9 @@
             "start_time": "1530h",
             "end_time": "1645h"
         }
-    ],
-    "PSY 445": [
-        {
+    },
+    "PSY 445": {
+        "12997": {
             "class_number": "12997",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -484,9 +484,9 @@
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "PSY 446": [
-        {
+    },
+    "PSY 446": {
+        "12508": {
             "class_number": "12508",
             "enrollment_cap": 25,
             "enrollment_count": 0,
@@ -496,9 +496,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "PSY 450": [
-        {
+    },
+    "PSY 450": {
+        "12851": {
             "class_number": "12851",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -508,9 +508,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "PSY 455": [
-        {
+    },
+    "PSY 455": {
+        "12220": {
             "class_number": "12220",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -520,7 +520,7 @@
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "12817": {
             "class_number": "12817",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -530,9 +530,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "PSY 457A": [
-        {
+    },
+    "PSY 457A": {
+        "12934": {
             "class_number": "12934",
             "enrollment_cap": 16,
             "enrollment_count": 0,
@@ -542,9 +542,9 @@
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "PSY 457B": [
-        {
+    },
+    "PSY 457B": {
+        "12086": {
             "class_number": "12086",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -554,9 +554,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "PSY 461": [
-        {
+    },
+    "PSY 461": {
+        "12922": {
             "class_number": "12922",
             "enrollment_cap": 23,
             "enrollment_count": 0,
@@ -566,9 +566,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "PSY 467": [
-        {
+    },
+    "PSY 467": {
+        "12818": {
             "class_number": "12818",
             "enrollment_cap": 24,
             "enrollment_count": 0,
@@ -578,9 +578,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "PSY 471A": [
-        {
+    },
+    "PSY 471A": {
+        "12162": {
             "class_number": "12162",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -590,9 +590,9 @@
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "PSY 471B": [
-        {
+    },
+    "PSY 471B": {
+        "12425": {
             "class_number": "12425",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -602,9 +602,9 @@
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "PSY 471C": [
-        {
+    },
+    "PSY 471C": {
+        "12496": {
             "class_number": "12496",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -614,9 +614,9 @@
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 471D": [
-        {
+    },
+    "PSY 471D": {
+        "12681": {
             "class_number": "12681",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -626,9 +626,9 @@
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "PSY 471E": [
-        {
+    },
+    "PSY 471E": {
+        "12426": {
             "class_number": "12426",
             "enrollment_cap": 6,
             "enrollment_count": 0,
@@ -638,9 +638,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "PSY 471F": [
-        {
+    },
+    "PSY 471F": {
+        "12413": {
             "class_number": "12413",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -650,7 +650,7 @@
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "20756": {
             "class_number": "20756",
             "enrollment_cap": 7,
             "enrollment_count": 0,
@@ -660,9 +660,9 @@
             "start_time": "0800h",
             "end_time": "1045h"
         }
-    ],
-    "PSY 480": [
-        {
+    },
+    "PSY 480": {
+        "13310": {
             "class_number": "13310",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -672,9 +672,9 @@
             "start_time": "1530h",
             "end_time": "1645h"
         }
-    ],
-    "PSY 490CA": [
-        {
+    },
+    "PSY 490CA": {
+        "12557": {
             "class_number": "12557",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -684,9 +684,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "PSY 494I": [
-        {
+    },
+    "PSY 494I": {
+        "12482": {
             "class_number": "12482",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -696,9 +696,9 @@
             "start_time": "1100h",
             "end_time": "1345h"
         }
-    ],
-    "PSY 494IA": [
-        {
+    },
+    "PSY 494IA": {
+        "12932": {
             "class_number": "12932",
             "enrollment_cap": 10,
             "enrollment_count": 0,
@@ -708,9 +708,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "PSY 494IB": [
-        {
+    },
+    "PSY 494IB": {
+        "21268": {
             "class_number": "21268",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -720,9 +720,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "PSY 494J": [
-        {
+    },
+    "PSY 494J": {
+        "12481": {
             "class_number": "12481",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -732,9 +732,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "PSY 494JA": [
-        {
+    },
+    "PSY 494JA": {
+        "12929": {
             "class_number": "12929",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -744,9 +744,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "PSY 522C": [
-        {
+    },
+    "PSY 522C": {
+        "20757": {
             "class_number": "20757",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -756,9 +756,9 @@
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "PSY 540F": [
-        {
+    },
+    "PSY 540F": {
+        "20758": {
             "class_number": "20758",
             "enrollment_cap": 13,
             "enrollment_count": 0,
@@ -768,9 +768,9 @@
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "PSY 599C": [
-        {
+    },
+    "PSY 599C": {
+        "12089": {
             "class_number": "12089",
             "enrollment_cap": 3,
             "enrollment_count": 0,
@@ -780,9 +780,9 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ],
-    "PSY 698D": [
-        {
+    },
+    "PSY 698D": {
+        "12938": {
             "class_number": "12938",
             "enrollment_cap": 8,
             "enrollment_count": 0,
@@ -792,5 +792,5 @@
             "start_time": "ARR",
             "end_time": "ARR"
         }
-    ]
+    }
 }
