@@ -128,6 +128,7 @@ function show_prof(subject, itchid, id) {
       console.log(_url);
 
       body.info["Name"] = body.info.first_name + " " + body.info.last_name;
+
       delete body.info.subject
       delete body.info.location
       delete body.info.phone_number
@@ -135,6 +136,7 @@ function show_prof(subject, itchid, id) {
       delete body.info.first_name;
       delete body.info.last_name;
       delete body.info.image_link
+
       for (n in body.info) {
         if (body.info[n] !== "N/A") {
           ret1 += (`${n.substring(0, 1).toUpperCase()}${n.substring(1)}` + ": " + body.info[n] + "\n")
@@ -195,7 +197,10 @@ function show_prof(subject, itchid, id) {
         }
 
 
-        ret1 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
+        ret1 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
+        ret1 += (`${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`)
+        ret1 += (" - ") 
+        ret1 += (`${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
         ret1 += ("\n");
       });
 
@@ -222,12 +227,17 @@ function show_levels(subject, level, itchid) {
     json: true
   }, async function (error, response, body) {
     if (!error) {
+
       ret1 += (subject.toUpperCase() + " " + level + "-level classes\n")
+
       for (let i = 0; i < subject.length; i++) {
         ret1 += ("-")
       }
+
       ret1 += ("\n")
+
       console.log(`http://127.0.0.1:2222/${subject}/catalog`);
+
       const stuffs = JSON.parse(JSON.stringify(body));
       stuffs.forEach(course => {
         if (course.catalog_number[0] === level[0]) {
@@ -235,6 +245,7 @@ function show_levels(subject, level, itchid) {
         }
       });
     }
+
   }); /*end request*/
   setTimeout(async () => {
     await client.channels.cache.get(itchid).send("```" + ret1 + "```")
@@ -255,11 +266,14 @@ function show_class(subject, code, itchid) {
     console.log(`http://127.0.0.1:2222/${subject}/catalog`);
     if (!error) {
       const stuffs = JSON.parse(JSON.stringify(body));
+
       stuffs.forEach(course => {
+
         if (course.catalog_number === code) {
           ret1 += (`${course.subject} ${course.catalog_number} ${course.title}`);
           ret1 += (`\n\n${course.description}\n\n${course.subject} ${course.catalog_number} ${course.title}`);
           ret1 += (" - SPRING 2023");
+
           require("request")({
             url: `http://127.0.0.1:2222/time`,
             json: true
@@ -322,9 +336,14 @@ function show_class(subject, code, itchid) {
 
 
         ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`)
-        if (course.waitlist_cap > 0) { ret2 += (`\t\t\t      ${(course.waitlist_count + 1)}\t`) }
-        else { ret2 += (`\t\t\t     N/A   `) }
-        ret2 += (`\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
+
+        if (course.waitlist_cap > 0) { ret2 += (`\t\t\t      ${(course.waitlist_count + 1)}\t`); }
+        else { ret2 += (`\t\t\t     N/A   `); }
+
+
+        ret2 += (`\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`)
+        ret2 += (" - ");
+        ret2 += (`${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
         
         ret2 += (course.instructor !== "Staff") 
         ? ("\t\t" + course.instructor) 
@@ -419,7 +438,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
 
             ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`);
-            ret2 += (`\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)} - ${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
+
+
+            ret2 += (`\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)}`)
+            ret2 += (" - ")
+            ret2 += (`${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
             
             ret2 += (course.instructors.length > 0) 
             ? ("\t\t" + course.instructors[0].instructor) 
@@ -466,7 +489,10 @@ client.on('interactionCreate', async interaction => {
     commandName
   } = interaction;
 
-  if (commandName === 'class') {
+
+
+  switch (commandName) {
+    case 'class': {
 
     itchid = interaction.channelId;
     semester = interaction.options.getString('semester');
@@ -525,7 +551,8 @@ client.on('interactionCreate', async interaction => {
 
       await interaction.reply("Gimme a sec");
     }
-  } else if (commandName === 'classes') {
+  } break; 
+    case 'classes': {
 
     itchid = interaction.channelId;
 
@@ -571,13 +598,14 @@ client.on('interactionCreate', async interaction => {
 
       await interaction.reply("Gimme a sec");
     }
-  } else if (commandName === 'prof') {
-
+  } break; case 'prof': {
+    
     itchid = interaction.channelId;
     show_prof(interaction.options.getString('subject'), itchid, interaction.options.getString('prof_id'));
     await interaction.reply("Gimme a sec");
 
-  } else if (commandName === 'help') {
+  } break; 
+    case 'help': {
 
     let ret = "```\"/class\" for 1 or more classes of common subject (default is SPRING 23) \n\n" +
       "\"/classes\" for 1 or more classes of different subjects \n\n" +
@@ -587,15 +615,23 @@ client.on('interactionCreate', async interaction => {
 
     await interaction.reply(ret);
 
-  } else if (commandName === 'level') {
+  } break; 
+    case 'level': {
 
     itchid = interaction.channelId;
     show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid)
     await interaction.reply("Gimme a sec");
 
-  } else if (commandName === 'gunfight') {
+  } break;
+    case 'gunfight': {
    //console.log(interaction.options.getUser('target').id.toString())
    console.log(client.guilds.cache.get(interaction.options.getUser('target').id.toString()))
-  }
+  }}
 });
 client.login(token);
+
+classes
+prof
+help
+level
+gunfight
