@@ -261,7 +261,12 @@ function show_class(subject, code, itchid) {
 
         ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`)
 
-        if (course.waitlist_cap > 0) { ret2 += (`\t\t\t      ${(course.waitlist_count + 1)}\t`); }
+        if (course.waitlist_cap > 0) {
+
+          if (course.waitlist_count > 10) { ret2 += (`\t\t\t      ${(course.waitlist_count + 1)}\t`); } 
+          else { ret2 += (`\t\t\t       ${(course.waitlist_count + 1)}\t`); }
+
+        }
         else { ret2 += (`\t\t\t     N/A   `); }
 
 
