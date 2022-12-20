@@ -231,9 +231,9 @@ function show_class(subject, code, itchid) {
         if (course.location.length === 5) {
           ret2 += (`\t\t   ${course.location}`) 
         } else if (course.location.length > 5) {
-          ret2 += (`\t\t   ${course.location}`)
+          ret2 += (`\t\t  ${course.location}`)
         } else {
-          ret2 += (`\t\t       ${course.location}`)
+          ret2 += (`\t\t      ${course.location}`)
         }
 
 
