@@ -494,144 +494,140 @@ client.on('interactionCreate', async interaction => {
   switch (commandName) {
     case 'class': {
 
-    itchid = interaction.channelId;
-    semester = interaction.options.getString('semester');
-    year = interaction.options.getString('year');
+      itchid = interaction.channelId;
+      semester = interaction.options.getString('semester');
+      year = interaction.options.getString('year');
 
-    if ((semester || year) && !(semester && year)) {
+      if ((semester || year) && !(semester && year)) {
 
-      await interaction.reply("Need both semester and year if other than Fall 2022.")
+        await interaction.reply("Need both semester and year if other than Fall 2022.")
 
-    } else if (semester && year) {
+      } else if (semester && year) {
 
-      var subject = "",
-        fir_class = "",
-        sec_class = "",
-        thi_class = "";
+        var subject = "",
+          fir_class = "",
+          sec_class = "",
+          thi_class = "";
 
-      subject = interaction.options.getString('subject').toLowerCase();
-      fir_class = interaction.options.getString('catalog_number');
-      sec_class = interaction.options.getString('catalog_number1');
-      thi_class = interaction.options.getString('catalog_number2');
+        subject = interaction.options.getString('subject').toLowerCase();
+        fir_class = interaction.options.getString('catalog_number');
+        sec_class = interaction.options.getString('catalog_number1');
+        thi_class = interaction.options.getString('catalog_number2');
 
-      show_class_with_term(subject, fir_class, semester, year, itchid);
-      if (sec_class) {
-        show_class_with_term(subject, sec_class, semester, year, itchid);
+        show_class_with_term(subject, fir_class, semester, year, itchid);
+        if (sec_class) {
+          show_class_with_term(subject, sec_class, semester, year, itchid);
+        }
+        if (thi_class) {
+          show_class_with_term(subject, thi_class, semester, year, itchid);
+        }
+
+
+        await interaction.reply("Gimme a sec");
+
+
+      } else {
+
+
+        var subject = "",
+          fir_class = "",
+          sec_class = "",
+          thi_class = "";
+
+
+        subject = interaction.options.getString('subject').toLowerCase();
+        fir_class = interaction.options.getString('catalog_number');
+        sec_class = interaction.options.getString('catalog_number1');
+        thi_class = interaction.options.getString('catalog_number2');
+
+
+        show_class(subject, fir_class, itchid);
+        if (sec_class) {
+          show_class(subject, sec_class, itchid);
+        }
+        if (thi_class) {
+          show_class(subject, thi_class, itchid);
+        }
+
+        await interaction.reply("Gimme a sec");
       }
-      if (thi_class) {
-        show_class_with_term(subject, thi_class, semester, year, itchid);
-      }
-
-
-      await interaction.reply("Gimme a sec");
-
-
-    } else {
-
-
-      var subject = "",
-        fir_class = "",
-        sec_class = "",
-        thi_class = "";
-
-
-      subject = interaction.options.getString('subject').toLowerCase();
-      fir_class = interaction.options.getString('catalog_number');
-      sec_class = interaction.options.getString('catalog_number1');
-      thi_class = interaction.options.getString('catalog_number2');
-
-
-      show_class(subject, fir_class, itchid);
-      if (sec_class) {
-        show_class(subject, sec_class, itchid);
-      }
-      if (thi_class) {
-        show_class(subject, thi_class, itchid);
-      }
-
-      await interaction.reply("Gimme a sec");
-    }
-  } break; 
+    } break;
     case 'classes': {
 
-    itchid = interaction.channelId;
+      itchid = interaction.channelId;
 
-    const class1 = interaction.options.getString('class1').split(" ")
-    const class2 = (interaction.options.getString('class2')) ? interaction.options.getString('class2').split(" ") : [];
-    const class3 = (interaction.options.getString('class3')) ? interaction.options.getString('class3').split(" ") : [];
-
-
-    var semester = "",
-      year = "";
-
-    semester = interaction.options.getString('semester');
-    year = interaction.options.getString('year');
+      const class1 = interaction.options.getString('class1').split(" ")
+      const class2 = (interaction.options.getString('class2')) ? interaction.options.getString('class2').split(" ") : [];
+      const class3 = (interaction.options.getString('class3')) ? interaction.options.getString('class3').split(" ") : [];
 
 
-    if ((semester || year) && !(semester && year)) {
+      var semester = "",
+        year = "";
 
-      await interaction.reply("Need both semester and year if other than Spring 2023.");
+      semester = interaction.options.getString('semester');
+      year = interaction.options.getString('year');
 
-    } else if (semester && year) {
 
-      show_class_with_term(class1[0], class1[1], semester, year, itchid);
-      if (class2.length) {
-        show_class_with_term(class2[0], class2[1], semester, year, itchid);
+      if ((semester || year) && !(semester && year)) {
+
+        await interaction.reply("Need both semester and year if other than Spring 2023.");
+
+      } else if (semester && year) {
+
+        show_class_with_term(class1[0], class1[1], semester, year, itchid);
+        if (class2.length) {
+          show_class_with_term(class2[0], class2[1], semester, year, itchid);
+        }
+        if (class3.length) {
+          show_class_with_term(class3[0], class3[1], semester, year, itchid);
+        }
+
+        await interaction.reply("Gimme a sec");
+
+      } else {
+
+        show_class(class1[0], class1[1], itchid);
+
+        if (class2.length) {
+          show_class(class2[0], class2[1], itchid);
+        }
+
+        if (class3.length) {
+          show_class(class3[0], class3[1], itchid);
+        }
+
+        await interaction.reply("Gimme a sec");
       }
-      if (class3.length) {
-        show_class_with_term(class3[0], class3[1], semester, year, itchid);
-      }
+    } break; case 'prof': {
 
+      itchid = interaction.channelId;
+      show_prof(interaction.options.getString('subject'), itchid, interaction.options.getString('prof_id'));
       await interaction.reply("Gimme a sec");
 
-    } else {
-
-      show_class(class1[0], class1[1], itchid);
-      
-      if (class2.length) {
-        show_class(class2[0], class2[1], itchid);
-      }
-
-      if (class3.length) {
-        show_class(class3[0], class3[1], itchid);
-      }
-
-      await interaction.reply("Gimme a sec");
-    }
-  } break; case 'prof': {
-    
-    itchid = interaction.channelId;
-    show_prof(interaction.options.getString('subject'), itchid, interaction.options.getString('prof_id'));
-    await interaction.reply("Gimme a sec");
-
-  } break; 
+    } break;
     case 'help': {
 
-    let ret = "```\"/class\" for 1 or more classes of common subject (default is SPRING 23) \n\n" +
-      "\"/classes\" for 1 or more classes of different subjects \n\n" +
-      "\"/prof\" to show a prof's teaching schedule \n\n" +
-      "\"/level\" to show classes at a specific level (100, 200, 300 etc.) \n\n" +
-      "Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
+      let ret = "```\"/class\" for 1 or more classes of common subject (default is SPRING 23) \n\n" +
+        "\"/classes\" for 1 or more classes of different subjects \n\n" +
+        "\"/prof\" to show a prof's teaching schedule \n\n" +
+        "\"/level\" to show classes at a specific level (100, 200, 300 etc.) \n\n" +
+        "Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
 
-    await interaction.reply(ret);
+      await interaction.reply(ret);
 
-  } break; 
+    } break;
     case 'level': {
 
-    itchid = interaction.channelId;
-    show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid)
-    await interaction.reply("Gimme a sec");
+      itchid = interaction.channelId;
+      show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid)
+      await interaction.reply("Gimme a sec");
 
-  } break;
+    } break;
     case 'gunfight': {
-   //console.log(interaction.options.getUser('target').id.toString())
-   console.log(client.guilds.cache.get(interaction.options.getUser('target').id.toString()))
-  }}
+      //console.log(interaction.options.getUser('target').id.toString())
+      console.log(client.guilds.cache.get(interaction.options.getUser('target').id.toString()))
+    }
+  }
 });
 client.login(token);
 
-classes
-prof
-help
-level
-gunfight
