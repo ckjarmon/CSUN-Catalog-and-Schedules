@@ -228,13 +228,15 @@ function show_class(subject, code, itchid) {
 
         ret2 += ("\t " + course.class_number);
 
-        ret2 += (course.location.length === 3) 
-        ? ("\t\t       ") 
-        : ("");
+        if (course.location.length === 5) {
+          ret2 += ("\t\t   " + course.location) 
+        } else if (course.location.length > 5) {
+          ret2 += ("\t\t   " + course.location)
+        } else {
+          ret2 += ("\t\t       ")
+        }
 
-        ret2 += (course.location.length === 5) 
-        ? ("\t\t   " + course.location) 
-        : ("\t\t  " + course.location);
+
 
 
 
@@ -422,7 +424,7 @@ client.on('interactionCreate', async interaction => {
 
       if ((semester || year) && !(semester && year)) {
 
-        await interaction.reply("Need both semester and year if other than Fall 2022.")
+        await interaction.reply("Need both semester and year if other than Spring 2023.")
 
       } else if (semester && year) {
 
