@@ -540,6 +540,7 @@ client.on('interactionCreate', async interaction => {
         "\"/classes\" for 1 or more classes of different subjects \n\n" +
         "\"/prof\" to show a prof's teaching schedule \n\n" +
         "\"/level\" to show classes at a specific level (100, 200, 300 etc.) \n\n" +
+        "\"/gunfight\" to time somebody out for 10 secs \n\n" +
         "Source Code:\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```";
 
       await interaction.reply(ret);
