@@ -553,8 +553,23 @@ client.on('interactionCreate', async interaction => {
 
     } break;
     case 'gunfight': {
-      //console.log(interaction.options.getUser('target').id.toString())
-      console.log(client.guilds.cache.get(interaction.options.getUser('target').id.toString()))
+      // console.log(interaction.options.getUser('target'))
+
+
+
+
+
+      const user = interaction.options.getUser('target');
+
+
+      const member = interaction.guild.members.cache.get(user.id)
+      if (member.id !== "534510030490304524") { 
+        member.timeout(100000, "bleh"); 
+        interaction.reply(`${user.username} has been timed out!`); }
+      else { 
+        interaction.reply('```Kyeou is immune.```'); 
+      }
+
     }
   }
 });
