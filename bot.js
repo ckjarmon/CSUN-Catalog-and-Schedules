@@ -554,14 +554,8 @@ client.on('interactionCreate', async interaction => {
 
     } break;
     case 'gunfight': {
-      // console.log(interaction.options.getUser('target'))
-
-
-
-
 
       const user = interaction.options.getUser('target');
-
 
       const member = interaction.guild.members.cache.get(user.id)
       if (member.id !== "534510030490304524") { 
