@@ -53,62 +53,64 @@ def show_schedule(sem, year, sub, code):
 
         blob_list.append("\n\tSection\t\tLocation\tDays\t Seats\t Waitlist Queue\t\t  Time\t\t\t\tFaculty")
         blob_list.append("\t-------\t\t--------\t----\t -----\t --------------\t\t  ----\t\t\t\t-------")
-        for sec in data[f"{sub.upper()} {code}"].keys():
-            section_string = []
+        try:    
+            for sec in data[f"{sub.upper()} {code}"].keys():
+                section_string = []
 
-            section_string.append("\t " + data[f'{sub.upper()} {code}'][sec]["class_number"] + " ")
-            if (len(data[f'{sub.upper()} {code}'][sec]["location"]) == 3):
-                section_string.append("  ")
-                
-            # Location 
-            if (len(data[f'{sub.upper()} {code}'][sec]["location"]) != 7):
-                # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
-                section_string.append(f"\t\t{data[f'{sub.upper()} {code}'][sec]['location']}")
-            else:
-                section_string.append(f"\t   {data[f'{sub.upper()} {code}'][sec]['location']}")
-                
-                
-            # Days
-            if len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 1:
-                section_string.append(f"\t  {str(data[f'{sub.upper()} {code}'][sec]['days'])}  ")
-            elif len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 2:
-                section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['days'])}  ")
-            elif len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 3:
-                section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['days'])} ")
-            elif str(data[f'{sub.upper()} {code}'][sec]["days"]) == "None":
-                section_string.append("\t --  ")
-            else:
-                section_string.append(f"\t{str(data[f'{sub.upper()} {code}'][sec]['days'])} ")
-                # print(str(data[f'{sub.upper()} {code}'][sec]["meetings"][0]["days"]))
-                
-                
-            # Seats Available
-            if len(str(data[f'{sub.upper()} {code}'][sec]["enrollment_cap"] - data[f'{sub.upper()} {code}'][sec]["enrollment_count"])) == 1:
-                section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['enrollment_cap'] - data[f'{sub.upper()} {code}'][sec]['enrollment_count'])}")
-            else:
-                section_string.append(f"\t{str(data[f'{sub.upper()} {code}'][sec]['enrollment_cap'] - data[f'{sub.upper()} {code}'][sec]['enrollment_count'])}")
-                
-                
-            # Next Waitlist Position
-            if data[f'{sub.upper()} {code}'][sec]["waitlist_cap"] != 0:
-                section_string.append(f"\t\t    {str(data[f'{sub.upper()} {code}'][sec]['waitlist_count'] + 1)}\t")
-            else:
-                section_string.append(f"\t\t   N/A\t")    
-                
-                
-            # Time 
-            section_string.append(f"\t   {(data[f'{sub.upper()} {code}'][sec]['start_time'])[0:2]}:{(data[f'{sub.upper()} {code}'][sec]['start_time'])[2:4]} - {(data[f'{sub.upper()} {code}'][sec]['end_time'])[0:2]}:{(data[f'{sub.upper()} {code}'][sec]['end_time'])[2:4]}")
-            # Instructor
-            # if a class has no instructor, print Staff instead
-            if data[f'{sub.upper()} {code}'][sec]["instructor"] != "Staff":
-                section_string.append(f"\t{data[f'{sub.upper()} {code}'][sec]['instructor']}")
-            else:
-                section_string.append("\t\t   " + "Staff")
-            blob_list.append(" ".join(section_string))
-            print("------------------------------------------------------------------")
-            print(section_string)
-        return "\n".join([str(x) for x in blob_list])
-            
+                section_string.append("\t " + data[f'{sub.upper()} {code}'][sec]["class_number"] + " ")
+                if (len(data[f'{sub.upper()} {code}'][sec]["location"]) == 3):
+                    section_string.append("  ")
+
+                # Location 
+                if (len(data[f'{sub.upper()} {code}'][sec]["location"]) != 7):
+                    # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
+                    section_string.append(f"\t\t{data[f'{sub.upper()} {code}'][sec]['location']}")
+                else:
+                    section_string.append(f"\t   {data[f'{sub.upper()} {code}'][sec]['location']}")
+
+
+                # Days
+                if len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 1:
+                    section_string.append(f"\t  {str(data[f'{sub.upper()} {code}'][sec]['days'])}  ")
+                elif len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 2:
+                    section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['days'])}  ")
+                elif len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 3:
+                    section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['days'])} ")
+                elif str(data[f'{sub.upper()} {code}'][sec]["days"]) == "None":
+                    section_string.append("\t --  ")
+                else:
+                    section_string.append(f"\t{str(data[f'{sub.upper()} {code}'][sec]['days'])} ")
+                    # print(str(data[f'{sub.upper()} {code}'][sec]["meetings"][0]["days"]))
+
+
+                # Seats Available
+                if len(str(data[f'{sub.upper()} {code}'][sec]["enrollment_cap"] - data[f'{sub.upper()} {code}'][sec]["enrollment_count"])) == 1:
+                    section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['enrollment_cap'] - data[f'{sub.upper()} {code}'][sec]['enrollment_count'])}")
+                else:
+                    section_string.append(f"\t{str(data[f'{sub.upper()} {code}'][sec]['enrollment_cap'] - data[f'{sub.upper()} {code}'][sec]['enrollment_count'])}")
+
+
+                # Next Waitlist Position
+                if data[f'{sub.upper()} {code}'][sec]["waitlist_cap"] != 0:
+                    section_string.append(f"\t\t    {str(data[f'{sub.upper()} {code}'][sec]['waitlist_count'] + 1)}\t")
+                else:
+                    section_string.append(f"\t\t   N/A\t")    
+
+
+                # Time 
+                section_string.append(f"\t   {(data[f'{sub.upper()} {code}'][sec]['start_time'])[0:2]}:{(data[f'{sub.upper()} {code}'][sec]['start_time'])[2:4]} - {(data[f'{sub.upper()} {code}'][sec]['end_time'])[0:2]}:{(data[f'{sub.upper()} {code}'][sec]['end_time'])[2:4]}")
+                # Instructor
+                # if a class has no instructor, print Staff instead
+                if data[f'{sub.upper()} {code}'][sec]["instructor"] != "Staff":
+                    section_string.append(f"\t{data[f'{sub.upper()} {code}'][sec]['instructor']}")
+                else:
+                    section_string.append("\t\t   " + "Staff")
+                blob_list.append(" ".join(section_string))
+                print("------------------------------------------------------------------")
+                print(section_string)
+            return "\n".join([str(x) for x in blob_list])
+        except KeyError:
+            return f" {sub.upper()} {code} ain't being taught bruv, feels bad" 
 """        
     else:
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
@@ -219,25 +221,25 @@ async def csun(ctx, *message):
     print(f"{ctx.author} [{message}]")
     
     
-
-
-    # for multi-class quieries
-    muls = True
-    if message.__contains__("!csun"):
-        for i in range(1, len(msg_split)):
-            if not isinstance(msg_split[i], int):
-                muls = False
-                break
-            
-
-    #await message.channel.send("```" + str(muls) + "```")
     
-    if  len(msg_split) == 2:
-        response1 = show_classes(msg_split[0], msg_split[1])
-        response2 = show_schedule("Spring", "2023", msg_split[0], msg_split[1])
-        await ctx.send("```" + str(response1) + "\n\n" + str(response2) + "```")
+
+    ls = 0
+    i = 1   
+    while True:
+        try:    
+            if not msg_split[i].isnumeric():
+                ls = i
+                i += 1
+         
+            response1 = show_classes(msg_split[ls], msg_split[i])
+            response2 = show_schedule("Spring", "2023", msg_split[ls], msg_split[i])
+            i += 1
+            await ctx.send("```" + str(response1) + "\n\n" + str(response2) + "```")        
+        except IndexError:
+            break
+
         
-    elif message.__contains__("help"):
+    if message.__contains__("help"):
         await ctx.send("```Shows both class description and schedule by default. Only schedule is Spring 2023 \
                                    \nAbility view past schedules prior to Spring 2023 has been deprecated in this version.\n\n" +
                                    "Refer to the slash command /help (for the CSUN C&S bot) for instructions\n\n" + 
@@ -245,11 +247,8 @@ async def csun(ctx, *message):
                                    "\nExample:\n\t!csun comp 110 182 282\n\n" +
                                    "\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
         
-    elif muls:
-        for i in range(1, len(msg_split)):
-            response1 = show_classes(msg_split[0], msg_split[i])
-            response2 = show_schedule("Spring", "2023", msg_split[0], msg_split[i])
-            await ctx.send("```" + str(response1) + "\n\n" + str(response2) + "```")
+    
+
     
             
 
