@@ -10,7 +10,10 @@ const {
   Guild
 } = require('discord.js');
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMembers]
+  intents: [GatewayIntentBits.Guilds, 
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent, 
+    GatewayIntentBits.GuildMembers]
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -391,8 +394,6 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             await client.channels.cache.get(itchid).send("```Response too long.```")
           }, 2000);
         }
-
-
 
       } /*end if*/
     }); /*end request*/
