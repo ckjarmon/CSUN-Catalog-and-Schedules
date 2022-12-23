@@ -62,9 +62,12 @@ def show_schedule(sem, year, sub, code):
                     section_string.append("  ")
 
                 # Location 
-                if (len(data[f'{sub.upper()} {code}'][sec]["location"]) != 7):
+
+                if (len(data[f'{sub.upper()} {code}'][sec]["location"])) == 5:
+                    section_string.append(f" \t\t{data[f'{sub.upper()} {code}'][sec]['location']}")
+                elif (len(data[f'{sub.upper()} {code}'][sec]["location"]) != 7):
                     # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
-                    section_string.append(f"\t\t{data[f'{sub.upper()} {code}'][sec]['location']}")
+                    section_string.append(f"\t\t{data[f'{sub.upper()} {code}'][sec]['location']}")                
                 else:
                     section_string.append(f"\t   {data[f'{sub.upper()} {code}'][sec]['location']}")
 
@@ -92,7 +95,7 @@ def show_schedule(sem, year, sub, code):
 
                 # Next Waitlist Position
                 if data[f'{sub.upper()} {code}'][sec]["waitlist_cap"] != 0:
-                    section_string.append(f"\t\t    {str(data[f'{sub.upper()} {code}'][sec]['waitlist_count'] + 1)}\t")
+                    section_string.append(f"\t\t     {str(data[f'{sub.upper()} {code}'][sec]['waitlist_count'] + 1)}\t")
                 else:
                     section_string.append(f"\t\t   N/A\t")    
 
