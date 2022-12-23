@@ -110,7 +110,7 @@ def show_schedule(sem, year, sub, code):
                 print(section_string)
             return "\n".join([str(x) for x in blob_list])
         except KeyError:
-            return f" {sub.upper()} {code} ain't being taught bruv, feels bad" 
+            return f"{sub.upper()} {code} ain't being taught bruv, feels bad" 
 """        
     else:
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-" + \
