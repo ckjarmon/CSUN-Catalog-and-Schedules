@@ -27,7 +27,6 @@ TOKEN = json.load(open("config.json", "r"))["token"]
 
 
 def show_classes(subject, number):
-
     data = json.load(open('json_catalog/' + subject.upper() + '_catalog.json'))
     for course in data:
         if (number == course["catalog_number"]):
@@ -56,56 +55,56 @@ def show_schedule(sem, year, sub, code):
         try:    
             for sec in data[f"{sub.upper()} {code}"].keys():
                 section_string = []
-
-                section_string.append("\t " + data[f'{sub.upper()} {code}'][sec]["class_number"] + " ")
-                if (len(data[f'{sub.upper()} {code}'][sec]["location"]) == 3):
+                curr_sec = data[f'{sub.upper()} {code}'][sec]
+                section_string.append("\t " + curr_sec["class_number"] + " ")
+                if (len(curr_sec["location"]) == 3):
                     section_string.append("  ")
 
                 # Location 
 
-                if (len(data[f'{sub.upper()} {code}'][sec]["location"])) == 5:
-                    section_string.append(f" \t\t{data[f'{sub.upper()} {code}'][sec]['location']}")
-                elif (len(data[f'{sub.upper()} {code}'][sec]["location"]) != 7):
+                if (len(curr_sec["location"])) == 5:
+                    section_string.append(f" \t\t{curr_sec['location']}")
+                elif (len(curr_sec["location"]) != 7):
                     # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
-                    section_string.append(f"\t\t{data[f'{sub.upper()} {code}'][sec]['location']}")                
+                    section_string.append(f"\t\t{curr_sec['location']}")                
                 else:
-                    section_string.append(f"\t   {data[f'{sub.upper()} {code}'][sec]['location']}")
+                    section_string.append(f"\t   {curr_sec['location']}")
 
 
                 # Days
-                if len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 1:
-                    section_string.append(f"\t  {str(data[f'{sub.upper()} {code}'][sec]['days'])}  ")
-                elif len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 2:
-                    section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['days'])}  ")
-                elif len(str(data[f'{sub.upper()} {code}'][sec]["days"])) == 3:
-                    section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['days'])} ")
-                elif str(data[f'{sub.upper()} {code}'][sec]["days"]) == "None":
+                if len(str(curr_sec["days"])) == 1:
+                    section_string.append(f"\t  {str(curr_sec['days'])}  ")
+                elif len(str(curr_sec["days"])) == 2:
+                    section_string.append(f"\t {str(curr_sec['days'])}  ")
+                elif len(str(curr_sec["days"])) == 3:
+                    section_string.append(f"\t {str(curr_sec['days'])} ")
+                elif str(curr_sec["days"]) == "None":
                     section_string.append("\t --  ")
                 else:
-                    section_string.append(f"\t{str(data[f'{sub.upper()} {code}'][sec]['days'])} ")
-                    # print(str(data[f'{sub.upper()} {code}'][sec]["meetings"][0]["days"]))
+                    section_string.append(f"\t{str(curr_sec['days'])} ")
+                    # print(str(curr_sec["meetings"][0]["days"]))
 
 
                 # Seats Available
-                if len(str(data[f'{sub.upper()} {code}'][sec]["enrollment_cap"] - data[f'{sub.upper()} {code}'][sec]["enrollment_count"])) == 1:
-                    section_string.append(f"\t {str(data[f'{sub.upper()} {code}'][sec]['enrollment_cap'] - data[f'{sub.upper()} {code}'][sec]['enrollment_count'])}")
+                if len(str(curr_sec["enrollment_cap"] - curr_sec["enrollment_count"])) == 1:
+                    section_string.append(f"\t {str(curr_sec['enrollment_cap'] - curr_sec['enrollment_count'])}")
                 else:
-                    section_string.append(f"\t{str(data[f'{sub.upper()} {code}'][sec]['enrollment_cap'] - data[f'{sub.upper()} {code}'][sec]['enrollment_count'])}")
+                    section_string.append(f"\t{str(curr_sec['enrollment_cap'] - curr_sec['enrollment_count'])}")
 
 
                 # Next Waitlist Position
-                if data[f'{sub.upper()} {code}'][sec]["waitlist_cap"] != 0:
-                    section_string.append(f"\t\t     {str(data[f'{sub.upper()} {code}'][sec]['waitlist_count'] + 1)}\t")
+                if curr_sec["waitlist_cap"] != 0:
+                    section_string.append(f"\t\t     {str(curr_sec['waitlist_count'] + 1)}\t")
                 else:
                     section_string.append(f"\t\t   N/A\t")    
 
 
                 # Time 
-                section_string.append(f"\t   {(data[f'{sub.upper()} {code}'][sec]['start_time'])[0:2]}:{(data[f'{sub.upper()} {code}'][sec]['start_time'])[2:4]} - {(data[f'{sub.upper()} {code}'][sec]['end_time'])[0:2]}:{(data[f'{sub.upper()} {code}'][sec]['end_time'])[2:4]}")
+                section_string.append(f"\t   {(curr_sec['start_time'])[0:2]}:{(curr_sec['start_time'])[2:4]} - {(curr_sec['end_time'])[0:2]}:{(curr_sec['end_time'])[2:4]}")
                 # Instructor
                 # if a class has no instructor, print Staff instead
-                if data[f'{sub.upper()} {code}'][sec]["instructor"] != "Staff":
-                    section_string.append(f"\t{data[f'{sub.upper()} {code}'][sec]['instructor']}")
+                if curr_sec["instructor"] != "Staff":
+                    section_string.append(f"\t{curr_sec['instructor']}")
                 else:
                     section_string.append("\t\t   " + "Staff")
                 blob_list.append(" ".join(section_string))
