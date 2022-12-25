@@ -36,8 +36,8 @@ function show_prof(subject, itchid, id) {
     }, async function (error, response, body) {
 
       console.log(_url);
-      let ret1 = String(body).replaceAll(',', '')
-      // console.log(body)
+      let ret1 = String(body).replaceAll(',', '');
+      // console.log(body);
       if (!error) {
         setTimeout(async () => {
           await client.channels.cache.get(itchid).send("```" + ret1 + "```")
