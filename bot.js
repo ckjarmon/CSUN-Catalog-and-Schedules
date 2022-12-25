@@ -54,17 +54,16 @@ function show_prof(subject, itchid, id) {
 
       body.info["Name"] = body.info.first_name + " " + body.info.last_name;
 
-      delete body.info.subject
-      delete body.info.location
-      delete body.info.phone_number
-      
+      delete body.info.subject;
+      delete body.info.location;
+      delete body.info.phone_number;
       delete body.info.first_name;
       delete body.info.last_name;
-      delete body.info.image_link
+      delete body.info.image_link;
 
       for (n in body.info) {
         if (body.info[n] !== "N/A") {
-          ret1 += (`${n.substring(0, 1).toUpperCase()}${n.substring(1)}` + ": " + body.info[n] + "\n")
+          ret1 += (`${n.substring(0, 1).toUpperCase()}${n.substring(1)}` + ": " + body.info[n] + "\n");
         }
       }
 
@@ -76,7 +75,7 @@ function show_prof(subject, itchid, id) {
       }, function (error, response, body) {
         console.log(`http://127.0.0.1:2222/time`);
         if (!error) {
-          ret1 += ("\n" + body + "\n")
+          ret1 += ("\n" + body + "\n");
         }
       });
       ret1 += ("\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time")
@@ -122,9 +121,9 @@ function show_prof(subject, itchid, id) {
         }
 
 
-        ret1 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
-        ret1 += (`${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`)
-        ret1 += (" - ") 
+        ret1 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
+        ret1 += (`${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`);
+        ret1 += (" - ");
         ret1 += (`${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
         ret1 += ("\n");
       });
@@ -136,7 +135,7 @@ function show_prof(subject, itchid, id) {
 
       if (!error) {
         setTimeout(async () => {
-          await client.channels.cache.get(itchid).send("```" + ret1 + "```")
+          await client.channels.cache.get(itchid).send("```" + ret1 + "```");
         }, 3000);
       }
     });
@@ -225,18 +224,18 @@ function show_class(subject, code, itchid) {
       ret2 += ("\n\t-------\t\t--------\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n");
 
       for (const key in stuffs[`${String(subject).toUpperCase()} ${code}`]) {
-        course = stuffs[`${String(subject).toUpperCase()} ${code}`][key]
+        course = stuffs[`${String(subject).toUpperCase()} ${code}`][key];
 
-        console.log(course)
+        console.log(course);
 
         ret2 += ("\t " + course.class_number);
 
         if (course.location.length === 5) {
-          ret2 += (`\t\t   ${course.location}`) 
+          ret2 += (`\t\t   ${course.location}`);
         } else if (course.location.length > 5) {
-          ret2 += (`\t\t  ${course.location}`)
+          ret2 += (`\t\t  ${course.location}`);
         } else {
-          ret2 += (`\t\t     ${course.location}`)
+          ret2 += (`\t\t     ${course.location}`);
         }
 
 
@@ -262,7 +261,7 @@ function show_class(subject, code, itchid) {
         }
 
 
-        ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`)
+        ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`);
 
         if (course.waitlist_cap > 0) {
 
@@ -273,7 +272,7 @@ function show_class(subject, code, itchid) {
         else { ret2 += (`\t\t\t    N/A   `); }
 
 
-        ret2 += (`\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`)
+        ret2 += (`\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`);
         ret2 += (" - ");
         ret2 += (`${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
         
@@ -287,11 +286,11 @@ function show_class(subject, code, itchid) {
     } /*end if*/
     if (ret1.length + ret2.length < 4000) {
       setTimeout(async () => {
-        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 4000) + "```")
+        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 4000) + "```");
       }, 2000);
     } else {
       setTimeout(async () => {
-        await client.channels.cache.get(itchid).send("```Response too long.```")
+        await client.channels.cache.get(itchid).send("```Response too long.```");
       }, 2000);
     }
   }); /*end request*/
@@ -311,7 +310,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
         const stuffs = JSON.parse(JSON.stringify(body));
         stuffs.forEach(course => {
           if (course.catalog_number === code) {
-            ret1 += (course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description)
+            ret1 += (course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description);
             ret1 += ("\n\n" + course.subject + " " + course.catalog_number + " " + course.title);
 
             ret1 += (" - " + semester.toUpperCase() + " " + year);
@@ -321,7 +320,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             }, async function (error, response, body) {
               console.log(`http://127.0.0.1:2222/time`);
               if (!error) {
-                ret1 += (body + "\n")
+                ret1 += (body + "\n");
               }
             })
           }
@@ -372,8 +371,8 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`);
 
 
-            ret2 += (`\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)}`)
-            ret2 += (" - ")
+            ret2 += (`\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)}`);
+            ret2 += (" - ");
             ret2 += (`${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
             
             ret2 += (course.instructors.length > 0) 
@@ -387,11 +386,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
         if (ret1.length + ret2.length < 4000) {
           setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```")
+            await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
           }, 2000);
         } else {
           setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```Response too long.```")
+            await client.channels.cache.get(itchid).send("```Response too long.```");
           }, 2000);
         }
 
@@ -402,13 +401,13 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
 client.on('messageUpdate', (oldMessage, newMessage) => {
   if (newMessage.author.tag == "Mysto#8529") {
-    client.channels.cache.get("1028088994203967498").send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`)
+    client.channels.cache.get("1028088994203967498").send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`);
   }
 });
 
 client.on('messageDelete', (message) => {
   if (message.author.tag == "Mysto#8529") {
-    client.channels.cache.get("1028088994203967498").send(`[${message.author.tag}] [${message.content}]`)
+    client.channels.cache.get("1028088994203967498").send(`[${message.author.tag}] [${message.content}]`);
   }
 });
 
@@ -430,7 +429,7 @@ client.on('interactionCreate', async interaction => {
 
       if ((semester || year) && !(semester && year)) {
 
-        await interaction.reply("Need both semester and year if other than Spring 2023.")
+        await interaction.reply("Need both semester and year if other than Spring 2023.");
 
       } else if (semester && year) {
 
@@ -550,7 +549,7 @@ client.on('interactionCreate', async interaction => {
     case 'level': {
 
       itchid = interaction.channelId;
-      show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid)
+      show_levels(interaction.options.getString('subject'), interaction.options.getString('level'), itchid);
       await interaction.reply("Gimme a sec");
 
     } break;
@@ -558,7 +557,7 @@ client.on('interactionCreate', async interaction => {
 
       const user = interaction.options.getUser('target');
 
-      const member = interaction.guild.members.cache.get(user.id)
+      const member = interaction.guild.members.cache.get(user.id);
       if (member.id !== "534510030490304524") { 
         member.timeout(10000, "bleh"); 
         interaction.reply(`\`\`\`${user.username} has been timed out!\`\`\``); }

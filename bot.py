@@ -64,9 +64,11 @@ def show_schedule(sem, year, sub, code):
 
                 if (len(curr_sec["location"])) == 5:
                     section_string.append(f" \t\t{curr_sec['location']}")
+                    
                 elif (len(curr_sec["location"]) != 7):
                     # (JD1600A is one character longer than all other class location strings, so it messes up tabs)
-                    section_string.append(f"\t\t{curr_sec['location']}")                
+                    section_string.append(f"\t\t{curr_sec['location']}")  
+                                  
                 else:
                     section_string.append(f"\t   {curr_sec['location']}")
 
@@ -74,12 +76,16 @@ def show_schedule(sem, year, sub, code):
                 # Days
                 if len(str(curr_sec["days"])) == 1:
                     section_string.append(f"\t  {str(curr_sec['days'])}  ")
+                    
                 elif len(str(curr_sec["days"])) == 2:
                     section_string.append(f"\t {str(curr_sec['days'])}  ")
+                    
                 elif len(str(curr_sec["days"])) == 3:
                     section_string.append(f"\t {str(curr_sec['days'])} ")
+                    
                 elif str(curr_sec["days"]) == "None":
                     section_string.append("\t --  ")
+                    
                 else:
                     section_string.append(f"\t{str(curr_sec['days'])} ")
                     # print(str(curr_sec["meetings"][0]["days"]))
@@ -88,6 +94,7 @@ def show_schedule(sem, year, sub, code):
                 # Seats Available
                 if len(str(curr_sec["enrollment_cap"] - curr_sec["enrollment_count"])) == 1:
                     section_string.append(f"\t {str(curr_sec['enrollment_cap'] - curr_sec['enrollment_count'])}")
+                
                 else:
                     section_string.append(f"\t{str(curr_sec['enrollment_cap'] - curr_sec['enrollment_count'])}")
 
@@ -95,6 +102,7 @@ def show_schedule(sem, year, sub, code):
                 # Next Waitlist Position
                 if curr_sec["waitlist_cap"] != 0:
                     section_string.append(f"\t\t     {str(curr_sec['waitlist_count'] + 1)}\t")
+                    
                 else:
                     section_string.append(f"\t\t   N/A\t")    
 
@@ -105,8 +113,10 @@ def show_schedule(sem, year, sub, code):
                 # if a class has no instructor, print Staff instead
                 if curr_sec["instructor"] != "Staff":
                     section_string.append(f"\t{curr_sec['instructor']}")
+                    
                 else:
                     section_string.append("\t\t   " + "Staff")
+                    
                 blob_list.append(" ".join(section_string))
                 print("------------------------------------------------------------------")
                 print(section_string)
@@ -209,9 +219,7 @@ async def on_ready():
 @client.command()
 async def csun(ctx, *message):
     
-    
     message = ' '.join(message)
-    
     print(f"{ctx} {message}")
     
 
@@ -221,12 +229,8 @@ async def csun(ctx, *message):
     msg_split = message.split()
     print(ctx.author, end="")
     print(f"{ctx.author} [{message}]")
-    
-    
-    
 
-    ls = 0
-    i = 1   
+    ls, i = 0, 1
     while True:
         try:    
             if not msg_split[i].isnumeric():
@@ -248,15 +252,5 @@ async def csun(ctx, *message):
                                    "For multiple classes (in a single subject)\n\t!csun subject class_code class_code class_code" + 
                                    "\nExample:\n\t!csun comp 110 182 282\n\n" +
                                    "\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
-        
-    
-
-    
-            
-
-    
-
-    
-        
 
 client.run(TOKEN)
