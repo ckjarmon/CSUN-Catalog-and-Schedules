@@ -101,7 +101,7 @@ def show_schedule(sem, year, sub, code):
 
                 # Next Waitlist Position
                 if curr_sec["waitlist_cap"] != 0:
-                    section_string.append(f"\t\t     {str(curr_sec['waitlist_count'] + 1)}\t")
+                    section_string.append(f"\t\t     {str(curr_sec['waitlist_count'])}\t")
                     
                 else:
                     section_string.append(f"\t\t   N/A\t")    
