@@ -1,19 +1,12 @@
 # bot.py
-import numbers
-import os
 
-import urllib3
 import json
-import discord
 from dotenv import load_dotenv
 import time
-import mysql.connector
-from mysql.connector import errorcode
 from discord import Intents
 from discord.ext import commands
 
-# intents = discord.Intents().all()
-# client = commands.Bot(command_prefix=',', intents=intents)
+
 
 intents = Intents.default()
 intents.message_content = True
@@ -48,19 +41,22 @@ def show_schedule(sem, year, sub, code):
         
         blob_list = []
         curr_time = time.asctime(time.localtime(time.time())).split()
-        blob_list.append(f"{sub.upper()} {code} {find_class(code)} - {sem.upper()} {year} - As of {curr_time[0]} {curr_time[2]} {curr_time[1]} {curr_time[4]} {curr_time[3]}")
+        blob_list.append(f"{sub.upper()} {code} {find_class(code)} - {sem.upper()} {year} - As of {curr_time[0]} {curr_time[2]} {curr_time[1]} {curr_time[4]} {curr_time[3]}\n")
 
-        blob_list.append("\n\tSection\t\tLocation\tDays\t Seats\t Waitlist Queue\t\t  Time\t\t\t\tFaculty")
+        blob_list.append("\tSection\t\tLocation\tDays\t Seats\t Waitlist Queue\t\t  Time\t\t\t\tFaculty")
         blob_list.append("\t-------\t\t--------\t----\t -----\t --------------\t\t  ----\t\t\t\t-------")
         try:    
             for sec in data[f"{sub.upper()} {code}"].keys():
+                
                 section_string = []
                 curr_sec = data[f'{sub.upper()} {code}'][sec]
+                
                 section_string.append("\t " + curr_sec["class_number"] + " ")
+                
+                
+                # Location 
                 if (len(curr_sec["location"]) == 3):
                     section_string.append("  ")
-
-                # Location 
 
                 if (len(curr_sec["location"])) == 5:
                     section_string.append(f" \t\t{curr_sec['location']}")
@@ -109,11 +105,11 @@ def show_schedule(sem, year, sub, code):
 
                 # Time 
                 section_string.append(f"\t   {(curr_sec['start_time'])[0:2]}:{(curr_sec['start_time'])[2:4]} - {(curr_sec['end_time'])[0:2]}:{(curr_sec['end_time'])[2:4]}")
+                
                 # Instructor
                 # if a class has no instructor, print Staff instead
                 if curr_sec["instructor"] != "Staff":
                     section_string.append(f"\t{curr_sec['instructor']}")
-                    
                 else:
                     section_string.append("\t\t   " + "Staff")
                     
