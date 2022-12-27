@@ -33,9 +33,7 @@ def stime():
 @app.route('/profs/<string:subject>')
 @app.route('/profs/<string:subject>/<int:id>')
 def profs(**kwargs):
-    # hashlib.sha3_256(account_data["password"].encode()).hexdigest()
-    # if no id, return list of profs
-    # if id, return prof and classes they are teaching
+
     rootCursor = esta_conn()
     
     

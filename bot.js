@@ -24,6 +24,11 @@ client.on('ready', () => {
 function show_prof(subject, itchid, id) {
   var ret1 = "";
  
+  // if no id is provided, GET request returns all profs/id combos
+  
+  /* if id is provided, GET request returns the prof 
+  * info and the classes they are teaching
+  */
   _url = (id) 
   ? `http://127.0.0.1:2222/profs/${subject}/${id}` 
   : `http://127.0.0.1:2222/profs/${subject}`;
@@ -143,6 +148,8 @@ function show_prof(subject, itchid, id) {
 
 }
 
+
+// simply returns all classes at a specified level
 function show_levels(subject, level, itchid) {
   console.log("Show levels called.");
   var ret1 = "";
@@ -257,7 +264,7 @@ function show_class(subject, code, itchid) {
         }
 
 
-        ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`);
+        ret2 += (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}`);
 
         if (course.waitlist_cap > 0) {
 
@@ -279,18 +286,15 @@ function show_class(subject, code, itchid) {
       }
 
     } /*end if*/
-    if (ret1.length + ret2.length < 4000) {
+   
       setTimeout(async () => {
-        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 4000) + "```");
+        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 2000) + "```");
       }, 2000);
-    } else {
-      setTimeout(async () => {
-        await client.channels.cache.get(itchid).send("```Response too long.```");
-      }, 2000);
-    }
+   
   }); /*end request*/
 }
 
+// for every class before spring 2023
 function show_class_with_term(subject, code, semester, year, itchid) {
   console.log("Show class override called.");
  
@@ -379,17 +383,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
         });
 
 
-        if (ret1.length + ret2.length < 4000) {
+        
           setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```" + ret1 + ret2 + "```");
+            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 2000) + "```");
           }, 2000);
-        } else {
-          setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```Response too long.```");
-          }, 2000);
-        }
-
-      } /*end if*/
+        } 
     }); /*end request*/
   }
 
