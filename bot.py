@@ -211,13 +211,14 @@ def show_schedule(sem, year, sub, code):
 @client.event
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
-
+    
 @client.event
 async def on_message(message):
-    message = ''.join(message.content)
+    _message = ''.join(message.content)
+        
     
-    print(f"{message}")
-    for m in re.findall('<:[a-zA-z0-9]*:[a-zA-z0-9]*>', message):
+    print(f"{_message}")
+    for m in re.findall('<:[a-zA-z0-9]*:[a-zA-z0-9]*>', _message):
         with open('./emoji_count.json') as ec:
             ec = json.load(ec)
             try:
@@ -225,10 +226,15 @@ async def on_message(message):
             except KeyError:
                 ec[m] = 1
             json.dump(ec, open('./emoji_count.json', 'w'), indent=4)
+    
+    await client.process_commands(message)
+
+
                 
 @client.command()
-async def emo(ctx, *message):
-    ret = ""
+async def emoji(ctx, *message):
+    ret = "```Emote Rankings```"
+    print(len(message))
     with open('./emoji_count.json') as ec:
         ec = json.load(ec)
         for e in ec:
@@ -244,6 +250,7 @@ async def csun(ctx, *message):
     message = ' '.join(message)
     print(f"{ctx} {message}")
     
+    print(len(message))
 
     if ctx.author == client.user:
         return
@@ -276,4 +283,6 @@ async def csun(ctx, *message):
                                    "\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
 
 
-client.run(TOKEN)
+
+if __name__ == "__main__":
+    client.run(TOKEN)
