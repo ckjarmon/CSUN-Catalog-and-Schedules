@@ -218,7 +218,7 @@ async def on_message(message):
         
     
     print(f"{_message}")
-    for m in re.findall('<:[a-zA-z0-9]*:[a-zA-z0-9]*>', _message):
+    for m in re.findall('<:[a-zA-z0-9]*:[0-9]*>', _message):
         with open('./emoji_count.json') as ec:
             ec = json.load(ec)
             try:
