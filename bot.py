@@ -227,7 +227,7 @@ async def on_message(message):
             json.dump(ec, open('./emoji_count.json', 'w'), indent=4)
                 
 @client.command()
-async def emoji(ctx, *message):
+async def emo(ctx, *message):
     ret = ""
     with open('./emoji_count.json') as ec:
         ec = json.load(ec)
