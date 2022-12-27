@@ -225,7 +225,8 @@ async def on_message(message):
                 ec[m] += 1
             except KeyError:
                 ec[m] = 1
-            json.dump(ec, open('./emoji_count.json', 'w'), indent=4)
+            
+            json.dump(dict(sorted(ec.items(), key=lambda item:item[1])), open('./emoji_count.json', 'w'), indent=4)
     
     await client.process_commands(message)
 
