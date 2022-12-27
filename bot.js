@@ -126,7 +126,10 @@ function show_prof(subject, itchid, id) {
         }
 
 
-        ret1 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
+        ret1 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
+        ? (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
+        : (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
+
         ret1 += (`${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`);
         ret1 += (" - ");
         ret1 += (`${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
@@ -264,7 +267,10 @@ function show_class(subject, code, itchid) {
         }
 
 
-        ret2 += (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}`);
+        ret1 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
+        ? (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
+        : (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
+        
 
         if (course.waitlist_cap > 0) {
 
@@ -288,7 +294,8 @@ function show_class(subject, code, itchid) {
     } /*end if*/
    
       setTimeout(async () => {
-        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 2000) + "```");
+        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1999) + "```");
+        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(2000) + "```");
       }, 2000);
    
   }); /*end request*/
@@ -367,8 +374,10 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             }
 
 
-            ret2 += (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`);
-
+            ret2 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
+            ? (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
+            : (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
+            
 
             ret2 += (`\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)}`);
             ret2 += (" - ");
@@ -385,7 +394,8 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
         
           setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 2000) + "```");
+            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1999) + "```");
+            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(2000) + "```");
           }, 2000);
         } 
     }); /*end request*/
