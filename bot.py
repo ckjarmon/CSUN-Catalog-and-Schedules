@@ -240,7 +240,8 @@ async def emoji(ctx, *message):
         for e in ec:
             ret += (f"{e} {ec[e]}\n")
     print(ret)
-    await ctx.send(ret)     
+    await ctx.send(ret[0:1979])
+    await ctx.send(ret[1979])     
 
 
 
