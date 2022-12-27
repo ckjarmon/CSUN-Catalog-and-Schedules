@@ -294,8 +294,8 @@ function show_class(subject, code, itchid) {
     } /*end if*/
    
       setTimeout(async () => {
-        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1999) + "```");
-        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(2000) + "```");
+        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
+        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```");
       }, 2000);
    
   }); /*end request*/
@@ -394,8 +394,8 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
         
           setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1999) + "```");
-            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(2000) + "```");
+            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
+            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```");
           }, 2000);
         } 
     }); /*end request*/
