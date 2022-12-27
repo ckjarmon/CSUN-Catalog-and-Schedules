@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import time
 from discord import Intents
 from discord.ext import commands
+import re
 
 
 
@@ -211,6 +212,31 @@ def show_schedule(sem, year, sub, code):
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
 
+@client.event
+async def on_message(message):
+    message = ''.join(message.content)
+    
+    print(f"{message}")
+    for m in re.findall('<:[a-zA-z0-9]*:[a-zA-z0-9]*>', message):
+        with open('./emoji_count.json') as ec:
+            ec = json.load(ec)
+            try:
+                ec[m] += 1
+            except KeyError:
+                ec[m] = 1
+            json.dump(ec, open('./emoji_count.json', 'w'), indent=4)
+                
+@client.command()
+async def emoji(ctx, *message):
+    ret = ""
+    with open('./emoji_count.json') as ec:
+        ec = json.load(ec)
+        for e in ec:
+            ret += (f"{e} {ec[e]}\n")
+    print(ret)
+    await ctx.send(ret)     
+
+
 
 @client.command()
 async def csun(ctx, *message):
@@ -248,5 +274,6 @@ async def csun(ctx, *message):
                                    "For multiple classes (in a single subject)\n\t!csun subject class_code class_code class_code" + 
                                    "\nExample:\n\t!csun comp 110 182 282\n\n" +
                                    "\nhttps://github.com/kyeou/Python-Scripts/tree/main/csun_catalog_and_schedules_bot```")
+
 
 client.run(TOKEN)
