@@ -4,6 +4,7 @@ import json
 from dotenv import load_dotenv
 import time
 from discord import Intents
+from discord import Emoji
 from discord.ext import commands
 import re
 
@@ -217,29 +218,31 @@ async def on_ready():
 @client.event
 async def on_message(message):
     _message = ''.join(message.content)
-        
+     
     
     print(f"{_message}")
     for m in re.findall('<:[a-zA-z0-9]*:[0-9]*>', _message):
-        with open('./emoji_count.json') as ec:
-            ec = json.load(ec)
-            try:
-                ec[m] += 1
-            except KeyError:
-                ec[m] = 1
-            
-            json.dump(dict(sorted(ec.items(), key=lambda item:item[1], reverse=True)), open('./emoji_count.json', 'w'), indent=4)
+        if client.get_emoji(int(re.findall('[0-9]*>', m)[0][0:-1])) is not None:   
+            with open('./emoji_count.json') as ec:
+                ec = json.load(ec)
+                try:
+                    ec[m] += 1
+                except KeyError:
+                    ec[m] = 1
+
+                json.dump(dict(sorted(ec.items(), key=lambda item:item[1], reverse=True)), open('./emoji_count.json', 'w'), indent=4)
     
     await client.process_commands(message)
 
 
-                
+import itertools         
 @client.command()
 async def emoji(ctx, *message):
     ret = "```Emote Rankings```"
-    print(len(message))
     with open('./emoji_count.json') as ec:
         ec = json.load(ec)
+        ec = dict(itertools.islice(ec.items(), 15))
+
         for e in ec:
             if re.findall('<:[a-zA-z0-9]*:[0-9]*>', e) != []:
                 ret += (f"{e} {ec[e]}\n")
