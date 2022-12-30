@@ -228,7 +228,7 @@ async def on_message(message):
             except KeyError:
                 ec[m] = 1
             
-            json.dump(dict(sorted(ec.items(), key=lambda item:item[1])), open('./emoji_count.json', 'w'), indent=4)
+            json.dump(dict(sorted(ec.items(), key=lambda item:item[1], reverse=True)), open('./emoji_count.json', 'w'), indent=4)
     
     await client.process_commands(message)
 
@@ -241,10 +241,11 @@ async def emoji(ctx, *message):
     with open('./emoji_count.json') as ec:
         ec = json.load(ec)
         for e in ec:
-            ret += (f"{e} {ec[e]}\n")
+            if re.findall('<:[a-zA-z0-9]*:[0-9]*>', e) != []:
+                ret += (f"{e} {ec[e]}\n")
     print(ret)
     await ctx.send(ret[0:1979])
-    await ctx.send(ret[1979])     
+    await ctx.send(ret[1979:])     
 
 
 
