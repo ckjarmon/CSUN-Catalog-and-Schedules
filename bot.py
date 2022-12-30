@@ -107,7 +107,7 @@ def show_schedule(sem, year, sub, code):
 
 
                 # Time 
-                section_string.append(f"\t   {(curr_sec['start_time'])[0:2]}:{(curr_sec['start_time'])[2:4]} - {(curr_sec['end_time'])[0:2]}:{(curr_sec['end_time'])[2:4]}")
+                section_string.append(f"\t  {(curr_sec['start_time'])[0:2]}:{(curr_sec['start_time'])[2:4]} - {(curr_sec['end_time'])[0:2]}:{(curr_sec['end_time'])[2:4]}")
                 
                 # Instructor
                 # if a class has no instructor, print Staff instead
