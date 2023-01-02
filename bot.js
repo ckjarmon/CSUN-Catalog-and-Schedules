@@ -43,11 +43,14 @@ function show_prof(subject, itchid, id) {
       console.log(_url);
       let ret1 = String(body).replaceAll(',', '');
       // console.log(body);
+
       if (!error) {
         setTimeout(async () => {
           await client.channels.cache.get(itchid).send("```" + ret1 + "```")
         }, 3000);
       }
+
+
     });
   } else {
     require("request")({
@@ -74,6 +77,7 @@ function show_prof(subject, itchid, id) {
 
       
       ret1 += ("\n\tSPRING 2023\n\t-----------\n");
+
       require("request")({
         url: `http://127.0.0.1:2222/time`,
         json: true
@@ -83,8 +87,12 @@ function show_prof(subject, itchid, id) {
           ret1 += ("\n" + body + "\n");
         }
       });
+
+
       ret1 += ("\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time")
       ret1 += ("\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n");
+
+
       body.sch.forEach(course => {
 
         ret1 += ("\t " + course.class_number);
@@ -134,15 +142,18 @@ function show_prof(subject, itchid, id) {
         ret1 += (" - ");
         ret1 += (`${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
         ret1 += ("\n");
-      });
+      }); // end for each
+
 
       if (!error) {
         setTimeout(async () => {
           await client.channels.cache.get(itchid).send("```" + ret1 + "```");
         }, 3000);
       }
+
+
     });
-  }
+  }//end else
 
 }
 
@@ -168,14 +179,18 @@ function show_levels(subject, level, itchid) {
       console.log(`http://127.0.0.1:2222/${subject}/catalog`);
 
       const stuffs = JSON.parse(JSON.stringify(body));
+
       stuffs.forEach(course => {
         if (course.catalog_number[0] === level[0]) {
           ret1 += (`${course.catalog_number} - ${course.title}\n`);
         }
       });
+
+
     }
 
   }); /*end request*/
+
   setTimeout(async () => {
     await client.channels.cache.get(itchid).send("```" + ret1 + "```")
   }, 2000);
@@ -186,8 +201,10 @@ function show_class(subject, code, itchid) {
 
 
   console.log("Show class called.");
+
   var ret1 = "",
     ret2 = "";
+
   require("request")({
     url: `http://127.0.0.1:2222/${subject}/catalog`,
     json: true
@@ -207,13 +224,18 @@ function show_class(subject, code, itchid) {
             url: `http://127.0.0.1:2222/time`,
             json: true
           }, function (error, response, body) {
+
             console.log(`http://127.0.0.1:2222/time`);
+
             if (!error) {
               ret1 += (body + "\n");
             }
+
           });
         }
       });
+
+
     }
   }); /*end request*/
   require("request")({
@@ -307,25 +329,32 @@ function show_class_with_term(subject, code, semester, year, itchid) {
       json: true
     }, async function (error, response, body) {
       console.log(`http://127.0.0.1:2222/${subject}/catalog`);
+
       if (!error) {
         const stuffs = JSON.parse(JSON.stringify(body));
+
         stuffs.forEach(course => {
           if (course.catalog_number === code) {
+
             ret1 += (course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description);
             ret1 += ("\n\n" + course.subject + " " + course.catalog_number + " " + course.title);
-
             ret1 += (" - " + semester.toUpperCase() + " " + year);
+
             require("request")({
               url: `http://127.0.0.1:2222/time`,
               json: true
             }, async function (error, response, body) {
               console.log(`http://127.0.0.1:2222/time`);
+
               if (!error) {
                 ret1 += (body + "\n");
               }
+
             })
           }
         });
+
+
       }
     }); /*end request*/
     require("request")({
@@ -337,9 +366,12 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
       if (!error) {
         const stuffs = JSON.parse(JSON.stringify(body));
+        
         ret2 += ("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty");
         ret2 += ("\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
+        
         stuffs.classes.forEach(course => {
+          
           if (course.catalog_number === code && course.meetings.length > 0) {
 
             ret2 += ("\t " + course.class_number);
@@ -392,6 +424,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
             await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
             await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```");
           }, 2000);
+
         } 
     }); /*end request*/
   }
@@ -479,6 +512,7 @@ client.on('interactionCreate', async interaction => {
         await interaction.reply("Gimme a sec");
       }
     } break;
+    
     case 'classes': {
 
       itchid = interaction.channelId;
@@ -525,13 +559,16 @@ client.on('interactionCreate', async interaction => {
 
         await interaction.reply("Gimme a sec");
       }
-    } break; case 'prof': {
+    } break; 
+
+    case 'prof': {
 
       itchid = interaction.channelId;
       show_prof(interaction.options.getString('subject'), itchid, interaction.options.getString('prof_id'));
       await interaction.reply("Gimme a sec");
 
     } break;
+
     case 'help': {
 
       let ret = "```\"/class\" for 1 or more classes of common subject (default is SPRING 23) \n\n" +
@@ -544,6 +581,7 @@ client.on('interactionCreate', async interaction => {
       await interaction.reply(ret);
 
     } break;
+
     case 'level': {
 
       itchid = interaction.channelId;
@@ -551,6 +589,7 @@ client.on('interactionCreate', async interaction => {
       await interaction.reply("Gimme a sec");
 
     } break;
+
     case 'gunfight': {
 
       const user = interaction.options.getUser('target');
