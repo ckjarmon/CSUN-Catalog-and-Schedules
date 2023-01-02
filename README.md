@@ -23,7 +23,8 @@ Single Class, Single Subject
 Multiple Classes, Single Subject
 ![](imgs/py_multi_class.png)
 
-Multiple Classes, Multiple Subjects was not implemented in the Python version
+Multiple Classes, Multiple Subject
+![](imgs/py_multi_subject_multi_class.png)
 
 
 # Javascript Commands 
@@ -43,7 +44,7 @@ Multiple Classes, Multiple Subjects was not implemented in the Python version
 ![Enter Parameter](imgs/multi_subject_input.png)
 ![Result](imgs/multi_subject_output.png)
 
-## The default semester is Fall 2022. 
+## The default semester is Spring 2023. 
 ### For other semesters append to end, subject YY, last 2 digits of year
 
 ![Enter Parameter](imgs/multi_diff_semester_input.png)

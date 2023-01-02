@@ -136,11 +136,6 @@ function show_prof(subject, itchid, id) {
         ret1 += ("\n");
       });
 
-
-
-
-
-
       if (!error) {
         setTimeout(async () => {
           await client.channels.cache.get(itchid).send("```" + ret1 + "```");
@@ -375,7 +370,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
 
             ret2 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
-            ? (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
+            ?  (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
             : (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
             
 
