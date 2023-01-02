@@ -321,6 +321,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
  
     var ret1 = "",
       ret2 = "";
+      
     require("request")({
       url: `http://127.0.0.1:2222/${subject}/catalog`,
       json: true
