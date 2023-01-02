@@ -1,24 +1,27 @@
 require('dotenv').config()
+
 const {
   token
 } = require('./config.json');
+
 const {
   Client,
   GatewayIntentBits
 } = require('discord.js');
+
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, 
     GatewayIntentBits.GuildMessages,
     GatewayIntentBits.MessageContent, 
     GatewayIntentBits.GuildMembers]
 });
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-
-
 function show_prof(subject, itchid, id) {
+
   var ret1 = "";
  
   // if no id is provided, GET request returns all profs/id combos
@@ -26,6 +29,7 @@ function show_prof(subject, itchid, id) {
   /* if id is provided, GET request returns the prof 
   * info and the classes they are teaching
   */
+ 
   _url = (id) 
   ? `http://127.0.0.1:2222/profs/${subject}/${id}` 
   : `http://127.0.0.1:2222/profs/${subject}`;
@@ -321,7 +325,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
  
     var ret1 = "",
       ret2 = "";
-      
+
     require("request")({
       url: `http://127.0.0.1:2222/${subject}/catalog`,
       json: true
