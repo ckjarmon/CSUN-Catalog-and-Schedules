@@ -40,7 +40,7 @@ def profs(**kwargs):
     # print(sum([len(x) for x in profs]))
     try:
         rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
-        nn_profs = sorted([f"{x[0]} {x[1]}" for x in rootCursor.fetchall()], key=lambda x:name_normalize(x.split(" ")[1]))
+        profs_as_first_last = sorted([f"{x[0]} {x[1]}" for x in rootCursor.fetchall()], key=lambda x:name_normalize(x.split(" ")[1]))
         rootCursor.execute(f"""select email, 
                                first_name, 
                                last_name, 
@@ -50,7 +50,10 @@ def profs(**kwargs):
                                website, 
                                mail_drop, 
                                subject, 
-                               office from professor where first_name = '{nn_profs[kwargs['id']-1].split(" ")[0]}' and last_name = '{nn_profs[kwargs['id']-1].split(" ")[1]}'""")
+                               office from professor where 
+                               first_name = '{profs_as_first_last[kwargs['id']-1].split(" ")[0]}' 
+                               and 
+                               last_name = '{profs_as_first_last[kwargs['id']-1].split(" ")[1]}'""")
         p = [{"email": x[0],
                      "first_name": name_normalize(x[1]),
                      "last_name": name_normalize(x[2]),
@@ -62,6 +65,9 @@ def profs(**kwargs):
                      "subject": x[8] if x[8] not in [None, ""] else "N/A",
                      "office": x[9] if x[9] not in [None, ""] else "N/A"}
                     for x in rootCursor.fetchall()][0]
+        
+        
+
         rootCursor.execute(f"""select class_number, 
                                    enrollment_cap, 
                                    enrollment_count, 
@@ -72,6 +78,9 @@ def profs(**kwargs):
                                    end_time, 
                                    catalog_number, 
                                    subject from section where instructor like '%{p['last_name'].split(',')[0]}%'""")
+        
+        
+        
         p = {"info": p, "sch": [{"class_number": c[0],
                          "enrollment_cap": c[1],
                          "enrollment_count": c[2],
@@ -82,7 +91,7 @@ def profs(**kwargs):
                          "end_time": c[7],
                          "catalog_number": c[8],
                          "subject": c[9]} for c in rootCursor.fetchall()] }
-        print(p)
+        # print(p)
         return p
     except KeyError:
         rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
