@@ -29,7 +29,7 @@ function show_prof(subject, itchid, id) {
   /* if id is provided, GET request returns the prof 
   * info and the classes they are teaching
   */
- 
+
   _url = (id) 
   ? `http://127.0.0.1:2222/profs/${subject}/${id}` 
   : `http://127.0.0.1:2222/profs/${subject}`;
@@ -136,8 +136,8 @@ function show_prof(subject, itchid, id) {
 
 
         ret1 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
-        ? (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
-        : (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
+        ? (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
+        : (`\t\t\t  ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
 
         ret1 += (`${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`);
         ret1 += (" - ");
