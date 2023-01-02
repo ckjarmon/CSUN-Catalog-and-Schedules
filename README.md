@@ -5,7 +5,7 @@ Help Command: !csun help or /help
 
 The are 2 different ways the bot can be called, as it is implemented in 2 languages.
 
-# Python Commands 
+# Command Set 1
 
 ## Single Class, Single Subject
 ![](imgs/py_single_class.png)
@@ -17,7 +17,7 @@ The are 2 different ways the bot can be called, as it is implemented in 2 langua
 ![](imgs/py_multi_subject_multi_class.png)
 
 
-# Javascript Commands 
+# Command Set 2 
 
 ## Example 1: Single Class, Single Subject
 
