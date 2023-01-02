@@ -13,7 +13,7 @@ The are 2 different ways the bot can be called, as it is implemented in 2 langua
 ## Multiple Classes, Single Subject
 ![](imgs/py_multi_class.png)
 
-## Multiple Classes, Multiple Subject
+## Multiple Classes, Multiple Subjects
 ![](imgs/py_multi_subject_multi_class.png)
 
 
