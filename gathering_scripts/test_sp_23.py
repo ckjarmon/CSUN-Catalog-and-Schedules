@@ -29,9 +29,9 @@ def show_schedule(sub, code):
             
     blob_list = []
     
-    blob_list.append(sub.upper() + " " + code + " " + find_class(code) + " - SPRING 2023")
-    blob_list.append("\n\tSection\t\tLocation\tDays\t\tSeats Aval\t\t\t  Time\t\t\t\tFaculty")
-    blob_list.append  ("\t-------\t\t--------\t----\t\t----------\t\t\t  ----\t\t\t\t-------")
+    blob_list.append(sub.upper() + " " + code + " " + find_class(code) + " - SPRING 2023\n")
+    blob_list.append("\tSection\t\tLocation\tDays\t\tSeats Aval\t\t\t  Time\t\t\t\tFaculty")
+    blob_list.append("\t-------\t\t--------\t----\t\t----------\t\t\t  ----\t\t\t\t-------")
     
     for course in data["classes"]:
         if (len(course["meetings"]) > 0) and code == course["catalog_number"]: # if a class has no meetings, it should not be on schedule
