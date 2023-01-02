@@ -4,10 +4,7 @@ const {
 } = require('./config.json');
 const {
   Client,
-  GatewayIntentBits,
-  GatewayDispatchEvents,
-  EmbedBuilder,
-  Guild
+  GatewayIntentBits
 } = require('discord.js');
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, 
