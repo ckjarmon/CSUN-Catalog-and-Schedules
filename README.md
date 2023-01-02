@@ -7,13 +7,13 @@ The are 2 different ways the bot can be called, as it is implemented in 2 langua
 
 # Python Commands 
 
-Single Class, Single Subject
+## Single Class, Single Subject
 ![](imgs/py_single_class.png)
 
-Multiple Classes, Single Subject
+## Multiple Classes, Single Subject
 ![](imgs/py_multi_class.png)
 
-Multiple Classes, Multiple Subject
+## Multiple Classes, Multiple Subject
 ![](imgs/py_multi_subject_multi_class.png)
 
 
@@ -46,7 +46,7 @@ Same input scheme for single subject input.
 ## Professor Search. 
 ### Either list all professors or view one by ID.
 
-![Enter Parameter](imgs/prof_search_input.png)
+![Enter Parameter](imgs/prof_search_input.png) \
 ![Result](imgs/prof_search_output.png)
 
 
