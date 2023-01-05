@@ -604,7 +604,7 @@ client.on('interactionCreate', async interaction => {
       //   interaction.reply('```Kyeou is immune.```'); 
       // }
       member.timeout(10000, "bleh"); 
-      interaction.reply(`\`\`\`${user.username} has been timed out!\`\`\``); }
+      interaction.reply(`\`\`\`${user.username} has been timed out!\`\`\``); 
 
     }
   }
