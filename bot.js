@@ -72,7 +72,7 @@ function show_prof(subject, itchid, id) {
 
       for (n in body.info) {
         if (body.info[n] !== "N/A") {
-          ret1 += (`${n.substring(0, 1).toUpperCase()}${n.substring(1)}` + ": " + body.info[n] + "\n");
+          ret1 += (`${n.toUpperCase()}` + ": " + body.info[n] + "\n");
         }
       }
 
@@ -143,7 +143,7 @@ function show_prof(subject, itchid, id) {
         ret1 += (" - ");
         ret1 += (`${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
         ret1 += ("\n");
-      }); // end for each
+      }); /* end for each */
 
 
       if (!error) {
@@ -154,7 +154,7 @@ function show_prof(subject, itchid, id) {
 
 
     });
-  }//end else
+  } /* end else */
 
 }
 
@@ -190,14 +190,14 @@ function show_levels(subject, level, itchid) {
 
     }
 
-  }); /*end request*/
+  }); /* end request */
 
   setTimeout(async () => {
     await client.channels.cache.get(itchid).send("```" + ret1 + "```")
   }, 2000);
 }
 
-// for every semester after Fall 2022
+/* for every semester after Fall 2022 */
 function show_class(subject, code, itchid) {
 
 
@@ -238,7 +238,7 @@ function show_class(subject, code, itchid) {
 
 
     }
-  }); /*end request*/
+  }); /* end request */
   require("request")({
     url: `http://127.0.0.1:2222/${subject}/schedule`,
     json: true
@@ -309,14 +309,14 @@ function show_class(subject, code, itchid) {
         ret2 += ("\n");
       }
 
-    } /*end if*/
+    } /* end if */
    
       setTimeout(async () => {
         await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
         await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```");
       }, 2000);
    
-  }); /*end request*/
+  }); /* end request */
 }
 
 // for every class before spring 2023
@@ -358,7 +358,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
 
       }
-    }); /*end request*/
+    }); /* end request */
     require("request")({
       url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`,
       json: true
@@ -428,7 +428,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
           }, 2000);
 
         } 
-    }); /*end request*/
+    }); /* end request */
   }
 
 
