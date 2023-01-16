@@ -599,7 +599,7 @@ client.on('interactionCreate', async interaction => {
       const member = interaction.guild.members.cache.get(user.id);
       //if (member.id !== "534510030490304524") { 
         member.timeout(10000, "bleh"); 
-        interaction.reply(`\`\`\`${user.username} has been timed out!\`\`\``); }
+        interaction.reply(`\`\`\`${user.username} has been timed out!\`\`\``); //}
      // else { 
      //   interaction.reply('```Kyeou is immune.```'); 
      // }
