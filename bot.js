@@ -285,7 +285,7 @@ function show_class(subject, code, itchid) {
         }
 
 
-        ret1 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
+        ret2 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
         ? (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
         : (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
         
@@ -313,7 +313,7 @@ function show_class(subject, code, itchid) {
    
       setTimeout(async () => {
         await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
-        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```");
+        if ((ret1 + ret2).substring(1994)  !== "") {await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```")};
       }, 2000);
    
   }); /* end request */
@@ -424,7 +424,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
         
           setTimeout(async () => {
             await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
-            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```");
+            if ((ret1 + ret2).substring(1994) !== "") {await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```")};
           }, 2000);
 
         } 
