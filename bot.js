@@ -286,14 +286,14 @@ function show_class(subject, code, itchid) {
 
 
         ret2 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
-        ? (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
-        : (`\t\t\t  ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
+        ? (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`)
+        : (`\t\t\t  ${(course.enrollment_cap - course.enrollment_count)}`);
         
 
         if (course.waitlist_cap > 0) {
 
-          if (course.waitlist_count > 10) { ret2 += (`\t     ${(course.waitlist_count)}\t`); } 
-          else                            { ret2 += (`\t      ${(course.waitlist_count)}\t`); }
+          if (course.waitlist_count > 10) { ret2 += (`\t\t\t     ${(course.waitlist_count)}\t`); } 
+          else                            { ret2 += (`\t\t\t      ${(course.waitlist_count)}\t`); }
 
         }
         else { ret2 += (`\t\t\t    N/A   `); }
