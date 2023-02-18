@@ -220,7 +220,7 @@ async def on_message(message):
     _message = ''.join(message.content)
      
     
-    print(f"{_message}")
+    print(f"{message.author} [{_message}]")
     for m in re.findall('<:[a-zA-z0-9]*:[0-9]*>', _message):
         if client.get_emoji(int(re.findall('[0-9]*>', m)[0][0:-1])) is not None:   
             with open('./emoji_count.json') as ec:
@@ -255,21 +255,21 @@ async def emoji(ctx, *message):
 async def csun(ctx, *message):
     
     message = ' '.join(message)
-    print(f"{ctx} {message}")
+    # print(f"{ctx} {message}")
     
-    print(len(message))
+    # print(len(message))
 
     if ctx.author == client.user:
         return
 
     msg_split = message.split()
-    print(ctx.author, end="")
-    print(f"{ctx.author} [{message}]")
+    # print(ctx.author, end="")
+    # print(f"{ctx.author} [{message}]")
 
     ls, i = 0, 1
     while True:
         try:    
-            if not msg_split[i].isnumeric():
+            if not msg_split[i][0:3].isnumeric():
                 ls = i
                 i += 1
          
