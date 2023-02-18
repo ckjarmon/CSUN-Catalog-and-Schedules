@@ -10,10 +10,10 @@ const {
 } = require('discord.js');
 
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds, 
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent, 
-    GatewayIntentBits.GuildMembers]
+  intents: [GatewayIntentBits.Guilds,
+  GatewayIntentBits.GuildMessages,
+  GatewayIntentBits.MessageContent,
+  GatewayIntentBits.GuildMembers]
 });
 
 client.on('ready', () => {
@@ -23,16 +23,16 @@ client.on('ready', () => {
 function show_prof(subject, itchid, id) {
 
   var ret1 = "";
- 
+
   // if no id is provided, GET request returns all profs/id combos
-  
+
   /* if id is provided, GET request returns the prof 
   * info and the classes they are teaching
   */
 
-  _url = (id) 
-  ? `http://127.0.0.1:2222/profs/${subject}/${id}` 
-  : `http://127.0.0.1:2222/profs/${subject}`;
+  _url = (id)
+    ? `http://127.0.0.1:2222/profs/${subject}/${id}`
+    : `http://127.0.0.1:2222/profs/${subject}`;
 
 
   if (!id) {
@@ -76,7 +76,7 @@ function show_prof(subject, itchid, id) {
         }
       }
 
-      
+
       ret1 += ("\n\tSPRING 2023\n\t-----------\n");
 
       require("request")({
@@ -98,22 +98,22 @@ function show_prof(subject, itchid, id) {
 
         ret1 += ("\t " + course.class_number);
 
-        ret1 += (course.subject.length === 4) 
-        ? ("\t   " + course.subject) 
-        : ("\t   " + course.subject + " ");
+        ret1 += (course.subject.length === 4)
+          ? ("\t   " + course.subject)
+          : ("\t   " + course.subject + " ");
 
-        ret1 += (course.catalog_number.length === 4) 
-        ? ("\t   " + course.catalog_number) 
-        : ("\t   " + course.catalog_number + " ");
+        ret1 += (course.catalog_number.length === 4)
+          ? ("\t   " + course.catalog_number)
+          : ("\t   " + course.catalog_number + " ");
 
-        ret1 += (course.location.length === 3) 
-        ? ("   ") 
-        : ("");
+        ret1 += (course.location.length === 3)
+          ? ("   ")
+          : ("");
 
 
-        ret1 += (course.location.length === 5) 
-        ? ("\t\t   " + course.location) 
-        : ("\t\t  " + course.location);
+        ret1 += (course.location.length === 5)
+          ? ("\t\t   " + course.location)
+          : ("\t\t  " + course.location);
 
 
         if (course.days !== "None") {
@@ -135,9 +135,9 @@ function show_prof(subject, itchid, id) {
         }
 
 
-        ret1 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
-        ? (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
-        : (`\t\t\t  ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
+        ret1 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10)
+          ? (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
+          : (`\t\t\t  ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
 
         ret1 += (`${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`);
         ret1 += (" - ");
@@ -285,15 +285,15 @@ function show_class(subject, code, itchid) {
         }
 
 
-        ret2 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
-        ? (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`)
-        : (`\t\t\t  ${(course.enrollment_cap - course.enrollment_count)}`);
-        
+        ret2 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10)
+          ? (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}`)
+          : (`\t\t\t  ${(course.enrollment_cap - course.enrollment_count)}`);
+
 
         if (course.waitlist_cap > 0) {
 
-          if (course.waitlist_count > 10) { ret2 += (`\t\t\t     ${(course.waitlist_count)}\t`); } 
-          else                            { ret2 += (`\t\t\t      ${(course.waitlist_count)}\t`); }
+          if (course.waitlist_count > 10) { ret2 += (`\t\t\t     ${(course.waitlist_count)}\t`); }
+          else { ret2 += (`\t\t\t      ${(course.waitlist_count)}\t`); }
 
         }
         else { ret2 += (`\t\t\t    N/A   `); }
@@ -301,145 +301,143 @@ function show_class(subject, code, itchid) {
         ret2 += (`\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`);
         ret2 += (" - ");
         ret2 += (`${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`);
-        
-        ret2 += (course.instructor !== "Staff") 
-        ? ("\t\t" + course.instructor) 
-        : ("\t\t\t\tStaff");
+
+        ret2 += (course.instructor !== "Staff")
+          ? ("\t\t" + course.instructor)
+          : ("\t\t\t\tStaff");
 
         ret2 += ("\n");
       }
 
     } /* end if */
-   
-      setTimeout(async () => {
-        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
-        if ((ret1 + ret2).substring(1994)  !== "") {await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```")};
-      }, 2000);
-   
+
+    setTimeout(async () => {
+      await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
+      if ((ret1 + ret2).substring(1994) !== "") { await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```") };
+    }, 2000);
+
   }); /* end request */
 }
 
 // for every class before spring 2023
 function show_class_with_term(subject, code, semester, year, itchid) {
   console.log("Show class override called.");
- 
-    var ret1 = "",
-      ret2 = "";
 
-    require("request")({
-      url: `http://127.0.0.1:2222/${subject}/catalog`,
-      json: true
-    }, async function (error, response, body) {
-      console.log(`http://127.0.0.1:2222/${subject}/catalog`);
+  var ret1 = "",
+    ret2 = "";
 
-      if (!error) {
-        const stuffs = JSON.parse(JSON.stringify(body));
+  require("request")({
+    url: `http://127.0.0.1:2222/${subject}/catalog`,
+    json: true
+  }, async function (error, response, body) {
+    console.log(`http://127.0.0.1:2222/${subject}/catalog`);
 
-        stuffs.forEach(course => {
-          if (course.catalog_number === code) {
+    if (!error) {
+      const stuffs = JSON.parse(JSON.stringify(body));
 
-            ret1 += (course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description);
-            ret1 += ("\n\n" + course.subject + " " + course.catalog_number + " " + course.title);
-            ret1 += (" - " + semester.toUpperCase() + " " + year);
+      stuffs.forEach(course => {
+        if (course.catalog_number === code) {
 
-            require("request")({
-              url: `http://127.0.0.1:2222/time`,
-              json: true
-            }, async function (error, response, body) {
-              console.log(`http://127.0.0.1:2222/time`);
+          ret1 += (course.subject + " " + course.catalog_number + " " + course.title + "\n\n" + course.description);
+          ret1 += ("\n\n" + course.subject + " " + course.catalog_number + " " + course.title);
+          ret1 += (" - " + semester.toUpperCase() + " " + year);
 
-              if (!error) {
-                ret1 += (body + "\n");
-              }
+          require("request")({
+            url: `http://127.0.0.1:2222/time`,
+            json: true
+          }, async function (error, response, body) {
+            console.log(`http://127.0.0.1:2222/time`);
 
-            })
-          }
-        });
+            if (!error) {
+              ret1 += (body + "\n");
+            }
+          })
+        }
+      });
+    }
 
+  }); /* end request */
+  require("request")({
+    url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`,
+    json: true
+  }, async function (error, response, body) {
 
-      }
-    }); /* end request */
-    require("request")({
-      url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`,
-      json: true
-    }, async function (error, response, body) {
+    console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`);
 
-      console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`);
+    if (!error) {
+      const stuffs = JSON.parse(JSON.stringify(body));
 
-      if (!error) {
-        const stuffs = JSON.parse(JSON.stringify(body));
-        
-        ret2 += ("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty");
-        ret2 += ("\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
-        
-        stuffs.classes.forEach(course => {
-          
-          if (course.catalog_number === code && course.meetings.length > 0) {
+      ret2 += ("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty");
+      ret2 += ("\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n");
 
-            ret2 += ("\t " + course.class_number);
+      stuffs.classes.forEach(course => {
 
-            ret2 += (course.meetings[0].location.length === 3) 
-            ? ("   ") 
+        if (course.catalog_number === code && course.meetings.length > 0) {
+
+          ret2 += ("\t " + course.class_number);
+
+          ret2 += (course.meetings[0].location.length === 3)
+            ? ("   ")
             : ("");
 
-            ret2 += (course.meetings[0].location.length === 5) 
-            ? ("\t\t   " + course.meetings[0].location) 
+          ret2 += (course.meetings[0].location.length === 5)
+            ? ("\t\t   " + course.meetings[0].location)
             : ("\t\t  " + course.meetings[0].location);
 
 
 
-            switch (course.meetings[0].days.length) {
-              case 1:
-                ret2 += ("\t\t   " + course.meetings[0].days);
-                break;
-              case 2:
-                ret2 += ("\t\t  " + course.meetings[0].days);
-                break;
-              case 3:
-                ret2 += ("\t\t  " + course.meetings[0].days);
-                break;
-              default:
-                ret2 += ("\t\t " + course.meetings[0].days);
-            }
-
-
-            ret2 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10) 
-            ?  (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
-            : (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
-            
-
-            ret2 += (`\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)}`);
-            ret2 += (" - ");
-            ret2 += (`${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
-            
-            ret2 += (course.instructors.length > 0) 
-            ? ("\t\t" + course.instructors[0].instructor) 
-            : ("\t\t\t\tStaff");
-            ret2 += ("\n");
-
+          switch (course.meetings[0].days.length) {
+            case 1:
+              ret2 += ("\t\t   " + course.meetings[0].days);
+              break;
+            case 2:
+              ret2 += ("\t\t  " + course.meetings[0].days);
+              break;
+            case 3:
+              ret2 += ("\t\t  " + course.meetings[0].days);
+              break;
+            default:
+              ret2 += ("\t\t " + course.meetings[0].days);
           }
-        });
 
 
-        
-          setTimeout(async () => {
-            await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
-            if ((ret1 + ret2).substring(1994) !== "") {await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```")};
-          }, 2000);
+          ret2 += ((`${(course.enrollment_cap - course.enrollment_count)}`).length < 10)
+            ? (`\t\t\t${(course.enrollment_cap - course.enrollment_count)}\t\t\t`)
+            : (`\t\t\t ${(course.enrollment_cap - course.enrollment_count)}\t\t\t`);
 
-        } 
-    }); /* end request */
-  }
+
+          ret2 += (`\t\t\t${course.meetings[0].start_time.substring(0, 2)}:${course.meetings[0].start_time.substring(2, 4)}`);
+          ret2 += (" - ");
+          ret2 += (`${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`);
+
+          ret2 += (course.instructors.length > 0)
+            ? ("\t\t" + course.instructors[0].instructor)
+            : ("\t\t\t\tStaff");
+          ret2 += ("\n");
+
+        }
+      });
+
+
+
+      setTimeout(async () => {
+        await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
+        if ((ret1 + ret2).substring(1994) !== "") { await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```") };
+      }, 2000);
+
+    }
+  }); /* end request */
+}
 
 
 client.on('messageUpdate', (oldMessage, newMessage) => {
-  if (newMessage.author.tag == "Mysto#8529") {
+  if (newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
     client.channels.cache.get("1028088994203967498").send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`);
   }
 });
 
 client.on('messageDelete', (message) => {
-  if (message.author.tag == "Mysto#8529") {
+  if (message.author.tag !== "CSUN Catalog & Schedules#6095") {
     client.channels.cache.get("1028088994203967498").send(`[${message.author.tag}] [${message.content}]`);
   }
 });
@@ -514,7 +512,7 @@ client.on('interactionCreate', async interaction => {
         await interaction.reply("Gimme a sec");
       }
     } break;
-    
+
     case 'classes': {
 
       itchid = interaction.channelId;
@@ -561,7 +559,7 @@ client.on('interactionCreate', async interaction => {
 
         await interaction.reply("Gimme a sec");
       }
-    } break; 
+    } break;
 
     case 'prof': {
 
@@ -597,12 +595,13 @@ client.on('interactionCreate', async interaction => {
       const user = interaction.options.getUser('target');
 
       const member = interaction.guild.members.cache.get(user.id);
-      if (member.id !== "534510030490304524") { 
-        member.timeout(10000, "bleh"); 
-        interaction.reply(`\`\`\`${user.username} has been timed out!\`\`\``); }
-      else { 
-       interaction.reply('```Kyeou is immune.```'); 
-     }
+      if (member.id !== "534510030490304524") {
+        member.timeout(10000, "bleh");
+        interaction.reply(`\`\`\`${user.username} has been timed out!\`\`\``);
+      }
+      else {
+        interaction.reply('```Kyeou is immune.```');
+      }
 
 
     }
