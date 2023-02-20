@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 const {
-  token
+  token, guildId, report_channel
 } = require('./config.json');
 
 const {
@@ -431,14 +431,15 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
 
 client.on('messageUpdate', (oldMessage, newMessage) => {
-  if (newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
-    client.channels.cache.get("1028088994203967498").send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`);
+  if (oldMessage.guild.id === guildId && newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
+    client.channels.cache.get(report_channel).send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`);
   }
 });
 
 client.on('messageDelete', (message) => {
-  if (message.author.tag !== "CSUN Catalog & Schedules#6095") {
-    client.channels.cache.get("1028088994203967498").send(`[${message.author.tag}] [${message.content}]`);
+  if (oldMessage.guild.id === guildId && message.author.tag !== "CSUN Catalog & Schedules#6095") {
+    client.channels.cache.get(report_channel).send(`[${message.author.tag}] [${message.content}]`);
+
   }
 });
 
