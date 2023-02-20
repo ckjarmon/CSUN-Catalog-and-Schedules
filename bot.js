@@ -431,7 +431,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
 
 client.on('messageUpdate', (oldMessage, newMessage) => {
-  if (oldMessage.guild.id === guildId && newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
+  if (newMessage.guild.id === guildId && newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
     client.channels.cache.get(report_channel).send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`);
   }
 });
