@@ -431,13 +431,13 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
 
 client.on('messageUpdate', (oldMessage, newMessage) => {
-  if (newMessage.guild.id === guildId && newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
+  if (oldMessage.guild.id === guildId && newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
     client.channels.cache.get(report_channel).send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`);
   }
 });
 
 client.on('messageDelete', (message) => {
-  if (oldMessage.guild.id === guildId && message.author.tag !== "CSUN Catalog & Schedules#6095") {
+  if (message.guild.id === guildId && message.author.tag !== "CSUN Catalog & Schedules#6095") {
     client.channels.cache.get(report_channel).send(`[${message.author.tag}] [${message.content}]`);
 
   }
