@@ -9,7 +9,7 @@ if [ "$1" == "stop" ]; then
     exit 0
 fi
 
-# start background processes and record their PIDs
+
 while :; do node /home/kyeou/CSUN-Catalog-And-Schedules/bot.js; done &
 python /home/kyeou/CSUN-Catalog-And-Schedules/bot.py &
 python /home/kyeou/CSUN-Catalog-And-Schedules/server.py &

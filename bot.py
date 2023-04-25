@@ -16,7 +16,7 @@ intents.message_content = True
 client = commands.Bot(command_prefix="!", intents=intents)
 
 load_dotenv()
-TOKEN = json.load(open("config.json", "r"))["token"]
+TOKEN = json.load(open("./config.json", "r"))["token"]
 
 
 
