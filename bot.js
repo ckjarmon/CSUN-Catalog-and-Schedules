@@ -1,4 +1,22 @@
 require('dotenv').config()
+const path = require('path');
+
+// Create an instance of the ArgumentParser class
+const { ArgumentParser } = require('argparse');
+const parser = new ArgumentParser();
+
+// Define the command line argument for the project location
+parser.add_argument('--project_location', {
+  type: str,
+  help: 'Path to config file',
+});
+
+// Parse the command line arguments
+const args = parser.parse_args();
+
+// Change the current working directory to the project location
+process.chdir(path.resolve(args.project_location));
+
 
 const {
   token, guildId, report_channel

@@ -2,6 +2,7 @@
   "dependencies": {
     "@discordjs/rest": "^1.0.1",
     "@types/node": "^18.7.10",
+    "argparse": "^2.0.1",
     "discord-api-types": "^0.37.3",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.1",
