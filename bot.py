@@ -13,12 +13,14 @@ import argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
-    "--config",
+    "--project_location",
     type=str,
     help="Path to config file"
 )
 
 args = parser.parse_args()
+os.chdir(args.project_location)
+
 
 intents = Intents.default()
 intents.message_content = True
@@ -27,7 +29,7 @@ client = commands.Bot(command_prefix="!", intents=intents)
 
 load_dotenv()
 print(os)
-TOKEN = json.load(open(args.config, "r"))["token"]
+TOKEN = json.load(open('./config.json', "r"))["token"]
 
 
 
