@@ -2,8 +2,7 @@ from selenium.common.exceptions import NoSuchElementException
 import selenium.common.exceptions
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.service import Service
 import time
 import json
 import mariadb
@@ -140,7 +139,8 @@ class_codes = ["AE",
 "TH", 
 "UNIV", 
 "URBS"] 
-
+results_api = {}   
+results_web = {} 
 
 try:
     rootConnection = mariadb.connect(
@@ -217,10 +217,11 @@ def gather(arrow):
         
         
         # s = Service(ChromeDriverManager().install())
+        s = Service()
         op = webdriver.ChromeOptions()
         op.add_argument('--headless')
         op.add_experimental_option('excludeSwitches', ['enable-logging'])
-        driver = webdriver.Chrome('/usr/local/bin/chromedriver', options=op)
+        driver = webdriver.Chrome(service=s, options=op)
         driver.get(catalog_link)
         time.sleep(4)
 
@@ -383,7 +384,7 @@ def gather(arrow):
                 
 
         # json.dump(sub_sects, open(f"./results_web/{class_codes[arrow]}_schedule.json", "w"), indent=4)
-        global results_web
+        # global results_web
         results_web[class_codes[arrow]] = sub_sects
         driver.quit()
         
@@ -463,7 +464,7 @@ def gather(arrow):
                 sub_dict_section[k][sl["class_number"]] = sl
            
         # json.dump(sub_dict_section, open(f"./results_api/{class_codes[arrow]}_schedule.json", "w"), indent=4)
-        global results_api
+        # global results_api
         results_api[class_codes[arrow]] = sub_dict_section
         
 
@@ -475,8 +476,7 @@ import threading
 
  
 def da_job():
-    results_api = {}   
-    results_web = {} 
+
     
     t = []
    
@@ -616,7 +616,8 @@ def da_job():
     
     
 if __name__ == "__main__":
-    schedule.every().day.at("00:00").do(da_job)
-    while True:
-        schedule.run_pending()
-        time.sleep(60)
+    # schedule.every().day.at("00:00").do(da_job)
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(60)
+    da_job()
