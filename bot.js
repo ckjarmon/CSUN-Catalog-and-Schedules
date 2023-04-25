@@ -7,7 +7,7 @@ const parser = new ArgumentParser();
 
 // Define the command line argument for the project location
 parser.add_argument('--project_location', {
-  type: str,
+  type: String,
   help: 'Path to config file',
 });
 
