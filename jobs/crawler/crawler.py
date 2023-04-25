@@ -697,6 +697,7 @@ def da_job():
                         sys.exit()
         except AttributeError:
             continue
+    print(']')
     """
     for code in class_codes:
         # with open(f"./results_web/{code}_schedule.json") as web_ss:
