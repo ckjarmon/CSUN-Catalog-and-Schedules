@@ -7,8 +7,18 @@ from discord import Intents
 from discord import Emoji
 from discord.ext import commands
 import re
+import os
+import argparse
 
+parser = argparse.ArgumentParser()
 
+parser.add_argument(
+    "--config",
+    type=str,
+    help="Path to config file"
+)
+
+args = parser.parse_args()
 
 intents = Intents.default()
 intents.message_content = True
@@ -16,7 +26,8 @@ intents.message_content = True
 client = commands.Bot(command_prefix="!", intents=intents)
 
 load_dotenv()
-TOKEN = json.load(open("./config.json", "r"))["token"]
+print(os)
+TOKEN = json.load(open(args.config, "r"))["token"]
 
 
 
