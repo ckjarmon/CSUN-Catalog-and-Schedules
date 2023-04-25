@@ -229,7 +229,16 @@ def gather(arrow):
     )
     time.sleep(1)
 
-    driver.find_element("id", "EXPANDCNT").click()
+    while True:
+        try:
+            driver.find_element("id", "EXPANDCNT").click()
+            break
+        except (
+            selenium.common.exceptions.StaleElementReferenceException,
+            selenium.common.exceptions.ElementClickInterceptedException,
+        ):
+            continue
+        
     id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
     id_box.click()
     time.sleep(1)
@@ -642,13 +651,12 @@ def da_job():
                                            days = '{s[c][course]['days']}', 
                                            start_time = '{s[c][course]['start_time']}', 
                                            end_time = '{s[c][course]['end_time']}',
-                                           location =  '{s[c][course]['location']}',
+                                           location =  '{s[c][course]['location']}'
                                            where class_number = '{s[c][course]['class_number']}'
                                            and subject = '{code}'
                                            and catalog_number = '{c.split()[1]}'
                                            and semester = '{args.semester.lower()}'
-                                           and year = {args.year}
-                                           """,
+                                           and year = {args.year}""",
                         (s[c][course]["instructor"],),
                     )
                     except KeyError:
@@ -673,7 +681,7 @@ def da_job():
                                                enrollment_count = '{s[c][course]['enrollment_count']}', 
                                                instructor = %s, 
                                                waitlist_cap = {s[c][course]['waitlist_cap']}, 
-                                               waitlist_count = {s[c][course]['waitlist_count']},
+                                               waitlist_count = {s[c][course]['waitlist_count']}
                                                where class_number = '{s[c][course]['class_number']}'
                                                and subject = '{code}'
                                                and catalog_number = '{c.split()[1]}'
