@@ -9,7 +9,8 @@ import mariadb
 import urllib3
 import schedule
 import argparse
-
+import threading
+import sys
 
 parser = argparse.ArgumentParser(
     prog="Scheduled Crawler",
@@ -22,7 +23,7 @@ parser.add_argument(
 
 parser.add_argument(
     "--year",
-    type=str,
+    type=int,
 )
 
 parser.add_argument(
@@ -33,127 +34,130 @@ parser.add_argument(
 args = parser.parse_args()
 
 
-class_codes = ["AE", 
-"AM", 
-"AR", 
-"AAS", 
-"ACCT", 
-"AFRS", 
-"AIS", 
-"ANTH", 
-"ARAB", 
-"ARMN", 
-"ART", 
-"ASTR", 
-"AT", 
-"ATHL", 
-"BANA", 
-"BIOL", 
-"BLAW", 
-"BUS", 
-"CE", 
-"CADV", 
-"CAS", 
-"CCE", 
-"CD", 
-"CECS", 
-"CHS", 
-"CHEM", 
-"CHIN", 
-"CIT", 
-"CJS", 
-"CLAS", 
-"CM", 
-"COMP", 
-"COMS", 
-"CTVA", 
-"DEAF", 
-"EED", 
-"ECE", 
-"ECON", 
-"EDUC", 
-"ELPS", 
-"ENGL", 
-"ENT", 
-"EOH", 
-"EPC", 
-"FCBE", 
-"FCCA", 
-"FCHC", 
-"FCS", 
-"FIN", 
-"FLIT", 
-"FREN", 
-"GBUS", 
-"GEH", 
-"GEOG", 
-"GEOL", 
-"GWS", 
-"HEBR", 
-"HHD", 
-"HIST", 
-"HSCI", 
-"HUM", 
-"INDS", 
-"IS", 
-"ITAL", 
-"JS", 
-"JAPN", 
-"JOUR", 
-"KIN", 
-"KNFC", 
-"KOR", 
-"LIB", 
-"LING", 
-"LRS", 
-"ME", 
-"MATH", 
-"MCOM", 
-"MGT", 
-"MKT", 
-"MSE", 
-"MUS", 
-"NURS", 
-"PERS", 
-"PHIL", 
-"PHSC", 
-"PHYS", 
-"POLS", 
-"PSY", 
-"PT", 
-"QS", 
-"RS", 
-"RE", 
-"RTM", 
-"RUSS", 
-"SED", 
-"SCI", 
-"SCM", 
-"SOC", 
-"SOM", 
-"SPAN", 
-"SPED", 
-"SUS", 
-"SUST", 
-"SWRK", 
-"TH", 
-"UNIV", 
-"URBS"] 
-results_api = {}   
-results_web = {} 
+class_codes = [
+    "AE",
+    "AM",
+    "AR",
+    "AAS",
+    "ACCT",
+    "AFRS",
+    "AIS",
+    "ANTH",
+    "ARAB",
+    "ARMN",
+    "ART",
+    "ASTR",
+    "AT",
+    "ATHL",
+    "BANA",
+    "BIOL",
+    "BLAW",
+    "BUS",
+    "CE",
+    "CADV",
+    "CAS",
+    "CCE",
+    "CD",
+    "CECS",
+    "CHS",
+    "CHEM",
+    "CHIN",
+    "CIT",
+    "CJS",
+    "CLAS",
+    "CM",
+    "COMP",
+    "COMS",
+    "CTVA",
+    "DEAF",
+    "EED",
+    "ECE",
+    "ECON",
+    "EDUC",
+    "ELPS",
+    "ENGL",
+    "ENT",
+    "EOH",
+    "EPC",
+    "FCBE",
+    "FCCA",
+    "FCHC",
+    "FCS",
+    "FIN",
+    "FLIT",
+    "FREN",
+    "GBUS",
+    "GEH",
+    "GEOG",
+    "GEOL",
+    "GWS",
+    "HEBR",
+    "HHD",
+    "HIST",
+    "HSCI",
+    "HUM",
+    "INDS",
+    "IS",
+    "ITAL",
+    "JS",
+    "JAPN",
+    "JOUR",
+    "KIN",
+    "KNFC",
+    "KOR",
+    "LIB",
+    "LING",
+    "LRS",
+    "ME",
+    "MATH",
+    "MCOM",
+    "MGT",
+    "MKT",
+    "MSE",
+    "MUS",
+    "NURS",
+    "PERS",
+    "PHIL",
+    "PHSC",
+    "PHYS",
+    "POLS",
+    "PSY",
+    "PT",
+    "QS",
+    "RS",
+    "RE",
+    "RTM",
+    "RUSS",
+    "SED",
+    "SCI",
+    "SCM",
+    "SOC",
+    "SOM",
+    "SPAN",
+    "SPED",
+    "SUS",
+    "SUST",
+    "SWRK",
+    "TH",
+    "UNIV",
+    "URBS",
+]
+results_api = {}
+results_web = {}
 
 try:
     rootConnection = mariadb.connect(
         user="py_serv",
         password="q1w2e3r4!@#$",
-        host='127.0.0.1',
+        host="127.0.0.1",
         port=3306,
-        database='csun')
+        database="csun",
+    )
     rootCursor = rootConnection.cursor()
 except mariadb.Error as err:
     print(f"Error connecting to MariaDB Platform: {err}")
 
-catalog_link = 'https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL?PortalActualURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentProvider=SA&PortalCRefLabel=Class%20Search&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsp%2fPANRPRD%2f&PortalURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsc%2fPANRPRD%2f&PortalHostNode=EMPL&NoCrumbs=yes&PortalKeyStruct=yes'
+catalog_link = "https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL?PortalActualURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentProvider=SA&PortalCRefLabel=Class%20Search&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsp%2fPANRPRD%2f&PortalURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsc%2fPANRPRD%2f&PortalHostNode=EMPL&NoCrumbs=yes&PortalKeyStruct=yes"
 
 
 """ 
@@ -162,7 +166,7 @@ In the API the time is stored in 24-hour format followed by an "h"
 
 
 def convert_time(time):
-    if (time == "TBA"):
+    if time == "TBA":
         return "0000h", "0000h"
     start_hour = int(time[0:2])
     # print(start_hour)
@@ -193,16 +197,10 @@ def convert_time(time):
 
     return (start_string + time[3:5] + "h"), (end_string + time[11:13] + "h")
 
+
 # This is how the days are stored in the API.
 def convertdays(days_str):
-    day_map = {
-        "Mo": "M",
-        "Tu": "T",
-        "We": "W",
-        "Th": "R",
-        "Fr": "F",
-        "Sa": "S"
-    }
+    day_map = {"Mo": "M", "Tu": "T", "We": "W", "Th": "R", "Fr": "F", "Sa": "S"}
 
     for day in day_map:
         days_str = days_str.replace(day, day_map[day])
@@ -210,207 +208,253 @@ def convertdays(days_str):
     return days_str
 
 
-
-
-
 def gather(arrow):
-        
-        
-        # s = Service(ChromeDriverManager().install())
-        s = Service()
-        op = webdriver.ChromeOptions()
-        op.add_argument('--headless')
-        op.add_experimental_option('excludeSwitches', ['enable-logging'])
-        driver = webdriver.Chrome(service=s, options=op)
-        driver.get(catalog_link)
-        time.sleep(4)
+    # op = webdriver.FirefoxOptions()
+    # op.add_argument("--headless")
+    # op.add_argument("--log-level=3")
+    # driver = webdriver.Firefox(options=op)
+    # driver.get(catalog_link)
+    s = Service()
+    op = webdriver.ChromeOptions()
+    op.add_argument('--headless')
+    op.add_experimental_option('excludeSwitches', ['enable-logging'])
+    driver = webdriver.Chrome(service=s, options=op)
+    driver.get(catalog_link)
+    time.sleep(4)
 
-        # Semester
-        driver.find_element('id', 'NR_SSS_SOC_NWRK_STRM').click()
-        driver.find_element('id', 'NR_SSS_SOC_NWRK_STRM').send_keys(args.semester_key, Keys.ENTER)
-        time.sleep(1)
-        
-        
-        driver.find_element('id', 'EXPANDCNT').click()
-        id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
-        id_box.click()
-        time.sleep(1)
-        # id_box.send_keys(sys.argv[4])
-        for i in range(0, arrow + 1):
-            id_box.send_keys(Keys.ARROW_DOWN)
-        id_box.send_keys(Keys.ENTER)
-        time.sleep(2)
+    # Semester
+    driver.find_element("id", "NR_SSS_SOC_NWRK_STRM").click()
+    driver.find_element("id", "NR_SSS_SOC_NWRK_STRM").send_keys(
+        args.semester_key, Keys.ENTER
+    )
+    time.sleep(1)
 
-        while True:
-            try:
-                driver.find_element("id", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
-                time.sleep(5)
-                break
-            except (selenium.common.exceptions.StaleElementReferenceException, selenium.common.exceptions.ElementClickInterceptedException):
-                continue
-        sub_sects = []
+    driver.find_element("id", "EXPANDCNT").click()
+    id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
+    id_box.click()
+    time.sleep(1)
+    # id_box.send_keys(sys.argv[4])
+    for i in range(0, arrow + 1):
+        id_box.send_keys(Keys.ARROW_DOWN)
+    id_box.send_keys(Keys.ENTER)
+    time.sleep(2)
 
-        for a in range(0, 600):
-            try:
-                
-                # section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text
-                # print(section_title, flush=True)
-                while True:
-                    try:
-                        section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text
-                        print(section_title, flush=True)
-                        section_title = section_title.split()
-                        break
-                    except selenium.common.exceptions.StaleElementReferenceException:
-                        continue
-                
-                while True:
-                    try:
-                        driver.find_element("id", "SOC_DETAIL$" + str(a)).click()
-                        time.sleep(4)
-                        break
-                    except (selenium.common.exceptions.ElementClickInterceptedException,selenium.common.exceptions.ElementNotInteractableException):
-                        continue
-                    except selenium.common.exceptions.StaleElementReferenceException:
-                        break
-                
-                
-                course_dict = {}
-                for i in range(600):
-                    try:    
-                        
-                        if (section_title[2].isalnum()):  # Class_Number
+    while True:
+        try:
+            driver.find_element("id", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
+            time.sleep(5)
+            break
+        except (
+            selenium.common.exceptions.StaleElementReferenceException,
+            selenium.common.exceptions.ElementClickInterceptedException,
+        ):
+            continue
+    sub_sects = []
 
-                            # This Case: Subject Code Class_Number
-                            course_dict["subject"] = section_title[0] + section_title[1]
-                            course_dict["catalog_number"] = section_title[2]
-                            course_dict["title"] = section_title[4]
+    for a in range(0, 600):
+        try:
+            # section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text
+            # print(section_title, flush=True)
+            while True:
+                try:
+                    section_title = driver.find_element(
+                        "id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)
+                    ).text
+                    print(section_title, flush=True)
+                    section_title = section_title.split()
+                    break
+                except selenium.common.exceptions.StaleElementReferenceException:
+                    continue
 
-                            start_of_class_name = 5
-                            while section_title[start_of_class_name] != "(":
-                                course_dict["title"] += " " + section_title[start_of_class_name]
-                                start_of_class_name += 1
+            while True:
+                try:
+                    driver.find_element("id", "SOC_DETAIL$" + str(a)).click()
+                    time.sleep(1)
+                    break
+                except (
+                    selenium.common.exceptions.ElementClickInterceptedException,
+                    selenium.common.exceptions.ElementNotInteractableException,
+                ):
+                    continue
+                except selenium.common.exceptions.StaleElementReferenceException:
+                    break
+
+            course_dict = {}
+            for i in range(600):
+                try:
+                    if section_title[2].isalnum():  # Class_Number
+                        # This Case: Subject Code Class_Number
+                        course_dict["subject"] = section_title[0] + section_title[1]
+                        course_dict["catalog_number"] = section_title[2]
+                        course_dict["title"] = section_title[4]
+
+                        start_of_class_name = 5
+                        while section_title[start_of_class_name] != "(":
+                            course_dict["title"] += (
+                                " " + section_title[start_of_class_name]
+                            )
+                            start_of_class_name += 1
+                    # print(course_dict)
+                    else:  # This Case: SubjectCode Class_Number
+                        course_dict["subject"] = section_title[0]
+                        course_dict["catalog_number"] = section_title[1]
+                        course_dict["title"] = section_title[3]
+
+                        start_of_class_name = 4
+                        while section_title[start_of_class_name] != "(":
+                            course_dict["title"] += (
+                                " " + section_title[start_of_class_name]
+                            )
+                            start_of_class_name += 1
                         # print(course_dict)
-                        else: # This Case: SubjectCode Class_Number
-                            course_dict["subject"] = section_title[0]
-                            course_dict["catalog_number"] = section_title[1]
-                            course_dict["title"] = section_title[3]
-            
-                            start_of_class_name = 4
-                            while section_title[start_of_class_name] != "(":
-                                course_dict["title"] += " " + section_title[start_of_class_name]
-                                start_of_class_name += 1
-                            # print(course_dict)
 
-
-
-
-                        while True:
-                            try:
-                                course_dict["class_number"] = driver.find_element("id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
-                                break
-                            except selenium.common.exceptions.StaleElementReferenceException:
-                                print(f'{class_codes[arrow]}  ========')
-                                continue
-                        while True:
-                            try:
-                                course_dict["enrollment_cap"] = int(driver.find_element("id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text)
-                                break
-                            except selenium.common.exceptions.StaleElementReferenceException:
-                                print(f'{class_codes[arrow]}  ========')
-                                continue
-                        while True:
-                            try:
-                                course_dict["enrollment_count"] = 0
-                                break
-                            except selenium.common.exceptions.StaleElementReferenceException:
-                                print(f'{class_codes[arrow]}  ========')
-                                continue
-                        while True:
-                            try:
-                                course_dict["days"] = convertdays(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text)
-                                break
-                            except selenium.common.exceptions.StaleElementReferenceException:
-                                print(f'{class_codes[arrow]}  ========')
-                                continue
-                        while True:
-                            try:
-                                course_dict["location"] = driver.find_element("id", "MAP$" + str(i)).text
-                                break
-                            except selenium.common.exceptions.StaleElementReferenceException:
-                                print(f'{class_codes[arrow]}  ========')
-                                continue
-
-
-                        while True:
-                            try:    
-                                if driver.find_element("id", "TIME$span$" + str(i)).text.__contains__("-"):
-                                    course_dict["start_time"], course_dict["end_time"] = convert_time(
-                                                driver.find_element("id", "TIME$span$" + str(i)).text)
-                                    break
-                                else:
-                                    course_dict["start_time"], course_dict["end_time"] = driver.find_element(
-                                                "id", "TIME$span$" + str(i)).text, driver.find_element("id", "TIME$span$" + str(i)).text
-                                    break
-                            except selenium.common.exceptions.StaleElementReferenceException:
-                                continue
-                        while True:        
-                            try:
-                                course_dict["instructor"] = driver.find_element("id", "FACURL$" + str(i)).text
-                                break
-                            except NoSuchElementException:
-                                course_dict["instructor"] = "Staff"
-                                break
-                            except selenium.common.exceptions.StaleElementReferenceException:
-                                continue    
-                        
-                        # print(course_dict)
-                        sub_sects.append(dict(course_dict))
-                        # print(*sub_sects, sep='\n')
-                        # print(sub_sects)
-                    except NoSuchElementException:
-                        break            
-                # print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
-                
-                # print(section_title)
-
-                
-
-                driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
-                time.sleep(3)
-            except NoSuchElementException:  # if no more classes for a subject
-                continue
-
-                
-
-        # json.dump(sub_sects, open(f"./results_web/{class_codes[arrow]}_schedule.json", "w"), indent=4)
-        # global results_web
-        results_web[class_codes[arrow]] = sub_sects
-        driver.quit()
-        
-        sub_dict = {}
-        _url = f"https://api.metalab.csun.edu/curriculum/api/2.0/terms/{args.semester[0].upper()}{args.semester[1:].lower()}-2023/classes/{class_codes[arrow]}"
-        while True:
-            try:
-                data = json.loads(urllib3.PoolManager().request("GET", _url).data)
-                for course in data["classes"]:
-                    if len(course["meetings"]) > 0:    
+                    while True:
                         try:
-                            if len(course["instructors"]) > 0:
-                                sub_dict[f"{class_codes[arrow].upper()} {course['catalog_number']}"].append({
+                            course_dict["class_number"] = driver.find_element(
+                                "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)
+                            ).text
+                            break
+                        except (
+                            selenium.common.exceptions.StaleElementReferenceException
+                        ):
+                            print(f"{class_codes[arrow]}  ========")
+                            continue
+                    while True:
+                        try:
+                            course_dict["enrollment_cap"] = int(
+                                driver.find_element(
+                                    "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)
+                                ).text
+                            )
+                            break
+                        except (
+                            selenium.common.exceptions.StaleElementReferenceException
+                        ):
+                            print(f"{class_codes[arrow]}  ========")
+                            continue
+                    while True:
+                        try:
+                            course_dict["enrollment_count"] = 0
+                            break
+                        except (
+                            selenium.common.exceptions.StaleElementReferenceException
+                        ):
+                            print(f"{class_codes[arrow]}  ========")
+                            continue
+                    while True:
+                        try:
+                            course_dict["days"] = convertdays(
+                                driver.find_element(
+                                    "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)
+                                ).text
+                            )
+                            break
+                        except (
+                            selenium.common.exceptions.StaleElementReferenceException
+                        ):
+                            print(f"{class_codes[arrow]}  ========")
+                            continue
+                    while True:
+                        try:
+                            course_dict["location"] = driver.find_element(
+                                "id", "MAP$" + str(i)
+                            ).text
+                            break
+                        except (
+                            selenium.common.exceptions.StaleElementReferenceException
+                        ):
+                            print(f"{class_codes[arrow]}  ========")
+                            continue
+
+                    while True:
+                        try:
+                            if driver.find_element(
+                                "id", "TIME$span$" + str(i)
+                            ).text.__contains__("-"):
+                                (
+                                    course_dict["start_time"],
+                                    course_dict["end_time"],
+                                ) = convert_time(
+                                    driver.find_element(
+                                        "id", "TIME$span$" + str(i)
+                                    ).text
+                                )
+                                break
+                            else:
+                                course_dict["start_time"], course_dict["end_time"] = (
+                                    driver.find_element(
+                                        "id", "TIME$span$" + str(i)
+                                    ).text,
+                                    driver.find_element(
+                                        "id", "TIME$span$" + str(i)
+                                    ).text,
+                                )
+                                break
+                        except (
+                            selenium.common.exceptions.StaleElementReferenceException
+                        ):
+                            continue
+                    while True:
+                        try:
+                            course_dict["instructor"] = driver.find_element(
+                                "id", "FACURL$" + str(i)
+                            ).text
+                            break
+                        except NoSuchElementException:
+                            course_dict["instructor"] = "Staff"
+                            break
+                        except (
+                            selenium.common.exceptions.StaleElementReferenceException
+                        ):
+                            continue
+
+                    sub_sects.append(dict(course_dict))
+
+                except NoSuchElementException:
+                    break
+
+            driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
+            time.sleep(1)
+        except NoSuchElementException:  # if no more classes for a subject
+            continue
+
+    # json.dump(sub_sects, open(f"./results_web/{class_codes[arrow]}_schedule.json", "w"), indent=4)
+    # global results_web
+    results_web[class_codes[arrow]] = sub_sects
+    driver.quit()
+
+    sub_dict = {}
+    _url = f"https://api.metalab.csun.edu/curriculum/api/2.0/terms/{args.semester[0].upper()}{args.semester[1:].lower()}-{args.year}/classes/{class_codes[arrow]}"
+    while True:
+        try:
+            data = json.loads(urllib3.PoolManager().request("GET", _url).data)
+            for course in data["classes"]:
+                if len(course["meetings"]) > 0:
+                    try:
+                        if len(course["instructors"]) > 0:
+                            sub_dict[
+                                f"{class_codes[arrow].upper()} {course['catalog_number']}"
+                            ].append(
+                                {
                                     "class_number": course["class_number"],
                                     "enrollment_cap": course["enrollment_cap"],
                                     "enrollment_count": course["enrollment_count"],
                                     "waitlist_cap": course["waitlist_cap"],
                                     "waitlist_count": course["waitlist_count"],
-                                    "instructor": course["instructors"][0]["instructor"],
+                                    "instructor": course["instructors"][0][
+                                        "instructor"
+                                    ],
                                     "days": course["meetings"][0]["days"],
                                     "location": course["meetings"][0]["location"],
                                     "start_time": course["meetings"][0]["start_time"],
                                     "end_time": course["meetings"][0]["end_time"],
-                                })
-                            else:
-                                sub_dict[f"{class_codes[arrow].upper()} {course['catalog_number']}"].append({
+                                }
+                            )
+                        else:
+                            sub_dict[
+                                f"{class_codes[arrow].upper()} {course['catalog_number']}"
+                            ].append(
+                                {
                                     "class_number": course["class_number"],
                                     "enrollment_cap": course["enrollment_cap"],
                                     "enrollment_count": course["enrollment_count"],
@@ -421,25 +465,35 @@ def gather(arrow):
                                     "location": course["meetings"][0]["location"],
                                     "start_time": course["meetings"][0]["start_time"],
                                     "end_time": course["meetings"][0]["end_time"],
-                                })
-                            # this means that the instructor is staff, then store it
+                                }
+                            )
+                        # this means that the instructor is staff, then store it
 
-                        except KeyError:
-                            if len(course["instructors"]) > 0:
-                                sub_dict[f"{class_codes[arrow].upper()} {course['catalog_number']}"] = [{
+                    except KeyError:
+                        if len(course["instructors"]) > 0:
+                            sub_dict[
+                                f"{class_codes[arrow].upper()} {course['catalog_number']}"
+                            ] = [
+                                {
                                     "class_number": course["class_number"],
                                     "enrollment_cap": course["enrollment_cap"],
                                     "enrollment_count": course["enrollment_count"],
                                     "waitlist_cap": course["waitlist_cap"],
                                     "waitlist_count": course["waitlist_count"],
-                                    "instructor": course["instructors"][0]["instructor"],
+                                    "instructor": course["instructors"][0][
+                                        "instructor"
+                                    ],
                                     "days": course["meetings"][0]["days"],
                                     "location": course["meetings"][0]["location"],
                                     "start_time": course["meetings"][0]["start_time"],
                                     "end_time": course["meetings"][0]["end_time"],
-                                }]
-                            else:
-                                sub_dict[f"{class_codes[arrow].upper()} {course['catalog_number']}"] = [{
+                                }
+                            ]
+                        else:
+                            sub_dict[
+                                f"{class_codes[arrow].upper()} {course['catalog_number']}"
+                            ] = [
+                                {
                                     "class_number": course["class_number"],
                                     "enrollment_cap": course["enrollment_cap"],
                                     "enrollment_count": course["enrollment_count"],
@@ -450,69 +504,75 @@ def gather(arrow):
                                     "location": course["meetings"][0]["location"],
                                     "start_time": course["meetings"][0]["start_time"],
                                     "end_time": course["meetings"][0]["end_time"],
-                                }]
-                print(class_codes[arrow]) 
-                break
-            except json.decoder.JSONDecodeError:
-                print(f"{class_codes[arrow]} caused decode error")
-        # pp(sub_dict)
-        sub_dict_section = {}
-        for k in sub_dict.keys():
-            sec_list = sub_dict[k].copy()
-            sub_dict_section[k] = {}
-            for sl in sec_list:
-                sub_dict_section[k][sl["class_number"]] = sl
-           
-        # json.dump(sub_dict_section, open(f"./results_api/{class_codes[arrow]}_schedule.json", "w"), indent=4)
-        # global results_api
-        results_api[class_codes[arrow]] = sub_dict_section
-        
+                                }
+                            ]
+            print(class_codes[arrow])
+            break
+        except json.decoder.JSONDecodeError:
+            print(f"{class_codes[arrow]} caused decode error")
+    # pp(sub_dict)
+    sub_dict_section = {}
+    for k in sub_dict.keys():
+        sec_list = sub_dict[k].copy()
+        sub_dict_section[k] = {}
+        for sl in sec_list:
+            sub_dict_section[k][sl["class_number"]] = sl
+
+    # json.dump(sub_dict_section, open(f"./results_api/{class_codes[arrow]}_schedule.json", "w"), indent=4)
+    # global results_api
+    results_api[class_codes[arrow]] = sub_dict_section
 
 
 
-import threading
 
 
-
- 
 def da_job():
-
+    semaphore = threading.BoundedSemaphore(10) # allow up to 5 threads to run at once
+    
+    def gather_wrapper(code_index):
+        with semaphore:
+            gather(code_index)
     
     t = []
-   
-    for code in class_codes:
-        t.append(threading.Thread(target=gather, args=(class_codes.index(code),)))
-        t[len(t)-1].start()
 
-    
-    for a in t:    
+    for code in class_codes:
+        t.append(threading.Thread(target=gather_wrapper, args=(class_codes.index(code),)))
+        t[-1].start()
+
+
+    for a in t:
         a.join()
 
 
+    print('[', end='')
     for code in class_codes:
-            for course in results_web[code]:  
-                try:
-                    rootCursor.execute(f"select title from csun.{code}_view where catalog_number = '{course['catalog_number']}'")
-                except mariadb.ProgrammingError:
-                    rootCursor.execute(f'create view {code}_view as select * from catalog where subject = "{code}"')
-                except TypeError:
-                    print(course)
-                    
-                    
-                    
-                    
-                try:
-                    course["title"] = rootCursor.fetchall()[0][0]
-                except (IndexError, mariadb.ProgrammingError):
-                    continue
- 
+        print('=', end='')
+        for course in results_web[code]:
+            try:
+                rootCursor.execute(
+                    f"select title from csun.{code}_view where catalog_number = '{course['catalog_number']}'"
+                )
+            except mariadb.ProgrammingError:
+                rootCursor.execute(
+                    f'create view {code}_view as select * from catalog where subject = "{code}"'
+                )
+            except TypeError:
+                print(course)
 
+            try:
+                course["title"] = rootCursor.fetchall()[0][0]
+            except (IndexError, mariadb.ProgrammingError):
+                continue
+
+    print(']\n[', end='')
     for code in class_codes:
+        print('=', end='')
         try:
-                all_classes = {}
-                for course in results_web[code]:
-                    try:
-                        all_classes[f"{code.upper()} {course['catalog_number']}"].append({
+            all_classes = {}
+            for course in results_web[code]:
+                try:
+                    all_classes[f"{code.upper()} {course['catalog_number']}"].append(
+                        {
                             "class_number": course["class_number"],
                             "enrollment_cap": course["enrollment_cap"],
                             "enrollment_count": course["enrollment_count"],
@@ -520,10 +580,12 @@ def da_job():
                             "days": course["days"],
                             "location": course["location"],
                             "start_time": course["start_time"],
-                            "end_time": course["end_time"]
-                        })
-                    except KeyError:
-                        all_classes[f"{code.upper()} {course['catalog_number']}"] = [{
+                            "end_time": course["end_time"],
+                        }
+                    )
+                except KeyError:
+                    all_classes[f"{code.upper()} {course['catalog_number']}"] = [
+                        {
                             "class_number": course["class_number"],
                             "enrollment_cap": course["enrollment_cap"],
                             "enrollment_count": course["enrollment_count"],
@@ -531,70 +593,102 @@ def da_job():
                             "days": course["days"],
                             "location": course["location"],
                             "start_time": course["start_time"],
-                            "end_time": course["end_time"]
-                        }]
-                    tup = (course["class_number"],
-                           course["enrollment_cap"],
-                           course["enrollment_count"],
-                           course["instructor"],
-                           course["days"],
-                           course["location"],
-                           course["start_time"],
-                           course["end_time"],
-                           args.semester,
-                           args.year,
-                           code,
-                           course['catalog_number'])
-                    try:
-                        rootCursor.execute("insert into section(class_number,enrollment_cap,enrollment_count,instructor,days,location,start_time,end_time,semester,year,subject,catalog_number) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s)", tup)
-                    except mariadb.IntegrityError:
-                        print(str(tup))
-                        continue
-                sub_dict_section = {}
-                for k in all_classes.keys():
-                    sec_list = all_classes[k].copy()
-                    sub_dict_section[k] = {}
-                    for sl in sec_list:
-                        sub_dict_section[k][sl["class_number"]] = sl
-                results_web[code] = sub_dict_section
+                            "end_time": course["end_time"],
+                        }
+                    ]
+                tup = (
+                    course["class_number"],
+                    course["enrollment_cap"],
+                    course["enrollment_count"],
+                    course["instructor"],
+                    course["days"],
+                    course["location"],
+                    course["start_time"],
+                    course["end_time"],
+                    args.semester.lower(),
+                    args.year,
+                    code,
+                    course["catalog_number"],
+                )
+                try:
+                    rootCursor.execute(
+                        "insert into section(class_number,enrollment_cap,enrollment_count,instructor,days,location,start_time,end_time,semester,year,subject,catalog_number) values(%d,%d,%d,%s,%s,%s,%s,%s,%s,%d,%s,%s)",
+                        tup,
+                    )
+                except mariadb.IntegrityError:
+                    print(str(tup))
+                    continue
+            sub_dict_section = {}
+            for k in all_classes.keys():
+                sec_list = all_classes[k].copy()
+                sub_dict_section[k] = {}
+                for sl in sec_list:
+                    sub_dict_section[k][sl["class_number"]] = sl
+            results_web[code] = sub_dict_section
         except FileNotFoundError:
             continue
 
-
+    print(']\n[', end='')
     for code in class_codes:
-            s = results_web[code] 
-            try:
-                for c in results_web[code].keys():
-                    for course in s[c].keys():
-                            rootCursor.execute(f"""update section set enrollment_cap = '{s[c][course]['enrollment_cap']}', 
+        print('=', end='')
+        s = results_web[code]
+        try:
+            for c in results_web[code].keys():
+                for course in s[c].keys():
+                    try:
+                        rootCursor.execute(
+                        f"""update section set enrollment_cap = '{s[c][course]['enrollment_cap']}', 
                                            instructor = %s, 
                                            days = '{s[c][course]['days']}', 
                                            start_time = '{s[c][course]['start_time']}', 
                                            end_time = '{s[c][course]['end_time']}',
                                            location =  '{s[c][course]['location']}',
-                                           semester = {args.semester},
-                                           year = {args.year}
-                                           where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))      
-            except AttributeError:
-                continue
-             
+                                           where class_number = '{s[c][course]['class_number']}'
+                                           and subject = '{code}'
+                                           and catalog_number = '{c.split()[1]}'
+                                           and semester = '{args.semester.lower()}'
+                                           and year = {args.year}
+                                           """,
+                        (s[c][course]["instructor"],),
+                    )
+                    except KeyError:
+                        from pprint import pprint
+                        pprint(s[c][course])
+                        print(c)
+                        sys.exit()
+        except AttributeError:
+            continue
+
+    print(']\n[', end='')
     for code in class_codes:
-            s = results_api[code]
-            try:
-                for c in s.keys():
-                    for course in s[c].keys():
-                        rootCursor.execute(f"""update section set 
+        print('=', end='')
+        s = results_api[code]
+        try:
+            for c in s.keys():
+                for course in s[c].keys():
+                    try:
+                        rootCursor.execute(
+                        f"""update section set 
                                                enrollment_cap = '{s[c][course]['enrollment_cap']}', 
                                                enrollment_count = '{s[c][course]['enrollment_count']}', 
                                                instructor = %s, 
-                                               waitlist_cap = '{s[c][course]['waitlist_cap']}', 
-                                               waitlist_count = '{s[c][course]['waitlist_count']}',
-                                               semester = {args.semester},
-                                               year = {args.year}
-                                               where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))         
-            except AttributeError:
-                continue
-            
+                                               waitlist_cap = {s[c][course]['waitlist_cap']}, 
+                                               waitlist_count = {s[c][course]['waitlist_count']},
+                                               where class_number = '{s[c][course]['class_number']}'
+                                               and subject = '{code}'
+                                               and catalog_number = '{c.split()[1]}'
+                                               and semester = '{args.semester.lower()}'
+                                               and year = {args.year}
+                                               """,
+                        (s[c][course]["instructor"],),
+                    )
+                    except KeyError:
+                        from pprint import pprint
+                        pprint(s[c][course])
+                        print(c)
+                        sys.exit()
+        except AttributeError:
+            continue
     """
     for code in class_codes:
         # with open(f"./results_web/{code}_schedule.json") as web_ss:
@@ -613,8 +707,8 @@ def da_job():
     rootConnection.commit()
     rootCursor.close()
     rootConnection.close()
-    
-    
+
+
 if __name__ == "__main__":
     # schedule.every().day.at("00:00").do(da_job)
     # while True:

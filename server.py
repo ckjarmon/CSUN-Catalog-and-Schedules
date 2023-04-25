@@ -91,7 +91,8 @@ def profs(**kwargs):
                                    start_time, 
                                    end_time, 
                                    catalog_number, 
-                                   subject from section where instructor like '%{p['last_name'].split(',')[0]}%'""")
+                                   subject from section where instructor like '%{p['last_name'].split(',')[0]}%'
+                                   and subject = {kwargs['subject'].lower()}""")
         
         
         
