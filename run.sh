@@ -3,9 +3,9 @@
 if [ "$1" == "stop" ]; then
     # stop background processes if stop command is passed
     echo "Stopping background processes"
-    pkill -f "node bot.js"
-    pkill -f "python bot.py"
-    pkill -f "python server.py"
+    pkill -f "node /home/kyeou/CSUN-Catalog-And-Schedules/bot.js"
+    pkill -f "python /home/kyeou/CSUN-Catalog-And-Schedules/bot.py"
+    pkill -f "python /home/kyeou/CSUN-Catalog-And-Schedules/server.py"
     exit 0
 fi
 
