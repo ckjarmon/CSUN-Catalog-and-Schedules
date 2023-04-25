@@ -1,5 +1,14 @@
 #!/bin/bash
 
+if [ "$1" == "stop" ]; then
+    # stop background processes if stop command is passed
+    echo "Stopping background processes"
+    pkill -f "node bot.js"
+    pkill -f "python bot.py"
+    pkill -f "python server.py"
+    exit 0
+fi
+
 # start background processes and record their PIDs
 while :; do node bot.js; done &
 pid1=$!
