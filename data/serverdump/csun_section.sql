@@ -15,7 +15,7 @@ CREATE TABLE `section` (
   `waitlist_count` int DEFAULT NULL,
   `semester` varchar(6) DEFAULT NULL,
   `year` int DEFAULT NULL,
-  PRIMARY KEY (`class_number`,`subject`,`catalog_number`),
+  PRIMARY KEY (`class_number`,`subject`,`catalog_number`, `semester`, `year`),
   CONSTRAINT `ck_semester` CHECK ((`semester` in ('summer','fall','spring','winter')))
 );
 
