@@ -1,0 +1,24 @@
+#!/bin/bash
+
+case "$1" in
+  start)
+    echo "Starting csundash_crawler"
+    start-stop-daemon --start --background --name csundash_crawler --exec /usr/bin/python3 ~/CSUN-Catalog-and-Schedules/jobs/crawler/crawler.py --semester Fall --year 2023 --semester_key 2237
+    ;;
+  stop)
+    echo "Stopping csundash_crawler"
+    start-stop-daemon --stop --name csundash_crawler
+    ;;
+  restart)
+    echo "Restarting csundash_crawler"
+    start-stop-daemon --stop --name csundash_crawler
+    sleep 1
+    start-stop-daemon --start --background --name csundash_crawler --exec /usr/bin/python3 ~/CSUN-Catalog-and-Schedules/jobs/crawler/crawler.py --semester Fall --year 2023 --semester_key 2237
+    ;;
+  *)
+    echo "Usage: /etc/init.d/csundash_crawler {start|stop|restart}"
+    exit 1
+    ;;
+esac
+
+exit 0

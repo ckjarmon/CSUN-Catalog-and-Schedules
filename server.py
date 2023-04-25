@@ -1,7 +1,6 @@
 from flask import Flask
 import json
 import time
-import hashlib
 import mariadb
 
 app = Flask(__name__)

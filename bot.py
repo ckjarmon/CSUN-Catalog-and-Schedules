@@ -221,16 +221,17 @@ async def on_message(message):
      
     
     print(f"{message.author} [{_message}]")
-    for m in re.findall('<:[a-zA-z0-9]*:[0-9]*>', _message):
-        if client.get_emoji(int(re.findall('[0-9]*>', m)[0][0:-1])) is not None:   
-            with open('./emoji_count.json') as ec:
-                ec = json.load(ec)
-                try:
-                    ec[m] += 1
-                except KeyError:
-                    ec[m] = 1
+    if message.author != client.user:    
+        for m in re.findall('<:[a-zA-z0-9]*:[0-9]*>', _message):
+            if client.get_emoji(int(re.findall('[0-9]*>', m)[0][0:-1])) is not None:   
+                with open('./emoji_count.json') as ec:
+                    ec = json.load(ec)
+                    try:
+                        ec[m] += 1
+                    except KeyError:
+                        ec[m] = 1
 
-                json.dump(dict(sorted(ec.items(), key=lambda item:item[1], reverse=True)), open('./emoji_count.json', 'w'), indent=4)
+                    json.dump(dict(sorted(ec.items(), key=lambda item:item[1], reverse=True)), open('./emoji_count.json', 'w'), indent=4)
     
     await client.process_commands(message)
 
