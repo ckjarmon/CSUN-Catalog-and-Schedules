@@ -3,11 +3,14 @@ Description=CSUN Catalog and Schedules
 After=network.target
 
 [Service]
-Type=forking
-ExecStart=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run.sh start
-ExecStop=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run.sh stop
-ExecReload=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run.sh restart
+Type=simple
+ExecStart=/usr/bin/bash -c "/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run.sh"
+KillSignal=SIGTERM
+KillMode=process
+TimeoutStopSec=30
+
 User=kyeou
+Group=kyeou
 
 [Install]
 WantedBy=multi-user.target
