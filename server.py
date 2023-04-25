@@ -2,6 +2,21 @@ from flask import Flask
 import json
 import time
 import mariadb
+import argparse
+import os
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument(
+    "--project_location",
+    type=str,
+    help="Path to config file"
+)
+
+args = parser.parse_args()
+os.chdir(args.project_location)
+
+
 
 app = Flask(__name__)
 
@@ -22,7 +37,7 @@ def esta_conn():
 
 @app.route('/<string:subject>/<string:data>')
 def get(**kwargs):
-    return json.load(open(f'./json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+    return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
 @app.route('/time')
 def stime():
