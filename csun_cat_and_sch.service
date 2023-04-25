@@ -1,0 +1,13 @@
+[Unit]
+Description=CSUN Catalog and Schedules
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/bin/bash ~/CSUN-Catalog-And-Schedules/csun_cat_and_sch start
+ExecStop=/bin/bash ~/CSUN-Catalog-And-Schedules/csun_cat_and_sch stop
+ExecReload=/bin/bash ~/CSUN-Catalog-And-Schedules/csun_cat_and_sch restart
+User=kyeou
+
+[Install]
+WantedBy=multi-user.target
