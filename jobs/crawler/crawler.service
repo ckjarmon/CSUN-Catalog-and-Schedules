@@ -1,5 +1,5 @@
 [Unit]
-Description=CSUN Catalog and Schedules
+Description=CSUN_C&S Crawler
 After=network.target
 
 [Service]
