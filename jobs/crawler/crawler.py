@@ -31,6 +31,8 @@ parser.add_argument(
     type=str,
 )
 
+parser.add_argument('-i', action="store_true")
+
 args = parser.parse_args()
 
 
@@ -718,6 +720,9 @@ def da_job():
 
 
 if __name__ == "__main__":
+    if args.i:
+        da_job()
+        sys.exit(1)
     schedule.every().day.at("00:00").do(da_job)
     while True:
         schedule.run_pending()
