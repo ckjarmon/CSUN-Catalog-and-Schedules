@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=forking
-ExecStart=/bin/bash crawler.sh
-ExecStop=/bin/bash crawler.sh stop
+ExecStart=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/jobs/crawler/crawler.sh
+ExecStop=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/jobs/crawler/crawler.sh stop
 User=kyeou
 
 [Install]
