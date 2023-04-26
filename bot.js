@@ -94,7 +94,7 @@ function show_prof(subject, itchid, id) {
       }
 
 
-      ret1 += ("\n\tSPRING 2023\n\t-----------\n");
+      ret1 += ("\n\tFALL 2023\n\t-----------\n");
 
       require("request")({
         url: `http://127.0.0.1:2222/time`,
@@ -215,7 +215,7 @@ function show_levels(subject, level, itchid) {
 }
 
 /* for every semester after Fall 2022 */
-function show_class(subject, code, itchid) {
+function show_class(subject, code, semester, year, itchid) {
 
 
   console.log("Show class called.");
@@ -224,16 +224,16 @@ function show_class(subject, code, itchid) {
     ret2 = "";
 
   require("request")({
-    url: `http://127.0.0.1:2222/${subject}/catalog`,
+    url: `http://127.0.0.1:2222/${subject}-${code}/catalog`,
     json: true
   }, async function (error, response, body) {
-    console.log(`http://127.0.0.1:2222/${subject}/catalog`);
+    console.log(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
     if (!error) {
-      const stuffs = JSON.parse(JSON.stringify(body));
+      // const stuffs = 
+      let course = JSON.parse(JSON.stringify(body));
+      
 
-      stuffs.forEach(course => {
-
-        if (course.catalog_number === code) {
+        // if (course.catalog_number === code) {
           ret1 += (`${course.subject} ${course.catalog_number} ${course.title}`);
           ret1 += (`\n\n${course.description}\n\n${course.subject} ${course.catalog_number} ${course.title}`);
           ret1 += (" - SPRING 2023");
@@ -250,27 +250,27 @@ function show_class(subject, code, itchid) {
             }
 
           });
-        }
-      });
+        // }
+    //  });
 
 
     }
   }); /* end request */
   require("request")({
-    url: `http://127.0.0.1:2222/${subject}/schedule`,
+    url: `http://127.0.0.1:2222/${subject}-${code}/${semester.toLowerCase()}-${year}/schedule`,
     json: true
   }, async function (error, response, body) {
-    console.log(`http://127.0.0.1:2222/${subject}/schedule`);
+    console.log(`http://127.0.0.1:2222/${subject}-${code}/${semester.toLowerCase()}-${year}/schedule`);
     if (!error) {
 
-      const stuffs = JSON.parse(JSON.stringify(body));
+      const _body = JSON.parse(JSON.stringify(body));
 
       ret2 += ("\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty");
       ret2 += ("\n\t-------\t\t--------\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n");
 
-      for (const key in stuffs[`${String(subject).toUpperCase()} ${code}`]) {
-        course = stuffs[`${String(subject).toUpperCase()} ${code}`][key];
-
+      // for (const key in stuffs[`${String(subject).toUpperCase()} ${code}`]) {
+      //   course = stuffs[`${String(subject).toUpperCase()} ${code}`][key];
+      _body.forEach(course => {
         console.log(course);
 
         ret2 += ("\t " + course.class_number);
@@ -312,8 +312,7 @@ function show_class(subject, code, itchid) {
           if (course.waitlist_count > 10) { ret2 += (`\t\t\t     ${(course.waitlist_count)}\t`); }
           else { ret2 += (`\t\t\t      ${(course.waitlist_count)}\t`); }
 
-        }
-        else { ret2 += (`\t\t\t    N/A   `); }
+        } else { ret2 += (`\t\t\t    N/A   `); }
 
         ret2 += (`\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)}`);
         ret2 += (" - ");
@@ -324,10 +323,11 @@ function show_class(subject, code, itchid) {
           : ("\t\t\t\tStaff");
 
         ret2 += ("\n");
-      }
-
+      })
+      
+ 
+    
     } /* end if */
-
     setTimeout(async () => {
       await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
       if ((ret1 + ret2).substring(1994) !== "") { await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```") };
@@ -337,17 +337,17 @@ function show_class(subject, code, itchid) {
 }
 
 // for every class before spring 2023
-function show_class_with_term(subject, code, semester, year, itchid) {
+function show_class_before_sp_23(subject, code, semester, year, itchid) {
   console.log("Show class override called.");
 
   var ret1 = "",
     ret2 = "";
 
   require("request")({
-    url: `http://127.0.0.1:2222/${subject}/catalog`,
+    url: `http://127.0.0.1:2222/${subject}-${code}/catalog`,
     json: true
   }, async function (error, response, body) {
-    console.log(`http://127.0.0.1:2222/${subject}/catalog`);
+    console.log(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
 
     if (!error) {
       const stuffs = JSON.parse(JSON.stringify(body));
@@ -375,11 +375,11 @@ function show_class_with_term(subject, code, semester, year, itchid) {
 
   }); /* end request */
   require("request")({
-    url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`,
+    url: `https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`,
     json: true
   }, async function (error, response, body) {
 
-    console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-20${year}/classes/${subject}`);
+    console.log(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`);
 
     if (!error) {
       const stuffs = JSON.parse(JSON.stringify(body));
@@ -474,14 +474,15 @@ client.on('interactionCreate', async interaction => {
     case 'class': {
 
       itchid = interaction.channelId;
-      semester = interaction.options.getString('semester');
-      year = interaction.options.getString('year');
+      semester = interaction.options.getString('semester') || 'fall';
+      year = interaction.options.getString('year') || 2023;
 
-      if ((semester || year) && !(semester && year)) {
+      /*if ((semester || year) && !(semester && year)) {
 
-        await interaction.reply("Need both semester and year if other than Spring 2023.");
+        await interaction.reply("Need both semester and year.");
 
-      } else if (semester && year) {
+      } else */ 
+      if (Number(year) < 2023) {
 
         var subject = "",
           fir_class = "",
@@ -493,12 +494,12 @@ client.on('interactionCreate', async interaction => {
         sec_class = interaction.options.getString('catalog_number1');
         thi_class = interaction.options.getString('catalog_number2');
 
-        show_class_with_term(subject, fir_class, semester, year, itchid);
+        show_class_before_sp_23(subject, fir_class, semester, year, itchid);
         if (sec_class) {
-          show_class_with_term(subject, sec_class, semester, year, itchid);
+          show_class_before_sp_23(subject, sec_class, semester, year, itchid);
         }
         if (thi_class) {
-          show_class_with_term(subject, thi_class, semester, year, itchid);
+          show_class_before_sp_23(subject, thi_class, semester, year, itchid);
         }
 
 
@@ -520,12 +521,12 @@ client.on('interactionCreate', async interaction => {
         thi_class = interaction.options.getString('catalog_number2');
 
 
-        show_class(subject, fir_class, itchid);
+        show_class(subject, fir_class, semester, year, itchid);
         if (sec_class) {
-          show_class(subject, sec_class, itchid);
+          show_class(subject, sec_class, semester, year, itchid);
         }
         if (thi_class) {
-          show_class(subject, thi_class, itchid);
+          show_class(subject, thi_class, semester, year, itchid);
         }
 
         await interaction.reply("Gimme a sec");
@@ -544,36 +545,36 @@ client.on('interactionCreate', async interaction => {
       var semester = "",
         year = "";
 
-      semester = interaction.options.getString('semester');
-      year = interaction.options.getString('year');
+      semester = interaction.options.getString('semester') || 'fall';
+      year = interaction.options.getString('year') || 2023;
 
 
       if ((semester || year) && !(semester && year)) {
 
-        await interaction.reply("Need both semester and year if other than Spring 2023.");
+        await interaction.reply("Need both semester and year.");
 
-      } else if (semester && year) {
+      } else if (Number(year) < 2023) {
 
-        show_class_with_term(class1[0], class1[1], semester, year, itchid);
+        show_class_before_sp_23(class1[0], class1[1], semester, year, itchid);
         if (class2.length) {
-          show_class_with_term(class2[0], class2[1], semester, year, itchid);
+          show_class_before_sp_23(class2[0], class2[1], semester, year, itchid);
         }
         if (class3.length) {
-          show_class_with_term(class3[0], class3[1], semester, year, itchid);
+          show_class_before_sp_23(class3[0], class3[1], semester, year, itchid);
         }
 
         await interaction.reply("Gimme a sec");
 
       } else {
 
-        show_class(class1[0], class1[1], itchid);
+        show_class(class1[0], class1[1], semester, year, itchid);
 
         if (class2.length) {
-          show_class(class2[0], class2[1], itchid);
+          show_class(class2[0], class2[1], semester, year, itchid);
         }
 
         if (class3.length) {
-          show_class(class3[0], class3[1], itchid);
+          show_class(class3[0], class3[1], semester, year, itchid);
         }
 
         await interaction.reply("Gimme a sec");
