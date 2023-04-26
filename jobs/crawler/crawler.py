@@ -625,7 +625,6 @@ def da_job():
                         tup,
                     )
                 except mariadb.IntegrityError:
-                    print(str(tup))
                     continue
             sub_dict_section = {}
             for k in all_classes.keys():
