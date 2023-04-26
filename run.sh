@@ -12,6 +12,6 @@ fi
 
 while :; do node /home/kyeou/CSUN-Catalog-And-Schedules/bot.js --project_location /home/kyeou/CSUN-Catalog-And-Schedules/; done &
 python /home/kyeou/CSUN-Catalog-And-Schedules/bot.py --project_location /home/kyeou/CSUN-Catalog-And-Schedules/ &
-python /home/kyeou/CSUN-Catalog-And-Schedules/server.py --project_location /home/kyeou/CSUN-Catalog-And-Schedules/&
+python /home/kyeou/CSUN-Catalog-And-Schedules/server.py --project_location /home/kyeou/CSUN-Catalog-And-Schedules/ &
 
 
