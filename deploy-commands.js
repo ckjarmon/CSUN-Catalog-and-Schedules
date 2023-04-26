@@ -72,8 +72,7 @@ const commands = [
 			option
 				.setName('class3')
 				.setDescription('subject_code number')
-				.setRequired(false))
-	,
+				.setRequired(false)),
 	new SlashCommandBuilder()
 		.setName('help')
 		.setDescription('to learn the stuffs'),
@@ -86,7 +85,8 @@ const commands = [
 				.setDescription('subject prof teaches')
 				.setRequired(true))
 		.addStringOption(option =>
-			option.setName('prof_id')
+			option
+				.setName('prof_id')
 				.setDescription('after running prof command with no id, pick the number of the prof you want to see')
 				.setRequired(false)),
 	new SlashCommandBuilder()
@@ -96,9 +96,12 @@ const commands = [
 			option
 				.setName('subject')
 				.setDescription('subject')
-				.setRequired(true)).addStringOption(option =>
-					option.setName('level').setDescription('00-th level')
-						.setRequired(true)),
+				.setRequired(true))
+		.addStringOption(option =>
+			option
+				.setName('level')
+				.setDescription('00-th level')
+				.setRequired(true)),
 	new SlashCommandBuilder()
 		.setName('gunfight')
 		.setDescription('start a gunfight')

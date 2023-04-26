@@ -475,7 +475,7 @@ client.on('interactionCreate', async interaction => {
 
       itchid = interaction.channelId;
       semester = interaction.options.getString('semester') || 'fall';
-      year = interaction.options.getString('year') || 2023;
+      year = interaction.options.getInteger('year') || 2023;
 
       /*if ((semester || year) && !(semester && year)) {
 
@@ -546,7 +546,7 @@ client.on('interactionCreate', async interaction => {
         year = "";
 
       semester = interaction.options.getString('semester') || 'fall';
-      year = interaction.options.getString('year') || 2023;
+      year = interaction.options.getInteger('year') || 2023;
 
 
       if ((semester || year) && !(semester && year)) {
