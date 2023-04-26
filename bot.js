@@ -1,22 +1,21 @@
 require('dotenv').config()
 const path = require('path');
 
-// Create an instance of the ArgumentParser class
+
 const { ArgumentParser } = require('argparse');
 const parser = new ArgumentParser();
 
-// Define the command line argument for the project location
 parser.add_argument('--project_location', {
+  nargs:'?',
   type: String,
   help: 'Path to config file',
 });
 
-// Parse the command line arguments
 const args = parser.parse_args();
 
-// Change the current working directory to the project location
-process.chdir(path.resolve(args.project_location));
-
+if (args.location) {
+  process.chdir(path.resolve(args.project_location));
+}
 
 const {
   token, guildId, report_channel
@@ -447,7 +446,7 @@ function show_class_with_term(subject, code, semester, year, itchid) {
   }); /* end request */
 }
 
-
+/*
 client.on('messageUpdate', (oldMessage, newMessage) => {
   if (oldMessage.guild.id === guildId && newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
     client.channels.cache.get(report_channel).send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`);
@@ -460,6 +459,7 @@ client.on('messageDelete', (message) => {
 
   }
 });
+*/
 
 client.on('interactionCreate', async interaction => {
   if (!interaction.isChatInputCommand()) return;

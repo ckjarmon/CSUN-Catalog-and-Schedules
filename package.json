@@ -4,7 +4,7 @@
     "@types/node": "^18.7.10",
     "argparse": "^2.0.1",
     "discord-api-types": "^0.37.3",
-    "discord.js": "^14.7.1",
+    "discord.js": "^14.9.0",
     "dotenv": "^16.0.1",
     "https": "^1.0.0",
     "ms": "^2.1.3",
