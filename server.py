@@ -9,12 +9,15 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument(
     "--project_location",
+    nargs='?',
     type=str,
     help="Path to config file"
 )
 
 args = parser.parse_args()
-os.chdir(args.project_location)
+
+if args.project_location:
+    os.chdir(args.project_location)
 
 
 
@@ -35,9 +38,69 @@ def esta_conn():
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
 
-@app.route('/<string:subject>/<string:data>')
+# @app.route('/<string:subject>/<string:data>')
+
+@app.route('/<string:subject>-<int:catalog_number>/catalog')
 def get(**kwargs):
-    return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+    rootCursor = esta_conn()
+    rootCursor.execute(f"""SELECT
+                       subject,
+                       catalog_number,
+                       title,
+                       description,
+                       units,
+                       prerequisites,
+                       corequisites from catalog 
+                       WHERE subject = '{kwargs['subject'].upper()}'
+                       AND catalog_number = {kwargs['catalog_number']}
+                       """)
+    x = rootCursor.fetchone()
+
+    return {"subject":x[0],
+    "catalog_number":x[1],
+    "title":x[2],
+    "description":x[3],
+    "units":x[4]} 
+    
+
+@app.route('/<string:subject>-<string:catalog_number>/<string:semester>-<int:year>/schedule')
+def schedule(**kwargs):
+    # return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+    rootCursor = esta_conn()
+    assert 'catalog_number' in kwargs
+    rootCursor.execute(f"""SELECT 
+                       class_number, 
+                       enrollment_cap, 
+                       enrollment_count, 
+                       instructor, 
+                       days, 
+                       location, 
+                       start_time, 
+                       end_time, 
+                       catalog_number, 
+                       subject 
+                       FROM section WHERE 
+                       subject = '{kwargs['subject'].upper()}' 
+                       AND catalog_number = '{kwargs['catalog_number']}'
+                       AND semester = '{kwargs['semester']}'
+                       AND year = {kwargs['year']}
+                       """)
+    le_fetch = rootCursor.fetchall()
+    
+    section_payload = [{"class_number": c[0],
+             "enrollment_cap": c[1],
+             "enrollment_count": c[2],
+             "instructor": c[3],
+             "days": c[4],
+             "location": c[5],
+             "start_time": c[6],
+             "end_time": c[7],
+             "catalog_number": c[8],
+             "subject": c[9]} for c in le_fetch]
+    return section_payload
+        # rootCursor.execute(f"select units from catalog where catalog_number = '{kwargs['catalog_number']}'")
+        # units = rootCursor.fetchall()[0][0]
+        # return [c | {"units": units} for c in section_payload]
 
 @app.route('/time')
 def stime():
@@ -92,7 +155,10 @@ def profs(**kwargs):
                                    end_time, 
                                    catalog_number, 
                                    subject from section where instructor like '%{p['last_name'].split(',')[0]}%'
-                                   and subject = {kwargs['subject'].lower()}""")
+                                   and subject = '{kwargs['subject'].lower()}'
+                                   and semester = 'fall'
+                                   and year = '2023'
+                                   """)
         
         
         
