@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=forking
-ExecStart=/usr/bin/python3 /home/kyeou/CSUN-Catalog-And-Schedules/jobs/crawler/crawler.py --semester Fall --year 2023 --semester_key 2237
+ExecStart=/usr/bin/python3 /home/kyeou/CSUN-Catalog-And-Schedules/jobs/crawler/crawler.py --semester Fall --year 2023 --semester_key 2237 &
 ExecStop=pkill -f "/usr/bin/python3 /home/kyeou/CSUN-Catalog-And-Schedules/jobs/crawler/crawler.py --semester Fall --year 2023 --semester_key 2237"
 User=kyeou
 
