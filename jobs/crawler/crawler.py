@@ -147,17 +147,7 @@ class_codes = [
 results_api = {}
 results_web = {}
 
-try:
-    rootConnection = mariadb.connect(
-        user="py_serv",
-        password="q1w2e3r4!@#$",
-        host="127.0.0.1",
-        port=3306,
-        database="csun",
-    )
-    rootCursor = rootConnection.cursor()
-except mariadb.Error as err:
-    print(f"Error connecting to MariaDB Platform: {err}")
+
 
 catalog_link = "https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL?PortalActualURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentProvider=SA&PortalCRefLabel=Class%20Search&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsp%2fPANRPRD%2f&PortalURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsc%2fPANRPRD%2f&PortalHostNode=EMPL&NoCrumbs=yes&PortalKeyStruct=yes"
 
@@ -554,7 +544,18 @@ def da_job():
     for a in t:
         a.join()
 
-
+    try:
+        rootConnection = mariadb.connect(
+            user="py_serv",
+            password="q1w2e3r4!@#$",
+            host="127.0.0.1",
+            port=3306,
+            database="csun",
+        )
+        rootCursor = rootConnection.cursor()
+    except mariadb.Error as err:
+        print(f"Error connecting to MariaDB Platform: {err}")
+        
     print('[', end='')
     for code in class_codes:
         print('=', end='')
