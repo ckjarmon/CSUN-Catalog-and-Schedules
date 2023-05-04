@@ -16,7 +16,7 @@ if (args.location) {
   process.chdir(path.resolve(args.project_location));
 }
 
-const { token } = require('./config.json');
+const { token } = require('../config.json');
 
 const {
   Client,
@@ -141,7 +141,7 @@ async function show_levels(subject, level, itchid) {
       const response = await axios.get(`http://127.0.0.1:2222/${subject}/levels/${level}`);
       const body = response.data;
 
-      ret1 += `${subject.toUpperCase()} ${level}-level classes\n`;
+      ret1 += `${subject.toUpperCase()} ${level.padEnd(3, '0')}-level classes\n`;
  
       ret1 += "-".repeat(body.length);
 

@@ -4,9 +4,9 @@ After=network.target
 
 [Service]
 Type=forking
-ExecStart=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run.sh 
-ExecStop=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run.sh stop
-ExecReload=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run.sh stop && /bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run.sh 
+ExecStart=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run/run.sh 
+ExecStop=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run/run.sh stop
+ExecReload=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run/run.sh stop && /bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/run/run.sh 
 User=kyeou
 
 [Install]
