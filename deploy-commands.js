@@ -7,7 +7,6 @@ const {
 } = require('@discordjs/rest');
 const {
 	clientId,
-	guildId,
 	token
 } = require('./config.json');
 
@@ -107,10 +106,11 @@ const commands = [
 	new SlashCommandBuilder()
 		.setName('gunfight')
 		.setDescription('start a gunfight')
-		.addUserOption(op => op
-			.setName('target')
-			.setDescription('ya tu sabes')
-			.setRequired(true)),
+		.addUserOption(option =>
+			option
+				.setName('target')
+				.setDescription('ya tu sabes')
+				.setRequired(true)),
 ]
 	.map(command => command.toJSON());
 

@@ -1,5 +1,4 @@
 from flask import Flask
-import json
 import time
 import mariadb
 import argparse
@@ -38,7 +37,6 @@ def esta_conn():
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
 
-# @app.route('/<string:subject>/<string:data>')
 
 @app.route('/<string:subject>-<int:catalog_number>/catalog')
 def get(**kwargs):
@@ -61,6 +59,21 @@ def get(**kwargs):
     "title":x[2],
     "description":x[3],
     "units":x[4]} 
+    
+@app.route('/<string:subject>/levels/<string:level>')
+def levels(**kwargs):
+    rootCursor = esta_conn()
+    rootCursor.execute(f"""SELECT
+                       subject,
+                       catalog_number,
+                       title
+                       from catalog 
+                       WHERE subject = '{kwargs['subject'].upper()}'
+                       AND catalog_number like '{kwargs['level'][0]}%'
+                       """)
+    fetch = rootCursor.fetchall()
+
+    return [f"{x[0]} {x[1]} - {x[2]}" for x in fetch] 
     
 
 @app.route('/<string:subject>-<string:catalog_number>/<string:semester>-<int:year>/schedule')
@@ -98,23 +111,17 @@ def schedule(**kwargs):
              "catalog_number": c[8],
              "subject": c[9]} for c in le_fetch]
     return section_payload
-        # rootCursor.execute(f"select units from catalog where catalog_number = '{kwargs['catalog_number']}'")
-        # units = rootCursor.fetchall()[0][0]
-        # return [c | {"units": units} for c in section_payload]
 
 @app.route('/time')
 def stime():
     curr_time = time.asctime(time.localtime(time.time())).split()
     return (f" - As of {curr_time[0]} {curr_time[2]} {curr_time[1]} {curr_time[4]} {curr_time[3]}")
 
+
 @app.route('/profs/<string:subject>')
 @app.route('/profs/<string:subject>/<int:id>')
 def profs(**kwargs):
-
     rootCursor = esta_conn()
-    
-    
-    # print(sum([len(x) for x in profs]))
     try:
         rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
         profs_as_first_last = sorted([f"{x[0]} {x[1]}" for x in rootCursor.fetchall()], key=lambda x:name_normalize(x.split(" ")[1]))

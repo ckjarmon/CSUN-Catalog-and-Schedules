@@ -16,9 +16,7 @@ if (args.location) {
   process.chdir(path.resolve(args.project_location));
 }
 
-const {
-  token, guildId, report_channel
-} = require('./config.json');
+const { token } = require('./config.json');
 
 const {
   Client,
@@ -39,23 +37,17 @@ client.on('ready', () => {
 async function show_prof(subject, itchid, id) {
 
   let ret1 = "";
+
+  const baseUrl = "http://127.0.0.1:2222/profs/";
+  const url = id ? `${baseUrl}${subject}/${id}` : `${baseUrl}${subject}`;
   new Promise(async (resolve, reject) => {
     try {
-
-
-      const baseUrl = "http://127.0.0.1:2222/profs/";
-      const url = id ? `${baseUrl}${subject}/${id}` : `${baseUrl}${subject}`;
-
 
       const response = await axios.get(url);
       const { data: body } = response;
 
       if (!id) {
         ret1 = String(body).replaceAll(",", "");
-
-        setTimeout(async () => {
-          await client.channels.cache.get(itchid).send("```" + ret1 + "```");
-        }, 3000);
       } else {
         body.info["Name"] = body.info.first_name + " " + body.info.last_name;
 
@@ -125,9 +117,6 @@ async function show_prof(subject, itchid, id) {
         setTimeout(async () => {
           await client.channels.cache.get(itchid).send("```" + ret1 + "```");
         }, 3000);
-
-
-
       }
 
       resolve()
@@ -135,8 +124,10 @@ async function show_prof(subject, itchid, id) {
       reject(e)
     }
   }).then(async () => {
-    await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
-    await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```")
+    await client.channels.cache.get(itchid).send("```" + (ret1).substring(0, 1993) + "```");
+    if ((ret1).substring(1994) !== "") {
+      await client.channels.cache.get(itchid).send("```" + (ret1).substring(1994) + "```")
+    }
   });
 }
 
@@ -147,21 +138,17 @@ async function show_levels(subject, level, itchid) {
 
   new Promise(async (resolve, reject) => {
     try {
-      const response = await axios.get(`http://127.0.0.1:2222/${subject}/catalog`);
+      const response = await axios.get(`http://127.0.0.1:2222/${subject}/levels/${level}`);
       const body = response.data;
 
       ret1 += `${subject.toUpperCase()} ${level}-level classes\n`;
-
-      for (let i = 0; i < body.length; i++) {
-        ret1 += ("-");
-      }
+ 
+      ret1 += "-".repeat(body.length);
 
       ret1 += ("\n");
 
       body.forEach(course => {
-        if (course.catalog_number[0] === level[0]) {
-          ret1 += (`${course.catalog_number} - ${course.title}\n`);
-        }
+          ret1 += (`${course}\n`);
       });
       resolve()
     } catch (e) {
@@ -180,7 +167,7 @@ async function show_class(subject, code, semester, year, itchid) {
   new Promise(async (resolve, reject) => {
     try {
       console.log("Show class called.");
-      
+
       try {
         const catalogResponse = await axios.get(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
         const course = catalogResponse.data;
@@ -252,14 +239,14 @@ async function show_class(subject, code, semester, year, itchid) {
         console.error(error);
       }
 
-      
+
     } catch (e) {
       reject(e)
     }
   }).then(async () => {
     await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(0, 1993) + "```");
-    if ((ret1 + ret2).substring(1994)  !== "") {
-    await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```")
+    if ((ret1 + ret2).substring(1994) !== "") {
+      await client.channels.cache.get(itchid).send("```" + (ret1 + ret2).substring(1994) + "```")
     }
   });
 }
@@ -463,12 +450,13 @@ client.on('interactionCreate', async interaction => {
       semester = interaction.options.getString('semester') || 'fall';
       year = interaction.options.getInteger('year') || 2023;
 
-
+      /*
       if ((semester || year) && !(semester && year)) {
 
         await interaction.reply("Need both semester and year.");
 
-      } else if (Number(year) < 2023) {
+      } else */
+      if (Number(year) < 2023) {
 
         show_class_before_sp_23(class1[0], class1[1], semester, year, itchid);
         if (class2) {
