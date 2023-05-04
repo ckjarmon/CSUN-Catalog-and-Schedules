@@ -16,7 +16,7 @@ if (args.location) {
     process.chdir(path.resolve(args.project_location));
 }
 
-import { token } from '../config.json';
+import { token } from './config.json';
 
 import { Client, GatewayIntentBits, TextChannel } from 'discord.js';
 
