@@ -38,8 +38,8 @@ def esta_conn():
         print(f"Error connecting to MariaDB Platform: {err}")
 
 
-@app.route('/<string:subject>-<int:catalog_number>/catalog')
-def get(**kwargs):
+@app.route('/<string:subject>-<string:catalog_number>/catalog')
+def catalog(**kwargs):
     rootCursor = esta_conn()
     rootCursor.execute(f"""SELECT
                        subject,
@@ -50,7 +50,7 @@ def get(**kwargs):
                        prerequisites,
                        corequisites from catalog 
                        WHERE subject = '{kwargs['subject'].upper()}'
-                       AND catalog_number = {kwargs['catalog_number']}
+                       AND catalog_number = '{kwargs['catalog_number']}'
                        """)
     x = rootCursor.fetchone()
 
