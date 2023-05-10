@@ -31,6 +31,25 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user?.tag}!`);
 });
 
+const getCurrentDateAndTime = (): string => {
+    const options: Intl.DateTimeFormatOptions = {
+        weekday: 'short',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        timeZone: 'PST',
+        timeZoneName: 'short',
+    };
+
+    const currentDate = new Date();
+    const formattedDate = new Intl.DateTimeFormat('en-US', options).format(currentDate);
+
+    return ` - As of ${formattedDate}`;
+};
+
 async function show_prof(subject: string, itchid: string, id: string) {
 
 
@@ -63,9 +82,7 @@ async function show_prof(subject: string, itchid: string, id: string) {
 
                 ret1 += "\n\tFALL 2023\n\t-----------\n";
 
-                const timeResponse = await axios.get("http://127.0.0.1:2222/time");
-                const { data: time } = timeResponse;
-                ret1 += `\n${time}\n`;
+                ret1 += `\n${getCurrentDateAndTime()}\n`;
 
                 ret1 += "\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time";
                 ret1 += "\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n";
@@ -177,8 +194,8 @@ async function show_class(subject: string, code: string, semester: string, year:
 
             ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n${course.subject} ${course.catalog_number} ${course.title} - ${semester.toUpperCase()} ${year}`;
 
-            const timeResponse = await axios.get(`http://127.0.0.1:2222/time`);
-            ret1 += timeResponse.data + "\n";
+
+            ret1 += getCurrentDateAndTime() + "\n";
 
         } catch (error) {
             console.error(error);
@@ -281,21 +298,18 @@ async function show_class_before_sp_23(subject: string, code: string, semester: 
 
             stuffs.forEach((course: {
                 catalog_number: number;
-                subject: any;
-                title: any;
-                description: any;
+                subject: string;
+                title: string;
+                description: string;
             }) => {
                 if (course.catalog_number.toString() === code) {
 
                     ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n`;
                     ret1 += `${course.subject} ${course.catalog_number} ${course.title} - ${semester.toUpperCase()} ${year}`;
 
-                    axios.get(`http://127.0.0.1:2222/time`)
-                        .then(response => {
-                            console.log(`http://127.0.0.1:2222/time`);
-                            ret1 += (response.data + "\n");
-                        })
-                        .catch(error => console.error(error))
+
+                    ret1 += getCurrentDateAndTime() + "\n";
+
                 }
             });
 
@@ -414,7 +428,7 @@ client.on('interactionCreate', async (interaction) => {
             const fir_class: string = interaction.options.getString('catalog_number1') || "110";
             const sec_class: string | null = interaction.options.getString('catalog_number2') || null;
             const thi_class: string | null = interaction.options.getString('catalog_number3') || null;
-            
+
             if (year < 2023) {
 
                 show_class_before_sp_23(subject, fir_class, semester, year, itchid);
@@ -481,9 +495,9 @@ client.on('interactionCreate', async (interaction) => {
 
         case 'gunfight': {
 
-            const user = interaction.options.getUser('target') || {username: "", id: ""};
+            const user = interaction.options.getUser('target') || { username: "", id: "" };
 
-            const member : any = interaction.guild?.members.cache.get(user.id);
+            const member: any = interaction.guild?.members.cache.get(user.id);
             if (member && member.id !== "534510030490304524") {
                 member.timeout(10000, "bleh");
                 interaction.reply(`\`\`\`${user?.username} has been timed out!\`\`\``);

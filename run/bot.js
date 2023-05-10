@@ -14,7 +14,7 @@ const args = parser.parse_args();
 if (args.location) {
     process.chdir(path.resolve(args.project_location));
 }
-const config_json_1 = require("../config.json");
+const config_json_1 = require("./config.json");
 const discord_js_1 = require("discord.js");
 const client = new discord_js_1.Client({
     intents: [discord_js_1.GatewayIntentBits.Guilds,
@@ -25,6 +25,22 @@ const client = new discord_js_1.Client({
 client.on('ready', () => {
     console.log(`Logged in as ${client.user?.tag}!`);
 });
+const getCurrentDateAndTime = () => {
+    const options = {
+        weekday: 'short',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        timeZone: 'PST',
+        timeZoneName: 'short',
+    };
+    const currentDate = new Date();
+    const formattedDate = new Intl.DateTimeFormat('en-US', options).format(currentDate);
+    return ` - As of ${formattedDate}`;
+};
 async function show_prof(subject, itchid, id) {
     const baseUrl = "http://127.0.0.1:2222/profs/";
     const url = id ? `${baseUrl}${subject}/${id}` : `${baseUrl}${subject}`;
@@ -50,9 +66,7 @@ async function show_prof(subject, itchid, id) {
                     }
                 }
                 ret1 += "\n\tFALL 2023\n\t-----------\n";
-                const timeResponse = await axios_1.default.get("http://127.0.0.1:2222/time");
-                const { data: time } = timeResponse;
-                ret1 += `\n${time}\n`;
+                ret1 += `\n${getCurrentDateAndTime()}\n`;
                 ret1 += "\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time";
                 ret1 += "\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n";
                 body.sch.forEach((course) => {
@@ -134,8 +148,7 @@ async function show_class(subject, code, semester, year, itchid) {
             const catalogResponse = await axios_1.default.get(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
             const course = catalogResponse.data;
             ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n${course.subject} ${course.catalog_number} ${course.title} - ${semester.toUpperCase()} ${year}`;
-            const timeResponse = await axios_1.default.get(`http://127.0.0.1:2222/time`);
-            ret1 += timeResponse.data + "\n";
+            ret1 += getCurrentDateAndTime() + "\n";
         }
         catch (error) {
             console.error(error);
@@ -214,12 +227,7 @@ async function show_class_before_sp_23(subject, code, semester, year, itchid) {
                 if (course.catalog_number.toString() === code) {
                     ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n`;
                     ret1 += `${course.subject} ${course.catalog_number} ${course.title} - ${semester.toUpperCase()} ${year}`;
-                    axios_1.default.get(`http://127.0.0.1:2222/time`)
-                        .then(response => {
-                        console.log(`http://127.0.0.1:2222/time`);
-                        ret1 += (response.data + "\n");
-                    })
-                        .catch(error => console.error(error));
+                    ret1 += getCurrentDateAndTime() + "\n";
                 }
             });
             const classesResponse = await axios_1.default.get(`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`);
