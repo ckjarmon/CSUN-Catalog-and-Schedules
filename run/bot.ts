@@ -1,7 +1,9 @@
 import * as path from 'path';
 import axios from 'axios';
-
+import { token } from './config.json';
 import { ArgumentParser } from 'argparse';
+import { Client, GatewayIntentBits, TextChannel } from 'discord.js';
+
 const parser = new ArgumentParser();
 
 parser.add_argument('--project_location', {
@@ -12,13 +14,11 @@ parser.add_argument('--project_location', {
 
 const args = parser.parse_args();
 
-if (args.location) {
+if (args.project_location) {
     process.chdir(path.resolve(args.project_location));
 }
 
-import { token } from './config.json';
 
-import { Client, GatewayIntentBits, TextChannel } from 'discord.js';
 
 const client = new Client({
     intents: [GatewayIntentBits.Guilds,
@@ -50,7 +50,14 @@ const getCurrentDateAndTime = (): string => {
     return ` - As of ${formattedDate}`;
 };
 
-async function show_prof(subject: string, itchid: string, id: string) {
+async function send_msg(msg: string, channel: string): Promise<void> {
+    await (<TextChannel>client.channels.cache.get(channel)).send("```" + msg.substring(0, 1993) + "```");
+    if (msg.substring(1994) !== "") {
+        await (<TextChannel>client.channels.cache.get(channel)).send("```" + msg.substring(1994) + "```")
+    };
+}
+
+async function show_prof(subject: string, itchid: string, id: string): Promise<void> {
 
 
     const baseUrl: string = "http://127.0.0.1:2222/profs/";
@@ -63,7 +70,7 @@ async function show_prof(subject: string, itchid: string, id: string) {
             const { data: body } = response;
 
             if (!id) {
-                ret1 = String(body).replaceAll(",", "");
+                ret1 = String(body).replace(/,/g, "");
             } else {
                 body.info["Name"] = body.info.first_name + " " + body.info.last_name;
 
@@ -139,20 +146,17 @@ async function show_prof(subject: string, itchid: string, id: string) {
 
             }
 
-            resolve(ret1)
+            resolve(ret1);
         } catch (e) {
-            reject(e)
+            reject(e);
         }
     }).then(async (res) => {
-        await (<TextChannel>client.channels.cache.get(itchid)).send("```" + res.substring(0, 1993) + "```");
-        if (res.substring(1994) !== "") {
-            await (<TextChannel>client.channels.cache.get(itchid)).send("```" + res.substring(1994) + "```")
-        }
+        await send_msg(res, itchid);
     });
 }
 
 // simply returns all classes at a specified level
-async function show_levels(subject: string, level: number, itchid: string) {
+async function show_levels(subject: string, level: number, itchid: string): Promise<void> {
     console.log("Show levels called.");
 
     new Promise<string>(async (resolve, reject) => {
@@ -170,17 +174,17 @@ async function show_levels(subject: string, level: number, itchid: string) {
             body.forEach((course: string) => {
                 ret1 += (`${course}\n`);
             });
-            resolve(ret1)
+            resolve(ret1);
         } catch (e) {
-            reject(e)
+            reject(e);
         }
     }).then(async (res) => {
-        await (<TextChannel>client.channels.cache.get(itchid)).send("```" + res + "```");
+        await send_msg(res, itchid);
     });
 }
 
 /* for every semester after Fall 2022 */
-async function show_class(subject: string, code: string, semester: string, year: number, itchid: string) {
+async function show_class(subject: string, code: string, semester: string, year: number, itchid: string): Promise<void> {
     new Promise<string>(async (resolve, reject) => {
         var ret1: string = "";
         var ret2: string = "";
@@ -268,22 +272,18 @@ async function show_class(subject: string, code: string, semester: string, year:
 
                 ret2 += "\n";
             });
-            resolve(ret1 + ret2)
+            resolve(ret1 + ret2);
         } catch (error) {
-            console.error(error);
             reject(error)
         }
 
     }).then(async (res) => {
-        await (<TextChannel>client.channels.cache.get(itchid)).send("```" + res.substring(0, 1993) + "```");
-        if (res.substring(1994) !== "") {
-            await (<TextChannel>client.channels.cache.get(itchid)).send("```" + res.substring(1994) + "```")
-        }
+        await send_msg(res, itchid);
     });
 }
 
 // for every class before spring 2023
-async function show_class_before_sp_23(subject: string, code: string, semester: string, year: number, itchid: string) {
+async function show_class_before_sp_23(subject: string, code: string, semester: string, year: number, itchid: string): Promise<void> {
     console.log("Show class override called.");
 
     new Promise<string>(async (resolve, reject) => {
@@ -379,15 +379,12 @@ async function show_class_before_sp_23(subject: string, code: string, semester: 
 
                 }
             });
-            resolve(ret1 + ret2)
+            resolve(ret1 + ret2);
         } catch (e) {
-            reject(e)
+            reject(e);
         }
     }).then(async (res) => {
-        await (<TextChannel>client.channels.cache.get(itchid)).send("```" + res.substring(0, 1993) + "```");
-        if (res.substring(1994) !== "") {
-            await (<TextChannel>client.channels.cache.get(itchid)).send("```" + res.substring(1994) + "```")
-        };
+        await send_msg(res, itchid);
     });
 
 }
