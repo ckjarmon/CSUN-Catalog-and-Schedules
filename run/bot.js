@@ -3,7 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const tslib_1 = require("tslib");
 const path = tslib_1.__importStar(require("path"));
 const axios_1 = tslib_1.__importDefault(require("axios"));
+const config_json_1 = require("./config.json");
 const argparse_1 = require("argparse");
+const discord_js_1 = require("discord.js");
 const parser = new argparse_1.ArgumentParser();
 parser.add_argument('--project_location', {
     nargs: '?',
@@ -11,11 +13,9 @@ parser.add_argument('--project_location', {
     help: 'Path to config file',
 });
 const args = parser.parse_args();
-if (args.location) {
+if (args.project_location) {
     process.chdir(path.resolve(args.project_location));
 }
-const config_json_1 = require("./config.json");
-const discord_js_1 = require("discord.js");
 const client = new discord_js_1.Client({
     intents: [discord_js_1.GatewayIntentBits.Guilds,
         discord_js_1.GatewayIntentBits.GuildMessages,
@@ -41,6 +41,13 @@ const getCurrentDateAndTime = () => {
     const formattedDate = new Intl.DateTimeFormat('en-US', options).format(currentDate);
     return ` - As of ${formattedDate}`;
 };
+async function send_msg(msg, channel) {
+    await client.channels.cache.get(channel).send("```" + msg.substring(0, 1993) + "```");
+    if (msg.substring(1994) !== "") {
+        await client.channels.cache.get(channel).send("```" + msg.substring(1994) + "```");
+    }
+    ;
+}
 async function show_prof(subject, itchid, id) {
     const baseUrl = "http://127.0.0.1:2222/profs/";
     const url = id ? `${baseUrl}${subject}/${id}` : `${baseUrl}${subject}`;
@@ -50,7 +57,7 @@ async function show_prof(subject, itchid, id) {
             const response = await axios_1.default.get(url);
             const { data: body } = response;
             if (!id) {
-                ret1 = String(body).replaceAll(",", "");
+                ret1 = String(body).replace(/,/g, "");
             }
             else {
                 body.info["Name"] = body.info.first_name + " " + body.info.last_name;
@@ -111,10 +118,7 @@ async function show_prof(subject, itchid, id) {
             reject(e);
         }
     }).then(async (res) => {
-        await client.channels.cache.get(itchid).send("```" + res.substring(0, 1993) + "```");
-        if (res.substring(1994) !== "") {
-            await client.channels.cache.get(itchid).send("```" + res.substring(1994) + "```");
-        }
+        await send_msg(res, itchid);
     });
 }
 async function show_levels(subject, level, itchid) {
@@ -136,7 +140,7 @@ async function show_levels(subject, level, itchid) {
             reject(e);
         }
     }).then(async (res) => {
-        await client.channels.cache.get(itchid).send("```" + res + "```");
+        await send_msg(res, itchid);
     });
 }
 async function show_class(subject, code, semester, year, itchid) {
@@ -205,14 +209,10 @@ async function show_class(subject, code, semester, year, itchid) {
             resolve(ret1 + ret2);
         }
         catch (error) {
-            console.error(error);
             reject(error);
         }
     }).then(async (res) => {
-        await client.channels.cache.get(itchid).send("```" + res.substring(0, 1993) + "```");
-        if (res.substring(1994) !== "") {
-            await client.channels.cache.get(itchid).send("```" + res.substring(1994) + "```");
-        }
+        await send_msg(res, itchid);
     });
 }
 async function show_class_before_sp_23(subject, code, semester, year, itchid) {
@@ -275,11 +275,7 @@ async function show_class_before_sp_23(subject, code, semester, year, itchid) {
             reject(e);
         }
     }).then(async (res) => {
-        await client.channels.cache.get(itchid).send("```" + res.substring(0, 1993) + "```");
-        if (res.substring(1994) !== "") {
-            await client.channels.cache.get(itchid).send("```" + res.substring(1994) + "```");
-        }
-        ;
+        await send_msg(res, itchid);
     });
 }
 client.on('interactionCreate', async (interaction) => {
