@@ -112,11 +112,6 @@ def schedule(**kwargs):
              "subject": c[9]} for c in le_fetch]
     return section_payload
 
-@app.route('/time')
-def stime():
-    curr_time = time.asctime(time.localtime(time.time())).split()
-    return (f" - As of {curr_time[0]} {curr_time[2]} {curr_time[1]} {curr_time[4]} {curr_time[3]}")
-
 
 @app.route('/profs/<string:subject>')
 @app.route('/profs/<string:subject>/<int:id>')
