@@ -160,7 +160,7 @@ async function show_levels(subject: string, level: number, itchid: string): Prom
     console.log("Show levels called.");
 
     new Promise<string>(async (resolve, reject) => {
-        var ret1: string = "";
+        let ret1: string = "";
         try {
             const response = await axios.get(`http://127.0.0.1:2222/${subject}/levels/${level}`);
             const body = response.data;
@@ -186,8 +186,8 @@ async function show_levels(subject: string, level: number, itchid: string): Prom
 /* for every semester after Fall 2022 */
 async function show_class(subject: string, code: string, semester: string, year: number, itchid: string): Promise<void> {
     new Promise<string>(async (resolve, reject) => {
-        var ret1: string = "";
-        var ret2: string = "";
+        let ret1: string = "",
+            ret2: string = "";
 
 
         console.log("Show class called.");
@@ -287,7 +287,7 @@ async function show_class_before_sp_23(subject: string, code: string, semester: 
     console.log("Show class override called.");
 
     new Promise<string>(async (resolve, reject) => {
-        var ret1: string = "",
+        let ret1: string = "",
             ret2: string = "";
 
         try {
@@ -467,7 +467,7 @@ client.on('interactionCreate', async (interaction) => {
 
         case 'help': {
 
-            let ret = "```(Default: Fall 2023)\n\n" +
+            const ret = "```(Default: Fall 2023)\n\n" +
                 "\"/class\" for 1 or more classes of common subject\n\n" +
                 "\"/prof\" to show a prof's teaching schedule \n\n" +
                 "\"/level\" to show classes at a specific level (100, 200, 300 etc.) \n\n" +
