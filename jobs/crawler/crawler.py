@@ -415,7 +415,7 @@ def gather(arrow):
                     break
 
             driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
-            time.sleep(1)
+            time.sleep(2.5)
         except NoSuchElementException:  # if no more classes for a subject
             continue
 
@@ -724,7 +724,7 @@ if __name__ == "__main__":
     if args.i:
         da_job()
         sys.exit(1)
-    schedule.every().day.at("00:00").do(da_job)
+    schedule.every().sunday.at("00:00").do(da_job)
     while True:
         schedule.run_pending()
         time.sleep(60)
