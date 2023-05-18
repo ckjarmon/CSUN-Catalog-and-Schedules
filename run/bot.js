@@ -6,6 +6,7 @@ const axios_1 = tslib_1.__importDefault(require("axios"));
 const config_json_1 = require("./config.json");
 const argparse_1 = require("argparse");
 const discord_js_1 = require("discord.js");
+const fs_1 = tslib_1.__importDefault(require("fs"));
 const parser = new argparse_1.ArgumentParser();
 parser.add_argument('--project_location', {
     nargs: '?',
@@ -41,14 +42,14 @@ const getCurrentDateAndTime = () => {
     const formattedDate = new Intl.DateTimeFormat('en-US', options).format(currentDate);
     return ` - As of ${formattedDate}`;
 };
-async function send_msg(msg, channel) {
-    await client.channels.cache.get(channel).send("```" + msg.substring(0, 1993) + "```");
+async function send_msg(msg, interaction) {
+    await interaction.editReply("```" + msg.substring(0, 1994) + "```");
     if (msg.substring(1994) !== "") {
-        await client.channels.cache.get(channel).send("```" + msg.substring(1994) + "```");
+        await interaction.followUp("```" + msg.substring(1994) + "```");
     }
     ;
 }
-async function show_prof(subject, itchid, id) {
+async function show_prof(subject, id, interaction) {
     const baseUrl = "http://127.0.0.1:2222/profs/";
     const url = id ? `${baseUrl}${subject}/${id}` : `${baseUrl}${subject}`;
     new Promise(async (resolve, reject) => {
@@ -73,13 +74,12 @@ async function show_prof(subject, itchid, id) {
                     }
                 }
                 ret1 += "\n\tFALL 2023\n\t-----------\n";
-                ret1 += `\n${getCurrentDateAndTime()}\n`;
                 ret1 += "\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time";
                 ret1 += "\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n";
                 body.sch.forEach((course) => {
-                    ret1 += ` ${course.class_number}`;
-                    ret1 += course.subject.length === 4 ? `   ${course.subject}` : `   ${course.subject} `;
-                    ret1 += course.catalog_number.length === 4 ? `   ${course.catalog_number}` : `   ${course.catalog_number} `;
+                    ret1 += `\t ${course.class_number}`;
+                    ret1 += course.subject.length === 4 ? `\t   ${course.subject}` : `\t   ${course.subject} `;
+                    ret1 += course.catalog_number.length === 4 ? `\t   ${course.catalog_number}` : `\t   ${course.catalog_number} `;
                     if (course.location.length === 3) {
                         ret1 += "   ";
                     }
@@ -89,16 +89,16 @@ async function show_prof(subject, itchid, id) {
                     if (course.days !== "None") {
                         switch (course.days.length) {
                             case 1:
-                                ret1 += `    ${course.days}`;
+                                ret1 += `\t\t   ${course.days}`;
                                 break;
                             case 2:
-                                ret1 += `   ${course.days}`;
+                                ret1 += `\t\t  ${course.days}`;
                                 break;
                             case 3:
-                                ret1 += `   ${course.days}`;
+                                ret1 += `\t\t  ${course.days}`;
                                 break;
                             default:
-                                ret1 += `  ${course.days}`;
+                                ret1 += `\t\t ${course.days}`;
                         }
                     }
                     else {
@@ -112,19 +112,20 @@ async function show_prof(subject, itchid, id) {
                     ret1 += "\n";
                 });
             }
+            ret1 += `\n${getCurrentDateAndTime()}\n`;
             resolve(ret1);
         }
         catch (e) {
             reject(e);
         }
     }).then(async (res) => {
-        await send_msg(res, itchid);
+        await send_msg(res, interaction);
     });
 }
-async function show_levels(subject, level, itchid) {
+async function show_levels(subject, level, interaction) {
     console.log("Show levels called.");
     new Promise(async (resolve, reject) => {
-        var ret1 = "";
+        let ret1 = "";
         try {
             const response = await axios_1.default.get(`http://127.0.0.1:2222/${subject}/levels/${level}`);
             const body = response.data;
@@ -140,13 +141,12 @@ async function show_levels(subject, level, itchid) {
             reject(e);
         }
     }).then(async (res) => {
-        await send_msg(res, itchid);
+        await send_msg(res, interaction);
     });
 }
-async function show_class(subject, code, semester, year, itchid) {
+async function show_class(subject, code, semester, year, interaction) {
     new Promise(async (resolve, reject) => {
-        var ret1 = "";
-        var ret2 = "";
+        let ret1 = "", ret2 = "";
         console.log("Show class called.");
         try {
             const catalogResponse = await axios_1.default.get(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
@@ -202,7 +202,7 @@ async function show_class(subject, code, semester, year, itchid) {
                 }
                 ret2 += `\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`;
                 ret2 += (course.instructor !== "Staff")
-                    ? `\t\t${course.instructor}`
+                    ? `\t\t\t${course.instructor}`
                     : `\t\t\t\tStaff`;
                 ret2 += "\n";
             });
@@ -212,13 +212,13 @@ async function show_class(subject, code, semester, year, itchid) {
             reject(error);
         }
     }).then(async (res) => {
-        await send_msg(res, itchid);
+        await send_msg(res, interaction);
     });
 }
-async function show_class_before_sp_23(subject, code, semester, year, itchid) {
+async function show_class_before_sp_23(subject, code, semester, year, interaction) {
     console.log("Show class override called.");
     new Promise(async (resolve, reject) => {
-        var ret1 = "", ret2 = "";
+        let ret1 = "", ret2 = "";
         try {
             const catalogResponse = await axios_1.default.get(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
             console.log(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
@@ -264,7 +264,7 @@ async function show_class_before_sp_23(subject, code, semester, year, itchid) {
                     ret2 += " - ";
                     ret2 += `${course.meetings[0].end_time.substring(0, 2)}:${course.meetings[0].end_time.substring(2, 4)}`;
                     ret2 += (course.instructors.length > 0)
-                        ? `\t\t${course.instructors[0].instructor}`
+                        ? `\t\t\t${course.instructors[0].instructor}`
                         : "\t\t\t\tStaff";
                     ret2 += ("\n");
                 }
@@ -275,13 +275,33 @@ async function show_class_before_sp_23(subject, code, semester, year, itchid) {
             reject(e);
         }
     }).then(async (res) => {
-        await send_msg(res, itchid);
+        await send_msg(res, interaction);
     });
 }
+client.on('messageCreate', async (message) => {
+    const _message = message.content;
+    if (message.author.id !== client.user?.id) {
+        const emojiRegex = /<:[a-zA-Z0-9]*:[0-9]*>/g;
+        const emojiMatches = _message.match(emojiRegex);
+        if (emojiMatches !== null) {
+            emojiMatches.forEach((match) => {
+                const emojiId = match.match(/[0-9]+/);
+                const emoji = client.emojis.cache.get(emojiId[0]);
+                if (emoji !== undefined) {
+                    const ec = JSON.parse(fs_1.default.readFileSync('./emoji_count.json', 'utf8'));
+                    ec[match] = (ec[match]) ? ec[match] + 1 : 1;
+                    const sortedEC = Object.fromEntries(Object.entries(ec).sort((a, b) => b[1] - a[1]));
+                    fs_1.default.writeFileSync('./emoji_count.json', JSON.stringify(sortedEC, null, 4));
+                }
+            });
+        }
+    }
+});
 client.on('interactionCreate', async (interaction) => {
     if (!interaction.isChatInputCommand())
         return;
     const { commandName } = interaction;
+    await interaction.deferReply();
     switch (commandName) {
         case 'class':
             {
@@ -293,24 +313,22 @@ client.on('interactionCreate', async (interaction) => {
                 const sec_class = interaction.options.getString('catalog_number2') || null;
                 const thi_class = interaction.options.getString('catalog_number3') || null;
                 if (year < 2023) {
-                    show_class_before_sp_23(subject, fir_class, semester, year, itchid);
+                    await show_class_before_sp_23(subject, fir_class, semester, year, interaction);
                     if (sec_class) {
-                        show_class_before_sp_23(subject, sec_class, semester, year, itchid);
+                        await show_class_before_sp_23(subject, sec_class, semester, year, interaction);
                     }
                     if (thi_class) {
-                        show_class_before_sp_23(subject, thi_class, semester, year, itchid);
+                        await show_class_before_sp_23(subject, thi_class, semester, year, interaction);
                     }
-                    await interaction.reply("Gimme a sec");
                 }
                 else {
-                    show_class(subject, fir_class, semester, year, itchid);
+                    await show_class(subject, fir_class, semester, year, interaction);
                     if (sec_class) {
-                        show_class(subject, sec_class, semester, year, itchid);
+                        await show_class(subject, sec_class, semester, year, interaction);
                     }
                     if (thi_class) {
-                        show_class(subject, thi_class, semester, year, itchid);
+                        await show_class(subject, thi_class, semester, year, interaction);
                     }
-                    await interaction.reply("Gimme a sec");
                 }
             }
             break;
@@ -319,13 +337,12 @@ client.on('interactionCreate', async (interaction) => {
                 const itchid = interaction.channelId;
                 const subject = interaction.options.getString('subject');
                 const prof_id = interaction.options.getInteger('prof_id');
-                show_prof(subject, itchid, prof_id);
-                await interaction.reply("Gimme a sec");
+                await show_prof(subject, prof_id, interaction);
             }
             break;
         case 'help':
             {
-                let ret = "```(Default: Fall 2023)\n\n" +
+                const ret = "```(Default: Fall 2023)\n\n" +
                     "\"/class\" for 1 or more classes of common subject\n\n" +
                     "\"/prof\" to show a prof's teaching schedule \n\n" +
                     "\"/level\" to show classes at a specific level (100, 200, 300 etc.) \n\n" +
@@ -339,8 +356,19 @@ client.on('interactionCreate', async (interaction) => {
                 const itchid = interaction.channelId;
                 const subject = interaction.options.getString('subject');
                 const level = interaction.options.getInteger('level');
-                show_levels(subject, level, itchid);
-                await interaction.reply("Gimme a sec");
+                await show_levels(subject, level, interaction);
+            }
+            break;
+        case 'emoji':
+            {
+                const ret = ["```Emote Rankings```"];
+                const ec = JSON.parse(fs_1.default.readFileSync('./emoji_count.json', 'utf8'));
+                const topEmotes = Object.entries(ec).slice(0, 15);
+                for (const [emote, count] of topEmotes) {
+                    ret.push(`${emote} ${count}`);
+                }
+                const retMessage = ret.join('\n');
+                await interaction.editReply(retMessage.slice(0, 1979));
             }
             break;
         case 'gunfight': {
@@ -348,10 +376,10 @@ client.on('interactionCreate', async (interaction) => {
             const member = interaction.guild?.members.cache.get(user.id);
             if (member && member.id !== "534510030490304524") {
                 member.timeout(10000, "bleh");
-                interaction.reply(`\`\`\`${user?.username} has been timed out!\`\`\``);
+                await interaction.reply(`\`\`\`${user?.username} has been timed out!\`\`\``);
             }
             else {
-                interaction.reply('```Kyeou is immune.```');
+                await interaction.reply('```Kyeou is immune.```');
             }
         }
     }

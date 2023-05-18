@@ -44,9 +44,7 @@ const commands = [
 			option.setName('year')
 				.setDescription('the year')
 				.setRequired(false)),
-	new SlashCommandBuilder()
-		.setName('help')
-		.setDescription('to learn the stuffs'),
+
 	new SlashCommandBuilder()
 		.setName('prof')
 		.setDescription('see what a prof is teaching')
@@ -81,6 +79,12 @@ const commands = [
 				.setName('target')
 				.setDescription('ya tu sabes')
 				.setRequired(true)),
+	new SlashCommandBuilder()
+		.setName('help')
+		.setDescription('to learn the stuffs'),
+	new SlashCommandBuilder()
+		.setName('emoji')
+		.setDescription('top emojis'),
 ]
 	.map(command => command.toJSON());
 

@@ -53,7 +53,7 @@ def catalog(**kwargs):
                        AND catalog_number = '{kwargs['catalog_number']}'
                        """)
     x = rootCursor.fetchone()
-
+    print(x)
     return {"subject":x[0],
     "catalog_number":x[1],
     "title":x[2],
