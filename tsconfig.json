@@ -3,8 +3,8 @@
         "target": "ES2022",
         "module": "commonjs",
         "lib": ["es2021"],
-        "rootDir": "./",
-        "outDir": "./",
+        "rootDir": "./src",
+        "outDir": "./run",
         "strict": true,
         "moduleResolution": "node",
         "importHelpers": true,
@@ -22,10 +22,12 @@
         "baseUrl": "./"
     },
     "files": [
-        "./run/bot.ts"
+        "src/bot.ts",
+        "src/server.ts",
+        "src/config.json"
     ],
     "include": [
-        "./**/*.ts"
+        "./**/*.ts",
     ],
     "exclude": [
         "node_modules"

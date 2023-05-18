@@ -1,11 +1,8 @@
 # bot.py
 
 import json
-from dotenv import load_dotenv
 import time
-from discord import Intents
-from discord import Emoji
-from discord.ext import commands
+
 import re
 import os
 import argparse
@@ -19,7 +16,8 @@ parser.add_argument(
 )
 
 args = parser.parse_args()
-os.chdir(args.project_location)
+if args.project_location:
+    os.chdir(args.project_location)
 
 
 intents = Intents.default()
@@ -27,7 +25,7 @@ intents.message_content = True
 
 client = commands.Bot(command_prefix="!", intents=intents)
 
-load_dotenv()
+
 print(os)
 TOKEN = json.load(open('./config.json', "r"))["token"]
 
@@ -228,12 +226,16 @@ def show_schedule(sem, year, sub, code):
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
     
+    
+from discord import Intents
+from discord import Emoji
+from discord.ext import commands    
 @client.event
 async def on_message(message):
     _message = ''.join(message.content)
      
     
-    print(f"{message.author} [{_message}]")
+    # print(f"{message.author} [{_message}]")
     if message.author != client.user:    
         for m in re.findall('<:[a-zA-z0-9]*:[0-9]*>', _message):
             if client.get_emoji(int(re.findall('[0-9]*>', m)[0][0:-1])) is not None:   
