@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS "catalog";
+
 CREATE TABLE "catalog" (
     "subject" varchar(6) NOT NULL,
     "catalog_number" varchar(10) NOT NULL,
