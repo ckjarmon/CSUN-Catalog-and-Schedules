@@ -50,7 +50,7 @@ async function run(): Promise<void> {
 // run().catch((err) => console.error(err));
 
 if (require.main === module) {
-	if (process.argv.includes("-i")) {
+	if (args.i) {
 		run();
 		process.exit(1);
 	}
