@@ -1,10 +1,11 @@
-import * as path from "path";
+// import * as path from "path";
 import axios from "axios";
 import { token } from "./config.json";
-import { ArgumentParser } from "argparse";
-import { Client, GatewayIntentBits, TextChannel, Message, GuildEmoji } from "discord.js";
+// import { ArgumentParser } from "argparse";
+import { Client, GatewayIntentBits, Message, GuildEmoji } from "discord.js";
 import fs from "fs";
 
+/*
 const parser = new ArgumentParser();
 
 parser.add_argument("--project_location", {
@@ -17,7 +18,7 @@ const args = parser.parse_args();
 
 if (args.project_location) {
 	process.chdir(path.resolve(args.project_location));
-}
+} */
 
 const client = new Client({
 	intents: [
@@ -481,7 +482,7 @@ client.on("messageCreate", async (message: Message) => {
 				// console.log(emojiId)
 				if (emoji !== undefined) {
 					const ec: { [key: string]: number } = JSON.parse(
-						fs.readFileSync("./emoji_count.json", "utf8")
+						fs.readFileSync("~/CSUN-Catalog-And-Schedules/emoji_count.json", "utf8")
 					);
 
 					ec[match] = ec[match] ? ec[match] + 1 : 1;
@@ -492,7 +493,7 @@ client.on("messageCreate", async (message: Message) => {
 
 					// console.log(sortedEC)
 
-					fs.writeFileSync("./emoji_count.json", JSON.stringify(sortedEC, null, 4));
+					fs.writeFileSync("~/CSUN-Catalog-And-Schedules/emoji_count.json", JSON.stringify(sortedEC, null, 4));
 				}
 			});
 		}
@@ -524,7 +525,7 @@ client.on("interactionCreate", async (interaction) => {
 	switch (commandName) {
 		case "class":
 			{
-				const itchid: string = interaction.channelId;
+
 				const semester: string = interaction.options.getString("semester") || "fall";
 				const year: number = interaction.options.getInteger("year") || 2023;
 
@@ -579,7 +580,7 @@ client.on("interactionCreate", async (interaction) => {
 
 		case "prof":
 			{
-				const itchid: string = interaction.channelId;
+
 				const subject: string | any = interaction.options.getString("subject");
 				const prof_id: number | any = interaction.options.getInteger("prof_id");
 
@@ -604,7 +605,7 @@ client.on("interactionCreate", async (interaction) => {
 
 		case "level":
 			{
-				const itchid: string = interaction.channelId;
+
 				const subject: string | any = interaction.options.getString("subject");
 				const level: number | any = interaction.options.getInteger("level");
 

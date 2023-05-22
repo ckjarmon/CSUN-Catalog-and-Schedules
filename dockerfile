@@ -1,4 +1,3 @@
-# Use a base image with both Python and Node.js
 FROM debian:bullseye-slim
 
 RUN apt-get update \
@@ -29,7 +28,5 @@ COPY requirements.txt .
 RUN pip3 install -r requirements.txt
 
 EXPOSE 2222
-EXPOSE 5432
 
-RUN node -v
-ENTRYPOINT ["bash", "/app/run/_run.sh"]
+

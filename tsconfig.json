@@ -1,35 +1,30 @@
 {
     "compilerOptions": {
-        "target": "ES2022",
-        "module": "commonjs",
-        "lib": ["es2021"],
-        "rootDir": "./src",
-        "outDir": "./run",
-        "strict": true,
-        "moduleResolution": "node",
-        "importHelpers": true,
-        "experimentalDecorators": true,
-        "esModuleInterop": true,
-        "skipLibCheck": true,
-        "allowSyntheticDefaultImports": true,
-        "resolveJsonModule": true,
-        "forceConsistentCasingInFileNames": true,
-        "removeComments": true,
-        "typeRoots": [
-            "node_modules/@types"
-        ],
-        "sourceMap": false,
-        "baseUrl": "./"
+      "target": "ES2022",
+      "module": "commonjs",
+      "lib": ["es2021"],
+      "rootDir": "./",
+      "outDir": "run",
+      "strict": true,
+      "moduleResolution": "node",
+      "importHelpers": true,
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+      "forceConsistentCasingInFileNames": true,
+      "removeComments": true,
+      "typeRoots": ["node_modules/@types"],
+      "sourceMap": false,
+      "baseUrl": "."
     },
-    "files": [
-        "src/bot.ts",
-        "src/server.ts",
-        "src/config.json"
-    ],
     "include": [
-        "./**/*.ts",
+      "main/src/**/*.ts",
+      "jobs/crawler/src/**/*.ts"
     ],
     "exclude": [
-        "node_modules"
+      "node_modules"
     ]
-} 
+  }
+  
