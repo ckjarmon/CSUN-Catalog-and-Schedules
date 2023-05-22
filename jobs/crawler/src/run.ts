@@ -58,4 +58,4 @@ if (args.i) {
 }
 
 schedule.scheduleJob("0 0 * * 0", run);
-setInterval(schedule.scheduleJob.bind(schedule), 60000);
+
