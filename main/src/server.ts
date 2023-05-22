@@ -120,7 +120,9 @@ app.get("/:subject-:catalog_number/:semester-:year/schedule", async (req: Reques
 		const query = `SELECT 
                         class_number, 
                         enrollment_cap, 
-                        enrollment_count, 
+                        enrollment_count,
+						waitlist_cap, 
+                        waitlist_count,  
                         instructor, 
                         days, 
                         location,
@@ -134,7 +136,7 @@ app.get("/:subject-:catalog_number/:semester-:year/schedule", async (req: Reques
                         AND semester = '${semester}' 
                         AND year = ${year}`;
 		const le_fetch = await rootCursor.query(query);
-		res.json(le_fetch.rows[0]);
+		res.json(le_fetch.rows);
 	} catch (err) {
 		console.error(err);
 		res.sendStatus(500);
