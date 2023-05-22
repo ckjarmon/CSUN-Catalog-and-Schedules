@@ -1,8 +1,10 @@
 import express, { Request, Response } from "express";
 import { Pool, PoolClient } from "pg";
-import argparse from "argparse";
+// import argparse from "argparse";
+import { Logger } from "tslog";
 const app = express();
 
+/*
 const parser = new argparse.ArgumentParser();
 
 parser.add_argument("--project_location", {
@@ -15,10 +17,25 @@ const args = parser.parse_args();
 
 if (args.project_location) {
 	process.chdir(args.project_location);
-}
+}*/
 
-const name_normalize = (str: string): string =>
-	`${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;
+const log = new Logger({
+	stylePrettyLogs: true,
+	prettyLogStyles: {
+		logLevelName: {
+			"*": ["bold", "black", "bgWhiteBright", "dim"],
+			SILLY: ["bold", "greenBright"],
+			TRACE: ["bold", "whiteBright"],
+			DEBUG: ["bold", "green"],
+			INFO: ["bold", "blueBright"],
+			WARN: ["bold", "yellow"],
+			ERROR: ["bold", "red"],
+			FATAL: ["bold", "redBright"]
+		}
+	}
+});
+
+const name_normalize = (str: string): string => `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;
 
 const pool = new Pool({
 	user: "user",
@@ -40,7 +57,7 @@ const get_conn = async (): Promise<PoolClient> => {
 };
 
 app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response) => {
-	console.log(req.originalUrl);
+	log.info(`~Endpoint called: ${req.originalUrl}`);
 	const { subject, catalog_number } = req.params;
 	const rootCursor = await get_conn();
 	try {
@@ -67,6 +84,7 @@ app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response)
 });
 
 app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
+	log.info(`~Endpoint called: ${req.originalUrl}`);
 	try {
 		const rootCursor = await get_conn();
 		const subject = req.params.subject.toUpperCase();
@@ -94,14 +112,12 @@ app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
 	}
 });
 
-app.get(
-	"/:subject-:catalog_number/:semester-:year/schedule",
-	async (req: Request, res: Response) => {
-		console.log(req.originalUrl);
-		const { subject, catalog_number, semester, year } = req.params;
-		const rootCursor = await get_conn();
-		try {
-			const query = `SELECT 
+app.get("/:subject-:catalog_number/:semester-:year/schedule", async (req: Request, res: Response) => {
+	log.info(`~Endpoint called: ${req.originalUrl}`);
+	const { subject, catalog_number, semester, year } = req.params;
+	const rootCursor = await get_conn();
+	try {
+		const query = `SELECT 
                         class_number, 
                         enrollment_cap, 
                         enrollment_count, 
@@ -117,26 +133,23 @@ app.get(
                         AND catalog_number = '${catalog_number}' 
                         AND semester = '${semester}' 
                         AND year = ${year}`;
-			const le_fetch = await rootCursor.query(query);
-			res.json(le_fetch.rows[0]);
-		} catch (err) {
-			console.error(err);
-			res.sendStatus(500);
-		} finally {
-			rootCursor.release();
-		}
+		const le_fetch = await rootCursor.query(query);
+		res.json(le_fetch.rows[0]);
+	} catch (err) {
+		console.error(err);
+		res.sendStatus(500);
+	} finally {
+		rootCursor.release();
 	}
-);
+});
 
 app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
-	console.log(req.originalUrl);
+	log.info(`~Endpoint called: ${req.originalUrl}`);
 	const rootCursor = await get_conn();
 	const subject = req.params.subject.toUpperCase();
 	if (req.params.id) {
 		const query = `SELECT first_name, last_name FROM professor WHERE subject = '${subject}'`;
-		const rows: { first_name: string; last_name: string }[] = (
-			await rootCursor.query(query)
-		).rows;
+		const rows: { first_name: string; last_name: string }[] = (await rootCursor.query(query)).rows;
 		const profs_as_first_last: string[] = rows.map(
 			(x: { first_name: string; last_name: string }) => `${x.first_name} ${x.last_name}`
 		);
@@ -156,9 +169,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
                             subject, 
                             office 
                             FROM professor 
-                            WHERE first_name = '${
-								sorted_profs_as_first_last[id].split(" ")[0]
-							}' 
+                            WHERE first_name = '${sorted_profs_as_first_last[id].split(" ")[0]}' 
                             AND last_name = '${sorted_profs_as_first_last[id].split(" ")[1]}'`;
 		const query_result = await rootCursor.query(prof_query);
 		const prof_rows = query_result.rows;
@@ -233,13 +244,12 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 			)
 			.sort((a: string, b: string) => a.split(" ")[1].localeCompare(b.split(" ")[1]));
 
-		const response = profs
-			.map((prof: any, index: number) => `${index + 1} ${prof}\n`)
-			.join("");
+		const response = profs.map((prof: any, index: number) => `${index + 1} ${prof}\n`).join("");
 		res.send(response);
 	}
 });
 
 app.listen(2222, () => {
-	console.log("Running...");
+	log.silly(`Running on http://localhost:2222`);
+	// console.log("Running...");
 });

@@ -155,8 +155,6 @@ catalog_link = "https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_M
 """ 
 In the API the time is stored in 24-hour format followed by an "h"
 """
-
-
 def convert_time(time):
     if time == "TBA":
         return "0000h", "0000h"
@@ -201,11 +199,6 @@ def convertdays(days_str):
 
 
 def gather(arrow):
-    # op = webdriver.FirefoxOptions()
-    # op.add_argument("--headless")
-    # op.add_argument("--log-level=3")
-    # driver = webdriver.Firefox(options=op)
-    # driver.get(catalog_link)
     s = Service()
     op = webdriver.ChromeOptions()
     op.add_argument('--headless')
@@ -544,20 +537,17 @@ def da_job():
     for a in t:
         a.join()
 
-    import psycopg2
-
     try:
-        conn = psycopg2.connect(
+        rootConnection = mariadb.connect(
             user="py_serv",
             password="q1w2e3r4!@#$",
             host="127.0.0.1",
-            port="5432",
-            database="csun"
+            port=3306,
+            database="csun",
         )
-        rootCursor = conn.cursor()
-    except psycopg2.Error as err:
-        print(f"Error connecting to PostgreSQL: {err}")
-
+        rootCursor = rootConnection.cursor()
+    except mariadb.Error as err:
+        print(f"Error connecting to MariaDB Platform: {err}")
         
     print('[', end='')
     for code in class_codes:
@@ -567,7 +557,7 @@ def da_job():
                 rootCursor.execute(
                     f"select title from csun.{code}_view where catalog_number = '{course['catalog_number']}'"
                 )
-            except psycopg2.ProgrammingError:
+            except mariadb.ProgrammingError:
                 rootCursor.execute(
                     f'create view {code}_view as select * from catalog where subject = "{code}"'
                 )
@@ -576,7 +566,7 @@ def da_job():
 
             try:
                 course["title"] = rootCursor.fetchall()[0][0]
-            except (IndexError, psycopg2.ProgrammingError):
+            except (IndexError, mariadb.ProgrammingError):
                 continue
 
     print(']\n[', end='')
@@ -630,7 +620,7 @@ def da_job():
                         "insert into section(class_number,enrollment_cap,enrollment_count,instructor,days,location,start_time,end_time,semester,year,subject,catalog_number) values(%d,%d,%d,%s,%s,%s,%s,%s,%s,%d,%s,%s)",
                         tup,
                     )
-                except psycopg2.IntegrityError:
+                except mariadb.IntegrityError:
                     continue
             sub_dict_section = {}
             for k in all_classes.keys():
@@ -718,9 +708,9 @@ def da_job():
                             continue
             # json.dump(web_ss, open(f"./results/{code}_schedule.json", "w"), indent=4)            
     """
-    conn.commit()
+    rootConnection.commit()
     rootCursor.close()
-    conn.close()
+    rootConnection.close()
 
 
 if __name__ == "__main__":
