@@ -1,14 +1,13 @@
 // import * as path from "path";
 import axios from "axios";
-import { token } from "./config.json";
-// import { ArgumentParser } from "argparse";
+// import { token } from "./config.json";
+import { ArgumentParser } from "argparse";
 import { Client, GatewayIntentBits, Message, GuildEmoji } from "discord.js";
 import fs from "fs";
 
-/*
 const parser = new ArgumentParser();
 
-parser.add_argument("--project_location", {
+parser.add_argument("--config", {
 	nargs: "?",
 	type: String,
 	help: "Path to config file"
@@ -16,9 +15,12 @@ parser.add_argument("--project_location", {
 
 const args = parser.parse_args();
 
+/*
 if (args.project_location) {
 	process.chdir(path.resolve(args.project_location));
 } */
+
+const { token } = require(args.config);
 
 const client = new Client({
 	intents: [
@@ -92,10 +94,8 @@ async function show_prof(subject: string, id: string, interaction: any): Promise
 
 				ret1 += "\n\tFALL 2023\n\t-----------\n";
 
-				ret1 +=
-					"\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time";
-				ret1 +=
-					"\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n";
+				ret1 += "\n\tSection\tSubject\t Class\t\t Location\t\tDays\t\t  Seats\t\t\t  Time";
+				ret1 += "\n\t-------\t-------\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\n";
 
 				body.sch.forEach(
 					(course: {
@@ -147,23 +147,19 @@ async function show_prof(subject: string, id: string, interaction: any): Promise
 							ret1 += "  --";
 						}
 
-						const enrollmentCount: number =
-							course.enrollment_cap - course.enrollment_count;
+						const enrollmentCount: number = course.enrollment_cap - course.enrollment_count;
 						ret1 += `${
 							enrollmentCount.toString().length < 10
 								? `\t\t\t${enrollmentCount}\t\t\t`
 								: `\t\t\t ${enrollmentCount}\t\t\t`
 						}`;
 
-						ret1 += `${course.start_time.substring(
-							0,
-							2
-						)}:${course.start_time.substring(2, 4)}`;
+						ret1 += `${course.start_time.substring(0, 2)}:${course.start_time.substring(
+							2,
+							4
+						)}`;
 						ret1 += " - ";
-						ret1 += `${course.end_time.substring(
-							0,
-							2
-						)}:${course.end_time.substring(2, 4)}`;
+						ret1 += `${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`;
 						ret1 += "\n";
 					}
 				);
@@ -185,14 +181,10 @@ async function show_levels(subject: string, level: number, interaction: any): Pr
 	new Promise<string>(async (resolve, reject) => {
 		let ret1: string = "";
 		try {
-			const response = await axios.get(
-				`http://127.0.0.1:2222/${subject}/levels/${level}`
-			);
+			const response = await axios.get(`http://127.0.0.1:2222/${subject}/levels/${level}`);
 			const body = response.data;
 
-			ret1 += `${subject.toUpperCase()} ${level
-				.toString()
-				.padEnd(3, "0")}-level classes\n`;
+			ret1 += `${subject.toUpperCase()} ${level.toString().padEnd(3, "0")}-level classes\n`;
 
 			ret1 += "-".repeat(body.length);
 
@@ -225,9 +217,7 @@ async function show_class(
 		console.log("Show class called.");
 
 		try {
-			const catalogResponse = await axios.get(
-				`http://127.0.0.1:2222/${subject}-${code}/catalog`
-			);
+			const catalogResponse = await axios.get(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
 			const course = catalogResponse.data;
 
 			ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${
@@ -296,8 +286,7 @@ async function show_class(
 					}
 
 					const seats = course.enrollment_cap - course.enrollment_count;
-					ret2 +=
-						seats.toString().length < 10 ? `\t\t\t ${seats}` : `\t\t\t  ${seats}`;
+					ret2 += seats.toString().length < 10 ? `\t\t\t ${seats}` : `\t\t\t  ${seats}`;
 
 					if (course.waitlist_cap > 0) {
 						const waitlistCount =
@@ -309,18 +298,13 @@ async function show_class(
 						ret2 += `\t\t\t    N/A   `;
 					}
 
-					ret2 += `\t\t\t${course.start_time.substring(
-						0,
-						2
-					)}:${course.start_time.substring(2, 4)} - ${course.end_time.substring(
-						0,
-						2
-					)}:${course.end_time.substring(2, 4)}`;
+					ret2 += `\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(
+						2,
+						4
+					)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`;
 
 					ret2 +=
-						course.instructor !== "Staff"
-							? `\t\t\t${course.instructor}`
-							: `\t\t\t\tStaff`;
+						course.instructor !== "Staff" ? `\t\t\t${course.instructor}` : `\t\t\t\tStaff`;
 
 					ret2 += "\n";
 				}
@@ -349,9 +333,7 @@ async function show_class_before_sp_23(
 			ret2: string = "";
 
 		try {
-			const catalogResponse = await axios.get(
-				`http://127.0.0.1:2222/${subject}-${code}/catalog`
-			);
+			const catalogResponse = await axios.get(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
 			console.log(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
 
 			const stuffs = catalogResponse.data;
@@ -384,8 +366,7 @@ async function show_class_before_sp_23(
 			const stuffs2 = classesResponse.data;
 
 			ret2 += "\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty";
-			ret2 +=
-				"\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n";
+			ret2 += "\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n";
 
 			stuffs2.classes.forEach(
 				(course: {
@@ -401,10 +382,7 @@ async function show_class_before_sp_23(
 					}[];
 					instructors: { instructor: string }[];
 				}) => {
-					if (
-						course.catalog_number.toString() === code &&
-						course.meetings.length > 0
-					) {
+					if (course.catalog_number.toString() === code && course.meetings.length > 0) {
 						ret2 += `\t ${course.class_number}`;
 
 						ret2 += course.meetings[0].location.length === 3 ? "   " : "";
@@ -430,12 +408,8 @@ async function show_class_before_sp_23(
 
 						ret2 +=
 							`${course.enrollment_cap - course.enrollment_count}`.length < 10
-								? `\t\t\t${
-										course.enrollment_cap - course.enrollment_count
-								  }\t\t\t`
-								: `\t\t\t ${
-										course.enrollment_cap - course.enrollment_count
-								  }\t\t\t`;
+								? `\t\t\t${course.enrollment_cap - course.enrollment_count}\t\t\t`
+								: `\t\t\t ${course.enrollment_cap - course.enrollment_count}\t\t\t`;
 
 						ret2 += `\t\t\t${course.meetings[0].start_time.substring(
 							0,
@@ -493,7 +467,10 @@ client.on("messageCreate", async (message: Message) => {
 
 					// console.log(sortedEC)
 
-					fs.writeFileSync("~/CSUN-Catalog-And-Schedules/emoji_count.json", JSON.stringify(sortedEC, null, 4));
+					fs.writeFileSync(
+						"~/CSUN-Catalog-And-Schedules/emoji_count.json",
+						JSON.stringify(sortedEC, null, 4)
+					);
 				}
 			});
 		}
@@ -525,44 +502,24 @@ client.on("interactionCreate", async (interaction) => {
 	switch (commandName) {
 		case "class":
 			{
-
 				const semester: string = interaction.options.getString("semester") || "fall";
 				const year: number = interaction.options.getInteger("year") || 2023;
 
 				const subject: string =
 					interaction.options.getString("subject")?.toLowerCase() || "COMP";
-				const fir_class: string =
-					interaction.options.getString("catalog_number1") || "110";
+				const fir_class: string = interaction.options.getString("catalog_number1") || "110";
 				const sec_class: string | null =
 					interaction.options.getString("catalog_number2") || null;
 				const thi_class: string | null =
 					interaction.options.getString("catalog_number3") || null;
 
 				if (year < 2023) {
-					await show_class_before_sp_23(
-						subject,
-						fir_class,
-						semester,
-						year,
-						interaction
-					);
+					await show_class_before_sp_23(subject, fir_class, semester, year, interaction);
 					if (sec_class) {
-						await show_class_before_sp_23(
-							subject,
-							sec_class,
-							semester,
-							year,
-							interaction
-						);
+						await show_class_before_sp_23(subject, sec_class, semester, year, interaction);
 					}
 					if (thi_class) {
-						await show_class_before_sp_23(
-							subject,
-							thi_class,
-							semester,
-							year,
-							interaction
-						);
+						await show_class_before_sp_23(subject, thi_class, semester, year, interaction);
 					}
 				} else {
 					await show_class(subject, fir_class, semester, year, interaction);
@@ -580,7 +537,6 @@ client.on("interactionCreate", async (interaction) => {
 
 		case "prof":
 			{
-
 				const subject: string | any = interaction.options.getString("subject");
 				const prof_id: number | any = interaction.options.getInteger("prof_id");
 
@@ -605,7 +561,6 @@ client.on("interactionCreate", async (interaction) => {
 
 		case "level":
 			{
-
 				const subject: string | any = interaction.options.getString("subject");
 				const level: number | any = interaction.options.getInteger("level");
 
