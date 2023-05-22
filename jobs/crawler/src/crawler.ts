@@ -1,5 +1,5 @@
 import process from "process";
-import argparse from "argparse";
+
 import { setTimeout } from "timers/promises";
 import puppeteer, { Page, TimeoutError } from "puppeteer";
 
@@ -9,29 +9,18 @@ import { ProgressBar } from "./progress";
 import { sortToControl } from "./order";
 import { updateDB } from "./database";
 
-const parser = new argparse.ArgumentParser({
-	prog: "Scheduled Crawler"
-});
 
-parser.add_argument("--semester_key", {
-	type: "str"
-});
 
-parser.add_argument("-i", {
-	action: "store_true"
-});
-
-const args = parser.parse_args();
 
 const catalog_link =
 	"https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL?PortalActualURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentProvider=SA&PortalCRefLabel=Class%20Search&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsp%2fPANRPRD%2f&PortalURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsc%2fPANRPRD%2f&PortalHostNode=EMPL&NoCrumbs=yes&PortalKeyStruct=yes";
 let course_offer_count: { [subject: string]: number } = {};
 
-const semester_key: string = args.semester_key;
+// const semester_key: string = args.semester_key;
 let _TERM: { semester: string; year: number };
 let started: number = 0;
 
-async function collect_subjects(): Promise<string[]> {
+async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 	{
 		/*Get subjects that have course offerings*/
 	}
@@ -48,7 +37,7 @@ async function collect_subjects(): Promise<string[]> {
 		{ timeout: 60000 }
 	);
 
-	await select_semester(page, semester_key);
+	await select_semester(page, _SEMESTER_KEY);
 
 	await page.waitForSelector(`select[id="NR_SSS_SOC_NWRK_SUBJECT"]`, {
 		timeout: 4000
@@ -69,26 +58,26 @@ async function collect_subjects(): Promise<string[]> {
 	return sortToControl(class_codes).reverse();
 }
 
-async function select_semester(_PAGE: Page, semester_key: string): Promise<void> {
+async function select_semester(_PAGE: Page, _SEMESTER_KEY: string): Promise<void> {
 	const dropdown = await _PAGE.$("#NR_SSS_SOC_NWRK_STRM");
 	const selected = await dropdown!.$('option[selected="selected"]');
 	await _PAGE.evaluate((option: HTMLOptionElement) => {
 		option.removeAttribute("selected");
 	}, selected!);
 
-	const optionToSelect = await dropdown!.$(`option[value="${semester_key}"]`);
+	const optionToSelect = await dropdown!.$(`option[value="${_SEMESTER_KEY}"]`);
 	await _PAGE.evaluate((option: HTMLOptionElement) => {
 		option.setAttribute("selected", "selected");
 	}, optionToSelect!);
 
 	await setTimeout(100);
 
-	const term_selected: boolean = await _PAGE.$eval(`option[value="${semester_key}"]`, (option) => {
+	const term_selected: boolean = await _PAGE.$eval(`option[value="${_SEMESTER_KEY}"]`, (option) => {
 		/* 2243 - Spring Semester 2024*/
 		return option.hasAttribute("selected");
 	});
 	const term_innertext: string = await _PAGE.$eval(
-		`option[value="${semester_key}"]`,
+		`option[value="${_SEMESTER_KEY}"]`,
 		(element) => element.textContent!
 	);
 	let term: string[] = term_innertext.split(" ");
@@ -101,36 +90,36 @@ async function select_semester(_PAGE: Page, semester_key: string): Promise<void>
 	// await setTimeout(3000);
 }
 
-async function select_subject(page: Page, subject: string): Promise<void> {
-	const dropdown = await page.$("#NR_SSS_SOC_NWRK_SUBJECT");
+async function select_subject(_PAGE: Page, _SUBJECT: string): Promise<void> {
+	const dropdown = await _PAGE.$("#NR_SSS_SOC_NWRK_SUBJECT");
 
 	let selected = await dropdown!.$('option[selected="selected"]');
-	let value = await page.evaluate((option: HTMLOptionElement) => {
+	let value = await _PAGE.evaluate((option: HTMLOptionElement) => {
 		return option.getAttribute("value");
 	}, selected!);
 
-	let optionToSelect = await dropdown!.$(`option[value="${subject}"]`);
+	let optionToSelect = await dropdown!.$(`option[value="${_SUBJECT}"]`);
 
-	await page.evaluate((option: HTMLOptionElement) => {
+	await _PAGE.evaluate((option: HTMLOptionElement) => {
 		option.setAttribute("selected", "selected");
 	}, optionToSelect!);
 
-	let subject_selected: boolean = await page.evaluate((option: HTMLOptionElement) => {
+	let subject_selected: boolean = await _PAGE.evaluate((option: HTMLOptionElement) => {
 		return option.hasAttribute("selected");
 	}, optionToSelect!);
 
 	while (!subject_selected) {
-		console.error(`${subject} was not selected, instead ${value} was`);
-		await page.evaluate((option: HTMLOptionElement) => {
+		console.error(`${_SUBJECT} was not selected, instead ${value} was`);
+		await _PAGE.evaluate((option: HTMLOptionElement) => {
 			option.removeAttribute("selected");
 		}, selected!);
 
-		optionToSelect = await dropdown!.$(`option[value="${subject}"]`);
-		await page.evaluate((option: HTMLOptionElement) => {
+		optionToSelect = await dropdown!.$(`option[value="${_SUBJECT}"]`);
+		await _PAGE.evaluate((option: HTMLOptionElement) => {
 			option.setAttribute("selected", "selected");
 		}, optionToSelect!);
 
-		subject_selected = await page.evaluate((option: HTMLOptionElement) => {
+		subject_selected = await _PAGE.evaluate((option: HTMLOptionElement) => {
 			return option.hasAttribute("selected");
 		}, optionToSelect!);
 	}
@@ -362,7 +351,7 @@ async function collect_sch_for_subject_portal(
 	}*/
 }
 
-async function for_subject(_SUBJECT: string): Promise<String> {
+async function for_subject(_SUBJECT: string, _SEMESTER_KEY: string): Promise<String> {
 	return new Promise<String>(async (resolve) => {
 		const browser = await puppeteer.launch({ headless: "new", args: ["--use-gl=egl"] });
 		const page = await browser.newPage();
@@ -377,7 +366,7 @@ async function for_subject(_SUBJECT: string): Promise<String> {
 			{ timeout: 60000 }
 		);
 
-		await select_semester(page, semester_key);
+		await select_semester(page, _SEMESTER_KEY);
 		await select_subject(page, _SUBJECT);
 		await unselect_section_expansion(page);
 		const search_result: number | boolean = await start_search(page);

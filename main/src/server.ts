@@ -41,9 +41,9 @@ const pool = new Pool({
 	user: "kyeou",
 	password: "q1w2e3r4!@#$",
 	host: "127.0.0.1",
-	port: 5432, // Default PostgreSQL port
+	port: 5432, 
 	database: "csun",
-	max: 5 // connectionLimit equivalent for pg
+	max: 5 
 });
 
 const get_conn = async (): Promise<PoolClient> => {
