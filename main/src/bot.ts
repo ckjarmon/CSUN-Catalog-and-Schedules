@@ -32,7 +32,8 @@ const client = new Client({
 });
 
 client.on("ready", () => {
-	console.log(`Logged in as ${client.user?.tag}!`);
+	// console.log(`Logged in as ${client.user?.tag}!`);
+	console.log(`CSUN_CAT_AND_SCH started`)
 });
 
 const getCurrentDateAndTime = (): string => {
