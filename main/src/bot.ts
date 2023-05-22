@@ -95,8 +95,8 @@ async function show_prof(subject: string, id: string, interaction: any): Promise
 
 				ret1 += "\n\tFALL 2023\n\t-----------\n";
 
-				ret1 += "\n\tSection\tSubject\t Class\t\t Location\t\t\tDays\t\t  Seats\t\t\t  Time";
-				ret1 += "\n\t-------\t-------\t-------\t\t--------\t\t\t----\t\t  -----\t\t\t  ----\n";
+				ret1 += "\n\tSection\tSubject\t Class\t\t\t Location\t\t\tDays\t\t  Seats\t\t\t  Time";
+				ret1 += "\n\t-------\t-------\t-------\t\t\t--------\t\t\t----\t\t  -----\t\t\t  ----\n";
 
 				body.sch.forEach(
 					(course: {
@@ -240,9 +240,9 @@ async function show_class(
 			const courses = scheduleResponse.data;
 
 			ret2 +=
-				"\n\tSection\t\tLocation\t\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty";
+				"\n\tSection\t\t\tLocation\t\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty";
 			ret2 +=
-				"\n\t-------\t\t--------\t\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n";
+				"\n\t-------\t\t\t--------\t\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n";
 
 			courses.forEach(
 				(course: {
