@@ -25,7 +25,7 @@ export async function updateDB(
 	// console.log(tup)
 	try {
 		const client = new Client({
-			user: "user",
+			user: "kyeou",
 			host: "localhost",
 			database: "csun",
 			password: "q1w2e3r4!@#$",
