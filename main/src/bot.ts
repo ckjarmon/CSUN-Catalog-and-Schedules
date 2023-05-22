@@ -457,7 +457,7 @@ client.on("messageCreate", async (message: Message) => {
 				// console.log(emojiId)
 				if (emoji !== undefined) {
 					const ec: { [key: string]: number } = JSON.parse(
-						fs.readFileSync("~/CSUN-Catalog-And-Schedules/emoji_count.json", "utf8")
+						fs.readFileSync("/home/kyeou/CSUN-Catalog-And-Schedules/emoji_count.json", "utf8")
 					);
 
 					ec[match] = ec[match] ? ec[match] + 1 : 1;
@@ -469,7 +469,7 @@ client.on("messageCreate", async (message: Message) => {
 					// console.log(sortedEC)
 
 					fs.writeFileSync(
-						"~/CSUN-Catalog-And-Schedules/emoji_count.json",
+						"/home/kyeou/CSUN-Catalog-And-Schedules/emoji_count.json",
 						JSON.stringify(sortedEC, null, 4)
 					);
 				}
