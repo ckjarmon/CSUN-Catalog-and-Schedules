@@ -38,7 +38,7 @@ const log = new Logger({
 const name_normalize = (str: string): string => `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;
 
 const pool = new Pool({
-	user: "user",
+	user: "kyeou",
 	password: "q1w2e3r4!@#$",
 	host: "127.0.0.1",
 	port: 5432, // Default PostgreSQL port
