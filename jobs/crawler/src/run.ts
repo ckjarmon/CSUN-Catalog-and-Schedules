@@ -20,16 +20,13 @@ let args = parser.parse_args();
 async function run(): Promise<void> {
 	let class_codes: string[] = await collect_subjects(args.semester_key);
 	process.setMaxListeners(Infinity);
-	const MAX_CONCURRENT: number = 10;
+	const MAX_CONCURRENT: number = 5;
 	let current_running: number = 0;
 
-	const executeForSubject = async (classCode: string): Promise<String> => {
-		try {
-			const res = await for_subject(classCode, args.semester_key);
-			return res;
-		} finally {
-			current_running--;
-		}
+	const executeForSubject = async (classCode: string): Promise<void> => {
+		await for_subject(classCode, args.semester_key).then(() => {
+				current_running--;
+			});
 	};
 
 	while (class_codes.length > 0 || current_running > 0) {
