@@ -10,7 +10,7 @@ CREATE TABLE "professor" (
     "mail_drop" varchar(15) DEFAULT NULL,
     "subject" varchar(6) DEFAULT NULL,
     "office" varchar(15) DEFAULT NULL,
-    PRIMARY KEY ("email", "first_name", "last_name")
+    PRIMARY KEY ("email", "first_name", "last_name", "subject")
 );
 
 
