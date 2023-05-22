@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # PostgreSQL connection details
-USER="your_username"
-PASSWORD="your_password"
+USER="kyeou"
+PASSWORD="q1w2e3r4!@#$"
 HOST="localhost"
 PORT="5432"
-DATABASE="your_database"
+DATABASE="csun"
 
 # Script files
 SCRIPTS=("catalog.sql" "professor.sql" "routines.sql" "section.sql")
