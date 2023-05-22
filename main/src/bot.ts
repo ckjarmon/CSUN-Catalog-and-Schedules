@@ -240,9 +240,9 @@ async function show_class(
 			const courses = scheduleResponse.data;
 
 			ret2 +=
-				"\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty";
+				"\n\tSection\t\tLocation\t\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty";
 			ret2 +=
-				"\n\t-------\t\t--------\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n";
+				"\n\t-------\t\t--------\t\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n";
 
 			courses.forEach(
 				(course: {

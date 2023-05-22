@@ -199,8 +199,9 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
                                 catalog_number, 
                                 subject 
                                 FROM section 
-                                WHERE instructor LIKE '%${p.last_name.split(",")[0]}%' 
-                                AND subject = '${subject.toLowerCase()}' 
+								WHERE instructor ILIKE '%${p.first_name.split(",")[0]}%' 
+								AND instructor ILIKE '%${p.last_name.split(",")[0]}%'
+                                AND subject = '${subject.toUpperCase()}' 
                                 AND semester = 'fall' AND year = '2023'`;
 		const query_result_2 = await rootCursor.query(section_query);
 		const section_rows = query_result_2.rows[0];
