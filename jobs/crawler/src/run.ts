@@ -49,7 +49,7 @@ async function run(): Promise<void> {
 }
 // run().catch((err) => console.error(err));
 
-if (require.main === module) {
+
 	if (args.i) {
 		run();
 		process.exit(1);
@@ -57,4 +57,3 @@ if (require.main === module) {
 
 	schedule.scheduleJob("0 0 * * 0", run);
 	setInterval(schedule.scheduleJob.bind(schedule), 60000);
-}
