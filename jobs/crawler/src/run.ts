@@ -15,7 +15,7 @@ parser.add_argument("-i", {
 	action: "store_true"
 });
 
-let args = parser.parse_args()
+let args = parser.parse_args();
 
 async function run(): Promise<void> {
 	let class_codes: string[] = await collect_subjects(args.semester_key);
@@ -47,13 +47,15 @@ async function run(): Promise<void> {
 	// );
 	// console.log(sortedCourseOfferCount);
 }
-// run().catch((err) => console.error(err));
 
 
-	if (args.i) {
-		run();
-		process.exit(1);
-	}
+if (args.i) {
+	run()
+		.then(() => {
+			process.exit(1);
+		})
+		.catch((err) => console.error(err));
+}
 
-	schedule.scheduleJob("0 0 * * 0", run);
-	setInterval(schedule.scheduleJob.bind(schedule), 60000);
+schedule.scheduleJob("0 0 * * 0", run);
+setInterval(schedule.scheduleJob.bind(schedule), 60000);
