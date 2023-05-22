@@ -240,7 +240,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 		const query = `SELECT first_name, last_name FROM professor WHERE subject = '${subject}'`;
 		const rows = await rootCursor.query(query);
 
-		const profs = rows.rows[0]
+		const profs = rows.rows
 			.map(
 				(row: { first_name: string; last_name: string }) =>
 					`${name_normalize(row.first_name)} ${name_normalize(row.last_name)}`
