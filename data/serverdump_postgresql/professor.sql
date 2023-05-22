@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS "professor";
+
 CREATE TABLE "professor" (
     "email" varchar(50) DEFAULT NULL,
     "first_name" varchar(50) NOT NULL,
