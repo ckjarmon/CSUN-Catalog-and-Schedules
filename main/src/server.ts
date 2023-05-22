@@ -204,7 +204,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
                                 AND subject = '${subject.toUpperCase()}' 
                                 AND semester = 'fall' AND year = '2023'`;
 		const query_result_2 = await rootCursor.query(section_query);
-		const section_rows = query_result_2.rows[0];
+		const section_rows = query_result_2.rows;
 		const sch = section_rows.map(
 			(c: {
 				class_number: number;
