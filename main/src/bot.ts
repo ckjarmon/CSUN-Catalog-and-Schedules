@@ -575,7 +575,7 @@ client.on("interactionCreate", async (interaction) => {
 			{
 				const ret: string[] = ["```Emote Rankings```"];
 				const ec: { [key: string]: number } = JSON.parse(
-					fs.readFileSync("./emoji_count.json", "utf8")
+					fs.readFileSync("/home/kyeou/CSUN-Catalog-And-Schedules/emoji_count.json", "utf8")
 				);
 				const topEmotes: [string, number][] = Object.entries(ec).slice(0, 15);
 
