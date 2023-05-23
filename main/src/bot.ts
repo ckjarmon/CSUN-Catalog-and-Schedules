@@ -1,6 +1,5 @@
-// import * as path from "path";
+
 import axios from "axios";
-// import { token } from "./config.json";
 import { ArgumentParser } from "argparse";
 import { Client, GatewayIntentBits, Message, GuildEmoji } from "discord.js";
 import fs from "fs";
@@ -15,12 +14,9 @@ parser.add_argument("--config", {
 
 const args = parser.parse_args();
 
-/*
-if (args.project_location) {
-	process.chdir(path.resolve(args.project_location));
-} */
 
-const { token } = require(args.config);
+
+const { token } = require(args.config || './config.json');
 
 const client = new Client({
 	intents: [
@@ -32,8 +28,7 @@ const client = new Client({
 });
 
 client.on("ready", () => {
-	// console.log(`Logged in as ${client.user?.tag}!`);
-	console.log(`CSUN_CAT_AND_SCH started`)
+	console.log(`Logged in as ${client.user!.tag}!`);
 });
 
 const getCurrentDateAndTime = (): string => {
@@ -98,7 +93,7 @@ async function show_prof(subject: string, id: string, interaction: any): Promise
 				ret1 += "\n\tSection\tSubject\t Class\t\t\t Location\t\t\tDays\t\t  Seats\t\t\t  Time";
 				ret1 += "\n\t-------\t-------\t-------\t\t\t--------\t\t\t----\t\t  -----\t\t\t  ----\n";
 
-				body.sch.forEach(
+				body.schedule.forEach(
 					(course: {
 						class_number: number;
 						subject: string;
