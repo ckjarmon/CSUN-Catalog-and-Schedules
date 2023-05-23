@@ -1,4 +1,4 @@
-export const convertTime = (time: string): { start_time: string; end_time: string } => {
+export const convert_time = (time: string): { start_time: string; end_time: string } => {
 	if (time === "TBA" || !time.includes("-")) {
 		return { start_time: "0000h", end_time: "0000h" };
 	}
@@ -31,7 +31,7 @@ export const convertTime = (time: string): { start_time: string; end_time: strin
 	};
 };
 
-export const convertDays = (daysStr: string): string => {
+export const convert_days = (daysStr: string): string => {
 	if (daysStr === "TBA") {
 		return daysStr;
 	}
@@ -51,11 +51,11 @@ export const convertDays = (daysStr: string): string => {
 	return daysStr;
 };
 
-export const isNumeric = (str: string): boolean => {
+export const is_numeric = (str: string): boolean => {
 	return /^[0-9]+$/.test(str);
 };
 
-export const getLettersOnly = (str: string) => str.replace(/[^A-Z]/g, "");
+export const get_letters_only = (str: string) => str.replace(/[^A-Z]/g, "");
 
 /*
 // Test convertTime function

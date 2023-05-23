@@ -4,10 +4,10 @@ import { setTimeout } from "timers/promises";
 import puppeteer, { Page, TimeoutError } from "puppeteer";
 
 import { CatalogNumberSchedule, SubjectSchedule } from "./interfaces";
-import { convertTime, convertDays } from "./utilities";
+import { convert_time, convert_days } from "./utilities";
 import { ProgressBar } from "./progress";
-import { sortToControl } from "./order";
-import { updateDB } from "./database";
+import { sort_to_control } from "./order";
+import { update_db } from "./database";
 
 
 
@@ -55,7 +55,7 @@ async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 	}
 	// console.log(class_codes);
 	browser.close();
-	return sortToControl(class_codes).reverse();
+	return sort_to_control(class_codes).reverse();
 }
 
 async function select_semester(_PAGE: Page, _SEMESTER_KEY: string): Promise<void> {
@@ -274,13 +274,13 @@ async function collect_sch_for_class(
 					waitlist_cap: Number(waitlist_cap),
 					waitlist_count: Number(waitlist_count),
 					location: location,
-					days: convertDays(days),
+					days: convert_days(days),
 					instructor: instructor
 				},
-				...convertTime(time)
+				...convert_time(time)
 			};
 
-			await updateDB(
+			await update_db(
 				{
 					...class_schedule[curr_catalog_number][class_number],
 					...{ catalog_number: curr_catalog_number }

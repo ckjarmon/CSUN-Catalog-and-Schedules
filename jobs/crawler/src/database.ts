@@ -1,7 +1,7 @@
 import { Client } from "pg";
 import { DatabaseScheduleBody } from "./interfaces";
 
-export async function updateDB(
+export async function update_db(
 	course: DatabaseScheduleBody,
 	term: { semester: string; year: number },
 	class_code: string

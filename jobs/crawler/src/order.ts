@@ -108,7 +108,7 @@ const control_order: string[] = [
 	"SCI"
 ];
 
-export function sortToControl(unsortedArray: string[]): string[] {
+export function sort_to_control(unsortedArray: string[]): string[] {
 	const controlMap: { [key: string]: number } = {};
 
 	// Count occurrences of each element in the control array
