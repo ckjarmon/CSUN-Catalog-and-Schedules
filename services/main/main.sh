@@ -8,9 +8,7 @@ if [ "$1" == "stop" ]; then
     exit 0
 fi
 
-cd /home/kyeou/CSUN-Catalog-And-Schedules/main
-mkdir obj
-sudo pnpm install && tsc
+
 while :; do node /home/kyeou/CSUN-Catalog-And-Schedules/main/obj/src/bot.js --config /home/kyeou/CSUN-Catalog-And-Schedules/main/src/config.json; done &
 node /home/kyeou/CSUN-Catalog-And-Schedules/run/main/src/server.js &
 
