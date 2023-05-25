@@ -1,4 +1,5 @@
 git pull
+sudo chown -R kyeou:kyeou .
 sudo rm -rf node_modules
 pnpm install
 sudo cp -f services/main/csun_catalog_and_schedules.service /etc/systemd/system &
