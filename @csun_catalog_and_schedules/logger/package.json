@@ -1,6 +1,6 @@
 {
   "name": "@csun_catalog_and_schedules/logger",
-  "type": "module",
+  "type": "commonjs",
   "main": "/obj/logger.js",
   "version": "1.0.0",
   "description": "",
