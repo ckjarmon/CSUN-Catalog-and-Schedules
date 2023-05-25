@@ -1,6 +1,5 @@
 {
   "name": "main",
-  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@csun_catalog_and_schedules/logger": "workspace:^1.0.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "tslib": "^2.5.2"
   }
 }
