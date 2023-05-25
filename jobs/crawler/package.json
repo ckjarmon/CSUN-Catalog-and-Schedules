@@ -1,5 +1,6 @@
 {
   "name": "csun-catalog-and-schedules_crawler",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
