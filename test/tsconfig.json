@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"rootDir": ".",
+		"outDir": "./obj",
+		"sourceMap": true,
+		"composite": true,
+		"allowJs": false
+	},
+	"include": ["./stress.ts"]
+}

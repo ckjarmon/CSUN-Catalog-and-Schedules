@@ -1,0 +1,31 @@
+{
+  "name": "@csun_catalog_and_schedules/logger",
+  "type": "module",
+  "main": "/obj/logger.js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prepare": "tsc -b",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./logger.d.ts"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "bundler": "./logger.ts",
+      "default": "./obj/logger.js"
+    }
+  },
+  "types": "./obj/logger.d.ts",
+  "dependencies": {
+    "winston": "^3.8.2"
+  }
+}

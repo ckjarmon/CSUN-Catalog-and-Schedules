@@ -2,8 +2,8 @@ import { clearLine, cursorTo } from "node:readline";
 
 export class ProgressBar {
 	constructor(private total: number, private line: number, private name: string) {
-        this.update(0)
-    }
+		this.update(0);
+	}
 
 	async update(current: number): Promise<void> {
 		const percentage = (current / this.total) * 100;
@@ -22,3 +22,6 @@ export class ProgressBar {
 	}
 }
 
+export function move_cursor(line: number) {
+	cursorTo(process.stdout, 0, line);
+}

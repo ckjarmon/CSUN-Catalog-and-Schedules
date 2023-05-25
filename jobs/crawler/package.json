@@ -1,5 +1,5 @@
 {
-  "name": "csun-catalog-and-schedules",
+  "name": "csun-catalog-and-schedules_crawler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,30 +10,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@csun_catalog_and_schedules/logger": "workspace:*",
-    "@csun_catalog_and_schedules/progress_bar": "workspace:*",
-    "@discordjs/rest": "^1.0.1",
+    "@csun_catalog_and_schedules/logger": "workspace:^1.0.0",
+    "@csun_catalog_and_schedules/progress_bar": "workspace:^1.0.0",
     "argparse": "^2.0.1",
     "axios": "^1.4.0",
-    "discord-api-types": "^0.37.3",
-    "discord.js": "^14.9.0",
-    "express": "^4.18.2",
-    "node-fetch": "^2.6.1",
     "node-schedule": "^2.1.1",
-    "pg": "^8.11.0",
-    "supertest": "^6.3.3",
-    "winston": "^3.8.2"
+    "pg": "^8.11.0"
   },
   "engines": {
     "node": ">14"
   },
   "devDependencies": {
     "@types/argparse": "^2.0.10",
-    "@types/express": "^4.17.17",
     "@types/node": "^18.16.3",
     "@types/node-schedule": "^2.1.0",
     "@types/pg": "^8.6.6",
-    "jest": "^29.5.0",
     "prettier": "^2.8.8",
     "puppeteer": "^20.2.1",
     "ts-node": "^10.9.1",
