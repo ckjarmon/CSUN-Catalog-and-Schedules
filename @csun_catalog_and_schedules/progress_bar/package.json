@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "obj/progress_bar.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "prepare": "tsc -b"
   },

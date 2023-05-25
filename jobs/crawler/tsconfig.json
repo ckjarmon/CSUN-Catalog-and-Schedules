@@ -1,8 +1,8 @@
 {
 
 	"compilerOptions": {
-		"target": "ESNext",
-		"module": "ESNext",
+		"target": "ES2022",
+		"module": "CommonJS",
 		"lib": ["dom"],
 		"rootDir": ".",
 		"outDir": "./obj",
@@ -10,7 +10,16 @@
 		"composite": true,
 		"allowJs": false,
 		"moduleResolution": "node",
-		"allowSyntheticDefaultImports": true
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"importHelpers": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"forceConsistentCasingInFileNames": true,
+		"removeComments": false,
+		"typeRoots": ["node_modules/@types"],
 	},
 	"include": ["./src/**/*.ts"]
 }

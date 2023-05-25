@@ -1,9 +1,9 @@
 {
   "name": "csun-catalog-and-schedules_crawler",
-  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,8 @@
     "argparse": "^2.0.1",
     "axios": "^1.4.0",
     "node-schedule": "^2.1.1",
-    "pg": "^8.11.0"
+    "pg": "^8.11.0",
+    "tslib": "^2.5.2"
   },
   "engines": {
     "node": ">14"
