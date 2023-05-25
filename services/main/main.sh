@@ -8,8 +8,10 @@ if [ "$1" == "stop" ]; then
     exit 0
 fi
 
-
-while :; do tsc -p /home/kyeou/CSUN-Catalog-And-Schedules/ && node /home/kyeou/CSUN-Catalog-And-Schedules/run/main/src/bot.js --config /home/kyeou/CSUN-Catalog-And-Schedules/main/src/config.json; done &
-tsc -p /home/kyeou/CSUN-Catalog-And-Schedules && node /home/kyeou/CSUN-Catalog-And-Schedules/run/main/src/server.js &
+cd /home/kyeou/CSUN-Catalog-And-Schedules/main
+mkdir obj
+pnpm install && tsc
+while :; do node /home/kyeou/CSUN-Catalog-And-Schedules/main/obj/src/bot.js --config /home/kyeou/CSUN-Catalog-And-Schedules/main/src/config.json; done &
+node /home/kyeou/CSUN-Catalog-And-Schedules/run/main/src/server.js &
 
 
