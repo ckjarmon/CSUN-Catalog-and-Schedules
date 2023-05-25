@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=forking
-ExecStart=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/jobs/crawler/crawler.sh
+ExecStart=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/services/crawler/crawler.sh
 ExecStop=pkill -f "start_crawler"
 User=kyeou
 
