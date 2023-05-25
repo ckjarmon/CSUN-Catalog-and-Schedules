@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
 import { Pool, PoolClient } from "pg";
 // import argparse from "argparse";
-import logger from "./logger";
+import logger from "@csun_catalog_and_schedules/logger";
 const app = express();
 
 /*

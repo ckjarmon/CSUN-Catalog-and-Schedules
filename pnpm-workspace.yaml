@@ -1,0 +1,4 @@
+packages:
+- packages/*
+- ./@csun_catalog_and_schedules/*
+# Other configuration options can be specified here

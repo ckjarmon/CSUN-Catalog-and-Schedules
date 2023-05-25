@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"rootDir": ".",
+		"outDir": "./obj",
+		"sourceMap": true,
+		"composite": true,
+		"allowJs": false,
+		"moduleResolution": "node"
+	},
+	"include": ["progress_bar.ts"]
+}

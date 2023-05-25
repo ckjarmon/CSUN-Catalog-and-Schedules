@@ -1,0 +1,16 @@
+{
+
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"lib": ["dom"],
+		"rootDir": ".",
+		"outDir": "./obj",
+		"sourceMap": true,
+		"composite": true,
+		"allowJs": false,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["./src/**/*.ts"]
+}
