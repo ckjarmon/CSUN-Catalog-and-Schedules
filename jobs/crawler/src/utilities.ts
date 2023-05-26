@@ -59,17 +59,17 @@ export const get_letters_only = (str: string) => str.replace(/[^A-Z]/g, "");
 
 
 /*
-// Test convertTime function
-console.log(convertTime('02:00pm - 03:15pm'));
+// Test convert_time function
+console.log(convert_time('02:00pm - 03:15pm'));
 // Expected output: { start_time: '1400h', end_time: '1515h' }
 
-console.log(convertTime('09:30am - 11:45am'));
+console.log(convert_time('09:30am - 11:45am'));
 // Expected output: { start_time: '0930h', end_time: '1145h' }
 
-console.log(convertTime('TBA'));
+console.log(convert_time('TBA'));
 // Expected output: { start_time: '0000h', end_time: '0000h' }
 
-console.log(convertTime('02:00am - 03:15pm'));
+console.log(convert_time('02:00am - 03:15pm'));
 // Expected output: { start_time: '0200h', end_time: '1515h' }
 
 // Test convertDays function
