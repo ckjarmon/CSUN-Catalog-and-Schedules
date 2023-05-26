@@ -18,13 +18,13 @@ parser.add_argument("-i", {
 let args = parser.parse_args();
 
 async function run(): Promise<void> {
-	let class_codes: string[] = await collect_subjects(args.semester_key);
+	let class_codes: string[] = await collect_subjects(args.semester_key || "2237");
 	process.setMaxListeners(Infinity);
 	const MAX_CONCURRENT: number = 5;
 	let current_running: number = 0;
 
 	const executeForSubject = async (classCode: string): Promise<void> => {
-		await for_subject(classCode, args.semester_key).then(() => {
+		await for_subject(classCode, args.semester_key || "2237").then(() => {
 				current_running--;
 			});
 	};
