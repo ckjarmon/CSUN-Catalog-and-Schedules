@@ -32,7 +32,7 @@ export async function update_db(
 			port: 5432
 		});
 		await client.connect();
-		await client.query(
+		const result = await client.query(
 			`INSERT INTO section (class_number, enrollment_cap, enrollment_count, waitlist_cap, waitlist_count, instructor, days, location, start_time, end_time, semester, year, subject, catalog_number)
       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
       ON CONFLICT (class_number, semester, year, subject, catalog_number)
@@ -45,6 +45,7 @@ export async function update_db(
                     end_time = excluded.end_time`,
 			tup
 		);
+		// console.log(result)
 		await client.end();
 	} catch (error) {
 		console.error("Error:", error);

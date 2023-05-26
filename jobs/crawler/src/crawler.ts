@@ -16,7 +16,6 @@ let course_offer_count: { [subject: string]: number } = {};
 // const semester_key: string = args.semester_key;
 let _TERM: { semester: string; year: number };
 
-
 async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 	{
 		/*Get subjects that have course offerings*/
@@ -35,7 +34,7 @@ async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 	);
 
 	const chosen_semester: string = await select_semester(page, _SEMESTER_KEY);
-	console.log(`Semester: ${chosen_semester}`)
+	console.log(`Semester: ${chosen_semester}`);
 
 	await page.waitForSelector(`select[id="NR_SSS_SOC_NWRK_SUBJECT"]`, {
 		timeout: 4000
@@ -95,7 +94,7 @@ async function select_semester(_PAGE: Page, _SEMESTER_KEY: string): Promise<stri
 		process.exit(-1);
 	}
 	// await setTimeout(3000);
-	return chosen_semester
+	return chosen_semester;
 }
 
 async function select_subject(_PAGE: Page, _SUBJECT: string): Promise<void> {
@@ -274,23 +273,20 @@ async function collect_sch_for_class(
 
 			await _PAGE.click('input[id="NR_SSS_SOC_NWRK_RETURN_PB"]');
 
-			class_schedule[curr_catalog_number][class_number] = {
-				...{
-					class_number: class_number,
-					enrollment_cap: Number(enrollment_cap),
-					enrollment_count: Number(enrollment_count),
-					waitlist_cap: Number(waitlist_cap),
-					waitlist_count: Number(waitlist_count),
-					location: location,
-					days: convert_days(days),
-					instructor: instructor
-				},
-				...convert_time(time)
-			};
-
+			// class_schedule[curr_catalog_number][class_number] =
 			await update_db(
 				{
-					...class_schedule[curr_catalog_number][class_number],
+					...{
+						class_number: class_number,
+						enrollment_cap: Number(enrollment_cap),
+						enrollment_count: Number(enrollment_count),
+						waitlist_cap: Number(waitlist_cap),
+						waitlist_count: Number(waitlist_count),
+						location: location,
+						days: convert_days(days),
+						instructor: instructor
+					},
+					...convert_time(time),
 					...{ catalog_number: curr_catalog_number }
 				},
 				_TERM,
@@ -317,16 +313,16 @@ async function collect_sch_for_class(
 	return class_schedule;
 }
 
-let started: number = 1;
+let started: number = 0;
 async function collect_sch_for_subject_portal(
 	_PAGE: Page,
 	_SUBJECT: string,
 	_TOTAL_CLASSES: number
 ): Promise<void> {
-	let subject_schedule: SubjectSchedule = {};
+	// let subject_schedule: SubjectSchedule = {};
 	let SOC_INDEX: number = 0;
 	// Example usage
-	
+
 	const bar: ProgressBar = new ProgressBar(_TOTAL_CLASSES, started++, _SUBJECT);
 
 	while (true) {
@@ -334,15 +330,13 @@ async function collect_sch_for_subject_portal(
 			await _PAGE.waitForSelector(`img[id="SOC_DETAIL$IMG$${SOC_INDEX}"]`, {
 				timeout: 500
 			});
-			const sch_for_catalog_num: CatalogNumberSchedule = await collect_sch_for_class(
-				_PAGE,
-				_SUBJECT,
-				SOC_INDEX
-			);
-			subject_schedule[_SUBJECT] = {
-				...subject_schedule[_SUBJECT],
-				...sch_for_catalog_num
-			};
+			// const sch_for_catalog_num: CatalogNumberSchedule =
+			await collect_sch_for_class(_PAGE, _SUBJECT, SOC_INDEX);
+
+			// subject_schedule[_SUBJECT] = {
+			// 	...subject_schedule[_SUBJECT],
+			// 	...sch_for_catalog_num
+			// };
 
 			await bar.update(SOC_INDEX++);
 		} catch (err) {
