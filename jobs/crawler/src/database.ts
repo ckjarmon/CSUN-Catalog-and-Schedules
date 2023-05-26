@@ -2,25 +2,25 @@ import { Client } from "pg";
 import { DatabaseScheduleBody } from "./interfaces";
 
 export async function update_db(
-	course: DatabaseScheduleBody,
-	term: { semester: string; year: number },
-	class_code: string
+	_COURSE: DatabaseScheduleBody,
+	_TERM: { semester: string; year: number },
+	_SUBJECT: string
 ): Promise<void> {
 	const tup = [
-		course["class_number"],
-		course["enrollment_cap"],
-		course["enrollment_count"],
-		course["waitlist_cap"],
-		course["waitlist_count"],
-		course["instructor"],
-		course["days"],
-		course["location"],
-		course["start_time"],
-		course["end_time"],
-		term.semester.toLowerCase(),
-		term.year,
-		class_code,
-		course["catalog_number"]
+		_COURSE["class_number"],
+		_COURSE["enrollment_cap"],
+		_COURSE["enrollment_count"],
+		_COURSE["waitlist_cap"],
+		_COURSE["waitlist_count"],
+		_COURSE["instructor"],
+		_COURSE["days"],
+		_COURSE["location"],
+		_COURSE["start_time"],
+		_COURSE["end_time"],
+		_TERM.semester.toLowerCase(),
+		_TERM.year,
+		_SUBJECT,
+		_COURSE["catalog_number"]
 	];
 	// console.log(tup)
 	try {
