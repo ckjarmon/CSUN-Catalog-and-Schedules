@@ -1,32 +1,23 @@
-FROM debian:bullseye-slim
-
-RUN apt-get update \
-    && apt-get install -y python3 python3-pip \
-    && apt-get install -y curl \
-    && curl -sL https://deb.nodesource.com/setup_19.x | bash - \
-    && apt update && apt upgrade && apt install nodejs \
-    && apt-get install gcc g++ make \
-    && npm install -g typescript \
-    && apt dist-upgrade 
-
+FROM node:20-slim as builder
 
 
 # Set the working directory
 WORKDIR /app
 
+RUN curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm
 
 COPY package.json .
-COPY tsconfig.json .
-COPY ./run/ /app/run/
+COPY . .
 
-RUN npm install
-RUN tsc
+RUN npm install -g pnpm
+WORKDIR /app/main/
+RUN pnpm install
 
+WORKDIR /app
 
-RUN apt-get update && apt-get upgrade -y
-COPY requirements.txt .
-RUN pip3 install -r requirements.txt
+COPY entry.sh /
+RUN chmod +x /entry.sh
+ENTRYPOINT ["/entry.sh"]
 
-EXPOSE 2222
 
 

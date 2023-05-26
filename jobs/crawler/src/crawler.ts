@@ -1,7 +1,7 @@
 import process from "process";
 
 import { setTimeout } from "timers/promises";
-import puppeteer, { Page, TimeoutError } from "puppeteer";
+import puppeteer, { ElementHandle, Page, TimeoutError } from "puppeteer";
 
 import { CatalogNumberSchedule, SubjectSchedule } from "./interfaces";
 import { convert_time, convert_days } from "./utilities";
@@ -15,7 +15,7 @@ let course_offer_count: { [subject: string]: number } = {};
 
 // const semester_key: string = args.semester_key;
 let _TERM: { semester: string; year: number };
-let started: number = 0;
+
 
 async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 	{
@@ -34,7 +34,8 @@ async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 		{ timeout: 60000 }
 	);
 
-	await select_semester(page, _SEMESTER_KEY);
+	const chosen_semester: string = await select_semester(page, _SEMESTER_KEY);
+	console.log(`Semester: ${chosen_semester}`)
 
 	await page.waitForSelector(`select[id="NR_SSS_SOC_NWRK_SUBJECT"]`, {
 		timeout: 4000
@@ -55,9 +56,18 @@ async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 	return sort_to_control(class_codes).reverse();
 }
 
-async function select_semester(_PAGE: Page, _SEMESTER_KEY: string): Promise<void> {
+async function select_semester(_PAGE: Page, _SEMESTER_KEY: string): Promise<string> {
 	const dropdown = await _PAGE.$("#NR_SSS_SOC_NWRK_STRM");
 	const selected = await dropdown!.$('option[selected="selected"]');
+	let chosen_semester: string;
+
+	if (!_SEMESTER_KEY) {
+		chosen_semester = await _PAGE.evaluate((option: HTMLOptionElement) => {
+			return option.textContent!;
+		}, selected!);
+		return chosen_semester!;
+	}
+
 	await _PAGE.evaluate((option: HTMLOptionElement) => {
 		option.removeAttribute("selected");
 	}, selected!);
@@ -73,11 +83,11 @@ async function select_semester(_PAGE: Page, _SEMESTER_KEY: string): Promise<void
 		/* 2243 - Spring Semester 2024*/
 		return option.hasAttribute("selected");
 	});
-	const term_innertext: string = await _PAGE.$eval(
+	chosen_semester = await _PAGE.$eval(
 		`option[value="${_SEMESTER_KEY}"]`,
 		(element) => element.textContent!
 	);
-	let term: string[] = term_innertext.split(" ");
+	let term: string[] = chosen_semester.split(" ");
 	_TERM = { semester: term[2], year: Number(term[4]) };
 	// console.log(_TERM);
 	if (!term_selected) {
@@ -85,6 +95,7 @@ async function select_semester(_PAGE: Page, _SEMESTER_KEY: string): Promise<void
 		process.exit(-1);
 	}
 	// await setTimeout(3000);
+	return chosen_semester
 }
 
 async function select_subject(_PAGE: Page, _SUBJECT: string): Promise<void> {
@@ -306,6 +317,7 @@ async function collect_sch_for_class(
 	return class_schedule;
 }
 
+let started: number = 1;
 async function collect_sch_for_subject_portal(
 	_PAGE: Page,
 	_SUBJECT: string,
@@ -314,7 +326,7 @@ async function collect_sch_for_subject_portal(
 	let subject_schedule: SubjectSchedule = {};
 	let SOC_INDEX: number = 0;
 	// Example usage
-
+	
 	const bar: ProgressBar = new ProgressBar(_TOTAL_CLASSES, started++, _SUBJECT);
 
 	while (true) {
