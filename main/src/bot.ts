@@ -1,9 +1,8 @@
-
 import axios from "axios";
 import { ArgumentParser } from "argparse";
 import { Client, GatewayIntentBits, Message, GuildEmoji } from "discord.js";
 import fs from "fs";
-import path from 'path';
+import path from "path";
 
 const parser = new ArgumentParser();
 
@@ -15,9 +14,7 @@ parser.add_argument("--config", {
 
 const args = parser.parse_args();
 
-
-
-const { token } = require(args.config ? path.resolve(args.config) : '../../config.json');
+const { token } = require(args.config ? path.resolve(args.config) : "../../config.json");
 
 const client = new Client({
 	intents: [
@@ -91,8 +88,8 @@ async function show_prof(subject: string, id: string, interaction: any): Promise
 
 				ret1 += "\n\tFALL 2023\n\t-----------\n";
 
-				ret1 += "\n\tSection\tSubject\t Class\t\t\t Location\t\t\tDays\t\t  Seats\t\t\t  Time";
-				ret1 += "\n\t-------\t-------\t-------\t\t\t--------\t\t\t----\t\t  -----\t\t\t  ----\n";
+				ret1 += "\n\tSection\tSubject\t Class\t\t\tDays\t\t  Seats\t\t\t  Time\t\t\t Location";
+				ret1 += "\n\t-------\t-------\t-------\t\t\t----\t\t  -----\t\t\t  ----\t\t\t--------\n";
 
 				body.schedule.forEach(
 					(course: {
@@ -236,9 +233,9 @@ async function show_class(
 			const courses = scheduleResponse.data;
 
 			ret2 +=
-				"\n\tSection\t\t\tLocation\t\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty";
+				"\n\tSection\t\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty\t\t\tLocation";
 			ret2 +=
-				"\n\t-------\t\t\t--------\t\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\n";
+				"\n\t-------\t\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\t\t\t--------\n";
 
 			courses.forEach(
 				(course: {
@@ -257,25 +254,17 @@ async function show_class(
 				}) => {
 					ret2 += `\t ${course.class_number}`;
 
-					if (course.location.length === 5) {
-						ret2 += `\t\t   ${course.location}`;
-					} else if (course.location.length > 5) {
-						ret2 += `\t\t  ${course.location}`;
-					} else {
-						ret2 += `\t\t     ${course.location}`;
-					}
-
 					if (course.days !== null) {
 						switch (course.days.length) {
 							case 1:
-								ret2 += `\t\t   ${course.days}`;
+								ret2 += `\t\t\t   ${course.days}`;
 								break;
 							case 2:
 							case 3:
-								ret2 += `\t\t  ${course.days}`;
+								ret2 += `\t\t\t  ${course.days}`;
 								break;
 							default:
-								ret2 += `\t\t ${course.days}`;
+								ret2 += `\t\t\t ${course.days}`;
 								break;
 						}
 					} else {
@@ -302,6 +291,14 @@ async function show_class(
 
 					ret2 +=
 						course.instructor !== "Staff" ? `\t\t\t${course.instructor}` : `\t\t\t\tStaff`;
+
+					if (course.location.length === 5) {
+						ret2 += `\t\t   ${course.location}`;
+					} else if (course.location.length > 5) {
+						ret2 += `\t\t  ${course.location}`;
+					} else {
+						ret2 += `\t\t     ${course.location}`;
+					}
 
 					ret2 += "\n";
 				}
@@ -362,8 +359,8 @@ async function show_class_before_sp_23(
 
 			const stuffs2 = classesResponse.data;
 
-			ret2 += "\n\tSection\t\tLocation\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty";
-			ret2 += "\n\t-------\t\t--------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\n";
+			ret2 += "\n\tSection\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\t\tLocation";
+			ret2 += "\n\t-------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\t\t--------\n";
 
 			stuffs2.classes.forEach(
 				(course: {
@@ -381,8 +378,6 @@ async function show_class_before_sp_23(
 				}) => {
 					if (course.catalog_number.toString() === code && course.meetings.length > 0) {
 						ret2 += `\t ${course.class_number}`;
-
-						ret2 += course.meetings[0].location.length === 3 ? "   " : "";
 
 						ret2 +=
 							course.meetings[0].location.length === 5
@@ -423,6 +418,8 @@ async function show_class_before_sp_23(
 								? `\t\t\t${course.instructors[0].instructor}`
 								: "\t\t\t\tStaff";
 						ret2 += "\n";
+
+						ret2 += course.meetings[0].location.length === 3 ? "   " : "";
 					}
 				}
 			);
@@ -453,7 +450,10 @@ client.on("messageCreate", async (message: Message) => {
 				// console.log(emojiId)
 				if (emoji !== undefined) {
 					const ec: { [key: string]: number } = JSON.parse(
-						fs.readFileSync("/home/kyeou/CSUN-Catalog-And-Schedules/emoji_count.json", "utf8")
+						fs.readFileSync(
+							"/home/kyeou/CSUN-Catalog-And-Schedules/emoji_count.json",
+							"utf8"
+						)
 					);
 
 					ec[match] = ec[match] ? ec[match] + 1 : 1;
