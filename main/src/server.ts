@@ -117,7 +117,7 @@ app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
                         WHERE subject = '${subject}'
                         AND catalog_number LIKE '${level}%';`;
 
-		const le_fetch = (await rootCursor.query(query)).rows[0];
+		const le_fetch = (await rootCursor.query(query)).rows;
 		// console.log(fetch)
 		const results = le_fetch.map(
 			(x: { subject: string; catalog_number: string; title: string }) =>
