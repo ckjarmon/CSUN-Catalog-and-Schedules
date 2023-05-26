@@ -3,8 +3,8 @@ export const convert_time = (time: string): { start_time: string; end_time: stri
 		return { start_time: "0000h", end_time: "0000h" };
 	}
 
-	const start_regex: RegExp = /^\d{2}:\d{2}(?:am|pm|AM|PM)(?= - )/;
-	const end_regex: RegExp = /(?<= - )\d{2}:\d{2}(?:am|pm|AM|PM)$/;
+	const start_regex: RegExp = /^\d{2}:\d{2}(?:am|pm|AM|PM)(?=[- ])/;
+	const end_regex: RegExp = /(?<=[- ])\d{2}:\d{2}(?:am|pm|AM|PM)$/;
 
 	let start: string = time.match(start_regex)![0];
 	let end: string = time.match(end_regex)![0];
@@ -57,6 +57,8 @@ export const is_numeric = (str: string): boolean => {
 
 export const get_letters_only = (str: string) => str.replace(/[^A-Z]/g, "");
 
+
+console.log(convert_time('09:00am-10:15am'));
 /*
 // Test convertTime function
 console.log(convertTime('02:00pm - 03:15pm'));

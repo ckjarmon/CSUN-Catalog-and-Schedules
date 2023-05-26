@@ -1,5 +1,5 @@
 // This is a auto-generated ordered list of the subject that have the most classes
-// for Sprign 2023.
+// for Spring 2023.
 // Can be used as a rough estimate of which semesters take the longest
 // Ordered from most to least
 const control_order: string[] = [
