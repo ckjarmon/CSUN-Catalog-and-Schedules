@@ -58,7 +58,6 @@ export const is_numeric = (str: string): boolean => {
 export const get_letters_only = (str: string) => str.replace(/[^A-Z]/g, "");
 
 
-console.log(convert_time('09:00am-10:15am'));
 /*
 // Test convertTime function
 console.log(convertTime('02:00pm - 03:15pm'));
