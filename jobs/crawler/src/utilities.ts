@@ -12,8 +12,8 @@ export const convert_time = (time: string): { start_time: string; end_time: stri
 
 	let startHour: number = parseInt(start.slice(0, 2));
 	let endHour: number = parseInt(end.slice(0, 2));
-	let startIsPM: boolean = start.slice(5, 7) === "pm" && Number(start.slice(0, 2)) > 12;
-	let endIsPM: boolean = end.slice(5, 7) === "pm" && Number(end.slice(0, 2)) > 12;
+	let startIsPM: boolean = start.slice(5, 7) === "pm" && Number(start.slice(0, 2)) < 12;
+	let endIsPM: boolean = end.slice(5, 7) === "pm" && Number(end.slice(0, 2)) < 12;
 
 	if (startIsPM) {
 		startHour += 12;
@@ -59,8 +59,8 @@ export const get_letters_only = (str: string) => str.replace(/[^A-Z]/g, "");
 
 /*
 // Test convert_time function
-console.log(convert_time('11:00am - 12:15pm'));
-// Expected output: { start_time: '1400h', end_time: '1515h' }
+console.log(convert_time('03:30pm-04:45pm'));
+// Expected output: { start_time: '1530h', end_time: '1645h' }
 
 console.log(convert_time('09:30am - 11:45am'));
 // Expected output: { start_time: '0930h', end_time: '1145h' }
