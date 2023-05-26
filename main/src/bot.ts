@@ -3,6 +3,7 @@ import axios from "axios";
 import { ArgumentParser } from "argparse";
 import { Client, GatewayIntentBits, Message, GuildEmoji } from "discord.js";
 import fs from "fs";
+import path from 'path';
 
 const parser = new ArgumentParser();
 
@@ -16,7 +17,7 @@ const args = parser.parse_args();
 
 
 
-const { token } = require(args.config || './config.json');
+const { token } = require(args.config ? path.resolve(args.config) : '../../config.json');
 
 const client = new Client({
 	intents: [
