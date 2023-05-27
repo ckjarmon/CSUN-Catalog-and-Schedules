@@ -11,13 +11,12 @@ COPY . .
 
 RUN npm install -g pnpm
 WORKDIR /app/main/
-RUN pnpm install
+RUN pnpm install --force
+RUN pnpm install tslib
 
-WORKDIR /app
+WORKDIR /
 
-COPY entry.sh /
-RUN chmod +x /entry.sh
+COPY entry.sh entry.sh
+RUN chmod +x entry.sh
+
 ENTRYPOINT ["/entry.sh"]
-
-
-
