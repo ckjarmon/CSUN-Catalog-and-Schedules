@@ -638,11 +638,12 @@ client.on("interactionCreate", async (interaction) => {
 			const member: any = interaction.guild?.members.cache.get(user.id);
 			if (member && member.id !== "534510030490304524") {
 				member.timeout(10000, "bleh");
-				await interaction.reply(`\`\`\`${user?.username} has been timed out!\`\`\``);
+				await interaction.editReply(`\`\`\`${user?.username} has been timed out!\`\`\``);
 			} else {
-				await interaction.reply("```Kyeou is immune.```");
+				await interaction.editReply("```Kyeou is immune.```");
 			}
 		}
 	}
 });
+
 client.login(token);
