@@ -95,8 +95,8 @@ async function show_prof(_OPTIONS: {
 
 				ret1 += "\n\tFALL 2023\n\t-----------\n";
 
-				ret1 += "\n\tSection\tSubject\t Class\t\t\tDays\t\t  Seats\t\t\t  Time\t\t\t Location";
-				ret1 += "\n\t-------\t-------\t-------\t\t\t----\t\t  -----\t\t\t  ----\t\t\t--------\n";
+				ret1 += "\n\tSection\tSubject\t Class\t\t Days\t\t  Seats\t\t\t  Time\t\t\t\tLocation";
+				ret1 += "\n\t-------\t-------\t-------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t--------\n";
 
 				body.schedule.forEach(
 					(course: {
@@ -120,16 +120,6 @@ async function show_prof(_OPTIONS: {
 							course.catalog_number.length === 4
 								? `\t   ${course.catalog_number}`
 								: `\t   ${course.catalog_number} `;
-
-						if (course.location.length === 3) {
-							ret1 += "   ";
-						} else {
-							ret1 +=
-								course.location.length === 5
-									? `\t\t   ${course.location}`
-									: `\t\t  ${course.location}`;
-						}
-
 						if (course.days !== "None") {
 							switch (course.days.length) {
 								case 1:
@@ -161,6 +151,15 @@ async function show_prof(_OPTIONS: {
 						)}`;
 						ret1 += " - ";
 						ret1 += `${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`;
+
+						if (course.location.length === 3) {
+							ret1 += "   ";
+						} else {
+							ret1 +=
+								course.location.length === 5
+									? `\t\t   ${course.location}`
+									: `\t\t  ${course.location}`;
+						}
 						ret1 += "\n";
 					}
 				);
@@ -352,7 +351,9 @@ async function show_class_before_sp_23(_OPTIONS: {
 		let ret1: string = "";
 
 		try {
-			const catalogResponse = await axios.get(`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`);
+			const catalogResponse = await axios.get(
+				`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`
+			);
 			console.log(`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`);
 
 			const course: {
@@ -617,7 +618,7 @@ client.on("interactionCreate", async (interaction) => {
 						);
 					}
 				}
-				
+
 				await interaction.editReply("Gimme a sec");
 				await Promise.all(classes);
 			}

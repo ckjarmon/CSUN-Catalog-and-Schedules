@@ -163,6 +163,8 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 	const subject = req.params.subject.toUpperCase();
 	try {
 		if (req.params.id) {
+
+
 			const query: string = `SELECT first_name, last_name FROM professor WHERE subject = '${subject}'`;
 			const rows: { first_name: string; last_name: string }[] = (await rootCursor.query(query))
 				.rows;
@@ -173,6 +175,9 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 				(a: string, b: string) =>
 					name_normalize(a.split(" ")[1]) < name_normalize(b.split(" ")[1]) ? -1 : 1
 			);
+
+
+
 			const id: number = Number(req.params.id) - 1;
 			const prof_query: string = `SELECT * FROM professor WHERE first_name = '${
 				sorted_profs_as_first_last[id].split(" ")[0]
@@ -190,11 +195,14 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 				subject: prof_rows.subject || "N/A",
 				office: prof_rows.office || "N/A"
 			};
+
+
 			const section_query: string = `SELECT * FROM section  WHERE instructor ILIKE '%${
 				p.first_name.split(",")[0]
 			}%' AND instructor ILIKE '%${
 				p.last_name.split(",")[0]
 			}%' AND subject = '${subject.toUpperCase()}'  AND semester = 'fall' AND year = '2023'`;
+
 			const section_rows: Schedule[] = (await rootCursor.query(section_query)).rows;
 			const schedule = section_rows.map((c: Schedule) => ({
 				class_number: c.class_number,
@@ -208,9 +216,17 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 				catalog_number: c.catalog_number,
 				subject: c.subject
 			}));
+
 			const result = {
 				info: p,
-				schedule
+				schedule: schedule.sort((a, b) => {
+					if (a.catalog_number < b.catalog_number) {
+					  return -1;
+					} else if (a.catalog_number > b.catalog_number) {
+					  return 1;
+					}
+					return 0;
+				  })
 			};
 			res.json(result);
 		} else {
