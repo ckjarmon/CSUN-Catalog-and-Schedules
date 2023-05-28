@@ -553,71 +553,24 @@ client.on("interactionCreate", async (interaction) => {
 
 				const classes: Promise<void>[] = [];
 
-				if (year >= 2023) {
-					classes.push(
-						show_class({
-							subject: subject,
-							catalog_number: first_catalog_number,
-							semester: semester,
-							year: year,
-							interaction: interaction
-						})
-					);
-					if (second_catalog_number) {
-						classes.push(
-							show_class({
-								subject: subject,
-								catalog_number: second_catalog_number,
-								semester: semester,
-								year: year,
-								interaction: interaction
-							})
-						);
-					}
-					if (third_catalog_number) {
-						classes.push(
-							show_class({
-								subject: subject,
-								catalog_number: third_catalog_number,
-								semester: semester,
-								year: year,
-								interaction: interaction
-							})
-						);
-					}
-				} else {
-					classes.push(
-						show_class_before_sp_23({
-							subject: subject,
-							catalog_number: first_catalog_number,
-							semester: semester,
-							year: year,
-							interaction: interaction
-						})
-					);
-					if (second_catalog_number) {
-						classes.push(
-							show_class_before_sp_23({
-								subject: subject,
-								catalog_number: second_catalog_number,
-								semester: semester,
-								year: year,
-								interaction: interaction
-							})
-						);
-					}
-					if (third_catalog_number) {
-						classes.push(
-							show_class_before_sp_23({
-								subject: subject,
-								catalog_number: first_catalog_number,
-								semester: semester,
-								year: year,
-								interaction: interaction
-							})
-						);
-					}
-				}
+				const push_classes = (year: number, catalog_numbers: (string | null)[]) => {
+					const func = year >= 2023 ? show_class : show_class_before_sp_23;
+					catalog_numbers
+						.filter((cat_num: string | null) => cat_num !== null)
+						.forEach((catalog_number: string | null) => {
+							classes.push(
+								func({
+									subject,
+									catalog_number: catalog_number!,
+									semester,
+									year,
+									interaction
+								})
+							);
+						});
+				};
+
+				push_classes(year, [first_catalog_number, second_catalog_number, third_catalog_number]);
 
 				await interaction.editReply("Gimme a sec");
 				await Promise.all(classes);
