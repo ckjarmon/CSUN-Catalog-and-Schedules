@@ -45,7 +45,6 @@ async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 	for (const option of options) {
 		const valueAttribute = await option.getProperty("value")!;
 		const value = await valueAttribute.jsonValue();
-		// && value !== "S ED" && value !== "QS"&& value !== "MKT"
 		if (typeof value === "string" && value !== "") {
 			class_codes.unshift(value);
 		}
