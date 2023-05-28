@@ -53,16 +53,23 @@ async function send_msg(msg: string, interaction: any): Promise<void> {
 	// if (msg.substring(1994) !== "") {
 	//     await (<TextChannel>client.channels.cache.get(channel)).send("```" + msg.substring(1994) + "```")
 	// };
-	await interaction.editReply("```" + msg.substring(0, 1994) + "```");
+
+	await interaction.followUp("```" + msg.substring(0, 1994) + "```");
 	if (msg.substring(1994) !== "") {
 		await interaction.followUp("```" + msg.substring(1994) + "```");
 	}
 }
 
-async function show_prof(subject: string, id: string, interaction: any): Promise<void> {
+async function show_prof(_OPTIONS: {
+	subject: string;
+	id: number | null;
+	interaction: any;
+}): Promise<void> {
+	const { subject, id, interaction } = _OPTIONS;
+
 	const baseUrl: string = "http://127.0.0.1:2222/profs/";
 	const url: string = id ? `${baseUrl}${subject}/${id}` : `${baseUrl}${subject}`;
-	new Promise<string>(async (resolve, reject) => {
+	const professor_entry: Promise<string> = new Promise<string>(async (resolve, reject) => {
 		let ret1: string = "";
 		try {
 			const response = await axios.get(url);
@@ -163,16 +170,23 @@ async function show_prof(subject: string, id: string, interaction: any): Promise
 		} catch (e) {
 			reject(e);
 		}
-	}).then(async (res) => {
-		await send_msg(res, interaction);
 	});
+
+	const settled_string: string = await professor_entry;
+
+	await send_msg(settled_string, interaction);
 }
 
 // simply returns all classes at a specified level
-async function show_levels(subject: string, level: number, interaction: any): Promise<void> {
+async function show_levels(_OPTIONS: {
+	subject: string;
+	level: number;
+	interaction: any;
+}): Promise<void> {
 	console.log("Show levels called.");
+	const { subject, level, interaction } = _OPTIONS;
 
-	new Promise<string>(async (resolve, reject) => {
+	const levels: Promise<string> = new Promise<string>(async (resolve, reject) => {
 		let ret1: string = "";
 		try {
 			const response = await axios.get(`http://127.0.0.1:2222/${subject}/levels/${level}`);
@@ -191,27 +205,31 @@ async function show_levels(subject: string, level: number, interaction: any): Pr
 		} catch (e) {
 			reject(e);
 		}
-	}).then(async (res) => {
-		await send_msg(res, interaction);
 	});
+
+	const settled_string: string = await levels;
+
+	// await send_msg(settled_string, interaction);
+	await interaction.editReply("```" + settled_string.substring(0, 1994) + "```");
 }
 
-/* for every semester after Fall 2022 */
-async function show_class(
-	subject: string,
-	code: string,
-	semester: string,
-	year: number,
-	interaction: any
-): Promise<void> {
-	new Promise<string>(async (resolve, reject) => {
-		let ret1: string = "",
-			ret2: string = "";
-
-		console.log("Show class called.");
+/* for every class >= String 2023 */
+async function show_class(_OPTIONS: {
+	subject: string;
+	catalog_number: string;
+	semester: string;
+	year: number;
+	interaction: any;
+}): Promise<void> {
+	console.log("Show class called.");
+	const { subject, catalog_number, semester, year, interaction } = _OPTIONS;
+	const catalog_entry: Promise<string> = new Promise<string>(async (resolve, reject) => {
+		let ret1: string = "";
 
 		try {
-			const catalogResponse = await axios.get(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
+			const catalogResponse = await axios.get(
+				`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`
+			);
 			const course = catalogResponse.data;
 
 			ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${
@@ -226,9 +244,14 @@ async function show_class(
 			reject(error);
 		}
 
+		resolve(ret1);
+	});
+
+	const schedule: Promise<string> = new Promise<string>(async (resolve, reject) => {
 		try {
+			let ret2: string = "";
 			const scheduleResponse = await axios.get(
-				`http://127.0.0.1:2222/${subject}-${code}/${semester.toLowerCase()}-${year}/schedule`
+				`http://127.0.0.1:2222/${subject}-${catalog_number}/${semester.toLowerCase()}-${year}/schedule`
 			);
 			const courses = scheduleResponse.data;
 
@@ -303,64 +326,74 @@ async function show_class(
 					ret2 += "\n";
 				}
 			);
-			resolve(ret1 + ret2);
+			resolve(ret2);
 		} catch (error) {
 			reject(error);
 		}
-	}).then(async (res) => {
-		await send_msg(res, interaction);
 	});
+
+	const settled_string: string = (await Promise.all([catalog_entry, schedule])).join("");
+
+	await send_msg(settled_string, interaction);
 }
 
-// for every class before spring 2023
-async function show_class_before_sp_23(
-	subject: string,
-	code: string,
-	semester: string,
-	year: number,
-	interaction: any
-): Promise<void> {
+// for every class <= Fall 2022
+async function show_class_before_sp_23(_OPTIONS: {
+	subject: string;
+	catalog_number: string;
+	semester: string;
+	year: number;
+	interaction: any;
+}): Promise<void> {
 	console.log("Show class override called.");
+	const { subject, catalog_number, semester, year, interaction } = _OPTIONS;
 
-	new Promise<string>(async (resolve, reject) => {
-		let ret1: string = "",
-			ret2: string = "";
+	const catalog_entry: Promise<string> = new Promise<string>(async (resolve, reject) => {
+		let ret1: string = "";
 
 		try {
-			const catalogResponse = await axios.get(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
-			console.log(`http://127.0.0.1:2222/${subject}-${code}/catalog`);
+			const catalogResponse = await axios.get(`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`);
+			console.log(`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`);
 
-			const stuffs = catalogResponse.data;
+			const course: {
+				catalog_number: number;
+				subject: string;
+				title: string;
+				description: string;
+			} = catalogResponse.data;
 
-			stuffs.forEach(
-				(course: {
-					catalog_number: number;
-					subject: string;
-					title: string;
-					description: string;
-				}) => {
-					if (course.catalog_number.toString() === code) {
-						ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n`;
-						ret1 += `${course.subject} ${course.catalog_number} ${
-							course.title
-						} - ${semester.toUpperCase()} ${year}`;
+			ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n`;
+			ret1 += `${course.subject} ${course.catalog_number} ${
+				course.title
+			} - ${semester.toUpperCase()} ${year}`;
 
-						ret1 += getCurrentDateAndTime() + "\n";
-					}
-				}
-			);
+			ret1 += getCurrentDateAndTime() + "\n";
 
+			resolve(ret1);
+		} catch (e) {
+			reject(e);
+		}
+	});
+
+	const schedule: Promise<string> = new Promise<string>(async (resolve, reject) => {
+		let ret2: string = "";
+
+		try {
 			const classesResponse = await axios.get(
-				`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`
+				`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester[0].toUpperCase()}${semester.substring(
+					1
+				)}-${year}/classes/${subject}`
 			);
 			console.log(
-				`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester}-${year}/classes/${subject}`
+				`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester[0].toUpperCase()}${semester.substring(
+					1
+				)}-${year}/classes/${subject}`
 			);
 
 			const stuffs2 = classesResponse.data;
 
-			ret2 += "\n\tSection\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\t\tLocation";
-			ret2 += "\n\t-------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\t\t--------\n";
+			ret2 += "\n\tSection\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\t\t\t\tLocation";
+			ret2 += "\n\t-------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\t\t\t\t--------\n";
 
 			stuffs2.classes.forEach(
 				(course: {
@@ -376,13 +409,11 @@ async function show_class_before_sp_23(
 					}[];
 					instructors: { instructor: string }[];
 				}) => {
-					if (course.catalog_number.toString() === code && course.meetings.length > 0) {
+					if (
+						course.catalog_number.toString() === catalog_number &&
+						course.meetings.length > 0
+					) {
 						ret2 += `\t ${course.class_number}`;
-
-						ret2 +=
-							course.meetings[0].location.length === 5
-								? `\t\t   ${course.meetings[0].location}`
-								: `\t\t  ${course.meetings[0].location}`;
 
 						switch (course.meetings[0].days.length) {
 							case 1:
@@ -400,8 +431,8 @@ async function show_class_before_sp_23(
 
 						ret2 +=
 							`${course.enrollment_cap - course.enrollment_count}`.length < 10
-								? `\t\t\t${course.enrollment_cap - course.enrollment_count}\t\t\t`
-								: `\t\t\t ${course.enrollment_cap - course.enrollment_count}\t\t\t`;
+								? `\t\t\t${course.enrollment_cap - course.enrollment_count}`
+								: `\t\t\t ${course.enrollment_cap - course.enrollment_count}`;
 
 						ret2 += `\t\t\t${course.meetings[0].start_time.substring(
 							0,
@@ -415,21 +446,28 @@ async function show_class_before_sp_23(
 
 						ret2 +=
 							course.instructors.length > 0
-								? `\t\t\t${course.instructors[0].instructor}`
-								: "\t\t\t\tStaff";
-						ret2 += "\n";
+								? `\t\t${course.instructors[0].instructor}`
+								: "\t\t\tStaff";
 
-						ret2 += course.meetings[0].location.length === 3 ? "   " : "";
+						ret2 +=
+							course.meetings[0].location.length === 5
+								? `\t\t   ${course.meetings[0].location}`
+								: `\t\t  ${course.meetings[0].location}`;
+
+						ret2 += "\n";
+						// ret2 += course.meetings[0].location.length === 3 ? "   " : "";
 					}
 				}
 			);
-			resolve(ret1 + ret2);
+			resolve(ret2);
 		} catch (e) {
 			reject(e);
 		}
-	}).then(async (res) => {
-		await send_msg(res, interaction);
 	});
+
+	const settled_string: string = (await Promise.all([catalog_entry, schedule])).join("");
+
+	await send_msg(settled_string, interaction);
 }
 
 client.on("messageCreate", async (message: Message) => {
@@ -504,40 +542,93 @@ client.on("interactionCreate", async (interaction) => {
 
 				const subject: string =
 					interaction.options.getString("subject")?.toLowerCase() || "COMP";
-				const fir_class: string = interaction.options.getString("catalog_number1") || "110";
-				const sec_class: string | null =
+
+				const first_catalog_number: string =
+					interaction.options.getString("catalog_number1") || "110";
+				const second_catalog_number: string | null =
 					interaction.options.getString("catalog_number2") || null;
-				const thi_class: string | null =
+				const third_catalog_number: string | null =
 					interaction.options.getString("catalog_number3") || null;
 
-				if (year < 2023) {
-					await show_class_before_sp_23(subject, fir_class, semester, year, interaction);
-					if (sec_class) {
-						await show_class_before_sp_23(subject, sec_class, semester, year, interaction);
+				const classes: Promise<void>[] = [];
+
+				if (year >= 2023) {
+					classes.push(
+						show_class({
+							subject: subject,
+							catalog_number: first_catalog_number,
+							semester: semester,
+							year: year,
+							interaction: interaction
+						})
+					);
+					if (second_catalog_number) {
+						classes.push(
+							show_class({
+								subject: subject,
+								catalog_number: second_catalog_number,
+								semester: semester,
+								year: year,
+								interaction: interaction
+							})
+						);
 					}
-					if (thi_class) {
-						await show_class_before_sp_23(subject, thi_class, semester, year, interaction);
+					if (third_catalog_number) {
+						classes.push(
+							show_class({
+								subject: subject,
+								catalog_number: third_catalog_number,
+								semester: semester,
+								year: year,
+								interaction: interaction
+							})
+						);
 					}
 				} else {
-					await show_class(subject, fir_class, semester, year, interaction);
-					if (sec_class) {
-						await show_class(subject, sec_class, semester, year, interaction);
+					classes.push(
+						show_class_before_sp_23({
+							subject: subject,
+							catalog_number: first_catalog_number,
+							semester: semester,
+							year: year,
+							interaction: interaction
+						})
+					);
+					if (second_catalog_number) {
+						classes.push(
+							show_class_before_sp_23({
+								subject: subject,
+								catalog_number: second_catalog_number,
+								semester: semester,
+								year: year,
+								interaction: interaction
+							})
+						);
 					}
-					if (thi_class) {
-						await show_class(subject, thi_class, semester, year, interaction);
+					if (third_catalog_number) {
+						classes.push(
+							show_class_before_sp_23({
+								subject: subject,
+								catalog_number: first_catalog_number,
+								semester: semester,
+								year: year,
+								interaction: interaction
+							})
+						);
 					}
-
-					// await interaction.reply("Gimme a sec");
 				}
+				
+				await interaction.editReply("Gimme a sec");
+				await Promise.all(classes);
 			}
 			break;
 
 		case "prof":
 			{
-				const subject: string | any = interaction.options.getString("subject");
-				const prof_id: number | any = interaction.options.getInteger("prof_id");
+				const subject: string = interaction.options.getString("subject")!;
+				const prof_id: number | null = interaction.options.getInteger("prof_id");
 
-				await show_prof(subject, prof_id, interaction);
+				await show_prof({ subject: subject, id: prof_id, interaction: interaction });
 				// await interaction.reply("Gimme a sec");
 			}
 			break;
@@ -561,7 +652,7 @@ client.on("interactionCreate", async (interaction) => {
 				const subject: string | any = interaction.options.getString("subject");
 				const level: number | any = interaction.options.getInteger("level");
 
-				await show_levels(subject, level, interaction);
+				await show_levels({ subject: subject, level: level, interaction: interaction });
 
 				// await interaction.reply("Gimme a sec");
 			}
