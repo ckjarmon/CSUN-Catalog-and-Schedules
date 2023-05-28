@@ -554,7 +554,7 @@ client.on("interactionCreate", async (interaction) => {
 				const classes: Promise<void>[] = [];
 
 				const push_classes = (year: number, catalog_numbers: (string | null)[]) => {
-					const func = year >= 2023 ? show_class : show_class_before_sp_23;
+					const func = (year >= 2023) ? show_class : show_class_before_sp_23;
 					catalog_numbers
 						.filter((cat_num: string | null) => cat_num !== null)
 						.forEach((catalog_number: string | null) => {
