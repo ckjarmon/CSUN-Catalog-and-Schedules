@@ -3,6 +3,7 @@ import { ArgumentParser } from "argparse";
 import { Client, GatewayIntentBits, Message, GuildEmoji } from "discord.js";
 import fs from "fs";
 import path from "path";
+import { setTimeout } from "timers/promises";
 
 const parser = new ArgumentParser();
 
@@ -259,6 +260,13 @@ async function show_class(_OPTIONS: {
 			ret2 +=
 				"\n\t-------\t\t\t----\t\t  -----\t\t --------------\t\t\t  ----\t\t\t\t\t-------\t\t\t--------\n";
 
+			const longest_prof: number = Math.max(
+				...courses.map((item: { instructor: string }) => item.instructor.length)
+			);
+
+			const longest_location: number = Math.max(
+				...courses.map((item: { location: string }) => item.location.length)
+			);
 			courses.forEach(
 				(course: {
 					class_number: number;
@@ -311,16 +319,11 @@ async function show_class(_OPTIONS: {
 						4
 					)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`;
 
-					ret2 +=
-						course.instructor !== "Staff" ? `\t\t\t${course.instructor}` : `\t\t\t\tStaff`;
+					ret2 += `\t\t\t`
+					ret2 += `${course.instructor}`.padStart(longest_prof, " ");
 
-					if (course.location.length === 5) {
-						ret2 += `\t\t   ${course.location}`;
-					} else if (course.location.length > 5) {
-						ret2 += `\t\t  ${course.location}`;
-					} else {
-						ret2 += `\t\t     ${course.location}`;
-					}
+					ret2 += `\t\t`
+					ret2 += `${course.location}`.padStart(longest_location, " ");
 
 					ret2 += "\n";
 				}
@@ -332,7 +335,7 @@ async function show_class(_OPTIONS: {
 	});
 
 	const settled_string: string = (await Promise.all([catalog_entry, schedule])).join("");
-
+	// console.log(settled_string)
 	await send_msg(settled_string, interaction);
 }
 
@@ -534,18 +537,15 @@ client.on("interactionCreate", async (interaction) => {
 	const { commandName } = interaction;
 
 	await interaction.deferReply();
-
 	switch (commandName) {
 		case "class":
 			{
 				const semester: string = interaction.options.getString("semester") || "fall";
 				const year: number = interaction.options.getInteger("year") || 2023;
 
-				const subject: string =
-					interaction.options.getString("subject")?.toLowerCase() || "COMP";
+				const subject: string = interaction.options.getString("subject")!.toLowerCase();
 
-				const first_catalog_number: string =
-					interaction.options.getString("catalog_number1") || "110";
+				const first_catalog_number: string = interaction.options.getString("catalog_number1")!;
 				const second_catalog_number: string | null =
 					interaction.options.getString("catalog_number2") || null;
 				const third_catalog_number: string | null =
@@ -554,7 +554,7 @@ client.on("interactionCreate", async (interaction) => {
 				const classes: Promise<void>[] = [];
 
 				const push_classes = (year: number, catalog_numbers: (string | null)[]) => {
-					const func = (year >= 2023) ? show_class : show_class_before_sp_23;
+					const func = year >= 2023 ? show_class : show_class_before_sp_23;
 					catalog_numbers
 						.filter((cat_num: string | null) => cat_num !== null)
 						.forEach((catalog_number: string | null) => {
@@ -572,7 +572,6 @@ client.on("interactionCreate", async (interaction) => {
 
 				push_classes(year, [first_catalog_number, second_catalog_number, third_catalog_number]);
 
-				await interaction.editReply("Gimme a sec");
 				await Promise.all(classes);
 			}
 			break;
@@ -633,12 +632,12 @@ client.on("interactionCreate", async (interaction) => {
 			break;
 
 		case "gunfight": {
-			const user = interaction.options.getUser("target") || { username: "", id: "" };
+			const user = interaction.options.getUser("target");
 
-			const member: any = interaction.guild?.members.cache.get(user.id);
+			const member: any = interaction.guild!.members.cache.get(user!.id);
 			if (member && member.id !== "534510030490304524") {
 				member.timeout(10000, "bleh");
-				await interaction.editReply(`\`\`\`${user?.username} has been timed out!\`\`\``);
+				await interaction.editReply(`\`\`\`${user!.username} has been timed out!\`\`\``);
 			} else {
 				await interaction.editReply("```Kyeou is immune.```");
 			}
