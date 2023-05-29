@@ -54,5 +54,5 @@ if (args.i) {
 		.catch((err) => console.error(err));
 }
 
-schedule.scheduleJob("0 0 * * 0", run);
+schedule.scheduleJob("0 0 * * *", run);
 
