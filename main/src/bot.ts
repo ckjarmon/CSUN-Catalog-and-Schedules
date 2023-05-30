@@ -3,7 +3,6 @@ import { ArgumentParser } from "argparse";
 import { Client, GatewayIntentBits, Message, GuildEmoji } from "discord.js";
 import fs from "fs";
 import path from "path";
-import { setTimeout } from "timers/promises";
 
 const parser = new ArgumentParser();
 
@@ -30,7 +29,7 @@ client.on("ready", () => {
 	console.log(`Logged in as ${client.user!.tag}!`);
 });
 
-const getCurrentDateAndTime = (): string => {
+const get_current_date_and_time = (): string => {
 	const options: Intl.DateTimeFormatOptions = {
 		weekday: "short",
 		day: "2-digit",
@@ -43,10 +42,10 @@ const getCurrentDateAndTime = (): string => {
 		timeZoneName: "short"
 	};
 
-	const currentDate = new Date();
-	const formattedDate = new Intl.DateTimeFormat("en-US", options).format(currentDate);
+	const current_date = new Date();
+	const formatted_date = new Intl.DateTimeFormat("en-US", options).format(current_date);
 
-	return ` - As of ${formattedDate}`;
+	return ` - As of ${formatted_date}`;
 };
 
 async function send_msg(msg: string, interaction: any): Promise<void> {
@@ -68,8 +67,8 @@ async function show_prof(_OPTIONS: {
 }): Promise<void> {
 	const { subject, id, interaction } = _OPTIONS;
 
-	const baseUrl: string = "http://127.0.0.1:2222/profs/";
-	const url: string = id ? `${baseUrl}${subject}/${id}` : `${baseUrl}${subject}`;
+	const base_url: string = "http://127.0.0.1:2222/profs/";
+	const url: string = id ? `${base_url}${subject}/${id}` : `${base_url}${subject}`;
 	const professor_entry: Promise<string> = new Promise<string>(async (resolve, reject) => {
 		let ret1: string = "";
 		try {
@@ -165,7 +164,7 @@ async function show_prof(_OPTIONS: {
 					}
 				);
 			}
-			ret1 += `\n${getCurrentDateAndTime()}\n`;
+			ret1 += `\n${get_current_date_and_time()}\n`;
 			resolve(ret1);
 		} catch (e) {
 			reject(e);
@@ -227,10 +226,10 @@ async function show_class(_OPTIONS: {
 		let ret1: string = "";
 
 		try {
-			const catalogResponse = await axios.get(
+			const catalog_response = await axios.get(
 				`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`
 			);
-			const course = catalogResponse.data;
+			const course = catalog_response.data;
 
 			ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${
 				course.description
@@ -238,7 +237,7 @@ async function show_class(_OPTIONS: {
 				course.title
 			} - ${semester.toUpperCase()} ${year}`;
 
-			ret1 += getCurrentDateAndTime() + "\n";
+			ret1 += get_current_date_and_time() + "\n";
 		} catch (error) {
 			console.error(error);
 			reject(error);
@@ -250,10 +249,10 @@ async function show_class(_OPTIONS: {
 	const schedule: Promise<string> = new Promise<string>(async (resolve, reject) => {
 		try {
 			let ret2: string = "";
-			const scheduleResponse = await axios.get(
+			const schedule_response = await axios.get(
 				`http://127.0.0.1:2222/${subject}-${catalog_number}/${semester.toLowerCase()}-${year}/schedule`
 			);
-			const courses = scheduleResponse.data;
+			const courses = schedule_response.data;
 
 			ret2 +=
 				"\n\tSection\t\t\tDays\t\t  Seats\t\t Waitlist Queue\t\t\t  Time\t\t\t\t\tFaculty\t\t\tLocation";
@@ -319,10 +318,10 @@ async function show_class(_OPTIONS: {
 						4
 					)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`;
 
-					ret2 += `\t\t\t`
+					ret2 += `\t\t\t`;
 					ret2 += `${course.instructor}`.padStart(longest_prof, " ");
 
-					ret2 += `\t\t`
+					ret2 += `\t\t`;
 					ret2 += `${course.location}`.padStart(longest_location, " ");
 
 					ret2 += "\n";
@@ -354,7 +353,7 @@ async function show_class_before_sp_23(_OPTIONS: {
 		let ret1: string = "";
 
 		try {
-			const catalogResponse = await axios.get(
+			const catalog_response = await axios.get(
 				`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`
 			);
 			console.log(`http://127.0.0.1:2222/${subject}-${catalog_number}/catalog`);
@@ -364,14 +363,14 @@ async function show_class_before_sp_23(_OPTIONS: {
 				subject: string;
 				title: string;
 				description: string;
-			} = catalogResponse.data;
+			} = catalog_response.data;
 
 			ret1 += `${course.subject} ${course.catalog_number} ${course.title}\n\n${course.description}\n\n`;
 			ret1 += `${course.subject} ${course.catalog_number} ${
 				course.title
 			} - ${semester.toUpperCase()} ${year}`;
 
-			ret1 += getCurrentDateAndTime() + "\n";
+			ret1 += get_current_date_and_time() + "\n";
 
 			resolve(ret1);
 		} catch (e) {
@@ -383,7 +382,7 @@ async function show_class_before_sp_23(_OPTIONS: {
 		let ret2: string = "";
 
 		try {
-			const classesResponse = await axios.get(
+			const classes_response = await axios.get(
 				`https://api.metalab.csun.edu/curriculum/api/2.0/terms/${semester[0].toUpperCase()}${semester.substring(
 					1
 				)}-${year}/classes/${subject}`
@@ -394,7 +393,7 @@ async function show_class_before_sp_23(_OPTIONS: {
 				)}-${year}/classes/${subject}`
 			);
 
-			const stuffs2 = classesResponse.data;
+			const stuffs2 = classes_response.data;
 
 			ret2 += "\n\tSection\t\tDays\t\t  Seats\t\t\t  Time\t\t\t\t\tFaculty\t\t\t\tLocation";
 			ret2 += "\n\t-------\t\t----\t\t  -----\t\t\t  ----\t\t\t\t\t-------\t\t\t\t--------\n";
@@ -623,11 +622,11 @@ client.on("interactionCreate", async (interaction) => {
 					ret.push(`${emote} ${count}`);
 				}
 
-				const retMessage: string = ret.join("\n");
-				// console.log(retMessage);
+				const ret_message: string = ret.join("\n");
+				// console.log(ret_message);
 
-				await interaction.editReply(retMessage.slice(0, 1979));
-				// await interaction.followUp(retMessage.slice(1979));
+				await interaction.editReply(ret_message.slice(0, 1979));
+				// await interaction.followUp(ret_message.slice(1979));
 			}
 			break;
 

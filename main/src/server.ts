@@ -125,25 +125,25 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 				{ _FIRSTNAME: firstName, _LASTNAME: lastName },
 				root_cursor
 			);
-			const profRows = rows[0];
+			const professor_row = rows[0];
 			const p: Professor = {
-				email: profRows.email,
-				first_name: name_normalize(profRows.first_name),
-				last_name: name_normalize(profRows.last_name),
-				image_link: profRows.image_link || "N/A",
-				phone_number: profRows.phone_number || "N/A",
-				location: profRows.location || "N/A",
-				website: profRows.website || "N/A",
-				mail_drop: profRows.mail_drop || "N/A",
-				subject: profRows.subject || "N/A",
-				office: profRows.office || "N/A"
+				email: professor_row.email,
+				first_name: name_normalize(professor_row.first_name),
+				last_name: name_normalize(professor_row.last_name),
+				image_link: professor_row.image_link || "N/A",
+				phone_number: professor_row.phone_number || "N/A",
+				location: professor_row.location || "N/A",
+				website: professor_row.website || "N/A",
+				mail_drop: professor_row.mail_drop || "N/A",
+				subject: professor_row.subject || "N/A",
+				office: professor_row.office || "N/A"
 			};
 
-			const { rows: sectionRows } = await get_professor_schedule(
+			const { rows: section_rows } = await get_professor_schedule(
 				{ _FIRSTNAME: firstName, _LASTNAME: lastName, _SUBJECT: subject },
 				root_cursor
 			);
-			const schedule = sectionRows.map((c: Schedule) => ({
+			const schedule = section_rows.map((c: Schedule) => ({
 				class_number: c.class_number,
 				enrollment_cap: c.enrollment_cap,
 				enrollment_count: c.enrollment_count,
