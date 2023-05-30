@@ -1,39 +1,15 @@
 import express, { Request, Response } from "express";
 import { Pool, PoolClient } from "pg";
-// import argparse from "argparse";
 import logger from "@csun_catalog_and_schedules/logger";
+import {
+	catalog_query,
+	level_query,
+	schedule_query,
+	professor_schedule_query,
+	professor_details_query,
+	professor_first_last_name_query
+} from "./database";
 const app = express();
-
-/*
-const parser = new argparse.ArgumentParser();
-
-parser.add_argument("--project_location", {
-	nargs: "?",
-	type: String,
-	help: "Path to config file"
-});
-
-const args = parser.parse_args();
-
-if (args.project_location) {
-	process.chdir(args.project_location);
-}*/
-
-/*const log = new Logger({
-	stylePrettyLogs: true,
-	prettyLogStyles: {
-		logLevelName: {
-			"*": ["bold", "black", "bgWhiteBright", "dim"],
-			SILLY: ["bold", "greenBright"],
-			TRACE: ["bold", "whiteBright"],
-			DEBUG: ["bold", "green"],
-			INFO: ["bold", "blueBright"],
-			WARN: ["bold", "yellow"],
-			ERROR: ["bold", "red"],
-			FATAL: ["bold", "redBright"]
-		}
-	}
-});*/
 
 interface Professor {
 	email: string;
@@ -83,18 +59,15 @@ const get_conn = async (): Promise<PoolClient> => {
 };
 
 app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response) => {
-	// log.info(`~Endpoint called: ${req.originalUrl}`);
 	const { subject, catalog_number } = req.params;
 	const rootCursor = await get_conn();
 	try {
-		const query = `SELECT * FROM catalog WHERE subject = '${subject.toUpperCase()}' AND catalog_number = '${catalog_number}'`;
+		const le_fetch = (await rootCursor.query(catalog_query, [subject.toUpperCase(), catalog_number]))
+			.rows[0];
 
-		const le_fetch = (await rootCursor.query(query)).rows[0];
-		// console.log(x)
 		logger.http(`Endpoint: ${req.originalUrl}\n\tHTTP: 200`);
 		res.json(le_fetch);
 	} catch (err) {
-		// console.error(err);
 		logger.error(`Endpoint: ${req.originalUrl}\n\tHTTP: 500`);
 		res.status(500).send("Internal Server Error");
 	} finally {
@@ -103,22 +76,13 @@ app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response)
 });
 
 app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
-	// log.info(`~Endpoint called: ${req.originalUrl}`);
 	const rootCursor = await get_conn();
 	try {
 		const subject: string = req.params.subject.toUpperCase();
 		const level: string = req.params.level[0];
 
-		const query: string = `SELECT
-                        subject,
-                        catalog_number,
-                        title
-                        FROM catalog
-                        WHERE subject = '${subject}'
-                        AND catalog_number LIKE '${level}%';`;
+		const le_fetch = (await rootCursor.query(level_query, [subject, level])).rows;
 
-		const le_fetch = (await rootCursor.query(query)).rows;
-		// console.log(fetch)
 		const results = le_fetch.map(
 			(x: { subject: string; catalog_number: string; title: string }) =>
 				`${x.subject} ${x.catalog_number} - ${x.title}`
@@ -126,7 +90,6 @@ app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
 		logger.http(`Endpoint: ${req.originalUrl}\n\tHTTP: 200`);
 		res.send(results);
 	} catch (err) {
-		// console.error(err);
 		logger.error(`Endpoint: ${req.originalUrl}\n\tHTTP: 500`);
 		res.status(500).send("Internal Server Error");
 	} finally {
@@ -135,21 +98,20 @@ app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
 });
 
 app.get("/:subject-:catalog_number/:semester-:year/schedule", async (req: Request, res: Response) => {
-	// log.info(`~Endpoint called: ${req.originalUrl}`);
 	const { subject, catalog_number, semester, year } = req.params;
 	const rootCursor = await get_conn();
 	try {
-		const query: string = `SELECT * FROM section 
-		WHERE subject = '${subject.toUpperCase()}' 
-		AND catalog_number = '${catalog_number}' 
-		AND semester = '${semester}'  
-		AND year = ${year}`;
-
-		const le_fetch = (await rootCursor.query(query)).rows;
+		const le_fetch = (
+			await rootCursor.query(schedule_query, [
+				subject.toUpperCase(),
+				catalog_number,
+				semester,
+				year
+			])
+		).rows;
 		logger.http(`Endpoint: ${req.originalUrl}\n\tHTTP: 200`);
 		res.json(le_fetch);
 	} catch (err) {
-		// console.error(err);
 		logger.error(`Endpoint: ${req.originalUrl}\n\tHTTP: 500`);
 		res.status(500).send("Internal Server Error");
 	} finally {
@@ -158,53 +120,69 @@ app.get("/:subject-:catalog_number/:semester-:year/schedule", async (req: Reques
 });
 
 app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
-	// log.info(`~Endpoint called: ${req.originalUrl}`);
+	const get_professors_by_subject = async (_SUBJECT: string, _ROOTCURSOR: PoolClient) => {
+		const rows: { first_name: string; last_name: string }[] = (
+			await rootCursor.query(professor_first_last_name_query, [_SUBJECT])
+		).rows;
+		return rows.map((x) => `${x.first_name} ${x.last_name}`);
+	};
+
+	const get_professor_details = async (
+		_OPTIONS: { _FIRSTNAME: string; _LASTNAME: string },
+		_ROOTCURSOR: PoolClient
+	) => {
+		const { _FIRSTNAME, _LASTNAME } = _OPTIONS;
+		return await _ROOTCURSOR.query(professor_details_query, [_FIRSTNAME, _LASTNAME]);
+	};
+
+	const get_professor_schedule = async (
+		_OPTIONS: { _FIRSTNAME: string; _LASTNAME: string; _SUBJECT: string },
+		_ROOTCURSOR: PoolClient
+	) => {
+		const { _FIRSTNAME, _LASTNAME, _SUBJECT } = _OPTIONS;
+
+		return await _ROOTCURSOR.query(professor_schedule_query, [
+			_FIRSTNAME.split(",")[0],
+			_LASTNAME.split(",")[0],
+			_SUBJECT.toUpperCase()
+		]);
+	};
+
 	const rootCursor = await get_conn();
 	const subject = req.params.subject.toUpperCase();
+
 	try {
 		if (req.params.id) {
-
-
-			const query: string = `SELECT first_name, last_name FROM professor WHERE subject = '${subject}'`;
-			const rows: { first_name: string; last_name: string }[] = (await rootCursor.query(query))
-				.rows;
-			const profs_as_first_last: string[] = rows.map(
-				(x: { first_name: string; last_name: string }) => `${x.first_name} ${x.last_name}`
+			const professors = await get_professors_by_subject(subject, rootCursor);
+			const sortedProfessors = professors.sort((a, b) =>
+				name_normalize(a.split(" ")[1]) < name_normalize(b.split(" ")[1]) ? -1 : 1
 			);
-			const sorted_profs_as_first_last: string[] = profs_as_first_last.sort(
-				(a: string, b: string) =>
-					name_normalize(a.split(" ")[1]) < name_normalize(b.split(" ")[1]) ? -1 : 1
-			);
-
-
-
 			const id: number = Number(req.params.id) - 1;
-			const prof_query: string = `SELECT * FROM professor WHERE first_name = '${
-				sorted_profs_as_first_last[id].split(" ")[0]
-			}' AND last_name = '${sorted_profs_as_first_last[id].split(" ")[1]}'`;
-			const prof_rows: Professor = (await rootCursor.query(prof_query)).rows[0];
-			const p = {
-				email: prof_rows.email,
-				first_name: name_normalize(prof_rows.first_name),
-				last_name: name_normalize(prof_rows.last_name),
-				image_link: prof_rows.image_link || "N/A",
-				phone_number: prof_rows.phone_number || "N/A",
-				location: prof_rows.location || "N/A",
-				website: prof_rows.website || "N/A",
-				mail_drop: prof_rows.mail_drop || "N/A",
-				subject: prof_rows.subject || "N/A",
-				office: prof_rows.office || "N/A"
+			const [firstName, lastName] = sortedProfessors[id].split(" ");
+
+			const { rows } = await get_professor_details(
+				{ _FIRSTNAME: firstName, _LASTNAME: lastName },
+				rootCursor
+			);
+			const profRows = rows[0];
+			const p: Professor = {
+				email: profRows.email,
+				first_name: name_normalize(profRows.first_name),
+				last_name: name_normalize(profRows.last_name),
+				image_link: profRows.image_link || "N/A",
+				phone_number: profRows.phone_number || "N/A",
+				location: profRows.location || "N/A",
+				website: profRows.website || "N/A",
+				mail_drop: profRows.mail_drop || "N/A",
+				subject: profRows.subject || "N/A",
+				office: profRows.office || "N/A"
 			};
 
-
-			const section_query: string = `SELECT * FROM section  WHERE instructor ILIKE '%${
-				p.first_name.split(",")[0]
-			}%' AND instructor ILIKE '%${
-				p.last_name.split(",")[0]
-			}%' AND subject = '${subject.toUpperCase()}'  AND semester = 'fall' AND year = '2023'`;
-
-			const section_rows: Schedule[] = (await rootCursor.query(section_query)).rows;
-			const schedule = section_rows.map((c: Schedule) => ({
+			const { rows: sectionRows } = await get_professor_schedule(
+				{ _FIRSTNAME: firstName, _LASTNAME: lastName, _SUBJECT: subject },
+				rootCursor
+			);
+			const schedule = sectionRows.map((c: Schedule) => ({
 				class_number: c.class_number,
 				enrollment_cap: c.enrollment_cap,
 				enrollment_count: c.enrollment_count,
@@ -219,34 +197,17 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 
 			const result = {
 				info: p,
-				schedule: schedule.sort((a, b) => {
-					if (a.catalog_number < b.catalog_number) {
-					  return -1;
-					} else if (a.catalog_number > b.catalog_number) {
-					  return 1;
-					}
-					return 0;
-				  })
+				schedule: schedule.sort((a, b) => a.catalog_number.localeCompare(b.catalog_number))
 			};
 			res.json(result);
 		} else {
-			const subject: string = req.params.subject.toUpperCase();
-			const query: string = `SELECT first_name, last_name FROM professor WHERE subject = '${subject}'`;
-			const rows = (await rootCursor.query(query)).rows;
-
-			const profs = rows
-				.map(
-					(row: { first_name: string; last_name: string }) =>
-						`${name_normalize(row.first_name)} ${name_normalize(row.last_name)}`
-				)
-				.sort((a: string, b: string) => a.split(" ")[1].localeCompare(b.split(" ")[1]));
-
-			const response = profs.map((prof: any, index: number) => `${index + 1} ${prof}\n`).join("");
+			const professors = await get_professors_by_subject(subject, rootCursor);
+			const response = professors.map((prof, index) => `${index + 1} ${prof}\n`).join("");
 			res.send(response);
 		}
+
 		logger.http(`Endpoint: ${req.originalUrl}\n\tHTTP: 200`);
-	} catch {
-		// console.error(err);
+	} catch (err) {
 		logger.error(`Endpoint: ${req.originalUrl}\n\tHTTP: 500`);
 		res.status(500).send("Internal Server Error");
 	} finally {
@@ -256,5 +217,4 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 
 app.listen(2222, () => {
 	logger.info(`Running on http://localhost:2222`);
-	// console.log("Running...");
 });
