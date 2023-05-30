@@ -1,0 +1,13 @@
+[Unit]
+Description=CSUN Catalog and Schedules
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/services/bot/bot.sh 
+ExecStop=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/services/bot/run.sh stop
+ExecReload=/bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/services/bot/bot.sh stop && /bin/bash /home/kyeou/CSUN-Catalog-And-Schedules/services/bot/bot.sh 
+User=kyeou
+
+[Install]
+WantedBy=multi-user.target

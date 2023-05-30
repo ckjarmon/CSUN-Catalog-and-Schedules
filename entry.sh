@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-while :; do node /app/main/obj/src/bot.js --config /app/main/config.json; done &
-node /app/main/obj/src/server.js 
+while :; do node /app/bot/obj/src/bot.js --config /app/bot/config.json; done &
+node /app/bot/obj/src/server.js 

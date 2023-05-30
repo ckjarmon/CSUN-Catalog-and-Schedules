@@ -8,7 +8,7 @@ COPY . .
 RUN npm install -g pnpm
 RUN pnpm install --force
 
-WORKDIR /app/main/
+WORKDIR /app/bot/
 RUN pnpm install tslib
 RUN tsc
 
