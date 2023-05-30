@@ -8,7 +8,7 @@ import {
 	professor_schedule_query,
 	professor_details_query,
 	professor_first_last_name_query
-} from "./database";
+} from "./queries";
 const app = express();
 
 interface Professor {
