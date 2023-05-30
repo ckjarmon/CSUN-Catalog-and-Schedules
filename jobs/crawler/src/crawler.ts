@@ -1,9 +1,9 @@
 import process from "process";
 
 import { setTimeout } from "timers/promises";
-import puppeteer, { ElementHandle, Page, TimeoutError } from "puppeteer";
+import puppeteer, { Page, TimeoutError } from "puppeteer";
 
-import { CatalogNumberSchedule, SubjectSchedule } from "./interfaces";
+import { CatalogNumberSchedule } from "./interfaces";
 import { convert_time, convert_days } from "./utilities";
 import { ProgressBar } from "@csun_catalog_and_schedules/progress_bar";
 import { sort_to_control } from "./order";
@@ -13,13 +13,9 @@ const catalog_link =
 	"https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL?PortalActualURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentProvider=SA&PortalCRefLabel=Class%20Search&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsp%2fPANRPRD%2f&PortalURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsc%2fPANRPRD%2f&PortalHostNode=EMPL&NoCrumbs=yes&PortalKeyStruct=yes";
 let course_offer_count: { [subject: string]: number } = {};
 
-// const semester_key: string = args.semester_key;
 let _TERM: { semester: string; year: number };
 
 async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
-	{
-		/*Get subjects that have course offerings*/
-	}
 	let class_codes: string[] = [];
 	const browser = await puppeteer.launch({ headless: "new" });
 	const page = await browser.newPage();
@@ -49,8 +45,8 @@ async function collect_subjects(_SEMESTER_KEY: string): Promise<string[]> {
 			class_codes.unshift(value);
 		}
 	}
-	// console.log(class_codes);
-	browser.close();
+
+	await browser.close();
 	return sort_to_control(class_codes).reverse();
 }
 
@@ -87,7 +83,6 @@ async function select_semester(_PAGE: Page, _SEMESTER_KEY: string): Promise<stri
 	);
 	let term: string[] = chosen_semester.split(" ");
 	_TERM = { semester: term[2], year: Number(term[4]) };
-	// console.log(_TERM);
 	if (!term_selected) {
 		console.error("Incorrect semester selected");
 		process.exit(-1);
@@ -161,14 +156,6 @@ async function start_search(_PAGE: Page): Promise<number | boolean> {
 		await _PAGE.waitForSelector('span[class="PSGRIDCOUNTER"]', { timeout: 20000 });
 	} catch (err) {
 		if (err instanceof TimeoutError) {
-			// const dropdown = await _PAGE.$("#NR_SSS_SOC_NWRK_SUBJECT");
-
-			// let selected = await dropdown!.$('option[selected="selected"]');
-			// let value = await _PAGE.evaluate((option: HTMLOptionElement) => {
-			// 	return option.getAttribute("value");
-			// }, selected!);
-
-			// console.log(`${value} failed to search`);
 			return false;
 		}
 	}
@@ -272,7 +259,6 @@ async function collect_sch_for_class(
 
 			await _PAGE.click('input[id="NR_SSS_SOC_NWRK_RETURN_PB"]');
 
-			// class_schedule[curr_catalog_number][class_number] =
 			await update_db(
 				{
 					...{
@@ -294,13 +280,12 @@ async function collect_sch_for_class(
 
 			offering++;
 		} catch (err) {
-			// console.log(err)
 			if (err instanceof Error) {
 				break;
 			}
 		}
 	}
-	// await page.screenshot({ path: 'exp.png', fullPage: true });
+
 	await _PAGE.waitForSelector(`img[id="SOC_DETAIL1$IMG$${SOC_INDEX}"]`, {
 		timeout: 4000
 	});
@@ -308,7 +293,7 @@ async function collect_sch_for_class(
 	await _PAGE.waitForSelector(`img[id="SOC_DETAIL$IMG$${SOC_INDEX}"]`, {
 		timeout: 4000
 	});
-	// await page.screenshot({ path: 'coll.png', fullPage: true });
+
 	return class_schedule;
 }
 
@@ -318,9 +303,7 @@ async function collect_sch_for_subject_portal(
 	_SUBJECT: string,
 	_TOTAL_CLASSES: number
 ): Promise<void> {
-	// let subject_schedule: SubjectSchedule = {};
 	let SOC_INDEX: number = 0;
-	// Example usage
 
 	const bar: ProgressBar = new ProgressBar(_TOTAL_CLASSES, started++, _SUBJECT);
 
@@ -329,28 +312,14 @@ async function collect_sch_for_subject_portal(
 			await _PAGE.waitForSelector(`img[id="SOC_DETAIL$IMG$${SOC_INDEX}"]`, {
 				timeout: 500
 			});
-			// const sch_for_catalog_num: CatalogNumberSchedule =
+
 			await collect_sch_for_class(_PAGE, _SUBJECT, SOC_INDEX);
-
-			// subject_schedule[_SUBJECT] = {
-			// 	...subject_schedule[_SUBJECT],
-			// 	...sch_for_catalog_num
-			// };
-
-			await bar.update(SOC_INDEX++);
 		} catch (err) {
-			await bar.update(SOC_INDEX++);
 			break; // nothing left
+		} finally {
+			await bar.update(SOC_INDEX++);
 		}
 	}
-	/*
-	if (_SUBJECT === "COMP") {
-		fs.writeFileSync(
-			`./${getLettersOnly(_SUBJECT)}_schedule.json`,
-			JSON.stringify(subject_schedule)
-		);
-		console.log(subject_schedule);
-	}*/
 }
 
 async function for_subject(_SUBJECT: string, _SEMESTER_KEY: string): Promise<String> {
