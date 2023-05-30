@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { Pool, PoolClient } from "pg";
+
 import logger from "@csun_catalog_and_schedules/logger";
 import {
 	catalog_query,
@@ -8,59 +8,20 @@ import {
 	professor_schedule_query,
 	professor_details_query,
 	professor_first_last_name_query
-} from "./queries";
+} from "./database";
+import { get_connection} from "./database";
+import { Professor, Schedule } from "./interfaces";
 const app = express();
 
-interface Professor {
-	email: string;
-	first_name: string;
-	last_name: string;
-	image_link: string;
-	phone_number: string;
-	location: string;
-	website: string;
-	mail_drop: string;
-	subject: string;
-	office: string;
-}
 
-interface Schedule {
-	class_number: number;
-	enrollment_cap: number;
-	enrollment_count: number;
-	instructor: string;
-	days: string;
-	location: string;
-	start_time: string;
-	end_time: string;
-	catalog_number: string;
-	subject: string;
-}
 
 const name_normalize = (str: string): string => `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;
 
-const pool = new Pool({
-	user: "kyeou",
-	password: "q1w2e3r4!@#$",
-	host: "127.0.0.1",
-	port: 5432,
-	database: "csun",
-	max: 5
-});
 
-const get_conn = async (): Promise<PoolClient> => {
-	try {
-		const client = await pool.connect();
-		return client;
-	} catch (err) {
-		console.error(`Error connecting to PostgreSQL: ${err}`);
-		throw err;
-	}
-};
 
 app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response) => {
 	const { subject, catalog_number } = req.params;
-	const rootCursor = await get_conn();
+	const rootCursor = await get_connection();
 	try {
 		const le_fetch = (await rootCursor.query(catalog_query, [subject.toUpperCase(), catalog_number]))
 			.rows[0];
@@ -76,7 +37,7 @@ app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response)
 });
 
 app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
-	const rootCursor = await get_conn();
+	const rootCursor = await get_connection();
 	try {
 		const subject: string = req.params.subject.toUpperCase();
 		const level: string = req.params.level[0];
@@ -99,7 +60,7 @@ app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
 
 app.get("/:subject-:catalog_number/:semester-:year/schedule", async (req: Request, res: Response) => {
 	const { subject, catalog_number, semester, year } = req.params;
-	const rootCursor = await get_conn();
+	const rootCursor = await get_connection();
 	try {
 		const le_fetch = (
 			await rootCursor.query(schedule_query, [
@@ -148,7 +109,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 		]);
 	};
 
-	const rootCursor = await get_conn();
+	const rootCursor = await get_connection();
 	const subject = req.params.subject.toUpperCase();
 
 	try {

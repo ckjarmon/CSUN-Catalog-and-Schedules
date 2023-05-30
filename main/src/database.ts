@@ -1,3 +1,25 @@
+import { Pool, PoolClient } from "pg";
+
+const pool = new Pool({
+	user: "kyeou",
+	password: "q1w2e3r4!@#$",
+	host: "127.0.0.1",
+	port: 5432,
+	database: "csun",
+	max: 5
+});
+
+const get_connection = async (): Promise<PoolClient> => {
+	try {
+		const client = await pool.connect();
+		return client;
+	} catch (err) {
+		console.error(`Error connecting to PostgreSQL: ${err}`);
+		throw err;
+	}
+};
+
+
 const level_query: string = 
 `SELECT subject, catalog_number, title 
 FROM catalog 
@@ -38,6 +60,10 @@ WHERE subject = $1
 AND catalog_number = $2 
 AND semester = $3 
 AND year = $4`;
+
+
+export { get_connection };
+
 
 export {
 	level_query,
