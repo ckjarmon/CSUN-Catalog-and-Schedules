@@ -11,6 +11,7 @@ import {
 } from "./database";
 import { get_connection} from "./database";
 import { Professor, Schedule } from "./interfaces";
+import { PoolClient } from "pg";
 const app = express();
 
 
@@ -18,12 +19,11 @@ const app = express();
 const name_normalize = (str: string): string => `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;
 
 
-
 app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response) => {
 	const { subject, catalog_number } = req.params;
-	const rootCursor = await get_connection();
+	const root_cursor = await get_connection();
 	try {
-		const le_fetch = (await rootCursor.query(catalog_query, [subject.toUpperCase(), catalog_number]))
+		const le_fetch = (await root_cursor.query(catalog_query, [subject.toUpperCase(), catalog_number]))
 			.rows[0];
 
 		logger.http(`Endpoint: ${req.originalUrl}\n\tHTTP: 200`);
@@ -32,17 +32,17 @@ app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response)
 		logger.error(`Endpoint: ${req.originalUrl}\n\tHTTP: 500`);
 		res.status(500).send("Internal Server Error");
 	} finally {
-		rootCursor.release();
+		root_cursor.release();
 	}
 });
 
 app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
-	const rootCursor = await get_connection();
+	const root_cursor = await get_connection();
 	try {
 		const subject: string = req.params.subject.toUpperCase();
 		const level: string = req.params.level[0];
 
-		const le_fetch = (await rootCursor.query(level_query, [subject, level])).rows;
+		const le_fetch = (await root_cursor.query(level_query, [subject, level])).rows;
 
 		const results = le_fetch.map(
 			(x: { subject: string; catalog_number: string; title: string }) =>
@@ -54,16 +54,16 @@ app.get("/:subject/levels/:level", async (req: Request, res: Response) => {
 		logger.error(`Endpoint: ${req.originalUrl}\n\tHTTP: 500`);
 		res.status(500).send("Internal Server Error");
 	} finally {
-		rootCursor.release();
+		root_cursor.release();
 	}
 });
 
 app.get("/:subject-:catalog_number/:semester-:year/schedule", async (req: Request, res: Response) => {
 	const { subject, catalog_number, semester, year } = req.params;
-	const rootCursor = await get_connection();
+	const root_cursor = await get_connection();
 	try {
 		const le_fetch = (
-			await rootCursor.query(schedule_query, [
+			await root_cursor.query(schedule_query, [
 				subject.toUpperCase(),
 				catalog_number,
 				semester,
@@ -76,14 +76,14 @@ app.get("/:subject-:catalog_number/:semester-:year/schedule", async (req: Reques
 		logger.error(`Endpoint: ${req.originalUrl}\n\tHTTP: 500`);
 		res.status(500).send("Internal Server Error");
 	} finally {
-		rootCursor.release();
+		root_cursor.release();
 	}
 });
 
 app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 	const get_professors_by_subject = async (_SUBJECT: string, _ROOTCURSOR: PoolClient) => {
 		const rows: { first_name: string; last_name: string }[] = (
-			await rootCursor.query(professor_first_last_name_query, [_SUBJECT])
+			await root_cursor.query(professor_first_last_name_query, [_SUBJECT])
 		).rows;
 		return rows.map((x) => `${x.first_name} ${x.last_name}`);
 	};
@@ -109,12 +109,12 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 		]);
 	};
 
-	const rootCursor = await get_connection();
+	const root_cursor = await get_connection();
 	const subject = req.params.subject.toUpperCase();
 
 	try {
 		if (req.params.id) {
-			const professors = await get_professors_by_subject(subject, rootCursor);
+			const professors = await get_professors_by_subject(subject, root_cursor);
 			const sortedProfessors = professors.sort((a, b) =>
 				name_normalize(a.split(" ")[1]) < name_normalize(b.split(" ")[1]) ? -1 : 1
 			);
@@ -123,7 +123,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 
 			const { rows } = await get_professor_details(
 				{ _FIRSTNAME: firstName, _LASTNAME: lastName },
-				rootCursor
+				root_cursor
 			);
 			const profRows = rows[0];
 			const p: Professor = {
@@ -141,7 +141,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 
 			const { rows: sectionRows } = await get_professor_schedule(
 				{ _FIRSTNAME: firstName, _LASTNAME: lastName, _SUBJECT: subject },
-				rootCursor
+				root_cursor
 			);
 			const schedule = sectionRows.map((c: Schedule) => ({
 				class_number: c.class_number,
@@ -162,7 +162,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 			};
 			res.json(result);
 		} else {
-			const professors = await get_professors_by_subject(subject, rootCursor);
+			const professors = await get_professors_by_subject(subject, root_cursor);
 			const response = professors.map((prof, index) => `${index + 1} ${prof}\n`).join("");
 			res.send(response);
 		}
@@ -172,7 +172,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 		logger.error(`Endpoint: ${req.originalUrl}\n\tHTTP: 500`);
 		res.status(500).send("Internal Server Error");
 	} finally {
-		rootCursor.release();
+		root_cursor.release();
 	}
 });
 
