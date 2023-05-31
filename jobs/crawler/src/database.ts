@@ -22,7 +22,7 @@ export async function update_db(
 		_SUBJECT,
 		_COURSE["catalog_number"]
 	];
-	// console.log(tup)
+
 	try {
 		const client = new Client({
 			user: "kyeou",
