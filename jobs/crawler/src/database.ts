@@ -1,5 +1,6 @@
 import { Client } from "pg";
 import { DatabaseScheduleBody } from "./interfaces";
+import { get_letters_only } from "./utilities";
 
 export async function update_db(
 	_COURSE: DatabaseScheduleBody,
@@ -19,7 +20,7 @@ export async function update_db(
 		_COURSE["end_time"],
 		_TERM.semester.toLowerCase(),
 		_TERM.year,
-		_SUBJECT,
+		get_letters_only(_SUBJECT),
 		_COURSE["catalog_number"]
 	];
 

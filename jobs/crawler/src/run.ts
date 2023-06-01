@@ -8,23 +8,36 @@ const parser = new ArgumentParser({
 });
 
 parser.add_argument("--semester_key", {
-	type: "str"
+	type: "str",
+	default: "2237" // Fall 2023
 });
 
 parser.add_argument("-i", {
 	action: "store_true"
 });
 
+parser.add_argument("--headless", {
+	type: "str" || "bool",
+	default: "new"
+	
+});
+
+parser.add_argument("--cc", {
+	type: "int",
+	default: 5
+});
+
+
 let args = parser.parse_args();
 
 async function run(): Promise<void> {
-	let class_codes: string[] = await collect_subjects(args.semester_key || "2237");
+	let class_codes: string[] = await collect_subjects(args.semester_key);
 	process.setMaxListeners(Infinity);
-	const MAX_CONCURRENT: number = 5;
+	const MAX_CONCURRENT: number = args.cc;
 	let current_running: number = 0;
 
 	const executeForSubject = async (classCode: string): Promise<void> => {
-		await for_subject(classCode, args.semester_key || "2237").then(() => {
+		await for_subject(classCode, args.semester_key, args.headless).then(() => {
 				current_running--;
 			});
 	};
