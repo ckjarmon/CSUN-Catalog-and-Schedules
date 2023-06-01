@@ -50,9 +50,7 @@ export const convert_days = (daysStr: string): string => {
 	return daysStr;
 };
 
-export const is_numeric = (str: string): boolean => {
-	return /^[0-9]+$/.test(str);
-};
+export const is_numeric = (str: string): boolean => /^[0-9]+$/.test(str);
 
 export const get_letters_only = (str: string) => str.replace(/[^A-Z]/g, "");
 

@@ -322,9 +322,9 @@ async function collect_sch_for_subject_portal(
 	}
 }
 
-async function for_subject(_SUBJECT: string, _SEMESTER_KEY: string): Promise<String> {
+async function for_subject(_SUBJECT: string, _SEMESTER_KEY: string, _HEADLESS: boolean): Promise<String> {
 	return new Promise<String>(async (resolve) => {
-		const browser = await puppeteer.launch({ headless: "new", args: ["--use-gl=egl"] });
+		const browser = await puppeteer.launch({ headless: _HEADLESS, args: ["--use-gl=egl"] });
 		const page = await browser.newPage();
 
 		await page.goto(catalog_link, { timeout: 120000 });
