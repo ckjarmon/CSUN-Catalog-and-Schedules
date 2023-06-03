@@ -118,4 +118,3 @@ export function sort_to_control(unsorted_array: string[]): string[] {
 	return unsorted_array;
 }
 
-console.log(sort_to_control(["SCI","HHD", "LIB"]));
