@@ -245,17 +245,11 @@ async function collect_sch_for_class(
 				(element) => element.textContent!
 			);
 
-			let instructor: string = await _PAGE.$eval(
-				`span[id="INSTRUCTOR_URL$span$0"]`,
-				(element) => element.textContent!
-			);
-
-			if (instructor === undefined) {
-				instructor = await _PAGE.$eval(
-					`a[id="INSTRUCTOR_URL$0"]`,
+			const instructor: string =
+				(await _PAGE.$eval(
+					`span[id="INSTRUCTOR_URL$span$0"]`,
 					(element) => element.textContent!
-				);
-			}
+				)) || (await _PAGE.$eval(`a[id="INSTRUCTOR_URL$0"]`, (element) => element.textContent!));
 
 			await _PAGE.click('input[id="NR_SSS_SOC_NWRK_RETURN_PB"]');
 
@@ -322,7 +316,11 @@ async function collect_sch_for_subject_portal(
 	}
 }
 
-async function for_subject(_SUBJECT: string, _SEMESTER_KEY: string, _HEADLESS: boolean): Promise<String> {
+async function for_subject(
+	_SUBJECT: string,
+	_SEMESTER_KEY: string,
+	_HEADLESS: boolean
+): Promise<String> {
 	return new Promise<String>(async (resolve) => {
 		const browser = await puppeteer.launch({ headless: _HEADLESS, args: ["--use-gl=egl"] });
 		const page = await browser.newPage();
