@@ -9,22 +9,20 @@ import {
 	professor_details_query,
 	professor_first_last_name_query
 } from "./database";
-import { get_connection} from "./database";
+import { get_connection } from "./database";
 import { Professor, Schedule } from "./interfaces";
 import { PoolClient } from "pg";
 const app = express();
 
-
-
 const name_normalize = (str: string): string => `${str[0].toUpperCase()}${str.slice(1).toLowerCase()}`;
-
 
 app.get("/:subject-:catalog_number/catalog", async (req: Request, res: Response) => {
 	const { subject, catalog_number } = req.params;
 	const root_cursor = await get_connection();
 	try {
-		const le_fetch = (await root_cursor.query(catalog_query, [subject.toUpperCase(), catalog_number]))
-			.rows[0];
+		const le_fetch = (
+			await root_cursor.query(catalog_query, [subject.toUpperCase(), catalog_number])
+		).rows[0];
 
 		logger.http(`Endpoint: ${req.originalUrl}\n\tHTTP: 200`);
 		res.json(le_fetch);
@@ -85,7 +83,9 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 		const rows: { first_name: string; last_name: string }[] = (
 			await root_cursor.query(professor_first_last_name_query, [_SUBJECT])
 		).rows;
-		return rows.map((x) => `${x.first_name} ${x.last_name}`);
+		return rows
+			.map((x) => `${name_normalize(x.first_name)} ${name_normalize(x.last_name)}`)
+			.sort((a, b) => a.split(" ")[1].localeCompare(b.split(" ")[1]));
 	};
 
 	const get_professor_details = async (
@@ -118,7 +118,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 			const sortedProfessors = professors.sort((a, b) =>
 				name_normalize(a.split(" ")[1]) < name_normalize(b.split(" ")[1]) ? -1 : 1
 			);
-			
+
 			const id: number = Number(req.params.id) - 1;
 			const [firstName, lastName] = sortedProfessors[id].split(" ");
 
