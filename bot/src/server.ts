@@ -103,8 +103,8 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 		const { _FIRSTNAME, _LASTNAME, _SUBJECT } = _OPTIONS;
 
 		return await _ROOTCURSOR.query(professor_schedule_query, [
-			_FIRSTNAME.split(",")[0],
-			_LASTNAME.split(",")[0],
+			_FIRSTNAME,
+			_LASTNAME,
 			_SUBJECT.toUpperCase()
 		]);
 	};
