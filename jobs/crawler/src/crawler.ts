@@ -340,7 +340,7 @@ async function for_subject(
 		await unselect_section_expansion(page);
 		const search_result: number | boolean = await start_search(page);
 		if (search_result) {
-			course_offer_count[_SUBJECT] = search_result as number;
+			// course_offer_count[_SUBJECT] = search_result as number;
 			await collect_sch_for_subject_portal(page, _SUBJECT, search_result as number);
 			await browser.close();
 			resolve(`${_SUBJECT} done`);
