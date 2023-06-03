@@ -6,9 +6,9 @@ config.json
 misc_old_dead
 tempCodeRunnerFile.*
 node_modules
-playground/test
 *.log
 schs
 obj
 _*.json
 *-lock.*
+misc
