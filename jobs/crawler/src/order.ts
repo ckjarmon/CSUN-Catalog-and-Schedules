@@ -108,28 +108,14 @@ const control_order: string[] = [
 	"SCI"
 ];
 
-export function sort_to_control(unsortedArray: string[]): string[] {
-	const controlMap: { [key: string]: number } = {};
-
-	// Count occurrences of each element in the control array
-	for (let i = 0; i < control_order.length; i++) {
-		const element = control_order[i];
-		controlMap[element] = controlMap[element] ? controlMap[element] + 1 : 1;
-	}
-
-	// Sort the unsorted array based on the control array order and occurrence count
-	unsortedArray.sort((a, b) => {
-		const aCount = controlMap[a] || 0;
-		const bCount = controlMap[b] || 0;
-
-		if (aCount !== bCount) {
-			return bCount - aCount; // Sort by occurrence count in descending order
-		} else {
-			const aIndex = control_order.indexOf(a);
-			const bIndex = control_order.indexOf(b);
-			return aIndex - bIndex; // Sort by index in the control array
-		}
+export function sort_to_control(unsorted_array: string[]): string[] {
+	unsorted_array.sort((a, b) => {
+		const a_index = control_order.indexOf(a);
+		const b_index = control_order.indexOf(b);
+		return a_index - b_index;
 	});
 
-	return unsortedArray;
+	return unsorted_array;
 }
+
+console.log(sort_to_control(["SCI","HHD", "LIB"]));

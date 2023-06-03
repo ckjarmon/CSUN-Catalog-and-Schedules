@@ -118,6 +118,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 			const sortedProfessors = professors.sort((a, b) =>
 				name_normalize(a.split(" ")[1]) < name_normalize(b.split(" ")[1]) ? -1 : 1
 			);
+			
 			const id: number = Number(req.params.id) - 1;
 			const [firstName, lastName] = sortedProfessors[id].split(" ");
 
@@ -125,6 +126,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 				{ _FIRSTNAME: firstName, _LASTNAME: lastName },
 				root_cursor
 			);
+
 			const professor_row = rows[0];
 			const p: Professor = {
 				email: professor_row.email,
@@ -143,6 +145,7 @@ app.get("/profs/:subject/:id?", async (req: Request, res: Response) => {
 				{ _FIRSTNAME: firstName, _LASTNAME: lastName, _SUBJECT: subject },
 				root_cursor
 			);
+
 			const schedule = section_rows.map((c: Schedule) => ({
 				class_number: c.class_number,
 				enrollment_cap: c.enrollment_cap,
