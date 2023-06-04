@@ -245,11 +245,10 @@ async function collect_sch_for_class(
 				(element) => element.textContent!
 			);
 
-			const instructor: string =
-				(await _PAGE.$eval(
-					`span[id="INSTRUCTOR_URL$span$0"]`,
-					(element) => element.textContent!
-				)) || (await _PAGE.$eval(`a[id="INSTRUCTOR_URL$0"]`, (element) => element.textContent!));
+			const instructor: string = ((await _PAGE.$eval(
+				`span[id="INSTRUCTOR_URL$span$0"]`,
+				(element) => element.textContent
+			)) || (await _PAGE.$eval(`a[id="INSTRUCTOR_URL$0"]`, (element) => element.textContent)))!;
 
 			await _PAGE.click('input[id="NR_SSS_SOC_NWRK_RETURN_PB"]');
 
