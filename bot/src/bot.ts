@@ -75,9 +75,8 @@ async function show_prof(_OPTIONS: {
 			const response = await axios.get(url);
 			const { data: body } = response;
 
-			if (!id) {
-				ret1 = String(body).replace(/,/g, "");
-			} else {
+			ret1 = !id ? String(body).replace(/,/g, "") : "";
+			if (id) {
 				body.info["Name"] = body.info.first_name + " " + body.info.last_name;
 
 				delete body.info.subject;
