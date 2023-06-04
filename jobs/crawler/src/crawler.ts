@@ -298,7 +298,7 @@ async function collect_sch_for_subject_portal(
 ): Promise<void> {
 	let SOC_INDEX: number = 0;
 
-	const bar: ProgressBar = new ProgressBar(_TOTAL_CLASSES, started++, _SUBJECT);
+	const bar: ProgressBar = new ProgressBar(_TOTAL_CLASSES, started++, _SUBJECT.padEnd(4, " "));
 
 	while (true) {
 		try {
