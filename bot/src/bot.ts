@@ -317,7 +317,7 @@ async function show_class(_OPTIONS: {
 						4
 					)} - ${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`;
 
-					ret2 += `\t\t\t`;
+					ret2 += `\t\t\t` + (course.instructor === "Staff" ? `\t` : "");
 					ret2 += `${course.instructor}`.padStart(longest_prof, " ");
 
 					ret2 += `\t\t`;
