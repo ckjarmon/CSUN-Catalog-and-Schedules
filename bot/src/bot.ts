@@ -302,15 +302,9 @@ async function show_class(_OPTIONS: {
 					const seats = course.enrollment_cap - course.enrollment_count;
 					ret2 += seats.toString().length < 10 ? `\t\t\t ${seats}` : `\t\t\t  ${seats}`;
 
-					if (course.waitlist_cap > 0) {
-						const waitlistCount =
-							course.waitlist_count > 10
-								? course.waitlist_count
-								: ` ${course.waitlist_count}`;
-						ret2 += `\t\t\t    ${waitlistCount}\t`;
-					} else {
-						ret2 += `\t\t\t    N/A   `;
-					}
+					const waitlistCount =
+						course.waitlist_count > 10 ? course.waitlist_count : ` ${course.waitlist_count}`;
+					ret2 += `\t\t\t    ${waitlistCount}\t`;
 
 					ret2 += `\t\t\t${course.start_time.substring(0, 2)}:${course.start_time.substring(
 						2,
