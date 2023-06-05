@@ -27,6 +27,7 @@ const client = new Client({
 
 client.on("ready", () => {
 	console.log(`Logged in as ${client.user!.tag}!`);
+	console.log(client.guilds.cache.map((guild) => `\t${guild.name}`).join('\n'))
 });
 
 const get_current_date_and_time = (): string => {
