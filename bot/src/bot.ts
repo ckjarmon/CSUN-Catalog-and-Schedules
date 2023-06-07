@@ -27,7 +27,7 @@ const client = new Client({
 
 client.on("ready", () => {
 	console.log(`Logged in as ${client.user!.tag}!`);
-	console.log(client.guilds.cache.map((guild) => `\t${guild.name}`).join('\n'))
+	console.log(client.guilds.cache.map((guild) => `\t${guild.name}`).join("\n"));
 });
 
 const get_current_date_and_time = (): string => {
@@ -49,19 +49,14 @@ const get_current_date_and_time = (): string => {
 	return ` - As of ${formatted_date}`;
 };
 
-async function send_msg(msg: string, interaction: any): Promise<void> {
-	// await (<TextChannel>client.channels.cache.get(channel)).send("```" + msg.substring(0, 1993) + "```");
-	// if (msg.substring(1994) !== "") {
-	//     await (<TextChannel>client.channels.cache.get(channel)).send("```" + msg.substring(1994) + "```")
-	// };
-
+async function send_msg (msg: string, interaction: any): Promise<void> {
 	await interaction.followUp("```" + msg.substring(0, 1994) + "```");
 	if (msg.substring(1994) !== "") {
 		await interaction.followUp("```" + msg.substring(1994) + "```");
 	}
 }
 
-async function show_prof(_OPTIONS: {
+async function show_prof (_OPTIONS: {
 	subject: string;
 	id: number | null;
 	interaction: any;
@@ -120,22 +115,19 @@ async function show_prof(_OPTIONS: {
 							course.catalog_number.length === 4
 								? `\t   ${course.catalog_number}`
 								: `\t   ${course.catalog_number} `;
-						if (course.days !== "None") {
-							switch (course.days.length) {
-								case 1:
-									ret1 += `\t\t   ${course.days}`;
-									break;
-								case 2:
-									ret1 += `\t\t  ${course.days}`;
-									break;
-								case 3:
-									ret1 += `\t\t  ${course.days}`;
-									break;
-								default:
-									ret1 += `\t\t ${course.days}`;
-							}
-						} else {
-							ret1 += "  --";
+
+						switch (course.days.length) {
+							case 1:
+								ret1 += `\t\t   ${course.days}`;
+								break;
+							case 2:
+								ret1 += `\t\t  ${course.days}`;
+								break;
+							case 3:
+								ret1 += `\t\t  ${course.days}`;
+								break;
+							default:
+								ret1 += `\t\t ${course.days}`;
 						}
 
 						const enrollmentCount: number = course.enrollment_cap - course.enrollment_count;
@@ -152,14 +144,11 @@ async function show_prof(_OPTIONS: {
 						ret1 += " - ";
 						ret1 += `${course.end_time.substring(0, 2)}:${course.end_time.substring(2, 4)}`;
 
-						if (course.location.length === 3) {
-							ret1 += "   ";
-						} else {
-							ret1 +=
-								course.location.length === 5
-									? `\t\t   ${course.location}`
-									: `\t\t  ${course.location}`;
-						}
+						ret1 +=
+							course.location.length === 5
+								? `\t\t   ${course.location}`
+								: `\t\t  ${course.location}`;
+
 						ret1 += "\n";
 					}
 				);
@@ -177,7 +166,7 @@ async function show_prof(_OPTIONS: {
 }
 
 // simply returns all classes at a specified level
-async function show_levels(_OPTIONS: {
+async function show_levels (_OPTIONS: {
 	subject: string;
 	level: number;
 	interaction: any;
@@ -208,12 +197,11 @@ async function show_levels(_OPTIONS: {
 
 	const settled_string: string = await levels;
 
-	// await send_msg(settled_string, interaction);
 	await interaction.editReply("```" + settled_string.substring(0, 1994) + "```");
 }
 
 /* for every class >= String 2023 */
-async function show_class(_OPTIONS: {
+async function show_class (_OPTIONS: {
 	subject: string;
 	catalog_number: string;
 	semester: string;
@@ -328,12 +316,11 @@ async function show_class(_OPTIONS: {
 	});
 
 	const settled_string: string = (await Promise.all([catalog_entry, schedule])).join("");
-	// console.log(settled_string)
 	await send_msg(settled_string, interaction);
 }
 
 // for every class <= Fall 2022
-async function show_class_before_sp_23(_OPTIONS: {
+async function show_class_before_sp_23 (_OPTIONS: {
 	subject: string;
 	catalog_number: string;
 	semester: string;
@@ -509,20 +496,6 @@ client.on("messageCreate", async (message: Message) => {
 	}
 });
 
-/*
-client.on('messageUpdate', (oldMessage, newMessage) => {
-  if (oldMessage.guild.id === guildId && newMessage.author.tag !== "CSUN Catalog & Schedules#6095") {
-    client.channels.cache.get(report_channel).send(`[${newMessage.author.tag}] [${oldMessage.content}] => [${newMessage.content}]`);
-  }
-});
-
-client.on('messageDelete', (message) => {
-  if (message.guild.id === guildId && message.author.tag !== "CSUN Catalog & Schedules#6095") {
-    client.channels.cache.get(report_channel).send(`[${message.author.tag}] [${message.content}]`);
-
-  }
-});
-*/
 
 client.on("interactionCreate", async (interaction) => {
 	if (!interaction.isChatInputCommand()) return;
@@ -575,7 +548,7 @@ client.on("interactionCreate", async (interaction) => {
 				const prof_id: number | null = interaction.options.getInteger("prof_id");
 
 				await show_prof({ subject: subject, id: prof_id, interaction: interaction });
-				// await interaction.reply("Gimme a sec");
+
 			}
 			break;
 
@@ -600,7 +573,6 @@ client.on("interactionCreate", async (interaction) => {
 
 				await show_levels({ subject: subject, level: level, interaction: interaction });
 
-				// await interaction.reply("Gimme a sec");
 			}
 			break;
 
@@ -617,24 +589,10 @@ client.on("interactionCreate", async (interaction) => {
 				}
 
 				const ret_message: string = ret.join("\n");
-				// console.log(ret_message);
 
 				await interaction.editReply(ret_message.slice(0, 1979));
-				// await interaction.followUp(ret_message.slice(1979));
 			}
 			break;
-
-		case "gunfight": {
-			const user = interaction.options.getUser("target");
-
-			const member: any = interaction.guild!.members.cache.get(user!.id);
-			if (member && member.id !== "534510030490304524") {
-				member.timeout(10000, "bleh");
-				await interaction.editReply(`\`\`\`${user!.username} has been timed out!\`\`\``);
-			} else {
-				await interaction.editReply("```Kyeou is immune.```");
-			}
-		}
 	}
 });
 
