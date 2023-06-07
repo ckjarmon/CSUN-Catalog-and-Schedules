@@ -1,5 +1,4 @@
 import express, { Request, Response } from "express";
-
 import logger from "@csun_catalog_and_schedules/logger";
 import {
 	catalog_query,

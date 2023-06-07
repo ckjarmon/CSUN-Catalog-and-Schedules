@@ -24,7 +24,6 @@ const commands = [
 				.setName('catalog_number1')
 				.setDescription('the catalog number')
 				.setRequired(true))
-
 		.addStringOption(option =>
 			option
 				.setName('catalog_number2')
@@ -44,7 +43,6 @@ const commands = [
 			option.setName('year')
 				.setDescription('the year')
 				.setRequired(false)),
-
 	new SlashCommandBuilder()
 		.setName('prof')
 		.setDescription('see what a prof is teaching')
