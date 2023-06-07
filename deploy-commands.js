@@ -72,14 +72,6 @@ const commands = [
 				.setDescription('00-th level')
 				.setRequired(true)),
 	new SlashCommandBuilder()
-		.setName('gunfight')
-		.setDescription('start a gunfight')
-		.addUserOption(option =>
-			option
-				.setName('target')
-				.setDescription('ya tu sabes')
-				.setRequired(true)),
-	new SlashCommandBuilder()
 		.setName('help')
 		.setDescription('to learn the stuffs'),
 	new SlashCommandBuilder()
