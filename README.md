@@ -110,7 +110,7 @@ Same input scheme for single subject input.
 ## Professor Search. 
 ### Either list all professors or view one by ID.
 
-![Enter Parameter](imgs/prof_search_input.png)
+![Enter Parameter](imgs/prof_search_input.png)<br>
 ![Result](imgs/prof_search_output.png)
 
 
