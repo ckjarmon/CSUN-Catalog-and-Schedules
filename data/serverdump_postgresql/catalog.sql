@@ -3,7 +3,7 @@ CREATE TABLE "catalog" (
     "subject" varchar(6) NOT NULL,
     "catalog_number" varchar(10) NOT NULL,
     "title" varchar(106) NOT NULL,
-    "description" varchar(2553) NOT NULL,
+    "description" varchar(5000) NOT NULL,
     "units" varchar(3) NOT NULL,
     "prerequisites" varchar(474) NOT NULL,
     "corequisites" varchar(130) NOT NULL,
