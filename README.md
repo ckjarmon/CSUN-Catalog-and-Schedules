@@ -5,7 +5,7 @@ https://discord.com/api/oauth2/authorize?client_id=1001804710744948756&permissio
 Help Command: !csun help or /help
 -->
 
-# How the Bot Works/Hot to Self-Host
+# How the Bot Works/How to Self-Host
 
 ## **The Crawler**
 The crawler is a webscraper built in Typescript using Puppeteer that runs on a schedule (which can be found and changed in jobs/crawler/src/run.ts).
