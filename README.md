@@ -17,7 +17,7 @@ The reason this needs to be provided as an argument is because the dropdown uses
 
 `-i`: The crawler is set by default to run on schedule, therefore when running the run.js (after running `$ tsc` of course), it will not start immediately. If you want to run the crawl immediately, pass this flag. 
 
-`--headless`: I don't why you would want to do this but if you wanna peek into the bts of whats happening, you set this `false` to turn off headless mode. Of course to save resources, by default, its set to `new` (new headless mode Puppeteer).
+`--headless`: I don't why you would want to do this but if you wanna peek into the bts of whats happening, you set this `false` to turn off headless mode. Of course to save resources, by default, its set to `new` (new headless mode in Puppeteer).
 ## **Database**
 Quite simply, PostgreSQL is used because 'ol reliable' amirite? :). <br>
 There is an aggregate backup sql file in [data/serverdump_postgresql/csun.sql](https://github.com/kyeou/CSUN-Catalog-and-Schedules/blob/main/data/serverdump_postgresql/csun.sql) that you can use to quickly to populate the database
