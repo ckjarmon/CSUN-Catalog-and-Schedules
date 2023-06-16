@@ -20,7 +20,7 @@ The reason this needs to be provided as an argument is because the dropdown uses
 `--headless`: I don't why you would want to do this but if you wanna peek into the bts of whats happening, you set this `false` to turn off headless mode. Of course to save resources, by default, its set to `new` (new headless mode in Puppeteer).
 ## **Database**
 Quite simply, PostgreSQL is used because 'ol reliable' amirite? :). <br>
-There is an aggregate backup sql file in [database/csun.sql](https://github.com/kyeou/CSUN-Catalog-and-Schedules/blob/main/database/csun.sql) that you can use to quickly to populate the database
+There is an aggregate backup sql file in [database/csun.sql](https://github.com/kyeou/CSUN-Catalog-and-Schedules/blob/main/database/csun.sql) that you can use to quickly to populate the database.
 The database is named `csun`. There are 3 tables in this database <br>
 ### **`catalog`** 
 All the classes in every subject. 
