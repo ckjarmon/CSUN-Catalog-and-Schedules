@@ -11,7 +11,7 @@ import { update_db } from "./database";
 
 const catalog_link =
 	"https://cmsweb.csun.edu/psc/CNRPRD/EMPLOYEE/SA/c/NR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL?PortalActualURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentURL=https%3a%2f%2fcmsweb.csun.edu%2fpsc%2fCNRPRD%2fEMPLOYEE%2fSA%2fc%2fNR_SSS_COMMON_MENU.NR_SSS_SOC_BASIC_C.GBL&PortalContentProvider=SA&PortalCRefLabel=Class%20Search&PortalRegistryName=EMPLOYEE&PortalServletURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsp%2fPANRPRD%2f&PortalURI=https%3a%2f%2fmynorthridge.csun.edu%2fpsc%2fPANRPRD%2f&PortalHostNode=EMPL&NoCrumbs=yes&PortalKeyStruct=yes";
-let course_offer_count: { [subject: string]: number } = {};
+// let course_offer_count: { [subject: string]: number } = {};
 
 let _TERM: { semester: string; year: number };
 
@@ -173,12 +173,12 @@ async function start_search(_PAGE: Page): Promise<number | boolean> {
 async function collect_sch_for_class(
 	_PAGE: Page,
 	_SUBJECT: string,
-	SOC_INDEX: number
+	_SOC_INDEX: number
 ): Promise<CatalogNumberSchedule> {
 	// console.log("for class");
 	const class_schedule: CatalogNumberSchedule = {};
 	const class_title: string = await _PAGE.$eval(
-		`span[id="NR_SSS_SOC_NWRK_DESCR100_2$${SOC_INDEX}"]`,
+		`span[id="NR_SSS_SOC_NWRK_DESCR100_2$${_SOC_INDEX}"]`,
 		(element) => element.textContent!
 	);
 	const curr_catalog_number: string =
@@ -187,8 +187,8 @@ async function collect_sch_for_class(
 
 	let offering: number = 0;
 
-	await _PAGE.click(`img[id="SOC_DETAIL$IMG$${SOC_INDEX}"]`);
-	await _PAGE.waitForSelector(`img[id="SOC_DETAIL1$IMG$${SOC_INDEX}"]`, { timeout: 2000 });
+	await _PAGE.click(`img[id="SOC_DETAIL$IMG$${_SOC_INDEX}"]`);
+	await _PAGE.waitForSelector(`img[id="SOC_DETAIL1$IMG$${_SOC_INDEX}"]`, { timeout: 2000 });
 
 	while (true) {
 		try {
@@ -279,11 +279,11 @@ async function collect_sch_for_class(
 		}
 	}
 
-	await _PAGE.waitForSelector(`img[id="SOC_DETAIL1$IMG$${SOC_INDEX}"]`, {
+	await _PAGE.waitForSelector(`img[id="SOC_DETAIL1$IMG$${_SOC_INDEX}"]`, {
 		timeout: 4000
 	});
-	await _PAGE.click(`img[id="SOC_DETAIL1$IMG$${SOC_INDEX}"]`);
-	await _PAGE.waitForSelector(`img[id="SOC_DETAIL$IMG$${SOC_INDEX}"]`, {
+	await _PAGE.click(`img[id="SOC_DETAIL1$IMG$${_SOC_INDEX}"]`);
+	await _PAGE.waitForSelector(`img[id="SOC_DETAIL$IMG$${_SOC_INDEX}"]`, {
 		timeout: 4000
 	});
 
@@ -296,21 +296,21 @@ async function collect_sch_for_subject_portal(
 	_SUBJECT: string,
 	_TOTAL_CLASSES: number
 ): Promise<void> {
-	let SOC_INDEX: number = 0;
+	let _SOC_INDEX: number = 0;
 
 	const bar: ProgressBar = new ProgressBar(_TOTAL_CLASSES, started++, _SUBJECT.padEnd(4, " "));
 
 	while (true) {
 		try {
-			await _PAGE.waitForSelector(`img[id="SOC_DETAIL$IMG$${SOC_INDEX}"]`, {
+			await _PAGE.waitForSelector(`img[id="SOC_DETAIL$IMG$${_SOC_INDEX}"]`, {
 				timeout: 500
 			});
 
-			await collect_sch_for_class(_PAGE, _SUBJECT, SOC_INDEX);
+			await collect_sch_for_class(_PAGE, _SUBJECT, _SOC_INDEX);
 		} catch (err) {
 			break; // nothing left
 		} finally {
-			await bar.update(SOC_INDEX++);
+			await bar.update(_SOC_INDEX++);
 		}
 	}
 }
