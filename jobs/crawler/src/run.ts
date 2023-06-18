@@ -7,7 +7,7 @@ const parser = new ArgumentParser({
 	prog: "Scheduled Crawler"
 });
 
-parser.add_argument("--semester_key", {
+parser.add_argument("-k", {
 	type: "str",
 	default: "2237" // Fall 2023
 });
@@ -16,13 +16,13 @@ parser.add_argument("-i", {
 	action: "store_true"
 });
 
-parser.add_argument("--headless", {
+parser.add_argument("-h", {
 	type: "str" || "bool",
 	default: "new"
 	
 });
 
-parser.add_argument("--cc", {
+parser.add_argument("-c", {
 	type: "int",
 	default: 5
 });
@@ -31,13 +31,13 @@ parser.add_argument("--cc", {
 let args = parser.parse_args();
 
 async function run(): Promise<void> {
-	let class_codes: string[] = await collect_subjects(args.semester_key);
+	let class_codes: string[] = await collect_subjects(args.k);
 	process.setMaxListeners(Infinity);
-	const MAX_CONCURRENT: number = args.cc;
+	const MAX_CONCURRENT: number = args.c;
 	let current_running: number = 0;
 
 	const executeForSubject = async (classCode: string): Promise<void> => {
-		await for_subject(classCode, args.semester_key, args.headless).then(() => {
+		await for_subject(classCode, args.k, args.h).then(() => {
 				current_running--;
 			});
 	};
