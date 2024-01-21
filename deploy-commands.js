@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, Routes } = require("discord.js");
 const { REST } = require("@discordjs/rest");
-const { clientId, token } = require("./config.json");
+const { clientId, token } = require("./bot/config.json");
 
 const commands = [
 	new SlashCommandBuilder()
@@ -48,7 +48,8 @@ const commands = [
 			option.setName("level").setDescription("00-th level").setRequired(true)
 		),
 	new SlashCommandBuilder().setName("help").setDescription("to learn the stuffs"),
-	new SlashCommandBuilder().setName("emoji").setDescription("top emojis")
+	new SlashCommandBuilder().setName("emoji").setDescription("top emojis"),
+	new SlashCommandBuilder().setName("doomsday").setDescription("doomsday")
 ].map((command) => command.toJSON());
 
 const rest = new REST({
